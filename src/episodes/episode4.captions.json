@@ -1,0 +1,1798 @@
+[
+  {
+    "word": "Log",
+    "startMs": 0,
+    "endMs": 270,
+    "sceneId": "scene01-queue",
+    "sceneWordIndex": 0
+  },
+  {
+    "word": "naya",
+    "startMs": 270,
+    "endMs": 630,
+    "sceneId": "scene01-queue",
+    "sceneWordIndex": 1
+  },
+  {
+    "word": "iPhone",
+    "startMs": 630,
+    "endMs": 1170,
+    "sceneId": "scene01-queue",
+    "sceneWordIndex": 2,
+    "emoji": "📱"
+  },
+  {
+    "word": "18",
+    "startMs": 1170,
+    "endMs": 1349,
+    "sceneId": "scene01-queue",
+    "sceneWordIndex": 3
+  },
+  {
+    "word": "Pro",
+    "startMs": 1349,
+    "endMs": 1619,
+    "sceneId": "scene01-queue",
+    "sceneWordIndex": 4
+  },
+  {
+    "word": "lene",
+    "startMs": 1619,
+    "endMs": 1979,
+    "sceneId": "scene01-queue",
+    "sceneWordIndex": 5
+  },
+  {
+    "word": "ke",
+    "startMs": 1979,
+    "endMs": 2159,
+    "sceneId": "scene01-queue",
+    "sceneWordIndex": 6
+  },
+  {
+    "word": "liye",
+    "startMs": 2159,
+    "endMs": 2519,
+    "sceneId": "scene01-queue",
+    "sceneWordIndex": 7
+  },
+  {
+    "word": "line",
+    "startMs": 2519,
+    "endMs": 2879,
+    "sceneId": "scene01-queue",
+    "sceneWordIndex": 8
+  },
+  {
+    "word": "mein",
+    "startMs": 2879,
+    "endMs": 3239,
+    "sceneId": "scene01-queue",
+    "sceneWordIndex": 9
+  },
+  {
+    "word": "khade",
+    "startMs": 3239,
+    "endMs": 3688,
+    "sceneId": "scene01-queue",
+    "sceneWordIndex": 10
+  },
+  {
+    "word": "hain.",
+    "startMs": 3688,
+    "endMs": 4138,
+    "sceneId": "scene01-queue",
+    "sceneWordIndex": 11
+  },
+  {
+    "word": "Par",
+    "startMs": 4138,
+    "endMs": 4408,
+    "sceneId": "scene02-scale",
+    "sceneWordIndex": 0
+  },
+  {
+    "word": "ek",
+    "startMs": 4408,
+    "endMs": 4588,
+    "sceneId": "scene02-scale",
+    "sceneWordIndex": 1
+  },
+  {
+    "word": "aadmi",
+    "startMs": 4588,
+    "endMs": 5038,
+    "sceneId": "scene02-scale",
+    "sceneWordIndex": 2
+  },
+  {
+    "word": "ne",
+    "startMs": 5038,
+    "endMs": 5218,
+    "sceneId": "scene02-scale",
+    "sceneWordIndex": 3
+  },
+  {
+    "word": "do",
+    "startMs": 5218,
+    "endMs": 5398,
+    "sceneId": "scene02-scale",
+    "sceneWordIndex": 4
+  },
+  {
+    "word": "pizza",
+    "startMs": 5398,
+    "endMs": 5848,
+    "sceneId": "scene02-scale",
+    "sceneWordIndex": 5,
+    "emoji": "🍕"
+  },
+  {
+    "word": "ke",
+    "startMs": 5848,
+    "endMs": 6027,
+    "sceneId": "scene02-scale",
+    "sceneWordIndex": 6
+  },
+  {
+    "word": "badle",
+    "startMs": 6027,
+    "endMs": 6477,
+    "sceneId": "scene02-scale",
+    "sceneWordIndex": 7
+  },
+  {
+    "word": "lakhon",
+    "startMs": 6477,
+    "endMs": 7017,
+    "sceneId": "scene02-scale",
+    "sceneWordIndex": 8
+  },
+  {
+    "word": "iPhone",
+    "startMs": 7017,
+    "endMs": 7557,
+    "sceneId": "scene02-scale",
+    "sceneWordIndex": 9
+  },
+  {
+    "word": "de",
+    "startMs": 7557,
+    "endMs": 7737,
+    "sceneId": "scene02-scale",
+    "sceneWordIndex": 10
+  },
+  {
+    "word": "diye.",
+    "startMs": 7737,
+    "endMs": 8187,
+    "sceneId": "scene02-scale",
+    "sceneWordIndex": 11
+  },
+  {
+    "word": "Bina",
+    "startMs": 8187,
+    "endMs": 8546,
+    "sceneId": "scene02-scale",
+    "sceneWordIndex": 12,
+    "emphasis": "punch"
+  },
+  {
+    "word": "jaane.",
+    "startMs": 8546,
+    "endMs": 9086,
+    "sceneId": "scene02-scale",
+    "sceneWordIndex": 13,
+    "emphasis": "punch",
+    "emoji": "😳"
+  },
+  {
+    "word": "Welcome",
+    "startMs": 9086,
+    "endMs": 9716,
+    "sceneId": "scene03-title",
+    "sceneWordIndex": 0
+  },
+  {
+    "word": "to",
+    "startMs": 9716,
+    "endMs": 9896,
+    "sceneId": "scene03-title",
+    "sceneWordIndex": 1
+  },
+  {
+    "word": "Cryptonomics",
+    "startMs": 9896,
+    "endMs": 10975,
+    "sceneId": "scene03-title",
+    "sceneWordIndex": 2
+  },
+  {
+    "word": "with",
+    "startMs": 10975,
+    "endMs": 11335,
+    "sceneId": "scene03-title",
+    "sceneWordIndex": 3
+  },
+  {
+    "word": "Abhi.",
+    "startMs": 11335,
+    "endMs": 11785,
+    "sceneId": "scene03-title",
+    "sceneWordIndex": 4
+  },
+  {
+    "word": "Bitcoin",
+    "startMs": 11785,
+    "endMs": 12415,
+    "sceneId": "scene03-title",
+    "sceneWordIndex": 5
+  },
+  {
+    "word": "series,",
+    "startMs": 12415,
+    "endMs": 13045,
+    "sceneId": "scene03-title",
+    "sceneWordIndex": 6
+  },
+  {
+    "word": "Episode",
+    "startMs": 13045,
+    "endMs": 13674,
+    "sceneId": "scene03-title",
+    "sceneWordIndex": 7
+  },
+  {
+    "word": "4.",
+    "startMs": 13674,
+    "endMs": 13854,
+    "sceneId": "scene03-title",
+    "sceneWordIndex": 8
+  },
+  {
+    "word": "Saal",
+    "startMs": 13854,
+    "endMs": 14214,
+    "sceneId": "scene04-2010",
+    "sceneWordIndex": 0
+  },
+  {
+    "word": "2010.",
+    "startMs": 14214,
+    "endMs": 14664,
+    "sceneId": "scene04-2010",
+    "sceneWordIndex": 1
+  },
+  {
+    "word": "Bitcoin",
+    "startMs": 14664,
+    "endMs": 15294,
+    "sceneId": "scene04-2010",
+    "sceneWordIndex": 2
+  },
+  {
+    "word": "naya-naya",
+    "startMs": 15294,
+    "endMs": 16103,
+    "sceneId": "scene04-2010",
+    "sceneWordIndex": 3
+  },
+  {
+    "word": "tha.",
+    "startMs": 16103,
+    "endMs": 16463,
+    "sceneId": "scene04-2010",
+    "sceneWordIndex": 4
+  },
+  {
+    "word": "Koi",
+    "startMs": 16463,
+    "endMs": 16733,
+    "sceneId": "scene04-2010",
+    "sceneWordIndex": 5
+  },
+  {
+    "word": "use",
+    "startMs": 16733,
+    "endMs": 17003,
+    "sceneId": "scene04-2010",
+    "sceneWordIndex": 6
+  },
+  {
+    "word": "seriously",
+    "startMs": 17003,
+    "endMs": 17813,
+    "sceneId": "scene04-2010",
+    "sceneWordIndex": 7
+  },
+  {
+    "word": "leta",
+    "startMs": 17813,
+    "endMs": 18172,
+    "sceneId": "scene04-2010",
+    "sceneWordIndex": 8
+  },
+  {
+    "word": "hi",
+    "startMs": 18172,
+    "endMs": 18352,
+    "sceneId": "scene04-2010",
+    "sceneWordIndex": 9
+  },
+  {
+    "word": "nahi",
+    "startMs": 18352,
+    "endMs": 18712,
+    "sceneId": "scene04-2010",
+    "sceneWordIndex": 10
+  },
+  {
+    "word": "tha.",
+    "startMs": 18712,
+    "endMs": 19072,
+    "sceneId": "scene04-2010",
+    "sceneWordIndex": 11
+  },
+  {
+    "word": "Tab",
+    "startMs": 19072,
+    "endMs": 19342,
+    "sceneId": "scene05-curious",
+    "sceneWordIndex": 0
+  },
+  {
+    "word": "ek",
+    "startMs": 19342,
+    "endMs": 19522,
+    "sceneId": "scene05-curious",
+    "sceneWordIndex": 1
+  },
+  {
+    "word": "aadmi",
+    "startMs": 19522,
+    "endMs": 19972,
+    "sceneId": "scene05-curious",
+    "sceneWordIndex": 2
+  },
+  {
+    "word": "ne",
+    "startMs": 19972,
+    "endMs": 20152,
+    "sceneId": "scene05-curious",
+    "sceneWordIndex": 3
+  },
+  {
+    "word": "socha,",
+    "startMs": 20152,
+    "endMs": 20691,
+    "sceneId": "scene05-curious",
+    "sceneWordIndex": 4
+  },
+  {
+    "word": "chalo",
+    "startMs": 20691,
+    "endMs": 21141,
+    "sceneId": "scene05-curious",
+    "sceneWordIndex": 5
+  },
+  {
+    "word": "check",
+    "startMs": 21141,
+    "endMs": 21591,
+    "sceneId": "scene05-curious",
+    "sceneWordIndex": 6
+  },
+  {
+    "word": "karte",
+    "startMs": 21591,
+    "endMs": 22041,
+    "sceneId": "scene05-curious",
+    "sceneWordIndex": 7
+  },
+  {
+    "word": "hain,",
+    "startMs": 22041,
+    "endMs": 22491,
+    "sceneId": "scene05-curious",
+    "sceneWordIndex": 8
+  },
+  {
+    "word": "kya",
+    "startMs": 22491,
+    "endMs": 22761,
+    "sceneId": "scene05-curious",
+    "sceneWordIndex": 9
+  },
+  {
+    "word": "Bitcoin",
+    "startMs": 22761,
+    "endMs": 23390,
+    "sceneId": "scene05-curious",
+    "sceneWordIndex": 10
+  },
+  {
+    "word": "se",
+    "startMs": 23390,
+    "endMs": 23570,
+    "sceneId": "scene05-curious",
+    "sceneWordIndex": 11
+  },
+  {
+    "word": "sach",
+    "startMs": 23570,
+    "endMs": 23930,
+    "sceneId": "scene05-curious",
+    "sceneWordIndex": 12
+  },
+  {
+    "word": "mein",
+    "startMs": 23930,
+    "endMs": 24290,
+    "sceneId": "scene05-curious",
+    "sceneWordIndex": 13
+  },
+  {
+    "word": "kuch",
+    "startMs": 24290,
+    "endMs": 24650,
+    "sceneId": "scene05-curious",
+    "sceneWordIndex": 14
+  },
+  {
+    "word": "khareeda",
+    "startMs": 24650,
+    "endMs": 25369,
+    "sceneId": "scene05-curious",
+    "sceneWordIndex": 15
+  },
+  {
+    "word": "ja",
+    "startMs": 25369,
+    "endMs": 25549,
+    "sceneId": "scene05-curious",
+    "sceneWordIndex": 16
+  },
+  {
+    "word": "sakta",
+    "startMs": 25549,
+    "endMs": 25999,
+    "sceneId": "scene05-curious",
+    "sceneWordIndex": 17
+  },
+  {
+    "word": "hai?",
+    "startMs": 25999,
+    "endMs": 26359,
+    "sceneId": "scene05-curious",
+    "sceneWordIndex": 18
+  },
+  {
+    "word": "Usne",
+    "startMs": 26359,
+    "endMs": 26719,
+    "sceneId": "scene06-order",
+    "sceneWordIndex": 0
+  },
+  {
+    "word": "do",
+    "startMs": 26719,
+    "endMs": 26899,
+    "sceneId": "scene06-order",
+    "sceneWordIndex": 1
+  },
+  {
+    "word": "pizza",
+    "startMs": 26899,
+    "endMs": 27349,
+    "sceneId": "scene06-order",
+    "sceneWordIndex": 2,
+    "emoji": "🍕"
+  },
+  {
+    "word": "order",
+    "startMs": 27349,
+    "endMs": 27798,
+    "sceneId": "scene06-order",
+    "sceneWordIndex": 3
+  },
+  {
+    "word": "kiye.",
+    "startMs": 27798,
+    "endMs": 28248,
+    "sceneId": "scene06-order",
+    "sceneWordIndex": 4
+  },
+  {
+    "word": "Aur",
+    "startMs": 28248,
+    "endMs": 28518,
+    "sceneId": "scene06-order",
+    "sceneWordIndex": 5
+  },
+  {
+    "word": "payment",
+    "startMs": 28518,
+    "endMs": 29148,
+    "sceneId": "scene06-order",
+    "sceneWordIndex": 6
+  },
+  {
+    "word": "kiya",
+    "startMs": 29148,
+    "endMs": 29508,
+    "sceneId": "scene06-order",
+    "sceneWordIndex": 7
+  },
+  {
+    "word": "10,000",
+    "startMs": 29508,
+    "endMs": 30048,
+    "sceneId": "scene06-order",
+    "sceneWordIndex": 8,
+    "emphasis": "money"
+  },
+  {
+    "word": "Bitcoin",
+    "startMs": 30048,
+    "endMs": 30677,
+    "sceneId": "scene06-order",
+    "sceneWordIndex": 9
+  },
+  {
+    "word": "mein.",
+    "startMs": 30677,
+    "endMs": 31127,
+    "sceneId": "scene06-order",
+    "sceneWordIndex": 10
+  },
+  {
+    "word": "Us",
+    "startMs": 31127,
+    "endMs": 31307,
+    "sceneId": "scene07-receipt",
+    "sceneWordIndex": 0
+  },
+  {
+    "word": "waqt",
+    "startMs": 31307,
+    "endMs": 31667,
+    "sceneId": "scene07-receipt",
+    "sceneWordIndex": 1
+  },
+  {
+    "word": "un",
+    "startMs": 31667,
+    "endMs": 31847,
+    "sceneId": "scene07-receipt",
+    "sceneWordIndex": 2
+  },
+  {
+    "word": "10,000",
+    "startMs": 31847,
+    "endMs": 32387,
+    "sceneId": "scene07-receipt",
+    "sceneWordIndex": 3,
+    "emphasis": "money"
+  },
+  {
+    "word": "Bitcoin",
+    "startMs": 32387,
+    "endMs": 33016,
+    "sceneId": "scene07-receipt",
+    "sceneWordIndex": 4
+  },
+  {
+    "word": "ki",
+    "startMs": 33016,
+    "endMs": 33196,
+    "sceneId": "scene07-receipt",
+    "sceneWordIndex": 5
+  },
+  {
+    "word": "keemat",
+    "startMs": 33196,
+    "endMs": 33736,
+    "sceneId": "scene07-receipt",
+    "sceneWordIndex": 6
+  },
+  {
+    "word": "thi",
+    "startMs": 33736,
+    "endMs": 34006,
+    "sceneId": "scene07-receipt",
+    "sceneWordIndex": 7
+  },
+  {
+    "word": "lagbhag",
+    "startMs": 34006,
+    "endMs": 34636,
+    "sceneId": "scene07-receipt",
+    "sceneWordIndex": 8
+  },
+  {
+    "word": "do",
+    "startMs": 34636,
+    "endMs": 34816,
+    "sceneId": "scene07-receipt",
+    "sceneWordIndex": 9,
+    "emphasis": "money"
+  },
+  {
+    "word": "hazaar",
+    "startMs": 34816,
+    "endMs": 35355,
+    "sceneId": "scene07-receipt",
+    "sceneWordIndex": 10,
+    "emphasis": "money"
+  },
+  {
+    "word": "rupaye.",
+    "startMs": 35355,
+    "endMs": 35985,
+    "sceneId": "scene07-receipt",
+    "sceneWordIndex": 11
+  },
+  {
+    "word": "Matlab",
+    "startMs": 35985,
+    "endMs": 36525,
+    "sceneId": "scene07-receipt",
+    "sceneWordIndex": 12
+  },
+  {
+    "word": "normal",
+    "startMs": 36525,
+    "endMs": 37065,
+    "sceneId": "scene07-receipt",
+    "sceneWordIndex": 13
+  },
+  {
+    "word": "pizza",
+    "startMs": 37065,
+    "endMs": 37514,
+    "sceneId": "scene07-receipt",
+    "sceneWordIndex": 14
+  },
+  {
+    "word": "ka",
+    "startMs": 37514,
+    "endMs": 37694,
+    "sceneId": "scene07-receipt",
+    "sceneWordIndex": 15
+  },
+  {
+    "word": "normal",
+    "startMs": 37694,
+    "endMs": 38234,
+    "sceneId": "scene07-receipt",
+    "sceneWordIndex": 16
+  },
+  {
+    "word": "bill.",
+    "startMs": 38234,
+    "endMs": 38684,
+    "sceneId": "scene07-receipt",
+    "sceneWordIndex": 17
+  },
+  {
+    "word": "Aaj?",
+    "startMs": 38684,
+    "endMs": 39044,
+    "sceneId": "scene08-today",
+    "sceneWordIndex": 0,
+    "emphasis": "punch"
+  },
+  {
+    "word": "Ek",
+    "startMs": 39044,
+    "endMs": 39224,
+    "sceneId": "scene08-today",
+    "sceneWordIndex": 1
+  },
+  {
+    "word": "Bitcoin",
+    "startMs": 39224,
+    "endMs": 39853,
+    "sceneId": "scene08-today",
+    "sceneWordIndex": 2
+  },
+  {
+    "word": "lagbhag",
+    "startMs": 39853,
+    "endMs": 40483,
+    "sceneId": "scene08-today",
+    "sceneWordIndex": 3
+  },
+  {
+    "word": "85",
+    "startMs": 40483,
+    "endMs": 40663,
+    "sceneId": "scene08-today",
+    "sceneWordIndex": 4,
+    "emphasis": "money"
+  },
+  {
+    "word": "lakh",
+    "startMs": 40663,
+    "endMs": 41023,
+    "sceneId": "scene08-today",
+    "sceneWordIndex": 5,
+    "emphasis": "money"
+  },
+  {
+    "word": "rupaye",
+    "startMs": 41023,
+    "endMs": 41563,
+    "sceneId": "scene08-today",
+    "sceneWordIndex": 6
+  },
+  {
+    "word": "ka",
+    "startMs": 41563,
+    "endMs": 41743,
+    "sceneId": "scene08-today",
+    "sceneWordIndex": 7
+  },
+  {
+    "word": "hai.",
+    "startMs": 41743,
+    "endMs": 42103,
+    "sceneId": "scene08-today",
+    "sceneWordIndex": 8
+  },
+  {
+    "word": "Toh",
+    "startMs": 42103,
+    "endMs": 42372,
+    "sceneId": "scene08-today",
+    "sceneWordIndex": 9
+  },
+  {
+    "word": "un",
+    "startMs": 42372,
+    "endMs": 42552,
+    "sceneId": "scene08-today",
+    "sceneWordIndex": 10
+  },
+  {
+    "word": "10,000",
+    "startMs": 42552,
+    "endMs": 43092,
+    "sceneId": "scene08-today",
+    "sceneWordIndex": 11,
+    "emphasis": "money"
+  },
+  {
+    "word": "Bitcoin",
+    "startMs": 43092,
+    "endMs": 43722,
+    "sceneId": "scene08-today",
+    "sceneWordIndex": 12
+  },
+  {
+    "word": "ki",
+    "startMs": 43722,
+    "endMs": 43902,
+    "sceneId": "scene08-today",
+    "sceneWordIndex": 13
+  },
+  {
+    "word": "keemat",
+    "startMs": 43902,
+    "endMs": 44442,
+    "sceneId": "scene08-today",
+    "sceneWordIndex": 14
+  },
+  {
+    "word": "hoti",
+    "startMs": 44442,
+    "endMs": 44801,
+    "sceneId": "scene08-today",
+    "sceneWordIndex": 15
+  },
+  {
+    "word": "8,000",
+    "startMs": 44801,
+    "endMs": 45251,
+    "sceneId": "scene08-today",
+    "sceneWordIndex": 16,
+    "emphasis": "money"
+  },
+  {
+    "word": "crore",
+    "startMs": 45251,
+    "endMs": 45701,
+    "sceneId": "scene08-today",
+    "sceneWordIndex": 17,
+    "emphasis": "money",
+    "emoji": "💸"
+  },
+  {
+    "word": "se",
+    "startMs": 45701,
+    "endMs": 45881,
+    "sceneId": "scene08-today",
+    "sceneWordIndex": 18
+  },
+  {
+    "word": "bhi",
+    "startMs": 45881,
+    "endMs": 46151,
+    "sceneId": "scene08-today",
+    "sceneWordIndex": 19
+  },
+  {
+    "word": "zyada.",
+    "startMs": 46151,
+    "endMs": 46691,
+    "sceneId": "scene08-today",
+    "sceneWordIndex": 20
+  },
+  {
+    "word": "Itne",
+    "startMs": 46691,
+    "endMs": 47050,
+    "sceneId": "scene09-phones",
+    "sceneWordIndex": 0
+  },
+  {
+    "word": "mein",
+    "startMs": 47050,
+    "endMs": 47410,
+    "sceneId": "scene09-phones",
+    "sceneWordIndex": 1
+  },
+  {
+    "word": "aaj",
+    "startMs": 47410,
+    "endMs": 47680,
+    "sceneId": "scene09-phones",
+    "sceneWordIndex": 2
+  },
+  {
+    "word": "lagbhag",
+    "startMs": 47680,
+    "endMs": 48310,
+    "sceneId": "scene09-phones",
+    "sceneWordIndex": 3
+  },
+  {
+    "word": "5",
+    "startMs": 48310,
+    "endMs": 48400,
+    "sceneId": "scene09-phones",
+    "sceneWordIndex": 4,
+    "emphasis": "money"
+  },
+  {
+    "word": "lakh",
+    "startMs": 48400,
+    "endMs": 48760,
+    "sceneId": "scene09-phones",
+    "sceneWordIndex": 5,
+    "emphasis": "money"
+  },
+  {
+    "word": "iPhone",
+    "startMs": 48760,
+    "endMs": 49300,
+    "sceneId": "scene09-phones",
+    "sceneWordIndex": 6
+  },
+  {
+    "word": "18",
+    "startMs": 49300,
+    "endMs": 49479,
+    "sceneId": "scene09-phones",
+    "sceneWordIndex": 7
+  },
+  {
+    "word": "Pro",
+    "startMs": 49479,
+    "endMs": 49749,
+    "sceneId": "scene09-phones",
+    "sceneWordIndex": 8,
+    "emoji": "📱"
+  },
+  {
+    "word": "aa",
+    "startMs": 49749,
+    "endMs": 49929,
+    "sceneId": "scene09-phones",
+    "sceneWordIndex": 9
+  },
+  {
+    "word": "jaate.",
+    "startMs": 49929,
+    "endMs": 50469,
+    "sceneId": "scene09-phones",
+    "sceneWordIndex": 10
+  },
+  {
+    "word": "Aur",
+    "startMs": 50469,
+    "endMs": 50739,
+    "sceneId": "scene09-phones",
+    "sceneWordIndex": 11
+  },
+  {
+    "word": "woh",
+    "startMs": 50739,
+    "endMs": 51009,
+    "sceneId": "scene09-phones",
+    "sceneWordIndex": 12
+  },
+  {
+    "word": "bhi",
+    "startMs": 51009,
+    "endMs": 51279,
+    "sceneId": "scene09-phones",
+    "sceneWordIndex": 13
+  },
+  {
+    "word": "bina",
+    "startMs": 51279,
+    "endMs": 51639,
+    "sceneId": "scene09-phones",
+    "sceneWordIndex": 14
+  },
+  {
+    "word": "EMI",
+    "startMs": 51639,
+    "endMs": 51908,
+    "sceneId": "scene09-phones",
+    "sceneWordIndex": 15
+  },
+  {
+    "word": "ke.",
+    "startMs": 51908,
+    "endMs": 52178,
+    "sceneId": "scene09-phones",
+    "sceneWordIndex": 16
+  },
+  {
+    "word": "Socho,",
+    "startMs": 52178,
+    "endMs": 52718,
+    "sceneId": "scene10-ferrari",
+    "sceneWordIndex": 0
+  },
+  {
+    "word": "woh",
+    "startMs": 52718,
+    "endMs": 52988,
+    "sceneId": "scene10-ferrari",
+    "sceneWordIndex": 1
+  },
+  {
+    "word": "aadmi",
+    "startMs": 52988,
+    "endMs": 53438,
+    "sceneId": "scene10-ferrari",
+    "sceneWordIndex": 2
+  },
+  {
+    "word": "aaj",
+    "startMs": 53438,
+    "endMs": 53708,
+    "sceneId": "scene10-ferrari",
+    "sceneWordIndex": 3
+  },
+  {
+    "word": "bhi",
+    "startMs": 53708,
+    "endMs": 53978,
+    "sceneId": "scene10-ferrari",
+    "sceneWordIndex": 4
+  },
+  {
+    "word": "jab",
+    "startMs": 53978,
+    "endMs": 54247,
+    "sceneId": "scene10-ferrari",
+    "sceneWordIndex": 5
+  },
+  {
+    "word": "pizza",
+    "startMs": 54247,
+    "endMs": 54697,
+    "sceneId": "scene10-ferrari",
+    "sceneWordIndex": 6
+  },
+  {
+    "word": "order",
+    "startMs": 54697,
+    "endMs": 55147,
+    "sceneId": "scene10-ferrari",
+    "sceneWordIndex": 7
+  },
+  {
+    "word": "karta",
+    "startMs": 55147,
+    "endMs": 55597,
+    "sceneId": "scene10-ferrari",
+    "sceneWordIndex": 8
+  },
+  {
+    "word": "hoga,",
+    "startMs": 55597,
+    "endMs": 56047,
+    "sceneId": "scene10-ferrari",
+    "sceneWordIndex": 9
+  },
+  {
+    "word": "toh",
+    "startMs": 56047,
+    "endMs": 56317,
+    "sceneId": "scene10-ferrari",
+    "sceneWordIndex": 10
+  },
+  {
+    "word": "har",
+    "startMs": 56317,
+    "endMs": 56587,
+    "sceneId": "scene10-ferrari",
+    "sceneWordIndex": 11
+  },
+  {
+    "word": "slice",
+    "startMs": 56587,
+    "endMs": 57036,
+    "sceneId": "scene10-ferrari",
+    "sceneWordIndex": 12
+  },
+  {
+    "word": "mein",
+    "startMs": 57036,
+    "endMs": 57396,
+    "sceneId": "scene10-ferrari",
+    "sceneWordIndex": 13
+  },
+  {
+    "word": "ek",
+    "startMs": 57396,
+    "endMs": 57576,
+    "sceneId": "scene10-ferrari",
+    "sceneWordIndex": 14
+  },
+  {
+    "word": "Ferrari",
+    "startMs": 57576,
+    "endMs": 58206,
+    "sceneId": "scene10-ferrari",
+    "sceneWordIndex": 15,
+    "emphasis": "punch",
+    "emoji": "🏎️"
+  },
+  {
+    "word": "dikhti",
+    "startMs": 58206,
+    "endMs": 58746,
+    "sceneId": "scene10-ferrari",
+    "sceneWordIndex": 16
+  },
+  {
+    "word": "hogi.",
+    "startMs": 58746,
+    "endMs": 59195,
+    "sceneId": "scene10-ferrari",
+    "sceneWordIndex": 17
+  },
+  {
+    "word": "Isliye",
+    "startMs": 59195,
+    "endMs": 59735,
+    "sceneId": "scene11-pizzaday",
+    "sceneWordIndex": 0
+  },
+  {
+    "word": "har",
+    "startMs": 59735,
+    "endMs": 60005,
+    "sceneId": "scene11-pizzaday",
+    "sceneWordIndex": 1
+  },
+  {
+    "word": "saal",
+    "startMs": 60005,
+    "endMs": 60365,
+    "sceneId": "scene11-pizzaday",
+    "sceneWordIndex": 2
+  },
+  {
+    "word": "22",
+    "startMs": 60365,
+    "endMs": 60545,
+    "sceneId": "scene11-pizzaday",
+    "sceneWordIndex": 3,
+    "emphasis": "money"
+  },
+  {
+    "word": "May",
+    "startMs": 60545,
+    "endMs": 60815,
+    "sceneId": "scene11-pizzaday",
+    "sceneWordIndex": 4,
+    "emphasis": "money"
+  },
+  {
+    "word": "ko",
+    "startMs": 60815,
+    "endMs": 60995,
+    "sceneId": "scene11-pizzaday",
+    "sceneWordIndex": 5
+  },
+  {
+    "word": "duniya",
+    "startMs": 60995,
+    "endMs": 61534,
+    "sceneId": "scene11-pizzaday",
+    "sceneWordIndex": 6
+  },
+  {
+    "word": "bhar",
+    "startMs": 61534,
+    "endMs": 61894,
+    "sceneId": "scene11-pizzaday",
+    "sceneWordIndex": 7
+  },
+  {
+    "word": "mein",
+    "startMs": 61894,
+    "endMs": 62254,
+    "sceneId": "scene11-pizzaday",
+    "sceneWordIndex": 8
+  },
+  {
+    "word": "Bitcoin",
+    "startMs": 62254,
+    "endMs": 62884,
+    "sceneId": "scene11-pizzaday",
+    "sceneWordIndex": 9
+  },
+  {
+    "word": "Pizza",
+    "startMs": 62884,
+    "endMs": 63334,
+    "sceneId": "scene11-pizzaday",
+    "sceneWordIndex": 10,
+    "emoji": "🍕"
+  },
+  {
+    "word": "Day",
+    "startMs": 63334,
+    "endMs": 63604,
+    "sceneId": "scene11-pizzaday",
+    "sceneWordIndex": 11
+  },
+  {
+    "word": "manaya",
+    "startMs": 63604,
+    "endMs": 64143,
+    "sceneId": "scene11-pizzaday",
+    "sceneWordIndex": 12
+  },
+  {
+    "word": "jaata",
+    "startMs": 64143,
+    "endMs": 64593,
+    "sceneId": "scene11-pizzaday",
+    "sceneWordIndex": 13
+  },
+  {
+    "word": "hai.",
+    "startMs": 64593,
+    "endMs": 64953,
+    "sceneId": "scene11-pizzaday",
+    "sceneWordIndex": 14
+  },
+  {
+    "word": "Duniya",
+    "startMs": 64953,
+    "endMs": 65493,
+    "sceneId": "scene11-pizzaday",
+    "sceneWordIndex": 15
+  },
+  {
+    "word": "ke",
+    "startMs": 65493,
+    "endMs": 65673,
+    "sceneId": "scene11-pizzaday",
+    "sceneWordIndex": 16
+  },
+  {
+    "word": "sabse",
+    "startMs": 65673,
+    "endMs": 66123,
+    "sceneId": "scene11-pizzaday",
+    "sceneWordIndex": 17
+  },
+  {
+    "word": "mehenge",
+    "startMs": 66123,
+    "endMs": 66752,
+    "sceneId": "scene11-pizzaday",
+    "sceneWordIndex": 18
+  },
+  {
+    "word": "do",
+    "startMs": 66752,
+    "endMs": 66932,
+    "sceneId": "scene11-pizzaday",
+    "sceneWordIndex": 19
+  },
+  {
+    "word": "pizza",
+    "startMs": 66932,
+    "endMs": 67382,
+    "sceneId": "scene11-pizzaday",
+    "sceneWordIndex": 20
+  },
+  {
+    "word": "ki",
+    "startMs": 67382,
+    "endMs": 67562,
+    "sceneId": "scene11-pizzaday",
+    "sceneWordIndex": 21
+  },
+  {
+    "word": "yaad",
+    "startMs": 67562,
+    "endMs": 67922,
+    "sceneId": "scene11-pizzaday",
+    "sceneWordIndex": 22
+  },
+  {
+    "word": "mein.",
+    "startMs": 67922,
+    "endMs": 68372,
+    "sceneId": "scene11-pizzaday",
+    "sceneWordIndex": 23
+  },
+  {
+    "word": "Par",
+    "startMs": 68372,
+    "endMs": 68642,
+    "sceneId": "scene12-pause",
+    "sceneWordIndex": 0
+  },
+  {
+    "word": "ek",
+    "startMs": 68642,
+    "endMs": 68821,
+    "sceneId": "scene12-pause",
+    "sceneWordIndex": 1,
+    "emphasis": "punch"
+  },
+  {
+    "word": "second.",
+    "startMs": 68821,
+    "endMs": 69451,
+    "sceneId": "scene12-pause",
+    "sceneWordIndex": 2,
+    "emphasis": "punch"
+  },
+  {
+    "word": "Iska",
+    "startMs": 69451,
+    "endMs": 69811,
+    "sceneId": "scene12-pause",
+    "sceneWordIndex": 3
+  },
+  {
+    "word": "matlab",
+    "startMs": 69811,
+    "endMs": 70351,
+    "sceneId": "scene12-pause",
+    "sceneWordIndex": 4
+  },
+  {
+    "word": "yeh",
+    "startMs": 70351,
+    "endMs": 70621,
+    "sceneId": "scene12-pause",
+    "sceneWordIndex": 5
+  },
+  {
+    "word": "nahi",
+    "startMs": 70621,
+    "endMs": 70981,
+    "sceneId": "scene12-pause",
+    "sceneWordIndex": 6
+  },
+  {
+    "word": "ki",
+    "startMs": 70981,
+    "endMs": 71160,
+    "sceneId": "scene12-pause",
+    "sceneWordIndex": 7
+  },
+  {
+    "word": "jo",
+    "startMs": 71160,
+    "endMs": 71340,
+    "sceneId": "scene12-pause",
+    "sceneWordIndex": 8
+  },
+  {
+    "word": "bhi",
+    "startMs": 71340,
+    "endMs": 71610,
+    "sceneId": "scene12-pause",
+    "sceneWordIndex": 9
+  },
+  {
+    "word": "cheez",
+    "startMs": 71610,
+    "endMs": 72060,
+    "sceneId": "scene12-pause",
+    "sceneWordIndex": 10
+  },
+  {
+    "word": "aaj",
+    "startMs": 72060,
+    "endMs": 72330,
+    "sceneId": "scene12-pause",
+    "sceneWordIndex": 11
+  },
+  {
+    "word": "sasti",
+    "startMs": 72330,
+    "endMs": 72780,
+    "sceneId": "scene12-pause",
+    "sceneWordIndex": 12
+  },
+  {
+    "word": "hai,",
+    "startMs": 72780,
+    "endMs": 73140,
+    "sceneId": "scene12-pause",
+    "sceneWordIndex": 13
+  },
+  {
+    "word": "kal",
+    "startMs": 73140,
+    "endMs": 73410,
+    "sceneId": "scene12-pause",
+    "sceneWordIndex": 14
+  },
+  {
+    "word": "crore",
+    "startMs": 73410,
+    "endMs": 73859,
+    "sceneId": "scene12-pause",
+    "sceneWordIndex": 15
+  },
+  {
+    "word": "ki",
+    "startMs": 73859,
+    "endMs": 74039,
+    "sceneId": "scene12-pause",
+    "sceneWordIndex": 16
+  },
+  {
+    "word": "ho",
+    "startMs": 74039,
+    "endMs": 74219,
+    "sceneId": "scene12-pause",
+    "sceneWordIndex": 17
+  },
+  {
+    "word": "jaayegi.",
+    "startMs": 74219,
+    "endMs": 74939,
+    "sceneId": "scene12-pause",
+    "sceneWordIndex": 18
+  },
+  {
+    "word": "Bitcoin",
+    "startMs": 74939,
+    "endMs": 75569,
+    "sceneId": "scene13-rollercoaster",
+    "sceneWordIndex": 0
+  },
+  {
+    "word": "ne",
+    "startMs": 75569,
+    "endMs": 75749,
+    "sceneId": "scene13-rollercoaster",
+    "sceneWordIndex": 1
+  },
+  {
+    "word": "upar",
+    "startMs": 75749,
+    "endMs": 76108,
+    "sceneId": "scene13-rollercoaster",
+    "sceneWordIndex": 2
+  },
+  {
+    "word": "bhi",
+    "startMs": 76108,
+    "endMs": 76378,
+    "sceneId": "scene13-rollercoaster",
+    "sceneWordIndex": 3
+  },
+  {
+    "word": "bade",
+    "startMs": 76378,
+    "endMs": 76738,
+    "sceneId": "scene13-rollercoaster",
+    "sceneWordIndex": 4
+  },
+  {
+    "word": "jhatke",
+    "startMs": 76738,
+    "endMs": 77278,
+    "sceneId": "scene13-rollercoaster",
+    "sceneWordIndex": 5
+  },
+  {
+    "word": "dekhe",
+    "startMs": 77278,
+    "endMs": 77728,
+    "sceneId": "scene13-rollercoaster",
+    "sceneWordIndex": 6
+  },
+  {
+    "word": "hain,",
+    "startMs": 77728,
+    "endMs": 78178,
+    "sceneId": "scene13-rollercoaster",
+    "sceneWordIndex": 7
+  },
+  {
+    "word": "aur",
+    "startMs": 78178,
+    "endMs": 78447,
+    "sceneId": "scene13-rollercoaster",
+    "sceneWordIndex": 8
+  },
+  {
+    "word": "neeche",
+    "startMs": 78447,
+    "endMs": 78987,
+    "sceneId": "scene13-rollercoaster",
+    "sceneWordIndex": 9
+  },
+  {
+    "word": "bhi.",
+    "startMs": 78987,
+    "endMs": 79347,
+    "sceneId": "scene13-rollercoaster",
+    "sceneWordIndex": 10
+  },
+  {
+    "word": "Value",
+    "startMs": 79347,
+    "endMs": 79797,
+    "sceneId": "scene13-rollercoaster",
+    "sceneWordIndex": 11,
+    "emoji": "⚠️"
+  },
+  {
+    "word": "hamesha",
+    "startMs": 79797,
+    "endMs": 80427,
+    "sceneId": "scene13-rollercoaster",
+    "sceneWordIndex": 12
+  },
+  {
+    "word": "ek",
+    "startMs": 80427,
+    "endMs": 80607,
+    "sceneId": "scene13-rollercoaster",
+    "sceneWordIndex": 13
+  },
+  {
+    "word": "jaisi",
+    "startMs": 80607,
+    "endMs": 81056,
+    "sceneId": "scene13-rollercoaster",
+    "sceneWordIndex": 14
+  },
+  {
+    "word": "nahi",
+    "startMs": 81056,
+    "endMs": 81416,
+    "sceneId": "scene13-rollercoaster",
+    "sceneWordIndex": 15
+  },
+  {
+    "word": "rehti.",
+    "startMs": 81416,
+    "endMs": 81956,
+    "sceneId": "scene13-rollercoaster",
+    "sceneWordIndex": 16
+  },
+  {
+    "word": "Agle",
+    "startMs": 81956,
+    "endMs": 82316,
+    "sceneId": "scene14-blockchain",
+    "sceneWordIndex": 0
+  },
+  {
+    "word": "episode",
+    "startMs": 82316,
+    "endMs": 82946,
+    "sceneId": "scene14-blockchain",
+    "sceneWordIndex": 1
+  },
+  {
+    "word": "mein:",
+    "startMs": 82946,
+    "endMs": 83395,
+    "sceneId": "scene14-blockchain",
+    "sceneWordIndex": 2
+  },
+  {
+    "word": "Blockchain.",
+    "startMs": 83395,
+    "endMs": 84385,
+    "sceneId": "scene14-blockchain",
+    "sceneWordIndex": 3,
+    "emphasis": "punch"
+  },
+  {
+    "word": "Woh",
+    "startMs": 84385,
+    "endMs": 84655,
+    "sceneId": "scene14-blockchain",
+    "sceneWordIndex": 4
+  },
+  {
+    "word": "bhaari",
+    "startMs": 84655,
+    "endMs": 85195,
+    "sceneId": "scene14-blockchain",
+    "sceneWordIndex": 5
+  },
+  {
+    "word": "word,",
+    "startMs": 85195,
+    "endMs": 85644,
+    "sceneId": "scene14-blockchain",
+    "sceneWordIndex": 6
+  },
+  {
+    "word": "jo",
+    "startMs": 85644,
+    "endMs": 85824,
+    "sceneId": "scene14-blockchain",
+    "sceneWordIndex": 7
+  },
+  {
+    "word": "Indian",
+    "startMs": 85824,
+    "endMs": 86364,
+    "sceneId": "scene14-blockchain",
+    "sceneWordIndex": 8
+  },
+  {
+    "word": "Railways",
+    "startMs": 86364,
+    "endMs": 87084,
+    "sceneId": "scene14-blockchain",
+    "sceneWordIndex": 9,
+    "emoji": "🚆"
+  },
+  {
+    "word": "jitna",
+    "startMs": 87084,
+    "endMs": 87534,
+    "sceneId": "scene14-blockchain",
+    "sceneWordIndex": 10
+  },
+  {
+    "word": "simple",
+    "startMs": 87534,
+    "endMs": 88073,
+    "sceneId": "scene14-blockchain",
+    "sceneWordIndex": 11
+  },
+  {
+    "word": "hai.",
+    "startMs": 88073,
+    "endMs": 88433,
+    "sceneId": "scene14-blockchain",
+    "sceneWordIndex": 12
+  },
+  {
+    "word": "Zero",
+    "startMs": 88433,
+    "endMs": 88793,
+    "sceneId": "scene15-cta",
+    "sceneWordIndex": 0
+  },
+  {
+    "word": "se",
+    "startMs": 88793,
+    "endMs": 88973,
+    "sceneId": "scene15-cta",
+    "sceneWordIndex": 1
+  },
+  {
+    "word": "advanced",
+    "startMs": 88973,
+    "endMs": 89693,
+    "sceneId": "scene15-cta",
+    "sceneWordIndex": 2
+  },
+  {
+    "word": "investor",
+    "startMs": 89693,
+    "endMs": 90412,
+    "sceneId": "scene15-cta",
+    "sceneWordIndex": 3
+  },
+  {
+    "word": "banna",
+    "startMs": 90412,
+    "endMs": 90862,
+    "sceneId": "scene15-cta",
+    "sceneWordIndex": 4
+  },
+  {
+    "word": "hai?",
+    "startMs": 90862,
+    "endMs": 91222,
+    "sceneId": "scene15-cta",
+    "sceneWordIndex": 5
+  },
+  {
+    "word": "Toh",
+    "startMs": 91222,
+    "endMs": 91492,
+    "sceneId": "scene15-cta",
+    "sceneWordIndex": 6
+  },
+  {
+    "word": "abhi",
+    "startMs": 91492,
+    "endMs": 91852,
+    "sceneId": "scene15-cta",
+    "sceneWordIndex": 7
+  },
+  {
+    "word": "like",
+    "startMs": 91852,
+    "endMs": 92212,
+    "sceneId": "scene15-cta",
+    "sceneWordIndex": 8,
+    "emoji": "👍"
+  },
+  {
+    "word": "karo,",
+    "startMs": 92212,
+    "endMs": 92662,
+    "sceneId": "scene15-cta",
+    "sceneWordIndex": 9
+  },
+  {
+    "word": "follow",
+    "startMs": 92662,
+    "endMs": 93201,
+    "sceneId": "scene15-cta",
+    "sceneWordIndex": 10
+  },
+  {
+    "word": "karo,",
+    "startMs": 93201,
+    "endMs": 93651,
+    "sceneId": "scene15-cta",
+    "sceneWordIndex": 11
+  },
+  {
+    "word": "aur",
+    "startMs": 93651,
+    "endMs": 93921,
+    "sceneId": "scene15-cta",
+    "sceneWordIndex": 12
+  },
+  {
+    "word": "channel",
+    "startMs": 93921,
+    "endMs": 94551,
+    "sceneId": "scene15-cta",
+    "sceneWordIndex": 13
+  },
+  {
+    "word": "subscribe",
+    "startMs": 94551,
+    "endMs": 95360,
+    "sceneId": "scene15-cta",
+    "sceneWordIndex": 14,
+    "emoji": "🔔"
+  },
+  {
+    "word": "karo.",
+    "startMs": 95360,
+    "endMs": 95810,
+    "sceneId": "scene15-cta",
+    "sceneWordIndex": 15
+  },
+  {
+    "word": "Meri",
+    "startMs": 95810,
+    "endMs": 96170,
+    "sceneId": "scene15-cta",
+    "sceneWordIndex": 16
+  },
+  {
+    "word": "personal",
+    "startMs": 96170,
+    "endMs": 96890,
+    "sceneId": "scene15-cta",
+    "sceneWordIndex": 17
+  },
+  {
+    "word": "strategies",
+    "startMs": 96890,
+    "endMs": 97789,
+    "sceneId": "scene15-cta",
+    "sceneWordIndex": 18
+  },
+  {
+    "word": "ke",
+    "startMs": 97789,
+    "endMs": 97969,
+    "sceneId": "scene15-cta",
+    "sceneWordIndex": 19
+  },
+  {
+    "word": "liye",
+    "startMs": 97969,
+    "endMs": 98329,
+    "sceneId": "scene15-cta",
+    "sceneWordIndex": 20
+  },
+  {
+    "word": "Telegram",
+    "startMs": 98329,
+    "endMs": 99049,
+    "sceneId": "scene15-cta",
+    "sceneWordIndex": 21
+  },
+  {
+    "word": "join",
+    "startMs": 99049,
+    "endMs": 99409,
+    "sceneId": "scene15-cta",
+    "sceneWordIndex": 22
+  },
+  {
+    "word": "karo,",
+    "startMs": 99409,
+    "endMs": 99859,
+    "sceneId": "scene15-cta",
+    "sceneWordIndex": 23
+  },
+  {
+    "word": "link",
+    "startMs": 99859,
+    "endMs": 100218,
+    "sceneId": "scene15-cta",
+    "sceneWordIndex": 24
+  },
+  {
+    "word": "bio",
+    "startMs": 100218,
+    "endMs": 100488,
+    "sceneId": "scene15-cta",
+    "sceneWordIndex": 25
+  },
+  {
+    "word": "mein",
+    "startMs": 100488,
+    "endMs": 100848,
+    "sceneId": "scene15-cta",
+    "sceneWordIndex": 26
+  },
+  {
+    "word": "hai.",
+    "startMs": 100848,
+    "endMs": 101208,
+    "sceneId": "scene15-cta",
+    "sceneWordIndex": 27
+  }
+]
