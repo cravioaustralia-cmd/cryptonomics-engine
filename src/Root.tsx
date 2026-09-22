@@ -1,5 +1,6 @@
 import { Composition } from "remotion";
 import { TestShort } from "./TestShort";
+import { episode4Composition } from "./episodes/episode4";
 
 export const RemotionRoot: React.FC = () => {
   return (
@@ -12,6 +13,7 @@ export const RemotionRoot: React.FC = () => {
         width={1080}
         height={1920}
       />
+      <Composition {...episode4Composition} />
     </>
   );
 };
