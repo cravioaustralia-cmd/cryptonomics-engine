@@ -7,6 +7,8 @@ import { getWordLocalFrame } from "../../shared/timing";
 import type { SceneProps } from "./types";
 
 const FALLING = 10;
+const ICON_HEIGHT = 130;
+const STACK_BOTTOM_MARGIN = 20;
 
 export const Scene09Phones: React.FC<SceneProps> = ({ timing, words }) => {
   const frame = useCurrentFrame();
@@ -35,7 +37,7 @@ export const Scene09Phones: React.FC<SceneProps> = ({ timing, words }) => {
             const col = i % 5;
             const row = Math.floor(i / 5);
             const targetX = 60 + col * 90;
-            const targetY = 380 - 46 - row * 70;
+            const targetY = 380 - ICON_HEIGHT - STACK_BOTTOM_MARGIN - row * 70;
             const startDelay = i * 3;
             const fallProgress = Math.min(1, Math.max(0, (frame - startDelay) / 14));
             const eased = fallProgress * fallProgress * (3 - 2 * fallProgress);

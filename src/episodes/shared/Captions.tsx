@@ -1,4 +1,4 @@
-import { useMemo } from "react";
+import { useLayoutEffect, useMemo, useRef, useState } from "react";
 import { Sequence, spring, useCurrentFrame, useVideoConfig } from "remotion";
 import { COLORS, SAFE_ZONE } from "./theme";
 import { displayFont } from "./fonts";
@@ -10,6 +10,14 @@ import {
 
 const BASE_FONT_SIZE = 100;
 const MONEY_FONT_SIZE = 116;
+// Sits in the top band, clear of every scene's vertically-centered graphic
+// (SceneShell centers content well below this point).
+const CAPTION_TOP = "7%";
+// Generous enough to absorb a word's pop-in/emphasis overshoot (words can
+// transiently scale up ~15-20%) without two adjacent words visually touching.
+const WORD_GAP = 32;
+// left/right safe-zone inset, matching the row's own left/right below.
+const ROW_MAX_WIDTH = SAFE_ZONE.right - SAFE_ZONE.sidePadding;
 
 /**
  * Attention-locking, TikTok/Shorts-style word captions. Reusable across
@@ -51,30 +59,69 @@ const CaptionPageView: React.FC<{ page: CaptionPage }> = ({ page }) => {
   const { fps } = useVideoConfig();
   const absoluteMs = page.startMs + (frame / fps) * 1000;
 
-  // Rough safeguard against overflow: scale the whole page down a touch if
-  // the combined text is long (e.g. a page with a long number + unit).
-  const totalChars = page.words.reduce((n, w) => n + w.word.length, 0);
-  const overflowScale = totalChars > 22 ? 22 / totalChars : 1;
+  // Safeguard against overflow: scale the whole page down if the combined
+  // text (words + any emoji) is wider than the safe zone. Measured against a
+  // hidden, unanimated copy rather than estimated from character count,
+  // since a character-count heuristic can't account for emoji width or real
+  // font metrics and was letting wide pages (e.g. a 4-word page with an
+  // emoji) clip off both edges of the screen.
+  const measureRef = useRef<HTMLDivElement>(null);
+  const [overflowScale, setOverflowScale] = useState(1);
+  useLayoutEffect(() => {
+    const width = measureRef.current?.scrollWidth ?? 0;
+    setOverflowScale(width > ROW_MAX_WIDTH ? ROW_MAX_WIDTH / width : 1);
+  }, [page]);
 
   let emojiShown = false;
 
   return (
-    <div
-      style={{
-        position: "absolute",
-        top: "34%",
-        left: SAFE_ZONE.sidePadding,
-        right: 1080 - SAFE_ZONE.right,
-        display: "flex",
-        justifyContent: "center",
-        alignItems: "baseline",
-        flexWrap: "nowrap",
-        gap: 18,
-        transform: `scale(${overflowScale})`,
-        transformOrigin: "center top",
-      }}
-    >
-      {page.words.map((word, i) => {
+    <>
+      <div
+        ref={measureRef}
+        aria-hidden
+        style={{
+          position: "absolute",
+          top: -9999,
+          left: 0,
+          visibility: "hidden",
+          display: "flex",
+          alignItems: "baseline",
+          flexWrap: "nowrap",
+          gap: WORD_GAP,
+        }}
+      >
+        {page.words.map((word, i) => (
+          <span
+            key={i}
+            style={{
+              fontFamily: displayFont,
+              fontWeight: 800,
+              fontSize: word.emphasis === "money" ? MONEY_FONT_SIZE : BASE_FONT_SIZE,
+              whiteSpace: "pre",
+            }}
+          >
+            {word.word}
+            {word.emoji ? ` ${word.emoji}` : ""}
+          </span>
+        ))}
+      </div>
+
+      <div
+        style={{
+          position: "absolute",
+          top: CAPTION_TOP,
+          left: SAFE_ZONE.sidePadding,
+          right: 1080 - SAFE_ZONE.right,
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "baseline",
+          flexWrap: "nowrap",
+          gap: WORD_GAP,
+          transform: `scale(${overflowScale})`,
+          transformOrigin: "center top",
+        }}
+      >
+        {page.words.map((word, i) => {
         const isActive = absoluteMs >= word.startMs && absoluteMs < word.endMs;
         const isMoney = word.emphasis === "money";
         const isPunch = word.emphasis === "punch";
@@ -137,7 +184,8 @@ const CaptionPageView: React.FC<{ page: CaptionPage }> = ({ page }) => {
             {showEmoji ? ` ${word.emoji}` : ""}
           </span>
         );
-      })}
-    </div>
+        })}
+      </div>
+    </>
   );
 };

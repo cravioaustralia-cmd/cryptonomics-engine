@@ -65,6 +65,7 @@ const whisperCppOutput = await transcribe({
   whisperCppVersion: WHISPER_VERSION,
   inputPath: wavPath,
   tokenLevelTimestamps: true,
+  splitOnWord: true,
   language: "hi",
   printOutput: true,
 });
