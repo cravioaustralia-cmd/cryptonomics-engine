@@ -1,0 +1,11 @@
+{
+  "name": "australia-documentary",
+  "version": "1.0.0",
+  "private": true,
+  "description": "SVG + Playwright + ffmpeg renderer for \"The Entire History of Australia\" documentary. No Remotion or video frameworks.",
+  "type": "module",
+  "dependencies": {
+    "@remotion/install-whisper-cpp": "4.0.526",
+    "playwright": "^1.63.0"
+  }
+}
