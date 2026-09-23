@@ -12,7 +12,6 @@ import {
   installWhisperCpp,
   downloadWhisperModel,
   transcribe,
-  toCaptions,
 } from "@remotion/install-whisper-cpp";
 
 const root = path.join(import.meta.dirname, "..");
@@ -64,13 +63,16 @@ const whisperCppOutput = await transcribe({
 
 fs.writeFileSync(rawOutPath, JSON.stringify(whisperCppOutput, null, 2));
 
-const { captions } = toCaptions({ whisperCppOutput });
-
-const words = captions.map((c) => ({
-  text: c.text.trim(),
-  start: c.startMs / 1000,
-  end: (c.startMs + c.durationMs) / 1000,
-}));
+// whisper.cpp's own per-token offsets carry real start/end ms; the
+// @remotion/install-whisper-cpp toCaptions() helper drops end times, so we
+// read offsets.from/to straight off the raw transcription entries instead.
+const words = whisperCppOutput.transcription
+  .filter((entry) => entry.text.trim().length > 0)
+  .map((entry) => ({
+    text: entry.text.trim(),
+    start: Math.round((entry.offsets.from / 1000) * 1000) / 1000,
+    end: Math.round((entry.offsets.to / 1000) * 1000) / 1000,
+  }));
 
 fs.writeFileSync(transcriptOutPath, JSON.stringify({ words }, null, 2));
 
