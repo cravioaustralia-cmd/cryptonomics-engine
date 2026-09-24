@@ -138,9 +138,7 @@ export function regionRevealSVG({ region, countryNames, t, start, drawDuration =
  * the first sea crossing. Schematic (a straight geodesic-ish curve), never
  * presented as the real Ice Age shoreline.
  */
-export function crossingPathSVG({ region, from, to, t, start, duration, color = PALETTE.sunsetOrange }) {
-  const [x1, y1] = projectRegionLonLat(region, from.lon, from.lat);
-  const [x2, y2] = projectRegionLonLat(region, to.lon, to.lat);
+function quadTravelSVG(x1, y1, x2, y2, t, start, duration, color) {
   const midX = (x1 + x2) / 2 - (y2 - y1) * 0.12;
   const midY = (y1 + y2) / 2 + (x2 - x1) * 0.12;
   const pathD = `M ${x1} ${y1} Q ${midX} ${midY} ${x2} ${y2}`;
@@ -162,4 +160,23 @@ export function crossingPathSVG({ region, from, to, t, start, duration, color = 
       <circle r="9" fill="${color}" opacity="0.3"/>
     </g>
   `;
+}
+
+export function crossingPathSVG({ region, from, to, t, start, duration, color = PALETTE.sunsetOrange }) {
+  const [x1, y1] = projectRegionLonLat(region, from.lon, from.lat);
+  const [x2, y2] = projectRegionLonLat(region, to.lon, to.lat);
+  return quadTravelSVG(x1, y1, x2, y2, t, start, duration, color);
+}
+
+/**
+ * shipRouteSVG - same animated dashed-line-with-traveling-marker as
+ * crossingPathSVG, but projected against the single-country Australia
+ * coastline (loadCoastline) instead of the multi-country region. Used for
+ * voyage maps that stay within Australian waters (e.g. Cook's route up the
+ * east coast). Schematic, not a literal historic shipping track.
+ */
+export function shipRouteSVG({ coastline, from, to, t, start, duration, color = PALETTE.sunsetOrange }) {
+  const [x1, y1] = projectLonLat(coastline, from.lon, from.lat);
+  const [x2, y2] = projectLonLat(coastline, to.lon, to.lat);
+  return quadTravelSVG(x1, y1, x2, y2, t, start, duration, color);
 }

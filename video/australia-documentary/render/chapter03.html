@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>Chapter 3</title>
+<style>
+  @font-face { font-family: "Playfair Display"; src: url("/style/fonts/playfair-display-latin-700-normal.woff2") format("woff2"); font-weight: 700; }
+  @font-face { font-family: "Playfair Display"; src: url("/style/fonts/playfair-display-latin-400-normal.woff2") format("woff2"); font-weight: 400; }
+  @font-face { font-family: "Source Sans 3"; src: url("/style/fonts/source-sans-3-latin-600-normal.woff2") format("woff2"); font-weight: 600; }
+  @font-face { font-family: "Source Sans 3"; src: url("/style/fonts/source-sans-3-latin-400-normal.woff2") format("woff2"); font-weight: 400; }
+  html, body { margin: 0; padding: 0; background: #000; }
+  svg { display: block; }
+  .cam { transform-origin: 50% 50%; }
+</style>
+</head>
+<body>
+<svg id="stage" width="1920" height="1080" viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg">
+  <defs id="defs"></defs>
+  <g id="root"></g>
+</svg>
+
+<script type="module">
+import { PALETTE, FONTS, ease, progress, fadeIn, styleDefsSVG, vignetteOverlayRect,
+         warmGradeOverlayRect, pushPan, pushIn, chapterTitleCardSVG, pictureLayerSVG,
+         buildCaptionLines, findActiveCaption, captionBarSVG, escapeXML } from "/style/style.js";
+import { loadSahulSundaRegion, regionRevealSVG, crossingPathSVG, projectRegionLonLat,
+         loadCoastline, coastlinePathD, projectLonLat, shipRouteSVG } from "/style/maps.js";
+import { iconShipSVG } from "/style/characters.js";
+
+const W = 1920, FRAME_H = 1080;
+const defsEl = document.getElementById("defs");
+const rootEl = document.getElementById("root");
+defsEl.innerHTML = styleDefsSVG();
+
+let captionLines = null;
+let sahulRegion = null;
+let coastline = null;
+
+// Chapter 3 local time 0 = global transcript time 184.72s ("Now, quick
+// quiz...") through 264.55s ("...somebody had an idea."), per transcript.json
+// (words 446-646).
+const GLOBAL_OFFSET = 184.72;
+const BEAT = {
+  title: 0.0,
+  quiz: 2.5,
+  dutchVoyage: 190.71 - GLOBAL_OFFSET,  // 5.99  "Nope, the Dutch..."
+  newHolland: 204.83 - GLOBAL_OFFSET,   // 20.11 "The Dutch called it New Holland..."
+  batavia: 212.34 - GLOBAL_OFFSET,      // 27.62 "Although one Dutch visit..."
+  abrolhos: 221.39 - GLOBAL_OFFSET,     // 36.67 "While the captain went for help..."
+  macassan: 233.55 - GLOBAL_OFFSET,     // 48.83 "Meanwhile, in the north..."
+  cookPortrait: 248.30 - GLOBAL_OFFSET, // 63.58 "Then in 1770..."
+  cookShip: 252.48 - GLOBAL_OFFSET,     // 67.76 "sailed up the east coast in the Endeavour,"
+  cookMap: 255.16 - GLOBAL_OFFSET,      // 70.44 "landed at Botany Bay..."
+  end: 264.55 - GLOBAL_OFFSET + 0.5,    // 80.33
+};
+
+async function ensureAssets() {
+  [sahulRegion, coastline] = await Promise.all([loadSahulSundaRegion(), loadCoastline()]);
+  const res = await fetch("/transcript.json");
+  const data = await res.json();
+  // Chapter 3's words: index 446 ("Now,") through 646 ("idea."), inclusive.
+  const chapterWords = data.words.slice(446, 647).map((w) => ({
+    text: w.text,
+    start: w.start - GLOBAL_OFFSET,
+    end: w.end - GLOBAL_OFFSET,
+  }));
+  captionLines = buildCaptionLines(chapterWords, { maxWords: 7 });
+}
+
+function pictureBeatSVG({ href, imgW, imgH, t, start, duration, label, camFrom = 1.0, camTo = 1.14, panFromX = 0, panToX = 0, panFromY = 0, panToY = 0 }) {
+  const cam = pushPan(t, { start, duration, from: camFrom, to: camTo, fromX: panFromX, toX: panToX, fromY: panFromY, toY: panToY });
+  let out = `
+    <g class="cam" style="transform:${cam}">
+      ${pictureLayerSVG({ href, imgW, imgH, frameW: W, frameH: FRAME_H })}
+    </g>
+    ${warmGradeOverlayRect(W, FRAME_H)}
+    ${vignetteOverlayRect(W, FRAME_H)}
+    <rect x="0" y="0" width="${W}" height="${FRAME_H}" filter="url(#filmGrain)" opacity="0.38"/>
+  `;
+  if (label) {
+    const p = fadeIn(t, start + 0.35, 0.6);
+    out += `<text x="50%" y="100" text-anchor="middle" font-family="${FONTS.sans}" font-size="22" letter-spacing="3"
+      fill="${PALETTE.cream}" opacity="${p.toFixed(3)}">${escapeXML(label)}</text>`;
+  }
+  return out;
+}
+
+// ---- Quiz beat: old world map (Australia half-drawn); the spoken question
+// runs through the normal subtitle bar, so this stays a plain picture beat
+// (no duplicate on-screen text competing with the caption).
+function quizCardSVG(t) {
+  const start = BEAT.quiz;
+  return pictureBeatSVG({
+    href: "/images/22_17th_century_world_map.jpg", imgW: 1920, imgH: 1462,
+    t, start, duration: BEAT.dutchVoyage - start,
+    camFrom: 1.0, camTo: 1.1,
+    label: "17TH-CENTURY WORLD MAP",
+  });
+}
+
+// ---- Dutch voyages: animated map, real Indonesia/Australia coastlines ----
+const INDIES_DUYFKEN_PT = { lon: 130.7, lat: -4.5 };   // Banda Sea, Duyfken's starting waters
+const CAPE_YORK_PT = { lon: 142.3, lat: -10.7 };
+const INDIES_HARTOG_PT = { lon: 106.8, lat: -6.2 };    // Sunda Strait, Dirk Hartog's outbound route
+const DIRK_HARTOG_PT = { lon: 113.15, lat: -25.8 };    // Shark Bay / Dirk Hartog Island, WA
+
+function plateMarkerSVG(x, y, p, labelP) {
+  if (p <= 0) return "";
+  return `
+    <g transform="translate(${x},${y})" opacity="${p.toFixed(3)}">
+      <rect x="-2" y="-16" width="4" height="16" fill="${PALETTE.sandstone}"/>
+      <rect x="-8" y="-20" width="16" height="8" rx="1" fill="${PALETTE.sunsetOrange}" stroke="${PALETTE.cream}" stroke-width="1"/>
+      <text x="14" y="-14" font-family="${FONTS.sans}" font-size="14" letter-spacing="1.5"
+        fill="${PALETTE.cream}" opacity="${labelP.toFixed(3)}">DIRK HARTOG'S PLATE · 1616</text>
+    </g>
+  `;
+}
+
+function dutchVoyageMapSVG(t) {
+  const start = BEAT.dutchVoyage;
+  const scale = (FRAME_H - 160 - 60) / sahulRegion.height;
+  const mapW = sahulRegion.width * scale;
+  const ox = (W - mapW) / 2;
+  const oy = 140;
+
+  let out = `<rect x="0" y="0" width="${W}" height="${FRAME_H}" fill="${PALETTE.outbackNightIndigoDeep}"/>`;
+
+  // "The Dutch." bridge text, brief.
+  const bridgeP = progress(t, start, 0.5, ease.outCubic) * (1 - progress(t, start + 0.9, 0.5, ease.linear));
+  out += `<text x="50%" y="150" text-anchor="middle" font-family="${FONTS.serif}" font-size="52"
+    fill="${PALETTE.sunsetOrange}" opacity="${Math.max(0, bridgeP).toFixed(3)}">The Dutch.</text>`;
+
+  out += `<g transform="translate(${ox},${oy}) scale(${scale})">`;
+  out += regionRevealSVG({
+    region: sahulRegion,
+    countryNames: ["Indonesia", "Papua New Guinea", "Timor-Leste", "Australia"],
+    t, start, drawDuration: 1.4,
+  });
+
+  // Duyfken, 1606: Banda Sea -> Cape York.
+  const duyfkenStart = 194.4 - GLOBAL_OFFSET;   // "sailed"
+  const duyfkenDur = (196.46 - 194.4);          // -> "York."
+  const duyfkenP = progress(t, duyfkenStart, duyfkenDur, ease.inOutCubic);
+  out += `<g opacity="${progress(t, duyfkenStart, 0.3, ease.outCubic).toFixed(3)}">
+    ${crossingPathSVG({ region: sahulRegion, from: INDIES_DUYFKEN_PT, to: CAPE_YORK_PT, t, start: duyfkenStart, duration: duyfkenDur, color: PALETTE.sunsetOrange })}
+  </g>`;
+  const [cyX, cyY] = projectRegionLonLat(sahulRegion, CAPE_YORK_PT.lon, CAPE_YORK_PT.lat);
+  const duyfkenLabelP = fadeIn(t, duyfkenStart + duyfkenDur, 0.4);
+  out += `<text x="${cyX}" y="${cyY - 18}" text-anchor="middle" font-family="${FONTS.sans}" font-size="15" letter-spacing="1.5"
+    fill="${PALETTE.cream}" opacity="${duyfkenLabelP.toFixed(3)}">DUYFKEN · 1606</text>`;
+
+  // Dirk Hartog, 1616: Sunda Strait -> Shark Bay, WA.
+  const hartogStart = 197.56 - GLOBAL_OFFSET;   // "Dirk"
+  const hartogDur = (199.5 - 197.56) + 0.6;     // through "...Australia" landing
+  out += `<g opacity="${progress(t, hartogStart, 0.3, ease.outCubic).toFixed(3)}">
+    ${crossingPathSVG({ region: sahulRegion, from: INDIES_HARTOG_PT, to: DIRK_HARTOG_PT, t, start: hartogStart, duration: hartogDur, color: PALETTE.eucalyptusGreen })}
+  </g>`;
+  const [dhX, dhY] = projectRegionLonLat(sahulRegion, DIRK_HARTOG_PT.lon, DIRK_HARTOG_PT.lat);
+  const plateP = progress(t, hartogStart + hartogDur, 0.4, ease.outBack);
+  const plateLabelP = fadeIn(t, hartogStart + hartogDur + 0.3, 0.4);
+  out += plateMarkerSVG(dhX, dhY, plateP, plateLabelP);
+
+  out += `</g>`;
+
+  const titleP = fadeIn(t, start + 1.6, 0.5);
+  out += `<text x="50%" y="90" text-anchor="middle" font-family="${FONTS.sans}" font-size="22" letter-spacing="3"
+    fill="${PALETTE.cream}" opacity="${titleP.toFixed(3)}">DUTCH VOYAGES TO NEW HOLLAND</text>`;
+  const noteP = fadeIn(t, start + 2.2, 0.6);
+  out += `<text x="50%" y="${FRAME_H - 60}" text-anchor="middle" font-family="${FONTS.sans}" font-size="15"
+    fill="${PALETTE.sandstoneLight}" opacity="${(noteP * 0.75).toFixed(3)}">modern coastlines shown — routes are schematic</text>`;
+
+  return out;
+}
+
+// ---- Cook's route: animated map, single-country Australia coastline ----
+const POINT_HICKS_PT = { lon: 149.28, lat: -37.8 };
+const BOTANY_BAY_PT = { lon: 151.19, lat: -34.0 };
+const CAPE_YORK_AU_PT = { lon: 142.5, lat: -10.7 };
+
+function cookMapSVG(t) {
+  const start = BEAT.cookMap;
+  const scale = (FRAME_H - 160 - 60) / coastline.height;
+  const mapW = coastline.width * scale;
+  const ox = (W - mapW) / 2;
+  const oy = 140;
+
+  let out = `<rect x="0" y="0" width="${W}" height="${FRAME_H}" fill="${PALETTE.outbackNightIndigoDeep}"/>`;
+  out += `<g transform="translate(${ox},${oy}) scale(${scale})">`;
+
+  const revealP = progress(t, start, 1.0, ease.outCubic);
+  out += `<path d="${coastlinePathD(coastline)}" fill="${PALETTE.sandstone}" fill-opacity="${(0.85 * revealP).toFixed(3)}" fill-rule="evenodd"/>`;
+
+  // Leg 1: Point Hicks -> Botany Bay (the actual 1770 approach and landing).
+  const leg1Start = start;
+  const leg1Dur = 3.2;
+  out += `<g opacity="${progress(t, leg1Start, 0.3, ease.outCubic).toFixed(3)}">
+    ${shipRouteSVG({ coastline, from: POINT_HICKS_PT, to: BOTANY_BAY_PT, t, start: leg1Start, duration: leg1Dur, color: PALETTE.sunsetOrange })}
+  </g>`;
+  const leg1P = progress(t, leg1Start, leg1Dur, ease.inOutCubic);
+  const [px1, py1] = projectLonLat(coastline, POINT_HICKS_PT.lon, POINT_HICKS_PT.lat);
+  const [bx, by] = projectLonLat(coastline, BOTANY_BAY_PT.lon, BOTANY_BAY_PT.lat);
+  const shipX = px1 + (bx - px1) * leg1P;
+  const shipY = py1 + (by - py1) * leg1P;
+  if (leg1P > 0 && leg1P < 1) {
+    out += iconShipSVG({ x: shipX, y: shipY, scale: 0.9, hullColor: "#3a2a1c", sailColor: PALETTE.cream });
+  }
+  const botanyP = progress(t, leg1Start + leg1Dur, 0.4, ease.outBack);
+  const botanyLabelP = fadeIn(t, leg1Start + leg1Dur + 0.15, 0.4);
+  out += `
+    <g transform="translate(${bx},${by})" opacity="${botanyP.toFixed(3)}">
+      <circle r="6" fill="${PALETTE.sunsetOrange}" stroke="${PALETTE.cream}" stroke-width="1.5"/>
+      <text x="12" y="4" font-family="${FONTS.sans}" font-size="15" letter-spacing="1.5"
+        fill="${PALETTE.cream}" opacity="${botanyLabelP.toFixed(3)}">BOTANY BAY · 1770</text>
+    </g>
+  `;
+
+  // Leg 2: symbolic sweep north, "claimed the whole east coast".
+  const leg2Start = leg1Start + leg1Dur + 0.45;
+  const leg2Dur = 2.6;
+  const leg2P = progress(t, leg2Start, 0.3, ease.outCubic);
+  if (leg2P > 0) {
+    out += `<g opacity="${leg2P.toFixed(3)}">
+      ${shipRouteSVG({ coastline, from: BOTANY_BAY_PT, to: CAPE_YORK_AU_PT, t, start: leg2Start, duration: leg2Dur, color: PALETTE.eucalyptusGreen })}
+    </g>`;
+  }
+  out += `</g>`;
+
+  // Top title crossfades from "claimed for Britain" to the new name, so
+  // nothing competes with the subtitle bar at the bottom of the frame.
+  const nswStart = 259.76 - GLOBAL_OFFSET; // "He named it New South Wales"
+  const claimP = fadeIn(t, leg2Start + leg2Dur * 0.5, 0.6) * (1 - fadeIn(t, nswStart, 0.5));
+  const nswP = fadeIn(t, nswStart, 0.6);
+  out += `<text x="50%" y="90" text-anchor="middle" font-family="${FONTS.sans}" font-size="22" letter-spacing="3"
+    fill="${PALETTE.cream}" opacity="${Math.max(0, claimP).toFixed(3)}">CLAIMED FOR BRITAIN · 1770</text>`;
+  out += `<text x="50%" y="90" text-anchor="middle" font-family="${FONTS.sans}" font-size="22" letter-spacing="3"
+    fill="${PALETTE.sandstoneLight}" opacity="${nswP.toFixed(3)}">NAMED NEW SOUTH WALES</text>`;
+
+  return out;
+}
+
+function pictureOnlyBeatSVG(key, t) {
+  if (key === "batavia") {
+    return pictureBeatSVG({
+      href: "/images/26_batavia_replica.jpg", imgW: 1920, imgH: 1440,
+      t, start: BEAT.batavia, duration: BEAT.abrolhos - BEAT.batavia,
+      camFrom: 1.0, camTo: 1.12,
+      label: "BATAVIA · WRECKED 1629",
+    });
+  }
+  if (key === "abrolhos") {
+    return pictureBeatSVG({
+      href: "/images/27_abrolhos_islands.jpg", imgW: 1280, imgH: 853,
+      t, start: BEAT.abrolhos, duration: BEAT.macassan - BEAT.abrolhos,
+      camFrom: 1.0, camTo: 1.14, panFromX: 0, panToX: -15,
+      label: "ABROLHOS ISLANDS, WESTERN AUSTRALIA",
+    });
+  }
+  return "";
+}
+
+function renderFrame(tLocal) {
+  let svg = "";
+  if (tLocal < BEAT.quiz) {
+    svg = chapterTitleCardSVG({
+      w: W, h: FRAME_H, t: tLocal, start: BEAT.title,
+      chapterLabel: "Chapter Three",
+      title: "The Strangers Arrive",
+    });
+  } else if (tLocal < BEAT.dutchVoyage) {
+    svg = quizCardSVG(tLocal);
+  } else if (tLocal < BEAT.newHolland) {
+    svg = dutchVoyageMapSVG(tLocal);
+  } else if (tLocal < BEAT.batavia) {
+    svg = pictureBeatSVG({
+      href: "/images/25_nova_hollandia_map.jpg", imgW: 1920, imgH: 1440,
+      t: tLocal, start: BEAT.newHolland, duration: BEAT.batavia - BEAT.newHolland,
+      camFrom: 1.0, camTo: 1.1,
+      label: "NOVA HOLLANDIA",
+    });
+  } else if (tLocal < BEAT.abrolhos) {
+    svg = pictureOnlyBeatSVG("batavia", tLocal);
+  } else if (tLocal < BEAT.macassan) {
+    svg = pictureOnlyBeatSVG("abrolhos", tLocal);
+  } else if (tLocal < BEAT.cookPortrait) {
+    svg = pictureBeatSVG({
+      href: "/images/28_macassan_prau.jpg", imgW: 1920, imgH: 1434,
+      t: tLocal, start: BEAT.macassan, duration: BEAT.cookPortrait - BEAT.macassan,
+      camFrom: 1.0, camTo: 1.1, panFromX: 0, panToX: 15,
+      label: "MAKASSAN TRADERS",
+    });
+  } else if (tLocal < BEAT.cookShip) {
+    svg = pictureBeatSVG({
+      href: "/images/29_james_cook_portrait.jpg", imgW: 1147, imgH: 1439,
+      t: tLocal, start: BEAT.cookPortrait, duration: BEAT.cookShip - BEAT.cookPortrait,
+      camFrom: 1.0, camTo: 1.08,
+      label: "JAMES COOK · 1770",
+    });
+  } else if (tLocal < BEAT.cookMap) {
+    svg = pictureBeatSVG({
+      href: "/images/30_hms_endeavour.jpg", imgW: 1920, imgH: 1382,
+      t: tLocal, start: BEAT.cookShip, duration: BEAT.cookMap - BEAT.cookShip,
+      camFrom: 1.0, camTo: 1.12, panFromX: 0, panToX: -12,
+      label: "HMS ENDEAVOUR",
+    });
+  } else {
+    svg = cookMapSVG(tLocal);
+  }
+
+  if (captionLines) {
+    const line = findActiveCaption(captionLines, tLocal);
+    if (line) svg += captionBarSVG({ w: W, h: FRAME_H, text: line.text });
+  }
+
+  rootEl.innerHTML = svg;
+}
+
+window.__ready = ensureAssets();
+window.__renderFrame = renderFrame;
+window.__END_TIME = BEAT.end;
+renderFrame(0);
+</script>
+</body>
+</html>
