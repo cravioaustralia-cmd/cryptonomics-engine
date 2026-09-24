@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>Chapter 2</title>
+<style>
+  @font-face { font-family: "Playfair Display"; src: url("/style/fonts/playfair-display-latin-700-normal.woff2") format("woff2"); font-weight: 700; }
+  @font-face { font-family: "Playfair Display"; src: url("/style/fonts/playfair-display-latin-400-normal.woff2") format("woff2"); font-weight: 400; }
+  @font-face { font-family: "Source Sans 3"; src: url("/style/fonts/source-sans-3-latin-600-normal.woff2") format("woff2"); font-weight: 600; }
+  @font-face { font-family: "Source Sans 3"; src: url("/style/fonts/source-sans-3-latin-400-normal.woff2") format("woff2"); font-weight: 400; }
+  html, body { margin: 0; padding: 0; background: #000; }
+  svg { display: block; }
+  .cam { transform-origin: 50% 50%; }
+</style>
+</head>
+<body>
+<svg id="stage" width="1920" height="1080" viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg">
+  <defs id="defs"></defs>
+  <g id="root"></g>
+</svg>
+
+<script type="module">
+import { PALETTE, FONTS, ease, progress, fadeIn, styleDefsSVG, vignetteOverlayRect,
+         warmGradeOverlayRect, pushPan, chapterTitleCardSVG, pictureLayerSVG,
+         buildCaptionLines, findActiveCaption, captionBarSVG, escapeXML } from "/style/style.js";
+
+const W = 1920, FRAME_H = 1080;
+const defsEl = document.getElementById("defs");
+const rootEl = document.getElementById("root");
+defsEl.innerHTML = styleDefsSVG();
+
+let captionLines = null;
+
+// Chapter 2 local time 0 = global transcript time 88.94s ("Here's something
+// mind-blowing.") through 184.72s ("...for a very, very long time."),
+// per transcript.json (words 216-445).
+const GLOBAL_OFFSET = 88.94;
+const BEAT = {
+  title: 0.0,
+  iceAgeMap: 2.5,
+  oceanCrossing: 98.87 - GLOBAL_OFFSET,   // 9.93
+  languages: 116.43 - GLOBAL_OFFSET,      // 27.49
+  lakeMungo: 127.02 - GLOBAL_OFFSET,      // 38.08
+  budjBim: 142.08 - GLOBAL_OFFSET,        // 53.14
+  burning: 159.09 - GLOBAL_OFFSET,        // 70.15
+  songlines: 163.07 - GLOBAL_OFFSET,      // 74.13 ("...controlled burning," ends)
+  closing: 172.64 - GLOBAL_OFFSET,        // 83.7 ("So when outsiders...")
+  end: 184.72 - GLOBAL_OFFSET + 0.5,      // 96.28
+};
+
+async function ensureAssets() {
+  const res = await fetch("/transcript.json");
+  const data = await res.json();
+  // Chapter 2's words: index 216 ("Here's") through 445 ("time."), inclusive.
+  const chapterWords = data.words.slice(216, 446).map((w) => ({
+    text: w.text,
+    start: w.start - GLOBAL_OFFSET,
+    end: w.end - GLOBAL_OFFSET,
+  }));
+  captionLines = buildCaptionLines(chapterWords, { maxWords: 7 });
+}
+
+function pictureBeatSVG({ href, imgW, imgH, t, start, duration, label, camFrom = 1.0, camTo = 1.14, panFromX = 0, panToX = 0, panFromY = 0, panToY = 0 }) {
+  const cam = pushPan(t, { start, duration, from: camFrom, to: camTo, fromX: panFromX, toX: panToX, fromY: panFromY, toY: panToY });
+  let out = `
+    <g class="cam" style="transform:${cam}">
+      ${pictureLayerSVG({ href, imgW, imgH, frameW: W, frameH: FRAME_H })}
+    </g>
+    ${warmGradeOverlayRect(W, FRAME_H)}
+    ${vignetteOverlayRect(W, FRAME_H)}
+    <rect x="0" y="0" width="${W}" height="${FRAME_H}" filter="url(#filmGrain)" opacity="0.38"/>
+  `;
+  if (label) {
+    const p = fadeIn(t, start + 0.35, 0.6);
+    out += `<text x="50%" y="100" text-anchor="middle" font-family="${FONTS.sans}" font-size="22" letter-spacing="3"
+      fill="${PALETTE.cream}" opacity="${p.toFixed(3)}">${escapeXML(label)}</text>`;
+  }
+  return out;
+}
+
+function renderFrame(tLocal) {
+  let svg = "";
+  if (tLocal < BEAT.iceAgeMap) {
+    svg = chapterTitleCardSVG({
+      w: W, h: FRAME_H, t: tLocal, start: BEAT.title,
+      chapterLabel: "Chapter Two",
+      title: "The First Australians",
+    });
+  } else if (tLocal < BEAT.oceanCrossing) {
+    svg = pictureBeatSVG({
+      href: "/images/14_sahul_sunda_map.jpg", imgW: 1548, imgH: 1440,
+      t: tLocal, start: BEAT.iceAgeMap, duration: BEAT.oceanCrossing - BEAT.iceAgeMap,
+      camFrom: 1.0, camTo: 1.16,
+      label: "THE ICE AGE COASTLINE",
+    });
+  } else if (tLocal < BEAT.languages) {
+    svg = pictureBeatSVG({
+      href: "/images/15_ocean_sunrise.jpg", imgW: 1280, imgH: 854,
+      t: tLocal, start: BEAT.oceanCrossing, duration: BEAT.languages - BEAT.oceanCrossing,
+      camFrom: 1.0, camTo: 1.18, panFromX: 0, panToX: -25,
+      label: "ARRIVAL BY SEA · 50,000+ YEARS AGO",
+    });
+  } else if (tLocal < BEAT.lakeMungo) {
+    svg = pictureBeatSVG({
+      href: "/images/16_diverse_landscapes.jpg", imgW: 1280, imgH: 853,
+      t: tLocal, start: BEAT.languages, duration: BEAT.lakeMungo - BEAT.languages,
+      camFrom: 1.0, camTo: 1.15,
+      label: "250+ DISTINCT LANGUAGES",
+    });
+  } else if (tLocal < BEAT.budjBim) {
+    svg = pictureBeatSVG({
+      href: "/images/17_lake_mungo.jpg", imgW: 1920, imgH: 1286,
+      t: tLocal, start: BEAT.lakeMungo, duration: BEAT.budjBim - BEAT.lakeMungo,
+      camFrom: 1.0, camTo: 1.12, panFromX: 0, panToX: 20,
+      label: "LAKE MUNGO · NEW SOUTH WALES",
+    });
+  } else if (tLocal < BEAT.burning) {
+    svg = pictureBeatSVG({
+      href: "/images/18_budj_bim.jpg", imgW: 1200, imgH: 1600,
+      t: tLocal, start: BEAT.budjBim, duration: BEAT.burning - BEAT.budjBim,
+      camFrom: 1.0, camTo: 1.1,
+      label: "BUDJ BIM · VICTORIA",
+    });
+  } else if (tLocal < BEAT.songlines) {
+    svg = pictureBeatSVG({
+      href: "/images/19_cool_burn_bushland.jpg", imgW: 1920, imgH: 1280,
+      t: tLocal, start: BEAT.burning, duration: BEAT.songlines - BEAT.burning,
+      camFrom: 1.0, camTo: 1.12,
+      label: "CONTROLLED BURNING",
+    });
+  } else if (tLocal < BEAT.closing) {
+    svg = pictureBeatSVG({
+      href: "/images/20_milky_way_outback.jpg", imgW: 853, imgH: 1280,
+      t: tLocal, start: BEAT.songlines, duration: BEAT.closing - BEAT.songlines,
+      camFrom: 1.0, camTo: 1.15,
+      label: "SONGLINES",
+    });
+  } else {
+    svg = pictureBeatSVG({
+      href: "/images/21_uluru_landscape.jpg", imgW: 1280, imgH: 709,
+      t: tLocal, start: BEAT.closing, duration: BEAT.end - BEAT.closing,
+      camFrom: 1.0, camTo: 1.1, panFromX: 0, panToX: 15,
+      label: "FOUND. NAMED. MAPPED. LOVED.",
+    });
+  }
+
+  if (captionLines) {
+    const line = findActiveCaption(captionLines, tLocal);
+    if (line) svg += captionBarSVG({ w: W, h: FRAME_H, text: line.text });
+  }
+
+  rootEl.innerHTML = svg;
+}
+
+window.__ready = ensureAssets();
+window.__renderFrame = renderFrame;
+window.__END_TIME = BEAT.end;
+renderFrame(0);
+</script>
+</body>
+</html>
