@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>Chapter 6</title>
+<style>
+  @font-face { font-family: "Playfair Display"; src: url("/style/fonts/playfair-display-latin-700-normal.woff2") format("woff2"); font-weight: 700; }
+  @font-face { font-family: "Playfair Display"; src: url("/style/fonts/playfair-display-latin-400-normal.woff2") format("woff2"); font-weight: 400; }
+  @font-face { font-family: "Source Sans 3"; src: url("/style/fonts/source-sans-3-latin-600-normal.woff2") format("woff2"); font-weight: 600; }
+  @font-face { font-family: "Source Sans 3"; src: url("/style/fonts/source-sans-3-latin-400-normal.woff2") format("woff2"); font-weight: 400; }
+  html, body { margin: 0; padding: 0; background: #000; }
+  svg { display: block; }
+  .cam { transform-origin: 50% 50%; }
+</style>
+</head>
+<body>
+<svg id="stage" width="1920" height="1080" viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg">
+  <defs id="defs"></defs>
+  <g id="root"></g>
+</svg>
+
+<script type="module">
+import { PALETTE, FONTS, ease, progress, fadeIn, styleDefsSVG, vignetteOverlayRect,
+         warmGradeOverlayRect, pushPan, chapterTitleCardSVG, pictureLayerSVG,
+         buildCaptionLines, findActiveCaption, captionBarSVG, escapeXML } from "/style/style.js";
+import { loadCoastline, mapRevealSVG, projectLonLat } from "/style/maps.js";
+import { iconGoldNuggetSVG } from "/style/characters.js";
+
+const W = 1920, FRAME_H = 1080;
+const defsEl = document.getElementById("defs");
+const rootEl = document.getElementById("root");
+defsEl.innerHTML = styleDefsSVG();
+
+let captionLines = null;
+let coastline = null;
+
+// Chapter 6 local time 0 = global transcript time 424.03s ("1851. Gold is
+// found...") through 501.01s ("...Australians still argue."), per
+// transcript.json (words 1030-1210).
+const GLOBAL_OFFSET = 424.03;
+const BEAT = {
+  title: 0.0,
+  goldMap: 2.5,
+  populationBoom: 433.62 - GLOBAL_OFFSET,      // 9.59  "In just ten years..."
+  welcomeStranger: 443.21 - GLOBAL_OFFSET,     // 19.18 "In 1869, two miners..."
+  marvellousMelbourne: 452.14 - GLOBAL_OFFSET, // 28.11 "Melbourne got so rich..."
+  eurekaBuildup: 459.17 - GLOBAL_OFFSET,       // 35.14 "But miners were furious..."
+  eurekaFlag: 463.94 - GLOBAL_OFFSET,          // 39.91 "In 1854 at Ballarat..."
+  eurekaStockade: 470.25 - GLOBAL_OFFSET,      // 46.22 "Soldiers stormed it..."
+  secretBallot: 477.59 - GLOBAL_OFFSET,        // 53.56 "Reforms followed..."
+  nedKelly: 487.1 - GLOBAL_OFFSET,             // 63.07 "And then there's Ned Kelly..."
+  end: 501.01 - GLOBAL_OFFSET + 0.5,           // 77.48
+};
+
+async function ensureAssets() {
+  coastline = await loadCoastline();
+  const res = await fetch("/transcript.json");
+  const data = await res.json();
+  // Chapter 6's words: index 1030 ("1851.") through 1210 ("argue."), inclusive.
+  const chapterWords = data.words.slice(1030, 1211).map((w) => ({
+    text: w.text,
+    start: w.start - GLOBAL_OFFSET,
+    end: w.end - GLOBAL_OFFSET,
+  }));
+  captionLines = buildCaptionLines(chapterWords, { maxWords: 7 });
+}
+
+function pictureBeatSVG({ href, imgW, imgH, t, start, duration, label, camFrom = 1.0, camTo = 1.14, panFromX = 0, panToX = 0, panFromY = 0, panToY = 0 }) {
+  const cam = pushPan(t, { start, duration, from: camFrom, to: camTo, fromX: panFromX, toX: panToX, fromY: panFromY, toY: panToY });
+  let out = `
+    <g class="cam" style="transform:${cam}">
+      ${pictureLayerSVG({ href, imgW, imgH, frameW: W, frameH: FRAME_H })}
+    </g>
+    ${warmGradeOverlayRect(W, FRAME_H)}
+    ${vignetteOverlayRect(W, FRAME_H)}
+    <rect x="0" y="0" width="${W}" height="${FRAME_H}" filter="url(#filmGrain)" opacity="0.38"/>
+  `;
+  if (label) {
+    const p = fadeIn(t, start + 0.35, 0.6);
+    out += `<text x="50%" y="100" text-anchor="middle" font-family="${FONTS.sans}" font-size="22" letter-spacing="3"
+      fill="${PALETTE.cream}" opacity="${p.toFixed(3)}">${escapeXML(label)}</text>`;
+  }
+  return out;
+}
+
+// ---- Gold rush map: animated, real Australia coastline ----
+const GOLD_NSW_PT = { lon: 149.58, lat: -33.42 };  // Bathurst district, NSW — 1851 discovery
+const BALLARAT_PT = { lon: 143.86, lat: -37.56 };
+const BENDIGO_PT = { lon: 144.28, lat: -36.76 };
+
+const GOLD_SITES = [
+  { pt: GOLD_NSW_PT, label: "NEW SOUTH WALES · 1851", wordStart: 425.58 - GLOBAL_OFFSET },
+  { pt: BALLARAT_PT, label: "BALLARAT", wordStart: 429.92 - GLOBAL_OFFSET },
+  { pt: BENDIGO_PT, label: "BENDIGO", wordStart: 430.73 - GLOBAL_OFFSET },
+];
+
+function goldMarkerSVG(site, t) {
+  const p = progress(t, site.wordStart, 0.4, ease.outBack);
+  if (p <= 0) return "";
+  const [x, y] = projectLonLat(coastline, site.pt.lon, site.pt.lat);
+  const pulse = 1 + 0.15 * Math.sin((t - site.wordStart) * 4);
+  const labelP = fadeIn(t, site.wordStart + 0.15, 0.4);
+  let out = `<g transform="translate(${x},${y})" opacity="${p.toFixed(3)}">
+    <circle r="${(6 * pulse).toFixed(2)}" fill="${PALETTE.sunsetOrange}" opacity="0.35"/>
+    <circle r="4.5" fill="#e8b23a" stroke="${PALETTE.cream}" stroke-width="1.3"/>
+    <text x="10" y="4" font-family="${FONTS.sans}" font-size="15" letter-spacing="1.5"
+      fill="${PALETTE.cream}" opacity="${labelP.toFixed(3)}">${escapeXML(site.label)}</text>
+  </g>`;
+  // "The whole world loses its mind" — a little nugget-sparkle payoff at
+  // each marker once the rush is in full swing.
+  const rushStart = 432.53 - GLOBAL_OFFSET; // "loses its mind"
+  const nuggetP = progress(t, rushStart, 0.5, ease.outBack);
+  if (nuggetP > 0) {
+    out += `<g transform="translate(${x - 20},${y - 24}) scale(${nuggetP.toFixed(3)})" opacity="${nuggetP.toFixed(3)}">
+      ${iconGoldNuggetSVG({ x: 0, y: 0, scale: 0.7 })}
+    </g>`;
+  }
+  return out;
+}
+
+function goldMapSVG(t) {
+  const start = BEAT.goldMap;
+  const scale = (FRAME_H - 160 - 60) / coastline.height;
+  const mapW = coastline.width * scale;
+  const ox = (W - mapW) / 2;
+  const oy = 140;
+
+  let out = `<rect x="0" y="0" width="${W}" height="${FRAME_H}" fill="${PALETTE.outbackNightIndigoDeep}"/>`;
+  out += `<g transform="translate(${ox},${oy}) scale(${scale})">`;
+  out += mapRevealSVG({ coastline, t, start, drawDuration: 1.0 });
+  for (const site of GOLD_SITES) out += goldMarkerSVG(site, t);
+  out += `</g>`;
+
+  const titleP = fadeIn(t, start + 0.2, 0.5);
+  out += `<text x="50%" y="90" text-anchor="middle" font-family="${FONTS.sans}" font-size="22" letter-spacing="3"
+    fill="${PALETTE.cream}" opacity="${titleP.toFixed(3)}">THE GOLD RUSH</text>`;
+
+  return out + warmGradeOverlayRect(W, FRAME_H) + vignetteOverlayRect(W, FRAME_H) +
+    `<rect x="0" y="0" width="${W}" height="${FRAME_H}" filter="url(#filmGrain)" opacity="0.35"/>`;
+}
+
+function renderFrame(tLocal) {
+  let svg = "";
+  if (tLocal < BEAT.goldMap) {
+    svg = chapterTitleCardSVG({
+      w: W, h: FRAME_H, t: tLocal, start: BEAT.title,
+      chapterLabel: "Chapter Six",
+      title: "Gold Fever",
+    });
+  } else if (tLocal < BEAT.populationBoom) {
+    svg = goldMapSVG(tLocal);
+  } else if (tLocal < BEAT.welcomeStranger) {
+    svg = pictureBeatSVG({
+      href: "/images/46_gold_panning.jpg", imgW: 1280, imgH: 809,
+      t: tLocal, start: BEAT.populationBoom, duration: BEAT.welcomeStranger - BEAT.populationBoom,
+      camFrom: 1.0, camTo: 1.14,
+      label: "GOLD PANNING",
+    });
+  } else if (tLocal < BEAT.marvellousMelbourne) {
+    svg = pictureBeatSVG({
+      href: "/images/48_welcome_stranger.jpg", imgW: 1343, imgH: 1440,
+      t: tLocal, start: BEAT.welcomeStranger, duration: BEAT.marvellousMelbourne - BEAT.welcomeStranger,
+      camFrom: 1.0, camTo: 1.1,
+      label: "THE “WELCOME STRANGER” NUGGET · 1869",
+    });
+  } else if (tLocal < BEAT.eurekaBuildup) {
+    svg = pictureBeatSVG({
+      href: "/images/49_melbourne_1880s.jpg", imgW: 1920, imgH: 1554,
+      t: tLocal, start: BEAT.marvellousMelbourne, duration: BEAT.eurekaBuildup - BEAT.marvellousMelbourne,
+      camFrom: 1.0, camTo: 1.1, panFromX: 0, panToX: -12,
+      label: "“MARVELLOUS MELBOURNE”",
+    });
+  } else if (tLocal < BEAT.eurekaFlag) {
+    svg = pictureBeatSVG({
+      href: "/images/47_ballarat_gold_diggings.jpg", imgW: 1920, imgH: 1204,
+      t: tLocal, start: BEAT.eurekaBuildup, duration: BEAT.eurekaFlag - BEAT.eurekaBuildup,
+      camFrom: 1.0, camTo: 1.12,
+      label: "BALLARAT DIGGINGS",
+    });
+  } else if (tLocal < BEAT.eurekaStockade) {
+    svg = pictureBeatSVG({
+      href: "/images/50_eureka_flag.jpg", imgW: 1920, imgH: 1248,
+      t: tLocal, start: BEAT.eurekaFlag, duration: BEAT.eurekaStockade - BEAT.eurekaFlag,
+      camFrom: 1.0, camTo: 1.1,
+      label: "THE SOUTHERN CROSS FLAG · 1854",
+    });
+  } else if (tLocal < BEAT.secretBallot) {
+    svg = pictureBeatSVG({
+      href: "/images/51_eureka_stockade.jpg", imgW: 1920, imgH: 1409,
+      t: tLocal, start: BEAT.eurekaStockade, duration: BEAT.secretBallot - BEAT.eurekaStockade,
+      camFrom: 1.0, camTo: 1.08,
+      label: "THE EUREKA STOCKADE",
+    });
+  } else if (tLocal < BEAT.nedKelly) {
+    svg = pictureBeatSVG({
+      href: "/images/52_secret_ballot.jpg", imgW: 1280, imgH: 1091,
+      t: tLocal, start: BEAT.secretBallot, duration: BEAT.nedKelly - BEAT.secretBallot,
+      camFrom: 1.0, camTo: 1.1,
+      label: "THE SECRET BALLOT",
+    });
+  } else {
+    svg = pictureBeatSVG({
+      href: "/images/53_ned_kelly_armour.jpg", imgW: 1000, imgH: 1440,
+      t: tLocal, start: BEAT.nedKelly, duration: BEAT.end - BEAT.nedKelly,
+      camFrom: 1.0, camTo: 1.08,
+      label: "NED KELLY",
+    });
+  }
+
+  if (captionLines) {
+    const line = findActiveCaption(captionLines, tLocal);
+    if (line) svg += captionBarSVG({ w: W, h: FRAME_H, text: line.text });
+  }
+
+  rootEl.innerHTML = svg;
+}
+
+window.__ready = ensureAssets();
+window.__renderFrame = renderFrame;
+window.__END_TIME = BEAT.end;
+renderFrame(0);
+</script>
+</body>
+</html>
