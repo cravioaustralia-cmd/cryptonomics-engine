@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>Chapter 10</title>
+<style>
+  @font-face { font-family: "Playfair Display"; src: url("/style/fonts/playfair-display-latin-700-normal.woff2") format("woff2"); font-weight: 700; }
+  @font-face { font-family: "Playfair Display"; src: url("/style/fonts/playfair-display-latin-400-normal.woff2") format("woff2"); font-weight: 400; }
+  @font-face { font-family: "Source Sans 3"; src: url("/style/fonts/source-sans-3-latin-600-normal.woff2") format("woff2"); font-weight: 600; }
+  @font-face { font-family: "Source Sans 3"; src: url("/style/fonts/source-sans-3-latin-400-normal.woff2") format("woff2"); font-weight: 400; }
+  html, body { margin: 0; padding: 0; background: #000; }
+  svg { display: block; }
+  .cam { transform-origin: 50% 50%; }
+</style>
+</head>
+<body>
+<svg id="stage" width="1920" height="1080" viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg">
+  <defs id="defs"></defs>
+  <g id="root"></g>
+</svg>
+
+<script type="module">
+import { PALETTE, FONTS, ease, progress, fadeIn, styleDefsSVG, vignetteOverlayRect,
+         warmGradeOverlayRect, pushPan, chapterTitleCardSVG, pictureLayerSVG,
+         buildCaptionLines, findActiveCaption, captionBarSVG, escapeXML } from "/style/style.js";
+
+const W = 1920, FRAME_H = 1080;
+const defsEl = document.getElementById("defs");
+const rootEl = document.getElementById("root");
+defsEl.innerHTML = styleDefsSVG();
+
+let captionLines = null;
+
+// Chapter 10 local time 0 = global transcript time 734.48s ("1983,
+// Australia wins...") through 822.65s ("...answer, again, was no."), per
+// transcript.json (words 1757-1940). A fast, energetic montage — one
+// headline per year — per the script's own delivery note.
+const GLOBAL_OFFSET = 734.48;
+const BEAT = {
+  title: 0.0,
+  americasCup: 2.5,
+  mabo: 742.11 - GLOBAL_OFFSET,            // 7.63  "1992, the High Court's Mabo decision..."
+  portArthur: 756.68 - GLOBAL_OFFSET,      // 22.20 "1996, after the Port Arthur massacre..."
+  republic: 767.39 - GLOBAL_OFFSET,        // 32.91 "1999, Australians vote on becoming a republic."
+  olympics: 777.08 - GLOBAL_OFFSET,        // 42.60 "2000, Sydney hosts the Olympics..."
+  ruddApology: 786.5 - GLOBAL_OFFSET,      // 52.02 "2008, Prime Minister Kevin Rudd..."
+  sameSexMarriage: 792.08 - GLOBAL_OFFSET, // 57.60 "2017, a national vote backs same-sex marriage..."
+  bushfires: 800.12 - GLOBAL_OFFSET,       // 65.64 "2019 and 20, the Black Summer bushfires..."
+  pandemic: 809.91 - GLOBAL_OFFSET,        // 75.43 "Then the pandemic..."
+  voiceReferendum: 815.17 - GLOBAL_OFFSET, // 80.69 "And 2023, Australians vote on an Indigenous Voice..."
+  end: 822.65 - GLOBAL_OFFSET + 0.5,       // 88.67
+};
+
+async function ensureAssets() {
+  const res = await fetch("/transcript.json");
+  const data = await res.json();
+  // Chapter 10's words: index 1757 ("1983,") through 1940 ("no."), inclusive.
+  const chapterWords = data.words.slice(1757, 1941).map((w) => ({
+    text: w.text,
+    start: w.start - GLOBAL_OFFSET,
+    end: w.end - GLOBAL_OFFSET,
+  }));
+  captionLines = buildCaptionLines(chapterWords, { maxWords: 7 });
+}
+
+// Montage pacing: punchier push-ins than the slower chapters, matching the
+// "fast, energetic, montage feel" delivery note.
+function pictureBeatSVG({ href, imgW, imgH, t, start, duration, label, camFrom = 1.0, camTo = 1.2, panFromX = 0, panToX = 0, panFromY = 0, panToY = 0 }) {
+  const cam = pushPan(t, { start, duration, from: camFrom, to: camTo, fromX: panFromX, toX: panToX, fromY: panFromY, toY: panToY });
+  let out = `
+    <g class="cam" style="transform:${cam}">
+      ${pictureLayerSVG({ href, imgW, imgH, frameW: W, frameH: FRAME_H })}
+    </g>
+    ${warmGradeOverlayRect(W, FRAME_H)}
+    ${vignetteOverlayRect(W, FRAME_H)}
+    <rect x="0" y="0" width="${W}" height="${FRAME_H}" filter="url(#filmGrain)" opacity="0.38"/>
+  `;
+  if (label) {
+    const p = fadeIn(t, start + 0.25, 0.4);
+    out += `<text x="50%" y="100" text-anchor="middle" font-family="${FONTS.sans}" font-size="22" letter-spacing="3"
+      fill="${PALETTE.cream}" opacity="${p.toFixed(3)}">${escapeXML(label)}</text>`;
+  }
+  return out;
+}
+
+function renderFrame(tLocal) {
+  let svg = "";
+  if (tLocal < BEAT.americasCup) {
+    svg = chapterTitleCardSVG({
+      w: W, h: FRAME_H, t: tLocal, start: BEAT.title,
+      chapterLabel: "Chapter Ten",
+      title: "Modern Australia",
+    });
+  } else if (tLocal < BEAT.mabo) {
+    svg = pictureBeatSVG({
+      href: "/images/80_racing_yacht.jpg", imgW: 1920, imgH: 1440,
+      t: tLocal, start: BEAT.americasCup, duration: BEAT.mabo - BEAT.americasCup,
+      label: "1983 · AMERICA'S CUP",
+    });
+  } else if (tLocal < BEAT.portArthur) {
+    svg = pictureBeatSVG({
+      href: "/images/81_high_court_or_mer.jpg", imgW: 2133, imgH: 1600,
+      t: tLocal, start: BEAT.mabo, duration: BEAT.portArthur - BEAT.mabo,
+      label: "1992 · THE MABO DECISION",
+    });
+  } else if (tLocal < BEAT.republic) {
+    svg = pictureBeatSVG({
+      href: "/images/82_port_arthur_historic.jpg", imgW: 1062, imgH: 1600,
+      t: tLocal, start: BEAT.portArthur, duration: BEAT.republic - BEAT.portArthur,
+      camTo: 1.1,
+      label: "1996 · PORT ARTHUR",
+    });
+  } else if (tLocal < BEAT.olympics) {
+    svg = pictureBeatSVG({
+      href: "/images/83_australia_voting.jpg", imgW: 1920, imgH: 1080,
+      t: tLocal, start: BEAT.republic, duration: BEAT.olympics - BEAT.republic,
+      label: "1999 · THE REPUBLIC REFERENDUM",
+    });
+  } else if (tLocal < BEAT.ruddApology) {
+    svg = pictureBeatSVG({
+      href: "/images/84_sydney_olympic_park.jpg", imgW: 1920, imgH: 1015,
+      t: tLocal, start: BEAT.olympics, duration: BEAT.ruddApology - BEAT.olympics,
+      label: "2000 · THE SYDNEY OLYMPICS",
+    });
+  } else if (tLocal < BEAT.sameSexMarriage) {
+    svg = pictureBeatSVG({
+      href: "/images/85_parliament_house.jpg", imgW: 2400, imgH: 773,
+      t: tLocal, start: BEAT.ruddApology, duration: BEAT.sameSexMarriage - BEAT.ruddApology,
+      label: "2008 · THE APOLOGY TO THE STOLEN GENERATIONS",
+    });
+  } else if (tLocal < BEAT.bushfires) {
+    svg = pictureBeatSVG({
+      href: "/images/86_rainbow_flag.jpg", imgW: 1280, imgH: 853,
+      t: tLocal, start: BEAT.sameSexMarriage, duration: BEAT.bushfires - BEAT.sameSexMarriage,
+      label: "2017 · SAME-SEX MARRIAGE LEGALISED",
+    });
+  } else if (tLocal < BEAT.pandemic) {
+    svg = pictureBeatSVG({
+      href: "/images/87_bushfire_smoke.jpg", imgW: 1280, imgH: 853,
+      t: tLocal, start: BEAT.bushfires, duration: BEAT.pandemic - BEAT.bushfires,
+      label: "2019–20 · THE BLACK SUMMER BUSHFIRES",
+    });
+  } else if (tLocal < BEAT.voiceReferendum) {
+    svg = pictureBeatSVG({
+      href: "/images/88_empty_city_street.jpg", imgW: 1920, imgH: 1440,
+      t: tLocal, start: BEAT.pandemic, duration: BEAT.voiceReferendum - BEAT.pandemic,
+      camTo: 1.1,
+      label: "2020 · THE PANDEMIC",
+    });
+  } else {
+    svg = pictureBeatSVG({
+      href: "/images/89_aboriginal_flag.jpg", imgW: 1125, imgH: 844,
+      t: tLocal, start: BEAT.voiceReferendum, duration: BEAT.end - BEAT.voiceReferendum,
+      camTo: 1.1,
+      label: "2023 · THE VOICE REFERENDUM",
+    });
+  }
+
+  if (captionLines) {
+    const line = findActiveCaption(captionLines, tLocal);
+    if (line) svg += captionBarSVG({ w: W, h: FRAME_H, text: line.text });
+  }
+
+  rootEl.innerHTML = svg;
+}
+
+window.__ready = ensureAssets();
+window.__renderFrame = renderFrame;
+window.__END_TIME = BEAT.end;
+renderFrame(0);
+</script>
+</body>
+</html>
