@@ -12,7 +12,7 @@ Image credits:
 "05_aboriginal_rock_art_kakadu.jpg" by Dietmar Rabich (CC BY-SA 4.0) — https://commons.wikimedia.org/wiki/File:Kakadu_(AU),_Kakadu_National_Park,_Ubirr_Rock_Art_--_2019_--_4171.jpg
 "10_procoptodon.jpg" by Stanton F. Fink (CC BY 3.0) — https://commons.wikimedia.org/wiki/File:Procoptodon_goliah.jpg
 "14_sahul_sunda_map.jpg" by Kanguole (CC BY-SA 4.0) — https://commons.wikimedia.org/wiki/File:Map_of_Sunda_and_Sahul.svg
-"17_lake_mungo.jpg" by Dhum Dhum (CC BY-SA 3.0) — https://commons.wikimedia.org/wiki/File:LakeMungo.jpg
+"17_lake_mungo.jpg" by Rueparadis (CC BY-SA 4.0) — https://commons.wikimedia.org/wiki/Category:Mungo_National_Park (exact File: page not confirmed)
 "19_cool_burn_bushland.jpg" by NJM2010 (CC BY-SA 3.0) — https://commons.wikimedia.org/wiki/File%3AControlled_burn_off_on_North_Stradbroke_Island.jpg
 "23_duyfken_replica.jpg" by Nachoman-au (CC BY-SA 3.0) — https://commons.wikimedia.org/wiki/File:Duyfken_replica,_Swan_River.jpg
 "25_nova_hollandia_map.jpg" by TCY (CC BY-SA 3.0) — https://commons.wikimedia.org/wiki/File:Globe_Coronelli_Map_of_New_Holland.jpg
@@ -54,7 +54,7 @@ Image credits:
 14_sahul_sunda_map.jpg | CC BY-SA 4.0 | Kanguole | https://commons.wikimedia.org/wiki/File:Map_of_Sunda_and_Sahul.svg
 15_ocean_sunrise.jpg | Pixabay License (free) | Pixabay contributor | https://cdn.pixabay.com/photo/2025/03/03/17/47/cliffs-9444605_1280.jpg
 16_diverse_landscapes.jpg | Pixabay License | Pixabay contributor | Pixabay CDN (beach/landscape search)
-17_lake_mungo.jpg | CC BY-SA 3.0 | Dhum Dhum | https://commons.wikimedia.org/wiki/File:LakeMungo.jpg
+17_lake_mungo.jpg | CC BY-SA 4.0 | Rueparadis | https://commons.wikimedia.org/wiki/Category:Mungo_National_Park (exact File: page not confirmed)
 18_budj_bim.jpg | CC0 | Dhx1 | https://commons.wikimedia.org/wiki/File%3ABudj_Bim_%E2%80%90_Mt_Eccles_National_Park%2C_Victoria%2C_Australia_02.jpg
 19_cool_burn_bushland.jpg | CC BY-SA 3.0 | NJM2010 | https://commons.wikimedia.org/wiki/File%3AControlled_burn_off_on_North_Stradbroke_Island.jpg
 20_milky_way_outback.jpg | Pixabay License (free) | Pixabay contributor | https://cdn.pixabay.com/photo/2023/06/05/02/01/starry-sky-8041247_1280.jpg

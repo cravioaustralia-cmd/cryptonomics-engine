@@ -29,7 +29,7 @@ Educational/documentary stills for YouTube shot list "The Entire History of Aust
 | 14_sahul_sunda_map.jpg | https://commons.wikimedia.org/wiki/File:Map_of_Sunda_and_Sahul.svg | CC BY-SA 4.0 | Credit: Kanguole | 1548x1440 UNDER1920. Commons original is SVG; local copy is a rasterised Wikipedia thumbnail.
 | 15_ocean_sunrise.jpg | https://cdn.pixabay.com/photo/2025/03/03/17/47/cliffs-9444605_1280.jpg | Pixabay License (free) | Credit: Pixabay contributor | 1280x854 UNDER1920.
 | 16_diverse_landscapes.jpg | Pixabay CDN (beach/landscape search) | Pixabay License | Credit: Pixabay contributor | SUBSTITUTE: AIATSIS languages map skipped (permissions unclear); diverse Australian landscape used instead | [1280x853 UNDER1920]
-| 17_lake_mungo.jpg | https://commons.wikimedia.org/wiki/File:LakeMungo.jpg | CC BY-SA 3.0 | Credit: Dhum Dhum | 1920x1286.
+| 17_lake_mungo.jpg | https://commons.wikimedia.org/wiki/Category:Mungo_National_Park (exact File: page not confirmed) | CC BY-SA 4.0 | Credit: Rueparadis | REPLACED 2026-09-24: original was a heavily pixelated/upscaled source image. New photo of the Lake Mungo lunette, sharp, orig 4032x3024 (delivered copy 1125x844 UNDER1920).
 | 18_budj_bim.jpg | https://commons.wikimedia.org/wiki/File%3ABudj_Bim_%E2%80%90_Mt_Eccles_National_Park%2C_Victoria%2C_Australia_02.jpg | CC0 | Credit: Dhx1 | [1440x1920 UNDER1920] |
 | 19_cool_burn_bushland.jpg | https://commons.wikimedia.org/wiki/File%3AControlled_burn_off_on_North_Stradbroke_Island.jpg | CC BY-SA 3.0 | Credit: NJM2010 | [1920x1280] |
 | 20_milky_way_outback.jpg | https://cdn.pixabay.com/photo/2023/06/05/02/01/starry-sky-8041247_1280.jpg | Pixabay License (free) | Credit: Pixabay contributor | 853x1280 UNDER1920.
@@ -120,6 +120,7 @@ Educational/documentary stills for YouTube shot list "The Entire History of Aust
 - 14_sahul_sunda_map.jpg
 - 15_ocean_sunrise.jpg
 - 16_diverse_landscapes.jpg
+- 17_lake_mungo.jpg
 - 18_budj_bim.jpg
 - 19_cool_burn_bushland.jpg
 - 20_milky_way_outback.jpg
