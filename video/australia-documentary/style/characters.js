@@ -150,6 +150,26 @@ export function soldierSilhouetteSVG({ x, y, scale = 1, armAngle = -20, legAngle
 }
 
 /**
+ * blighSVG - flat-2D naval-governor figure (bicorne hat, tailed coat), for
+ * the Chapter 5 "Bligh: zero for two" comedy beats (Mutiny on the Bounty,
+ * then the Rum Rebellion). Pivots from the feet so callers can tip him
+ * overboard with a simple rotate.
+ */
+export function blighSVG({ x, y, scale = 1, rotate = 0, armAngle = -15, legAngle = 0, color = "#1c2540" }) {
+  return `
+    <g transform="translate(${x},${y}) rotate(${rotate}) scale(${scale})">
+      <rect x="-10" y="-30" width="9" height="30" rx="3" fill="${color}" transform="rotate(${legAngle} -6 -30)"/>
+      <rect x="1" y="-30" width="9" height="30" rx="3" fill="${color}" transform="rotate(${-legAngle} 6 -30)"/>
+      <path d="M -13 -76 L 13 -76 L 16 -28 L 6 -28 L 6 -50 L -6 -50 L -6 -28 L -16 -28 Z" fill="${color}"/>
+      <rect x="-13" y="-72" width="8" height="30" rx="3" fill="${color}" transform="rotate(${armAngle} -9 -72)"/>
+      <rect x="5" y="-72" width="8" height="30" rx="3" fill="${color}" transform="rotate(${-armAngle} 9 -72)"/>
+      <circle cx="0" cy="-86" r="11" fill="${PALETTE.sandstone}"/>
+      <path d="M -17 -90 Q 0 -103 17 -90 Q 0 -95 -17 -90 Z" fill="${color}"/>
+    </g>
+  `;
+}
+
+/**
  * machineGunSVG - a simple flat-2D Lewis-gun-style mounted machine gun on
  * a tripod, for the hook's Emu War cold open.
  */
