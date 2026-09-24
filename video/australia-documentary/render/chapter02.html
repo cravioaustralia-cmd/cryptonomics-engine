@@ -23,6 +23,7 @@
 import { PALETTE, FONTS, ease, progress, fadeIn, styleDefsSVG, vignetteOverlayRect,
          warmGradeOverlayRect, pushPan, chapterTitleCardSVG, pictureLayerSVG,
          buildCaptionLines, findActiveCaption, captionBarSVG, escapeXML } from "/style/style.js";
+import { loadSahulSundaRegion, regionRevealSVG, crossingPathSVG, projectRegionLonLat } from "/style/maps.js";
 
 const W = 1920, FRAME_H = 1080;
 const defsEl = document.getElementById("defs");
@@ -30,6 +31,7 @@ const rootEl = document.getElementById("root");
 defsEl.innerHTML = styleDefsSVG();
 
 let captionLines = null;
+let sahulRegion = null;
 
 // Chapter 2 local time 0 = global transcript time 88.94s ("Here's something
 // mind-blowing.") through 184.72s ("...for a very, very long time."),
@@ -49,6 +51,7 @@ const BEAT = {
 };
 
 async function ensureAssets() {
+  sahulRegion = await loadSahulSundaRegion();
   const res = await fetch("/transcript.json");
   const data = await res.json();
   // Chapter 2's words: index 216 ("Here's") through 445 ("time."), inclusive.
@@ -78,6 +81,45 @@ function pictureBeatSVG({ href, imgW, imgH, t, start, duration, label, camFrom =
   return out;
 }
 
+const SUNDA_PT = { lon: 122.5, lat: -9.5 };  // near Timor, the Sunda side
+const SAHUL_PT = { lon: 130.0, lat: -13.5 }; // the Kimberley coast, the Sahul side
+
+function crossingMapSVG(t) {
+  const start = BEAT.iceAgeMap;
+  const scale = (FRAME_H - 160 - 60) / sahulRegion.height;
+  const mapW = sahulRegion.width * scale;
+  const ox = (W - mapW) / 2;
+  const oy = 140;
+
+  let out = `<rect x="0" y="0" width="${W}" height="${FRAME_H}" fill="${PALETTE.outbackNightIndigoDeep}"/>`;
+  out += `<g transform="translate(${ox},${oy}) scale(${scale})">`;
+  out += regionRevealSVG({
+    region: sahulRegion,
+    countryNames: ["Indonesia", "Papua New Guinea", "Timor-Leste", "Australia"],
+    t, start, drawDuration: 1.6,
+  });
+  const pathP = progress(t, start + 1.3, 0.4, ease.outCubic);
+  out += `<g opacity="${pathP.toFixed(3)}">
+    ${crossingPathSVG({ region: sahulRegion, from: SUNDA_PT, to: SAHUL_PT, t, start: start + 1.6, duration: 3.0 })}
+  </g>`;
+  const [sx, sy] = projectRegionLonLat(sahulRegion, SUNDA_PT.lon, SUNDA_PT.lat);
+  const [ax, ay] = projectRegionLonLat(sahulRegion, SAHUL_PT.lon, SAHUL_PT.lat);
+  const labelP = fadeIn(t, start + 1.7, 0.5);
+  out += `<text x="${sx}" y="${sy - 16}" text-anchor="middle" font-family="${FONTS.sans}" font-size="15" letter-spacing="2"
+    fill="${PALETTE.cream}" opacity="${labelP.toFixed(3)}">SUNDA</text>`;
+  out += `<text x="${ax}" y="${ay + 30}" text-anchor="middle" font-family="${FONTS.sans}" font-size="15" letter-spacing="2"
+    fill="${PALETTE.cream}" opacity="${labelP.toFixed(3)}">SAHUL</text>`;
+  out += `</g>`;
+
+  const titleP = fadeIn(t, start + 0.2, 0.5);
+  out += `<text x="50%" y="90" text-anchor="middle" font-family="${FONTS.sans}" font-size="22" letter-spacing="3"
+    fill="${PALETTE.cream}" opacity="${titleP.toFixed(3)}">THE FIRST SEA CROSSING</text>`;
+  const noteP = fadeIn(t, start + 2.0, 0.6);
+  out += `<text x="50%" y="${FRAME_H - 60}" text-anchor="middle" font-family="${FONTS.sans}" font-size="15"
+    fill="${PALETTE.sandstoneLight}" opacity="${(noteP * 0.75).toFixed(3)}">modern coastlines shown — ice age sea levels were lower</text>`;
+  return out;
+}
+
 function renderFrame(tLocal) {
   let svg = "";
   if (tLocal < BEAT.iceAgeMap) {
@@ -87,12 +129,7 @@ function renderFrame(tLocal) {
       title: "The First Australians",
     });
   } else if (tLocal < BEAT.oceanCrossing) {
-    svg = pictureBeatSVG({
-      href: "/images/14_sahul_sunda_map.jpg", imgW: 1548, imgH: 1440,
-      t: tLocal, start: BEAT.iceAgeMap, duration: BEAT.oceanCrossing - BEAT.iceAgeMap,
-      camFrom: 1.0, camTo: 1.16,
-      label: "THE ICE AGE COASTLINE",
-    });
+    svg = crossingMapSVG(tLocal);
   } else if (tLocal < BEAT.languages) {
     svg = pictureBeatSVG({
       href: "/images/15_ocean_sunrise.jpg", imgW: 1280, imgH: 854,
