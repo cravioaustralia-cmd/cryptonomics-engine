@@ -14,6 +14,20 @@ export async function loadCoastline() {
   return _coastlineCache;
 }
 
+// Wide UK-to-Australia land silhouette (Europe/Africa/Indian Ocean/
+// Australia), extracted by scripts/extract_fleet_route.mjs, for the First
+// Fleet voyage map. Same {width,height,projection,polygons} shape as the
+// Australia coastline, so it works directly with projectLonLat, mapRevealSVG
+// and shipRouteSVG below.
+let _fleetRouteCache = null;
+
+export async function loadFleetRouteLand() {
+  if (_fleetRouteCache) return _fleetRouteCache;
+  const res = await fetch("/style/data/fleet-route-land.json");
+  _fleetRouteCache = await res.json();
+  return _fleetRouteCache;
+}
+
 // project(lon, lat) -> [x, y] in the same local unit space as the coastline
 // polygons, using the projection recorded at extraction time.
 export function projectLonLat(coastline, lon, lat) {

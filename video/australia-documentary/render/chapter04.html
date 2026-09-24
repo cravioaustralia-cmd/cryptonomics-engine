@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>Chapter 4</title>
+<style>
+  @font-face { font-family: "Playfair Display"; src: url("/style/fonts/playfair-display-latin-700-normal.woff2") format("woff2"); font-weight: 700; }
+  @font-face { font-family: "Playfair Display"; src: url("/style/fonts/playfair-display-latin-400-normal.woff2") format("woff2"); font-weight: 400; }
+  @font-face { font-family: "Source Sans 3"; src: url("/style/fonts/source-sans-3-latin-600-normal.woff2") format("woff2"); font-weight: 600; }
+  @font-face { font-family: "Source Sans 3"; src: url("/style/fonts/source-sans-3-latin-400-normal.woff2") format("woff2"); font-weight: 400; }
+  html, body { margin: 0; padding: 0; background: #000; }
+  svg { display: block; }
+  .cam { transform-origin: 50% 50%; }
+</style>
+</head>
+<body>
+<svg id="stage" width="1920" height="1080" viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg">
+  <defs id="defs"></defs>
+  <g id="root"></g>
+</svg>
+
+<script type="module">
+import { PALETTE, FONTS, ease, progress, fadeIn, styleDefsSVG, vignetteOverlayRect,
+         warmGradeOverlayRect, pushPan, chapterTitleCardSVG, pictureLayerSVG,
+         buildCaptionLines, findActiveCaption, captionBarSVG, escapeXML } from "/style/style.js";
+import { loadFleetRouteLand, mapRevealSVG, projectLonLat, shipRouteSVG } from "/style/maps.js";
+import { iconShipSVG } from "/style/characters.js";
+
+const W = 1920, FRAME_H = 1080;
+const defsEl = document.getElementById("defs");
+const rootEl = document.getElementById("root");
+defsEl.innerHTML = styleDefsSVG();
+
+let captionLines = null;
+let fleetLand = null;
+
+// Chapter 4 local time 0 = global transcript time 264.55s ("Britain had a
+// problem...") through 345.48s ("...convicts to Australia."), per
+// transcript.json (words 647-842).
+const GLOBAL_OFFSET = 264.55;
+const BEAT = {
+  title: 0.0,
+  newgatePrison: 2.5,
+  declaration: 268.77 - GLOBAL_OFFSET,       // 4.22  "It used to ship convicts to America..."
+  firstFleetPainting: 276.45 - GLOBAL_OFFSET, // 11.90 "So Britain looked at the far side..."
+  firstFleetMap: 280.76 - GLOBAL_OFFSET,      // 16.21 "In 1787, eleven ships..."
+  arthurPhillip: 292.89 - GLOBAL_OFFSET,      // 28.34 "...they arrived."
+  flagRaising: 296.29 - GLOBAL_OFFSET,        // 31.74 "Arthur Phillip raised the flag..."
+  convictRecords: 300.06 - GLOBAL_OFFSET,     // 35.51 "Some of these criminals..."
+  sydneyCove1788: 311.58 - GLOBAL_OFFSET,     // 47.03 "The colony nearly starved..."
+  eoraHarbour: 321.60 - GLOBAL_OFFSET,        // 57.05 "for the Eora people of Sydney..."
+  hydeParkBarracks: 339.53 - GLOBAL_OFFSET,   // 74.98 "And over the next eighty years..."
+  end: 345.48 - GLOBAL_OFFSET + 0.5,          // 81.43
+};
+
+async function ensureAssets() {
+  fleetLand = await loadFleetRouteLand();
+  const res = await fetch("/transcript.json");
+  const data = await res.json();
+  // Chapter 4's words: index 647 ("Britain") through 842 ("Australia."), inclusive.
+  const chapterWords = data.words.slice(647, 843).map((w) => ({
+    text: w.text,
+    start: w.start - GLOBAL_OFFSET,
+    end: w.end - GLOBAL_OFFSET,
+  }));
+  captionLines = buildCaptionLines(chapterWords, { maxWords: 7 });
+}
+
+function pictureBeatSVG({ href, imgW, imgH, t, start, duration, label, camFrom = 1.0, camTo = 1.14, panFromX = 0, panToX = 0, panFromY = 0, panToY = 0 }) {
+  const cam = pushPan(t, { start, duration, from: camFrom, to: camTo, fromX: panFromX, toX: panToX, fromY: panFromY, toY: panToY });
+  let out = `
+    <g class="cam" style="transform:${cam}">
+      ${pictureLayerSVG({ href, imgW, imgH, frameW: W, frameH: FRAME_H })}
+    </g>
+    ${warmGradeOverlayRect(W, FRAME_H)}
+    ${vignetteOverlayRect(W, FRAME_H)}
+    <rect x="0" y="0" width="${W}" height="${FRAME_H}" filter="url(#filmGrain)" opacity="0.38"/>
+  `;
+  if (label) {
+    const p = fadeIn(t, start + 0.35, 0.6);
+    out += `<text x="50%" y="100" text-anchor="middle" font-family="${FONTS.sans}" font-size="22" letter-spacing="3"
+      fill="${PALETTE.cream}" opacity="${p.toFixed(3)}">${escapeXML(label)}</text>`;
+  }
+  return out;
+}
+
+// ---- First Fleet voyage: animated map, Portsmouth to Botany Bay ----
+// Real, well-documented ports of call (Portsmouth -> Tenerife -> Rio de
+// Janeiro -> Cape Town -> Botany Bay). The connecting curves are a
+// schematic bow (not the literal historic track), same convention as
+// every other voyage map in this project.
+const PORTSMOUTH_PT = { lon: -1.09, lat: 50.80 };
+const TENERIFE_PT = { lon: -16.25, lat: 28.47 };
+const RIO_PT = { lon: -43.17, lat: -22.91 };
+const CAPE_TOWN_PT = { lon: 18.42, lat: -33.92 };
+const BOTANY_BAY_PT = { lon: 151.19, lat: -34.0 };
+
+const FLEET_LEGS = [
+  { from: PORTSMOUTH_PT, to: TENERIFE_PT, label: "TENERIFE", dur: 1.8 },
+  { from: TENERIFE_PT, to: RIO_PT, label: "RIO DE JANEIRO", dur: 2.4 },
+  { from: RIO_PT, to: CAPE_TOWN_PT, label: "CAPE TOWN", dur: 2.1 },
+  { from: CAPE_TOWN_PT, to: BOTANY_BAY_PT, label: "BOTANY BAY · 18 JAN 1788", dur: 3.8 },
+];
+
+function firstFleetMapSVG(t) {
+  const start = BEAT.firstFleetMap;
+  const scale = Math.min(
+    (FRAME_H - 140 - 100) / fleetLand.height,
+    (W - 60 * 2) / fleetLand.width,
+  );
+  const mapW = fleetLand.width * scale;
+  const mapH = fleetLand.height * scale;
+  const ox = (W - mapW) / 2;
+  const oy = 140;
+
+  let out = `<rect x="0" y="0" width="${W}" height="${FRAME_H}" fill="${PALETTE.outbackNightIndigoDeep}"/>`;
+  out += `<g transform="translate(${ox},${oy}) scale(${scale})">`;
+  out += mapRevealSVG({ coastline: fleetLand, t, start, drawDuration: 1.1 });
+
+  // Departure marker, visible as soon as the land has revealed.
+  const [pox, poy] = projectLonLat(fleetLand, PORTSMOUTH_PT.lon, PORTSMOUTH_PT.lat);
+  const startMarkerP = progress(t, start + 0.6, 0.4, ease.outBack);
+  out += `<g transform="translate(${pox},${poy})" opacity="${startMarkerP.toFixed(3)}">
+    <circle r="5" fill="${PALETTE.sunsetOrange}" stroke="${PALETTE.cream}" stroke-width="1.2"/>
+    <text x="10" y="-8" font-family="${FONTS.sans}" font-size="13" letter-spacing="1.2"
+      fill="${PALETTE.cream}" opacity="${fadeIn(t, start + 0.8, 0.4).toFixed(3)}">PORTSMOUTH · MAY 1787</text>
+  </g>`;
+
+  let legStart = start + 1.4;
+  for (const leg of FLEET_LEGS) {
+    const legOpacity = progress(t, legStart, 0.3, ease.outCubic);
+    if (legOpacity > 0) {
+      out += `<g opacity="${legOpacity.toFixed(3)}">
+        ${shipRouteSVG({ coastline: fleetLand, from: leg.from, to: leg.to, t, start: legStart, duration: leg.dur, color: PALETTE.sunsetOrange })}
+      </g>`;
+      const legP = progress(t, legStart, leg.dur, ease.inOutCubic);
+      if (legP > 0 && legP < 1) {
+        const [x1, y1] = projectLonLat(fleetLand, leg.from.lon, leg.from.lat);
+        const [x2, y2] = projectLonLat(fleetLand, leg.to.lon, leg.to.lat);
+        out += iconShipSVG({ x: x1 + (x2 - x1) * legP, y: y1 + (y2 - y1) * legP, scale: 1.1, hullColor: "#3a2a1c", sailColor: PALETTE.cream });
+      }
+      const arriveP = progress(t, legStart + leg.dur, 0.4, ease.outBack);
+      const arriveLabelP = fadeIn(t, legStart + leg.dur + 0.15, 0.4);
+      const [tx, ty] = projectLonLat(fleetLand, leg.to.lon, leg.to.lat);
+      out += `<g transform="translate(${tx},${ty})" opacity="${arriveP.toFixed(3)}">
+        <circle r="5.5" fill="${PALETTE.sunsetOrange}" stroke="${PALETTE.cream}" stroke-width="1.2"/>
+        <text x="10" y="-8" font-family="${FONTS.sans}" font-size="13" letter-spacing="1.2"
+          fill="${PALETTE.cream}" opacity="${arriveLabelP.toFixed(3)}">${escapeXML(leg.label)}</text>
+      </g>`;
+    }
+    legStart += leg.dur + 0.3;
+  }
+
+  out += `</g>`;
+
+  const titleP = fadeIn(t, start + 0.2, 0.5);
+  out += `<text x="50%" y="90" text-anchor="middle" font-family="${FONTS.sans}" font-size="22" letter-spacing="3"
+    fill="${PALETTE.cream}" opacity="${titleP.toFixed(3)}">THE FIRST FLEET'S VOYAGE</text>`;
+  const noteP = fadeIn(t, start + 1.6, 0.6);
+  out += `<text x="50%" y="${FRAME_H - 60}" text-anchor="middle" font-family="${FONTS.sans}" font-size="15"
+    fill="${PALETTE.sandstoneLight}" opacity="${(noteP * 0.75).toFixed(3)}">modern coastlines shown — route is schematic</text>`;
+
+  return out;
+}
+
+function renderFrame(tLocal) {
+  let svg = "";
+  if (tLocal < BEAT.newgatePrison) {
+    svg = chapterTitleCardSVG({
+      w: W, h: FRAME_H, t: tLocal, start: BEAT.title,
+      chapterLabel: "Chapter Four",
+      title: "The Prison at the End of the World",
+    });
+  } else if (tLocal < BEAT.declaration) {
+    svg = pictureBeatSVG({
+      href: "/images/31_newgate_prison.jpg", imgW: 1920, imgH: 1258,
+      t: tLocal, start: BEAT.newgatePrison, duration: BEAT.declaration - BEAT.newgatePrison,
+      camFrom: 1.0, camTo: 1.12,
+      label: "NEWGATE PRISON, LONDON",
+    });
+  } else if (tLocal < BEAT.firstFleetPainting) {
+    svg = pictureBeatSVG({
+      href: "/images/32_declaration_independence.jpg", imgW: 1213, imgH: 1440,
+      t: tLocal, start: BEAT.declaration, duration: BEAT.firstFleetPainting - BEAT.declaration,
+      camFrom: 1.0, camTo: 1.1,
+      label: "1776 · AMERICAN INDEPENDENCE",
+    });
+  } else if (tLocal < BEAT.firstFleetMap) {
+    svg = pictureBeatSVG({
+      href: "/images/33_first_fleet_botany_bay.jpg", imgW: 1920, imgH: 1321,
+      t: tLocal, start: BEAT.firstFleetPainting, duration: BEAT.firstFleetMap - BEAT.firstFleetPainting,
+      camFrom: 1.0, camTo: 1.14, panFromX: 0, panToX: -12,
+      label: "THE FIRST FLEET",
+    });
+  } else if (tLocal < BEAT.arthurPhillip) {
+    svg = firstFleetMapSVG(tLocal);
+  } else if (tLocal < BEAT.flagRaising) {
+    svg = pictureBeatSVG({
+      href: "/images/34_arthur_phillip.jpg", imgW: 1223, imgH: 1440,
+      t: tLocal, start: BEAT.arthurPhillip, duration: BEAT.flagRaising - BEAT.arthurPhillip,
+      camFrom: 1.0, camTo: 1.08,
+      label: "CAPTAIN ARTHUR PHILLIP",
+    });
+  } else if (tLocal < BEAT.convictRecords) {
+    svg = pictureBeatSVG({
+      href: "/images/34b_flag_raising_1788.jpg", imgW: 1977, imgH: 1440,
+      t: tLocal, start: BEAT.flagRaising, duration: BEAT.convictRecords - BEAT.flagRaising,
+      camFrom: 1.0, camTo: 1.12,
+      label: "SYDNEY COVE · 26 JANUARY 1788",
+    });
+  } else if (tLocal < BEAT.sydneyCove1788) {
+    svg = pictureBeatSVG({
+      href: "/images/35_convict_records.jpg", imgW: 948, imgH: 1440,
+      t: tLocal, start: BEAT.convictRecords, duration: BEAT.sydneyCove1788 - BEAT.convictRecords,
+      camFrom: 1.0, camTo: 1.1,
+      label: "CONVICT RECORDS",
+    });
+  } else if (tLocal < BEAT.eoraHarbour) {
+    svg = pictureBeatSVG({
+      href: "/images/36_sydney_cove_1788.jpg", imgW: 1920, imgH: 1376,
+      t: tLocal, start: BEAT.sydneyCove1788, duration: BEAT.eoraHarbour - BEAT.sydneyCove1788,
+      camFrom: 1.0, camTo: 1.12, panFromX: 0, panToX: -12,
+      label: "SYDNEY COVE, 1788",
+    });
+  } else if (tLocal < BEAT.hydeParkBarracks) {
+    svg = pictureBeatSVG({
+      href: "/images/37_sydney_harbour_headland.jpg", imgW: 2400, imgH: 1585,
+      t: tLocal, start: BEAT.eoraHarbour, duration: BEAT.hydeParkBarracks - BEAT.eoraHarbour,
+      camFrom: 1.0, camTo: 1.08,
+      label: "EORA COUNTRY",
+    });
+  } else {
+    svg = pictureBeatSVG({
+      href: "/images/38_hyde_park_barracks.jpg", imgW: 2400, imgH: 1350,
+      t: tLocal, start: BEAT.hydeParkBarracks, duration: BEAT.end - BEAT.hydeParkBarracks,
+      camFrom: 1.0, camTo: 1.1,
+      label: "CONVICT-BUILT SYDNEY",
+    });
+  }
+
+  if (captionLines) {
+    const line = findActiveCaption(captionLines, tLocal);
+    if (line) svg += captionBarSVG({ w: W, h: FRAME_H, text: line.text });
+  }
+
+  rootEl.innerHTML = svg;
+}
+
+window.__ready = ensureAssets();
+window.__renderFrame = renderFrame;
+window.__END_TIME = BEAT.end;
+renderFrame(0);
+</script>
+</body>
+</html>
