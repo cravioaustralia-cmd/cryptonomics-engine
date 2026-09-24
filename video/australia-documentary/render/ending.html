@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>Ending</title>
+<style>
+  @font-face { font-family: "Playfair Display"; src: url("/style/fonts/playfair-display-latin-700-normal.woff2") format("woff2"); font-weight: 700; }
+  @font-face { font-family: "Playfair Display"; src: url("/style/fonts/playfair-display-latin-400-normal.woff2") format("woff2"); font-weight: 400; }
+  @font-face { font-family: "Source Sans 3"; src: url("/style/fonts/source-sans-3-latin-600-normal.woff2") format("woff2"); font-weight: 600; }
+  @font-face { font-family: "Source Sans 3"; src: url("/style/fonts/source-sans-3-latin-400-normal.woff2") format("woff2"); font-weight: 400; }
+  html, body { margin: 0; padding: 0; background: #000; }
+  svg { display: block; }
+  .cam { transform-origin: 50% 50%; }
+</style>
+</head>
+<body>
+<svg id="stage" width="1920" height="1080" viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg">
+  <defs id="defs"></defs>
+  <g id="root"></g>
+</svg>
+
+<script type="module">
+import { PALETTE, FONTS, ease, progress, fadeIn, styleDefsSVG, vignetteOverlayRect,
+         warmGradeOverlayRect, pushPan, pictureLayerSVG,
+         buildCaptionLines, findActiveCaption, captionBarSVG, escapeXML } from "/style/style.js";
+import { emuSVG } from "/style/characters.js";
+
+const W = 1920, FRAME_H = 1080;
+const defsEl = document.getElementById("defs");
+const rootEl = document.getElementById("root");
+defsEl.innerHTML = styleDefsSVG();
+
+let captionLines = null;
+
+// The "ending" (per PROMPT.md Step 13: 10 chapters, then the ending +
+// closing cards — this is not one of the 10 numbered chapters, so no
+// title card). Local time 0 = global transcript time 822.65s ("So here's
+// that question...") through the end of the final mix (873.72s). The very
+// last word, "stranger.", is missing from transcript.json (whisper cut it
+// off at the file boundary); its timing here (868.88-869.6) is inferred
+// from direct audio-energy analysis of audio/australia-history-vo.mp3,
+// not guessed — the only such exception in this project.
+const GLOBAL_OFFSET = 822.65;
+const BEAT = {
+  uluru: 0.0,
+  melbourneCrowd: 842.22 - GLOBAL_OFFSET, // 19.57 "Today, it's a nation of over 27 million..."
+  sydneySkyline: 852.39 - GLOBAL_OFFSET,  // 29.74 "A prison that became a democracy..."
+  emuEnding: 857.39 - GLOBAL_OFFSET,      // 34.74 "And yes, a country that lost a war to emus."
+  end: 873.717551 - GLOBAL_OFFSET,        // 51.07 — full remaining length of the final mix
+};
+
+async function ensureAssets() {
+  const res = await fetch("/transcript.json");
+  const data = await res.json();
+  // Ending's words: index 1941 ("So") through 2058 ("even"), inclusive,
+  // plus the inferred final word "stranger." (see note above).
+  const chapterWords = data.words.slice(1941, 2059).map((w) => ({
+    text: w.text,
+    start: w.start - GLOBAL_OFFSET,
+    end: w.end - GLOBAL_OFFSET,
+  }));
+  chapterWords.push({ text: "stranger.", start: 868.88 - GLOBAL_OFFSET, end: 869.6 - GLOBAL_OFFSET });
+  captionLines = buildCaptionLines(chapterWords, { maxWords: 7 });
+}
+
+function pictureBeatSVG({ href, imgW, imgH, t, start, duration, camFrom = 1.0, camTo = 1.12, panFromX = 0, panToX = 0, panFromY = 0, panToY = 0 }) {
+  const cam = pushPan(t, { start, duration, from: camFrom, to: camTo, fromX: panFromX, toX: panToX, fromY: panFromY, toY: panToY, easeFn: ease.inOutCubic });
+  return `
+    <g class="cam" style="transform:${cam}">
+      ${pictureLayerSVG({ href, imgW, imgH, frameW: W, frameH: FRAME_H })}
+    </g>
+    ${warmGradeOverlayRect(W, FRAME_H)}
+    ${vignetteOverlayRect(W, FRAME_H)}
+    <rect x="0" y="0" width="${W}" height="${FRAME_H}" filter="url(#filmGrain)" opacity="0.38"/>
+  `;
+}
+
+// ---- The emu mascot's final bow — the same character from the hook and
+// the Emu War, now looking smug about the whole affair. ----
+function emuEndingSVG(t) {
+  const start = BEAT.emuEnding;
+  let out = `
+    <linearGradient id="endSky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="${PALETTE.outbackNightIndigo}"/>
+      <stop offset="100%" stop-color="${PALETTE.sunsetOrange}" stop-opacity="0.55"/>
+    </linearGradient>
+    <rect x="0" y="0" width="${W}" height="${FRAME_H}" fill="url(#endSky)"/>
+    <rect x="0" y="780" width="${W}" height="${FRAME_H - 780}" fill="${PALETTE.redOchreDeep}"/>
+  `;
+  const pushP = progress(t, start, 6.0, ease.outCubic);
+  const emuScale = 2.9 + pushP * 0.5;
+  out += emuSVG({ x: 960, y: 800, scale: emuScale, t, walking: false, blinking: true, neckBend: 0.35, mood: 1.0 });
+
+  const subscribeStart = 862.68 - GLOBAL_OFFSET; // "subscribe,"
+  const subP = progress(t, subscribeStart, 0.5, ease.outBack);
+  if (subP > 0) {
+    out += `<g transform="translate(960,150) scale(${subP.toFixed(3)})">
+      <rect x="-260" y="-50" width="520" height="90" rx="10" fill="${PALETTE.ink}" opacity="0.75"/>
+      <text x="0" y="12" text-anchor="middle" font-family="${FONTS.serif}" font-weight="700" font-size="42" fill="${PALETTE.cream}">SUBSCRIBE FOR MORE</text>
+    </g>`;
+  }
+
+  return out + `<rect x="0" y="0" width="${W}" height="${FRAME_H}" filter="url(#filmGrain)" opacity="0.3"/>`;
+}
+
+function renderFrame(tLocal) {
+  let svg = "";
+  if (tLocal < BEAT.melbourneCrowd) {
+    svg = pictureBeatSVG({
+      href: "/images/90_uluru_sunset_wide.jpg", imgW: 1280, imgH: 854,
+      t: tLocal, start: BEAT.uluru, duration: BEAT.melbourneCrowd - BEAT.uluru,
+      camFrom: 1.0, camTo: 1.14,
+    });
+  } else if (tLocal < BEAT.sydneySkyline) {
+    svg = pictureBeatSVG({
+      href: "/images/91_melbourne_crowd.jpg", imgW: 1920, imgH: 1280,
+      t: tLocal, start: BEAT.melbourneCrowd, duration: BEAT.sydneySkyline - BEAT.melbourneCrowd,
+      camFrom: 1.0, camTo: 1.1, panFromX: 0, panToX: -12,
+    });
+  } else if (tLocal < BEAT.emuEnding) {
+    svg = pictureBeatSVG({
+      href: "/images/92_sydney_skyline.jpg", imgW: 1280, imgH: 869,
+      t: tLocal, start: BEAT.sydneySkyline, duration: BEAT.emuEnding - BEAT.sydneySkyline,
+      camFrom: 1.0, camTo: 1.12,
+    });
+  } else {
+    svg = emuEndingSVG(tLocal);
+  }
+
+  if (captionLines) {
+    const line = findActiveCaption(captionLines, tLocal);
+    if (line) svg += captionBarSVG({ w: W, h: FRAME_H, text: line.text });
+  }
+
+  rootEl.innerHTML = svg;
+}
+
+window.__ready = ensureAssets();
+window.__renderFrame = renderFrame;
+window.__END_TIME = BEAT.end;
+renderFrame(0);
+</script>
+</body>
+</html>
