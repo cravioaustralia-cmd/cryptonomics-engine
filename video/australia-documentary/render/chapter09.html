@@ -109,9 +109,8 @@ function poolGagSVG(t) {
   out += `<rect x="900" y="500" width="16" height="110" fill="#6b5a44"/>`;
   out += `<g>
     <rect x="760" y="380" width="400" height="130" rx="8" fill="${PALETTE.cream}" stroke="#6b5a44" stroke-width="4"/>
-    <text x="960" y="425" text-anchor="middle" font-family="${FONTS.serif}" font-weight="700" font-size="24" fill="${PALETTE.ink}">HAROLD HOLT</text>
-    <text x="960" y="455" text-anchor="middle" font-family="${FONTS.serif}" font-size="20" fill="${PALETTE.ink}">MEMORIAL</text>
-    <text x="960" y="485" text-anchor="middle" font-family="${FONTS.serif}" font-size="20" fill="${PALETTE.ink}">SWIMMING CENTRE</text>
+    <text x="960" y="435" text-anchor="middle" font-family="${FONTS.serif}" font-weight="700" font-size="26" fill="${PALETTE.ink}">HAROLD HOLT</text>
+    <text x="960" y="472" text-anchor="middle" font-family="${FONTS.serif}" font-size="22" fill="${PALETTE.ink}">SWIMMING CENTRE</text>
   </g>`;
   const curtainX = -600 * revealP;
   out += `<rect x="${760 + curtainX}" y="380" width="400" height="130" rx="8" fill="${PALETTE.redOchre}" opacity="${(1 - revealP).toFixed(3)}"/>`;
