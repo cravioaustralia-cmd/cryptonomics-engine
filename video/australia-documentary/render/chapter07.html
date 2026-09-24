@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>Chapter 7</title>
+<style>
+  @font-face { font-family: "Playfair Display"; src: url("/style/fonts/playfair-display-latin-700-normal.woff2") format("woff2"); font-weight: 700; }
+  @font-face { font-family: "Playfair Display"; src: url("/style/fonts/playfair-display-latin-400-normal.woff2") format("woff2"); font-weight: 400; }
+  @font-face { font-family: "Source Sans 3"; src: url("/style/fonts/source-sans-3-latin-600-normal.woff2") format("woff2"); font-weight: 600; }
+  @font-face { font-family: "Source Sans 3"; src: url("/style/fonts/source-sans-3-latin-400-normal.woff2") format("woff2"); font-weight: 400; }
+  html, body { margin: 0; padding: 0; background: #000; }
+  svg { display: block; }
+  .cam { transform-origin: 50% 50%; }
+</style>
+</head>
+<body>
+<svg id="stage" width="1920" height="1080" viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg">
+  <defs id="defs"></defs>
+  <g id="root"></g>
+</svg>
+
+<script type="module">
+import { PALETTE, FONTS, ease, progress, fadeIn, styleDefsSVG, vignetteOverlayRect,
+         warmGradeOverlayRect, pushPan, chapterTitleCardSVG, pictureLayerSVG,
+         buildCaptionLines, findActiveCaption, captionBarSVG, escapeXML } from "/style/style.js";
+import { loadCoastline, mapRevealSVG, coastlinePathD, projectLonLat,
+         loadFleetRouteLand, shipRouteSVG } from "/style/maps.js";
+import { iconShipSVG } from "/style/characters.js";
+
+const W = 1920, FRAME_H = 1080;
+const defsEl = document.getElementById("defs");
+const rootEl = document.getElementById("root");
+defsEl.innerHTML = styleDefsSVG();
+
+let captionLines = null;
+let coastline = null;
+let fleetLand = null;
+
+// Chapter 7 local time 0 = global transcript time 501.01s ("On the first of
+// January 1901...") through 574.14s ("...stops to remember."), per
+// transcript.json (words 1211-1387).
+const GLOBAL_OFFSET = 501.01;
+const BEAT = {
+  title: 0.0,
+  federationMap: 2.5,
+  barton: 508.13 - GLOBAL_OFFSET,        // 7.12  "Edmund Barton became..."
+  canberra: 511.16 - GLOBAL_OFFSET,      // 10.15 "But where to put the capital?..."
+  suffrage: 524.64 - GLOBAL_OFFSET,      // 23.63 "The new nation was a pioneer..."
+  dictationTest: 535.09 - GLOBAL_OFFSET, // 34.08 "Yet one of the first laws..."
+  gallipoliPhoto: 545.6 - GLOBAL_OFFSET, // 44.59 "Then in 1915 came Gallipoli."
+  gallipoliMap: 549.17 - GLOBAL_OFFSET,  // 48.16 "Australian and New Zealand troops..."
+  wwiStats: 558.7 - GLOBAL_OFFSET,       // 57.69 "From a population under 5 million..."
+  anzacDay: 568.4 - GLOBAL_OFFSET,       // 67.39 "Every year on the 25th of April..."
+  end: 574.14 - GLOBAL_OFFSET + 0.5,     // 73.63
+};
+
+async function ensureAssets() {
+  [coastline, fleetLand] = await Promise.all([loadCoastline(), loadFleetRouteLand()]);
+  const res = await fetch("/transcript.json");
+  const data = await res.json();
+  // Chapter 7's words: index 1211 ("On") through 1387 ("remember."), inclusive.
+  const chapterWords = data.words.slice(1211, 1388).map((w) => ({
+    text: w.text,
+    start: w.start - GLOBAL_OFFSET,
+    end: w.end - GLOBAL_OFFSET,
+  }));
+  captionLines = buildCaptionLines(chapterWords, { maxWords: 7 });
+}
+
+function pictureBeatSVG({ href, imgW, imgH, t, start, duration, label, camFrom = 1.0, camTo = 1.14, panFromX = 0, panToX = 0, panFromY = 0, panToY = 0 }) {
+  const cam = pushPan(t, { start, duration, from: camFrom, to: camTo, fromX: panFromX, toX: panToX, fromY: panFromY, toY: panToY });
+  let out = `
+    <g class="cam" style="transform:${cam}">
+      ${pictureLayerSVG({ href, imgW, imgH, frameW: W, frameH: FRAME_H })}
+    </g>
+    ${warmGradeOverlayRect(W, FRAME_H)}
+    ${vignetteOverlayRect(W, FRAME_H)}
+    <rect x="0" y="0" width="${W}" height="${FRAME_H}" filter="url(#filmGrain)" opacity="0.38"/>
+  `;
+  if (label) {
+    const p = fadeIn(t, start + 0.35, 0.6);
+    out += `<text x="50%" y="100" text-anchor="middle" font-family="${FONTS.sans}" font-size="22" letter-spacing="3"
+      fill="${PALETTE.cream}" opacity="${p.toFixed(3)}">${escapeXML(label)}</text>`;
+  }
+  return out;
+}
+
+// ---- Federation map: six colonial capitals join as one Commonwealth ----
+const COLONIES = [
+  { lon: 151.21, lat: -33.87, label: "NSW" },
+  { lon: 144.96, lat: -37.81, label: "VIC" },
+  { lon: 153.03, lat: -27.47, label: "QLD" },
+  { lon: 138.60, lat: -34.93, label: "SA" },
+  { lon: 115.86, lat: -31.95, label: "WA" },
+  { lon: 147.33, lat: -42.88, label: "TAS" },
+];
+
+function federationMapSVG(t) {
+  const start = BEAT.federationMap;
+  const scale = (FRAME_H - 160 - 60) / coastline.height;
+  const mapW = coastline.width * scale;
+  const ox = (W - mapW) / 2;
+  const oy = 140;
+
+  let out = `<rect x="0" y="0" width="${W}" height="${FRAME_H}" fill="${PALETTE.outbackNightIndigoDeep}"/>`;
+  out += `<g transform="translate(${ox},${oy}) scale(${scale})">`;
+  out += mapRevealSVG({ coastline, t, start, drawDuration: 1.0 });
+
+  const unionP = progress(t, start + 3.6, 0.6, ease.outCubic);
+  if (unionP > 0) {
+    out += `<path d="${coastlinePathD(coastline)}" fill="${PALETTE.sunsetOrange}" fill-opacity="${(unionP * 0.55).toFixed(3)}" fill-rule="evenodd"/>`;
+  }
+
+  COLONIES.forEach((c, i) => {
+    const markerStart = start + 0.9 + i * 0.35;
+    const p = progress(t, markerStart, 0.35, ease.outBack);
+    if (p <= 0) return;
+    const [x, y] = projectLonLat(coastline, c.lon, c.lat);
+    const pulse = 1 + 0.12 * Math.sin((t - markerStart) * 4);
+    out += `<g transform="translate(${x},${y}) scale(${p.toFixed(3)})">
+      <circle r="${(6 * pulse).toFixed(2)}" fill="${PALETTE.cream}" opacity="0.9"/>
+    </g>`;
+  });
+
+  out += `</g>`;
+
+  const titleP = fadeIn(t, start + 0.2, 0.5);
+  out += `<text x="50%" y="90" text-anchor="middle" font-family="${FONTS.sans}" font-size="22" letter-spacing="3"
+    fill="${PALETTE.cream}" opacity="${titleP.toFixed(3)}">SIX COLONIES, ONE COMMONWEALTH</text>`;
+  const nationP = fadeIn(t, start + 4.0, 0.5);
+  out += `<text x="50%" y="${FRAME_H - 60}" text-anchor="middle" font-family="${FONTS.serif}" font-size="30"
+    fill="${PALETTE.sandstoneLight}" opacity="${nationP.toFixed(3)}">Commonwealth of Australia · 1 January 1901</text>`;
+
+  return out + warmGradeOverlayRect(W, FRAME_H) + vignetteOverlayRect(W, FRAME_H) +
+    `<rect x="0" y="0" width="${W}" height="${FRAME_H}" filter="url(#filmGrain)" opacity="0.35"/>`;
+}
+
+// ---- Gallipoli map: Australia to ANZAC Cove, reusing the wide UK-to-
+// Australia land silhouette (Turkey falls within the same bounding box) ----
+const ALBANY_PT = { lon: 117.88, lat: -35.02 };  // troops departed from Albany, WA
+const GALLIPOLI_PT = { lon: 26.28, lat: 40.21 };
+
+function gallipoliMapSVG(t) {
+  const start = BEAT.gallipoliMap;
+  const scale = Math.min(
+    (FRAME_H - 140 - 100) / fleetLand.height,
+    (W - 60 * 2) / fleetLand.width,
+  );
+  const mapW = fleetLand.width * scale;
+  const mapH = fleetLand.height * scale;
+  const ox = (W - mapW) / 2;
+  const oy = 140;
+
+  // A somber dimming once "the campaign failed, and thousands died" begins.
+  const solemnP = progress(t, 555.16 - GLOBAL_OFFSET, 1.5, ease.outCubic);
+
+  let out = `<rect x="0" y="0" width="${W}" height="${FRAME_H}" fill="${PALETTE.outbackNightIndigoDeep}"/>`;
+  out += `<g transform="translate(${ox},${oy}) scale(${scale})" opacity="${(1 - solemnP * 0.35).toFixed(3)}">`;
+  out += mapRevealSVG({ coastline: fleetLand, t, start, drawDuration: 1.1 });
+
+  const legStart = start + 1.3;
+  const legDur = 3.0;
+  out += `<g opacity="${progress(t, legStart, 0.3, ease.outCubic).toFixed(3)}">
+    ${shipRouteSVG({ coastline: fleetLand, from: ALBANY_PT, to: GALLIPOLI_PT, t, start: legStart, duration: legDur, color: PALETTE.sunsetOrange })}
+  </g>`;
+  const legP = progress(t, legStart, legDur, ease.inOutCubic);
+  const [ax, ay] = projectLonLat(fleetLand, ALBANY_PT.lon, ALBANY_PT.lat);
+  const [gx, gy] = projectLonLat(fleetLand, GALLIPOLI_PT.lon, GALLIPOLI_PT.lat);
+  if (legP > 0 && legP < 1) {
+    out += iconShipSVG({ x: ax + (gx - ax) * legP, y: ay + (gy - ay) * legP, scale: 1.0, hullColor: "#3a2a1c", sailColor: PALETTE.cream });
+  }
+  const arriveP = progress(t, legStart + legDur, 0.4, ease.outBack);
+  const arriveLabelP = fadeIn(t, legStart + legDur + 0.15, 0.4);
+  out += `<g transform="translate(${gx},${gy})" opacity="${arriveP.toFixed(3)}">
+    <circle r="6" fill="${PALETTE.sunsetOrange}" stroke="${PALETTE.cream}" stroke-width="1.5"/>
+    <text x="12" y="4" font-family="${FONTS.sans}" font-size="15" letter-spacing="1.5"
+      fill="${PALETTE.cream}" opacity="${arriveLabelP.toFixed(3)}">ANZAC COVE · 25 APRIL 1915</text>
+  </g>`;
+  out += `</g>`;
+
+  const titleP = fadeIn(t, start + 0.2, 0.5);
+  out += `<text x="50%" y="90" text-anchor="middle" font-family="${FONTS.sans}" font-size="22" letter-spacing="3"
+    fill="${PALETTE.cream}" opacity="${titleP.toFixed(3)}">GALLIPOLI</text>`;
+  const noteP = fadeIn(t, start + 1.7, 0.6);
+  out += `<text x="50%" y="${FRAME_H - 60}" text-anchor="middle" font-family="${FONTS.sans}" font-size="15"
+    fill="${PALETTE.sandstoneLight}" opacity="${(noteP * 0.7 * (1 - solemnP * 0.5)).toFixed(3)}">modern coastlines shown — route is schematic</text>`;
+
+  return out + warmGradeOverlayRect(W, FRAME_H) + vignetteOverlayRect(W, FRAME_H) +
+    `<rect x="0" y="0" width="${W}" height="${FRAME_H}" filter="url(#filmGrain)" opacity="0.35"/>`;
+}
+
+function renderFrame(tLocal) {
+  let svg = "";
+  if (tLocal < BEAT.federationMap) {
+    svg = chapterTitleCardSVG({
+      w: W, h: FRAME_H, t: tLocal, start: BEAT.title,
+      chapterLabel: "Chapter Seven",
+      title: "A Nation Is Born, and Tested",
+    });
+  } else if (tLocal < BEAT.barton) {
+    svg = federationMapSVG(tLocal);
+  } else if (tLocal < BEAT.canberra) {
+    svg = pictureBeatSVG({
+      href: "/images/55_edmund_barton.jpg", imgW: 1030, imgH: 1440,
+      t: tLocal, start: BEAT.barton, duration: BEAT.canberra - BEAT.barton,
+      camFrom: 1.0, camTo: 1.08,
+      label: "EDMUND BARTON, FIRST PRIME MINISTER",
+    });
+  } else if (tLocal < BEAT.suffrage) {
+    svg = pictureBeatSVG({
+      href: "/images/56_canberra_plan.jpg", imgW: 1140, imgH: 1440,
+      t: tLocal, start: BEAT.canberra, duration: BEAT.suffrage - BEAT.canberra,
+      camFrom: 1.0, camTo: 1.1,
+      label: "WALTER BURLEY GRIFFIN, DESIGNING CANBERRA",
+    });
+  } else if (tLocal < BEAT.dictationTest) {
+    svg = pictureBeatSVG({
+      href: "/images/57_sa_suffrage.jpg", imgW: 1067, imgH: 1440,
+      t: tLocal, start: BEAT.suffrage, duration: BEAT.dictationTest - BEAT.suffrage,
+      camFrom: 1.0, camTo: 1.08,
+      label: "SOUTH AUSTRALIAN WOMEN'S SUFFRAGE · 1894",
+    });
+  } else if (tLocal < BEAT.gallipoliPhoto) {
+    svg = pictureBeatSVG({
+      href: "/images/58_dictation_test.jpg", imgW: 1139, imgH: 1440,
+      t: tLocal, start: BEAT.dictationTest, duration: BEAT.gallipoliPhoto - BEAT.dictationTest,
+      camFrom: 1.0, camTo: 1.08,
+      label: "THE WHITE AUSTRALIA POLICY",
+    });
+  } else if (tLocal < BEAT.gallipoliMap) {
+    svg = pictureBeatSVG({
+      href: "/images/59_anzac_cove.jpg", imgW: 1918, imgH: 1440,
+      t: tLocal, start: BEAT.gallipoliPhoto, duration: BEAT.gallipoliMap - BEAT.gallipoliPhoto,
+      camFrom: 1.0, camTo: 1.08,
+      label: "GALLIPOLI",
+    });
+  } else if (tLocal < BEAT.wwiStats) {
+    svg = gallipoliMapSVG(tLocal);
+  } else if (tLocal < BEAT.anzacDay) {
+    svg = pictureBeatSVG({
+      href: "/images/60_australian_soldiers_1915.jpg", imgW: 1920, imgH: 1232,
+      t: tLocal, start: BEAT.wwiStats, duration: BEAT.anzacDay - BEAT.wwiStats,
+      camFrom: 1.0, camTo: 1.1, panFromX: 0, panToX: -10,
+      label: "400,000+ ENLISTED · 60,000+ NEVER CAME HOME",
+    });
+  } else {
+    svg = pictureBeatSVG({
+      href: "/images/61_anzac_dawn_service.jpg", imgW: 1500, imgH: 1000,
+      t: tLocal, start: BEAT.anzacDay, duration: BEAT.end - BEAT.anzacDay,
+      camFrom: 1.0, camTo: 1.1,
+      label: "ANZAC DAY · 25 APRIL",
+    });
+  }
+
+  if (captionLines) {
+    const line = findActiveCaption(captionLines, tLocal);
+    if (line) svg += captionBarSVG({ w: W, h: FRAME_H, text: line.text });
+  }
+
+  rootEl.innerHTML = svg;
+}
+
+window.__ready = ensureAssets();
+window.__renderFrame = renderFrame;
+window.__END_TIME = BEAT.end;
+renderFrame(0);
+</script>
+</body>
+</html>
