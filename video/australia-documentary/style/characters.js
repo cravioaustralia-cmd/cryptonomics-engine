@@ -186,6 +186,50 @@ export function bicorneHatSVG({ x, y, scale = 1, rotate = 0, color = "#1c2540" }
 }
 
 /**
+ * horseAndRiderSVG - a galloping flat-2D horse with a rider brandishing a
+ * sword, for Chapter 8's Francis de Groot gag. Feet-at-ground origin
+ * (0,0), facing right by default (facing=-1 flips to face left).
+ * swordSwing (0..1) rotates the sword arm through a slash.
+ */
+export function horseAndRiderSVG({
+  x, y, scale = 1, t = 0, facing = 1, gallop = true, swordSwing = 0,
+  horseColor = "#3a2a1c", riderColor = "#1c2540",
+}) {
+  const phase = gallop ? t * 10 : 0;
+  const frontLeg = Math.sin(phase) * 35;
+  const backLeg = Math.sin(phase + Math.PI) * 35;
+  const bob = gallop ? Math.abs(Math.sin(phase)) * 8 : 0;
+  const swordAngle = -60 + swordSwing * 150;
+  return `
+    <g transform="translate(${x},${y}) scale(${facing},1) scale(${scale})">
+      <g transform="translate(0,${-70 - bob})">
+        <!-- legs -->
+        <rect x="-38" y="0" width="9" height="46" rx="3" fill="${horseColor}" transform="rotate(${frontLeg} -34 0)"/>
+        <rect x="-20" y="0" width="9" height="46" rx="3" fill="${horseColor}" transform="rotate(${-frontLeg * 0.6} -16 0)"/>
+        <rect x="16" y="0" width="9" height="46" rx="3" fill="${horseColor}" transform="rotate(${backLeg} 20 0)"/>
+        <rect x="32" y="0" width="9" height="46" rx="3" fill="${horseColor}" transform="rotate(${-backLeg * 0.6} 36 0)"/>
+        <!-- body -->
+        <ellipse cx="0" cy="-20" rx="58" ry="30" fill="${horseColor}"/>
+        <!-- neck + head -->
+        <path d="M -50 -34 C -68 -50, -70 -78, -54 -96 L -40 -88 C -50 -72, -48 -50, -34 -30 Z" fill="${horseColor}"/>
+        <ellipse cx="-58" cy="-98" rx="13" ry="9" fill="${horseColor}"/>
+        <path d="M -70 -100 L -84 -98 L -70 -94 Z" fill="${horseColor}"/>
+        <!-- mane + tail -->
+        <path d="M -48 -92 Q -40 -80 -36 -60 Q -44 -78 -52 -88 Z" fill="#241a12"/>
+        <path d="M 55 -30 Q 78 -20 74 6 Q 62 -10 50 -18 Z" fill="#241a12"/>
+        <!-- rider -->
+        <g transform="translate(-6,-46)">
+          <rect x="-11" y="-30" width="22" height="34" rx="6" fill="${riderColor}"/>
+          <circle cx="0" cy="-38" r="10" fill="${PALETTE.sandstone}"/>
+          <rect x="-9" y="-26" width="8" height="26" rx="3" fill="${riderColor}" transform="rotate(${swordAngle} -5 -26)"/>
+          <line x1="-5" y1="-26" x2="-5" y2="-70" stroke="#c8c8c8" stroke-width="3" stroke-linecap="round" transform="rotate(${swordAngle} -5 -26)"/>
+        </g>
+      </g>
+    </g>
+  `;
+}
+
+/**
  * machineGunSVG - a simple flat-2D Lewis-gun-style mounted machine gun on
  * a tripod, for the hook's Emu War cold open.
  */

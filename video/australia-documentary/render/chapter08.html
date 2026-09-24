@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>Chapter 8</title>
+<style>
+  @font-face { font-family: "Playfair Display"; src: url("/style/fonts/playfair-display-latin-700-normal.woff2") format("woff2"); font-weight: 700; }
+  @font-face { font-family: "Playfair Display"; src: url("/style/fonts/playfair-display-latin-400-normal.woff2") format("woff2"); font-weight: 400; }
+  @font-face { font-family: "Source Sans 3"; src: url("/style/fonts/source-sans-3-latin-600-normal.woff2") format("woff2"); font-weight: 600; }
+  @font-face { font-family: "Source Sans 3"; src: url("/style/fonts/source-sans-3-latin-400-normal.woff2") format("woff2"); font-weight: 400; }
+  html, body { margin: 0; padding: 0; background: #000; }
+  svg { display: block; }
+  .cam { transform-origin: 50% 50%; }
+</style>
+</head>
+<body>
+<svg id="stage" width="1920" height="1080" viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg">
+  <defs id="defs"></defs>
+  <g id="root"></g>
+</svg>
+
+<script type="module">
+import { PALETTE, FONTS, ease, progress, fadeIn, styleDefsSVG, vignetteOverlayRect,
+         warmGradeOverlayRect, pushPan, chapterTitleCardSVG, pictureLayerSVG,
+         buildCaptionLines, findActiveCaption, captionBarSVG, escapeXML } from "/style/style.js";
+import { emuSVG, soldierSilhouetteSVG, machineGunSVG, wheatFieldSVG, horseAndRiderSVG } from "/style/characters.js";
+
+const W = 1920, FRAME_H = 1080;
+const defsEl = document.getElementById("defs");
+const rootEl = document.getElementById("root");
+defsEl.innerHTML = styleDefsSVG();
+
+let captionLines = null;
+
+// Chapter 8 local time 0 = global transcript time 574.14s ("Okay. I
+// promised you birds.") through 637.52s ("...hold the advance."), per
+// transcript.json (words 1388-1535).
+const GLOBAL_OFFSET = 574.14;
+const BEAT = {
+  title: 0.0,
+  depressionPhoto: 576.53 - GLOBAL_OFFSET, // 2.39  "1932, the Great Depression."
+  emuWarGag: 579.97 - GLOBAL_OFFSET,       // 5.83  "Farmers in Western Australia..."
+  deGrootGag: 601.88 - GLOBAL_OFFSET,      // 27.74 "Same year, the Sydney Harbour Bridge..."
+  darwinBombing: 614.26 - GLOBAL_OFFSET,   // 40.12 "Then the Second World War..."
+  kokoda: 630.97 - GLOBAL_OFFSET,          // 56.83 "Australian troops fought..."
+  end: 637.52 - GLOBAL_OFFSET + 0.5,       // 63.88
+};
+
+async function ensureAssets() {
+  const res = await fetch("/transcript.json");
+  const data = await res.json();
+  // Chapter 8's words: index 1388 ("Okay,") through 1535 ("advance."), inclusive.
+  const chapterWords = data.words.slice(1388, 1536).map((w) => ({
+    text: w.text,
+    start: w.start - GLOBAL_OFFSET,
+    end: w.end - GLOBAL_OFFSET,
+  }));
+  captionLines = buildCaptionLines(chapterWords, { maxWords: 7 });
+}
+
+function pictureBeatSVG({ href, imgW, imgH, t, start, duration, label, camFrom = 1.0, camTo = 1.14, panFromX = 0, panToX = 0, panFromY = 0, panToY = 0 }) {
+  const cam = pushPan(t, { start, duration, from: camFrom, to: camTo, fromX: panFromX, toX: panToX, fromY: panFromY, toY: panToY });
+  let out = `
+    <g class="cam" style="transform:${cam}">
+      ${pictureLayerSVG({ href, imgW, imgH, frameW: W, frameH: FRAME_H })}
+    </g>
+    ${warmGradeOverlayRect(W, FRAME_H)}
+    ${vignetteOverlayRect(W, FRAME_H)}
+    <rect x="0" y="0" width="${W}" height="${FRAME_H}" filter="url(#filmGrain)" opacity="0.38"/>
+  `;
+  if (label) {
+    const p = fadeIn(t, start + 0.35, 0.6);
+    out += `<text x="50%" y="100" text-anchor="middle" font-family="${FONTS.sans}" font-size="22" letter-spacing="3"
+      fill="${PALETTE.cream}" opacity="${p.toFixed(3)}">${escapeXML(label)}</text>`;
+  }
+  return out;
+}
+
+function shakeXY(t, triggerT, duration = 0.35, magnitude = 10) {
+  const p = progress(t, triggerT, duration, ease.linear);
+  if (p <= 0 || p >= 1) return [0, 0];
+  const decay = 1 - p;
+  return [(Math.sin(t * 47) * magnitude * decay), (Math.cos(t * 61) * magnitude * 0.6 * decay)];
+}
+
+function scoreStingSVG(t, start, line1, line2, color = PALETTE.sunsetOrange) {
+  const flashP = progress(t, start, 0.3, ease.linear);
+  const [shakeX, shakeY] = shakeXY(t, start, 0.3, 12);
+  const p1 = progress(t, start, 0.3, ease.outBack);
+  const p2 = progress(t, start + 0.12, 0.35, ease.outBack);
+  let out = `<rect x="0" y="0" width="${W}" height="${FRAME_H}" fill="${PALETTE.outbackNightIndigoDeep}"/>`;
+  out += `<g style="transform: translate(${shakeX}px,${shakeY}px)">
+    <g transform="translate(960,510) scale(${p1.toFixed(3)})">
+      <text x="0" y="-10" text-anchor="middle" font-family="${FONTS.serif}" font-weight="700" font-size="80" fill="${PALETTE.cream}">${escapeXML(line1)}</text>
+    </g>
+    <g transform="translate(960,600) scale(${p2.toFixed(3)})">
+      <text x="0" y="80" text-anchor="middle" font-family="${FONTS.serif}" font-weight="700" font-size="92" fill="${color}">${escapeXML(line2)}</text>
+    </g>
+  </g>`;
+  out += `<rect x="0" y="0" width="${W}" height="${FRAME_H}" fill="${PALETTE.cream}" opacity="${Math.max(0, 1 - flashP * 5).toFixed(2)}"/>`;
+  return out + warmGradeOverlayRect(W, FRAME_H) + vignetteOverlayRect(W, FRAME_H);
+}
+
+// ---- The Great Emu War, 1932 ----
+const STING_START_OFFSET = 600.2 - GLOBAL_OFFSET; // "Emu one, army zero."
+
+function emuWarGagSVG(t) {
+  const start = BEAT.emuWarGag;
+  if (t >= STING_START_OFFSET) {
+    return scoreStingSVG(t, STING_START_OFFSET, "EMU: 1", "ARMY: 0");
+  }
+
+  const camScale = 1.0 + progress(t, start, STING_START_OFFSET - start, ease.linear) * 0.15;
+  let out = `<g class="cam" style="transform: scale(${camScale.toFixed(3)})">`;
+  out += wheatFieldSVG({ w: W, h: FRAME_H });
+
+  out += machineGunSVG({ x: W * 0.5, y: FRAME_H * 0.72, scale: 2.6 });
+  const soldierArm = -35 + Math.sin(t * 30) * 4;
+  out += soldierSilhouetteSVG({ x: W * 0.5 - 130, y: FRAME_H * 0.74, scale: 2.7, armAngle: soldierArm, legAngle: 4 });
+  out += soldierSilhouetteSVG({ x: W * 0.5 + 140, y: FRAME_H * 0.75, scale: 2.7, armAngle: -15, legAngle: -4 });
+
+  // Muzzle flash + scattering chaos once the guns open up.
+  const fireStart = 586.5 - GLOBAL_OFFSET; // "sends soldiers with machine guns"
+  const firing = t > fireStart;
+  if (firing && Math.floor(t * 14) % 2 === 0) {
+    out += `<circle cx="${W * 0.5 + 90}" cy="${FRAME_H * 0.7}" r="16" fill="#ffe9a8" opacity="0.85"/>`;
+  }
+
+  const scatterStart = 590.03 - GLOBAL_OFFSET; // "The emus scattered, dodged..."
+  const scatterP = progress(t, scatterStart, 3.4, ease.outCubic);
+  const emuCount = 7;
+  for (let i = 0; i < emuCount; i++) {
+    const angle = (i / emuCount) * Math.PI * 2 + i * 0.4;
+    const dist = firing ? scatterP * (260 + (i % 3) * 70) : 0;
+    const baseX = W * 0.5 + Math.cos(i * 1.7) * 220;
+    const baseY = FRAME_H * 0.86 + (i % 3) * 10;
+    const ex = baseX + Math.cos(angle) * dist;
+    const ey = baseY + Math.sin(angle) * dist * 0.3 - (firing ? Math.abs(Math.sin(t * 8 + i)) * 14 : 0);
+    out += emuSVG({ x: ex, y: ey, scale: 1.5 - (i % 3) * 0.12, t: t + i * 0.6, walking: true, blinking: false, neckBend: firing ? -0.4 : 0.15, mood: 0.3 });
+  }
+
+  const titleP = fadeIn(t, start + 0.1, 0.5);
+  out += `<text x="50%" y="90" text-anchor="middle" font-family="${FONTS.serif}" font-size="34"
+    fill="${PALETTE.cream}" opacity="${titleP.toFixed(3)}">The Great Emu War · 1932</text>`;
+
+  out += `</g>`;
+  return out + warmGradeOverlayRect(W, FRAME_H) + vignetteOverlayRect(W, FRAME_H) +
+    `<rect x="0" y="0" width="${W}" height="${FRAME_H}" filter="url(#filmGrain)" opacity="0.35"/>`;
+}
+
+// ---- Francis de Groot crashes the Harbour Bridge opening, 1932 ----
+function bridgeSceneSVG() {
+  // A bright, festive daytime sky (the real 1932 opening was a daytime
+  // ceremony) — also gives the dark horse/rider/crowd silhouettes contrast
+  // to read against, instead of blending into a night-toned background.
+  return `
+    <linearGradient id="bridgeSky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#bcd4de"/>
+      <stop offset="100%" stop-color="${PALETTE.sandstoneLight}"/>
+    </linearGradient>
+    <rect x="0" y="0" width="${W}" height="${FRAME_H}" fill="url(#bridgeSky)"/>
+    <path d="M -100 780 Q 960 260 2020 780" stroke="#4a3b2c" stroke-width="26" fill="none"/>
+    <path d="M -100 830 Q 960 340 2020 830" stroke="#3a2e22" stroke-width="14" fill="none"/>
+    <rect x="0" y="820" width="${W}" height="${FRAME_H - 820}" fill="${PALETTE.sandstone}"/>
+  `;
+}
+
+function deGrootGagSVG(t) {
+  const start = BEAT.deGrootGag;
+  const gallopStart = 610.03 - GLOBAL_OFFSET; // "galloped in on a horse"
+  const slashStart = 611.6 - GLOBAL_OFFSET;   // "and slashed it with a sword"
+  const [shakeX, shakeY] = shakeXY(t, slashStart + 0.15, 0.3, 10);
+
+  let out = `<g style="transform: translate(${shakeX}px,${shakeY}px)">`;
+  out += bridgeSceneSVG();
+
+  // Premier with scissors, waiting by the ribbon.
+  out += soldierSilhouetteSVG({ x: 960, y: 800, scale: 2.0, armAngle: -8, legAngle: 0, color: "#1c2540" });
+
+  const slashP = progress(t, slashStart, 0.35, ease.outCubic);
+  const ribbonCut = slashP >= 1;
+  if (!ribbonCut) {
+    out += `<rect x="700" y="750" width="520" height="10" fill="${PALETTE.sunsetOrange}"/>`;
+  } else {
+    const fallP = progress(t, slashStart + 0.35, 1.2, ease.inCubic);
+    out += `<rect x="700" y="${750 + fallP * 300}" width="240" height="10" fill="${PALETTE.sunsetOrange}" transform="rotate(${-30 * fallP} 820 755)" opacity="${(1 - fallP * 0.6).toFixed(2)}"/>`;
+    out += `<rect x="980" y="${750 + fallP * 300}" width="240" height="10" fill="${PALETTE.sunsetOrange}" transform="rotate(${30 * fallP} 1100 755)" opacity="${(1 - fallP * 0.6).toFixed(2)}"/>`;
+  }
+
+  const gallopP = progress(t, gallopStart, 1.8, ease.linear);
+  const horseX = 1900 - gallopP * 1150;
+  out += horseAndRiderSVG({
+    x: horseX, y: 800, scale: 1.9, t, facing: -1,
+    gallop: gallopP > 0 && gallopP < 1,
+    swordSwing: slashP,
+  });
+
+  // Bright sky behind this scene, so title/caption text needs a dark
+  // backing bar to stay readable (unlike the night-toned map scenes).
+  const titleP = fadeIn(t, start + 0.1, 0.5);
+  out += `<rect x="${960 - 260}" y="56" width="520" height="44" rx="6" fill="${PALETTE.ink}" opacity="${(titleP * 0.6).toFixed(3)}"/>
+    <text x="50%" y="90" text-anchor="middle" font-family="${FONTS.serif}" font-size="34"
+    fill="${PALETTE.cream}" opacity="${titleP.toFixed(3)}">Sydney Harbour Bridge · 1932</text>`;
+
+  const peakP = fadeIn(t, slashStart + 0.6, 0.5);
+  out += `<rect x="${960 - 170}" y="${FRAME_H - 96}" width="340" height="46" rx="6" fill="${PALETTE.ink}" opacity="${(peakP * 0.6).toFixed(3)}"/>
+    <text x="50%" y="${FRAME_H - 60}" text-anchor="middle" font-family="${FONTS.serif}" font-size="30"
+    fill="${PALETTE.sunsetOrange}" opacity="${peakP.toFixed(3)}">Peak Australia.</text>`;
+
+  out += `</g>`;
+  return out + warmGradeOverlayRect(W, FRAME_H) + vignetteOverlayRect(W, FRAME_H) +
+    `<rect x="0" y="0" width="${W}" height="${FRAME_H}" filter="url(#filmGrain)" opacity="0.35"/>`;
+}
+
+function renderFrame(tLocal) {
+  let svg = "";
+  if (tLocal < BEAT.depressionPhoto) {
+    svg = chapterTitleCardSVG({
+      w: W, h: FRAME_H, t: tLocal, start: BEAT.title,
+      chapterLabel: "Chapter Eight",
+      title: "Emus, Bridges, and Bombs",
+    });
+  } else if (tLocal < BEAT.emuWarGag) {
+    svg = pictureBeatSVG({
+      href: "/images/63_great_depression.jpg", imgW: 1920, imgH: 1436,
+      t: tLocal, start: BEAT.depressionPhoto, duration: BEAT.emuWarGag - BEAT.depressionPhoto,
+      camFrom: 1.0, camTo: 1.1,
+      label: "THE GREAT DEPRESSION · 1932",
+    });
+  } else if (tLocal < BEAT.deGrootGag) {
+    svg = emuWarGagSVG(tLocal);
+  } else if (tLocal < BEAT.darwinBombing) {
+    svg = deGrootGagSVG(tLocal);
+  } else if (tLocal < BEAT.kokoda) {
+    svg = pictureBeatSVG({
+      href: "/images/68_bombing_darwin.jpg", imgW: 1920, imgH: 1244,
+      t: tLocal, start: BEAT.darwinBombing, duration: BEAT.kokoda - BEAT.darwinBombing,
+      camFrom: 1.0, camTo: 1.08,
+      label: "BOMBING OF DARWIN · 19 FEBRUARY 1942",
+    });
+  } else {
+    svg = pictureBeatSVG({
+      href: "/images/69_kokoda_track.jpg", imgW: 1920, imgH: 1389,
+      t: tLocal, start: BEAT.kokoda, duration: BEAT.end - BEAT.kokoda,
+      camFrom: 1.0, camTo: 1.1, panFromX: 0, panToX: -10,
+      label: "THE KOKODA TRACK",
+    });
+  }
+
+  if (captionLines) {
+    const line = findActiveCaption(captionLines, tLocal);
+    if (line) svg += captionBarSVG({ w: W, h: FRAME_H, text: line.text });
+  }
+
+  rootEl.innerHTML = svg;
+}
+
+window.__ready = ensureAssets();
+window.__renderFrame = renderFrame;
+window.__END_TIME = BEAT.end;
+renderFrame(0);
+</script>
+</body>
+</html>
