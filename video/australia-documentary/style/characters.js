@@ -147,3 +147,117 @@ export function soldierSilhouetteSVG({ x, y, scale = 1, armAngle = -20, legAngle
     </g>
   `;
 }
+
+/**
+ * machineGunSVG - a simple flat-2D Lewis-gun-style mounted machine gun on
+ * a tripod, for the hook's Emu War cold open.
+ */
+export function machineGunSVG({ x, y, scale = 1, color = "#3a3a38" }) {
+  return `
+    <g transform="translate(${x},${y}) scale(${scale})">
+      <!-- tripod legs -->
+      <path d="M 0 0 L -26 30 M 0 0 L 26 30 M 0 0 L 0 32" stroke="${color}" stroke-width="4" stroke-linecap="round" fill="none"/>
+      <!-- body -->
+      <rect x="-6" y="-10" width="46" height="12" rx="4" fill="${color}"/>
+      <!-- barrel -->
+      <rect x="38" y="-8" width="34" height="6" rx="2" fill="${color}"/>
+      <!-- drum magazine -->
+      <circle cx="6" cy="-18" r="10" fill="${color}"/>
+      <!-- handle -->
+      <path d="M -6 2 L -10 16" stroke="${color}" stroke-width="4" stroke-linecap="round"/>
+    </g>
+  `;
+}
+
+/**
+ * wheatFieldSVG - flat-2D 1930s wheat field backdrop with a soft dusk sky,
+ * for the hook's cold open. Rows are deterministic (fixed pattern), no
+ * per-frame randomness.
+ */
+export function wheatFieldSVG({ w, h, skyTop = "#caa15a", skyBottom = "#e7c27a", wheatColor = "#c9a338", wheatDark = "#a3801f" }) {
+  const horizon = h * 0.62;
+  let rows = "";
+  const rowCount = 10;
+  for (let i = 0; i < rowCount; i++) {
+    const rowY = horizon + (i / rowCount) * (h - horizon);
+    const stalks = Math.round(18 + i * 3);
+    let stalkPath = "";
+    for (let s = 0; s < stalks; s++) {
+      const sx = (s / stalks) * w + (i % 2 === 0 ? 6 : 0);
+      stalkPath += `M ${sx.toFixed(1)} ${rowY + 14} L ${(sx + 2).toFixed(1)} ${rowY - 6} `;
+    }
+    rows += `<path d="${stalkPath}" stroke="${i % 2 === 0 ? wheatColor : wheatDark}" stroke-width="2.2" opacity="0.85"/>`;
+  }
+  return `
+    <linearGradient id="wheatSky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="${skyTop}"/>
+      <stop offset="100%" stop-color="${skyBottom}"/>
+    </linearGradient>
+    <rect x="0" y="0" width="${w}" height="${horizon}" fill="url(#wheatSky)"/>
+    <rect x="0" y="${horizon}" width="${w}" height="${h - horizon}" fill="${wheatColor}"/>
+    ${rows}
+  `;
+}
+
+/**
+ * campfireSVG - a small animated flame (2-3 flicker layers) over simple
+ * logs, driven by t so the flicker is deterministic.
+ */
+export function campfireSVG({ x, y, scale = 1, t = 0 }) {
+  const flick1 = 1 + 0.08 * Math.sin(t * 9);
+  const flick2 = 1 + 0.12 * Math.sin(t * 13 + 1.3);
+  return `
+    <g transform="translate(${x},${y}) scale(${scale})">
+      <ellipse cx="0" cy="4" rx="16" ry="4" fill="#2a1c12"/>
+      <rect x="-14" y="-2" width="28" height="5" rx="2" fill="#5a3a20" transform="rotate(-6)"/>
+      <rect x="-14" y="-2" width="28" height="5" rx="2" fill="#4a2f19" transform="rotate(10)"/>
+      <g transform="scale(${flick1.toFixed(3)})">
+        <path d="M 0 4 C -8 -6, -6 -16, 0 -26 C 6 -16, 8 -6, 0 4 Z" fill="${PALETTE.sunsetOrange}"/>
+      </g>
+      <g transform="scale(${flick2.toFixed(3)})">
+        <path d="M 0 2 C -4 -6, -3 -12, 0 -18 C 3 -12, 4 -6, 0 2 Z" fill="#ffd27a"/>
+      </g>
+    </g>
+  `;
+}
+
+// ---- Small flat icons for the "map fills with icons" hook beat ----
+
+export function iconLizardSVG({ x, y, scale = 1, color = PALETTE.eucalyptusGreenDeep }) {
+  return `
+    <g transform="translate(${x},${y}) scale(${scale})">
+      <path d="M -20 4 C -14 -6, -2 -8, 6 -3 C 12 -7, 20 -6, 26 -1 L 22 2 C 16 -1, 12 0, 8 3 C 2 8, -10 9, -20 4 Z" fill="${color}"/>
+      <path d="M -20 4 L -30 -2 M -18 6 L -27 4 M -14 8 L -20 14" stroke="${color}" stroke-width="2" fill="none" stroke-linecap="round"/>
+      <path d="M 2 -6 L 4 -10 M 8 -6 L 10 -10 M -4 -7 L -3 -11" stroke="${color}" stroke-width="1.6" fill="none"/>
+    </g>
+  `;
+}
+
+export function iconShipSVG({ x, y, scale = 1, hullColor = "#5a3a24", sailColor = PALETTE.cream }) {
+  return `
+    <g transform="translate(${x},${y}) scale(${scale})">
+      <path d="M -18 6 L 18 6 L 12 14 L -12 14 Z" fill="${hullColor}"/>
+      <rect x="-1" y="-24" width="2" height="30" fill="${hullColor}"/>
+      <path d="M 1 -22 L 1 4 L 17 3 Z" fill="${sailColor}"/>
+      <path d="M -1 -18 L -1 4 L -13 3 Z" fill="${sailColor}" opacity="0.9"/>
+    </g>
+  `;
+}
+
+export function iconGoldNuggetSVG({ x, y, scale = 1, color = "#e8b23a" }) {
+  return `
+    <g transform="translate(${x},${y}) scale(${scale})">
+      <path d="M -12 2 C -14 -8, -4 -14, 4 -12 C 14 -10, 14 0, 8 6 C 2 12, -8 10, -12 2 Z" fill="${color}"/>
+      <path d="M -6 -4 L -2 -2 M 2 -6 L 5 -3 M -4 4 L 0 5" stroke="#fff3c9" stroke-width="1.6" opacity="0.7" fill="none"/>
+    </g>
+  `;
+}
+
+export function iconOperaHouseSVG({ x, y, scale = 1, color = PALETTE.cream }) {
+  const shells = [0, 1, 2, 3].map((i) => {
+    const dx = i * 9 - 13;
+    const h = 22 - i * 2.5;
+    return `<path d="M ${dx} 8 C ${dx - 6} ${8 - h * 0.4}, ${dx - 2} ${8 - h}, ${dx + 6} 8 Z" fill="${color}"/>`;
+  });
+  return `<g transform="translate(${x},${y}) scale(${scale})">${shells.join("")}<rect x="-20" y="8" width="46" height="4" fill="${color}"/></g>`;
+}

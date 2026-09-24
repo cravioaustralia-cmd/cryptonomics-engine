@@ -100,7 +100,71 @@ export function styleDefsSVG() {
       <stop offset="0%" stop-color="${PALETTE.sunsetOrange}" stop-opacity="0.05"/>
       <stop offset="100%" stop-color="${PALETTE.redOchreDeep}" stop-opacity="0.08"/>
     </linearGradient>
+    <filter id="portraitBlur" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="22"/>
+    </filter>
+    <filter id="softGlow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
   `;
+}
+
+// ---- Images: landscape cover-crop, or portrait framed on a blurred backdrop ----
+// Per the style bible: never stretch images or crop faces. Landscape images
+// (or anything wide enough to already cover the frame) get a simple cover
+// crop. True portrait images are shown centered at full height over a
+// blurred, darkened copy of themselves, so nothing is stretched or cropped.
+export function pictureLayerSVG({ href, imgW, imgH, frameW, frameH, darken = 0.5 }) {
+  const imgAspect = imgW / imgH;
+  const frameAspect = frameW / frameH;
+  if (imgAspect >= frameAspect * 0.98) {
+    return `<image href="${href}" x="0" y="0" width="${frameW}" height="${frameH}" preserveAspectRatio="xMidYMid slice"/>`;
+  }
+  const fgW = frameH * imgAspect;
+  const fgX = (frameW - fgW) / 2;
+  return `
+    <g>
+      <image href="${href}" x="0" y="0" width="${frameW}" height="${frameH}" preserveAspectRatio="xMidYMid slice" filter="url(#portraitBlur)"/>
+      <rect x="0" y="0" width="${frameW}" height="${frameH}" fill="#000" opacity="${darken}"/>
+      <image href="${href}" x="${fgX}" y="0" width="${fgW}" height="${frameH}" preserveAspectRatio="xMidYMid meet"/>
+    </g>
+  `;
+}
+
+// ---- Starfield ----
+// Deterministic pseudo-random stars (fixed seed, no Math.random) so every
+// render of the same t produces the same frame. Gentle horizontal drift +
+// per-star twinkle.
+function mulberry32(seed) {
+  let a = seed;
+  return function () {
+    a |= 0;
+    a = (a + 0x6d2b79f5) | 0;
+    let t = Math.imul(a ^ (a >>> 15), 1 | a);
+    t = (t + Math.imul(t ^ (t >>> 7), 61 | t)) ^ t;
+    return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
+  };
+}
+
+export function starsSVG({ w, h, t, count = 90, seed = 42, driftPxPerSec = 2.5, maxY = null }) {
+  const rand = mulberry32(seed);
+  const stars = [];
+  const limitY = maxY ?? h;
+  for (let i = 0; i < count; i++) {
+    const x0 = rand() * w;
+    const y = rand() * limitY;
+    const r = 0.6 + rand() * 1.6;
+    const phase = rand() * Math.PI * 2;
+    const twinkleSpeed = 0.5 + rand() * 1.2;
+    const x = ((x0 + t * driftPxPerSec) % (w + 20)) - 10;
+    const opacity = 0.35 + 0.5 * (0.5 + 0.5 * Math.sin(t * twinkleSpeed + phase));
+    stars.push(`<circle cx="${x.toFixed(1)}" cy="${y.toFixed(1)}" r="${r.toFixed(2)}" fill="${PALETTE.cream}" opacity="${opacity.toFixed(2)}"/>`);
+  }
+  return stars.join("");
 }
 
 // vignetteOverlayRect(w,h) - a full-frame rect using the vignette gradient.
@@ -131,6 +195,64 @@ export function wordRevealSpans(text, t, start, { perWordDelay = 0.12, riseDurat
 // simple fade-in helper for a whole block (subtitles, labels).
 export function fadeIn(t, start, duration = 0.4) {
   return progress(t, start, duration, ease.outCubic);
+}
+
+// ---- Subtitles ----
+// buildCaptionLines groups transcript words (from transcript.json) into
+// short 1-2 line captions, breaking on sentence-ending punctuation or a
+// max word count, whichever comes first.
+export function buildCaptionLines(words, { maxWords = 8 } = {}) {
+  const lines = [];
+  let cur = [];
+  for (const w of words) {
+    cur.push(w);
+    const endsSentence = /[.!?]$/.test(w.text);
+    if (cur.length >= maxWords || endsSentence) {
+      lines.push({ text: cur.map((x) => x.text).join(" "), start: cur[0].start, end: cur[cur.length - 1].end });
+      cur = [];
+    }
+  }
+  if (cur.length) {
+    lines.push({ text: cur.map((x) => x.text).join(" "), start: cur[0].start, end: cur[cur.length - 1].end });
+  }
+  return lines;
+}
+
+// findActiveCaption - binary-search-free linear scan is fine at our line
+// counts; returns the line active at time t, or null.
+export function findActiveCaption(lines, t, trailing = 0.15) {
+  for (const line of lines) {
+    if (t >= line.start && t <= line.end + trailing) return line;
+  }
+  return null;
+}
+
+export function captionBarSVG({ w, h, text, fontSize = 30 }) {
+  if (!text) return "";
+  const maxCharsPerLine = 42;
+  const words = text.split(" ");
+  const rows = [];
+  let row = "";
+  for (const word of words) {
+    if ((row + " " + word).trim().length > maxCharsPerLine) {
+      rows.push(row.trim());
+      row = word;
+    } else {
+      row = (row + " " + word).trim();
+    }
+  }
+  if (row) rows.push(row);
+  const lineHeight = fontSize * 1.3;
+  const boxHeight = rows.length * lineHeight + 24;
+  const boxY = h - boxHeight - 48;
+  const textLines = rows
+    .map((r, i) => `<tspan x="50%" dy="${i === 0 ? 0 : lineHeight}">${escapeXML(r)}</tspan>`)
+    .join("");
+  return `
+    <rect x="${w / 2 - 620}" y="${boxY}" width="1240" height="${boxHeight}" rx="10" fill="#000" opacity="0.55"/>
+    <text x="50%" y="${boxY + fontSize + 6}" text-anchor="middle" font-family="${FONTS.sans}" font-weight="600"
+      font-size="${fontSize}" fill="${PALETTE.cream}">${textLines}</text>
+  `;
 }
 
 export function escapeXML(s) {
