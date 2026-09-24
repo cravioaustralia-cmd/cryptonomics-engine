@@ -222,6 +222,96 @@ export function campfireSVG({ x, y, scale = 1, t = 0 }) {
   `;
 }
 
+/**
+ * megalaniaSVG - the animated Megalania (giant monitor lizard) used for
+ * Chapter 1's megafauna beat, per the style bible ("flat 2D animation
+ * carries the funny moments... the megalania"). Separate body/legs/tail/
+ * head so the pose can shift from dramatic (mouth open, roaring) to the
+ * comedic "downgrade" beat against the modern huntsman spider.
+ * All coordinates are local to the origin (feet/ground at y=0); the
+ * outer group applies x/y/scale.
+ */
+export function megalaniaSVG({
+  x,
+  y,
+  scale = 1,
+  t = 0,
+  mouthOpen = 0,
+  tongueFlick = false,
+  walking = false,
+  facing = -1, // -1 = facing left, 1 = facing right
+}) {
+  const skinColor = "#5b6b4a";
+  const skinDark = "#3d4a32";
+  const bellyColor = "#8a9670";
+  const sway = walking ? Math.sin(t * 3) * 4 : Math.sin(t * 1.2) * 1.5;
+  const tailSway = Math.sin(t * 1.4 + 0.6) * 14;
+  const tongueP = tongueFlick ? Math.max(0, Math.sin(t * 10)) : 0;
+
+  const legWalk = walking ? Math.sin(t * 6) * 12 : 0;
+
+  const legs = [-55, -18, 25, 60]
+    .map((lx, i) => {
+      const swing = i % 2 === 0 ? legWalk : -legWalk;
+      return `<g transform="translate(${lx},-6) rotate(${swing})">
+        <path d="M 0 0 L -6 16 L 8 16 Z" fill="${skinDark}"/>
+      </g>`;
+    })
+    .join("");
+
+  const tail = `
+    <path d="M 70 -20 C 100 ${-24 + tailSway * 0.3}, 130 ${-10 + tailSway}, 150 ${2 + tailSway}"
+      stroke="${skinColor}" stroke-width="16" stroke-linecap="round" fill="none"/>
+    <path d="M 70 -20 C 100 ${-24 + tailSway * 0.3}, 130 ${-10 + tailSway}, 150 ${2 + tailSway}"
+      stroke="${skinDark}" stroke-width="16" stroke-linecap="round" fill="none" opacity="0.15"/>
+  `;
+
+  const spots = [
+    [-40, -30], [-10, -34], [20, -30], [45, -26], [-25, -20], [5, -22],
+  ]
+    .map(([sx, sy]) => `<circle cx="${sx}" cy="${sy}" r="3.5" fill="${skinDark}" opacity="0.45"/>`)
+    .join("");
+
+  const jawOpenDeg = mouthOpen * 34;
+  const head = `
+    <g transform="translate(-70,-24)">
+      <!-- lower jaw -->
+      <g transform="rotate(${jawOpenDeg} -6 4)">
+        <path d="M -6 4 L -46 12 L -30 16 L -4 8 Z" fill="${skinDark}"/>
+      </g>
+      <!-- upper head -->
+      <path d="M -6 -4 L -50 -6 L -42 4 L -6 4 Z" fill="${skinColor}"/>
+      <!-- teeth row (visible more as jaw opens) -->
+      <g opacity="${mouthOpen.toFixed(2)}">
+        <path d="M -44 -5 L -42 0 L -40 -5 M -34 -5 L -32 0 L -30 -5 M -24 -5 L -22 0 L -20 -5"
+          stroke="${PALETTE.cream}" stroke-width="1.6" fill="none"/>
+      </g>
+      <!-- tongue flick -->
+      <g opacity="${tongueP.toFixed(2)}">
+        <path d="M -48 -4 L -${(58 + tongueP * 14).toFixed(1)} -4" stroke="#c94b4b" stroke-width="1.6"/>
+        <path d="M -${(58 + tongueP * 14).toFixed(1)} -4 L -${(62 + tongueP * 14).toFixed(1)} -6 M -${(58 + tongueP * 14).toFixed(1)} -4 L -${(62 + tongueP * 14).toFixed(1)} -2"
+          stroke="#c94b4b" stroke-width="1.4"/>
+      </g>
+      <!-- eye -->
+      <circle cx="-14" cy="-3" r="4.5" fill="${PALETTE.ink}"/>
+      <circle cx="-15" cy="-4.5" r="1.4" fill="${PALETTE.cream}"/>
+    </g>
+  `;
+
+  const body = `
+    <g transform="translate(0,${sway.toFixed(2)})">
+      <ellipse cx="0" cy="-22" rx="80" ry="24" fill="${skinColor}"/>
+      <ellipse cx="0" cy="-10" rx="70" ry="12" fill="${bellyColor}" opacity="0.8"/>
+      ${spots}
+      ${tail}
+      ${legs}
+      ${head}
+    </g>
+  `;
+
+  return `<g class="megalania" transform="translate(${x},${y}) scale(${facing * scale},${scale})">${body}</g>`;
+}
+
 // ---- Small flat icons for the "map fills with icons" hook beat ----
 
 export function iconLizardSVG({ x, y, scale = 1, color = PALETTE.eucalyptusGreenDeep }) {
