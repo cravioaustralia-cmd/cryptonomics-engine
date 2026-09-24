@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>Style test</title>
+<style>
+  @font-face {
+    font-family: "Playfair Display";
+    src: url("/style/fonts/playfair-display-latin-700-normal.woff2") format("woff2");
+    font-weight: 700;
+  }
+  @font-face {
+    font-family: "Playfair Display";
+    src: url("/style/fonts/playfair-display-latin-400-normal.woff2") format("woff2");
+    font-weight: 400;
+  }
+  @font-face {
+    font-family: "Source Sans 3";
+    src: url("/style/fonts/source-sans-3-latin-600-normal.woff2") format("woff2");
+    font-weight: 600;
+  }
+  @font-face {
+    font-family: "Source Sans 3";
+    src: url("/style/fonts/source-sans-3-latin-400-normal.woff2") format("woff2");
+    font-weight: 400;
+  }
+  html, body { margin: 0; padding: 0; background: #000; }
+  svg { display: block; }
+  .cam { transform-origin: 50% 50%; }
+</style>
+</head>
+<body>
+<svg id="stage" width="960" height="540" viewBox="0 0 960 540" xmlns="http://www.w3.org/2000/svg">
+  <defs id="defs"></defs>
+  <g id="root"></g>
+</svg>
+
+<script type="module">
+import { PALETTE, FONTS, ease, progress, fadeIn, styleDefsSVG, vignetteOverlayRect,
+         warmGradeOverlayRect, chapterTitleCardSVG, pushPan } from "/style/style.js";
+import { emuSVG } from "/style/characters.js";
+import { loadCoastline, mapRevealSVG, PLACES } from "/style/maps.js";
+
+const W = 960, H = 540;
+const defsEl = document.getElementById("defs");
+const rootEl = document.getElementById("root");
+defsEl.innerHTML = styleDefsSVG();
+
+let coastline = null;
+
+// Timeline (seconds):
+//   0.0 - 3.0   chapter title card
+//   3.0 - 8.0   emu mascot close-up
+//   8.0 - 12.5  animated scene: emu walks across a parallax outback backdrop
+//   12.5 - 17.0 real image with camera push-in + pan (07_uluru_sunset.jpg)
+//   17.0 - 20.5 animated map: coastline reveal + Uluru marker
+const T_TITLE = 0.0;
+const T_EMU = 3.0;
+const T_SCENE = 8.0;
+const T_IMAGE = 12.5;
+const T_MAP = 17.0;
+const T_END = 20.5;
+
+function outbackSky(depth = 1) {
+  // depth 1 = full night gradient background (used behind emu + map sections)
+  return `
+    <rect x="0" y="0" width="${W}" height="${H}" fill="${PALETTE.outbackNightIndigoDeep}"/>
+    <rect x="0" y="0" width="${W}" height="${H}" fill="${PALETTE.outbackNightIndigo}" opacity="${0.5 * depth}"/>
+  `;
+}
+
+function parallaxSceneSVG(t, start) {
+  const local = t - start;
+  const walkX = 120 + local * 90; // emu walks left to right across the scene
+  const hillsShift = -local * 6;
+  const scrubShift = -local * 16;
+  return `
+    <!-- sky -->
+    <rect x="0" y="0" width="${W}" height="${H}" fill="${PALETTE.outbackNightIndigo}"/>
+    <rect x="0" y="0" width="${W}" height="${H}" fill="${PALETTE.sunsetOrange}" opacity="0.08"/>
+    <!-- distant hills (background layer, slow parallax) -->
+    <g transform="translate(${hillsShift},0)">
+      <path d="M -50 ${H * 0.62} Q 200 ${H * 0.52}, 480 ${H * 0.60} T 1050 ${H * 0.58} V ${H} H -50 Z"
+        fill="${PALETTE.redOchreDeep}" opacity="0.55"/>
+    </g>
+    <!-- midground scrub (faster parallax) -->
+    <g transform="translate(${scrubShift},0)">
+      <path d="M -50 ${H * 0.74} Q 250 ${H * 0.68}, 500 ${H * 0.74} T 1050 ${H * 0.72} V ${H} H -50 Z"
+        fill="${PALETTE.redOchre}" opacity="0.85"/>
+    </g>
+    <!-- ground -->
+    <rect x="0" y="${H * 0.8}" width="${W}" height="${H * 0.2}" fill="${PALETTE.redOchreDeep}"/>
+    ${emuSVG({ x: walkX, y: H * 0.86, scale: 1, t, walking: true, blinking: true, neckBend: 0.1, mood: 0.4 })}
+  `;
+}
+
+async function ensureAssets() {
+  coastline = await loadCoastline();
+}
+
+function renderFrame(t) {
+  let svg = "";
+
+  if (t < T_EMU) {
+    svg += chapterTitleCardSVG({
+      w: W, h: H, t, start: T_TITLE,
+      chapterLabel: "Chapter One",
+      title: "The Land That Time Forgot",
+    });
+  } else if (t < T_SCENE) {
+    const introP = fadeIn(t, T_EMU, 0.5);
+    svg += outbackSky();
+    svg += `<g opacity="${introP.toFixed(3)}">`;
+    svg += emuSVG({
+      x: W / 2 - 10, y: H * 0.72, scale: 2.6, t,
+      walking: false, blinking: true, neckBend: 0.35, mood: 0.85,
+    });
+    svg += `</g>`;
+    const labelP = fadeIn(t, T_EMU + 0.6, 0.5);
+    svg += `<text x="50%" y="${H - 36}" text-anchor="middle" font-family="${FONTS.sans}"
+      font-size="16" letter-spacing="3" fill="${PALETTE.cream}" opacity="${labelP.toFixed(3)}">
+      THE EMU MASCOT</text>`;
+  } else if (t < T_IMAGE) {
+    svg += parallaxSceneSVG(t, T_SCENE);
+  } else if (t < T_MAP) {
+    const camTransform = pushPan(t, {
+      start: T_IMAGE, duration: T_MAP - T_IMAGE,
+      from: 1.0, to: 1.18, fromX: 0, toX: -30, fromY: 0, toY: -12,
+    });
+    svg += `
+      <g class="cam" style="transform:${camTransform}">
+        <image href="/images/07_uluru_sunset.jpg" x="0" y="0" width="${W}" height="${H}" preserveAspectRatio="xMidYMid slice"/>
+      </g>
+      ${warmGradeOverlayRect(W, H)}
+      ${vignetteOverlayRect(W, H)}
+      <rect x="0" y="0" width="${W}" height="${H}" filter="url(#filmGrain)" opacity="0.5"/>
+    `;
+    const labelP = fadeIn(t, T_IMAGE + 0.4, 0.5);
+    svg += `<text x="40" y="${H - 30}" font-family="${FONTS.sans}" font-size="15" letter-spacing="3"
+      fill="${PALETTE.cream}" opacity="${labelP.toFixed(3)}">ULURU &middot; NORTHERN TERRITORY</text>`;
+  } else {
+    svg += outbackSky(0.6);
+    if (coastline) {
+      svg += `<g transform="translate(${W / 2 - 220},${H / 2 - 200}) scale(0.44)">`;
+      svg += mapRevealSVG({
+        coastline, t, start: T_MAP, drawDuration: 1.6,
+        place: PLACES.uluru, markerStart: T_MAP + 1.2,
+      });
+      svg += `</g>`;
+    }
+    const labelP = fadeIn(t, T_MAP + 0.1, 0.5);
+    svg += `<text x="50%" y="46" text-anchor="middle" font-family="${FONTS.sans}" font-size="16"
+      letter-spacing="4" fill="${PALETTE.cream}" opacity="${labelP.toFixed(3)}">AUSTRALIA</text>`;
+  }
+
+  rootEl.innerHTML = svg;
+}
+
+window.__ready = ensureAssets();
+window.__renderFrame = renderFrame;
+window.__END_TIME = T_END;
+// initial paint so a screenshot taken before the first explicit call isn't blank
+renderFrame(0);
+</script>
+</body>
+</html>

@@ -5,7 +5,12 @@
   "description": "SVG + Playwright + ffmpeg renderer for \"The Entire History of Australia\" documentary. No Remotion or video frameworks.",
   "type": "module",
   "dependencies": {
+    "@fontsource/playfair-display": "^5.3.0",
+    "@fontsource/source-sans-3": "^5.3.0",
     "@remotion/install-whisper-cpp": "4.0.526",
-    "playwright": "^1.63.0"
+    "d3-geo": "^3.1.1",
+    "playwright": "^1.63.0",
+    "topojson-client": "^3.1.0",
+    "world-atlas": "^2.0.2"
   }
 }
