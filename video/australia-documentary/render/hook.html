@@ -144,7 +144,7 @@ function emuCutSVG(ht) {
     <rect x="0" y="0" width="${W}" height="${FRAME_H}" fill="${PALETTE.outbackNightIndigoDeep}"/>
     <rect x="0" y="0" width="${W}" height="${FRAME_H}" fill="${PALETTE.redOchreDeep}" opacity="0.25"/>
     <g opacity="${p.toFixed(3)}">
-      ${emuSVG({ x: W / 2 - 20, y: FRAME_H * 0.86, scale: 5.2, t: ht, walking: false, blinking: true, neckBend: -0.05, mood: 0.6 })}
+      ${emuSVG({ x: W / 2 - 280, y: 2520, scale: 10, t: ht, walking: false, blinking: true, neckBend: -0.05, mood: 0.6 })}
     </g>
   `;
 }
@@ -177,7 +177,7 @@ function montageImageSVG({ href, imgW, imgH, ht, start, duration, camFrom = 1.0,
   `;
   if (label) {
     const p = fadeIn(ht, start + 0.3, 0.5);
-    out += `<text x="60" y="${FRAME_H - 56}" font-family="${FONTS.sans}" font-size="22" letter-spacing="3"
+    out += `<text x="50%" y="100" text-anchor="middle" font-family="${FONTS.sans}" font-size="22" letter-spacing="3"
       fill="${PALETTE.cream}" opacity="${p.toFixed(3)}">${escapeXML(label)}</text>`;
   }
   return out;
@@ -210,11 +210,11 @@ function mapFillSVG(ht) {
   const start = BEAT.mapFill;
   const local = ht - start;
   let out = `<rect x="0" y="0" width="${W}" height="${FRAME_H}" fill="${PALETTE.outbackNightIndigoDeep}"/>`;
-  const scale = 1.55;
+  const topMargin = 150, bottomMargin = 50;
+  const scale = (FRAME_H - topMargin - bottomMargin) / coastline.height;
   const mapW = coastline.width * scale;
-  const mapH = coastline.height * scale;
   const ox = (W - mapW) / 2;
-  const oy = (FRAME_H - mapH) / 2 + 30;
+  const oy = topMargin;
   out += `<g transform="translate(${ox},${oy}) scale(${scale})">`;
   out += mapRevealSVG({ coastline, t: ht, start, drawDuration: 1.5 });
   for (const icon of MAP_ICONS) {
@@ -223,7 +223,7 @@ function mapFillSVG(ht) {
     if (p <= 0) continue;
     const bob = Math.sin((ht - (start + icon.at)) * 3) * 3;
     out += `<g transform="translate(${mx},${my + bob}) scale(${(icon.scale * p).toFixed(3)})" opacity="${clamp01(p * 1.4).toFixed(3)}">`;
-    out += icon.draw ? icon.draw({ x: 0, y: 0, scale: 1 }) : emuSVG({ x: -8, y: 14, scale: 0.5, t: ht, walking: false, blinking: true, neckBend: 0.1, mood: 0.5 });
+    out += icon.draw ? icon.draw({ x: 0, y: 0, scale: 1 }) : emuSVG({ x: -1, y: 3, scale: 0.06, t: ht, walking: false, blinking: true, neckBend: 0.1, mood: 0.5 });
     out += `</g>`;
   }
   out += `</g>`;
@@ -267,7 +267,7 @@ function titleCardSVG(ht) {
   const underlineWidth = 420 * underlineP;
   out += `<rect x="${W / 2 - underlineWidth / 2}" y="${FRAME_H / 2 + 130}" width="${underlineWidth}" height="4" fill="${PALETTE.redOchre}"/>`;
   const emuP = fadeIn(ht, start + 0.3, 0.4);
-  out += `<g opacity="${emuP.toFixed(3)}">${emuSVG({ x: W - 70, y: FRAME_H - 40, scale: 2.2, t: ht, walking: false, blinking: true, neckBend: -0.3, mood: 0.9 })}</g>`;
+  out += `<g opacity="${emuP.toFixed(3)}">${emuSVG({ x: W - 40, y: FRAME_H + 40, scale: 0.9, t: ht, walking: false, blinking: true, neckBend: -0.3, mood: 0.9 })}</g>`;
   return out;
 }
 

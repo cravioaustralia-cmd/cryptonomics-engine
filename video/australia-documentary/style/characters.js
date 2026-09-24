@@ -53,11 +53,12 @@ export function emuSVG({
   const beakColor = "#2c2620";
 
   // Legs (separate group, behind body) — simple two-segment legs with a
-  // walk-cycle swing driven by lp.
+  // walk-cycle swing driven by lp. All parts below are in local units
+  // around the origin (feet at 0,0); the outer group applies x/y/scale.
   const legSwingL = lp * 10;
   const legSwingR = -lp * 10;
   const legs = `
-    <g transform="translate(${x},${y})">
+    <g>
       <g transform="rotate(${legSwingL})">
         <rect x="-4" y="0" width="8" height="34" rx="3" fill="${legColor}"/>
         <path d="M -4 34 L -12 44 M 0 34 L 0 46 M 4 34 L 12 44" stroke="${legColor}" stroke-width="4" stroke-linecap="round" fill="none"/>
@@ -70,9 +71,9 @@ export function emuSVG({
   `;
 
   // Body: rounded oval torso + shaggy feather texture via short strokes.
-  const bodyY = y - 70;
+  const bodyY = -70;
   const body_ = `
-    <g transform="translate(${x + 7},${bodyY})">
+    <g transform="translate(7,${bodyY})">
       <ellipse cx="0" cy="0" rx="46" ry="58" fill="${bodyBrown}"/>
       <ellipse cx="0" cy="0" rx="46" ry="58" fill="none" stroke="${bodyBrownDark}" stroke-width="1" opacity="0.4"/>
       ${featherStrokes(bodyBrownDark)}
@@ -84,7 +85,7 @@ export function emuSVG({
   // Neck + head, tilted by neckBend (smug/curious tilt).
   const neckAngle = neckBend * 18;
   const headGroup = `
-    <g transform="translate(${x + 18},${bodyY - 48}) rotate(${neckAngle})">
+    <g transform="translate(18,${bodyY - 48}) rotate(${neckAngle})">
       <path d="M -8 0 C -6 -40, 4 -70, 10 -92" stroke="${bodyBrown}" stroke-width="20" stroke-linecap="round" fill="none"/>
       <g transform="translate(10,-96)">
         <ellipse cx="0" cy="0" rx="17" ry="15" fill="${bodyBrown}"/>
@@ -103,7 +104,7 @@ export function emuSVG({
     </g>
   `;
 
-  return `<g class="emu">${legs}${body_}${headGroup}</g>`;
+  return `<g class="emu" transform="translate(${x},${y}) scale(${scale})">${legs}${body_}${headGroup}</g>`;
 }
 
 // featherStrokes - a handful of short deterministic strokes suggesting
