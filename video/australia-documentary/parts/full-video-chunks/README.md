@@ -1,27 +1,38 @@
-# Reassembling australia-full.mp4
+# Getting australia-full.mp4
 
 GitHub Releases and Git LFS are both unavailable in the environment this
 video was built in, and the assembled file (~240 MB) is over git's 100 MB
-single-file limit — so it's committed here split into three < 100 MB
-chunks instead.
+single-file limit — so it's committed here split into pieces.
 
-To reassemble it (from this directory):
+## Easiest way (no command line): extract a ZIP
+
+1. Download all three of these files into the **same folder**:
+   `australia-full.z01`, `australia-full.z02`, `australia-full.zip`
+2. Open/extract `australia-full.zip`. Your OS finds the other two parts
+   automatically and reassembles the video and subtitles.
+   - **Windows**: install [7-Zip](https://7-zip.org) (free) if you don't
+     have it — Windows' built-in extractor doesn't handle split zips.
+     Right-click `australia-full.zip` → 7-Zip → Extract Here.
+   - **Mac**: install [Keka](https://apps.apple.com/app/keka/id470158793)
+     (free) or use `7z x australia-full.zip` in Terminal — the built-in
+     Archive Utility doesn't handle split zips either.
+   - **Linux**: `7z x australia-full.zip` (or `p7zip -d`).
+
+You'll get `australia-full.mp4` and `australia-full.srt`.
+
+## Command-line way
+
+Download `australia-full.mp4.part0`, `.part1`, `.part2`, then:
 
 ```
 cat australia-full.mp4.part0 australia-full.mp4.part1 australia-full.mp4.part2 > australia-full.mp4
 ```
 
-Or from the `video/australia-documentary` directory:
-
-```
-cat parts/full-video-chunks/australia-full.mp4.part* > parts/australia-full.mp4
-```
-
-Verify the reassembled file's SHA-256 matches:
+## Verify (either method)
 
 ```
 sha256sum australia-full.mp4
 # 908251cf1d04402fe428b71a69d7fbcc1da39d63067c989077f472bbbaaadf89
 ```
 
-Subtitles are at `../australia-full.srt` (not split; it's small).
+Subtitles are also at `../australia-full.srt` directly (not split; it's small).
