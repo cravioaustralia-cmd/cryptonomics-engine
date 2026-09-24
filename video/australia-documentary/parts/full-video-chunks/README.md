@@ -8,6 +8,8 @@ single-file limit — so it's committed here split into pieces.
 
 1. Download all three of these files into the **same folder**:
    `australia-full.z01`, `australia-full.z02`, `australia-full.zip`
+   (there's also a fourth CLI-only chunk, `.part3`, from the command-line
+   method below — ignore it for the ZIP method)
 2. Open/extract `australia-full.zip`. Your OS finds the other two parts
    automatically and reassembles the video and subtitles.
    - **Windows**: install [7-Zip](https://7-zip.org) (free) if you don't
@@ -22,17 +24,17 @@ You'll get `australia-full.mp4` and `australia-full.srt`.
 
 ## Command-line way
 
-Download `australia-full.mp4.part0`, `.part1`, `.part2`, then:
+Download `australia-full.mp4.part0` through `.part3`, then:
 
 ```
-cat australia-full.mp4.part0 australia-full.mp4.part1 australia-full.mp4.part2 > australia-full.mp4
+cat australia-full.mp4.part0 australia-full.mp4.part1 australia-full.mp4.part2 australia-full.mp4.part3 > australia-full.mp4
 ```
 
 ## Verify (either method)
 
 ```
 sha256sum australia-full.mp4
-# 908251cf1d04402fe428b71a69d7fbcc1da39d63067c989077f472bbbaaadf89
+# 7549f81cd09707854f7c4af807961af7ee8905a3a822d5db6542a51846659f93
 ```
 
 Subtitles are also at `../australia-full.srt` directly (not split; it's small).
