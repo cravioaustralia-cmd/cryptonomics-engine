@@ -155,16 +155,32 @@ export function soldierSilhouetteSVG({ x, y, scale = 1, armAngle = -20, legAngle
  * then the Rum Rebellion). Pivots from the feet so callers can tip him
  * overboard with a simple rotate.
  */
-export function blighSVG({ x, y, scale = 1, rotate = 0, armAngle = -15, legAngle = 0, color = "#1c2540" }) {
+export function blighSVG({
+  x, y, scale = 1, rotate = 0, armAngleL, armAngleR, armAngle = -15, legAngle = 0, hatOn = true, color = "#1c2540",
+}) {
+  const aL = armAngleL ?? armAngle;
+  const aR = armAngleR ?? armAngle;
   return `
     <g transform="translate(${x},${y}) rotate(${rotate}) scale(${scale})">
       <rect x="-10" y="-30" width="9" height="30" rx="3" fill="${color}" transform="rotate(${legAngle} -6 -30)"/>
       <rect x="1" y="-30" width="9" height="30" rx="3" fill="${color}" transform="rotate(${-legAngle} 6 -30)"/>
       <path d="M -13 -76 L 13 -76 L 16 -28 L 6 -28 L 6 -50 L -6 -50 L -6 -28 L -16 -28 Z" fill="${color}"/>
-      <rect x="-13" y="-72" width="8" height="30" rx="3" fill="${color}" transform="rotate(${armAngle} -9 -72)"/>
-      <rect x="5" y="-72" width="8" height="30" rx="3" fill="${color}" transform="rotate(${-armAngle} 9 -72)"/>
+      <rect x="-13" y="-72" width="8" height="30" rx="3" fill="${color}" transform="rotate(${aL} -9 -72)"/>
+      <rect x="5" y="-72" width="8" height="30" rx="3" fill="${color}" transform="rotate(${-aR} 9 -72)"/>
       <circle cx="0" cy="-86" r="11" fill="${PALETTE.sandstone}"/>
-      <path d="M -17 -90 Q 0 -103 17 -90 Q 0 -95 -17 -90 Z" fill="${color}"/>
+      ${hatOn ? `<path d="M -17 -90 Q 0 -103 17 -90 Q 0 -95 -17 -90 Z" fill="${color}"/>` : ""}
+    </g>
+  `;
+}
+
+/**
+ * bicorneHatSVG - Bligh's hat, drawn standalone so it can be sent flying
+ * off on its own arc during the "thrown overboard" gag.
+ */
+export function bicorneHatSVG({ x, y, scale = 1, rotate = 0, color = "#1c2540" }) {
+  return `
+    <g transform="translate(${x},${y}) rotate(${rotate}) scale(${scale})">
+      <path d="M -17 0 Q 0 -13 17 0 Q 0 -5 -17 0 Z" fill="${color}"/>
     </g>
   `;
 }

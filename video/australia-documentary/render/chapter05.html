@@ -23,7 +23,7 @@
 import { PALETTE, FONTS, ease, progress, fadeIn, styleDefsSVG, vignetteOverlayRect,
          warmGradeOverlayRect, pushPan, chapterTitleCardSVG, pictureLayerSVG,
          buildCaptionLines, findActiveCaption, captionBarSVG, escapeXML } from "/style/style.js";
-import { blighSVG, soldierSilhouetteSVG } from "/style/characters.js";
+import { blighSVG, bicorneHatSVG, soldierSilhouetteSVG, legPhase } from "/style/characters.js";
 
 const W = 1920, FRAME_H = 1080;
 const defsEl = document.getElementById("defs");
@@ -82,7 +82,37 @@ function pictureBeatSVG({ href, imgW, imgH, t, start, duration, label, camFrom =
 }
 
 // ---- Bligh: zero for two — flat-2D comedy beats ----
-const RAIL_Y = 620;
+const RAIL_Y = 520;
+
+function shipMastSVG(x, baseY, sway) {
+  return `
+    <g transform="translate(${x},${baseY}) rotate(${sway})">
+      <rect x="-4" y="-420" width="8" height="420" fill="#241a12"/>
+      <path d="M -95 -360 L 95 -360 L 92 -350 L -92 -350 Z" fill="#241a12"/>
+      <path d="M 4 -410 L 100 -370 L 4 -350 Z" fill="#382a1c" opacity="0.9"/>
+      <path d="M -95 -358 L 0 -240 M 95 -358 L 0 -240" stroke="#241a12" stroke-width="2.5" opacity="0.8"/>
+    </g>
+  `;
+}
+
+// shakeXY - a short, decaying high-frequency jolt for impact moments.
+function shakeXY(t, triggerT, duration = 0.35, magnitude = 10) {
+  const p = progress(t, triggerT, duration, ease.linear);
+  if (p <= 0 || p >= 1) return "0,0";
+  const decay = 1 - p;
+  return `${(Math.sin(t * 47) * magnitude * decay).toFixed(1)},${(Math.cos(t * 61) * magnitude * 0.6 * decay).toFixed(1)}`;
+}
+
+function gullsSVG(t, topY, count = 3) {
+  let out = "";
+  for (let i = 0; i < count; i++) {
+    const speed = 55 + i * 18;
+    const y = topY + i * 26 + Math.sin(t * 1.5 + i) * 5;
+    const x = ((t * speed + i * 340) % (W + 200)) - 100;
+    out += `<path d="M ${(x - 11).toFixed(1)} ${y.toFixed(1)} Q ${x.toFixed(1)} ${(y - 9).toFixed(1)} ${(x + 11).toFixed(1)} ${y.toFixed(1)}" fill="none" stroke="${PALETTE.sandstoneLight}" stroke-width="2" opacity="0.45"/>`;
+  }
+  return out;
+}
 
 function oceanSceneSVG(t) {
   let out = `
@@ -93,6 +123,9 @@ function oceanSceneSVG(t) {
     <rect x="0" y="0" width="${W}" height="${RAIL_Y}" fill="url(#blighSky)"/>
     <rect x="0" y="${RAIL_Y}" width="${W}" height="${FRAME_H - RAIL_Y}" fill="${PALETTE.outbackNightIndigoDeep}"/>
   `;
+  out += gullsSVG(t, 90, 3);
+  const sway = Math.sin(t * 0.8) * 1.3;
+  out += shipMastSVG(1640, RAIL_Y + 4, sway);
   for (let i = 0; i < 6; i++) {
     const wy = RAIL_Y + 40 + i * 70;
     const offset = Math.sin(t * 0.8 + i * 1.3) * 18;
@@ -102,58 +135,124 @@ function oceanSceneSVG(t) {
   return out;
 }
 
-function splashSVG(x, y, p) {
+// splashBurstSVG - an expanding ring plus a dozen droplets on real
+// (deterministic) parabolic arcs, for a much punchier "he's overboard" hit
+// than a few fading circles.
+const DROPLET_ANGLES = [-100, -75, -55, -25, 25, 55, 75, 100];
+
+function splashBurstSVG(x, y, t, start, duration = 0.9) {
+  const localT = t - start;
+  if (localT < 0 || localT > duration) return "";
+  const p = localT / duration;
+  const r = 10 + p * 110;
+  let out = `<circle cx="${x}" cy="${y}" r="${r.toFixed(1)}" fill="none" stroke="${PALETTE.cream}" stroke-width="${(5 * (1 - p)).toFixed(1)}" opacity="${(1 - p).toFixed(2)}"/>`;
+  for (const a of DROPLET_ANGLES) {
+    const rad = (a * Math.PI) / 180;
+    const speed = 260;
+    const dx = Math.sin(rad) * speed * localT;
+    const dy = -Math.cos(rad) * speed * localT + 620 * localT * localT;
+    const op = Math.max(0, 1 - p * 1.2);
+    out += `<circle cx="${(x + dx).toFixed(1)}" cy="${(y + dy).toFixed(1)}" r="3.5" fill="${PALETTE.cream}" opacity="${op.toFixed(2)}"/>`;
+  }
+  return out;
+}
+
+function rippleSVG(x, y, t, start, duration = 1.0) {
+  const p = progress(t, start, duration, ease.outCubic);
   if (p <= 0 || p >= 1) return "";
-  const r = 10 + p * 70;
-  const op = 1 - p;
+  const r = 20 + p * 90;
+  return `<ellipse cx="${x}" cy="${y}" rx="${r.toFixed(1)}" ry="${(r * 0.28).toFixed(1)}" fill="none" stroke="${PALETTE.cream}" stroke-width="2" opacity="${(0.5 * (1 - p)).toFixed(2)}"/>`;
+}
+
+function governmentHouseSVG() {
   return `
-    <g transform="translate(${x},${y})" opacity="${op.toFixed(3)}">
-      <circle r="${r.toFixed(1)}" fill="none" stroke="${PALETTE.cream}" stroke-width="3"/>
-      <circle cx="${-r * 0.6}" cy="${-r * 0.3}" r="4" fill="${PALETTE.cream}"/>
-      <circle cx="${r * 0.7}" cy="${-r * 0.2}" r="5" fill="${PALETTE.cream}"/>
-      <circle cx="${r * 0.1}" cy="${-r * 0.6}" r="3.5" fill="${PALETTE.cream}"/>
-    </g>
+    <rect x="560" y="440" width="800" height="280" fill="#2a2038"/>
+    <path d="M 540 440 L 960 320 L 1380 440 Z" fill="#221a2e"/>
+    ${[0, 1, 2, 3, 4, 5].map((i) => `<rect x="${600 + i * 130}" y="460" width="30" height="240" fill="#382c48"/>`).join("")}
+    <rect x="0" y="700" width="${W}" height="${FRAME_H - 700}" fill="${PALETTE.redOchreDeep}" opacity="0.5"/>
   `;
 }
 
-function scoreCornerSVG(t, count) {
-  if (count <= 0) return "";
-  const p = fadeIn(t, 0, 0.01);
-  let out = `<g opacity="${p.toFixed(3)}">
+function dustPuffSVG(x, y, t, phase) {
+  const cyclePos = ((t * 6 + phase) % (Math.PI * 2)) / (Math.PI * 2);
+  if (cyclePos > 0.35) return "";
+  const p = cyclePos / 0.35;
+  const r = 4 + p * 16;
+  return `<ellipse cx="${x}" cy="${y}" rx="${r.toFixed(1)}" ry="${(r * 0.4).toFixed(1)}" fill="${PALETTE.sandstone}" opacity="${(0.35 * (1 - p)).toFixed(2)}"/>`;
+}
+
+// scoreCornerSVG - the running "mutinies against Bligh" tally. Each mark
+// pops in with an outBack bounce at the moment it happened, instead of the
+// whole cluster just appearing.
+function scoreCornerSVG(t, marksAppearAt) {
+  const visible = marksAppearAt.filter((mt) => t >= mt);
+  if (visible.length === 0) return "";
+  const labelP = fadeIn(t, marksAppearAt[0], 0.3);
+  let out = `<g opacity="${labelP.toFixed(3)}">
     <text x="${W - 60}" y="70" text-anchor="end" font-family="${FONTS.sans}" font-size="18" letter-spacing="2"
       fill="${PALETTE.sandstoneLight}">MUTINIES AGAINST BLIGH</text>`;
-  for (let i = 0; i < count; i++) {
-    out += `<circle cx="${W - 60 - i * 36}" cy="100" r="12" fill="none" stroke="${PALETTE.sunsetOrange}" stroke-width="2.5"/>
-      <path d="M ${W - 67 - i * 36} 93 L ${W - 53 - i * 36} 107 M ${W - 53 - i * 36} 93 L ${W - 67 - i * 36} 107" stroke="${PALETTE.sunsetOrange}" stroke-width="2.5"/>`;
-  }
+  visible.forEach((mt, i) => {
+    const bounce = progress(t, mt, 0.45, ease.outBack);
+    out += `<g transform="translate(${W - 60 - i * 36},100) scale(${bounce.toFixed(3)})">
+      <circle r="12" fill="none" stroke="${PALETTE.sunsetOrange}" stroke-width="2.5"/>
+      <path d="M -7 -7 L 7 7 M 7 -7 L -7 7" stroke="${PALETTE.sunsetOrange}" stroke-width="2.5"/>
+    </g>`;
+  });
   return out + `</g>`;
 }
 
 function mutinyGagSVG(t) {
   const start = BEAT.mutinyGag;
-  let out = oceanSceneSVG(t);
+  const camScale = 1.02 + progress(t, start, 6.5, ease.linear) * 0.24;
+  const [shakeX, shakeY] = shakeXY(t, start + 3.35, 0.4, 16).split(",");
+  let out = `<g class="cam" style="transform: translate(${shakeX}px,${shakeY}px) scale(${camScale.toFixed(3)})">`;
+  out += oceanSceneSVG(t);
 
-  const pushP = progress(t, start + 1.6, 1.6, ease.inOutCubic);
-  const jitter = Math.sin(t * 7) * 6;
-  out += soldierSilhouetteSVG({ x: 760, y: RAIL_Y, scale: 1.7, armAngle: -30 - pushP * 40 + jitter, legAngle: 4, color: "#3a4a5c" });
-  out += soldierSilhouetteSVG({ x: 1180, y: RAIL_Y, scale: 1.7, armAngle: 30 + pushP * 40 - jitter, legAngle: -4, color: "#3a4a5c" });
+  // Crew: anticipation (wind up) then a fast forward push-swing.
+  const windUpP = progress(t, start + 0.4, 0.8, ease.outCubic);
+  const swingP = progress(t, start + 1.2, 0.5, ease.inCubic);
+  const settleAngle = 46; // where their arms rest once he's overboard, leaning on the rail
+  const armSwing = -30 - windUpP * 25 + swingP * (settleAngle + 30 - 25);
+  const crewIdle = Math.sin(t * 2.2) * 4;
+  out += soldierSilhouetteSVG({ x: 700, y: RAIL_Y + 20, scale: 2.5, armAngle: armSwing + crewIdle, legAngle: 4, color: "#3a4a5c" });
+  out += soldierSilhouetteSVG({ x: 1240, y: RAIL_Y + 20, scale: 2.5, armAngle: -armSwing - crewIdle, legAngle: -4, color: "#3a4a5c" });
 
-  const tipP = progress(t, start + 2.0, 1.6, ease.inCubic);
-  const rotate = -tipP * 100;
-  const blighOpacity = 1 - progress(t, start + 3.5, 0.5, ease.linear);
-  out += `<g opacity="${Math.max(0, blighOpacity).toFixed(3)}">
-    ${blighSVG({ x: 960, y: RAIL_Y, scale: 2.0, rotate, armAngle: -20 - tipP * 60 })}
-  </g>`;
+  // Bligh: tipped backward over the rail in an arc, flailing, hat flying
+  // off separately — then gone once he's under.
+  const tipP = progress(t, start + 1.6, 1.15, ease.inCubic);
+  const rotate = -tipP * 260;
+  const arcX = 970 + Math.sin(tipP * 1.2) * 55;
+  const arcY = RAIL_Y + 20 - Math.sin(tipP * Math.PI) * 130;
+  const blighOpacity = 1 - progress(t, start + 2.75, 0.35, ease.linear);
+  if (blighOpacity > 0) {
+    out += `<g opacity="${blighOpacity.toFixed(3)}">
+      ${blighSVG({
+        x: arcX, y: arcY, scale: 2.9, rotate,
+        armAngleL: -20 - tipP * 90 + Math.sin(t * 22) * 20,
+        armAngleR: -20 - tipP * 70 - Math.sin(t * 19) * 20,
+        legAngle: tipP * 30,
+        hatOn: false,
+      })}
+    </g>`;
+    if (tipP > 0.55) out += `<path d="M ${arcX - 55} ${arcY} L ${arcX - 8} ${arcY}" stroke="${PALETTE.cream}" stroke-width="2.5" opacity="${(blighOpacity * 0.4).toFixed(2)}"/>`;
+  }
+  const hatP = progress(t, start + 1.75, 1.3, ease.linear);
+  if (hatP > 0 && hatP < 1) {
+    const hatX = 970 + hatP * 190;
+    const hatY = RAIL_Y - 40 + 620 * hatP * hatP - 160 * hatP;
+    out += bicorneHatSVG({ x: hatX, y: hatY, scale: 2.2, rotate: hatP * 480 });
+  }
 
-  const splashP = progress(t, start + 3.4, 0.7, ease.linear);
-  out += splashSVG(960, RAIL_Y + 30, splashP);
+  out += splashBurstSVG(970, RAIL_Y + 50, t, start + 2.6, 0.9);
+  out += rippleSVG(970, RAIL_Y + 54, t, start + 3.4, 1.1);
+  out += rippleSVG(970, RAIL_Y + 54, t, start + 4.3, 1.1);
+
+  out += `</g>`; // .cam
 
   const titleP = fadeIn(t, start + 0.2, 0.5);
   out += `<text x="50%" y="90" text-anchor="middle" font-family="${FONTS.serif}" font-size="34"
     fill="${PALETTE.cream}" opacity="${titleP.toFixed(3)}">Mutiny on the Bounty · 1789</text>`;
-
-  const tallyOn = t >= start + 4.0 ? 1 : 0;
-  out += scoreCornerSVG(t, tallyOn);
+  out += scoreCornerSVG(t, [start + 3.1]);
 
   return out + warmGradeOverlayRect(W, FRAME_H) + vignetteOverlayRect(W, FRAME_H) +
     `<rect x="0" y="0" width="${W}" height="${FRAME_H}" filter="url(#filmGrain)" opacity="0.35"/>`;
@@ -161,23 +260,45 @@ function mutinyGagSVG(t) {
 
 function rebellionGagSVG(t) {
   const start = BEAT.rebellionGag;
-  let out = `<rect x="0" y="0" width="${W}" height="${FRAME_H}" fill="${PALETTE.outbackNightIndigoDeep}"/>`;
+  const camScale = 1.0 + progress(t, start, 6.5, ease.linear) * 0.2;
+  const arriveShake = shakeXY(t, start + 1.95, 0.3, 12).split(",");
+  let out = `<g class="cam" style="transform: translate(${arriveShake[0]}px,${arriveShake[1]}px) scale(${camScale.toFixed(3)})">`;
+  out += `<rect x="0" y="0" width="${W}" height="${FRAME_H}" fill="${PALETTE.outbackNightIndigoDeep}"/>`;
+  out += governmentHouseSVG();
 
   const marchP = progress(t, start + 0.3, 1.6, ease.outCubic);
-  const soldier1X = 300 + (860 - 300) * marchP;
-  const soldier2X = 1620 + (1060 - 1620) * marchP;
-  out += soldierSilhouetteSVG({ x: soldier1X, y: 700, scale: 2.0, armAngle: -10, legAngle: Math.sin(t * 6) * 10, color: "#7a2f2f" });
-  out += soldierSilhouetteSVG({ x: soldier2X, y: 700, scale: 2.0, armAngle: 10, legAngle: -Math.sin(t * 6) * 10, color: "#7a2f2f" });
+  const marching = marchP > 0 && marchP < 1;
+  const stepPhase = t * 9;
+  const soldier1X = 200 + (830 - 200) * marchP;
+  const soldier2X = 1720 + (1090 - 1720) * marchP;
+  const bob = marching ? Math.abs(Math.sin(stepPhase)) * 8 : 0;
+  const legSwing = marching ? legPhase(t, 9) * 22 : 0;
 
-  const surrenderP = progress(t, start + 1.8, 1.0, ease.outBack);
-  out += blighSVG({ x: 960, y: 700, scale: 2.2, armAngle: -20 - surrenderP * 130 });
+  if (marching) {
+    out += dustPuffSVG(soldier1X - 26, 726, t, 0);
+    out += dustPuffSVG(soldier2X + 26, 726, t, Math.PI);
+  }
+  out += soldierSilhouetteSVG({ x: soldier1X, y: 720 - bob, scale: 2.6, armAngle: -10 + legSwing * 0.4, legAngle: legSwing, color: "#7a2f2f" });
+  out += soldierSilhouetteSVG({ x: soldier2X, y: 720 - bob, scale: 2.6, armAngle: 10 - legSwing * 0.4, legAngle: -legSwing, color: "#7a2f2f" });
+  // A second rank, smaller and further back, for a "detachment" feel.
+  out += soldierSilhouetteSVG({ x: soldier1X - 80, y: 660 - bob * 0.6, scale: 1.7, armAngle: -8, legAngle: legSwing * 0.7, color: "#5c2323" });
+  out += soldierSilhouetteSVG({ x: soldier2X + 80, y: 660 - bob * 0.6, scale: 1.7, armAngle: 8, legAngle: -legSwing * 0.7, color: "#5c2323" });
+
+  // Bligh: a quick startled recoil, then hands-up surrender with an
+  // overshoot bounce.
+  const recoilP = progress(t, start + 1.7, 0.4, ease.outCubic);
+  const surrenderP = progress(t, start + 2.1, 0.7, ease.outBack);
+  const leanX = -recoilP * 18 * (1 - surrenderP);
+  const armL = -20 - recoilP * 40 - surrenderP * 90;
+  const armR = -20 - recoilP * 10 - surrenderP * 120;
+  out += blighSVG({ x: 960 + leanX, y: 720, scale: 2.9, armAngleL: armL, armAngleR: armR, rotate: -recoilP * 6 * (1 - surrenderP) });
+
+  out += `</g>`; // .cam
 
   const titleP = fadeIn(t, start + 0.2, 0.5);
   out += `<text x="50%" y="90" text-anchor="middle" font-family="${FONTS.serif}" font-size="34"
     fill="${PALETTE.cream}" opacity="${titleP.toFixed(3)}">The Rum Rebellion · 1808</text>`;
-
-  const tallyCount = t >= start + 2.8 ? 2 : 1;
-  out += scoreCornerSVG(t, tallyCount);
+  out += scoreCornerSVG(t, [BEAT.mutinyGag + 3.1, start + 2.8]);
 
   return out + warmGradeOverlayRect(W, FRAME_H) + vignetteOverlayRect(W, FRAME_H) +
     `<rect x="0" y="0" width="${W}" height="${FRAME_H}" filter="url(#filmGrain)" opacity="0.35"/>`;
@@ -185,12 +306,20 @@ function rebellionGagSVG(t) {
 
 function zeroForTwoStingSVG(t) {
   const start = BEAT.zeroForTwoSting;
-  const p = progress(t, start, 0.35, ease.outBack);
+  const flashP = progress(t, start, 0.3, ease.linear);
+  const [shakeX, shakeY] = shakeXY(t, start, 0.3, 12).split(",");
+  const p1 = progress(t, start, 0.3, ease.outBack);
+  const p2 = progress(t, start + 0.12, 0.35, ease.outBack);
   let out = `<rect x="0" y="0" width="${W}" height="${FRAME_H}" fill="${PALETTE.outbackNightIndigoDeep}"/>`;
-  out += `<g transform="translate(960,540) scale(${p.toFixed(3)})">
-    <text x="0" y="-10" text-anchor="middle" font-family="${FONTS.serif}" font-weight="700" font-size="88" fill="${PALETTE.cream}">BLIGH</text>
-    <text x="0" y="80" text-anchor="middle" font-family="${FONTS.serif}" font-weight="700" font-size="88" fill="${PALETTE.sunsetOrange}">ZERO FOR TWO</text>
+  out += `<g style="transform: translate(${shakeX}px,${shakeY}px)">
+    <g transform="translate(960,510) scale(${p1.toFixed(3)})">
+      <text x="0" y="-10" text-anchor="middle" font-family="${FONTS.serif}" font-weight="700" font-size="80" fill="${PALETTE.cream}">BLIGH</text>
+    </g>
+    <g transform="translate(960,600) scale(${p2.toFixed(3)})">
+      <text x="0" y="80" text-anchor="middle" font-family="${FONTS.serif}" font-weight="700" font-size="92" fill="${PALETTE.sunsetOrange}">ZERO FOR TWO</text>
+    </g>
   </g>`;
+  out += `<rect x="0" y="0" width="${W}" height="${FRAME_H}" fill="${PALETTE.cream}" opacity="${(Math.max(0, 1 - flashP * 5)).toFixed(2)}"/>`;
   return out + warmGradeOverlayRect(W, FRAME_H) + vignetteOverlayRect(W, FRAME_H);
 }
 
