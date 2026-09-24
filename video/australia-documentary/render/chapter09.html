@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>Chapter 9</title>
+<style>
+  @font-face { font-family: "Playfair Display"; src: url("/style/fonts/playfair-display-latin-700-normal.woff2") format("woff2"); font-weight: 700; }
+  @font-face { font-family: "Playfair Display"; src: url("/style/fonts/playfair-display-latin-400-normal.woff2") format("woff2"); font-weight: 400; }
+  @font-face { font-family: "Source Sans 3"; src: url("/style/fonts/source-sans-3-latin-600-normal.woff2") format("woff2"); font-weight: 600; }
+  @font-face { font-family: "Source Sans 3"; src: url("/style/fonts/source-sans-3-latin-400-normal.woff2") format("woff2"); font-weight: 400; }
+  html, body { margin: 0; padding: 0; background: #000; }
+  svg { display: block; }
+  .cam { transform-origin: 50% 50%; }
+</style>
+</head>
+<body>
+<svg id="stage" width="1920" height="1080" viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg">
+  <defs id="defs"></defs>
+  <g id="root"></g>
+</svg>
+
+<script type="module">
+import { PALETTE, FONTS, ease, progress, fadeIn, styleDefsSVG, vignetteOverlayRect,
+         warmGradeOverlayRect, pushPan, chapterTitleCardSVG, pictureLayerSVG,
+         buildCaptionLines, findActiveCaption, captionBarSVG, escapeXML } from "/style/style.js";
+
+const W = 1920, FRAME_H = 1080;
+const defsEl = document.getElementById("defs");
+const rootEl = document.getElementById("root");
+defsEl.innerHTML = styleDefsSVG();
+
+let captionLines = null;
+
+// Chapter 9 local time 0 = global transcript time 637.52s ("After the
+// war...") through 734.48s ("...nation's history."), per transcript.json
+// (words 1536-1756).
+const GLOBAL_OFFSET = 637.52;
+const BEAT = {
+  title: 0.0,
+  migrants: 2.5,
+  snowy: 650.33 - GLOBAL_OFFSET,          // 12.81 "Many built the Snowy Mountains Scheme..."
+  stolenGenerations: 657.45 - GLOBAL_OFFSET, // 19.93 "But this era also holds deep pain..."
+  waveHill: 669.65 - GLOBAL_OFFSET,       // 32.13 "Change came through struggle..."
+  referendum: 680.57 - GLOBAL_OFFSET,     // 43.05 "In 1967, over 90% of Australians..."
+  holtPortrait: 695.12 - GLOBAL_OFFSET,   // 57.60 "And remember the Prime Minister who vanished?"
+  cheviotBeach: 701.64 - GLOBAL_OFFSET,   // 64.12 "went swimming in rough surf..."
+  poolGag: 705.70 - GLOBAL_OFFSET,        // 68.18 "The country's tribute?"
+  operaHouse: 709.82 - GLOBAL_OFFSET,     // 72.30 "In 1973, the Sydney Opera House opened..."
+  whitlam: 725.52 - GLOBAL_OFFSET,        // 88.00 "And in 1975, the Governor-General..."
+  end: 734.48 - GLOBAL_OFFSET + 0.5,      // 97.46
+};
+
+async function ensureAssets() {
+  const res = await fetch("/transcript.json");
+  const data = await res.json();
+  // Chapter 9's words: index 1536 ("After") through 1756 ("history."), inclusive.
+  const chapterWords = data.words.slice(1536, 1757).map((w) => ({
+    text: w.text,
+    start: w.start - GLOBAL_OFFSET,
+    end: w.end - GLOBAL_OFFSET,
+  }));
+  captionLines = buildCaptionLines(chapterWords, { maxWords: 7 });
+}
+
+function pictureBeatSVG({ href, imgW, imgH, t, start, duration, label, camFrom = 1.0, camTo = 1.14, panFromX = 0, panToX = 0, panFromY = 0, panToY = 0 }) {
+  const cam = pushPan(t, { start, duration, from: camFrom, to: camTo, fromX: panFromX, toX: panToX, fromY: panFromY, toY: panToY });
+  let out = `
+    <g class="cam" style="transform:${cam}">
+      ${pictureLayerSVG({ href, imgW, imgH, frameW: W, frameH: FRAME_H })}
+    </g>
+    ${warmGradeOverlayRect(W, FRAME_H)}
+    ${vignetteOverlayRect(W, FRAME_H)}
+    <rect x="0" y="0" width="${W}" height="${FRAME_H}" filter="url(#filmGrain)" opacity="0.38"/>
+  `;
+  if (label) {
+    const p = fadeIn(t, start + 0.35, 0.6);
+    out += `<text x="50%" y="100" text-anchor="middle" font-family="${FONTS.sans}" font-size="22" letter-spacing="3"
+      fill="${PALETTE.cream}" opacity="${p.toFixed(3)}">${escapeXML(label)}</text>`;
+  }
+  return out;
+}
+
+// ---- "They named a swimming pool after him." ----
+// Deliberately restrained: the joke (per the script's own delivery note,
+// "dry humour... punchline") is the absurdity of the memorial, not the
+// disappearance itself. No figure, no water peril — just a plaque being
+// unveiled over an ordinary pool.
+function poolGagSVG(t) {
+  const start = BEAT.poolGag;
+  let out = `
+    <linearGradient id="poolSky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#bcd4de"/>
+      <stop offset="100%" stop-color="${PALETTE.sandstoneLight}"/>
+    </linearGradient>
+    <rect x="0" y="0" width="${W}" height="${FRAME_H}" fill="url(#poolSky)"/>
+    <rect x="0" y="700" width="${W}" height="${FRAME_H - 700}" fill="${PALETTE.sandstone}"/>
+    <rect x="260" y="600" width="1400" height="220" rx="18" fill="#2e7d8c"/>
+    <rect x="280" y="620" width="1360" height="180" rx="12" fill="#3f9aab"/>
+  `;
+  for (let i = 0; i < 5; i++) {
+    const wy = 650 + i * 30;
+    const offset = Math.sin(t * 1.6 + i) * 14;
+    out += `<path d="M ${300 + offset} ${wy} Q 960 ${wy - 8} ${1620 + offset} ${wy}" stroke="#cdeef2" stroke-width="2" opacity="0.35" fill="none"/>`;
+  }
+
+  // The plaque, on a simple post, with a curtain that slides away to
+  // reveal it — a small ceremonial-unveiling gag.
+  const revealP = progress(t, start + 0.5, 0.9, ease.outCubic);
+  out += `<rect x="900" y="500" width="16" height="110" fill="#6b5a44"/>`;
+  out += `<g>
+    <rect x="760" y="380" width="400" height="130" rx="8" fill="${PALETTE.cream}" stroke="#6b5a44" stroke-width="4"/>
+    <text x="960" y="425" text-anchor="middle" font-family="${FONTS.serif}" font-weight="700" font-size="24" fill="${PALETTE.ink}">HAROLD HOLT</text>
+    <text x="960" y="455" text-anchor="middle" font-family="${FONTS.serif}" font-size="20" fill="${PALETTE.ink}">MEMORIAL</text>
+    <text x="960" y="485" text-anchor="middle" font-family="${FONTS.serif}" font-size="20" fill="${PALETTE.ink}">SWIMMING CENTRE</text>
+  </g>`;
+  const curtainX = -600 * revealP;
+  out += `<rect x="${760 + curtainX}" y="380" width="400" height="130" rx="8" fill="${PALETTE.redOchre}" opacity="${(1 - revealP).toFixed(3)}"/>`;
+
+  const titleP = fadeIn(t, start + 0.1, 0.4);
+  out += `<rect x="${960 - 220}" y="90" width="440" height="46" rx="6" fill="${PALETTE.ink}" opacity="${(titleP * 0.6).toFixed(3)}"/>
+    <text x="50%" y="122" text-anchor="middle" font-family="${FONTS.sans}" font-size="22" letter-spacing="2"
+      fill="${PALETTE.cream}" opacity="${titleP.toFixed(3)}">THE COUNTRY'S TRIBUTE</text>`;
+
+  return out + warmGradeOverlayRect(W, FRAME_H) + vignetteOverlayRect(W, FRAME_H) +
+    `<rect x="0" y="0" width="${W}" height="${FRAME_H}" filter="url(#filmGrain)" opacity="0.3"/>`;
+}
+
+function renderFrame(tLocal) {
+  let svg = "";
+  if (tLocal < BEAT.migrants) {
+    svg = chapterTitleCardSVG({
+      w: W, h: FRAME_H, t: tLocal, start: BEAT.title,
+      chapterLabel: "Chapter Nine",
+      title: "The Big Transformation",
+    });
+  } else if (tLocal < BEAT.snowy) {
+    svg = pictureBeatSVG({
+      href: "/images/70_postwar_migrants.jpg", imgW: 1920, imgH: 1422,
+      t: tLocal, start: BEAT.migrants, duration: BEAT.snowy - BEAT.migrants,
+      camFrom: 1.0, camTo: 1.12,
+      label: "“POPULATE OR PERISH”",
+    });
+  } else if (tLocal < BEAT.stolenGenerations) {
+    svg = pictureBeatSVG({
+      href: "/images/71_snowy_scheme.jpg", imgW: 1152, imgH: 1440,
+      t: tLocal, start: BEAT.snowy, duration: BEAT.stolenGenerations - BEAT.snowy,
+      camFrom: 1.0, camTo: 1.08,
+      label: "THE SNOWY MOUNTAINS SCHEME",
+    });
+  } else if (tLocal < BEAT.waveHill) {
+    svg = pictureBeatSVG({
+      href: "/images/72_stolen_generations_memorial.jpg", imgW: 1920, imgH: 1440,
+      t: tLocal, start: BEAT.stolenGenerations, duration: BEAT.waveHill - BEAT.stolenGenerations,
+      camFrom: 1.0, camTo: 1.06,
+      label: "THE STOLEN GENERATIONS",
+    });
+  } else if (tLocal < BEAT.referendum) {
+    svg = pictureBeatSVG({
+      href: "/images/73_wave_hill.jpg", imgW: 1204, imgH: 1440,
+      t: tLocal, start: BEAT.waveHill, duration: BEAT.referendum - BEAT.waveHill,
+      camFrom: 1.0, camTo: 1.08,
+      label: "1975: LAND HANDED BACK TO THE GURINDJI PEOPLE",
+    });
+  } else if (tLocal < BEAT.holtPortrait) {
+    svg = pictureBeatSVG({
+      href: "/images/74_1967_referendum.jpg", imgW: 1920, imgH: 1257,
+      t: tLocal, start: BEAT.referendum, duration: BEAT.holtPortrait - BEAT.referendum,
+      camFrom: 1.0, camTo: 1.1,
+      label: "THE 1967 REFERENDUM",
+    });
+  } else if (tLocal < BEAT.cheviotBeach) {
+    svg = pictureBeatSVG({
+      href: "/images/75_harold_holt.jpg", imgW: 1028, imgH: 1440,
+      t: tLocal, start: BEAT.holtPortrait, duration: BEAT.cheviotBeach - BEAT.holtPortrait,
+      camFrom: 1.0, camTo: 1.06,
+      label: "PRIME MINISTER HAROLD HOLT",
+    });
+  } else if (tLocal < BEAT.poolGag) {
+    svg = pictureBeatSVG({
+      href: "/images/76_cheviot_beach.jpg", imgW: 1920, imgH: 1440,
+      t: tLocal, start: BEAT.cheviotBeach, duration: BEAT.poolGag - BEAT.cheviotBeach,
+      camFrom: 1.0, camTo: 1.1,
+      label: "CHEVIOT BEACH · DECEMBER 1967",
+    });
+  } else if (tLocal < BEAT.operaHouse) {
+    svg = poolGagSVG(tLocal);
+  } else if (tLocal < BEAT.whitlam) {
+    svg = pictureBeatSVG({
+      href: "/images/78_sydney_opera_house.jpg", imgW: 1280, imgH: 854,
+      t: tLocal, start: BEAT.operaHouse, duration: BEAT.whitlam - BEAT.operaHouse,
+      camFrom: 1.0, camTo: 1.12, panFromX: 0, panToX: -10,
+      label: "SYDNEY OPERA HOUSE · 1973",
+    });
+  } else {
+    svg = pictureBeatSVG({
+      href: "/images/79_gough_whitlam.jpg", imgW: 1153, imgH: 1440,
+      t: tLocal, start: BEAT.whitlam, duration: BEAT.end - BEAT.whitlam,
+      camFrom: 1.0, camTo: 1.08,
+      label: "GOUGH WHITLAM · DISMISSED 1975",
+    });
+  }
+
+  if (captionLines) {
+    const line = findActiveCaption(captionLines, tLocal);
+    if (line) svg += captionBarSVG({ w: W, h: FRAME_H, text: line.text });
+  }
+
+  rootEl.innerHTML = svg;
+}
+
+window.__ready = ensureAssets();
+window.__renderFrame = renderFrame;
+window.__END_TIME = BEAT.end;
+renderFrame(0);
+</script>
+</body>
+</html>
