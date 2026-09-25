@@ -50,6 +50,7 @@
     if (cur.length) groups.push(cur);
     return groups.map((g) => ({
       text: g.map((x) => x.word).join(' ').replace(/\s+([.,!?])/g, '$1'),
+      words: g,
       start: g[0].start,
       end: g[g.length - 1].end + 0.12,
     }));
@@ -67,43 +68,67 @@
     `;
   }
 
-  function captionSvg(text, t, start, end) {
+  function escXml(s) {
+    return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+  }
+
+  /**
+   * Caption block. opts (all optional, set per episode via EPISODE.captionStyle / captionY):
+   *   y        centre line (default CAPTION_Y, lower-middle ~70%)
+   *   font     font-family string
+   *   words    [{word,start,end}] — with highlight, the spoken word is tinted
+   *   highlight colour for the currently spoken word
+   *   box/stroke  box fill / hairline colour
+   */
+  function captionSvg(text, t, start, end, opts = {}) {
     if (!text || t < start - 0.05 || t > end) return '';
+    const cy = opts.y != null ? opts.y : CAPTION_Y;
     const local = clamp((t - start) / 0.18, 0, 1);
     const s = easeOutBack(local);
     const opacity = t > end - 0.1 ? clamp((end - t) / 0.1, 0, 1) : 1;
-    const escaped = String(text)
-      .replace(/&/g, '&amp;')
-      .replace(/</g, '&lt;')
-      .replace(/>/g, '&gt;');
+    const font = opts.font || 'Arial Black, Helvetica, sans-serif';
+    // tokens keep per-word timing when available, so the active word can be highlighted
+    const tokens = opts.words
+      ? opts.words.map((w) => ({ w: escXml(w.word), start: w.start, end: w.end }))
+      : escXml(text).split(' ').map((w) => ({ w }));
     // wrap ~28 chars
-    const words = escaped.split(' ');
     const lines = [];
-    let line = '';
-    for (const w of words) {
-      const next = line ? line + ' ' + w : w;
-      if (next.length > 28 && line) {
+    let line = [];
+    let len = 0;
+    for (const tk of tokens) {
+      const add = (len ? 1 : 0) + tk.w.length;
+      if (len + add > 28 && line.length) {
         lines.push(line);
-        line = w;
-      } else line = next;
+        line = [tk];
+        len = tk.w.length;
+      } else {
+        line.push(tk);
+        len += add;
+      }
     }
-    if (line) lines.push(line);
+    if (line.length) lines.push(line);
     const lineH = 64;
     const blockH = lines.length * lineH + 36;
-    const y0 = CAPTION_Y - blockH / 2;
+    const y0 = cy - blockH / 2;
     const spans = lines
-      .map(
-        (ln, i) =>
-          `<tspan x="540" dy="${i === 0 ? 0 : lineH}">${ln}</tspan>`
-      )
+      .map((ln, i) => {
+        const inner = ln
+          .map((tk, j) => {
+            const active = opts.highlight && tk.start != null && t >= tk.start - 0.04 && t < tk.end + 0.08;
+            const fill = active ? ` fill="${opts.highlight}"` : '';
+            return `<tspan${fill}>${j ? ' ' : ''}${tk.w}</tspan>`;
+          })
+          .join('');
+        return `<tspan x="540" dy="${i === 0 ? 0 : lineH}">${inner}</tspan>`;
+      })
       .join('');
     return `
       <g opacity="${opacity}" transform="translate(540 ${y0 + blockH / 2}) scale(${s}) translate(-540 ${-(y0 + blockH / 2)})">
         <rect x="70" y="${y0}" width="940" height="${blockH}" rx="18"
-          fill="rgba(0,0,0,0.62)" stroke="rgba(255,220,120,0.35)" stroke-width="2"/>
+          fill="${opts.box || 'rgba(0,0,0,0.62)'}" stroke="${opts.stroke || 'rgba(255,220,120,0.35)'}" stroke-width="2"/>
         <text x="540" y="${y0 + 48}" text-anchor="middle"
-          font-family="Arial Black, Helvetica, sans-serif" font-size="44" font-weight="900"
-          fill="#fff" stroke="#000" stroke-width="6" paint-order="stroke"
+          font-family="${font}" font-size="44" font-weight="900"
+          fill="#fff" stroke="#000" stroke-width="6" paint-order="stroke" stroke-linejoin="round"
           style="letter-spacing:0.5px">${spans}</text>
       </g>`;
   }
@@ -142,8 +167,23 @@
     if (!ep) return;
     const root = document.getElementById('root');
     const scenes = ep.scenes || [];
-    const XFADE = 0.28; // soft crossfade at scene seams
+    const XFADE = ep.xfade != null ? ep.xfade : 0.28; // soft transition at scene seams
     let body = '';
+    if (ep.transition === 'crossfade') {
+      // Opt-in true crossfade: the incoming scene pre-rolls underneath while the outgoing fades out on top.
+      for (let i = 0; i < scenes.length; i++) {
+        const sc = scenes[i];
+        const next = scenes[i + 1];
+        if (t < sc.start - 0.001 || t >= sc.end) continue;
+        let layer = sc.draw(t, Math.max(0, t - sc.start), window.HS) || '';
+        if (next && t >= next.start - XFADE) {
+          const fade = 1 - easeInOutCubic(clamp((t - (next.start - XFADE)) / XFADE, 0, 1));
+          const under = next.draw(t, 0, window.HS) || '';
+          layer = `${under}<g opacity="${fade}">${layer}</g>`;
+        }
+        body += layer;
+      }
+    } else {
     for (let i = 0; i < scenes.length; i++) {
       const sc = scenes[i];
       const next = scenes[i + 1];
@@ -155,7 +195,6 @@
       let layer = sc.draw(t, localT, window.HS) || '';
       if (next && t >= next.start - XFADE && t < next.start + XFADE) {
         // blend: fade current out as next starts
-        const u = clamp((t - (next.start - XFADE)) / (XFADE * 2), 0, 1);
         if (t < next.start) {
           const fade = 1 - easeInOutCubic(clamp((t - (sc.end - XFADE)) / XFADE, 0, 1));
           layer = `<g opacity="${fade}">${layer}</g>`;
@@ -163,12 +202,19 @@
       }
       body += layer;
     }
+    }
     // captions
     if (!ep._caps) ep._caps = groupCaptions(ep.words);
     let caps = '';
+    const capStyle = ep.captionStyle || {};
     for (const c of ep._caps) {
       if (t >= c.start && t <= c.end) {
-        caps += captionSvg(c.text, t, c.start, c.end);
+        const y = typeof ep.captionY === 'function' ? ep.captionY(t) : undefined;
+        caps += captionSvg(c.text, t, c.start, c.end, {
+          ...capStyle,
+          y,
+          words: capStyle.highlight ? c.words : undefined,
+        });
         break;
       }
     }
@@ -176,6 +222,7 @@
       <svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}">
         <rect width="${W}" height="${H}" fill="#0a0a12"/>
         ${body}
+        ${typeof ep.overlay === 'function' ? ep.overlay(t, window.HS) : ''}
         ${caps}
       </svg>`;
   };

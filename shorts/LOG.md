@@ -44,3 +44,7 @@ Unpacked 6 Grok VOs into shorts/incoming-vo/. #01 matches finished Skylab Short;
 - Updated MASTER_PROMPT.md, workflows/shorts-pipeline/SKILL.md, shorts/CLAUDE.md with on-screen text rule + MG quality bar.
 - Re-rendered via `node shorts/shared/render/render-episode.mjs shorts/s02-man-who-named-australia`.
 - Deliverable: `out/s02-man-who-named-australia.mp4` → `deliverables/s02-man-who-named-australia/`.
+
+## 2026-09-25 — s02 premium rebuild (Issue #6)
+- Claude Code redesigned `s02-man-who-named-australia/render/scenes.js` end to end: photo underlay on every beat + premium MG (see episode LOG/plan).
+- Shared renderer: fonts, parallel capture, contact-sheet script, `--reuse-mix`, opt-in crossfade/caption styling (s01 defaults unchanged).
