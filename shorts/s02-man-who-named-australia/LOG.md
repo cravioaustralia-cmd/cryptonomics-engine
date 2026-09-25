@@ -65,3 +65,28 @@ User: improve cut after review; overwrite deliverables. Do **not** message user.
 - Size ~31MB; duration ~64.936000s; 1080×1920 @ 30fps
 - Audio: remuxed held `audio/final-mix.mp3` (no remix)
 - Contact sheet: `out/contact_v5/` — Trim statue confirmed (no AI cat); Port Louis harbour confirmed; MG bars/candle/headstones upgraded
+
+## 2026-09-25 — Issue #6 premium rebuild (Claude Code)
+Full redesign of `render/scenes.js` (replaces the Checkpoint C draft entirely). Photo underlay on every beat + designed MG; see `plan.md` for the beat table.
+
+### Design
+- Focal-point photo framing (`photo()`): each still zooms onto the right detail — Flinders' face, the bronze Trim, the printed “TERRA AUSTRALIS” chart title, the book spine. Low-res landscape stills use `photoBand()` (blurred full-bleed fill + sharp feathered band).
+- Per-beat colour grades (cool / warm / golden / parchment / sepia / mono); London beat goes sepia → colour when the station swallows the cemetery.
+- New MG set: ground-radar cutaway + GPR hyperbolas (hook), museum frame + nameplate, hand-plotted Australia map with anticlockwise circumnavigation, paw trail + reticle + swinging brass TRIM tag, Indian-Ocean route to Mauritius, iron bars slam, tally 6½ YEARS, Trim silhouette dissolve, chart strike + AUSTRALIA ink stamp, title-page card + JULY 1814 typewriter, candle gutter + smoke, perspective headstones / rising terraces / station girders + rails, 2019 slam, 40,000 dot matrix, lead plate flip + word-synced engraving + glint, 2024 + DONINGTON, gold Australia loop.
+- Type: bundled OFL fonts (Bebas Neue, Cormorant Garamond, Cinzel, Montserrat, IBM Plex Mono). Captions Montserrat 900 with active-word gold highlight, still ~70%.
+- Finishing: true crossfades, light-leak on cuts, vignette, animated grain.
+- On-screen text limited to names / places / key facts / artifact text; no VO-echo titles.
+
+### Still accuracy
+- `s02_02_flinders_general.jpg` was mislabelled as a portrait — it is Flinders' *Chart of Terra Australis* (1802-3). Now used for the naming beat; SOURCES.md corrected.
+- Village still is Creeton (flat south Lincolnshire), flagged in SOURCES.md for a Donington church upgrade.
+
+### Shared renderer (backward compatible)
+- `capture.mjs`: serves `/fonts/`, parallel `--workers`, `CHROMIUM_PATH` override, `captureStills()`; new `contact-sheet.mjs`.
+- `render-episode.mjs`: `--reuse-mix` keeps the held mix; sfxDir falls back to the episode `sfx/`.
+- `engine.js`: opt-in `transition: 'crossfade'`, `captionStyle` (font / highlight / box), `captionY(t)`, `overlay(t)` finishing layer. Defaults unchanged for s01.
+- `frame.html`: preloads fonts + stills before frame 0.
+
+### Output
+- Contact sheet: `out/contact_claude/sheet.jpg`
+- MP4: `out/s02-man-who-named-australia.mp4` (1080×1920, 30 fps, 64.97 s, held mix)

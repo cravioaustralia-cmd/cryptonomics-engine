@@ -1,34 +1,33 @@
-# Shot plan — s02-man-who-named-australia (Checkpoint C / s01 photo-underlay)
+# Shot plan — s02-man-who-named-australia (Issue #6 premium rebuild)
 
-**Motion rule:** Every beat = full-bleed photo underlay via `stillLayer` + SVG motion graphics on top (s01 Skylab style).  
-**Stack:** SVG + renderFrame(t) + Playwright + ffmpeg (**no Remotion**).  
-**Captions:** lower-middle ~70% — engine from transcript. Keep labels clear of that band.  
-**Duration / audio:** held VO + Vastness + same SFX cues — **64.968s** (VO not re-recorded).
+**Look:** full-bleed photo underlay on every beat (graded, focal-point Ken Burns; low-res landscape stills use a blurred full-bleed fill + sharp feathered band) with designed SVG motion graphics on top.
+**Stack:** SVG + renderFrame(t) + Playwright + ffmpeg (**no Remotion**). Shared renderer `shorts/shared/render/`.
+**Captions:** engine, lower-middle ~70% (y≈1344), Montserrat 900, active word tinted gold. All MG lives in y 150–1200 — caption band and YouTube UI zones stay clear.
+**Type system:** Bebas Neue (labels/numerals), Cormorant Garamond (names), Cinzel (artifacts: book, plate, Trim tag), IBM Plex Mono (kickers). OFL fonts bundled in `shorts/shared/fonts/`.
+**Finishing:** true crossfade seams (0.32 s), warm light-leak kiss on each cut, vignette, animated film grain.
+**Audio:** held `audio/final-mix.mp3` (VO not re-recorded) — `render-episode.mjs --reuse-mix`. Duration **64.968 s**.
 
-## On-screen text rule (strict)
-Extra graphics text ONLY for:
-- **names:** Matthew Flinders, Trim
-- **places:** Australia, Mauritius, London, Donington
-- **key facts:** July 1814, 6½ years, 2019, 2024
-- **artifact:** plate engraving “Captain Matthew Flinders”
-- **hook (frame 1):** short mystery card `200 YEARS`
+## On-screen text (strict — no VO-echo)
+names: Matthew Flinders (+ CAPTAIN kicker), Trim · places: London, Australia, Mauritius, England, Euston Station, Donington (Lincolnshire · England) · key facts: 200 YEARS (hook), 6½ YEARS, JULY 1814 / 1814, 2019, 40,000 BURIALS, 2024 · artifacts: HMS Investigator, *A Voyage to Terra Australis* title page, lead plate “CAPTAIN MATTHEW FLINDERS”, AUSTRALIA ink stamp on Flinders’ chart.
 
-**KILL:** VO-echo titles that restate narration.
+| # | Time (s) | Underlay still | Motion graphics |
+|---|----------|----------------|-----------------|
+| 1 | 0–7.10 | London Euston platform (cool grade, push-out) | **200 YEARS** on frame 1 (slam settle); LONDON pin tag; ground-radar cutaway opens under the platform — strata, scan line sweeps, GPR hyperbolas reveal a coffin that pulses gold on “200 years” |
+| 2 | 7.10–9.40 | Flinders portrait (PD), push-in on face | museum frame line draws around portrait; nameplate CAPTAIN / *Matthew Flinders* (rule + mask reveals) |
+| 3 | 9.40–12.25 | HMS Investigator model (blur fill + sharp band) | chart-grid map card: Australia coastline draws, dashed route + ship sail anticlockwise from Cape Leeuwin all the way round; AUSTRALIA reveal; completion ping; HMS INVESTIGATOR tag |
+| 4 | 12.25–16.25 | Flinders + Trim statue — push from full statue to the bronze cat | paw-print trail; focus reticle locks on Trim on “black cat”; brass TRIM collar tag swings in on “Trim” |
+| 5 | 16.25–24.15 | Port Louis harbour, Mauritius | Indian-Ocean map card: route Sydney → Torres Strait → Timor → Mauritius with ship; iron bars slam (camera shake) on “imprisoned”; MAURITIUS pin; 6 tally marks + a half → **6½ YEARS**; Trim silhouette (white paws + breast star) dissolves into gold specks on “disappeared” |
+| 6 | 24.15–29.45 | Flinders’ own *Chart of Terra Australis* (1802-3), zoom into the title | ENGLAND tag; highlight box on “TERRA AUSTRALIS”; red strike-through; **AUSTRALIA** rubber ink stamp slams with splatter + shake on “Australia” |
+| 7 | 29.45–33.20 | *A Voyage to Terra Australis* binding — spine label pan | title-page card rises (Cinzel typeset); JULY 1814 typewriter readout + 1814 stamp |
+| 8 | 33.20–35.85 | Flinders portrait drained to mono, darkening | designed candle (wax drips, brass holder, flicker glow) gutters out on “next day”; smoke curls. **No text** |
+| 9 | 35.85–46.50 | Euston — sepia (past) → full colour when the station “swallows” | burial-ground headstone rows rise in perspective; LONDON tag; Georgian terraces grow with lit windows on “city grew”; Flinders’ gold-edged headstone lifts away on “removed”; station girders + converging rails slam in, headstones sink; EUSTON STATION tag; search reticle hunts and fades on “grave was lost” |
+| 10 | 46.50–56.80 | Urban excavation trench | white flash + **2019** slam; dirt bursts on “digging”; 40,000 counter + 400-dot matrix (1 dot = 100 burials) → **40,000 BURIALS**; lead plate flips in, engraving scribes CAPTAIN / MATTHEW FLINDERS word-synced; glint sweep; dust motes |
+| 11 | 56.80–64.97 | Flat Lincolnshire fields/parish (golden grade) | **2024** slam; DONINGTON pin (LINCOLNSHIRE · ENGLAND); birds + drifting motes + sun flare; loop: gold Australia outline draws + AUSTRALIA reveal, fade toward frame-1 darkness |
 
-## Still rule (strict)
-Every underlay must be **interesting and factually correct** for that beat (right place / person / artifact / era). No generic filler; no alpine mountains for Lincolnshire.
-
-| # | Time (s) | Underlay still | MG overlays / labels |
-|---|----------|----------------|----------------------|
-| 1 | 0–7.0 | Euston station (real London Euston) | `200 YEARS` slam; subtle perspective drift |
-| 2 | 7.0–12.3 | HMS Investigator model | ship orbit + wake around Australia; Matthew Flinders, Australia; Investigator badge |
-| 3 | 12.3–16.3 | **Trim commemorative statue** (Flinders+Trim) | Trim badge; hearts; zoom toward bronze cat |
-| 4 | 16.3–24.2 | **Port Louis harbour** (Mauritius) | designed bars slam + dim vignette; Mauritius, 6½ years |
-| 5 | 24.2–33.2 | Flinders portrait → Voyage to Terra Australis book | AUSTRALIA ink stamp; July 1814; book page prop |
-| 6 | 33.2–35.9 | Flinders alt portrait (heavy dim) | **designed** candle (wax/holder/bloom) → extinguish + smoke *(no text)* |
-| 7 | 35.9–46.5 | Euston station | **cemetery headstone silhouettes** + perspective gulp; London |
-| 8 | 46.5–56.8 | urban archaeological trench dig | dirt particles, shovel, plate rotate-in; 2019 |
-| 9 | 56.8–65.0 | flat Lincolnshire English village / parish (Creeton) | 2024, Donington — soft resting mood |
-
-## Transitions
-Engine ~0.28s crossfade at scene seams.
+## Render
+```bash
+cd shorts/shared/render && npm i
+export CHROMIUM_PATH=/opt/pw-browsers/chromium   # only if Playwright's own browser isn't installed
+node contact-sheet.mjs ../../s02-man-who-named-australia contact_claude   # review first
+node render-episode.mjs ../../s02-man-who-named-australia --reuse-mix --workers 4
+```
