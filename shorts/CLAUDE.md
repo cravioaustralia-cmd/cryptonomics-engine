@@ -1,0 +1,11 @@
+# History Shorts rules (read on every run)
+- This repo uses Remotion (React) for vertical 1080x1920 Shorts at 30 fps. Prefer existing shared components in src/episodes/shared/ (Captions, SceneShell, theme, fonts, motion) and public/sfx before inventing new ones.
+- Always reuse the approved history style kit in shorts/shared/style/ once Checkpoint A is approved. Never redesign it without being asked.
+- Timing always comes from the Whisper/transcript JSON for that Short.
+- On-screen text only states facts from the Short's script.
+- Keep text, faces and key action out of the bottom and right-edge areas where YouTube's buttons and title sit.
+- Depict every people and culture with dignity. No sacred art or symbols, no violent or distressing images.
+- Only use images with a verified free licence, recorded in SOURCES.md.
+- Never commit files over 100 MB.
+- Make and review a contact sheet before every final render.
+- Stop and wait for "approved" whenever an issue asks you to.

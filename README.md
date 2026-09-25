@@ -20,3 +20,7 @@ npm run render   # renders TestShort to out/video.mp4
 ## Rendering from GitHub (no computer needed)
 
 Go to the **Actions** tab → **Render video** workflow → **Run workflow**. When it finishes, download the `video` artifact.
+
+## History Shorts pipeline
+
+History YouTube Shorts are produced under `shorts/` (scripts, plans, assets) and rendered with the existing Remotion setup. See `shorts/CLAUDE.md` and `shorts/LOG.md`.
