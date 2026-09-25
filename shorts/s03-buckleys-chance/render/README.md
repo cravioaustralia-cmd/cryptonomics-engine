@@ -1,5 +1,13 @@
-# Render hand-off — s03 Buckley’s Chance
+# Render — s03 Buckley’s Chance
 
-Claude owns `scenes.js`, animation, audio mix and render for this episode. Do not add a slideshow or a fancy scene implementation here during moderator scaffolding.
+- `scenes.js` — 8 beats, photo underlay + SVG motion graphics on each (see `../LOG.md` beat table).
+- `config.json` — duration, ducked-mix settings, SFX cue sheet.
+- Timing comes from `../transcript.json`.
 
-Use the shared renderer in `shorts/shared/render/` with the held `audio/vo.mp3`, the music bed and the licensed stills listed in `SOURCES.md`. Keep generated MP4s and frame dumps out of Git (`out/` is ignored).
+```bash
+cd shorts/shared/render && npm install        # once
+node shorts/shared/render/contact-sheet.mjs shorts/s03-buckleys-chance --every 2.5   # review first
+node shorts/shared/render/render-episode.mjs shorts/s03-buckleys-chance              # → out/s03-buckleys-chance.mp4
+```
+
+Generated MP4s and frame dumps in `out/` stay out of Git; the reviewed cut is copied to `../deliverables/`.

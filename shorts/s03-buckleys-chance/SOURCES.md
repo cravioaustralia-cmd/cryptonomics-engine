@@ -33,3 +33,11 @@ The episode copies only the following already-reviewed shared cues from `shorts/
 | `sfx/whoosh_2.mp3` | Cinematic whoosh fast transition | Mixkit Licence · https://mixkit.co/free-sound-effects/download/1492/ |
 | `sfx/text_pop.mp3` | Dry pop-up notification alert | Mixkit Licence · https://mixkit.co/free-sound-effects/download/2356/ |
 | `sfx/typewriter_tick.mp3` | Typewriter tick | Mixkit Licence · https://mixkit.co/free-sound-effects/download/1379/ |
+
+## Fonts (render only)
+
+Display fonts live in `shorts/shared/fonts/` — Anton, Oswald and Playfair Display, all SIL Open Font License 1.1 from `github.com/google/fonts` (licence texts alongside). No other third-party assets were added during the build.
+
+## Timing
+
+`transcript.json` word timings were generated locally from the held `audio/vo.mp3` with faster-whisper (`small.en`, word timestamps); the text was checked against `script.md`.

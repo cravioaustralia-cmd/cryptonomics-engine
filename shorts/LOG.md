@@ -44,3 +44,10 @@ Unpacked 6 Grok VOs into shorts/incoming-vo/. #01 matches finished Skylab Short;
 - Updated MASTER_PROMPT.md, workflows/shorts-pipeline/SKILL.md, shorts/CLAUDE.md with on-screen text rule + MG quality bar.
 - Re-rendered via `node shorts/shared/render/render-episode.mjs shorts/s02-man-who-named-australia`.
 - Deliverable: `out/s02-man-who-named-australia.mp4` → `deliverables/s02-man-who-named-australia/`.
+
+## 2026-09-25 — s03 Buckley's Chance (premium build, Issue #8)
+- Episode: `shorts/s03-buckleys-chance/` — held VO (57.456 s), transcript via faster-whisper.
+- Photo underlay + SVG MG on all 8 beats (portrait hook, 1803 chart route, Wadawurrung map, You Yangs 32-year ring, 1835 Wedge sketch, Woodhouse whip-pan, phrase lock-up, odds-gauge loop).
+- Mix: ducked Vastness bed + 33 SFX, two-pass loudnorm −14 LUFS.
+- Shared renderer: fonts, contact sheet, opt-in ducked mix, Chromium fallback.
+- Output: `shorts/s03-buckleys-chance/deliverables/s03-buckleys-chance.mp4`. Details in episode `LOG.md`.
