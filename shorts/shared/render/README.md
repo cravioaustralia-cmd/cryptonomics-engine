@@ -28,5 +28,22 @@ window.renderFrame = function (t) { /* engine calls scenes + captions */ };
 node shorts/shared/render/render-episode.mjs shorts/s01-skylab-esperance
 ```
 
+## Contact sheet (required before every final render)
+```bash
+node shorts/shared/render/contact-sheet.mjs shorts/sNN-slug [out.jpg] [--every 2.5 | --times 0,1.5,9] [--cols 6]
+```
+
+## Fonts
+`shorts/shared/fonts/` (OFL) is served at `/fonts/*`. Load with `@font-face` from `scenes.js` and expose
+`window.EPISODE.ready` (a promise) so `frame.html` waits for fonts/images before frame 0.
+
+## Ducked mix (opt-in)
+In `render/config.json`:
+```json
+"mix": { "duck": true, "musicVol": 0.2, "musicStart": 0, "lufs": -14, "fadeOut": 1.2 }
+```
+Sidechain-ducks the music under the VO, supports per-cue `"dur"` trims on SFX, and runs two-pass loudnorm.
+Without `mix.duck` the original mixer path is used unchanged.
+
 ## Captions
 Captions must never overlap animations, badges, stamps, cards, or other on-screen text. Default lower-middle (~70% from top); nudge per beat when a graphic occupies that band.

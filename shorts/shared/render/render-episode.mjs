@@ -20,9 +20,10 @@ const finalMp4 = path.join(outDir, `${slug}.mp4`);
 console.log('== Mix audio ==');
 const mixPath = await mixAudio({
   episodeDir,
-  sfxDir: config.sfxDir,
+  sfxDir: config.sfxDir ? path.resolve(episodeDir, config.sfxDir) : path.join(episodeDir, 'sfx'),
   sfxCues: config.sfxCues || [],
   duration,
+  mix: config.mix,
 });
 
 console.log('== Capture frames ==');

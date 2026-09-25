@@ -34,6 +34,8 @@
           window.EPISODE.duration = data.duration || window.EPISODE.duration;
         }
       }
+      // Episodes may expose a promise (fonts, image decode) that must settle before frame 0.
+      if (window.EPISODE && window.EPISODE.ready) await window.EPISODE.ready;
       window.__ready = true;
       if (window.EPISODE) window.renderFrame(0);
     })();
