@@ -1,0 +1,13 @@
+{
+  "name": "history-shorts-render",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "SVG + renderFrame(t) + Playwright + ffmpeg Shorts renderer (no Remotion)",
+  "scripts": {
+    "render": "node render-episode.mjs"
+  },
+  "dependencies": {
+    "playwright": "^1.55.0"
+  }
+}

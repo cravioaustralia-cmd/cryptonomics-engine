@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+  <meta charset="utf-8"/>
+  <title>History Short frame</title>
+  <style>
+    html, body { margin: 0; padding: 0; width: 1080px; height: 1920px; overflow: hidden; background: #000; }
+    #root { width: 1080px; height: 1920px; }
+  </style>
+</head>
+<body>
+  <div id="root"></div>
+  <script src="engine.js"></script>
+  <script>
+    // Episode scenes.js is injected by capture.mjs via query param load.
+    (async function () {
+      const params = new URLSearchParams(location.search);
+      const scenes = params.get('scenes');
+      const transcript = params.get('transcript');
+      if (scenes) {
+        await new Promise((res, rej) => {
+          const s = document.createElement('script');
+          s.src = scenes;
+          s.onload = res;
+          s.onerror = rej;
+          document.body.appendChild(s);
+        });
+      }
+      if (transcript) {
+        const r = await fetch(transcript);
+        const data = await r.json();
+        if (window.EPISODE) {
+          window.EPISODE.words = data.words || [];
+          window.EPISODE.duration = data.duration || window.EPISODE.duration;
+        }
+      }
+      window.__ready = true;
+      if (window.EPISODE) window.renderFrame(0);
+    })();
+  </script>
+</body>
+</html>

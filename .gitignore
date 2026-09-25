@@ -8,3 +8,7 @@ out
 
 # Whisper.cpp binary + downloaded models + intermediate transcription artifacts
 .cache
+
+# Shorts render outputs
+shorts/**/out/
+shorts/shared/render/node_modules/

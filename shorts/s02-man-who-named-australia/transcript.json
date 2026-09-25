@@ -1,0 +1,742 @@
+{
+  "duration": 64.968,
+  "language": "en",
+  "text": "The man who gave Australia its name was lost under a train station for 200 years. Matthew Flinders was the first person known to sail all the way around Australia. His best friend on board, a black cat named Trim. On the way home, the French imprisoned Flinders on Mauritius for six and a half years. Trim disappeared there. Back in England, Flinders pushed for one name for the continent, Australia. His book came out in July 1814. He died the very next day. He was buried in London. Then the city grew, the headstone was removed, and a train station swallowed the cemetery. His grave was lost. Until 2019, archaeologists digging for a new railway found 40,000 burials and one lead plate reading Captain Matthew Flinders. In 2024, he was finally laid to rest in his home village. Not bad for the man who named Australia.",
+  "words": [
+    {
+      "word": "The",
+      "start": 0.0,
+      "end": 0.16
+    },
+    {
+      "word": "man",
+      "start": 0.16,
+      "end": 0.64
+    },
+    {
+      "word": "who",
+      "start": 0.64,
+      "end": 0.64
+    },
+    {
+      "word": "gave",
+      "start": 0.64,
+      "end": 0.86
+    },
+    {
+      "word": "Australia",
+      "start": 0.86,
+      "end": 1.16
+    },
+    {
+      "word": "its",
+      "start": 1.16,
+      "end": 1.68
+    },
+    {
+      "word": "name",
+      "start": 1.68,
+      "end": 2.0
+    },
+    {
+      "word": "was",
+      "start": 2.0,
+      "end": 3.36
+    },
+    {
+      "word": "lost",
+      "start": 3.36,
+      "end": 3.64
+    },
+    {
+      "word": "under",
+      "start": 3.64,
+      "end": 4.12
+    },
+    {
+      "word": "a",
+      "start": 4.12,
+      "end": 4.24
+    },
+    {
+      "word": "train",
+      "start": 4.24,
+      "end": 4.46
+    },
+    {
+      "word": "station",
+      "start": 4.46,
+      "end": 4.92
+    },
+    {
+      "word": "for",
+      "start": 4.92,
+      "end": 5.18
+    },
+    {
+      "word": "200",
+      "start": 5.18,
+      "end": 5.44
+    },
+    {
+      "word": "years.",
+      "start": 5.44,
+      "end": 6.06
+    },
+    {
+      "word": "Matthew",
+      "start": 7.18,
+      "end": 7.6
+    },
+    {
+      "word": "Flinders",
+      "start": 7.6,
+      "end": 7.96
+    },
+    {
+      "word": "was",
+      "start": 7.96,
+      "end": 8.26
+    },
+    {
+      "word": "the",
+      "start": 8.26,
+      "end": 8.42
+    },
+    {
+      "word": "first",
+      "start": 8.42,
+      "end": 8.7
+    },
+    {
+      "word": "person",
+      "start": 8.7,
+      "end": 9.0
+    },
+    {
+      "word": "known",
+      "start": 9.0,
+      "end": 9.38
+    },
+    {
+      "word": "to",
+      "start": 9.38,
+      "end": 9.62
+    },
+    {
+      "word": "sail",
+      "start": 9.62,
+      "end": 9.86
+    },
+    {
+      "word": "all",
+      "start": 9.86,
+      "end": 10.26
+    },
+    {
+      "word": "the",
+      "start": 10.26,
+      "end": 10.44
+    },
+    {
+      "word": "way",
+      "start": 10.44,
+      "end": 10.58
+    },
+    {
+      "word": "around",
+      "start": 10.58,
+      "end": 10.94
+    },
+    {
+      "word": "Australia.",
+      "start": 10.94,
+      "end": 11.34
+    },
+    {
+      "word": "His",
+      "start": 12.3,
+      "end": 12.54
+    },
+    {
+      "word": "best",
+      "start": 12.54,
+      "end": 12.74
+    },
+    {
+      "word": "friend",
+      "start": 12.74,
+      "end": 13.06
+    },
+    {
+      "word": "on",
+      "start": 13.06,
+      "end": 13.22
+    },
+    {
+      "word": "board,",
+      "start": 13.22,
+      "end": 13.52
+    },
+    {
+      "word": "a",
+      "start": 14.24,
+      "end": 14.28
+    },
+    {
+      "word": "black",
+      "start": 14.28,
+      "end": 14.54
+    },
+    {
+      "word": "cat",
+      "start": 14.54,
+      "end": 14.84
+    },
+    {
+      "word": "named",
+      "start": 14.84,
+      "end": 15.18
+    },
+    {
+      "word": "Trim.",
+      "start": 15.18,
+      "end": 15.6
+    },
+    {
+      "word": "On",
+      "start": 16.32,
+      "end": 16.86
+    },
+    {
+      "word": "the",
+      "start": 16.86,
+      "end": 16.98
+    },
+    {
+      "word": "way",
+      "start": 16.98,
+      "end": 17.12
+    },
+    {
+      "word": "home,",
+      "start": 17.12,
+      "end": 17.46
+    },
+    {
+      "word": "the",
+      "start": 17.88,
+      "end": 17.96
+    },
+    {
+      "word": "French",
+      "start": 17.96,
+      "end": 18.18
+    },
+    {
+      "word": "imprisoned",
+      "start": 18.18,
+      "end": 18.42
+    },
+    {
+      "word": "Flinders",
+      "start": 18.42,
+      "end": 19.28
+    },
+    {
+      "word": "on",
+      "start": 19.28,
+      "end": 19.52
+    },
+    {
+      "word": "Mauritius",
+      "start": 19.52,
+      "end": 20.0
+    },
+    {
+      "word": "for",
+      "start": 20.0,
+      "end": 20.28
+    },
+    {
+      "word": "six",
+      "start": 20.28,
+      "end": 20.6
+    },
+    {
+      "word": "and",
+      "start": 20.6,
+      "end": 20.82
+    },
+    {
+      "word": "a",
+      "start": 20.82,
+      "end": 20.9
+    },
+    {
+      "word": "half",
+      "start": 20.9,
+      "end": 21.12
+    },
+    {
+      "word": "years.",
+      "start": 21.12,
+      "end": 21.46
+    },
+    {
+      "word": "Trim",
+      "start": 22.22,
+      "end": 22.48
+    },
+    {
+      "word": "disappeared",
+      "start": 22.48,
+      "end": 22.7
+    },
+    {
+      "word": "there.",
+      "start": 22.7,
+      "end": 23.34
+    },
+    {
+      "word": "Back",
+      "start": 24.24,
+      "end": 24.6
+    },
+    {
+      "word": "in",
+      "start": 24.6,
+      "end": 24.8
+    },
+    {
+      "word": "England,",
+      "start": 24.8,
+      "end": 25.1
+    },
+    {
+      "word": "Flinders",
+      "start": 25.54,
+      "end": 25.76
+    },
+    {
+      "word": "pushed",
+      "start": 25.76,
+      "end": 26.1
+    },
+    {
+      "word": "for",
+      "start": 26.1,
+      "end": 26.34
+    },
+    {
+      "word": "one",
+      "start": 26.34,
+      "end": 26.58
+    },
+    {
+      "word": "name",
+      "start": 26.58,
+      "end": 26.92
+    },
+    {
+      "word": "for",
+      "start": 26.92,
+      "end": 27.12
+    },
+    {
+      "word": "the",
+      "start": 27.12,
+      "end": 27.22
+    },
+    {
+      "word": "continent,",
+      "start": 27.22,
+      "end": 27.56
+    },
+    {
+      "word": "Australia.",
+      "start": 28.18,
+      "end": 28.56
+    },
+    {
+      "word": "His",
+      "start": 29.58,
+      "end": 29.7
+    },
+    {
+      "word": "book",
+      "start": 29.7,
+      "end": 29.98
+    },
+    {
+      "word": "came",
+      "start": 29.98,
+      "end": 30.32
+    },
+    {
+      "word": "out",
+      "start": 30.32,
+      "end": 30.54
+    },
+    {
+      "word": "in",
+      "start": 30.54,
+      "end": 30.72
+    },
+    {
+      "word": "July",
+      "start": 30.72,
+      "end": 30.86
+    },
+    {
+      "word": "1814.",
+      "start": 30.86,
+      "end": 31.94
+    },
+    {
+      "word": "He",
+      "start": 33.24,
+      "end": 33.66
+    },
+    {
+      "word": "died",
+      "start": 33.66,
+      "end": 33.86
+    },
+    {
+      "word": "the",
+      "start": 33.86,
+      "end": 34.12
+    },
+    {
+      "word": "very",
+      "start": 34.12,
+      "end": 34.4
+    },
+    {
+      "word": "next",
+      "start": 34.4,
+      "end": 34.72
+    },
+    {
+      "word": "day.",
+      "start": 34.72,
+      "end": 35.06
+    },
+    {
+      "word": "He",
+      "start": 35.88,
+      "end": 36.26
+    },
+    {
+      "word": "was",
+      "start": 36.26,
+      "end": 36.38
+    },
+    {
+      "word": "buried",
+      "start": 36.38,
+      "end": 36.7
+    },
+    {
+      "word": "in",
+      "start": 36.7,
+      "end": 36.9
+    },
+    {
+      "word": "London.",
+      "start": 36.9,
+      "end": 37.26
+    },
+    {
+      "word": "Then",
+      "start": 37.9,
+      "end": 37.98
+    },
+    {
+      "word": "the",
+      "start": 37.98,
+      "end": 38.12
+    },
+    {
+      "word": "city",
+      "start": 38.12,
+      "end": 38.32
+    },
+    {
+      "word": "grew,",
+      "start": 38.32,
+      "end": 38.64
+    },
+    {
+      "word": "the",
+      "start": 39.18,
+      "end": 39.26
+    },
+    {
+      "word": "headstone",
+      "start": 39.26,
+      "end": 39.64
+    },
+    {
+      "word": "was",
+      "start": 39.64,
+      "end": 39.84
+    },
+    {
+      "word": "removed,",
+      "start": 39.84,
+      "end": 40.22
+    },
+    {
+      "word": "and",
+      "start": 40.66,
+      "end": 40.82
+    },
+    {
+      "word": "a",
+      "start": 40.82,
+      "end": 40.92
+    },
+    {
+      "word": "train",
+      "start": 40.92,
+      "end": 41.14
+    },
+    {
+      "word": "station",
+      "start": 41.14,
+      "end": 41.58
+    },
+    {
+      "word": "swallowed",
+      "start": 41.58,
+      "end": 41.94
+    },
+    {
+      "word": "the",
+      "start": 41.94,
+      "end": 42.26
+    },
+    {
+      "word": "cemetery.",
+      "start": 42.26,
+      "end": 42.66
+    },
+    {
+      "word": "His",
+      "start": 43.4,
+      "end": 43.5
+    },
+    {
+      "word": "grave",
+      "start": 43.5,
+      "end": 43.74
+    },
+    {
+      "word": "was",
+      "start": 43.74,
+      "end": 44.02
+    },
+    {
+      "word": "lost.",
+      "start": 44.02,
+      "end": 44.36
+    },
+    {
+      "word": "Until",
+      "start": 46.56,
+      "end": 47.06
+    },
+    {
+      "word": "2019,",
+      "start": 47.06,
+      "end": 47.82
+    },
+    {
+      "word": "archaeologists",
+      "start": 48.5,
+      "end": 49.04
+    },
+    {
+      "word": "digging",
+      "start": 49.04,
+      "end": 49.6
+    },
+    {
+      "word": "for",
+      "start": 49.6,
+      "end": 49.94
+    },
+    {
+      "word": "a",
+      "start": 49.94,
+      "end": 50.04
+    },
+    {
+      "word": "new",
+      "start": 50.04,
+      "end": 50.2
+    },
+    {
+      "word": "railway",
+      "start": 50.2,
+      "end": 50.48
+    },
+    {
+      "word": "found",
+      "start": 50.48,
+      "end": 51.02
+    },
+    {
+      "word": "40,000",
+      "start": 51.02,
+      "end": 52.1
+    },
+    {
+      "word": "burials",
+      "start": 52.1,
+      "end": 52.56
+    },
+    {
+      "word": "and",
+      "start": 52.56,
+      "end": 53.2
+    },
+    {
+      "word": "one",
+      "start": 53.2,
+      "end": 53.54
+    },
+    {
+      "word": "lead",
+      "start": 53.54,
+      "end": 53.74
+    },
+    {
+      "word": "plate",
+      "start": 53.74,
+      "end": 54.0
+    },
+    {
+      "word": "reading",
+      "start": 54.0,
+      "end": 54.46
+    },
+    {
+      "word": "Captain",
+      "start": 54.46,
+      "end": 54.86
+    },
+    {
+      "word": "Matthew",
+      "start": 54.86,
+      "end": 55.44
+    },
+    {
+      "word": "Flinders.",
+      "start": 55.44,
+      "end": 55.82
+    },
+    {
+      "word": "In",
+      "start": 56.82,
+      "end": 56.98
+    },
+    {
+      "word": "2024,",
+      "start": 56.98,
+      "end": 57.48
+    },
+    {
+      "word": "he",
+      "start": 57.48,
+      "end": 58.08
+    },
+    {
+      "word": "was",
+      "start": 58.08,
+      "end": 58.18
+    },
+    {
+      "word": "finally",
+      "start": 58.18,
+      "end": 58.58
+    },
+    {
+      "word": "laid",
+      "start": 58.58,
+      "end": 58.9
+    },
+    {
+      "word": "to",
+      "start": 58.9,
+      "end": 59.1
+    },
+    {
+      "word": "rest",
+      "start": 59.1,
+      "end": 59.3
+    },
+    {
+      "word": "in",
+      "start": 59.3,
+      "end": 59.54
+    },
+    {
+      "word": "his",
+      "start": 59.54,
+      "end": 59.66
+    },
+    {
+      "word": "home",
+      "start": 59.66,
+      "end": 59.82
+    },
+    {
+      "word": "village.",
+      "start": 59.82,
+      "end": 60.14
+    },
+    {
+      "word": "Not",
+      "start": 61.36,
+      "end": 61.6
+    },
+    {
+      "word": "bad",
+      "start": 61.6,
+      "end": 61.9
+    },
+    {
+      "word": "for",
+      "start": 61.9,
+      "end": 62.12
+    },
+    {
+      "word": "the",
+      "start": 62.12,
+      "end": 62.2
+    },
+    {
+      "word": "man",
+      "start": 62.2,
+      "end": 62.4
+    },
+    {
+      "word": "who",
+      "start": 62.4,
+      "end": 62.58
+    },
+    {
+      "word": "named",
+      "start": 62.58,
+      "end": 62.84
+    },
+    {
+      "word": "Australia.",
+      "start": 62.84,
+      "end": 63.3
+    }
+  ]
+}

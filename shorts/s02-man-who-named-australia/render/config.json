@@ -1,0 +1,27 @@
+{
+  "duration": 64.968,
+  "fps": 30,
+  "sfxDir": "/workspace/cryptonomics-engine/shorts/s02-man-who-named-australia/sfx",
+  "sfxCues": [
+    { "file": "impact_hit.mp3", "at": 0.05, "vol": 0.42 },
+    { "file": "whoosh_1.mp3", "at": 1.8, "vol": 0.35 },
+    { "file": "ship_creaking.mp3", "at": 7.1, "vol": 0.45 },
+    { "file": "whoosh_2.mp3", "at": 9.5, "vol": 0.3 },
+    { "file": "cat_meow.mp3", "at": 14.2, "vol": 0.55 },
+    { "file": "text_pop.mp3", "at": 15.1, "vol": 0.45 },
+    { "file": "cell_door.mp3", "at": 16.5, "vol": 0.5 },
+    { "file": "impact_hit.mp3", "at": 18.0, "vol": 0.35 },
+    { "file": "riser.mp3", "at": 22.0, "vol": 0.3 },
+    { "file": "text_pop.mp3", "at": 28.1, "vol": 0.55 },
+    { "file": "typewriter_tick.mp3", "at": 29.7, "vol": 0.4 },
+    { "file": "whoosh_1.mp3", "at": 33.5, "vol": 0.35 },
+    { "file": "whoosh_2.mp3", "at": 40.8, "vol": 0.4 },
+    { "file": "impact_hit.mp3", "at": 43.5, "vol": 0.4 },
+    { "file": "riser.mp3", "at": 46.5, "vol": 0.4 },
+    { "file": "shovel_dig.mp3", "at": 48.6, "vol": 0.5 },
+    { "file": "text_pop.mp3", "at": 53.5, "vol": 0.55 },
+    { "file": "impact_hit.mp3", "at": 54.4, "vol": 0.45 },
+    { "file": "church_bell.mp3", "at": 57.0, "vol": 0.4 },
+    { "file": "text_pop.mp3", "at": 61.4, "vol": 0.5 }
+  ]
+}
