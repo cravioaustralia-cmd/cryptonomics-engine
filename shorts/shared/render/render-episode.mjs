@@ -23,6 +23,7 @@ const mixPath = await mixAudio({
   sfxDir: config.sfxDir,
   sfxCues: config.sfxCues || [],
   duration,
+  mix: config.mix,
 });
 
 console.log('== Capture frames ==');
@@ -44,7 +45,9 @@ await new Promise((resolve, reject) => {
       'aac',
       '-b:a',
       '192k',
-      '-shortest',
+      // explicit length instead of -shortest, which drops the last frames to AAC priming
+      '-t',
+      String(Math.ceil(duration * fps) / fps),
       '-movflags',
       '+faststart',
       finalMp4,
