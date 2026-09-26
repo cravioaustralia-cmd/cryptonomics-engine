@@ -44,3 +44,9 @@ Unpacked 6 Grok VOs into shorts/incoming-vo/. #01 matches finished Skylab Short;
 - Updated MASTER_PROMPT.md, workflows/shorts-pipeline/SKILL.md, shorts/CLAUDE.md with on-screen text rule + MG quality bar.
 - Re-rendered via `node shorts/shared/render/render-episode.mjs shorts/s02-man-who-named-australia`.
 - Deliverable: `out/s02-man-who-named-australia.mp4` → `deliverables/s02-man-who-named-australia/`.
+
+## 2026-09-26 — s05 Shark Arm Case premium build (issue #12)
+- Claude-owned `s05-shark-arm-case/render/scenes.js`: 8 photo-underlay beats + case-file MG kit, compositor crossfades/wipes, word-highlight captions at ~70 %.
+- `transcript.json` from faster-whisper word timings on the held VO (byte-identical, 47.208 s).
+- Shared renderer: bundled fonts, `contact-sheet.mjs`, `openEpisodePage`, `EPISODE.ready`, `CHROMIUM_PATH`; mixer honours `config.mix` (sidechain duck, −14 LUFS two-pass), fixes VO tail truncation and sfxDir resolution; mux no longer `-shortest`.
+- Deliverable: `s05-shark-arm-case/final/s05-shark-arm-case.mp4` + contact sheet.

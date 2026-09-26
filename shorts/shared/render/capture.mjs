@@ -6,14 +6,14 @@ import { chromium } from 'playwright';
 import { spawn } from 'node:child_process';
 import fs from 'node:fs';
 import path from 'node:path';
-import { pathToFileURL } from 'node:url';
 
-export async function captureVideo({ episodeDir, outVideo, fps = 30, duration }) {
+/**
+ * Serve frame.html + episode scenes/transcript/images/fonts on localhost and open a
+ * ready 1080×1920 page. Shared by captureVideo and contact-sheet.mjs.
+ */
+export async function openEpisodePage({ episodeDir }) {
   const renderDir = path.resolve(path.dirname(new URL(import.meta.url).pathname));
   const frameHtml = path.join(renderDir, 'frame.html');
-  const scenesUrl = pathToFileURL(path.join(episodeDir, 'render', 'scenes.js')).href;
-  const transcriptUrl = pathToFileURL(path.join(episodeDir, 'transcript.json')).href;
-
   // Serve via file:// with query — scenes must be file URLs relative won't work cross-folder.
   // Use a tiny static server instead for clean paths.
   const { createServer } = await import('node:http');
@@ -32,6 +32,9 @@ export async function captureVideo({ episodeDir, outVideo, fps = 30, duration })
     if (!file && u.pathname.startsWith('/img/')) {
       file = path.join(imgRoot, decodeURIComponent(u.pathname.slice(5)));
     }
+    if (!file && u.pathname.startsWith('/fonts/')) {
+      file = path.join(renderDir, 'fonts', path.basename(decodeURIComponent(u.pathname)));
+    }
     if (!file || !fs.existsSync(file)) {
       res.writeHead(404);
       res.end('missing');
@@ -46,6 +49,8 @@ export async function captureVideo({ episodeDir, outVideo, fps = 30, duration })
       '.jpeg': 'image/jpeg',
       '.png': 'image/png',
       '.webp': 'image/webp',
+      '.ttf': 'font/ttf',
+      '.woff2': 'font/woff2',
     };
     res.writeHead(200, { 'Content-Type': types[ext] || 'application/octet-stream' });
     fs.createReadStream(file).pipe(res);
@@ -55,6 +60,27 @@ export async function captureVideo({ episodeDir, outVideo, fps = 30, duration })
   const { port } = server.address();
   const pageUrl = `http://127.0.0.1:${port}/frame.html?scenes=/scenes.js&transcript=/transcript.json`;
 
+  const browser = await chromium.launch({
+    headless: true,
+    // Optional pinned Chromium (e.g. /opt/pw-browsers/chromium) when the npm Playwright
+    // build's own browser isn't installed.
+    executablePath: process.env.CHROMIUM_PATH || undefined,
+    args: ['--disable-dev-shm-usage', '--no-sandbox'],
+  });
+  const page = await browser.newPage({
+    viewport: { width: 1080, height: 1920 },
+    deviceScaleFactor: 1,
+  });
+  await page.goto(pageUrl, { waitUntil: 'networkidle' });
+  await page.waitForFunction(() => window.__ready && window.EPISODE);
+  const close = async () => {
+    await browser.close();
+    server.close();
+  };
+  return { page, close };
+}
+
+export async function captureVideo({ episodeDir, outVideo, fps = 30, duration }) {
   const totalFrames = Math.ceil(duration * fps);
   fs.mkdirSync(path.dirname(outVideo), { recursive: true });
 
@@ -85,16 +111,7 @@ export async function captureVideo({ episodeDir, outVideo, fps = 30, duration })
     { stdio: ['pipe', 'inherit', 'inherit'] }
   );
 
-  const browser = await chromium.launch({
-    headless: true,
-    args: ['--disable-dev-shm-usage', '--no-sandbox'],
-  });
-  const page = await browser.newPage({
-    viewport: { width: 1080, height: 1920 },
-    deviceScaleFactor: 1,
-  });
-  await page.goto(pageUrl, { waitUntil: 'networkidle' });
-  await page.waitForFunction(() => window.__ready && window.EPISODE);
+  const { page, close } = await openEpisodePage({ episodeDir });
 
   const t0 = Date.now();
   for (let i = 0; i < totalFrames; i++) {
@@ -112,8 +129,7 @@ export async function captureVideo({ episodeDir, outVideo, fps = 30, duration })
   await new Promise((resolve, reject) => {
     ff.on('exit', (code) => (code === 0 ? resolve() : reject(new Error('ffmpeg video ' + code))));
   });
-  await browser.close();
-  server.close();
+  await close();
   console.log('Silent video →', outVideo);
   return outVideo;
 }

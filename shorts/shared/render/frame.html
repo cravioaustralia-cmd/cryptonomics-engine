@@ -5,6 +5,10 @@
   <title>History Short frame</title>
   <style>
     html, body { margin: 0; padding: 0; width: 1080px; height: 1920px; overflow: hidden; background: #000; }
+    /* Bundled OFL/Apache fonts (see fonts/) — served by capture.mjs at /fonts/ */
+    @font-face { font-family: 'Bebas Neue'; src: url('/fonts/BebasNeue-Regular.ttf') format('truetype'); }
+    @font-face { font-family: 'Oswald'; src: url('/fonts/Oswald-Variable.ttf') format('truetype'); font-weight: 200 700; }
+    @font-face { font-family: 'Special Elite'; src: url('/fonts/SpecialElite-Regular.ttf') format('truetype'); }
     #root { width: 1080px; height: 1920px; }
   </style>
 </head>
@@ -33,6 +37,12 @@
           window.EPISODE.words = data.words || [];
           window.EPISODE.duration = data.duration || window.EPISODE.duration;
         }
+      }
+      // Episodes may expose EPISODE.ready (e.g. decoded image preloads) to wait on.
+      if (window.EPISODE && window.EPISODE.ready) await window.EPISODE.ready;
+      if (document.fonts) {
+        const fams = ["400 40px 'Bebas Neue'", "600 40px 'Oswald'", "400 40px 'Special Elite'"];
+        await Promise.all(fams.map((f) => document.fonts.load(f).catch(() => null)));
       }
       window.__ready = true;
       if (window.EPISODE) window.renderFrame(0);

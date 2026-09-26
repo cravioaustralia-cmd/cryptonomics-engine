@@ -12,3 +12,4 @@ out
 # Shorts render outputs
 shorts/**/out/
 shorts/shared/render/node_modules/
+shorts/**/audio/final-mix.mp3

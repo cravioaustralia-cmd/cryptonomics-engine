@@ -1,0 +1,613 @@
+{
+ "duration": 47.208,
+ "language": "en",
+ "source": "faster-whisper small.en word timestamps on audio/vo.mp3; punctuation aligned to script.md",
+ "text": "In 1935, crowds were watching a tiger shark at a Sydney aquarium when it threw up a human arm. Yes. In front of everyone. Police noticed two things. The arm had a tattoo of two boxers. And it hadn't been bitten off. It had been cut off. With a knife. The tattoo led them to James Smith, a former boxer who'd gone missing. This wasn't a shark attack. It was a murder… and the shark was just the delivery service. Police arrested a suspect. A key witness was about to testify, and then he was found shot dead in his car. The suspect was acquitted. The body was never found. The only witness who ever saw the evidence… was a shark.",
+ "words": [
+  {
+   "word": "In",
+   "start": 0.0,
+   "end": 0.24
+  },
+  {
+   "word": "1935,",
+   "start": 0.24,
+   "end": 1.1
+  },
+  {
+   "word": "crowds",
+   "start": 1.68,
+   "end": 1.82
+  },
+  {
+   "word": "were",
+   "start": 1.82,
+   "end": 2.12
+  },
+  {
+   "word": "watching",
+   "start": 2.12,
+   "end": 2.44
+  },
+  {
+   "word": "a",
+   "start": 2.44,
+   "end": 2.7
+  },
+  {
+   "word": "tiger",
+   "start": 2.7,
+   "end": 2.98
+  },
+  {
+   "word": "shark",
+   "start": 2.98,
+   "end": 3.34
+  },
+  {
+   "word": "at",
+   "start": 3.34,
+   "end": 3.6
+  },
+  {
+   "word": "a",
+   "start": 3.6,
+   "end": 3.74
+  },
+  {
+   "word": "Sydney",
+   "start": 3.74,
+   "end": 3.98
+  },
+  {
+   "word": "aquarium",
+   "start": 3.98,
+   "end": 4.52
+  },
+  {
+   "word": "when",
+   "start": 4.52,
+   "end": 5.16
+  },
+  {
+   "word": "it",
+   "start": 5.16,
+   "end": 5.3
+  },
+  {
+   "word": "threw",
+   "start": 5.3,
+   "end": 5.58
+  },
+  {
+   "word": "up",
+   "start": 5.58,
+   "end": 5.76
+  },
+  {
+   "word": "a",
+   "start": 5.76,
+   "end": 5.9
+  },
+  {
+   "word": "human",
+   "start": 5.9,
+   "end": 6.18
+  },
+  {
+   "word": "arm.",
+   "start": 6.18,
+   "end": 6.62
+  },
+  {
+   "word": "Yes.",
+   "start": 7.02,
+   "end": 7.42
+  },
+  {
+   "word": "In",
+   "start": 7.8,
+   "end": 8.3
+  },
+  {
+   "word": "front",
+   "start": 8.3,
+   "end": 8.5
+  },
+  {
+   "word": "of",
+   "start": 8.5,
+   "end": 8.66
+  },
+  {
+   "word": "everyone.",
+   "start": 8.66,
+   "end": 9.06
+  },
+  {
+   "word": "Police",
+   "start": 10.22,
+   "end": 10.52
+  },
+  {
+   "word": "noticed",
+   "start": 10.52,
+   "end": 10.84
+  },
+  {
+   "word": "two",
+   "start": 10.84,
+   "end": 11.18
+  },
+  {
+   "word": "things.",
+   "start": 11.18,
+   "end": 11.6
+  },
+  {
+   "word": "The",
+   "start": 12.1,
+   "end": 12.18
+  },
+  {
+   "word": "arm",
+   "start": 12.18,
+   "end": 12.46
+  },
+  {
+   "word": "had",
+   "start": 12.46,
+   "end": 12.68
+  },
+  {
+   "word": "a",
+   "start": 12.68,
+   "end": 12.82
+  },
+  {
+   "word": "tattoo",
+   "start": 12.82,
+   "end": 13.18
+  },
+  {
+   "word": "of",
+   "start": 13.18,
+   "end": 13.36
+  },
+  {
+   "word": "two",
+   "start": 13.36,
+   "end": 13.6
+  },
+  {
+   "word": "boxers.",
+   "start": 13.6,
+   "end": 14.2
+  },
+  {
+   "word": "And",
+   "start": 14.36,
+   "end": 14.72
+  },
+  {
+   "word": "it",
+   "start": 14.72,
+   "end": 14.86
+  },
+  {
+   "word": "hadn't",
+   "start": 14.86,
+   "end": 15.22
+  },
+  {
+   "word": "been",
+   "start": 15.22,
+   "end": 15.38
+  },
+  {
+   "word": "bitten",
+   "start": 15.38,
+   "end": 15.66
+  },
+  {
+   "word": "off.",
+   "start": 15.66,
+   "end": 15.98
+  },
+  {
+   "word": "It",
+   "start": 16.82,
+   "end": 17.04
+  },
+  {
+   "word": "had",
+   "start": 17.04,
+   "end": 17.16
+  },
+  {
+   "word": "been",
+   "start": 17.16,
+   "end": 17.36
+  },
+  {
+   "word": "cut",
+   "start": 17.36,
+   "end": 17.64
+  },
+  {
+   "word": "off.",
+   "start": 17.64,
+   "end": 17.98
+  },
+  {
+   "word": "With",
+   "start": 18.4,
+   "end": 18.74
+  },
+  {
+   "word": "a",
+   "start": 18.74,
+   "end": 19.1
+  },
+  {
+   "word": "knife.",
+   "start": 19.1,
+   "end": 19.44
+  },
+  {
+   "word": "The",
+   "start": 20.48,
+   "end": 20.68
+  },
+  {
+   "word": "tattoo",
+   "start": 20.68,
+   "end": 21.12
+  },
+  {
+   "word": "led",
+   "start": 21.12,
+   "end": 21.4
+  },
+  {
+   "word": "them",
+   "start": 21.4,
+   "end": 21.58
+  },
+  {
+   "word": "to",
+   "start": 21.58,
+   "end": 21.76
+  },
+  {
+   "word": "James",
+   "start": 21.76,
+   "end": 22.1
+  },
+  {
+   "word": "Smith,",
+   "start": 22.1,
+   "end": 22.46
+  },
+  {
+   "word": "a",
+   "start": 22.76,
+   "end": 22.84
+  },
+  {
+   "word": "former",
+   "start": 22.84,
+   "end": 23.14
+  },
+  {
+   "word": "boxer",
+   "start": 23.14,
+   "end": 23.56
+  },
+  {
+   "word": "who'd",
+   "start": 23.56,
+   "end": 23.86
+  },
+  {
+   "word": "gone",
+   "start": 23.86,
+   "end": 24.08
+  },
+  {
+   "word": "missing.",
+   "start": 24.08,
+   "end": 24.4
+  },
+  {
+   "word": "This",
+   "start": 25.06,
+   "end": 25.22
+  },
+  {
+   "word": "wasn't",
+   "start": 25.22,
+   "end": 25.56
+  },
+  {
+   "word": "a",
+   "start": 25.56,
+   "end": 25.7
+  },
+  {
+   "word": "shark",
+   "start": 25.7,
+   "end": 25.92
+  },
+  {
+   "word": "attack.",
+   "start": 25.92,
+   "end": 26.24
+  },
+  {
+   "word": "It",
+   "start": 26.42,
+   "end": 26.64
+  },
+  {
+   "word": "was",
+   "start": 26.64,
+   "end": 26.76
+  },
+  {
+   "word": "a",
+   "start": 26.76,
+   "end": 26.92
+  },
+  {
+   "word": "murder…",
+   "start": 26.92,
+   "end": 27.2
+  },
+  {
+   "word": "and",
+   "start": 27.2,
+   "end": 27.76
+  },
+  {
+   "word": "the",
+   "start": 27.76,
+   "end": 27.92
+  },
+  {
+   "word": "shark",
+   "start": 27.92,
+   "end": 28.2
+  },
+  {
+   "word": "was",
+   "start": 28.2,
+   "end": 28.4
+  },
+  {
+   "word": "just",
+   "start": 28.4,
+   "end": 28.66
+  },
+  {
+   "word": "the",
+   "start": 28.66,
+   "end": 28.84
+  },
+  {
+   "word": "delivery",
+   "start": 28.84,
+   "end": 29.16
+  },
+  {
+   "word": "service.",
+   "start": 29.16,
+   "end": 29.68
+  },
+  {
+   "word": "Police",
+   "start": 30.76,
+   "end": 30.94
+  },
+  {
+   "word": "arrested",
+   "start": 30.94,
+   "end": 31.38
+  },
+  {
+   "word": "a",
+   "start": 31.38,
+   "end": 31.58
+  },
+  {
+   "word": "suspect.",
+   "start": 31.58,
+   "end": 31.98
+  },
+  {
+   "word": "A",
+   "start": 32.44,
+   "end": 32.58
+  },
+  {
+   "word": "key",
+   "start": 32.58,
+   "end": 32.82
+  },
+  {
+   "word": "witness",
+   "start": 32.82,
+   "end": 33.18
+  },
+  {
+   "word": "was",
+   "start": 33.18,
+   "end": 33.4
+  },
+  {
+   "word": "about",
+   "start": 33.4,
+   "end": 33.68
+  },
+  {
+   "word": "to",
+   "start": 33.68,
+   "end": 33.9
+  },
+  {
+   "word": "testify,",
+   "start": 33.9,
+   "end": 34.44
+  },
+  {
+   "word": "and",
+   "start": 34.8,
+   "end": 35.02
+  },
+  {
+   "word": "then",
+   "start": 35.02,
+   "end": 35.16
+  },
+  {
+   "word": "he",
+   "start": 35.16,
+   "end": 35.32
+  },
+  {
+   "word": "was",
+   "start": 35.32,
+   "end": 35.46
+  },
+  {
+   "word": "found",
+   "start": 35.46,
+   "end": 35.74
+  },
+  {
+   "word": "shot",
+   "start": 35.74,
+   "end": 36.1
+  },
+  {
+   "word": "dead",
+   "start": 36.1,
+   "end": 36.38
+  },
+  {
+   "word": "in",
+   "start": 36.38,
+   "end": 36.56
+  },
+  {
+   "word": "his",
+   "start": 36.56,
+   "end": 36.72
+  },
+  {
+   "word": "car.",
+   "start": 36.72,
+   "end": 37.06
+  },
+  {
+   "word": "The",
+   "start": 38.1,
+   "end": 38.26
+  },
+  {
+   "word": "suspect",
+   "start": 38.26,
+   "end": 38.86
+  },
+  {
+   "word": "was",
+   "start": 38.86,
+   "end": 39.34
+  },
+  {
+   "word": "acquitted.",
+   "start": 39.34,
+   "end": 39.78
+  },
+  {
+   "word": "The",
+   "start": 40.42,
+   "end": 40.5
+  },
+  {
+   "word": "body",
+   "start": 40.5,
+   "end": 40.86
+  },
+  {
+   "word": "was",
+   "start": 40.86,
+   "end": 41.12
+  },
+  {
+   "word": "never",
+   "start": 41.12,
+   "end": 41.54
+  },
+  {
+   "word": "found.",
+   "start": 41.54,
+   "end": 41.94
+  },
+  {
+   "word": "The",
+   "start": 43.46,
+   "end": 43.74
+  },
+  {
+   "word": "only",
+   "start": 43.74,
+   "end": 44.06
+  },
+  {
+   "word": "witness",
+   "start": 44.06,
+   "end": 44.5
+  },
+  {
+   "word": "who",
+   "start": 44.5,
+   "end": 44.72
+  },
+  {
+   "word": "ever",
+   "start": 44.72,
+   "end": 45.02
+  },
+  {
+   "word": "saw",
+   "start": 45.02,
+   "end": 45.26
+  },
+  {
+   "word": "the",
+   "start": 45.26,
+   "end": 45.46
+  },
+  {
+   "word": "evidence…",
+   "start": 45.46,
+   "end": 45.86
+  },
+  {
+   "word": "was",
+   "start": 45.86,
+   "end": 46.5
+  },
+  {
+   "word": "a",
+   "start": 46.5,
+   "end": 46.7
+  },
+  {
+   "word": "shark.",
+   "start": 46.7,
+   "end": 46.94
+  }
+ ]
+}
