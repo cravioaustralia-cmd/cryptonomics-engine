@@ -51,3 +51,11 @@ Unpacked 6 Grok VOs into shorts/incoming-vo/. #01 matches finished Skylab Short;
 - Scaffold only (Checkpoint C): script, vo_script, plan with ANIMATE beat table, SOURCES, fact-check, Mixkit Fun and Games bed, shared SFX copy, render/config.json + README
 - **No `scenes.js`** — Claude owns design / animation / mix
 - Stills: 8 Commons free-licence (cube scat, common wombats, digestive PD schematic, burrow, science-medal abstract); no AI stills
+
+## 2026-09-26 — s09 wombat cube poop (premium build, Claude)
+- Episode: `shorts/s09-wombat-cube-poop/` — issue cravioaustralia-cmd/cryptonomics-engine#18, staging `05ef488`
+- VO: held Atlas `audio/vo.mp3` reused byte-for-byte (33.792 s); word timings via faster-whisper → `transcript.json`
+- New `render/scenes.js`: 9 beats, photo/schematic underlay + SVG MG every beat, cube-grid wipes, loop last frame = frame 1
+- Mix: Fun and Games bed ducked under VO + 29 SFX cues; −14.9 LUFS / −1.4 dBTP
+- Shared renderer: `mix-audio.mjs` honours `config.mix` (sidechain duck, master loudnorm, SFX `dur` trim, SFX paths resolved from the episode dir, fixed early-EOF truncation); `render-episode.mjs` maps streams + trims to duration; `capture.mjs` exports `openEpisode` (+ `PW_CHROMIUM_PATH`, `EPISODE.preload`); new `contact-sheet.mjs`
+- Deliverables: `deliverables/s09-wombat-cube-poop.mp4` + `deliverables/s09-contact-sheet.jpg`

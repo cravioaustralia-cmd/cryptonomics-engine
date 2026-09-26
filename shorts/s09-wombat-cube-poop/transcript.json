@@ -1,0 +1,461 @@
+{
+ "duration": 33.792,
+ "words": [
+  {
+   "word": "This",
+   "start": 0.0,
+   "end": 0.32
+  },
+  {
+   "word": "animal",
+   "start": 0.32,
+   "end": 0.76
+  },
+  {
+   "word": "poops",
+   "start": 0.76,
+   "end": 1.18
+  },
+  {
+   "word": "perfect",
+   "start": 1.18,
+   "end": 1.68
+  },
+  {
+   "word": "cubes,",
+   "start": 1.68,
+   "end": 2.14
+  },
+  {
+   "word": "and",
+   "start": 2.58,
+   "end": 2.74
+  },
+  {
+   "word": "the",
+   "start": 2.74,
+   "end": 2.86
+  },
+  {
+   "word": "reason",
+   "start": 2.86,
+   "end": 3.12
+  },
+  {
+   "word": "is",
+   "start": 3.12,
+   "end": 3.46
+  },
+  {
+   "word": "even",
+   "start": 3.46,
+   "end": 3.8
+  },
+  {
+   "word": "weirder.",
+   "start": 3.8,
+   "end": 4.3
+  },
+  {
+   "word": "It's",
+   "start": 4.68,
+   "end": 4.88
+  },
+  {
+   "word": "the",
+   "start": 4.88,
+   "end": 5.08
+  },
+  {
+   "word": "wombat,",
+   "start": 5.08,
+   "end": 5.56
+  },
+  {
+   "word": "up",
+   "start": 5.96,
+   "end": 6.12
+  },
+  {
+   "word": "to",
+   "start": 6.12,
+   "end": 6.34
+  },
+  {
+   "word": "a",
+   "start": 6.34,
+   "end": 6.46
+  },
+  {
+   "word": "hundred",
+   "start": 6.46,
+   "end": 6.84
+  },
+  {
+   "word": "cubes,",
+   "start": 6.84,
+   "end": 7.4
+  },
+  {
+   "word": "every",
+   "start": 7.76,
+   "end": 8.16
+  },
+  {
+   "word": "single",
+   "start": 8.16,
+   "end": 8.5
+  },
+  {
+   "word": "night.",
+   "start": 8.5,
+   "end": 8.86
+  },
+  {
+   "word": "But",
+   "start": 9.28,
+   "end": 9.44
+  },
+  {
+   "word": "how",
+   "start": 9.44,
+   "end": 9.72
+  },
+  {
+   "word": "do",
+   "start": 9.72,
+   "end": 9.84
+  },
+  {
+   "word": "you",
+   "start": 9.84,
+   "end": 9.94
+  },
+  {
+   "word": "get",
+   "start": 9.94,
+   "end": 10.06
+  },
+  {
+   "word": "a",
+   "start": 10.06,
+   "end": 10.26
+  },
+  {
+   "word": "cube",
+   "start": 10.26,
+   "end": 10.56
+  },
+  {
+   "word": "out",
+   "start": 10.56,
+   "end": 10.76
+  },
+  {
+   "word": "of",
+   "start": 10.76,
+   "end": 10.88
+  },
+  {
+   "word": "a",
+   "start": 10.88,
+   "end": 11.02
+  },
+  {
+   "word": "round",
+   "start": 11.02,
+   "end": 11.28
+  },
+  {
+   "word": "hole?",
+   "start": 11.28,
+   "end": 11.62
+  },
+  {
+   "word": "Scientists",
+   "start": 12.42,
+   "end": 12.8
+  },
+  {
+   "word": "studied",
+   "start": 12.8,
+   "end": 13.3
+  },
+  {
+   "word": "wombat",
+   "start": 13.3,
+   "end": 13.8
+  },
+  {
+   "word": "intestines.",
+   "start": 13.8,
+   "end": 14.5
+  },
+  {
+   "word": "The",
+   "start": 14.92,
+   "end": 15.04
+  },
+  {
+   "word": "walls",
+   "start": 15.04,
+   "end": 15.32
+  },
+  {
+   "word": "are",
+   "start": 15.32,
+   "end": 15.54
+  },
+  {
+   "word": "stiff",
+   "start": 15.54,
+   "end": 15.86
+  },
+  {
+   "word": "in",
+   "start": 15.86,
+   "end": 16.08
+  },
+  {
+   "word": "some",
+   "start": 16.08,
+   "end": 16.28
+  },
+  {
+   "word": "spots",
+   "start": 16.28,
+   "end": 16.64
+  },
+  {
+   "word": "and",
+   "start": 16.64,
+   "end": 16.94
+  },
+  {
+   "word": "stretchy",
+   "start": 16.94,
+   "end": 17.44
+  },
+  {
+   "word": "in",
+   "start": 17.44,
+   "end": 17.52
+  },
+  {
+   "word": "others,",
+   "start": 17.52,
+   "end": 17.84
+  },
+  {
+   "word": "squeezing",
+   "start": 18.22,
+   "end": 18.6
+  },
+  {
+   "word": "the",
+   "start": 18.6,
+   "end": 18.88
+  },
+  {
+   "word": "poo",
+   "start": 18.88,
+   "end": 19.16
+  },
+  {
+   "word": "into",
+   "start": 19.16,
+   "end": 19.38
+  },
+  {
+   "word": "corners.",
+   "start": 19.38,
+   "end": 19.82
+  },
+  {
+   "word": "And",
+   "start": 20.34,
+   "end": 20.48
+  },
+  {
+   "word": "why",
+   "start": 20.48,
+   "end": 20.72
+  },
+  {
+   "word": "cubes?",
+   "start": 20.72,
+   "end": 21.1
+  },
+  {
+   "word": "One",
+   "start": 21.68,
+   "end": 21.94
+  },
+  {
+   "word": "theory:",
+   "start": 21.94,
+   "end": 22.32
+  },
+  {
+   "word": "wombats",
+   "start": 22.94,
+   "end": 23.28
+  },
+  {
+   "word": "leave",
+   "start": 23.28,
+   "end": 23.58
+  },
+  {
+   "word": "them",
+   "start": 23.58,
+   "end": 23.76
+  },
+  {
+   "word": "on",
+   "start": 23.76,
+   "end": 23.96
+  },
+  {
+   "word": "rocks",
+   "start": 23.96,
+   "end": 24.26
+  },
+  {
+   "word": "to",
+   "start": 24.26,
+   "end": 24.52
+  },
+  {
+   "word": "mark",
+   "start": 24.52,
+   "end": 24.7
+  },
+  {
+   "word": "territory,",
+   "start": 24.7,
+   "end": 25.3
+  },
+  {
+   "word": "and",
+   "start": 25.74,
+   "end": 25.82
+  },
+  {
+   "word": "cubes",
+   "start": 25.82,
+   "end": 26.16
+  },
+  {
+   "word": "don't",
+   "start": 26.16,
+   "end": 26.48
+  },
+  {
+   "word": "roll",
+   "start": 26.48,
+   "end": 26.66
+  },
+  {
+   "word": "away.",
+   "start": 26.66,
+   "end": 27.0
+  },
+  {
+   "word": "The",
+   "start": 27.46,
+   "end": 27.58
+  },
+  {
+   "word": "scientists",
+   "start": 27.58,
+   "end": 28.08
+  },
+  {
+   "word": "even",
+   "start": 28.08,
+   "end": 28.44
+  },
+  {
+   "word": "won",
+   "start": 28.44,
+   "end": 28.72
+  },
+  {
+   "word": "a",
+   "start": 28.72,
+   "end": 28.86
+  },
+  {
+   "word": "prize",
+   "start": 28.86,
+   "end": 29.16
+  },
+  {
+   "word": "for",
+   "start": 29.16,
+   "end": 29.48
+  },
+  {
+   "word": "it,",
+   "start": 29.48,
+   "end": 29.68
+  },
+  {
+   "word": "because",
+   "start": 29.96,
+   "end": 30.22
+  },
+  {
+   "word": "someone",
+   "start": 30.22,
+   "end": 30.6
+  },
+  {
+   "word": "had",
+   "start": 30.6,
+   "end": 30.82
+  },
+  {
+   "word": "to",
+   "start": 30.82,
+   "end": 30.98
+  },
+  {
+   "word": "explain",
+   "start": 30.98,
+   "end": 31.34
+  },
+  {
+   "word": "why",
+   "start": 31.34,
+   "end": 31.6
+  },
+  {
+   "word": "this",
+   "start": 31.6,
+   "end": 31.78
+  },
+  {
+   "word": "animal",
+   "start": 31.78,
+   "end": 32.16
+  },
+  {
+   "word": "poops",
+   "start": 32.16,
+   "end": 32.52
+  },
+  {
+   "word": "perfect",
+   "start": 32.52,
+   "end": 32.9
+  },
+  {
+   "word": "cubes.",
+   "start": 32.9,
+   "end": 33.36
+  }
+ ],
+ "source": "faster-whisper small.en word timestamps on audio/vo.mp3 (held Atlas VO); punctuation aligned to script.md"
+}
