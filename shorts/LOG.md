@@ -44,3 +44,10 @@ Unpacked 6 Grok VOs into shorts/incoming-vo/. #01 matches finished Skylab Short;
 - Updated MASTER_PROMPT.md, workflows/shorts-pipeline/SKILL.md, shorts/CLAUDE.md with on-screen text rule + MG quality bar.
 - Re-rendered via `node shorts/shared/render/render-episode.mjs shorts/s02-man-who-named-australia`.
 - Deliverable: `out/s02-man-who-named-australia.mp4` → `deliverables/s02-man-who-named-australia/`.
+
+## 2026-09-26 — s09 wombat cube poop (scaffold)
+- Episode: `shorts/s09-wombat-cube-poop/`
+- VO: held Atlas en-AU `audio/vo.mp3` (33.792 s) from Downloads / deliverables vo-raw — not re-recorded
+- Scaffold only (Checkpoint C): script, vo_script, plan with ANIMATE beat table, SOURCES, fact-check, Mixkit Fun and Games bed, shared SFX copy, render/config.json + README
+- **No `scenes.js`** — Claude owns design / animation / mix
+- Stills: 8 Commons free-licence (cube scat, common wombats, digestive PD schematic, burrow, science-medal abstract); no AI stills

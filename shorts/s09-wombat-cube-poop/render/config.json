@@ -1,0 +1,22 @@
+{
+  "duration": 33.792,
+  "fps": 30,
+  "sfxDir": "sfx",
+  "mix": { "duck": true, "musicVol": 0.14, "musicStart": 0, "lufs": -14, "fadeOut": 1.0 },
+  "sfxCues": [
+    { "file": "impact_hit.mp3", "at": 0.0, "vol": 0.36, "dur": 1.6 },
+    { "file": "text_pop.mp3", "at": 0.2, "vol": 0.26 },
+    { "file": "whoosh_1.mp3", "at": 4.2, "vol": 0.24 },
+    { "file": "text_pop.mp3", "at": 5.0, "vol": 0.24 },
+    { "file": "whoosh_2.mp3", "at": 8.8, "vol": 0.26 },
+    { "file": "typewriter_tick.mp3", "at": 9.5, "vol": 0.18, "dur": 1.8 },
+    { "file": "whoosh_1.mp3", "at": 12.0, "vol": 0.24 },
+    { "file": "riser.mp3", "at": 13.5, "vol": 0.24, "dur": 2.8 },
+    { "file": "text_pop.mp3", "at": 16.5, "vol": 0.24 },
+    { "file": "whoosh_2.mp3", "at": 19.5, "vol": 0.26 },
+    { "file": "text_pop.mp3", "at": 22.0, "vol": 0.22 },
+    { "file": "impact_hit.mp3", "at": 25.0, "vol": 0.34, "dur": 1.4 },
+    { "file": "whoosh_1.mp3", "at": 28.5, "vol": 0.26 },
+    { "file": "impact_hit.mp3", "at": 32.5, "vol": 0.4, "dur": 0.8 }
+  ]
+}
