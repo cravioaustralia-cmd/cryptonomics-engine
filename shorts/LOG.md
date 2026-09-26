@@ -44,3 +44,11 @@ Unpacked 6 Grok VOs into shorts/incoming-vo/. #01 matches finished Skylab Short;
 - Updated MASTER_PROMPT.md, workflows/shorts-pipeline/SKILL.md, shorts/CLAUDE.md with on-screen text rule + MG quality bar.
 - Re-rendered via `node shorts/shared/render/render-episode.mjs shorts/s02-man-who-named-australia`.
 - Deliverable: `out/s02-man-who-named-australia.mp4` → `deliverables/s02-man-who-named-australia/`.
+
+## 2026-09-26 — s04 First European Residents (Issue #10) premium build
+- Episode: `shorts/s04-first-european-residents/` — held VO reused (61.56 s), not re-recorded.
+- Timing: `transcript.json` from faster-whisper medium.en word timestamps (“Wiebbe” spelling fixed).
+- `render/scenes.js`: 9 beats, photo underlay on every beat + SVG MG (hook dock + 1629→1788 counter, VOC seal, WA locator route + reef strike, plate longboat ring, Cornelisz lock-up, 110-lights → 100+, fort wall line-draw, rescue ship + ring lock, name strike, Abrolhos → mainland crossing, name type-on + fading footprints, wreck-site pulse + 1629→? loop into frame 1).
+- Shared renderer (backward compatible): `/fonts/` route + OFL fonts, `EPISODE.preload`, `contact-sheet.mjs`, `CHROMIUM_PATH`, encoder overrides via `config.video`, ducked mix via `config.mix` (sidechain duck, SFX `dur`, final loudnorm), relative/stale `sfxDir` fallback.
+- Mix: static-gain VO + sidechain-ducked Vastness bed + 39 SFX cues; two-pass (sample-exact premix → one gain to −14 LUFS + latency-compensated limiter), −1.8 dBTP, exactly 61.560 s, VO verified 0 ms offset. Mux maps streams explicitly (no stray SFX ID3 chapter) and keeps full duration.
+- Output: `out/s04-first-european-residents.mp4` → `deliverables/s04-first-european-residents/`.

@@ -23,10 +23,12 @@ const mixPath = await mixAudio({
   sfxDir: config.sfxDir,
   sfxCues: config.sfxCues || [],
   duration,
+  mix: config.mix,
 });
 
 console.log('== Capture frames ==');
-await captureVideo({ episodeDir, outVideo: silent, fps, duration });
+if (process.argv.includes('--mux-only') && fs.existsSync(silent)) console.log('reusing', silent);
+else await captureVideo({ episodeDir, outVideo: silent, fps, duration, video: config.video || {} });
 
 console.log('== Mux ==');
 await new Promise((resolve, reject) => {
@@ -38,13 +40,21 @@ await new Promise((resolve, reject) => {
       silent,
       '-i',
       mixPath,
+      // explicit maps: no stray data streams; keep the full VO duration (no -shortest trim)
+      '-map',
+      '0:v:0',
+      '-map',
+      '1:a:0',
+      '-map_chapters',
+      '-1',
       '-c:v',
       'copy',
       '-c:a',
       'aac',
       '-b:a',
       '192k',
-      '-shortest',
+      '-t',
+      String(duration),
       '-movflags',
       '+faststart',
       finalMp4,
