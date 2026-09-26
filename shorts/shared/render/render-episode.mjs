@@ -23,6 +23,7 @@ const mixPath = await mixAudio({
   sfxDir: config.sfxDir,
   sfxCues: config.sfxCues || [],
   duration,
+  mix: config.mix,
 });
 
 console.log('== Capture frames ==');
@@ -38,13 +39,18 @@ await new Promise((resolve, reject) => {
       silent,
       '-i',
       mixPath,
+      '-map',
+      '0:v',
+      '-map',
+      '1:a',
       '-c:v',
       'copy',
       '-c:a',
       'aac',
       '-b:a',
       '192k',
-      '-shortest',
+      '-t',
+      String(duration),
       '-movflags',
       '+faststart',
       finalMp4,
