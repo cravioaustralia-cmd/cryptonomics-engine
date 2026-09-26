@@ -44,3 +44,10 @@ Unpacked 6 Grok VOs into shorts/incoming-vo/. #01 matches finished Skylab Short;
 - Updated MASTER_PROMPT.md, workflows/shorts-pipeline/SKILL.md, shorts/CLAUDE.md with on-screen text rule + MG quality bar.
 - Re-rendered via `node shorts/shared/render/render-episode.mjs shorts/s02-man-who-named-australia`.
 - Deliverable: `out/s02-man-who-named-australia.mp4` → `deliverables/s02-man-who-named-australia/`.
+
+## 2026-09-26 — s08 Nobody Told It to Hack (non-Remotion)
+- Episode: `shorts/s08-nobody-told-it-to-hack/`; held Atlas VO (47.496 s), not re-recorded.
+- Word timings: faster-whisper small.en → `transcript.json` (punctuation aligned to script).
+- `render/scenes.js`: 9 beats, photo underlay + MG each — padlock hook slam/unlock traces, neural forward pass + JUNE 2026 stamp + Australia map, portal card + BLOCKED stamp + maze bypass, rack push-in + redacted docs + NEVER PUBLIC, crest + access log + NO PATIENT RECORDS, JUN→AUG→SEP timeline + public inbox, PM card + UNACCEPTABLE + investigation scan, NO block shatter, hook reassembles for loop.
+- Shared renderer: `contact-sheet.mjs`, `PW_CHROMIUM_PATH` override, music ducking via `config.mix`, fixed loudnorm tail truncation (~3 s lost on every mix).
+- Final: `deliverable/s08-nobody-told-it-to-hack.mp4` (1080×1920, 30 fps, 47.5 s).

@@ -23,6 +23,7 @@ const mixPath = await mixAudio({
   sfxDir: config.sfxDir,
   sfxCues: config.sfxCues || [],
   duration,
+  mix: config.mix,
 });
 
 console.log('== Capture frames ==');

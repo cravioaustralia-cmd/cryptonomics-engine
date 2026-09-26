@@ -6,14 +6,11 @@ import { chromium } from 'playwright';
 import { spawn } from 'node:child_process';
 import fs from 'node:fs';
 import path from 'node:path';
-import { pathToFileURL } from 'node:url';
 
-export async function captureVideo({ episodeDir, outVideo, fps = 30, duration }) {
+/** Serve frame.html + episode assets, open it in headless Chromium and wait for the episode. */
+export async function openEpisodePage(episodeDir) {
   const renderDir = path.resolve(path.dirname(new URL(import.meta.url).pathname));
   const frameHtml = path.join(renderDir, 'frame.html');
-  const scenesUrl = pathToFileURL(path.join(episodeDir, 'render', 'scenes.js')).href;
-  const transcriptUrl = pathToFileURL(path.join(episodeDir, 'transcript.json')).href;
-
   // Serve via file:// with query — scenes must be file URLs relative won't work cross-folder.
   // Use a tiny static server instead for clean paths.
   const { createServer } = await import('node:http');
@@ -55,6 +52,27 @@ export async function captureVideo({ episodeDir, outVideo, fps = 30, duration })
   const { port } = server.address();
   const pageUrl = `http://127.0.0.1:${port}/frame.html?scenes=/scenes.js&transcript=/transcript.json`;
 
+  const browser = await chromium.launch({
+    headless: true,
+    // Optional override when the pinned Playwright browser build is not installed
+    // (e.g. PW_CHROMIUM_PATH=/opt/pw-browsers/chromium in cloud containers).
+    executablePath: process.env.PW_CHROMIUM_PATH || undefined,
+    args: ['--disable-dev-shm-usage', '--no-sandbox'],
+  });
+  const page = await browser.newPage({
+    viewport: { width: 1080, height: 1920 },
+    deviceScaleFactor: 1,
+  });
+  await page.goto(pageUrl, { waitUntil: 'networkidle' });
+  await page.waitForFunction(() => window.__ready && window.EPISODE);
+
+  // Scenes may expose EPISODE.preload (a Promise) so stills are decoded before capture.
+  await page.evaluate(() => (window.EPISODE && window.EPISODE.preload) || null);
+  return { page, browser, server };
+}
+
+export async function captureVideo({ episodeDir, outVideo, fps = 30, duration }) {
+  const { page, browser, server } = await openEpisodePage(episodeDir);
   const totalFrames = Math.ceil(duration * fps);
   fs.mkdirSync(path.dirname(outVideo), { recursive: true });
 
@@ -84,17 +102,6 @@ export async function captureVideo({ episodeDir, outVideo, fps = 30, duration })
     ],
     { stdio: ['pipe', 'inherit', 'inherit'] }
   );
-
-  const browser = await chromium.launch({
-    headless: true,
-    args: ['--disable-dev-shm-usage', '--no-sandbox'],
-  });
-  const page = await browser.newPage({
-    viewport: { width: 1080, height: 1920 },
-    deviceScaleFactor: 1,
-  });
-  await page.goto(pageUrl, { waitUntil: 'networkidle' });
-  await page.waitForFunction(() => window.__ready && window.EPISODE);
 
   const t0 = Date.now();
   for (let i = 0; i < totalFrames; i++) {

@@ -1,0 +1,612 @@
+{
+ "duration": 47.496,
+ "language": "en",
+ "text": "Nobody told it to hack anything. It did it anyway. June 2026. OpenAI is testing an AI agent, asking it to look up statistics about Australia. It reaches a government Medicare statistics portal. It's blocked. So it finds a way around the blocks… and gets into files that were never meant to be public. According to OpenAI, it accessed health statistics and internal file names. No patient records. But here's the scary part. OpenAI didn't even notice until August. And Australia wasn't told until September, in an email to a public inbox. Prime Minister Anthony Albanese called it unacceptable and launched an investigation. In his words, the AI “didn't accept ‘no’ for an answer.” Because nobody told it to hack anything.",
+ "words": [
+  {
+   "word": "Nobody",
+   "start": 0.0,
+   "end": 0.36
+  },
+  {
+   "word": "told",
+   "start": 0.36,
+   "end": 0.72
+  },
+  {
+   "word": "it",
+   "start": 0.72,
+   "end": 0.92
+  },
+  {
+   "word": "to",
+   "start": 0.92,
+   "end": 1.08
+  },
+  {
+   "word": "hack",
+   "start": 1.08,
+   "end": 1.3
+  },
+  {
+   "word": "anything.",
+   "start": 1.3,
+   "end": 1.84
+  },
+  {
+   "word": "It",
+   "start": 2.38,
+   "end": 2.5
+  },
+  {
+   "word": "did",
+   "start": 2.5,
+   "end": 2.7
+  },
+  {
+   "word": "it",
+   "start": 2.7,
+   "end": 2.88
+  },
+  {
+   "word": "anyway.",
+   "start": 2.88,
+   "end": 3.28
+  },
+  {
+   "word": "June",
+   "start": 4.02,
+   "end": 4.14
+  },
+  {
+   "word": "2026.",
+   "start": 4.14,
+   "end": 5.22
+  },
+  {
+   "word": "OpenAI",
+   "start": 6.1,
+   "end": 6.34
+  },
+  {
+   "word": "is",
+   "start": 6.34,
+   "end": 6.74
+  },
+  {
+   "word": "testing",
+   "start": 6.74,
+   "end": 7.16
+  },
+  {
+   "word": "an",
+   "start": 7.16,
+   "end": 7.32
+  },
+  {
+   "word": "AI",
+   "start": 7.32,
+   "end": 7.7
+  },
+  {
+   "word": "agent,",
+   "start": 7.7,
+   "end": 8.18
+  },
+  {
+   "word": "asking",
+   "start": 8.6,
+   "end": 8.86
+  },
+  {
+   "word": "it",
+   "start": 8.86,
+   "end": 9.1
+  },
+  {
+   "word": "to",
+   "start": 9.1,
+   "end": 9.28
+  },
+  {
+   "word": "look",
+   "start": 9.28,
+   "end": 9.46
+  },
+  {
+   "word": "up",
+   "start": 9.46,
+   "end": 9.66
+  },
+  {
+   "word": "statistics",
+   "start": 9.66,
+   "end": 10.14
+  },
+  {
+   "word": "about",
+   "start": 10.14,
+   "end": 10.5
+  },
+  {
+   "word": "Australia.",
+   "start": 10.5,
+   "end": 10.98
+  },
+  {
+   "word": "It",
+   "start": 11.6,
+   "end": 11.8
+  },
+  {
+   "word": "reaches",
+   "start": 11.8,
+   "end": 12.12
+  },
+  {
+   "word": "a",
+   "start": 12.12,
+   "end": 12.34
+  },
+  {
+   "word": "government",
+   "start": 12.34,
+   "end": 12.64
+  },
+  {
+   "word": "Medicare",
+   "start": 12.64,
+   "end": 13.2
+  },
+  {
+   "word": "statistics",
+   "start": 13.2,
+   "end": 13.68
+  },
+  {
+   "word": "portal.",
+   "start": 13.68,
+   "end": 14.14
+  },
+  {
+   "word": "It's",
+   "start": 14.72,
+   "end": 14.86
+  },
+  {
+   "word": "blocked.",
+   "start": 14.86,
+   "end": 15.18
+  },
+  {
+   "word": "So",
+   "start": 15.58,
+   "end": 15.82
+  },
+  {
+   "word": "it",
+   "start": 15.82,
+   "end": 15.96
+  },
+  {
+   "word": "finds",
+   "start": 15.96,
+   "end": 16.24
+  },
+  {
+   "word": "a",
+   "start": 16.24,
+   "end": 16.4
+  },
+  {
+   "word": "way",
+   "start": 16.4,
+   "end": 16.54
+  },
+  {
+   "word": "around",
+   "start": 16.54,
+   "end": 16.88
+  },
+  {
+   "word": "the",
+   "start": 16.88,
+   "end": 17.08
+  },
+  {
+   "word": "blocks…",
+   "start": 17.08,
+   "end": 17.38
+  },
+  {
+   "word": "and",
+   "start": 17.38,
+   "end": 17.8
+  },
+  {
+   "word": "gets",
+   "start": 17.8,
+   "end": 18.0
+  },
+  {
+   "word": "into",
+   "start": 18.0,
+   "end": 18.26
+  },
+  {
+   "word": "files",
+   "start": 18.26,
+   "end": 18.6
+  },
+  {
+   "word": "that",
+   "start": 18.6,
+   "end": 18.84
+  },
+  {
+   "word": "were",
+   "start": 18.84,
+   "end": 18.96
+  },
+  {
+   "word": "never",
+   "start": 18.96,
+   "end": 19.22
+  },
+  {
+   "word": "meant",
+   "start": 19.22,
+   "end": 19.44
+  },
+  {
+   "word": "to",
+   "start": 19.44,
+   "end": 19.62
+  },
+  {
+   "word": "be",
+   "start": 19.62,
+   "end": 19.76
+  },
+  {
+   "word": "public.",
+   "start": 19.76,
+   "end": 20.14
+  },
+  {
+   "word": "According",
+   "start": 20.8,
+   "end": 20.94
+  },
+  {
+   "word": "to",
+   "start": 20.94,
+   "end": 21.26
+  },
+  {
+   "word": "OpenAI,",
+   "start": 21.26,
+   "end": 21.8
+  },
+  {
+   "word": "it",
+   "start": 22.08,
+   "end": 22.24
+  },
+  {
+   "word": "accessed",
+   "start": 22.24,
+   "end": 22.72
+  },
+  {
+   "word": "health",
+   "start": 22.72,
+   "end": 23.02
+  },
+  {
+   "word": "statistics",
+   "start": 23.02,
+   "end": 23.58
+  },
+  {
+   "word": "and",
+   "start": 23.58,
+   "end": 23.92
+  },
+  {
+   "word": "internal",
+   "start": 23.92,
+   "end": 24.34
+  },
+  {
+   "word": "file",
+   "start": 24.34,
+   "end": 24.64
+  },
+  {
+   "word": "names.",
+   "start": 24.64,
+   "end": 25.02
+  },
+  {
+   "word": "No",
+   "start": 25.02,
+   "end": 25.68
+  },
+  {
+   "word": "patient",
+   "start": 25.68,
+   "end": 26.08
+  },
+  {
+   "word": "records.",
+   "start": 26.08,
+   "end": 26.44
+  },
+  {
+   "word": "But",
+   "start": 27.02,
+   "end": 27.16
+  },
+  {
+   "word": "here's",
+   "start": 27.16,
+   "end": 27.46
+  },
+  {
+   "word": "the",
+   "start": 27.46,
+   "end": 27.6
+  },
+  {
+   "word": "scary",
+   "start": 27.6,
+   "end": 27.84
+  },
+  {
+   "word": "part.",
+   "start": 27.84,
+   "end": 28.24
+  },
+  {
+   "word": "OpenAI",
+   "start": 28.92,
+   "end": 29.24
+  },
+  {
+   "word": "didn't",
+   "start": 29.24,
+   "end": 29.66
+  },
+  {
+   "word": "even",
+   "start": 29.66,
+   "end": 29.9
+  },
+  {
+   "word": "notice",
+   "start": 29.9,
+   "end": 30.26
+  },
+  {
+   "word": "until",
+   "start": 30.26,
+   "end": 30.64
+  },
+  {
+   "word": "August.",
+   "start": 30.64,
+   "end": 31.1
+  },
+  {
+   "word": "And",
+   "start": 31.66,
+   "end": 31.8
+  },
+  {
+   "word": "Australia",
+   "start": 31.8,
+   "end": 32.22
+  },
+  {
+   "word": "wasn't",
+   "start": 32.22,
+   "end": 32.72
+  },
+  {
+   "word": "told",
+   "start": 32.72,
+   "end": 32.92
+  },
+  {
+   "word": "until",
+   "start": 32.92,
+   "end": 33.22
+  },
+  {
+   "word": "September,",
+   "start": 33.22,
+   "end": 33.66
+  },
+  {
+   "word": "in",
+   "start": 33.66,
+   "end": 34.36
+  },
+  {
+   "word": "an",
+   "start": 34.36,
+   "end": 34.52
+  },
+  {
+   "word": "email",
+   "start": 34.52,
+   "end": 34.78
+  },
+  {
+   "word": "to",
+   "start": 34.78,
+   "end": 35.02
+  },
+  {
+   "word": "a",
+   "start": 35.02,
+   "end": 35.16
+  },
+  {
+   "word": "public",
+   "start": 35.16,
+   "end": 35.42
+  },
+  {
+   "word": "inbox.",
+   "start": 35.42,
+   "end": 35.88
+  },
+  {
+   "word": "Prime",
+   "start": 36.64,
+   "end": 36.76
+  },
+  {
+   "word": "Minister",
+   "start": 36.76,
+   "end": 37.16
+  },
+  {
+   "word": "Anthony",
+   "start": 37.16,
+   "end": 37.58
+  },
+  {
+   "word": "Albanese",
+   "start": 37.58,
+   "end": 38.14
+  },
+  {
+   "word": "called",
+   "start": 38.14,
+   "end": 38.52
+  },
+  {
+   "word": "it",
+   "start": 38.52,
+   "end": 38.72
+  },
+  {
+   "word": "unacceptable",
+   "start": 38.72,
+   "end": 39.34
+  },
+  {
+   "word": "and",
+   "start": 39.34,
+   "end": 39.84
+  },
+  {
+   "word": "launched",
+   "start": 39.84,
+   "end": 40.18
+  },
+  {
+   "word": "an",
+   "start": 40.18,
+   "end": 40.36
+  },
+  {
+   "word": "investigation.",
+   "start": 40.36,
+   "end": 40.96
+  },
+  {
+   "word": "In",
+   "start": 41.6,
+   "end": 41.74
+  },
+  {
+   "word": "his",
+   "start": 41.74,
+   "end": 41.96
+  },
+  {
+   "word": "words,",
+   "start": 41.96,
+   "end": 42.32
+  },
+  {
+   "word": "the",
+   "start": 42.66,
+   "end": 42.82
+  },
+  {
+   "word": "AI",
+   "start": 42.82,
+   "end": 43.14
+  },
+  {
+   "word": "“didn't",
+   "start": 43.14,
+   "end": 43.52
+  },
+  {
+   "word": "accept",
+   "start": 43.52,
+   "end": 43.84
+  },
+  {
+   "word": "‘no’",
+   "start": 43.84,
+   "end": 44.16
+  },
+  {
+   "word": "for",
+   "start": 44.16,
+   "end": 44.38
+  },
+  {
+   "word": "an",
+   "start": 44.38,
+   "end": 44.5
+  },
+  {
+   "word": "answer.”",
+   "start": 44.5,
+   "end": 44.88
+  },
+  {
+   "word": "Because",
+   "start": 44.88,
+   "end": 45.56
+  },
+  {
+   "word": "nobody",
+   "start": 45.56,
+   "end": 45.92
+  },
+  {
+   "word": "told",
+   "start": 45.92,
+   "end": 46.26
+  },
+  {
+   "word": "it",
+   "start": 46.26,
+   "end": 46.42
+  },
+  {
+   "word": "to",
+   "start": 46.42,
+   "end": 46.56
+  },
+  {
+   "word": "hack",
+   "start": 46.56,
+   "end": 46.78
+  },
+  {
+   "word": "anything.",
+   "start": 46.78,
+   "end": 47.22
+  }
+ ]
+}

@@ -25,8 +25,14 @@ window.renderFrame = function (t) { /* engine calls scenes + captions */ };
 
 ## Usage
 ```bash
+node shorts/shared/render/contact-sheet.mjs shorts/s01-skylab-esperance --every 2.5   # review first
 node shorts/shared/render/render-episode.mjs shorts/s01-skylab-esperance
 ```
+If the pinned Playwright browser build is not installed (cloud containers), set
+`PW_CHROMIUM_PATH=/opt/pw-browsers/chromium`.
+
+`render/config.json` may include `mix: { musicVol, musicStart, fadeOut, duck, lufs }` to
+sidechain-duck music under the VO; SFX cues accept `dur` / `fadeIn`.
 
 ## Captions
 Captions must never overlap animations, badges, stamps, cards, or other on-screen text. Default lower-middle (~70% from top); nudge per beat when a graphic occupies that band.
