@@ -20,3 +20,14 @@ All included stills are real, free-licence NASA / USGS / US Gov / Wikimedia Comm
 - Indo-Australian plate vectors (~7 cm/yr) match the VO fingernail-growth / northward-drift claim; do not invent different rates.
 - GPS constellation is a US Gov schematic of the navigation constellation, not a photograph of Australian CORS hardware.
 - Label Galileo Moon as enhanced multi-spectral if colour looks non-natural; Apollo 13 still is the natural near-full hero.
+
+## On-screen treatment in the final cut
+
+- `s07_01` Apollo 13 Moon: frame-1 hook underlay and diameter measure; also cut to a disk and dropped onto the Blue Marble continent **to scale** (3,474 km vs 4,000 km) as an MG composite, not a photograph.
+- `s07_02` Blue Marble: shown as-is (dimmed); a crop of the NSW coast sits inside the GPS map-pin card (symbolic pins, not a surveyed location).
+- `s07_03` CC0 outline: recoloured (sea → navy, land → ochre) with an SVG filter; its coastline was traced into the vector outline reused in beats 3, 7 and 8.
+- `s07_04` USGS plates: push-in to the Australian Plate; dimmed.
+- `s07_05` GPS.gov schematic: re-inked (dark → cyan line-work) for a dark background; the Earth disk is kept in original colour. Credited on screen as a schematic.
+- `s07_06` UTM zones: cropped to lon ≈104–163°E around AU zones 49–56; the US "17T" callout is never in frame. The land outline used for the 2017 correction was traced from this still.
+- `s07_07` Indo-Australian plate: credited on screen "MAP: XENTU25 · CC BY-SA 4.0"; the printed 68/69 mm/yr vectors are overdrawn, not changed.
+- `s07_08` Galileo Moon: loop closer with the Australia outline at true scale.

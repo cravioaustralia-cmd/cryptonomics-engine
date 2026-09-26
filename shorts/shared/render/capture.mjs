@@ -4,33 +4,48 @@
  */
 import { chromium } from 'playwright';
 import { spawn } from 'node:child_process';
+import { createServer } from 'node:http';
 import fs from 'node:fs';
 import path from 'node:path';
-import { pathToFileURL } from 'node:url';
 
-export async function captureVideo({ episodeDir, outVideo, fps = 30, duration }) {
-  const renderDir = path.resolve(path.dirname(new URL(import.meta.url).pathname));
-  const frameHtml = path.join(renderDir, 'frame.html');
-  const scenesUrl = pathToFileURL(path.join(episodeDir, 'render', 'scenes.js')).href;
-  const transcriptUrl = pathToFileURL(path.join(episodeDir, 'transcript.json')).href;
+const renderDir = path.resolve(path.dirname(new URL(import.meta.url).pathname));
+const fontsDir = path.resolve(renderDir, '..', 'fonts');
 
-  // Serve via file:// with query — scenes must be file URLs relative won't work cross-folder.
-  // Use a tiny static server instead for clean paths.
-  const { createServer } = await import('node:http');
+const TYPES = {
+  '.html': 'text/html',
+  '.js': 'text/javascript',
+  '.json': 'application/json',
+  '.jpg': 'image/jpeg',
+  '.jpeg': 'image/jpeg',
+  '.png': 'image/png',
+  '.webp': 'image/webp',
+  '.svg': 'image/svg+xml',
+  '.ttf': 'font/ttf',
+  '.otf': 'font/otf',
+  '.woff': 'font/woff',
+  '.woff2': 'font/woff2',
+};
+
+/** Tiny static server: engine + episode scenes/transcript, /img/* → images/, /fonts/* → shared/fonts/. */
+function startServer(episodeDir) {
   const roots = {
     '/engine.js': path.join(renderDir, 'engine.js'),
-    '/frame.html': frameHtml,
+    '/frame.html': path.join(renderDir, 'frame.html'),
     '/scenes.js': path.join(episodeDir, 'render', 'scenes.js'),
     '/transcript.json': path.join(episodeDir, 'transcript.json'),
   };
-  // map /img/* to episode images
-  const imgRoot = path.join(episodeDir, 'images');
-
+  const dirs = [
+    ['/img/', path.join(episodeDir, 'images')],
+    ['/fonts/', fontsDir],
+  ];
   const server = createServer((req, res) => {
     const u = new URL(req.url, 'http://127.0.0.1');
     let file = roots[u.pathname];
-    if (!file && u.pathname.startsWith('/img/')) {
-      file = path.join(imgRoot, decodeURIComponent(u.pathname.slice(5)));
+    for (const [prefix, dir] of dirs) {
+      if (!file && u.pathname.startsWith(prefix)) {
+        const p = path.join(dir, decodeURIComponent(u.pathname.slice(prefix.length)));
+        if (p.startsWith(dir)) file = p;
+      }
     }
     if (!file || !fs.existsSync(file)) {
       res.writeHead(404);
@@ -38,23 +53,54 @@ export async function captureVideo({ episodeDir, outVideo, fps = 30, duration })
       return;
     }
     const ext = path.extname(file).toLowerCase();
-    const types = {
-      '.html': 'text/html',
-      '.js': 'text/javascript',
-      '.json': 'application/json',
-      '.jpg': 'image/jpeg',
-      '.jpeg': 'image/jpeg',
-      '.png': 'image/png',
-      '.webp': 'image/webp',
-    };
-    res.writeHead(200, { 'Content-Type': types[ext] || 'application/octet-stream' });
+    res.writeHead(200, { 'Content-Type': TYPES[ext] || 'application/octet-stream' });
     fs.createReadStream(file).pipe(res);
   });
+  return new Promise((r) => server.listen(0, '127.0.0.1', () => r(server)));
+}
 
-  await new Promise((r) => server.listen(0, '127.0.0.1', r));
+/** Open the episode frame page, wait for scenes, transcript, fonts and any EPISODE.ready preload. */
+export async function openEpisodePage(episodeDir) {
+  const server = await startServer(episodeDir);
   const { port } = server.address();
   const pageUrl = `http://127.0.0.1:${port}/frame.html?scenes=/scenes.js&transcript=/transcript.json`;
+  // CHROMIUM_PATH lets a machine with a pre-installed browser skip `playwright install`.
+  const browser = await chromium.launch({
+    headless: true,
+    executablePath: process.env.CHROMIUM_PATH || undefined,
+    args: ['--disable-dev-shm-usage', '--no-sandbox'],
+  });
+  const page = await browser.newPage({
+    viewport: { width: 1080, height: 1920 },
+    deviceScaleFactor: 1,
+  });
+  page.on('pageerror', (e) => console.error('[page]', e.message));
+  await page.goto(pageUrl, { waitUntil: 'networkidle' });
+  await page.waitForFunction(() => window.__ready && window.EPISODE);
+  await page.evaluate(async () => {
+    if (window.EPISODE.ready) await window.EPISODE.ready;
+    await document.fonts.ready;
+  });
+  const close = async () => {
+    await browser.close();
+    server.close();
+  };
+  return { page, close };
+}
 
+/** Render one frame; resolves after the browser has painted it. */
+export function renderAt(page, t) {
+  return page.evaluate(
+    (time) =>
+      new Promise((resolve) => {
+        window.renderFrame(time);
+        requestAnimationFrame(() => requestAnimationFrame(resolve));
+      }),
+    t
+  );
+}
+
+export async function captureVideo({ episodeDir, outVideo, fps = 30, duration }) {
   const totalFrames = Math.ceil(duration * fps);
   fs.mkdirSync(path.dirname(outVideo), { recursive: true });
 
@@ -84,23 +130,17 @@ export async function captureVideo({ episodeDir, outVideo, fps = 30, duration })
     ],
     { stdio: ['pipe', 'inherit', 'inherit'] }
   );
+  const ffDone = new Promise((resolve, reject) => {
+    ff.on('exit', (code) => (code === 0 ? resolve() : reject(new Error('ffmpeg video ' + code))));
+  });
 
-  const browser = await chromium.launch({
-    headless: true,
-    args: ['--disable-dev-shm-usage', '--no-sandbox'],
-  });
-  const page = await browser.newPage({
-    viewport: { width: 1080, height: 1920 },
-    deviceScaleFactor: 1,
-  });
-  await page.goto(pageUrl, { waitUntil: 'networkidle' });
-  await page.waitForFunction(() => window.__ready && window.EPISODE);
+  const { page, close } = await openEpisodePage(episodeDir);
 
   const t0 = Date.now();
   for (let i = 0; i < totalFrames; i++) {
     const t = i / fps;
-    await page.evaluate((time) => window.renderFrame(time), t);
-    const buf = await page.screenshot({ type: 'jpeg', quality: 88, animations: 'disabled' });
+    await renderAt(page, t);
+    const buf = await page.screenshot({ type: 'jpeg', quality: 92, animations: 'disabled' });
     const ok = ff.stdin.write(buf);
     if (!ok) await new Promise((r) => ff.stdin.once('drain', r));
     if (i % 90 === 0) {
@@ -109,11 +149,8 @@ export async function captureVideo({ episodeDir, outVideo, fps = 30, duration })
     }
   }
   ff.stdin.end();
-  await new Promise((resolve, reject) => {
-    ff.on('exit', (code) => (code === 0 ? resolve() : reject(new Error('ffmpeg video ' + code))));
-  });
-  await browser.close();
-  server.close();
+  await ffDone;
+  await close();
   console.log('Silent video →', outVideo);
   return outVideo;
 }

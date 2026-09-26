@@ -44,3 +44,10 @@ Unpacked 6 Grok VOs into shorts/incoming-vo/. #01 matches finished Skylab Short;
 - Updated MASTER_PROMPT.md, workflows/shorts-pipeline/SKILL.md, shorts/CLAUDE.md with on-screen text rule + MG quality bar.
 - Re-rendered via `node shorts/shared/render/render-episode.mjs shorts/s02-man-who-named-australia`.
 - Deliverable: `out/s02-man-who-named-australia.mp4` → `deliverables/s02-man-who-named-australia/`.
+
+## 2026-09-26 — s07 Wider Than the Moon (premium build, issue #14)
+- Created `s07-wider-than-the-moon/render/scenes.js`: photo/map underlay + Skylab-style MG on all 8 beats (hook slam, Moon diameter measure, W→E measure + Moon-to-scale drop, drifting outline with trails, plate push-in + 7 CM / YEAR stamp + fingernail + accumulation column, GPS beams + map-pin 1.5 M card, UTM zones 49–56 + 2017 / GDA2020 + outline snap, plate vectors → Asia + impact, Galileo loop back to frame 1).
+- Transcript: faster-whisper word timings → `transcript.json`; every beat anchored to words via `cue()`.
+- Held Atlas VO reused byte-for-byte (md5 cb6d4003…); no re-record.
+- Shared renderer: `/fonts` serving + `EPISODE.ready` preload wait, `contact-sheet.mjs`, `CHROMIUM_PATH`, mix v2 (sidechain duck, SFX in-points/trims, measured gain + limiter to −14 LUFS), mux keeps every frame.
+- Deliverable: `s07-wider-than-the-moon/deliverables/s07-wider-than-the-moon.mp4` (1080×1920, 30 fps, 1487 frames, −14.1 LUFS) + `contact-sheet.jpg`.
