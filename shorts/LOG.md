@@ -51,3 +51,7 @@ Unpacked 6 Grok VOs into shorts/incoming-vo/. #01 matches finished Skylab Short;
 - Scaffold only (Checkpoint C): script, vo_script, plan with ANIMATE beat table, SOURCES, fact-check, Mixkit Fun and Games bed, shared SFX copy, render/config.json + README
 - **No `scenes.js`** — Claude owns design / animation / mix
 - Stills: 8 Commons free-licence (cube scat, common wombats, digestive PD schematic, burrow, science-medal abstract); no AI stills
+
+## 2026-09-27T09:42:41+10:00 — s10 Shark Arm Case (fast rebuild)
+- Atlas VO 37.488s held; staging assets from s05 still pack; Claude owns scenes/mix/render.
+- Hook: Thrown up by a shark
