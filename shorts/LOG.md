@@ -55,3 +55,10 @@ Unpacked 6 Grok VOs into shorts/incoming-vo/. #01 matches finished Skylab Short;
 ## 2026-09-27T09:42:41+10:00 — s10 Shark Arm Case (fast rebuild)
 - Atlas VO 37.488s held; staging assets from s05 still pack; Claude owns scenes/mix/render.
 - Hook: Thrown up by a shark
+
+## 2026-09-27 — s10 Shark Arm Case: Claude build (issue #20)
+- `render/scenes.js`: 11 photo-underlay + SVG MG beats timed to faster-whisper word timings (`transcript.json`); hook `THROWN UP BY A SHARK` on frame 1; the last frame matches frame 1 (checked by pixel diff).
+- No gore: the arm is never shown; the knife beat is a forensic diagram and the witness beat is a flatline card.
+- **Mix fix (shared `mix-audio.mjs`):** removed the single-pass `loudnorm` on the VO before amix (the s09 tail-loss bug). The VO now gets a measured *static* gain + `apad`, is amixed, then gets a measured two-pass linear `loudnorm` on the master only. Verified: Whisper on the final mix recovers all 107 VO words through "…human arm." (37.28 s).
+- Shared renderer: SFX paths now resolve against the episode dir (they previously resolved against the cwd); `frame.html` decodes every still before the first frame; captions break at sentence ends; `CHROMIUM_PATH` override; new `snapshot.mjs` for check frames and contact sheets.
+- Output: `s10-shark-arm-case/deliverables/s10-shark-arm-case.mp4` (1080×1920, 30 fps, 37.9 s, −14.6 LUFS) + `contact-sheet.jpg` + `upload.md`.
