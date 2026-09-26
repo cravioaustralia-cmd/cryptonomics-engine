@@ -8,6 +8,9 @@ Stack: **SVG + `renderFrame(t)` + Playwright + ffmpeg**.
 - `capture.mjs` — Playwright seeks `renderFrame(t)` and pipes JPEGs to ffmpeg
 - `mix-audio.mjs` — VO + ducked music + timed SFX → `final-mix.mp3`
 - `render-episode.mjs` — mix → capture → mux helper
+- `contact-sheet.mjs` — renders `renderFrame(t)` at intervals → `out/contact-sheet.jpg` (review before every final render)
+
+`render/config.json` may carry a `mix` block — `{ duck, musicVol, musicStart, lufs, fadeOut }` — to sidechain-duck the music under the VO and loudness-normalise the master; SFX cues accept `dur` to trim tails. Set `PW_CHROMIUM_PATH` to use a local Chromium when Playwright's pinned browser isn't installed.
 
 ## Episode contract
 Each Short provides `render/scenes.js` that sets:
@@ -25,6 +28,7 @@ window.renderFrame = function (t) { /* engine calls scenes + captions */ };
 
 ## Usage
 ```bash
+node shorts/shared/render/contact-sheet.mjs shorts/s01-skylab-esperance --every 2.5
 node shorts/shared/render/render-episode.mjs shorts/s01-skylab-esperance
 ```
 
