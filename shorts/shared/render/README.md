@@ -6,7 +6,8 @@ Stack: **SVG + `renderFrame(t)` + Playwright + ffmpeg**.
 - `frame.html` — 1080×1920 page; loads episode `scenes.js`
 - `engine.js` — easing, captions (~70% (lower-middle)), still underlay helpers
 - `capture.mjs` — Playwright seeks `renderFrame(t)` and pipes JPEGs to ffmpeg
-- `mix-audio.mjs` — VO + ducked music + timed SFX → `final-mix.mp3`
+- `mix-audio.mjs` — VO (static measured gain, padded) + music + timed SFX → amix → measured two-pass master `loudnorm` → `final-mix.mp3`. Never loudnorm the VO alone before amix (it cost s09 ~3 s of VO tail).
+- `snapshot.mjs` — grab single frames for checks / contact sheets
 - `render-episode.mjs` — mix → capture → mux helper
 
 ## Episode contract

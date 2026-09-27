@@ -84,3 +84,11 @@ Unpacked 6 Grok VOs into shorts/incoming-vo/. #01 matches finished Skylab Short;
 - Soft facts: area ~1,300 km²; offset ~3–3.6 km west; Guildhall = modern JCPC proxy; Todd = remeasurement not Wade; NSW origin noted; longitude MG/SVG
 - Hook: WRONG LINE (alt 141°E); loop intentionally incomplete
 - Note: s06 reserved Somerton Man; s12 Koala Fingerprints; this is s13
+
+## 2026-09-27 — s13 The Wrong Border (premium build, Checkpoint C)
+- Episode: `shorts/s13-wrong-border/`, held Atlas VO (38.376 s), not re-recorded. Issue #26.
+- Claude-owned `render/scenes.js` (12 beats, photo/period-map underlay + SVG MG every beat: kinked-border hook, appeal arc, Letters Patent seal + meridian on the 1836 globe, survey marks, year dial, transit reticle, 1883 kink offset, hatched strip, tug-of-war + decade flips, gavel + padlock, Serviceton, loop whip) + `render/config.json` (52 SFX cues).
+- Shared render: ported the PR #21/#23/#25 mixer, `snapshot.mjs`, `CHROMIUM_PATH`, image pre-decode and sentence-end caption breaks; added the `image/svg+xml` MIME type so SVG map stills load.
+- Verified: faster-whisper on the final MP4 recovers all 97 VO words, with the loop tail "day" at 37.86–38.32 s. −14.6 LUFS / −1.5 dBTP. The last frame matches frame 1 (only the loop caption differs).
+- Licence: the Serviceton aerial carries a "© Government of South Australia 2021, CC BY" credit. It is attributed as CC BY (the staging note said PD).
+- Output: `deliverables/s13-wrong-border.mp4` (1080×1920, 30 fps) + `contact-sheet.jpg` + `upload.md`.
