@@ -64,3 +64,13 @@ Unpacked 6 Grok VOs into shorts/incoming-vo/. #01 matches finished Skylab Short;
 - Stills: 10 Commons free-licence (southern cassowary QLD, claw foot, 1920s Cook Highway PD, seed dropping, Daintree); no AI stills; no gore
 - Hook: Looks like a dinosaur
 - Note: s06 reserved Somerton Man; s10 Shark Arm rebuild; this is s11
+
+## 2026-09-27T18:58+10:00 — s12 Koala Fingerprints (scaffold)
+- Episode: `shorts/s12-koala-fingerprints/`
+- Held Atlas en-AU VO `audio/vo.mp3` (**37.080 s**) from `/workspace/deliverables/s12-koala-fingerprints/vo-raw/vo-atlas.mp3` (also Downloads) — not re-recorded
+- Scaffold only (Checkpoint C): script, vo_script, plan with ANIMATE beat table, SOURCES, fact-check, Vastness bed, Mixkit SFX (+ forest birds), render/config.json + README
+- **No `scenes.js`** — Claude owns design / animation / mix
+- Stills: 12 Commons free-licence (Cape Otway / Mount Lofty / Sydney / Bonorong koalas, Clancy hind-foot pads, human fingerprint loops/whorls, NIST PD card, lab microscope proxy, climbing, eucalyptus leaves); no AI stills; no fake crime-scene case
+- Soft fact: crime-scene beat is theoretical (Henneberg “extremely unlikely”) — not a verified forensic case
+- Hook: Almost identical
+- Note: s06 reserved Somerton Man; s11 Cassowary; this is s12
