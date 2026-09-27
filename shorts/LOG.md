@@ -64,3 +64,10 @@ Unpacked 6 Grok VOs into shorts/incoming-vo/. #01 matches finished Skylab Short;
 - Stills: 10 Commons free-licence (southern cassowary QLD, claw foot, 1920s Cook Highway PD, seed dropping, Daintree); no AI stills; no gore
 - Hook: Looks like a dinosaur
 - Note: s06 reserved Somerton Man; s10 Shark Arm rebuild; this is s11
+
+## 2026-09-27 — s11 The Cassowary (premium build, Checkpoint C)
+- Episode: `shorts/s11-cassowary/` — held Atlas VO (39.408 s), not re-recorded. Issue #22.
+- Claude-owned `render/scenes.js` (8 beats, photo underlay + SVG MG every beat) + `render/config.json` (36 SFX cues).
+- Mix: measured VO → static gain + apad → amix → two-pass master loudnorm (PR #21 path). Premix now 32-bit float (16-bit clipped the gained VO peaks).
+- Verified: faster-whisper on the final MP4 recovers every VO word; "…looks like a dinosaur." ends at 38.98 s (raw VO 39.02 s). −14.6 LUFS / −1.7 dBTP.
+- Output: `deliverables/s11-cassowary.mp4` (1080×1920, 30 fps) + `deliverables/contact-sheet.jpg`; upload copy in `upload.md`.
