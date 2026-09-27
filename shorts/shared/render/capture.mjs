@@ -87,6 +87,7 @@ export async function captureVideo({ episodeDir, outVideo, fps = 30, duration })
 
   const browser = await chromium.launch({
     headless: true,
+    ...(process.env.CHROMIUM_PATH ? { executablePath: process.env.CHROMIUM_PATH } : {}),
     args: ['--disable-dev-shm-usage', '--no-sandbox'],
   });
   const page = await browser.newPage({

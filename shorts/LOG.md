@@ -74,3 +74,10 @@ Unpacked 6 Grok VOs into shorts/incoming-vo/. #01 matches finished Skylab Short;
 - Soft fact: crime-scene beat is theoretical (Henneberg “extremely unlikely”) — not a verified forensic case
 - Hook: Almost identical
 - Note: s06 reserved Somerton Man; s11 Cassowary; this is s12
+
+## 2026-09-27 — s12 Koala Fingerprints (premium build, Checkpoint C)
+- Episode: `shorts/s12-koala-fingerprints/` — held Atlas VO (37.080 s), not re-recorded. Issue #24.
+- Claude-owned `render/scenes.js` (8 beats, photo underlay + SVG MG every beat, procedural ridge drawings) + `render/config.json` (45 SFX cues).
+- Shared render: ported PR #21/#23 mixer (measured VO static gain + apad → float amix → two-pass master loudnorm), `snapshot.mjs`, `CHROMIUM_PATH`, image pre-decode, sentence-end caption breaks.
+- Verified: faster-whisper on the final MP4 recovers all 88 VO words; "…like yours." at 36.44–36.62 s. −14.7 LUFS / −1.7 dBTP.
+- Output: `deliverables/s12-koala-fingerprints.mp4` (1080×1920, 30 fps) + `deliverables/contact-sheet.jpg` + `deliverables/upload.md`.
