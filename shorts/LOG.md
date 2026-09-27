@@ -95,3 +95,14 @@ Unpacked 6 Grok VOs into shorts/incoming-vo/. #01 matches finished Skylab Short;
 - Soft facts: 69 gazette / ~69 hedge; Ambleside = railway station not Gallipoli general; Queen Adelaide German-born Saxe-Meiningen; Hahn Danish-born; Hahndorf+Lobethal+Klemzig restored 1935; Birdwood stayed
 - Hook: 69 NAMES (alt WIPED OFF); loop intentionally incomplete
 - Note: s06 reserved Somerton Man; s13 Wrong Border; this is s14
+
+## 2026-09-28T01:11+10:00 — s15 Irukandji (scaffold)
+- Episode: `shorts/s15-irukandji/`
+- Held Atlas en-AU VO `audio/vo.mp3` (**35.640 s**) from `/workspace/deliverables/s15-irukandji/vo-raw/vo-atlas.mp3` — not re-recorded
+- Scaffold only (Checkpoint C): script, vo_script, plan with ANIMATE beat table, SOURCES, fact-check, Delirium bed (Eugenio Mininni / Mixkit), Mixkit SFX (+ paper_rustle), render/config.json + README
+- **No `scenes.js`** — Claude owns design / animation / mix
+- Stills: 11 Commons free-licence (Gershwin *C. barnesi*, vial scale, size schematic MG-ref, GBR MODIS basemap, Whitsunday MISR, GBRMP locator SVG, hazard sign, vinegar depot, Mater Townsville, 12-lead ECG, Munch doom proxy); no AI stills; no gore
+- **Maps rule locked:** parchment overlays on real satellite/topo (terrain visible); thick white outer glow; bold 3D labels + drop shadows; soft shadows — northern Australia / GBR / tropical north waters **only**
+- Soft facts: fingernail/~1–2 cm; *C. barnesi* namesake vs multi-species syndrome; ~20–60 min onset; doom symptom; most survive with hospital; deaths rare/recorded (often ~2002) — do not overstate; don’t conflate with *Chironex*
+- Hook: IRUKANDJI (alt SMALLER THAN A NAIL); loop complete echo of fingernail open
+- Note: s06 reserved Somerton Man; s13 Wrong Border; s14 German Place Names; this is s15
