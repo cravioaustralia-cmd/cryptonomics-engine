@@ -106,3 +106,6 @@ Unpacked 6 Grok VOs into shorts/incoming-vo/. #01 matches finished Skylab Short;
 - Soft facts: fingernail/~1–2 cm; *C. barnesi* namesake vs multi-species syndrome; ~20–60 min onset; doom symptom; most survive with hospital; deaths rare/recorded (often ~2002) — do not overstate; don’t conflate with *Chironex*
 - Hook: IRUKANDJI (alt SMALLER THAN A NAIL); loop complete echo of fingernail open
 - Note: s06 reserved Somerton Man; s13 Wrong Border; s14 German Place Names; this is s15
+
+## s16-nullarbor-845
+- 2026-09-28T02:37:31+10:00 — staged on main with held Atlas VO 37.080s; issue opened for Claude premium build.
