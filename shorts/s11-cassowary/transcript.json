@@ -1,0 +1,525 @@
+{
+ "duration": 39.408,
+ "words": [
+  {
+   "word": "Australia",
+   "start": 0.0,
+   "end": 0.54
+  },
+  {
+   "word": "has",
+   "start": 0.54,
+   "end": 0.9
+  },
+  {
+   "word": "a",
+   "start": 0.9,
+   "end": 1.1
+  },
+  {
+   "word": "bird",
+   "start": 1.1,
+   "end": 1.26
+  },
+  {
+   "word": "that",
+   "start": 1.26,
+   "end": 1.48
+  },
+  {
+   "word": "looks",
+   "start": 1.48,
+   "end": 1.68
+  },
+  {
+   "word": "like",
+   "start": 1.68,
+   "end": 1.9
+  },
+  {
+   "word": "a",
+   "start": 1.9,
+   "end": 2.06
+  },
+  {
+   "word": "dinosaur\u2026",
+   "start": 2.06,
+   "end": 2.54
+  },
+  {
+   "word": "and",
+   "start": 2.54,
+   "end": 2.9
+  },
+  {
+   "word": "can",
+   "start": 2.9,
+   "end": 3.08
+  },
+  {
+   "word": "fight",
+   "start": 3.08,
+   "end": 3.38
+  },
+  {
+   "word": "like",
+   "start": 3.38,
+   "end": 3.62
+  },
+  {
+   "word": "one.",
+   "start": 3.62,
+   "end": 4.0
+  },
+  {
+   "word": "The",
+   "start": 4.34,
+   "end": 4.54
+  },
+  {
+   "word": "cassowary.",
+   "start": 4.54,
+   "end": 5.22
+  },
+  {
+   "word": "Up",
+   "start": 5.76,
+   "end": 5.98
+  },
+  {
+   "word": "to",
+   "start": 5.98,
+   "end": 6.18
+  },
+  {
+   "word": "about",
+   "start": 6.18,
+   "end": 6.4
+  },
+  {
+   "word": "two",
+   "start": 6.4,
+   "end": 6.76
+  },
+  {
+   "word": "metres",
+   "start": 6.76,
+   "end": 7.02
+  },
+  {
+   "word": "tall.",
+   "start": 7.02,
+   "end": 7.44
+  },
+  {
+   "word": "Runs",
+   "start": 7.86,
+   "end": 8.06
+  },
+  {
+   "word": "around",
+   "start": 8.06,
+   "end": 8.4
+  },
+  {
+   "word": "50",
+   "start": 8.4,
+   "end": 8.86
+  },
+  {
+   "word": "kilometres",
+   "start": 8.86,
+   "end": 9.24
+  },
+  {
+   "word": "an",
+   "start": 9.24,
+   "end": 9.54
+  },
+  {
+   "word": "hour.",
+   "start": 9.54,
+   "end": 9.82
+  },
+  {
+   "word": "Jumps.",
+   "start": 10.14,
+   "end": 10.52
+  },
+  {
+   "word": "Swims.",
+   "start": 10.98,
+   "end": 11.58
+  },
+  {
+   "word": "And",
+   "start": 11.66,
+   "end": 11.84
+  },
+  {
+   "word": "on",
+   "start": 11.84,
+   "end": 11.98
+  },
+  {
+   "word": "each",
+   "start": 11.98,
+   "end": 12.28
+  },
+  {
+   "word": "foot?",
+   "start": 12.28,
+   "end": 12.62
+  },
+  {
+   "word": "A",
+   "start": 12.98,
+   "end": 13.16
+  },
+  {
+   "word": "dagger-like",
+   "start": 13.16,
+   "end": 13.92
+  },
+  {
+   "word": "claw",
+   "start": 13.92,
+   "end": 14.3
+  },
+  {
+   "word": "over",
+   "start": 14.3,
+   "end": 14.64
+  },
+  {
+   "word": "ten",
+   "start": 14.64,
+   "end": 15.04
+  },
+  {
+   "word": "centimetres",
+   "start": 15.04,
+   "end": 15.48
+  },
+  {
+   "word": "long.",
+   "start": 15.48,
+   "end": 15.94
+  },
+  {
+   "word": "In",
+   "start": 16.42,
+   "end": 16.58
+  },
+  {
+   "word": "1926,",
+   "start": 16.58,
+   "end": 17.48
+  },
+  {
+   "word": "a",
+   "start": 18.14,
+   "end": 18.18
+  },
+  {
+   "word": "teenager",
+   "start": 18.18,
+   "end": 18.52
+  },
+  {
+   "word": "in",
+   "start": 18.52,
+   "end": 18.84
+  },
+  {
+   "word": "Queensland",
+   "start": 18.84,
+   "end": 19.26
+  },
+  {
+   "word": "tried",
+   "start": 19.26,
+   "end": 19.64
+  },
+  {
+   "word": "to",
+   "start": 19.64,
+   "end": 19.84
+  },
+  {
+   "word": "fight",
+   "start": 19.84,
+   "end": 20.0
+  },
+  {
+   "word": "one",
+   "start": 20.0,
+   "end": 20.2
+  },
+  {
+   "word": "off.",
+   "start": 20.2,
+   "end": 20.5
+  },
+  {
+   "word": "It",
+   "start": 20.86,
+   "end": 21.06
+  },
+  {
+   "word": "kicked",
+   "start": 21.06,
+   "end": 21.3
+  },
+  {
+   "word": "him,",
+   "start": 21.3,
+   "end": 21.58
+  },
+  {
+   "word": "and",
+   "start": 21.58,
+   "end": 22.04
+  },
+  {
+   "word": "he",
+   "start": 22.04,
+   "end": 22.22
+  },
+  {
+   "word": "died.",
+   "start": 22.22,
+   "end": 22.5
+  },
+  {
+   "word": "One",
+   "start": 23.0,
+   "end": 23.32
+  },
+  {
+   "word": "of",
+   "start": 23.32,
+   "end": 23.46
+  },
+  {
+   "word": "the",
+   "start": 23.46,
+   "end": 23.6
+  },
+  {
+   "word": "very",
+   "start": 23.6,
+   "end": 23.92
+  },
+  {
+   "word": "few",
+   "start": 23.92,
+   "end": 24.2
+  },
+  {
+   "word": "human",
+   "start": 24.2,
+   "end": 24.56
+  },
+  {
+   "word": "deaths",
+   "start": 24.56,
+   "end": 24.92
+  },
+  {
+   "word": "ever",
+   "start": 24.92,
+   "end": 25.26
+  },
+  {
+   "word": "recorded",
+   "start": 25.26,
+   "end": 25.72
+  },
+  {
+   "word": "from",
+   "start": 25.72,
+   "end": 25.98
+  },
+  {
+   "word": "a",
+   "start": 25.98,
+   "end": 26.14
+  },
+  {
+   "word": "bird.",
+   "start": 26.14,
+   "end": 26.38
+  },
+  {
+   "word": "But",
+   "start": 26.38,
+   "end": 26.94
+  },
+  {
+   "word": "here\u2019s",
+   "start": 26.94,
+   "end": 27.24
+  },
+  {
+   "word": "the",
+   "start": 27.24,
+   "end": 27.38
+  },
+  {
+   "word": "thing:",
+   "start": 27.38,
+   "end": 27.68
+  },
+  {
+   "word": "cassowaries",
+   "start": 28.36,
+   "end": 28.8
+  },
+  {
+   "word": "are",
+   "start": 28.8,
+   "end": 29.06
+  },
+  {
+   "word": "shy.",
+   "start": 29.06,
+   "end": 29.4
+  },
+  {
+   "word": "And",
+   "start": 29.4,
+   "end": 30.0
+  },
+  {
+   "word": "they\u2019re",
+   "start": 30.0,
+   "end": 30.2
+  },
+  {
+   "word": "rainforest",
+   "start": 30.2,
+   "end": 30.8
+  },
+  {
+   "word": "gardeners,",
+   "start": 30.8,
+   "end": 31.4
+  },
+  {
+   "word": "spreading",
+   "start": 31.6,
+   "end": 32.02
+  },
+  {
+   "word": "seeds",
+   "start": 32.02,
+   "end": 32.4
+  },
+  {
+   "word": "of",
+   "start": 32.4,
+   "end": 32.62
+  },
+  {
+   "word": "plants",
+   "start": 32.62,
+   "end": 32.92
+  },
+  {
+   "word": "that",
+   "start": 32.92,
+   "end": 33.18
+  },
+  {
+   "word": "almost",
+   "start": 33.18,
+   "end": 33.48
+  },
+  {
+   "word": "nothing",
+   "start": 33.48,
+   "end": 33.94
+  },
+  {
+   "word": "else",
+   "start": 33.94,
+   "end": 34.2
+  },
+  {
+   "word": "can",
+   "start": 34.2,
+   "end": 34.4
+  },
+  {
+   "word": "swallow.",
+   "start": 34.4,
+   "end": 34.82
+  },
+  {
+   "word": "So",
+   "start": 35.28,
+   "end": 35.5
+  },
+  {
+   "word": "respect",
+   "start": 35.5,
+   "end": 35.92
+  },
+  {
+   "word": "it\u2026",
+   "start": 35.92,
+   "end": 36.22
+  },
+  {
+   "word": "because",
+   "start": 36.46,
+   "end": 36.76
+  },
+  {
+   "word": "Australia",
+   "start": 36.76,
+   "end": 37.22
+  },
+  {
+   "word": "has",
+   "start": 37.22,
+   "end": 37.58
+  },
+  {
+   "word": "a",
+   "start": 37.58,
+   "end": 37.78
+  },
+  {
+   "word": "bird",
+   "start": 37.78,
+   "end": 37.94
+  },
+  {
+   "word": "that",
+   "start": 37.94,
+   "end": 38.14
+  },
+  {
+   "word": "looks",
+   "start": 38.14,
+   "end": 38.34
+  },
+  {
+   "word": "like",
+   "start": 38.34,
+   "end": 38.54
+  },
+  {
+   "word": "a",
+   "start": 38.54,
+   "end": 38.68
+  },
+  {
+   "word": "dinosaur.",
+   "start": 38.68,
+   "end": 39.02
+  }
+ ]
+}

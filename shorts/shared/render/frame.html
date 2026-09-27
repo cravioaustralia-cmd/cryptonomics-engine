@@ -34,6 +34,9 @@
           window.EPISODE.duration = data.duration || window.EPISODE.duration;
         }
       }
+      // Decode every episode still before the first frame so no frame captures a blank image.
+      const imgs = Object.values((window.EPISODE && window.EPISODE.images) || {});
+      await Promise.all(imgs.map((src) => { const im = new Image(); im.src = src; return im.decode().catch(() => {}); }));
       window.__ready = true;
       if (window.EPISODE) window.renderFrame(0);
     })();
