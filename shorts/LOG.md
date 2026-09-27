@@ -84,3 +84,14 @@ Unpacked 6 Grok VOs into shorts/incoming-vo/. #01 matches finished Skylab Short;
 - Soft facts: area ~1,300 km²; offset ~3–3.6 km west; Guildhall = modern JCPC proxy; Todd = remeasurement not Wade; NSW origin noted; longitude MG/SVG
 - Hook: WRONG LINE (alt 141°E); loop intentionally incomplete
 - Note: s06 reserved Somerton Man; s12 Koala Fingerprints; this is s13
+
+## 2026-09-27T20:32+10:00 — s14 German Place Names (scaffold)
+- Episode: `shorts/s14-german-place-names/`
+- Held Atlas en-AU VO `audio/vo.mp3` (**45.000 s**) from `/workspace/deliverables/s14-german-place-names/vo-raw/vo-atlas.mp3` — not re-recorded
+- Scaffold only (Checkpoint C): script, vo_script, plan with ANIMATE beat table, SOURCES, fact-check, Silent Descent bed (Eugenio Mininni / Mixkit), Mixkit SFX (+ paper_rustle), render/config.json + README
+- **No `scenes.js`** — Claude owns design / animation / mix
+- Stills: 11 Commons free-licence (Hahndorf church/street, Lobethal, Klemzig painting, Birdwood aerial, Queen Adelaide, Gen. Birdwood Gallipoli, Adelaide skyline, Capt. Hahn, Tweedvale bush, SA relief underlay); no AI stills
+- **Maps rule locked:** textured satellite basemaps + 3D extruded/tilted — not flat schematic/outline/bare relief-only; Claude builds 3D satellite map MG for wipe/rename
+- Soft facts: 69 gazette / ~69 hedge; Ambleside = railway station not Gallipoli general; Queen Adelaide German-born Saxe-Meiningen; Hahn Danish-born; Hahndorf+Lobethal+Klemzig restored 1935; Birdwood stayed
+- Hook: 69 NAMES (alt WIPED OFF); loop intentionally incomplete
+- Note: s06 reserved Somerton Man; s13 Wrong Border; this is s14
