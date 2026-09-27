@@ -55,3 +55,12 @@ Unpacked 6 Grok VOs into shorts/incoming-vo/. #01 matches finished Skylab Short;
 ## 2026-09-27T09:42:41+10:00 — s10 Shark Arm Case (fast rebuild)
 - Atlas VO 37.488s held; staging assets from s05 still pack; Claude owns scenes/mix/render.
 - Hook: Thrown up by a shark
+
+## 2026-09-27T13:00:25+10:00 — s11 Cassowary (scaffold)
+- Episode: `shorts/s11-cassowary/`
+- Held Atlas en-AU VO `audio/vo.mp3` (**39.408 s**) from `/workspace/deliverables/s11-cassowary/vo-raw/vo-atlas.mp3` — not re-recorded
+- Scaffold only (Checkpoint C): script, vo_script, plan with ANIMATE beat table, SOURCES, fact-check, Vastness bed, Mixkit SFX (+ jungle/forest ambience), render/config.json + README
+- **No `scenes.js`** — Claude owns design / animation / mix
+- Stills: 10 Commons free-licence (southern cassowary QLD, claw foot, 1920s Cook Highway PD, seed dropping, Daintree); no AI stills; no gore
+- Hook: Looks like a dinosaur
+- Note: s06 reserved Somerton Man; s10 Shark Arm rebuild; this is s11
