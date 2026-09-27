@@ -1,6 +1,6 @@
 # Sources — s14-german-place-names
 
-Image sources are documented in [`images/SOURCES.md`](images/SOURCES.md). All stills are Wikimedia Commons public-domain or Creative Commons sources; no AI stills are used.
+Image sources are documented in [`images/SOURCES.md`](images/SOURCES.md). All stills are Wikimedia Commons public-domain or Creative Commons sources; no AI stills are used. The 3D map uses real Copernicus Sentinel-2 imagery (2024) and AWS Terrain Tiles elevation. Provenance is in the same file.
 
 **Maps rule (locked):** textured satellite basemaps + 3D extruded/tilted treatment — not flat schematic / outline / bare relief-only maps.
 

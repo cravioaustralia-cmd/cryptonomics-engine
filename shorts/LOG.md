@@ -95,3 +95,12 @@ Unpacked 6 Grok VOs into shorts/incoming-vo/. #01 matches finished Skylab Short;
 - Soft facts: 69 gazette / ~69 hedge; Ambleside = railway station not Gallipoli general; Queen Adelaide German-born Saxe-Meiningen; Hahn Danish-born; Hahndorf+Lobethal+Klemzig restored 1935; Birdwood stayed
 - Hook: 69 NAMES (alt WIPED OFF); loop intentionally incomplete
 - Note: s06 reserved Somerton Man; s13 Wrong Border; this is s14
+
+## 2026-09-27 — s14 German Place Names (premium build, Checkpoint C)
+- Episode: `shorts/s14-german-place-names/`, held Atlas VO (45.000 s), not re-recorded.
+- Claude-owned `render/scenes.js` (12 beats) + `render/map3d.js`. The **3D textured-satellite map** is WebGL2 inside `renderFrame(t)`: real Sentinel-2 (11 Jan 2024) draped over AWS Terrain Tiles elevation, extruded slab, per-frame camera, pins projected from real town coordinates, sepia 1918 grade. Other beats: 69 NAMES eraser hook + tag sweep, skyline lock-on, 1838 voyage, town pins + photo cards, 1918 slam + redacted 69-line gazette, typed renames (Ambleside / Gaza / Birdwood), Gallipoli card, HAHN|DORF split + Danish-born chip, reticle hunt → ADELAIDE, Queen Adelaide plaque, Ambleside→Hahndorf tag flip + 1935 RESTORED, Birdwood NEVER RESTORED, loop fly-out to the frame-1 hook.
+- `render/config.json`: 59 SFX cues on the Whisper beats. Mix: fixed PR #21/#23/#25/#27 path (ported to this branch).
+- Shared render: ported the s13 mixer / `snapshot.mjs` / `CHROMIUM_PATH` / image pre-decode / sentence-end caption breaks. Added `/ep/*` episode helper route, `EPISODE.ready` await, and promise-returning `renderFrame`.
+- New assets: `images/s14_12_sentinel2_adelaide_hills.jpg` (Copernicus Sentinel-2) and `images/s14_13_terrain_dem_adelaide_hills.png` (AWS Terrain Tiles). `s14_11` relief PNG not used.
+- Verified: −14.7 LUFS / −1.6 dBTP; Whisper on the final MP4 recovers all VO words, loop tail "ago," at 44.34–44.80 s; last frame matches frame 1.
+- Output: `deliverables/s14-german-place-names.mp4` (1080×1920, 30 fps, 44 MB, CRF 22 transcode of the CRF 18 capture) + `contact-sheet.jpg` + `upload.md`.
