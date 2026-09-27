@@ -118,3 +118,21 @@ All files under `images/`. Prefer Wikimedia Commons / NASA PD / Creative Commons
 ## Attribution reminder
 
 When publishing, credit CC BY / BY-SA works (authors + licence + link). PD/CC0 need no legal credit but titles help the research trail.
+
+---
+
+## Map layers built for the Short (Claude, `render/build-map-layers.py`)
+
+### s16_15_map_basemap.jpg … s16_19_map_border_glow.png
+- **What:** the locked-style Nullarbor map. `15` is the basemap: shaded relief multiplied by satellite colour, with a bathymetric sea. `16` / `17` are the weathered parchment fills for WA land (west of 129°E) and SA land (east of it), so terrain shows through. `18` is the soft offset shadow plus a thick white outer glow on the coast. `19` is a white glow along the WA–SA border (129°E) on land.
+- **Sources:**
+  - **Relief, land/sea mask and bathymetry:** AWS Terrain Tiles (Mapzen "terrarium", zoom 9; SRTM / GMTED / ETOPO1), public domain. Tiles come from `https://s3.amazonaws.com/elevation-tiles-prod/terrarium/9/{x}/{y}.png`.
+  - **Land colour:** `s16_02_nullarbor_satellite.jpg` (NASA, public domain), fitted to the terrain coastline (equirectangular fit, sea-mask IoU 0.92).
+- **Geography:** lon 122–134°E, lat 27–39.5°S (the Great Australian Bight coast from east of Esperance to Ceduna). The Short only ever frames the Nullarbor / WA–SA border / Eucla–Eyre Highway corridor. Pins use WGS84 coordinates for Caiguna, Cocklebiddy, Madura, Mundrabilla, Eucla and Border Village; Eucla lands about 5 km inland of the coast, which matches reality.
+- **Licence:** derived from public-domain inputs, so no restrictions. Credit is "NASA; AWS Terrain Tiles (SRTM/GMTED/ETOPO1)".
+
+## Build notes (Claude)
+- **`s16_03_sa_nullarbor_modis.jpg` is not used.** Its frame shows eastern South Australia (Spencer Gulf, the Flinders Ranges, Lakes Torrens / Frome), not the Nullarbor or the WA–SA border, so using it as the corridor basemap would be a wrong-location stand-in. The map uses the real Nullarbor satellite (`02`) over real topo instead.
+- **`s16_14` is not shown.** It was a reference only.
+- `s16_07` (Eucla fingerpost) is too low-res for full bleed. It is unused.
+- `s16_13` (Mundrabilla) is unused.

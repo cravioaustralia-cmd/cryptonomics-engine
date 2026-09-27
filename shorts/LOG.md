@@ -109,3 +109,8 @@ Unpacked 6 Grok VOs into shorts/incoming-vo/. #01 matches finished Skylab Short;
 
 ## s16-nullarbor-845
 - 2026-09-28T02:37:31+10:00 — staged on main with held Atlas VO 37.080s; issue opened for Claude premium build.
+- 2026-09-28 — premium build (issue #32):
+  - `render/scenes.js` has 10 beats, and the locked map comes from real topo + NASA satellite (`build-map-layers.py`).
+  - The fixed mixer is ported to shared/render.
+  - Final MP4: `deliverables/s16-nullarbor-845.mp4` (37.06 s, −14.5 LUFS / −1.5 dBTP). All VO words recovered and the loop frame matches frame 1.
+  - `s16_03` MODIS is unused because it shows the wrong region.
