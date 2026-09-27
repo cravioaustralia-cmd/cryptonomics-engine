@@ -74,3 +74,13 @@ Unpacked 6 Grok VOs into shorts/incoming-vo/. #01 matches finished Skylab Short;
 - Soft fact: crime-scene beat is theoretical (Henneberg “extremely unlikely”) — not a verified forensic case
 - Hook: Almost identical
 - Note: s06 reserved Somerton Man; s11 Cassowary; this is s12
+
+## 2026-09-27T19:51+10:00 — s13 The Wrong Border (scaffold)
+- Episode: `shorts/s13-wrong-border/`
+- Held Atlas en-AU VO `audio/vo.mp3` (**38.376 s**) from `/workspace/deliverables/s13-wrong-border/vo-raw/vo-atlas.mp3` — not re-recorded
+- Scaffold only (Checkpoint C): script, vo_script, plan with ANIMATE beat table, SOURCES, fact-check, Curiosity bed (Diego Nava / Mixkit), Mixkit SFX (+ paper_rustle), render/config.json + README
+- **No `scenes.js`** — Claude owns design / animation / mix
+- Stills: 9 Commons free-licence (1883 border kink, dispute diagram, 141st meridian SVG, Port Phillip 1839 SVG, Middlesex Guildhall proxy, Charles Todd portrait, anomaly map, SA handbook map, Serviceton aerial); no AI stills
+- Soft facts: area ~1,300 km²; offset ~3–3.6 km west; Guildhall = modern JCPC proxy; Todd = remeasurement not Wade; NSW origin noted; longitude MG/SVG
+- Hook: WRONG LINE (alt 141°E); loop intentionally incomplete
+- Note: s06 reserved Somerton Man; s12 Koala Fingerprints; this is s13
