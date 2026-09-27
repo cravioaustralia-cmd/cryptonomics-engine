@@ -1,0 +1,445 @@
+{
+ "duration": 37.08,
+ "words": [
+  {
+   "word": "Koalas",
+   "start": 0.0,
+   "end": 0.6
+  },
+  {
+   "word": "have",
+   "start": 0.6,
+   "end": 0.82
+  },
+  {
+   "word": "fingerprints",
+   "start": 0.82,
+   "end": 1.46
+  },
+  {
+   "word": "almost",
+   "start": 1.46,
+   "end": 1.94
+  },
+  {
+   "word": "exactly",
+   "start": 1.94,
+   "end": 2.52
+  },
+  {
+   "word": "like",
+   "start": 2.52,
+   "end": 2.92
+  },
+  {
+   "word": "yours.",
+   "start": 2.92,
+   "end": 3.16
+  },
+  {
+   "word": "Not",
+   "start": 3.72,
+   "end": 3.92
+  },
+  {
+   "word": "similar.",
+   "start": 3.92,
+   "end": 4.44
+  },
+  {
+   "word": "Almost",
+   "start": 4.9,
+   "end": 5.18
+  },
+  {
+   "word": "identical.",
+   "start": 5.18,
+   "end": 5.8
+  },
+  {
+   "word": "The",
+   "start": 6.34,
+   "end": 6.54
+  },
+  {
+   "word": "same",
+   "start": 6.54,
+   "end": 6.8
+  },
+  {
+   "word": "loops,",
+   "start": 6.8,
+   "end": 7.22
+  },
+  {
+   "word": "whorls",
+   "start": 7.68,
+   "end": 7.88
+  },
+  {
+   "word": "and",
+   "start": 8.02,
+   "end": 8.14
+  },
+  {
+   "word": "ridges.",
+   "start": 8.14,
+   "end": 8.58
+  },
+  {
+   "word": "When",
+   "start": 9.03,
+   "end": 9.16
+  },
+  {
+   "word": "scientists",
+   "start": 9.16,
+   "end": 9.58
+  },
+  {
+   "word": "studied",
+   "start": 9.58,
+   "end": 10.04
+  },
+  {
+   "word": "them",
+   "start": 10.04,
+   "end": 10.24
+  },
+  {
+   "word": "under",
+   "start": 10.24,
+   "end": 10.48
+  },
+  {
+   "word": "a",
+   "start": 10.48,
+   "end": 10.66
+  },
+  {
+   "word": "microscope,",
+   "start": 10.66,
+   "end": 11.16
+  },
+  {
+   "word": "they",
+   "start": 11.56,
+   "end": 11.68
+  },
+  {
+   "word": "were",
+   "start": 11.68,
+   "end": 11.82
+  },
+  {
+   "word": "incredibly",
+   "start": 11.82,
+   "end": 12.34
+  },
+  {
+   "word": "hard",
+   "start": 12.34,
+   "end": 12.7
+  },
+  {
+   "word": "to",
+   "start": 12.7,
+   "end": 12.88
+  },
+  {
+   "word": "tell",
+   "start": 12.88,
+   "end": 13.06
+  },
+  {
+   "word": "apart",
+   "start": 13.06,
+   "end": 13.38
+  },
+  {
+   "word": "from",
+   "start": 13.38,
+   "end": 13.62
+  },
+  {
+   "word": "human",
+   "start": 13.62,
+   "end": 13.92
+  },
+  {
+   "word": "prints.",
+   "start": 13.92,
+   "end": 14.32
+  },
+  {
+   "word": "So,",
+   "start": 14.82,
+   "end": 15.04
+  },
+  {
+   "word": "in",
+   "start": 15.18,
+   "end": 15.3
+  },
+  {
+   "word": "theory,",
+   "start": 15.3,
+   "end": 15.74
+  },
+  {
+   "word": "a",
+   "start": 16.1,
+   "end": 16.3
+  },
+  {
+   "word": "koala",
+   "start": 16.3,
+   "end": 16.68
+  },
+  {
+   "word": "could",
+   "start": 16.68,
+   "end": 16.9
+  },
+  {
+   "word": "leave",
+   "start": 16.9,
+   "end": 17.08
+  },
+  {
+   "word": "a",
+   "start": 17.08,
+   "end": 17.26
+  },
+  {
+   "word": "print",
+   "start": 17.26,
+   "end": 17.46
+  },
+  {
+   "word": "at",
+   "start": 17.46,
+   "end": 17.64
+  },
+  {
+   "word": "a",
+   "start": 17.64,
+   "end": 17.76
+  },
+  {
+   "word": "crime",
+   "start": 17.76,
+   "end": 18.04
+  },
+  {
+   "word": "scene…",
+   "start": 18.04,
+   "end": 18.32
+  },
+  {
+   "word": "that",
+   "start": 18.32,
+   "end": 18.52
+  },
+  {
+   "word": "looks",
+   "start": 18.52,
+   "end": 18.72
+  },
+  {
+   "word": "like",
+   "start": 18.72,
+   "end": 18.9
+  },
+  {
+   "word": "a",
+   "start": 18.9,
+   "end": 19.08
+  },
+  {
+   "word": "person’s.",
+   "start": 19.08,
+   "end": 19.68
+  },
+  {
+   "word": "And",
+   "start": 19.94,
+   "end": 20.08
+  },
+  {
+   "word": "here’s",
+   "start": 20.08,
+   "end": 20.36
+  },
+  {
+   "word": "the",
+   "start": 20.36,
+   "end": 20.48
+  },
+  {
+   "word": "weird",
+   "start": 20.48,
+   "end": 20.68
+  },
+  {
+   "word": "part:",
+   "start": 20.68,
+   "end": 20.98
+  },
+  {
+   "word": "we’re",
+   "start": 21.32,
+   "end": 21.5
+  },
+  {
+   "word": "not",
+   "start": 21.5,
+   "end": 21.7
+  },
+  {
+   "word": "even",
+   "start": 21.7,
+   "end": 21.94
+  },
+  {
+   "word": "closely",
+   "start": 21.94,
+   "end": 22.4
+  },
+  {
+   "word": "related.",
+   "start": 22.4,
+   "end": 22.92
+  },
+  {
+   "word": "Koalas",
+   "start": 23.5,
+   "end": 23.88
+  },
+  {
+   "word": "evolved",
+   "start": 23.88,
+   "end": 24.24
+  },
+  {
+   "word": "fingerprints",
+   "start": 24.24,
+   "end": 24.86
+  },
+  {
+   "word": "completely",
+   "start": 24.86,
+   "end": 25.46
+  },
+  {
+   "word": "separately,",
+   "start": 25.46,
+   "end": 26.0
+  },
+  {
+   "word": "probably",
+   "start": 26.52,
+   "end": 26.86
+  },
+  {
+   "word": "for",
+   "start": 26.86,
+   "end": 27.16
+  },
+  {
+   "word": "gripping",
+   "start": 27.16,
+   "end": 27.44
+  },
+  {
+   "word": "branches",
+   "start": 27.44,
+   "end": 27.88
+  },
+  {
+   "word": "and",
+   "start": 27.88,
+   "end": 28.18
+  },
+  {
+   "word": "leaves.",
+   "start": 28.18,
+   "end": 28.62
+  },
+  {
+   "word": "Different",
+   "start": 29.0,
+   "end": 29.22
+  },
+  {
+   "word": "animals.",
+   "start": 29.22,
+   "end": 29.74
+  },
+  {
+   "word": "Different",
+   "start": 30.18,
+   "end": 30.36
+  },
+  {
+   "word": "evolution.",
+   "start": 30.36,
+   "end": 30.9
+  },
+  {
+   "word": "Same",
+   "start": 31.46,
+   "end": 31.66
+  },
+  {
+   "word": "fingerprints.",
+   "start": 31.66,
+   "end": 32.24
+  },
+  {
+   "word": "So",
+   "start": 32.88,
+   "end": 33.04
+  },
+  {
+   "word": "remember…",
+   "start": 33.04,
+   "end": 33.46
+  },
+  {
+   "word": "koalas",
+   "start": 34.1,
+   "end": 34.36
+  },
+  {
+   "word": "have",
+   "start": 34.36,
+   "end": 34.56
+  },
+  {
+   "word": "fingerprints",
+   "start": 34.56,
+   "end": 35.1
+  },
+  {
+   "word": "almost",
+   "start": 35.1,
+   "end": 35.5
+  },
+  {
+   "word": "exactly",
+   "start": 35.5,
+   "end": 36.04
+  },
+  {
+   "word": "like",
+   "start": 36.04,
+   "end": 36.44
+  },
+  {
+   "word": "yours.",
+   "start": 36.44,
+   "end": 36.92
+  }
+ ]
+}
