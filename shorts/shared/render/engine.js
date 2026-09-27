@@ -40,7 +40,7 @@
       }
       const prev = cur[cur.length - 1];
       const gap = w.start - prev.end;
-      if (cur.length >= maxWords || gap > maxGap) {
+      if (cur.length >= maxWords || gap > maxGap || /[.!?]$/.test(prev.word)) {
         groups.push(cur);
         cur = [w];
       } else {
