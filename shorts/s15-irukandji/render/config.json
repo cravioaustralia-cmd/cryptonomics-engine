@@ -2,26 +2,234 @@
   "duration": 35.64,
   "fps": 30,
   "sfxDir": "sfx",
-  "mix": { "duck": true, "musicVol": 0.12, "musicStart": 0, "lufs": -14, "fadeOut": 1.2 },
+  "mix": {
+    "musicVol": 0.12,
+    "musicStart": 2.0,
+    "lufs": -14,
+    "voLufs": -16,
+    "fadeOut": 0.5
+  },
   "sfxCues": [
-    { "file": "impact_hit.mp3", "at": 0.0, "vol": 0.32, "dur": 1.4 },
-    { "file": "text_pop.mp3", "at": 0.35, "vol": 0.24 },
-    { "file": "whoosh_1.mp3", "at": 5.2, "vol": 0.24 },
-    { "file": "riser.mp3", "at": 5.6, "vol": 0.18, "dur": 2.0 },
-    { "file": "paper_rustle.mp3", "at": 6.2, "vol": 0.14, "dur": 2.5 },
-    { "file": "whoosh_2.mp3", "at": 8.8, "vol": 0.24 },
-    { "file": "text_pop.mp3", "at": 9.5, "vol": 0.22 },
-    { "file": "riser.mp3", "at": 12.0, "vol": 0.20, "dur": 2.2 },
-    { "file": "impact_hit.mp3", "at": 14.2, "vol": 0.30, "dur": 1.2 },
-    { "file": "whoosh_1.mp3", "at": 14.8, "vol": 0.24 },
-    { "file": "text_pop.mp3", "at": 15.5, "vol": 0.22 },
-    { "file": "whoosh_2.mp3", "at": 19.2, "vol": 0.24 },
-    { "file": "riser.mp3", "at": 20.0, "vol": 0.20, "dur": 2.5 },
-    { "file": "impact_hit.mp3", "at": 22.5, "vol": 0.26, "dur": 1.0 },
-    { "file": "whoosh_1.mp3", "at": 26.8, "vol": 0.24 },
-    { "file": "text_pop.mp3", "at": 27.5, "vol": 0.22 },
-    { "file": "whoosh_2.mp3", "at": 31.2, "vol": 0.24 },
-    { "file": "text_pop.mp3", "at": 32.0, "vol": 0.22 },
-    { "file": "impact_hit.mp3", "at": 34.6, "vol": 0.34, "dur": 0.9 }
+    {
+      "file": "impact_hit.mp3",
+      "at": 0.0,
+      "vol": 0.34,
+      "dur": 1.4
+    },
+    {
+      "file": "whoosh_2.mp3",
+      "at": 1.12,
+      "vol": 0.26
+    },
+    {
+      "file": "text_pop.mp3",
+      "at": 1.95,
+      "vol": 0.22
+    },
+    {
+      "file": "whoosh_1.mp3",
+      "at": 2.9,
+      "vol": 0.18
+    },
+    {
+      "file": "riser.mp3",
+      "at": 3.2,
+      "vol": 0.16,
+      "dur": 2.2
+    },
+    {
+      "file": "whoosh_1.mp3",
+      "at": 5.45,
+      "vol": 0.22
+    },
+    {
+      "file": "paper_rustle.mp3",
+      "at": 5.6,
+      "vol": 0.14,
+      "dur": 1.6
+    },
+    {
+      "file": "text_pop.mp3",
+      "at": 6.08,
+      "vol": 0.2
+    },
+    {
+      "file": "text_pop.mp3",
+      "at": 7.8,
+      "vol": 0.16
+    },
+    {
+      "file": "impact_hit.mp3",
+      "at": 8.12,
+      "vol": 0.22,
+      "dur": 0.8
+    },
+    {
+      "file": "whoosh_2.mp3",
+      "at": 9.42,
+      "vol": 0.22
+    },
+    {
+      "file": "text_pop.mp3",
+      "at": 9.8,
+      "vol": 0.18
+    },
+    {
+      "file": "typewriter_tick.mp3",
+      "at": 10.4,
+      "vol": 0.2,
+      "dur": 1.2
+    },
+    {
+      "file": "text_pop.mp3",
+      "at": 11.5,
+      "vol": 0.14
+    },
+    {
+      "file": "whoosh_1.mp3",
+      "at": 12.62,
+      "vol": 0.22
+    },
+    {
+      "file": "typewriter_tick.mp3",
+      "at": 13.0,
+      "vol": 0.22,
+      "dur": 1.8
+    },
+    {
+      "file": "riser.mp3",
+      "at": 13.2,
+      "vol": 0.22,
+      "dur": 1.7
+    },
+    {
+      "file": "text_pop.mp3",
+      "at": 13.5,
+      "vol": 0.22
+    },
+    {
+      "file": "impact_hit.mp3",
+      "at": 14.88,
+      "vol": 0.36,
+      "dur": 1.2
+    },
+    {
+      "file": "text_pop.mp3",
+      "at": 16.86,
+      "vol": 0.2
+    },
+    {
+      "file": "text_pop.mp3",
+      "at": 17.32,
+      "vol": 0.2
+    },
+    {
+      "file": "whoosh_1.mp3",
+      "at": 18.15,
+      "vol": 0.16
+    },
+    {
+      "file": "whoosh_2.mp3",
+      "at": 18.98,
+      "vol": 0.2
+    },
+    {
+      "file": "text_pop.mp3",
+      "at": 19.8,
+      "vol": 0.2
+    },
+    {
+      "file": "impact_hit.mp3",
+      "at": 19.86,
+      "vol": 0.24,
+      "dur": 0.8
+    },
+    {
+      "file": "whoosh_1.mp3",
+      "at": 20.6,
+      "vol": 0.2
+    },
+    {
+      "file": "paper_rustle.mp3",
+      "at": 20.72,
+      "vol": 0.16,
+      "dur": 1.2
+    },
+    {
+      "file": "typewriter_tick.mp3",
+      "at": 21.2,
+      "vol": 0.18,
+      "dur": 0.3
+    },
+    {
+      "file": "typewriter_tick.mp3",
+      "at": 21.5,
+      "vol": 0.18,
+      "dur": 0.3
+    },
+    {
+      "file": "typewriter_tick.mp3",
+      "at": 21.8,
+      "vol": 0.18,
+      "dur": 0.3
+    },
+    {
+      "file": "text_pop.mp3",
+      "at": 22.3,
+      "vol": 0.16
+    },
+    {
+      "file": "whoosh_2.mp3",
+      "at": 23.6,
+      "vol": 0.2
+    },
+    {
+      "file": "riser.mp3",
+      "at": 23.8,
+      "vol": 0.2,
+      "dur": 1.5
+    },
+    {
+      "file": "impact_hit.mp3",
+      "at": 25.12,
+      "vol": 0.32,
+      "dur": 1.2
+    },
+    {
+      "file": "whoosh_1.mp3",
+      "at": 27.85,
+      "vol": 0.2
+    },
+    {
+      "file": "text_pop.mp3",
+      "at": 29.6,
+      "vol": 0.22
+    },
+    {
+      "file": "text_pop.mp3",
+      "at": 31.15,
+      "vol": 0.16
+    },
+    {
+      "file": "whoosh_2.mp3",
+      "at": 32.66,
+      "vol": 0.2
+    },
+    {
+      "file": "text_pop.mp3",
+      "at": 33.5,
+      "vol": 0.2
+    },
+    {
+      "file": "whoosh_1.mp3",
+      "at": 34.85,
+      "vol": 0.2
+    },
+    {
+      "file": "impact_hit.mp3",
+      "at": 35.18,
+      "vol": 0.2,
+      "dur": 0.46
+    }
   ]
 }

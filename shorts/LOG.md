@@ -106,3 +106,9 @@ Unpacked 6 Grok VOs into shorts/incoming-vo/. #01 matches finished Skylab Short;
 - Soft facts: fingernail/~1–2 cm; *C. barnesi* namesake vs multi-species syndrome; ~20–60 min onset; doom symptom; most survive with hospital; deaths rare/recorded (often ~2002) — do not overstate; don’t conflate with *Chironex*
 - Hook: IRUKANDJI (alt SMALLER THAN A NAIL); loop complete echo of fingernail open
 - Note: s06 reserved Somerton Man; s13 Wrong Border; s14 German Place Names; this is s15
+
+## 2026-09-28 — s15 Irukandji (premium build, Checkpoint C)
+- `render/scenes.js`: 12 beats on photo underlays / locked-style map, with its own compositor (crossfade · whip · flash). Loop returns to the frame-1 `IRUKANDJI` macro.
+- Locked map built from the MODIS pixels themselves (`render/build-map-layers.py` → `images/s15_12…15`): parchment land, white glow, shadow, coastal waters band, 3D labels.
+- `transcript.json` (faster-whisper small.en, corrected to the script); 41 SFX cues; fixed mixer ported to shared (measure → static gain + apad → float amix → two-pass master loudnorm).
+- Final: `deliverables/s15-irukandji.mp4` (1080×1920@30, 35.6 s, −14.4 LUFS / −1.6 dBTP); Whisper on the final recovers all 96 VO words.

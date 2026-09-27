@@ -98,3 +98,24 @@ All files under `images/`. Prefer Wikimedia Commons / NASA PD / Creative Commons
 ## Attribution reminder
 
 When publishing, credit CC BY / BY-SA works (authors + licence + link). PD/CC0 need no legal credit but titles help the research trail.
+
+---
+
+## Derived map layers (built for the locked map style, 2026-09-28)
+
+Made by `render/build-map-layers.py` from `s15_04` (NASA MODIS, public domain). The land mask is classified from that image's own pixels, so the coastline is the real Cape York / north Queensland coast. No outside map data or AI.
+
+### s15_12_map_basemap.jpg
+- Crop (x 600–3400, full height) of `s15_04`, with a light colour and contrast grade. **Public domain (NASA)**. It's the photographic basemap for the map beat: Cape York, the Gulf coast, the Coral Sea and the outer Great Barrier Reef.
+
+### s15_13_map_parchment.png
+- Weathered parchment fill (procedural noise and fibres, with the edges darkened toward the coast), alpha-masked to land at about 50–70% so the terrain shows through. Derived from `s15_04`, public domain.
+
+### s15_14_map_glow.png
+- Soft offset drop shadow plus the thick white outer glow on the coastline. Derived from `s15_04`, public domain.
+
+### s15_15_map_waters.png
+- A cyan hatched band along the tropical-north coastal waters, animated as the Irukandji "waters of northern Australia". Derived from `s15_04`, public domain.
+
+## Font
+- **Oswald** (variable), used for the hook and labels, at `render/Oswald-VF.ttf`. SIL Open Font License 1.1 (`render/OFL-Oswald.txt`).
