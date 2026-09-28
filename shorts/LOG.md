@@ -109,3 +109,15 @@ Unpacked 6 Grok VOs into shorts/incoming-vo/. #01 matches finished Skylab Short;
 
 ## s16-nullarbor-845
 - 2026-09-28T02:37:31+10:00 — staged on main with held Atlas VO 37.080s; issue opened for Claude premium build.
+
+## 2026-09-28T13:05:53+10:00 — s17 New Australia Paraguay (scaffold)
+- Episode: `shorts/s17-new-australia-paraguay/`
+- Held Atlas en-AU VO `audio/vo.mp3` (**44.856 s**) from `/workspace/deliverables/s17-new-australia-paraguay/vo-raw/vo-atlas.mp3` — not re-recorded
+- Scaffold only (Checkpoint C): script, vo_script, plan with ANIMATE beat table, SOURCES, fact-check, The Journey bed (Ahjay Stelino / Mixkit), Mixkit SFX (+ paper_rustle), render README
+- **No `scenes.js`** — Claude owns design / animation / mix
+- Stills: 15 Commons/NASA free-licence (shearers 1891, Lane Worker 1893, Sydney Cove c.1890, Royal Tar, QLD MODIS + world topo ref, Paraguay sat 2003, Nueva Londres, Atlantic Forest ref, Mary Gilmore 1891 + Dame, AU–PY locator ref, New Australia colony); no AI stills
+- **Maps rule locked:** parchment overlays on real satellite/topo; thick white outer glow; bold 3D labels — Australia (Sydney) ↔ Paraguay / New Australia / Cosme **only**
+- Soft facts: over 200 / ~220 Royal Tar; Triple Alliance devastation without invented %; Lane rules without sole-cause overclaim; split → Cosme within a year; about 2,000 descendants; Gilmore on polymer $10 — paper $10 not used
+- Hook: NEW AUSTRALIA (alts $10 NOTE · PARAGUAY · ROYAL TAR); loop intentionally incomplete on `Because`
+- Note: s06 reserved Somerton Man; s16 Nullarbor; this is s17
+- Asset gaps for Claude: polymer $10 Gilmore still; optional Cosme historical / higher-res Vandyck Lane
