@@ -1,0 +1,490 @@
+{
+ "duration": 45.336,
+ "words": [
+  {
+   "word": "One",
+   "start": 0.0,
+   "end": 0.32
+  },
+  {
+   "word": "Australian",
+   "start": 0.32,
+   "end": 0.82
+  },
+  {
+   "word": "city",
+   "start": 0.82,
+   "end": 1.2
+  },
+  {
+   "word": "is",
+   "start": 1.2,
+   "end": 1.5
+  },
+  {
+   "word": "closer",
+   "start": 1.5,
+   "end": 1.8
+  },
+  {
+   "word": "to",
+   "start": 1.8,
+   "end": 2.06
+  },
+  {
+   "word": "several",
+   "start": 2.06,
+   "end": 2.44
+  },
+  {
+   "word": "foreign",
+   "start": 2.44,
+   "end": 2.84
+  },
+  {
+   "word": "capitals",
+   "start": 2.84,
+   "end": 3.32
+  },
+  {
+   "word": "than",
+   "start": 3.32,
+   "end": 3.6
+  },
+  {
+   "word": "to",
+   "start": 3.6,
+   "end": 3.8
+  },
+  {
+   "word": "its",
+   "start": 3.8,
+   "end": 3.9
+  },
+  {
+   "word": "own.",
+   "start": 3.9,
+   "end": 4.18
+  },
+  {
+   "word": "And",
+   "start": 4.68,
+   "end": 4.86
+  },
+  {
+   "word": "that",
+   "start": 4.86,
+   "end": 5.08
+  },
+  {
+   "word": "geography",
+   "start": 5.08,
+   "end": 5.64
+  },
+  {
+   "word": "nearly",
+   "start": 5.64,
+   "end": 6.14
+  },
+  {
+   "word": "cost",
+   "start": 6.14,
+   "end": 6.56
+  },
+  {
+   "word": "it",
+   "start": 6.56,
+   "end": 6.76
+  },
+  {
+   "word": "everything.",
+   "start": 6.76,
+   "end": 7.32
+  },
+  {
+   "word": "Darwin.",
+   "start": 8.0,
+   "end": 8.44
+  },
+  {
+   "word": "Top",
+   "start": 8.76,
+   "end": 9.02
+  },
+  {
+   "word": "of",
+   "start": 9.02,
+   "end": 9.2
+  },
+  {
+   "word": "Australia.",
+   "start": 9.2,
+   "end": 9.76
+  },
+  {
+   "word": "Canberra",
+   "start": 10.2,
+   "end": 10.64
+  },
+  {
+   "word": "is",
+   "start": 10.64,
+   "end": 10.98
+  },
+  {
+   "word": "over",
+   "start": 10.98,
+   "end": 11.22
+  },
+  {
+   "word": "3,100",
+   "start": 11.22,
+   "end": 12.52
+  },
+  {
+   "word": "kilometres",
+   "start": 12.52,
+   "end": 12.94
+  },
+  {
+   "word": "away.",
+   "start": 12.94,
+   "end": 13.42
+  },
+  {
+   "word": "Dili,",
+   "start": 14.08,
+   "end": 14.24
+  },
+  {
+   "word": "Timor-Leste?",
+   "start": 14.46,
+   "end": 15.08
+  },
+  {
+   "word": "About",
+   "start": 15.68,
+   "end": 15.86
+  },
+  {
+   "word": "700",
+   "start": 15.86,
+   "end": 16.52
+  },
+  {
+   "word": "kilometres.",
+   "start": 16.52,
+   "end": 16.96
+  },
+  {
+   "word": "Port",
+   "start": 17.56,
+   "end": 17.82
+  },
+  {
+   "word": "Moresby?",
+   "start": 17.82,
+   "end": 18.38
+  },
+  {
+   "word": "About",
+   "start": 18.72,
+   "end": 18.98
+  },
+  {
+   "word": "1,800.",
+   "start": 18.98,
+   "end": 19.98
+  },
+  {
+   "word": "Even",
+   "start": 20.76,
+   "end": 21.0
+  },
+  {
+   "word": "Jakarta",
+   "start": 21.0,
+   "end": 21.38
+  },
+  {
+   "word": "is",
+   "start": 21.38,
+   "end": 21.74
+  },
+  {
+   "word": "closer",
+   "start": 21.74,
+   "end": 21.98
+  },
+  {
+   "word": "than",
+   "start": 21.98,
+   "end": 22.28
+  },
+  {
+   "word": "Canberra.",
+   "start": 22.28,
+   "end": 22.7
+  },
+  {
+   "word": "In",
+   "start": 23.1,
+   "end": 23.42
+  },
+  {
+   "word": "1942,",
+   "start": 23.42,
+   "end": 24.3
+  },
+  {
+   "word": "that",
+   "start": 24.82,
+   "end": 24.9
+  },
+  {
+   "word": "closeness",
+   "start": 24.9,
+   "end": 25.44
+  },
+  {
+   "word": "becomes",
+   "start": 25.44,
+   "end": 25.78
+  },
+  {
+   "word": "a",
+   "start": 25.78,
+   "end": 26.0
+  },
+  {
+   "word": "danger.",
+   "start": 26.0,
+   "end": 26.36
+  },
+  {
+   "word": "19",
+   "start": 27.06,
+   "end": 27.36
+  },
+  {
+   "word": "February.",
+   "start": 27.36,
+   "end": 27.92
+  },
+  {
+   "word": "188",
+   "start": 28.52,
+   "end": 29.2
+  },
+  {
+   "word": "Japanese",
+   "start": 29.2,
+   "end": 29.96
+  },
+  {
+   "word": "aircraft",
+   "start": 29.96,
+   "end": 30.48
+  },
+  {
+   "word": "attack",
+   "start": 30.48,
+   "end": 30.88
+  },
+  {
+   "word": "Darwin.",
+   "start": 30.88,
+   "end": 31.38
+  },
+  {
+   "word": "Led",
+   "start": 31.78,
+   "end": 32.02
+  },
+  {
+   "word": "by",
+   "start": 32.02,
+   "end": 32.24
+  },
+  {
+   "word": "the",
+   "start": 32.24,
+   "end": 32.42
+  },
+  {
+   "word": "same",
+   "start": 32.42,
+   "end": 32.68
+  },
+  {
+   "word": "commander",
+   "start": 32.68,
+   "end": 33.08
+  },
+  {
+   "word": "who",
+   "start": 33.08,
+   "end": 33.36
+  },
+  {
+   "word": "led",
+   "start": 33.36,
+   "end": 33.58
+  },
+  {
+   "word": "the",
+   "start": 33.58,
+   "end": 33.76
+  },
+  {
+   "word": "Pearl",
+   "start": 33.76,
+   "end": 34.02
+  },
+  {
+   "word": "Harbor",
+   "start": 34.02,
+   "end": 34.34
+  },
+  {
+   "word": "attack",
+   "start": 34.34,
+   "end": 34.72
+  },
+  {
+   "word": "ten",
+   "start": 34.72,
+   "end": 35.08
+  },
+  {
+   "word": "weeks",
+   "start": 35.08,
+   "end": 35.34
+  },
+  {
+   "word": "earlier.",
+   "start": 35.34,
+   "end": 35.88
+  },
+  {
+   "word": "By",
+   "start": 36.42,
+   "end": 36.58
+  },
+  {
+   "word": "many",
+   "start": 36.58,
+   "end": 36.88
+  },
+  {
+   "word": "accounts,",
+   "start": 36.88,
+   "end": 37.4
+  },
+  {
+   "word": "more",
+   "start": 37.52,
+   "end": 37.84
+  },
+  {
+   "word": "bombs",
+   "start": 37.84,
+   "end": 38.22
+  },
+  {
+   "word": "fell",
+   "start": 38.22,
+   "end": 38.46
+  },
+  {
+   "word": "on",
+   "start": 38.46,
+   "end": 38.7
+  },
+  {
+   "word": "Darwin",
+   "start": 38.7,
+   "end": 39.04
+  },
+  {
+   "word": "than",
+   "start": 39.04,
+   "end": 39.28
+  },
+  {
+   "word": "on",
+   "start": 39.28,
+   "end": 39.48
+  },
+  {
+   "word": "Pearl",
+   "start": 39.48,
+   "end": 39.74
+  },
+  {
+   "word": "Harbor.",
+   "start": 39.74,
+   "end": 40.12
+  },
+  {
+   "word": "It\u2019s",
+   "start": 40.58,
+   "end": 40.86
+  },
+  {
+   "word": "still",
+   "start": 40.86,
+   "end": 41.06
+  },
+  {
+   "word": "the",
+   "start": 41.06,
+   "end": 41.26
+  },
+  {
+   "word": "largest",
+   "start": 41.26,
+   "end": 41.66
+  },
+  {
+   "word": "foreign",
+   "start": 41.66,
+   "end": 42.06
+  },
+  {
+   "word": "attack",
+   "start": 42.06,
+   "end": 42.48
+  },
+  {
+   "word": "ever",
+   "start": 42.48,
+   "end": 42.88
+  },
+  {
+   "word": "made",
+   "start": 42.88,
+   "end": 43.16
+  },
+  {
+   "word": "on",
+   "start": 43.16,
+   "end": 43.34
+  },
+  {
+   "word": "Australia.",
+   "start": 43.34,
+   "end": 43.86
+  },
+  {
+   "word": "Because",
+   "start": 44.38,
+   "end": 44.62
+  },
+  {
+   "word": "remember:",
+   "start": 44.62,
+   "end": 44.96
+  }
+ ]
+}

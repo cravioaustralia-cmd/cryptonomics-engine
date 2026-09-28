@@ -134,3 +134,15 @@ Unpacked 6 Grok VOs into shorts/incoming-vo/. #01 matches finished Skylab Short;
 - Note: s06 reserved Somerton Man; s17 New Australia Paraguay; this is s18
 - Asset gaps for Claude: optional Fuchida portrait; higher-res Darwin 1942 harbour-fire stills if free-licence
 
+
+## 2026-09-29T04:53+10:00 — s19 Emu War (scaffold)
+- Episode: `shorts/s19-emu-war/`
+- Atlas VO **pending** — scaffold only (Checkpoint C): script, vo_script (~104 spoken words), plan with ANIMATE beat table (standard Skylab, **not** map-explainer), SOURCES, fact-check (all PASS / PASS-SOFT; no FAIL), Curiosity bed (Diego Nava / Mixkit; ~4 dB quieter than s18 bed instruction), Mixkit SFX (+ paper_rustle), render README
+- **No `scenes.js`** — Claude owns design / animation / mix
+- Stills: 12 Commons free-licence (5× 1932 Emu War PD period stills; Merredin wheatbelt + aerial; WA running/flock/portrait emus; arid NSW flock scatter ref); no AI stills; no carcass hero frames
+- Soft facts: about 20,000; >40 km/h (~48 sprint); weeks Nov–Dec 1932; thousands of bullets; soldiers pulled out; Meredith quote “reportedly”
+- Hook: THE EMU WAR (alts THEY LOST TO BIRDS · 1932 · MACHINE GUNS VS EMUS); loop echoes open
+- Note: s06 reserved Somerton Man; s18 Darwin Closer; this is s19
+- Asset gaps for Claude: optional Trove 1932 newspaper prop; Sir George Pearce PD portrait; higher-res Lewis detail if needed
+
+- 2026-09-29: Atlas VO locked at audio/vo.mp3 (40.920 s). Ready for Claude premium build.
