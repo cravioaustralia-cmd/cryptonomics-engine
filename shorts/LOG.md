@@ -146,3 +146,5 @@ Unpacked 6 Grok VOs into shorts/incoming-vo/. #01 matches finished Skylab Short;
 - Asset gaps for Claude: optional Trove 1932 newspaper prop; Sir George Pearce PD portrait; higher-res Lewis detail if needed
 
 - 2026-09-29: Atlas VO locked at audio/vo.mp3 (40.920 s). Ready for Claude premium build.
+
+- 2026-09-29: Scaffold s20-sar-region (MAP EXPLAINER) + Atlas VO 40.536s locked. Ready for Claude.
