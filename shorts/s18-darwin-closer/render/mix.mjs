@@ -17,7 +17,7 @@ fs.mkdirSync(OUT, { recursive: true });
 const DUR = 45.336;
 const VO_GAIN_DB = 5.0; // VO measures −22.6 LUFS → ~−17.6 in the premix
 const MUSIC_OFFSET = 45;
-const MUSIC_DB = -15;
+const MUSIC_DB = -19;
 
 const words = JSON.parse(fs.readFileSync(path.join(EP, 'transcript.json'), 'utf8')).words;
 // VO gaps ≥ 0.45 s get a gentle music lift
