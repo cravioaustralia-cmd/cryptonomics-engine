@@ -81,3 +81,28 @@ Incomplete on purpose; cycles to the open. Not a factual claim by itself.
 ## Overall verdict
 
 **All script claims PASS** with soft wording on distances (about/over), 188 aircraft, Fuchida dual command as commonly recounted, and **“by many accounts” more bombs** (SOFT — keep caveat; do not hard-claim tonnage). **No FAIL items** blocking staging. **VERIFY** before hard on-screen exact km without soft wording. Geography must stay Darwin Top End corridor ↔ Timor-Leste / PNG / Indonesia / Canberra; Pearl Harbor only as labelled compare.
+
+---
+
+## On-screen text audit (render, 28 Sep 2026)
+
+All extra graphics text is places / distances / dates / names / key-fact labels. There are no VO-echo titles; captions carry the speech.
+
+| On screen | When | Basis / soft wording kept |
+|---|---|---|
+| `CLOSER THAN CANBERRA` | frame 1 + loop re-entry | Unspoken hook (plan) |
+| `DARWIN`, `CANBERRA`/`ACT`, `DILI`/`TIMOR-LESTE`, `PORT MORESBY`/`PAPUA NEW GUINEA`, `JAKARTA`/`INDONESIA`, `PEARL HARBOR` | on their VO words | Pins at real coordinates (Natural Earth outlines; MODIS georeferenced) |
+| `OVER 3,100 KM` | Canberra leg | ≈3,127 km — "over" kept |
+| `~700 KM` | Dili leg | ≈720 km — "about" (~) kept |
+| `~1,800 KM` | Port Moresby leg | ≈1,817 km — ~ kept |
+| `~2,700 KM` + ladder `~700 / ~1,800 / ~2,700 / 3,100+` | Jakarta compare | ≈2,729 km — labelled "about" per checklist item 5 |
+| Ticking counters (e.g. `1,240 KM`) | while each route draws | Transitional count-up to the soft final value only |
+| `1942`, `19 FEB 1942` | raid beat | PASS |
+| `188` (aircraft icon) | on "188" | First/carrier wave as commonly recounted — no total claimed |
+| `SAME COMMANDER` | twist | Fuchida is **not** named on screen (soft) |
+| `10 WEEKS` | on "ten weeks" | 7 Dec 1941 → 19 Feb 1942 ≈ 10 wk 5 d — soft |
+| `BOMBS DROPPED*` + `*by many accounts`, columns with no numbers | bomb compare | Caveat kept on screen; bomb **count** only, no tonnage, no figures |
+| `No.1 · FOREIGN ATTACK · 1942` badge | finale | Mirrors VO "largest foreign attack"; no "only invasion" overclaim |
+| Photo cards `DARWIN HARBOUR · 1942` (USS *William B. Preston*, NHHC PD), `PEARL HARBOR` (USS *Arizona*, NARA PD) | ≈1.4 s each | Credibility inserts; Pearl Harbor is a labelled compare only |
+
+Raid approach arcs are **stylised** (from the Timor Sea side, north-west of Darwin, where the carrier force launched), and no exact flight track is claimed or labelled.

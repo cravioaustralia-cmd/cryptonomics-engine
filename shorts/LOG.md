@@ -134,3 +134,10 @@ Unpacked 6 Grok VOs into shorts/incoming-vo/. #01 matches finished Skylab Short;
 - Note: s06 reserved Somerton Man; s17 New Australia Paraguay; this is s18
 - Asset gaps for Claude: optional Fuchida portrait; higher-res Darwin 1942 harbour-fire stills if free-licence
 
+
+## 2026-09-28 — s18 Darwin Closer (Claude build, MAP EXPLAINER)
+- Issue #36. Kinetic-cartography build: `render/scenes.js` + `frame.html` + `capture.mjs` + `mix.mjs` (SVG + renderFrame + Playwright + ffmpeg; no Remotion)
+- 3D-tilted map plane; NASA topo + MODIS Timor Sea / Van Diemen Gulf auto-georeferenced against Natural Earth (IoU 0.88 / 0.96); parchment + thick white glow borders; 3D extruded labels
+- Self-drawing routes with ticking km callouts (OVER 3,100 / ~700 / ~1,800 / ~2,700) + distance ladder, which beats the Rankora ref (it had no numbers); camera never static (monotone-cubic track)
+- Raid: 19 FEB 1942 / 188 chip, stylised NW approach formations, ~1.4 s Preston PD insert; SAME COMMANDER arc to labelled Pearl Harbor (+ Arizona PD insert); bomb-count columns with "*by many accounts"; No.1 finale; loop whips back to the frame-1 hook
+- Held Atlas VO 45.336 s untouched; Whisper timings; mix: static VO gain + apad → float amix → master limiter → two-pass loudnorm (−14.0 LUFS, −1.8 dBTP)
