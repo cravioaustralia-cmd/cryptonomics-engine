@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+  <meta charset="utf-8"/>
+  <title>s18 Darwin Closer frame</title>
+  <style>
+    @font-face { font-family: 'Mont'; src: url('assets/fonts/Montserrat.ttf') format('truetype'); font-weight: 100 900; }
+    html, body { margin: 0; padding: 0; width: 1080px; height: 1920px; overflow: hidden; background: #050a12; }
+    #stage { position: absolute; left: 0; top: 0; width: 1080px; height: 1920px; overflow: hidden; background: #04101d; }
+    #mapwrap { position: absolute; left: 0; top: 0; width: 1080px; height: 1920px; overflow: hidden; z-index: 0; isolation: isolate; }
+    #plane { position: absolute; transform-origin: 50% 50%; will-change: transform; }
+    .layer { position: absolute; left: 0; top: 0; width: 1080px; height: 1920px; z-index: 2; }
+    svg text { font-family: 'Mont', 'Liberation Sans', sans-serif; }
+  </style>
+</head>
+<body>
+  <div id="stage">
+    <div id="mapwrap"><div id="plane"></div></div>
+    <svg id="fx" class="layer" xmlns="http://www.w3.org/2000/svg" width="1080" height="1920" viewBox="0 0 1080 1920"></svg>
+    <svg id="photos" class="layer" xmlns="http://www.w3.org/2000/svg" width="1080" height="1920" viewBox="0 0 1080 1920"></svg>
+    <svg id="ui" class="layer" xmlns="http://www.w3.org/2000/svg" width="1080" height="1920" viewBox="0 0 1080 1920"></svg>
+  </div>
+  <div id="root" style="display:none"></div>
+  <script src="../../shared/render/engine.js"></script>
+  <script src="geo.js"></script>
+  <script src="scenes.js"></script>
+  <script>
+    (async function () {
+      const r = await fetch('../transcript.json');
+      const data = await r.json();
+      window.EPISODE.words = data.words || [];
+      await window.S18.init();
+      await document.fonts.load('900 40px Mont');
+      await document.fonts.ready;
+      window.renderFrame(0);
+      window.__ready = true;
+    })();
+  </script>
+</body>
+</html>

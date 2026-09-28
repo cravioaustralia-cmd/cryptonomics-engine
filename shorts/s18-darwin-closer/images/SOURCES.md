@@ -134,3 +134,18 @@ All files under `images/`. Wikimedia Commons / NASA PD / Creative Commons. No AI
 - **URL:** https://commons.wikimedia.org/wiki/File:ISS043-E-141222_-_View_of_the_Van_Diemen_Gulf_in_Northern_Territory,_Australia.jpg
 - **Why it fits:** ISS view Van Diemen Gulf / NT — additional Top End satellite basemap.
 
+
+---
+
+## Derived map assets (render/assets, render/geo.js) — built by `render/tools/prep_assets.py`
+
+| Asset | Derived from | Licence | Notes |
+|---|---|---|---|
+| `render/assets/topo.jpg` | `s18_01_world_topo_basemap_ref.jpg` (NASA Blue Marble topo-bathy) | Public domain (NASA) | Cropped 90°E–120°W / 75°N–60°S, graded, 2× Lanczos; far south faded to ocean colour |
+| `render/assets/timor.webp` | `s18_02_timor_sea_modis.jpg` (MODIS) | Public domain (NASA) | Georeferenced 116.64–133.53°E / 3.87–16.70°S (land-mask IoU 0.88 vs Natural Earth), feathered |
+| `render/assets/vdg.webp` | `s18_03_van_diemen_gulf_modis.jpg` (MODIS) | Public domain (NASA) | Georeferenced 129.44–133.93°E / 10.22–13.68°S (IoU 0.96), feathered |
+| `render/assets/parchment.jpg` | Procedural (numpy noise) | Original | Parchment grain for highlighted land |
+| `render/geo.js` | Natural Earth 10m admin-0 countries + 50m admin-1 states (https://github.com/nvkelso/natural-earth-vector) | Public domain (Natural Earth) | Simplified outlines: Australia, NT, ACT, Timor-Leste, PNG, Java, Hawaiian Is.; capital coordinates |
+| `render/assets/fonts/Montserrat.ttf` | Google Fonts / Montserrat (https://github.com/google/fonts/tree/main/ofl/montserrat) | SIL Open Font Licence 1.1 (`OFL.txt` alongside) | Labels + captions |
+
+Photo inserts actually used on screen (≈1.4 s each): `s18_11_darwin_raid_preston.jpg` (Darwin raid beat) and `s18_14_pearl_arizona.jpg` (labelled PEARL HARBOR compare). All other stills remain unused references.
