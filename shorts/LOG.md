@@ -121,3 +121,16 @@ Unpacked 6 Grok VOs into shorts/incoming-vo/. #01 matches finished Skylab Short;
 - Hook: NEW AUSTRALIA (alts $10 NOTE · PARAGUAY · ROYAL TAR); loop intentionally incomplete on `Because`
 - Note: s06 reserved Somerton Man; s16 Nullarbor; this is s17
 - Asset gaps for Claude: polymer $10 Gilmore still; optional Cosme historical / higher-res Vandyck Lane
+
+## 2026-09-28T14:58+10:00 — s18 Darwin Closer (scaffold)
+- Episode: `shorts/s18-darwin-closer/`
+- Held Atlas en-AU VO `audio/vo.mp3` (**45.336 s**) from `/workspace/deliverables/s18-darwin-closer/vo-raw/vo-atlas.mp3` — not re-recorded
+- Scaffold only (Checkpoint C): script, vo_script, plan with ANIMATE-heavy **MAP EXPLAINER** beat table, MAP_EXPLAINER_MODE.md, SOURCES, fact-check, Silent Descent bed (Eugenio Mininni / Mixkit), Mixkit SFX (+ paper_rustle), render README
+- **No `scenes.js`** — Claude owns design / animation / mix
+- Stills: 17 Commons/NASA free-licence (Timor Sea + Van Diemen MODIS, Darwin waterfront/aerial, NT locator refs, Canberra, Dili, Port Moresby, Jakarta Monas, Darwin raid PD stills, Pearl Harbor Arizona compare, ISS Van Diemen); no AI stills
+- **MAP EXPLAINER MODE locked:** kinetic cartography primary; continuous self-drawing routes + always-moving camera; numeric km callouts (beat Rankora ref); photos brief inserts only; parchment overlays on real satellite/topo; thick white outer glow; bold 3D labels — Darwin · Canberra · Dili · Port Moresby · Jakarta only (Pearl Harbor labelled compare only)
+- Soft facts: Darwin↔Canberra ~3,127 / over 3,100; Dili ~720 / about 700; Port Moresby ~1,817 / about 1,800; Jakarta ~2,729 closer than Canberra; 19 Feb 1942; ~188 aircraft; Fuchida dual command soft; “by many accounts” more bombs; largest foreign air attack soft
+- Hook: CLOSER THAN CANBERRA (alts DARWIN 1942 · 3100 KM · SAME COMMANDER); loop intentionally incomplete on `Because remember:`
+- Note: s06 reserved Somerton Man; s17 New Australia Paraguay; this is s18
+- Asset gaps for Claude: optional Fuchida portrait; higher-res Darwin 1942 harbour-fire stills if free-licence
+
