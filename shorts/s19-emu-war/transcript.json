@@ -1,0 +1,525 @@
+{
+ "duration": 40.92,
+ "words": [
+  {
+   "word": "Australia",
+   "start": 0.0,
+   "end": 0.56
+  },
+  {
+   "word": "sent",
+   "start": 0.56,
+   "end": 0.96
+  },
+  {
+   "word": "soldiers",
+   "start": 0.96,
+   "end": 1.4
+  },
+  {
+   "word": "with",
+   "start": 1.4,
+   "end": 1.78
+  },
+  {
+   "word": "machine",
+   "start": 1.78,
+   "end": 2.16
+  },
+  {
+   "word": "guns",
+   "start": 2.16,
+   "end": 2.46
+  },
+  {
+   "word": "to",
+   "start": 2.46,
+   "end": 2.72
+  },
+  {
+   "word": "fight",
+   "start": 2.72,
+   "end": 2.96
+  },
+  {
+   "word": "birds\u2026",
+   "start": 2.96,
+   "end": 3.32
+  },
+  {
+   "word": "and",
+   "start": 3.32,
+   "end": 3.78
+  },
+  {
+   "word": "lost.",
+   "start": 3.78,
+   "end": 4.14
+  },
+  {
+   "word": "1932.",
+   "start": 4.66,
+   "end": 5.34
+  },
+  {
+   "word": "About",
+   "start": 6.48,
+   "end": 6.56
+  },
+  {
+   "word": "20,000",
+   "start": 6.56,
+   "end": 7.66
+  },
+  {
+   "word": "emus",
+   "start": 7.66,
+   "end": 8.06
+  },
+  {
+   "word": "are",
+   "start": 8.06,
+   "end": 8.32
+  },
+  {
+   "word": "wrecking",
+   "start": 8.32,
+   "end": 8.78
+  },
+  {
+   "word": "wheat",
+   "start": 8.78,
+   "end": 8.96
+  },
+  {
+   "word": "farms",
+   "start": 8.96,
+   "end": 9.28
+  },
+  {
+   "word": "in",
+   "start": 9.28,
+   "end": 9.58
+  },
+  {
+   "word": "Western",
+   "start": 9.58,
+   "end": 9.84
+  },
+  {
+   "word": "Australia.",
+   "start": 9.84,
+   "end": 10.48
+  },
+  {
+   "word": "So",
+   "start": 10.9,
+   "end": 11.1
+  },
+  {
+   "word": "the",
+   "start": 11.1,
+   "end": 11.26
+  },
+  {
+   "word": "army",
+   "start": 11.26,
+   "end": 11.58
+  },
+  {
+   "word": "sends",
+   "start": 11.58,
+   "end": 11.9
+  },
+  {
+   "word": "soldiers",
+   "start": 11.9,
+   "end": 12.3
+  },
+  {
+   "word": "with",
+   "start": 12.3,
+   "end": 12.7
+  },
+  {
+   "word": "machine",
+   "start": 12.7,
+   "end": 13.06
+  },
+  {
+   "word": "guns.",
+   "start": 13.06,
+   "end": 13.46
+  },
+  {
+   "word": "Problem",
+   "start": 14.12,
+   "end": 14.22
+  },
+  {
+   "word": "one:",
+   "start": 14.22,
+   "end": 14.6
+  },
+  {
+   "word": "the",
+   "start": 14.98,
+   "end": 15.08
+  },
+  {
+   "word": "emus",
+   "start": 15.08,
+   "end": 15.5
+  },
+  {
+   "word": "split",
+   "start": 15.5,
+   "end": 15.86
+  },
+  {
+   "word": "up",
+   "start": 15.86,
+   "end": 16.04
+  },
+  {
+   "word": "and",
+   "start": 16.04,
+   "end": 16.2
+  },
+  {
+   "word": "scatter.",
+   "start": 16.2,
+   "end": 16.5
+  },
+  {
+   "word": "Problem",
+   "start": 17.24,
+   "end": 17.34
+  },
+  {
+   "word": "two:",
+   "start": 17.34,
+   "end": 17.78
+  },
+  {
+   "word": "they",
+   "start": 18.14,
+   "end": 18.3
+  },
+  {
+   "word": "run",
+   "start": 18.3,
+   "end": 18.48
+  },
+  {
+   "word": "over",
+   "start": 18.48,
+   "end": 18.76
+  },
+  {
+   "word": "40",
+   "start": 18.76,
+   "end": 19.18
+  },
+  {
+   "word": "kilometres",
+   "start": 19.18,
+   "end": 19.56
+  },
+  {
+   "word": "an",
+   "start": 19.56,
+   "end": 19.9
+  },
+  {
+   "word": "hour.",
+   "start": 19.9,
+   "end": 20.16
+  },
+  {
+   "word": "Problem",
+   "start": 20.82,
+   "end": 21.02
+  },
+  {
+   "word": "three:",
+   "start": 21.02,
+   "end": 21.48
+  },
+  {
+   "word": "many",
+   "start": 21.94,
+   "end": 22.08
+  },
+  {
+   "word": "kept",
+   "start": 22.08,
+   "end": 22.36
+  },
+  {
+   "word": "running",
+   "start": 22.36,
+   "end": 22.74
+  },
+  {
+   "word": "even",
+   "start": 22.74,
+   "end": 23.06
+  },
+  {
+   "word": "after",
+   "start": 23.06,
+   "end": 23.36
+  },
+  {
+   "word": "being",
+   "start": 23.36,
+   "end": 23.58
+  },
+  {
+   "word": "hit.",
+   "start": 23.58,
+   "end": 23.9
+  },
+  {
+   "word": "After",
+   "start": 24.48,
+   "end": 24.7
+  },
+  {
+   "word": "weeks,",
+   "start": 24.7,
+   "end": 25.08
+  },
+  {
+   "word": "thousands",
+   "start": 25.56,
+   "end": 25.82
+  },
+  {
+   "word": "of",
+   "start": 25.82,
+   "end": 26.16
+  },
+  {
+   "word": "bullets,",
+   "start": 26.16,
+   "end": 26.48
+  },
+  {
+   "word": "and",
+   "start": 26.48,
+   "end": 26.84
+  },
+  {
+   "word": "newspapers",
+   "start": 26.84,
+   "end": 27.28
+  },
+  {
+   "word": "mocking",
+   "start": 27.28,
+   "end": 27.78
+  },
+  {
+   "word": "them\u2026",
+   "start": 27.78,
+   "end": 28.18
+  },
+  {
+   "word": "the",
+   "start": 28.42,
+   "end": 28.66
+  },
+  {
+   "word": "soldiers",
+   "start": 28.66,
+   "end": 29.0
+  },
+  {
+   "word": "were",
+   "start": 29.0,
+   "end": 29.3
+  },
+  {
+   "word": "pulled",
+   "start": 29.3,
+   "end": 29.54
+  },
+  {
+   "word": "out.",
+   "start": 29.54,
+   "end": 29.84
+  },
+  {
+   "word": "The",
+   "start": 30.1,
+   "end": 30.44
+  },
+  {
+   "word": "officer",
+   "start": 30.44,
+   "end": 30.8
+  },
+  {
+   "word": "in",
+   "start": 30.8,
+   "end": 31.08
+  },
+  {
+   "word": "charge",
+   "start": 31.08,
+   "end": 31.36
+  },
+  {
+   "word": "reportedly",
+   "start": 31.36,
+   "end": 31.88
+  },
+  {
+   "word": "said",
+   "start": 31.88,
+   "end": 32.32
+  },
+  {
+   "word": "that",
+   "start": 32.32,
+   "end": 32.52
+  },
+  {
+   "word": "with",
+   "start": 32.52,
+   "end": 32.68
+  },
+  {
+   "word": "an",
+   "start": 32.68,
+   "end": 32.84
+  },
+  {
+   "word": "army",
+   "start": 32.84,
+   "end": 33.16
+  },
+  {
+   "word": "of",
+   "start": 33.16,
+   "end": 33.38
+  },
+  {
+   "word": "birds",
+   "start": 33.38,
+   "end": 33.66
+  },
+  {
+   "word": "like",
+   "start": 33.66,
+   "end": 33.92
+  },
+  {
+   "word": "these,",
+   "start": 33.92,
+   "end": 34.3
+  },
+  {
+   "word": "he",
+   "start": 34.46,
+   "end": 34.82
+  },
+  {
+   "word": "could",
+   "start": 34.82,
+   "end": 34.98
+  },
+  {
+   "word": "take",
+   "start": 34.98,
+   "end": 35.2
+  },
+  {
+   "word": "on",
+   "start": 35.2,
+   "end": 35.4
+  },
+  {
+   "word": "any",
+   "start": 35.4,
+   "end": 35.78
+  },
+  {
+   "word": "army",
+   "start": 35.78,
+   "end": 36.12
+  },
+  {
+   "word": "in",
+   "start": 36.12,
+   "end": 36.3
+  },
+  {
+   "word": "the",
+   "start": 36.3,
+   "end": 36.42
+  },
+  {
+   "word": "world.",
+   "start": 36.42,
+   "end": 36.72
+  },
+  {
+   "word": "Which",
+   "start": 37.16,
+   "end": 37.38
+  },
+  {
+   "word": "is",
+   "start": 37.38,
+   "end": 37.52
+  },
+  {
+   "word": "how",
+   "start": 37.52,
+   "end": 37.72
+  },
+  {
+   "word": "Australia",
+   "start": 37.72,
+   "end": 38.2
+  },
+  {
+   "word": "sent",
+   "start": 38.2,
+   "end": 38.6
+  },
+  {
+   "word": "soldiers",
+   "start": 38.6,
+   "end": 39.0
+  },
+  {
+   "word": "to",
+   "start": 39.0,
+   "end": 39.3
+  },
+  {
+   "word": "fight",
+   "start": 39.3,
+   "end": 39.5
+  },
+  {
+   "word": "birds\u2026",
+   "start": 39.5,
+   "end": 39.94
+  },
+  {
+   "word": "and",
+   "start": 39.94,
+   "end": 40.36
+  },
+  {
+   "word": "lost.",
+   "start": 40.36,
+   "end": 40.66
+  }
+ ]
+}

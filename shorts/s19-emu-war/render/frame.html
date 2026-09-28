@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+  <meta charset="utf-8"/>
+  <title>s19 The Emu War frame</title>
+  <style>
+    @font-face { font-family: 'Mont'; src: url('assets/fonts/Montserrat.ttf') format('truetype'); font-weight: 100 900; }
+    html, body { margin: 0; padding: 0; width: 1080px; height: 1920px; overflow: hidden; background: #0b0a08; }
+    #stage { position: absolute; left: 0; top: 0; width: 1080px; height: 1920px; overflow: hidden; background: #0b0a08; }
+    .layer { position: absolute; left: 0; top: 0; width: 1080px; height: 1920px; }
+    svg text { font-family: 'Mont', 'Liberation Sans', sans-serif; }
+    .serif { font-family: 'Liberation Serif', 'DejaVu Serif', serif !important; }
+  </style>
+</head>
+<body>
+  <div id="stage">
+    <!-- persistent photo underlays / archival prints (never re-created, so they never flash) -->
+    <svg id="photos" class="layer" xmlns="http://www.w3.org/2000/svg" width="1080" height="1920" viewBox="0 0 1080 1920"></svg>
+    <!-- per-frame motion graphics + captions -->
+    <svg id="mg" class="layer" xmlns="http://www.w3.org/2000/svg" width="1080" height="1920" viewBox="0 0 1080 1920"></svg>
+  </div>
+  <div id="root" style="display:none"></div>
+  <script src="../../shared/render/engine.js"></script>
+  <script src="scenes.js"></script>
+  <script>
+    (async function () {
+      const r = await fetch('../transcript.json');
+      const data = await r.json();
+      window.EPISODE.words = data.words || [];
+      await window.S19.init();
+      await document.fonts.load('900 40px Mont');
+      await document.fonts.ready;
+      window.renderFrame(0);
+      window.__ready = true;
+    })();
+  </script>
+</body>
+</html>

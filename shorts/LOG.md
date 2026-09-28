@@ -146,3 +146,9 @@ Unpacked 6 Grok VOs into shorts/incoming-vo/. #01 matches finished Skylab Short;
 - Asset gaps for Claude: optional Trove 1932 newspaper prop; Sir George Pearce PD portrait; higher-res Lewis detail if needed
 
 - 2026-09-29: Atlas VO locked at audio/vo.mp3 (40.920 s). Ready for Claude premium build.
+
+## 2026-09-28 — s19 Emu War (Claude build, standard Skylab)
+- `render/scenes.js` + `frame.html` + `capture.mjs` + `mix.mjs` (SVG + renderFrame + Playwright + ffmpeg; no Remotion); **not** map-explainer
+- Photo underlay every beat (1932 PD prints framed over blurred fills; WA emu / wheatbelt stills) + MG: frame-1 `THE EMU WAR` hook on soldiers-vs-emu split, Lewis-gun blueprint registered on the 1932 print, `1932` stamp, `~20,000` counter + emu flock, WA chip + locator pin, McMurray/O’Halloran nameplate, self-drawing Lewis gun, `PROBLEM 1/2/3` odometer (scatter + reticle / speedo `>40 KM/H` / dust-puff run, no gore), NOV→DEC 1932 calendar, brass rain, stylised newsprint props, recall stamp, `MAJOR MEREDITH` plaque, emu division, loop whip to frame 1
+- Held Atlas VO 40.920 s untouched; Whisper timings → `transcript.json`; mix: static VO gain + apad → float amix (Curiosity bed −23 dB ≈ −36.2 LUFS, ~4 dB under s18's bed) → master limiter → two-pass loudnorm (−14.0 LUFS, −1.5 dBTP)
+- `final/s19-emu-war.mp4` (1080×1920, 30 fps, 40.9 s) + `final/contact-sheet.jpg`

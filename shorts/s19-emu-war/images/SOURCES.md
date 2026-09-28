@@ -91,3 +91,15 @@ All files under `images/`. Wikimedia Commons public-domain (AU Crown copyright e
 - **Licence:** CC BY-SA 3.0
 - **URL:** https://commons.wikimedia.org/wiki/File:Emu_mob_set_free.jpg
 - **Why it fits:** Australian emu flock scatter reference (Fowlers Gap NSW arid station — correct species/country). Prefer WA flock (`s19_09`) when both fit; keep for Problem 1 scatter density.
+
+---
+
+## Build notes (Claude, Checkpoint C render)
+
+- All 12 stills above are used; derived 9:16 crops / blurred fills / 2× prints live in `render/assets/` (made by `render/tools/prep_assets.py`, same licences as the sources). CC BY-SA crops are shared alike.
+- `s19_08` (Monkey Mia) is cropped tight to the emu, excluding beach visitors; used as WA speed colour only, not as the Campion battlefield.
+- `s19_09` is used as a wide pan plate (two WA emus drifting apart) for Problem 1.
+- The period prints are 1932 photographs; no likeness of Major Meredith is claimed (his beat uses a nameplate over the detachment photo).
+- **Newspaper props are stylised motion graphics**, not reproductions of any real masthead or article: generic “THE PRESS” masthead, headline “THE EMU WAR” / “EMU WAR” (the term used by the press at the time), factual sub-lines only (machine guns versus birds · Campion district, W.A. · guns withdrawn), placeholder body lines.
+- Lewis gun, emus, speedo, calendar, brass, WA locator glyph: vector MG drawn in `scenes.js` (WA outline hand-plotted from approximate coastline coordinates; Merredin pin at 118.28° E, 31.48° S).
+- Font: Montserrat (SIL OFL 1.1) — `render/assets/fonts/OFL.txt`.
