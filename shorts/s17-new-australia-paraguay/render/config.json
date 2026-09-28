@@ -1,0 +1,285 @@
+{
+ "duration": 44.856,
+ "fps": 30,
+ "sfxDir": "sfx",
+ "mix": {
+  "musicVol": 0.13,
+  "musicStart": 1.0,
+  "voLufs": -16,
+  "lufs": -14,
+  "fadeOut": 0.4
+ },
+ "sfxCues": [
+  {
+   "file": "impact_hit.mp3",
+   "at": 0.0,
+   "vol": 0.3,
+   "dur": 1.2
+  },
+  {
+   "file": "whoosh_2.mp3",
+   "at": 1.25,
+   "vol": 0.28
+  },
+  {
+   "file": "whoosh_1.mp3",
+   "at": 1.5,
+   "vol": 0.2
+  },
+  {
+   "file": "text_pop.mp3",
+   "at": 3.22,
+   "vol": 0.2
+  },
+  {
+   "file": "impact_hit.mp3",
+   "at": 3.58,
+   "vol": 0.16,
+   "dur": 0.8
+  },
+  {
+   "file": "whoosh_2.mp3",
+   "at": 4.65,
+   "vol": 0.24
+  },
+  {
+   "file": "paper_rustle.mp3",
+   "at": 4.95,
+   "vol": 0.12,
+   "dur": 1.0
+  },
+  {
+   "file": "text_pop.mp3",
+   "at": 5.5,
+   "vol": 0.18
+  },
+  {
+   "file": "text_pop.mp3",
+   "at": 6.16,
+   "vol": 0.2
+  },
+  {
+   "file": "impact_hit.mp3",
+   "at": 6.82,
+   "vol": 0.2,
+   "dur": 0.9
+  },
+  {
+   "file": "whoosh_1.mp3",
+   "at": 7.35,
+   "vol": 0.16
+  },
+  {
+   "file": "impact_hit.mp3",
+   "at": 7.7,
+   "vol": 0.24,
+   "dur": 1.0
+  },
+  {
+   "file": "whoosh_1.mp3",
+   "at": 10.2,
+   "vol": 0.12
+  },
+  {
+   "file": "paper_rustle.mp3",
+   "at": 11.0,
+   "vol": 0.16,
+   "dur": 1.2
+  },
+  {
+   "file": "paper_rustle.mp3",
+   "at": 13.12,
+   "vol": 0.14,
+   "dur": 0.9
+  },
+  {
+   "file": "text_pop.mp3",
+   "at": 13.95,
+   "vol": 0.2
+  },
+  {
+   "file": "riser.mp3",
+   "at": 15.1,
+   "vol": 0.16
+  },
+  {
+   "file": "whoosh_1.mp3",
+   "at": 16.45,
+   "vol": 0.2
+  },
+  {
+   "file": "text_pop.mp3",
+   "at": 17.15,
+   "vol": 0.2
+  },
+  {
+   "file": "paper_rustle.mp3",
+   "at": 18.2,
+   "vol": 0.16,
+   "dur": 1.2
+  },
+  {
+   "file": "text_pop.mp3",
+   "at": 19.7,
+   "vol": 0.16
+  },
+  {
+   "file": "whoosh_2.mp3",
+   "at": 20.28,
+   "vol": 0.14
+  },
+  {
+   "file": "whoosh_2.mp3",
+   "at": 21.95,
+   "vol": 0.26
+  },
+  {
+   "file": "paper_rustle.mp3",
+   "at": 22.0,
+   "vol": 0.2,
+   "dur": 0.6
+  },
+  {
+   "file": "impact_hit.mp3",
+   "at": 22.66,
+   "vol": 0.22,
+   "dur": 0.9
+  },
+  {
+   "file": "impact_hit.mp3",
+   "at": 24.2,
+   "vol": 0.2,
+   "dur": 0.8
+  },
+  {
+   "file": "text_pop.mp3",
+   "at": 24.64,
+   "vol": 0.2
+  },
+  {
+   "file": "whoosh_2.mp3",
+   "at": 25.45,
+   "vol": 0.26
+  },
+  {
+   "file": "text_pop.mp3",
+   "at": 25.62,
+   "vol": 0.2
+  },
+  {
+   "file": "whoosh_1.mp3",
+   "at": 25.8,
+   "vol": 0.18
+  },
+  {
+   "file": "typewriter_tick.mp3",
+   "at": 26.36,
+   "vol": 0.12,
+   "dur": 1.0
+  },
+  {
+   "file": "text_pop.mp3",
+   "at": 27.7,
+   "vol": 0.18
+  },
+  {
+   "file": "paper_rustle.mp3",
+   "at": 28.3,
+   "vol": 0.14,
+   "dur": 0.8
+  },
+  {
+   "file": "impact_hit.mp3",
+   "at": 29.28,
+   "vol": 0.2,
+   "dur": 0.7
+  },
+  {
+   "file": "impact_hit.mp3",
+   "at": 30.71,
+   "vol": 0.2,
+   "dur": 0.7
+  },
+  {
+   "file": "impact_hit.mp3",
+   "at": 32.56,
+   "vol": 0.26,
+   "dur": 1.0
+  },
+  {
+   "file": "text_pop.mp3",
+   "at": 33.3,
+   "vol": 0.16
+  },
+  {
+   "file": "whoosh_1.mp3",
+   "at": 34.0,
+   "vol": 0.16
+  },
+  {
+   "file": "impact_hit.mp3",
+   "at": 34.28,
+   "vol": 0.2,
+   "dur": 0.8
+  },
+  {
+   "file": "text_pop.mp3",
+   "at": 34.97,
+   "vol": 0.2
+  },
+  {
+   "file": "text_pop.mp3",
+   "at": 35.78,
+   "vol": 0.18
+  },
+  {
+   "file": "typewriter_tick.mp3",
+   "at": 36.0,
+   "vol": 0.12,
+   "dur": 0.9
+  },
+  {
+   "file": "paper_rustle.mp3",
+   "at": 37.2,
+   "vol": 0.14,
+   "dur": 0.7
+  },
+  {
+   "file": "paper_rustle.mp3",
+   "at": 39.05,
+   "vol": 0.15,
+   "dur": 0.9
+  },
+  {
+   "file": "text_pop.mp3",
+   "at": 40.3,
+   "vol": 0.2
+  },
+  {
+   "file": "riser.mp3",
+   "at": 41.2,
+   "vol": 0.2
+  },
+  {
+   "file": "whoosh_2.mp3",
+   "at": 41.5,
+   "vol": 0.2
+  },
+  {
+   "file": "impact_hit.mp3",
+   "at": 42.84,
+   "vol": 0.24,
+   "dur": 1.0
+  },
+  {
+   "file": "text_pop.mp3",
+   "at": 42.8,
+   "vol": 0.2
+  },
+  {
+   "file": "whoosh_2.mp3",
+   "at": 43.92,
+   "vol": 0.3
+  }
+ ]
+}

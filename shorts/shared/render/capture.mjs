@@ -32,6 +32,10 @@ export async function captureVideo({ episodeDir, outVideo, fps = 30, duration })
     if (!file && u.pathname.startsWith('/img/')) {
       file = path.join(imgRoot, decodeURIComponent(u.pathname.slice(5)));
     }
+    // /ep/* → episode render/ helpers (e.g. extra scene modules)
+    if (!file && u.pathname.startsWith('/ep/')) {
+      file = path.join(episodeDir, 'render', path.basename(decodeURIComponent(u.pathname.slice(4))));
+    }
     if (!file || !fs.existsSync(file)) {
       res.writeHead(404);
       res.end('missing');
@@ -46,6 +50,7 @@ export async function captureVideo({ episodeDir, outVideo, fps = 30, duration })
       '.jpeg': 'image/jpeg',
       '.png': 'image/png',
       '.webp': 'image/webp',
+      '.svg': 'image/svg+xml',
     };
     res.writeHead(200, { 'Content-Type': types[ext] || 'application/octet-stream' });
     fs.createReadStream(file).pipe(res);
@@ -87,6 +92,7 @@ export async function captureVideo({ episodeDir, outVideo, fps = 30, duration })
 
   const browser = await chromium.launch({
     headless: true,
+    ...(process.env.CHROMIUM_PATH ? { executablePath: process.env.CHROMIUM_PATH } : {}),
     args: ['--disable-dev-shm-usage', '--no-sandbox'],
   });
   const page = await browser.newPage({
@@ -99,7 +105,7 @@ export async function captureVideo({ episodeDir, outVideo, fps = 30, duration })
   const t0 = Date.now();
   for (let i = 0; i < totalFrames; i++) {
     const t = i / fps;
-    await page.evaluate((time) => window.renderFrame(time), t);
+    await page.evaluate((time) => window.renderFrame(time), t); // awaits if renderFrame returns a promise
     const buf = await page.screenshot({ type: 'jpeg', quality: 88, animations: 'disabled' });
     const ok = ff.stdin.write(buf);
     if (!ok) await new Promise((r) => ff.stdin.once('drain', r));
