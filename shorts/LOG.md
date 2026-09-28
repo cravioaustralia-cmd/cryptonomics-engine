@@ -121,3 +121,10 @@ Unpacked 6 Grok VOs into shorts/incoming-vo/. #01 matches finished Skylab Short;
 - Hook: NEW AUSTRALIA (alts $10 NOTE · PARAGUAY · ROYAL TAR); loop intentionally incomplete on `Because`
 - Note: s06 reserved Somerton Man; s16 Nullarbor; this is s17
 - Asset gaps for Claude: polymer $10 Gilmore still; optional Cosme historical / higher-res Vandyck Lane
+- 2026-09-28 — premium build (issue #34):
+  - `render/scenes.js` has 13 scenes. The locked maps are built by `build-map-layers.py`:
+    - a voyage map on NASA Blue Marble topo/bathy;
+    - a colony map on the NASA MODIS Paraguay still, georeferenced to control points.
+  - Fixed mixer ported to shared/render (measure VO → static gain + `apad` → float amix → two-pass master loudnorm).
+  - Final MP4: `deliverables/s17-new-australia-paraguay.mp4`. The "Because…" loop whips back to the exact frame-1 composition.
+  - `s17_07b` Queensland MODIS is unused because it doesn't show Sydney. The $10 is a stylised polymer frame, not a paper-series still.

@@ -112,3 +112,35 @@ All files under `images/`. Wikimedia Commons / NASA PD / Creative Commons. No AI
 - **Licence:** Public domain
 - **URL:** https://commons.wikimedia.org/wiki/File:New_Australia.jpg
 - **Why it fits:** New Australia colony historical still.
+
+---
+
+## Map layers built for the Short (Claude, `render/build-map-layers.py`)
+
+### s17_20_voy_base.jpg … s17_23_voy_glow.png (voyage map)
+- **What:** the locked-style Australia ↔ Paraguay voyage map. It is a Pacific-centred equirectangular map, lon 138°E → 42°W across the antimeridian, lat 2°S → 88°S.
+  - `20`: the basemap.
+  - `21` / `22`: the weathered parchment fills for Australia and Paraguay. Terrain shows through them.
+  - `23`: a soft offset shadow plus a thick white outer glow on the Australian coast and the Paraguay border.
+- **Sources:**
+  - **Basemap:** `s17_07_world_topo_basemap_ref.jpg`. This is NASA Blue Marble world.topo.bathy (Dec 2004), public domain. It was re-cropped, upsampled ×2 and given an extra hillshade from its own shaded relief.
+  - **Country outlines:** Natural Earth 1:10m Admin 0 countries, public domain (`nvkelso/natural-earth-vector`).
+- **Route:** the *Royal Tar* track is an approximate sailing route. It runs Sydney → south of New Zealand → Cape Horn → River Plate → up the Paraná / Paraguay rivers → Asunción → the colony. No intermediate ports are labelled.
+
+### s17_24_col_base.jpg … s17_26_col_glow.png (colony map)
+- **What:** the locked-style Paraguay colony map.
+  - `24`: the graded satellite, with neighbouring countries darkened.
+  - `25`: a parchment fill over Paraguay. Terrain shows through it.
+  - `26`: a thick white outer glow plus a soft shadow on Paraguay's border.
+- **Basemap:** `s17_08_paraguay_satellite_2003.jpg` (NASA MODIS, public domain). It is georeferenced by an affine fit to four control points: Asunción, Lago Ypacaraí, Ciudad del Este and the Paraguay–Paraná confluence. The residual is under 0.006°, and the Natural Earth border lands on the real rivers.
+- **Whole-country view:** for this view, the MODIS still is feathered into the aligned Blue Marble underlay.
+- **Pins (WGS84):**
+  - New Australia / Nueva Londres, Caaguazú: 25.42°S 56.53°W.
+  - Colonia Cosme, Caazapá: 26.32°S 56.28°W.
+- **Licence:** everything is derived from public-domain inputs. Credit is "NASA; Natural Earth".
+
+## Build notes (Claude)
+- **`s17_07b_queensland_modis.jpg` is not used.** Its frame covers the Queensland coast, well north of Sydney, so it can't show the Sydney departure correctly. The voyage map uses the real NASA Blue Marble topo/bathy basemap instead, which puts Sydney in the right place.
+- **`s17_12` (Atlantic Forest) and `s17_15` (locator) are not shown.** Both were reference only, and the maps were rebuilt in the locked style.
+- **The $10 beat avoids a note still.** No free-licence polymer $10 still was available, and no paper-series note is used. Instead, the beat uses a stylised polymer-note frame (motion graphic, not a reproduction of the RBA design) around `s17_14` (Dame Mary Gilmore, later portrait) plus a `$10` label.
+- **`s17_16` (New Australia colony photo) is low-res (283×226).** It is used only as a framed sepia card and blurred underlay.

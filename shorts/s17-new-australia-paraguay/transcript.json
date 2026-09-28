@@ -1,0 +1,541 @@
+{
+ "source": "faster-whisper small.en word timestamps on audio/vo.mp3; seams checked against silencedetect (-38 dB)",
+ "duration": 44.856,
+ "words": [
+  {
+   "word": "Hundreds",
+   "start": 0.04,
+   "end": 0.44
+  },
+  {
+   "word": "of",
+   "start": 0.44,
+   "end": 0.62
+  },
+  {
+   "word": "Australians",
+   "start": 0.62,
+   "end": 1.18
+  },
+  {
+   "word": "once",
+   "start": 1.18,
+   "end": 1.58
+  },
+  {
+   "word": "sailed",
+   "start": 1.58,
+   "end": 1.88
+  },
+  {
+   "word": "to",
+   "start": 1.88,
+   "end": 2.14
+  },
+  {
+   "word": "South",
+   "start": 2.14,
+   "end": 2.32
+  },
+  {
+   "word": "America…",
+   "start": 2.32,
+   "end": 2.8
+  },
+  {
+   "word": "to",
+   "start": 2.8,
+   "end": 3.24
+  },
+  {
+   "word": "build",
+   "start": 3.24,
+   "end": 3.44
+  },
+  {
+   "word": "a",
+   "start": 3.44,
+   "end": 3.6
+  },
+  {
+   "word": "new",
+   "start": 3.6,
+   "end": 3.8
+  },
+  {
+   "word": "Australia.",
+   "start": 3.8,
+   "end": 4.3
+  },
+  {
+   "word": "And",
+   "start": 4.94,
+   "end": 5.04
+  },
+  {
+   "word": "one",
+   "start": 5.04,
+   "end": 5.24
+  },
+  {
+   "word": "of",
+   "start": 5.24,
+   "end": 5.34
+  },
+  {
+   "word": "them",
+   "start": 5.34,
+   "end": 5.5
+  },
+  {
+   "word": "ended",
+   "start": 5.5,
+   "end": 5.76
+  },
+  {
+   "word": "up",
+   "start": 5.76,
+   "end": 5.96
+  },
+  {
+   "word": "on",
+   "start": 5.96,
+   "end": 6.16
+  },
+  {
+   "word": "Australia's",
+   "start": 6.16,
+   "end": 6.82
+  },
+  {
+   "word": "money.",
+   "start": 6.82,
+   "end": 7.08
+  },
+  {
+   "word": "1893.",
+   "start": 7.7,
+   "end": 8.72
+  },
+  {
+   "word": "Australia",
+   "start": 9.15,
+   "end": 9.58
+  },
+  {
+   "word": "is",
+   "start": 9.58,
+   "end": 9.94
+  },
+  {
+   "word": "in",
+   "start": 9.94,
+   "end": 10.08
+  },
+  {
+   "word": "recession.",
+   "start": 10.08,
+   "end": 10.54
+  },
+  {
+   "word": "Striking",
+   "start": 11.22,
+   "end": 11.46
+  },
+  {
+   "word": "shearers",
+   "start": 11.46,
+   "end": 11.92
+  },
+  {
+   "word": "feel",
+   "start": 11.92,
+   "end": 12.2
+  },
+  {
+   "word": "beaten.",
+   "start": 12.2,
+   "end": 12.64
+  },
+  {
+   "word": "Journalist",
+   "start": 13.26,
+   "end": 13.62
+  },
+  {
+   "word": "William",
+   "start": 13.62,
+   "end": 13.98
+  },
+  {
+   "word": "Lane",
+   "start": 13.98,
+   "end": 14.28
+  },
+  {
+   "word": "promises",
+   "start": 14.28,
+   "end": 14.84
+  },
+  {
+   "word": "a",
+   "start": 14.84,
+   "end": 15.08
+  },
+  {
+   "word": "socialist",
+   "start": 15.08,
+   "end": 15.46
+  },
+  {
+   "word": "paradise…",
+   "start": 15.46,
+   "end": 16.02
+  },
+  {
+   "word": "in",
+   "start": 16.02,
+   "end": 16.42
+  },
+  {
+   "word": "the",
+   "start": 16.42,
+   "end": 16.56
+  },
+  {
+   "word": "jungles",
+   "start": 16.56,
+   "end": 16.88
+  },
+  {
+   "word": "of",
+   "start": 16.88,
+   "end": 17.2
+  },
+  {
+   "word": "Paraguay.",
+   "start": 17.2,
+   "end": 17.56
+  },
+  {
+   "word": "Paraguay",
+   "start": 18.24,
+   "end": 18.6
+  },
+  {
+   "word": "wants",
+   "start": 18.6,
+   "end": 18.84
+  },
+  {
+   "word": "settlers",
+   "start": 18.84,
+   "end": 19.24
+  },
+  {
+   "word": "after",
+   "start": 19.24,
+   "end": 19.64
+  },
+  {
+   "word": "a",
+   "start": 19.64,
+   "end": 19.82
+  },
+  {
+   "word": "war",
+   "start": 19.82,
+   "end": 20.08
+  },
+  {
+   "word": "that",
+   "start": 20.08,
+   "end": 20.28
+  },
+  {
+   "word": "wiped",
+   "start": 20.28,
+   "end": 20.52
+  },
+  {
+   "word": "out",
+   "start": 20.52,
+   "end": 20.74
+  },
+  {
+   "word": "many",
+   "start": 20.74,
+   "end": 21.02
+  },
+  {
+   "word": "of",
+   "start": 21.02,
+   "end": 21.22
+  },
+  {
+   "word": "its",
+   "start": 21.22,
+   "end": 21.34
+  },
+  {
+   "word": "men.",
+   "start": 21.34,
+   "end": 21.62
+  },
+  {
+   "word": "July",
+   "start": 22.27,
+   "end": 22.66
+  },
+  {
+   "word": "1893.",
+   "start": 22.66,
+   "end": 23.5
+  },
+  {
+   "word": "The",
+   "start": 24.3,
+   "end": 24.4
+  },
+  {
+   "word": "ship",
+   "start": 24.4,
+   "end": 24.64
+  },
+  {
+   "word": "Royal",
+   "start": 24.64,
+   "end": 25.04
+  },
+  {
+   "word": "Tar",
+   "start": 25.04,
+   "end": 25.38
+  },
+  {
+   "word": "leaves",
+   "start": 25.38,
+   "end": 25.72
+  },
+  {
+   "word": "Sydney",
+   "start": 25.72,
+   "end": 26.08
+  },
+  {
+   "word": "with",
+   "start": 26.08,
+   "end": 26.36
+  },
+  {
+   "word": "over",
+   "start": 26.36,
+   "end": 26.64
+  },
+  {
+   "word": "200",
+   "start": 26.64,
+   "end": 27.12
+  },
+  {
+   "word": "colonists.",
+   "start": 27.12,
+   "end": 27.68
+  },
+  {
+   "word": "But",
+   "start": 28.38,
+   "end": 28.5
+  },
+  {
+   "word": "Lane",
+   "start": 28.5,
+   "end": 28.76
+  },
+  {
+   "word": "bans",
+   "start": 28.76,
+   "end": 29.18
+  },
+  {
+   "word": "alcohol,",
+   "start": 29.18,
+   "end": 29.7
+  },
+  {
+   "word": "and",
+   "start": 29.7,
+   "end": 30.26
+  },
+  {
+   "word": "bans",
+   "start": 30.26,
+   "end": 30.56
+  },
+  {
+   "word": "mixing",
+   "start": 30.56,
+   "end": 30.94
+  },
+  {
+   "word": "with",
+   "start": 30.94,
+   "end": 31.16
+  },
+  {
+   "word": "Paraguayans.",
+   "start": 31.16,
+   "end": 31.94
+  },
+  {
+   "word": "Only",
+   "start": 32.36,
+   "end": 32.56
+  },
+  {
+   "word": "British",
+   "start": 32.56,
+   "end": 32.88
+  },
+  {
+   "word": "settlers",
+   "start": 32.88,
+   "end": 33.28
+  },
+  {
+   "word": "allowed.",
+   "start": 33.28,
+   "end": 33.7
+  },
+  {
+   "word": "It",
+   "start": 34.22,
+   "end": 34.28
+  },
+  {
+   "word": "splits",
+   "start": 34.28,
+   "end": 34.56
+  },
+  {
+   "word": "within",
+   "start": 34.56,
+   "end": 34.84
+  },
+  {
+   "word": "a",
+   "start": 34.84,
+   "end": 35.02
+  },
+  {
+   "word": "year.",
+   "start": 35.02,
+   "end": 35.28
+  },
+  {
+   "word": "Yet",
+   "start": 35.78,
+   "end": 35.86
+  },
+  {
+   "word": "about",
+   "start": 35.86,
+   "end": 36.1
+  },
+  {
+   "word": "2,000",
+   "start": 36.1,
+   "end": 36.88
+  },
+  {
+   "word": "descendants",
+   "start": 36.88,
+   "end": 37.28
+  },
+  {
+   "word": "still",
+   "start": 37.28,
+   "end": 37.66
+  },
+  {
+   "word": "live",
+   "start": 37.66,
+   "end": 37.86
+  },
+  {
+   "word": "in",
+   "start": 37.86,
+   "end": 38.02
+  },
+  {
+   "word": "Paraguay.",
+   "start": 38.02,
+   "end": 38.64
+  },
+  {
+   "word": "One",
+   "start": 39.14,
+   "end": 39.26
+  },
+  {
+   "word": "colonist",
+   "start": 39.26,
+   "end": 39.82
+  },
+  {
+   "word": "was",
+   "start": 39.82,
+   "end": 40.02
+  },
+  {
+   "word": "poet",
+   "start": 40.02,
+   "end": 40.3
+  },
+  {
+   "word": "Mary",
+   "start": 40.3,
+   "end": 40.66
+  },
+  {
+   "word": "Gilmore…",
+   "start": 40.66,
+   "end": 41.16
+  },
+  {
+   "word": "who's",
+   "start": 41.62,
+   "end": 41.78
+  },
+  {
+   "word": "now",
+   "start": 41.78,
+   "end": 41.98
+  },
+  {
+   "word": "on",
+   "start": 41.98,
+   "end": 42.18
+  },
+  {
+   "word": "Australia's",
+   "start": 42.18,
+   "end": 42.84
+  },
+  {
+   "word": "$10",
+   "start": 42.84,
+   "end": 43.12
+  },
+  {
+   "word": "note.",
+   "start": 43.12,
+   "end": 43.58
+  },
+  {
+   "word": "Because…",
+   "start": 44.12,
+   "end": 44.75
+  }
+ ]
+}
