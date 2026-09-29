@@ -148,3 +148,5 @@ Unpacked 6 Grok VOs into shorts/incoming-vo/. #01 matches finished Skylab Short;
 - 2026-09-29: Atlas VO locked at audio/vo.mp3 (40.920 s). Ready for Claude premium build.
 
 - 2026-09-29: Scaffold s20-sar-region (MAP EXPLAINER) + Atlas VO 40.536s locked. Ready for Claude.
+
+- 2026-09-29: s20-sar-region Checkpoint C built by Claude — WebGL-reprojected NASA topo globe + SVG kinetic cartography (`render/scenes.js`), master-only two-pass loudnorm mix (−14.0 LUFS / −1.8 dBTP), `final/s20-sar-region.mp4` (1080×1920 @ 30 fps, 40.5 s) + `final/contact-sheet.jpg`. Station stills still missing (Wikimedia blocked); maps carry the station beat.

@@ -54,3 +54,8 @@ All files under `images/`. NASA / NSF public domain or crops thereof. No AI stil
 ## Download status (scaffold)
 
 Present: `s20_01`, `s20_02`, `s20_02b`, `s20_05`. **Missing after Wikimedia 429:** `s20_03_vostok_station.jpg`, `s20_04_concordia_station.jpg` — Claude may fetch NSF PD / NASA PD Commons files listed above if needed as ≤1s inserts; maps remain primary.
+
+## Build notes (Claude, Checkpoint C render)
+- Basemap in the final: `s20_01_world_topo_basemap_ref.jpg` only, reprojected live onto an orthographic globe (covers the Pole dive, so `s20_02` / `s20_02b` / `s20_05` crops were not needed).
+- `s20_03` / `s20_04` station stills: still missing — Wikimedia is blocked from the build container. Per MAP EXPLAINER mode the maps carry the station beat (pins + 3D labels); no stand-in photos used.
+- `fonts/anton-latin-400-normal.woff2`, `fonts/montserrat-latin-800-normal.woff2`, `fonts/montserrat-latin-900-normal.woff2` — Anton (Vernon Adams) and Montserrat (Julieta Ulanovsky et al.), SIL Open Font License 1.1, from the @fontsource npm packages.
