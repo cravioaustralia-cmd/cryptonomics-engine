@@ -1,0 +1,487 @@
+{
+ "source": "faster-whisper medium.en word timestamps on audio/vo.mp3; hand-fixed: numerals→words per script, Western onset (silencedetect), loop line unpunctuated",
+ "duration": 39.816,
+ "text": "One of the biggest Japanese cemeteries outside Japan is in a small Australian beach town, and the story behind it is heartbreaking. Broome, Western Australia. Late 1800s. The sea here is full of pearl shell. Divers from Japan arrive, many from villages in Wakayama. They dive deep in heavy copper helmets and lead boots. The bends, drowning, cyclones. Historians estimate more than one in ten Japanese divers died each year. Over 900 people now rest in Broome's Japanese cemetery. The pearling boom is one reason Japan opened its first consulate in Australia, in 1896. That's why",
+ "words": [
+  {
+   "word": "One",
+   "start": 0.0,
+   "end": 0.24
+  },
+  {
+   "word": "of",
+   "start": 0.24,
+   "end": 0.38
+  },
+  {
+   "word": "the",
+   "start": 0.38,
+   "end": 0.64
+  },
+  {
+   "word": "biggest",
+   "start": 0.64,
+   "end": 0.94
+  },
+  {
+   "word": "Japanese",
+   "start": 0.94,
+   "end": 1.5
+  },
+  {
+   "word": "cemeteries",
+   "start": 1.5,
+   "end": 2.12
+  },
+  {
+   "word": "outside",
+   "start": 2.12,
+   "end": 2.54
+  },
+  {
+   "word": "Japan",
+   "start": 2.54,
+   "end": 3.06
+  },
+  {
+   "word": "is",
+   "start": 3.06,
+   "end": 3.38
+  },
+  {
+   "word": "in",
+   "start": 3.38,
+   "end": 3.5
+  },
+  {
+   "word": "a",
+   "start": 3.5,
+   "end": 3.66
+  },
+  {
+   "word": "small",
+   "start": 3.66,
+   "end": 4.02
+  },
+  {
+   "word": "Australian",
+   "start": 4.02,
+   "end": 4.64
+  },
+  {
+   "word": "beach",
+   "start": 4.64,
+   "end": 4.94
+  },
+  {
+   "word": "town,",
+   "start": 4.94,
+   "end": 5.32
+  },
+  {
+   "word": "and",
+   "start": 5.56,
+   "end": 5.94
+  },
+  {
+   "word": "the",
+   "start": 5.94,
+   "end": 6.12
+  },
+  {
+   "word": "story",
+   "start": 6.12,
+   "end": 6.38
+  },
+  {
+   "word": "behind",
+   "start": 6.38,
+   "end": 6.74
+  },
+  {
+   "word": "it",
+   "start": 6.74,
+   "end": 6.96
+  },
+  {
+   "word": "is",
+   "start": 6.96,
+   "end": 7.2
+  },
+  {
+   "word": "heartbreaking.",
+   "start": 7.2,
+   "end": 7.76
+  },
+  {
+   "word": "Broome,",
+   "start": 8.5,
+   "end": 8.84
+  },
+  {
+   "word": "Western",
+   "start": 8.92,
+   "end": 9.28
+  },
+  {
+   "word": "Australia.",
+   "start": 9.28,
+   "end": 9.88
+  },
+  {
+   "word": "Late",
+   "start": 10.44,
+   "end": 10.58
+  },
+  {
+   "word": "1800s.",
+   "start": 10.58,
+   "end": 11.56
+  },
+  {
+   "word": "The",
+   "start": 12.0,
+   "end": 12.1
+  },
+  {
+   "word": "sea",
+   "start": 12.1,
+   "end": 12.34
+  },
+  {
+   "word": "here",
+   "start": 12.34,
+   "end": 12.56
+  },
+  {
+   "word": "is",
+   "start": 12.56,
+   "end": 12.76
+  },
+  {
+   "word": "full",
+   "start": 12.76,
+   "end": 12.92
+  },
+  {
+   "word": "of",
+   "start": 12.92,
+   "end": 13.18
+  },
+  {
+   "word": "pearl",
+   "start": 13.18,
+   "end": 13.38
+  },
+  {
+   "word": "shell.",
+   "start": 13.38,
+   "end": 13.76
+  },
+  {
+   "word": "Divers",
+   "start": 14.32,
+   "end": 14.54
+  },
+  {
+   "word": "from",
+   "start": 14.54,
+   "end": 14.78
+  },
+  {
+   "word": "Japan",
+   "start": 14.78,
+   "end": 15.16
+  },
+  {
+   "word": "arrive,",
+   "start": 15.16,
+   "end": 15.64
+  },
+  {
+   "word": "many",
+   "start": 16.04,
+   "end": 16.2
+  },
+  {
+   "word": "from",
+   "start": 16.2,
+   "end": 16.44
+  },
+  {
+   "word": "villages",
+   "start": 16.44,
+   "end": 16.86
+  },
+  {
+   "word": "in",
+   "start": 16.86,
+   "end": 17.16
+  },
+  {
+   "word": "Wakayama.",
+   "start": 17.16,
+   "end": 17.7
+  },
+  {
+   "word": "They",
+   "start": 18.26,
+   "end": 18.36
+  },
+  {
+   "word": "dive",
+   "start": 18.36,
+   "end": 18.64
+  },
+  {
+   "word": "deep",
+   "start": 18.64,
+   "end": 18.98
+  },
+  {
+   "word": "in",
+   "start": 18.98,
+   "end": 19.2
+  },
+  {
+   "word": "heavy",
+   "start": 19.2,
+   "end": 19.54
+  },
+  {
+   "word": "copper",
+   "start": 19.54,
+   "end": 19.9
+  },
+  {
+   "word": "helmets",
+   "start": 19.9,
+   "end": 20.3
+  },
+  {
+   "word": "and",
+   "start": 20.3,
+   "end": 20.62
+  },
+  {
+   "word": "lead",
+   "start": 20.62,
+   "end": 20.82
+  },
+  {
+   "word": "boots.",
+   "start": 20.82,
+   "end": 21.16
+  },
+  {
+   "word": "The",
+   "start": 21.72,
+   "end": 21.78
+  },
+  {
+   "word": "bends,",
+   "start": 21.78,
+   "end": 22.2
+  },
+  {
+   "word": "drowning,",
+   "start": 22.58,
+   "end": 22.96
+  },
+  {
+   "word": "cyclones.",
+   "start": 23.3,
+   "end": 23.86
+  },
+  {
+   "word": "Historians",
+   "start": 24.48,
+   "end": 24.92
+  },
+  {
+   "word": "estimate",
+   "start": 24.92,
+   "end": 25.38
+  },
+  {
+   "word": "more",
+   "start": 25.38,
+   "end": 25.6
+  },
+  {
+   "word": "than",
+   "start": 25.6,
+   "end": 25.82
+  },
+  {
+   "word": "one",
+   "start": 25.82,
+   "end": 26.06
+  },
+  {
+   "word": "in",
+   "start": 26.06,
+   "end": 26.2
+  },
+  {
+   "word": "ten",
+   "start": 26.2,
+   "end": 26.48
+  },
+  {
+   "word": "Japanese",
+   "start": 26.48,
+   "end": 27.0
+  },
+  {
+   "word": "divers",
+   "start": 27.0,
+   "end": 27.4
+  },
+  {
+   "word": "died",
+   "start": 27.4,
+   "end": 27.72
+  },
+  {
+   "word": "each",
+   "start": 27.72,
+   "end": 28.04
+  },
+  {
+   "word": "year.",
+   "start": 28.04,
+   "end": 28.42
+  },
+  {
+   "word": "Over",
+   "start": 28.92,
+   "end": 29.12
+  },
+  {
+   "word": "900",
+   "start": 29.12,
+   "end": 29.66
+  },
+  {
+   "word": "people",
+   "start": 29.66,
+   "end": 30.1
+  },
+  {
+   "word": "now",
+   "start": 30.1,
+   "end": 30.32
+  },
+  {
+   "word": "rest",
+   "start": 30.32,
+   "end": 30.64
+  },
+  {
+   "word": "in",
+   "start": 30.64,
+   "end": 30.86
+  },
+  {
+   "word": "Broome's",
+   "start": 30.86,
+   "end": 31.3
+  },
+  {
+   "word": "Japanese",
+   "start": 31.3,
+   "end": 31.66
+  },
+  {
+   "word": "cemetery.",
+   "start": 31.66,
+   "end": 32.2
+  },
+  {
+   "word": "The",
+   "start": 32.84,
+   "end": 32.92
+  },
+  {
+   "word": "pearling",
+   "start": 32.92,
+   "end": 33.36
+  },
+  {
+   "word": "boom",
+   "start": 33.36,
+   "end": 33.64
+  },
+  {
+   "word": "is",
+   "start": 33.64,
+   "end": 33.84
+  },
+  {
+   "word": "one",
+   "start": 33.84,
+   "end": 34.08
+  },
+  {
+   "word": "reason",
+   "start": 34.08,
+   "end": 34.4
+  },
+  {
+   "word": "Japan",
+   "start": 34.4,
+   "end": 34.84
+  },
+  {
+   "word": "opened",
+   "start": 34.84,
+   "end": 35.24
+  },
+  {
+   "word": "its",
+   "start": 35.24,
+   "end": 35.4
+  },
+  {
+   "word": "first",
+   "start": 35.4,
+   "end": 35.72
+  },
+  {
+   "word": "consulate",
+   "start": 35.72,
+   "end": 36.18
+  },
+  {
+   "word": "in",
+   "start": 36.18,
+   "end": 36.42
+  },
+  {
+   "word": "Australia,",
+   "start": 36.42,
+   "end": 36.96
+  },
+  {
+   "word": "in",
+   "start": 37.42,
+   "end": 37.48
+  },
+  {
+   "word": "1896.",
+   "start": 37.48,
+   "end": 38.24
+  },
+  {
+   "word": "That's",
+   "start": 39.12,
+   "end": 39.44
+  },
+  {
+   "word": "why",
+   "start": 39.44,
+   "end": 39.64
+  }
+ ]
+}

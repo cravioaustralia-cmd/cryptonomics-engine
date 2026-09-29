@@ -8,7 +8,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { pathToFileURL } from 'node:url';
 
-export async function captureVideo({ episodeDir, outVideo, fps = 30, duration }) {
+export async function captureVideo({ episodeDir, outVideo, fps = 30, duration, stills = null }) {
   const renderDir = path.resolve(path.dirname(new URL(import.meta.url).pathname));
   const frameHtml = path.join(renderDir, 'frame.html');
   const scenesUrl = pathToFileURL(path.join(episodeDir, 'render', 'scenes.js')).href;
@@ -32,6 +32,9 @@ export async function captureVideo({ episodeDir, outVideo, fps = 30, duration })
     if (!file && u.pathname.startsWith('/img/')) {
       file = path.join(imgRoot, decodeURIComponent(u.pathname.slice(5)));
     }
+    if (!file && u.pathname.startsWith('/fonts/')) {
+      file = path.join(renderDir, 'fonts', path.basename(decodeURIComponent(u.pathname)));
+    }
     if (!file || !fs.existsSync(file)) {
       res.writeHead(404);
       res.end('missing');
@@ -46,6 +49,7 @@ export async function captureVideo({ episodeDir, outVideo, fps = 30, duration })
       '.jpeg': 'image/jpeg',
       '.png': 'image/png',
       '.webp': 'image/webp',
+      '.ttf': 'font/ttf',
     };
     res.writeHead(200, { 'Content-Type': types[ext] || 'application/octet-stream' });
     fs.createReadStream(file).pipe(res);
@@ -58,36 +62,40 @@ export async function captureVideo({ episodeDir, outVideo, fps = 30, duration })
   const totalFrames = Math.ceil(duration * fps);
   fs.mkdirSync(path.dirname(outVideo), { recursive: true });
 
-  const ff = spawn(
-    'ffmpeg',
-    [
-      '-y',
-      '-f',
-      'image2pipe',
-      '-framerate',
-      String(fps),
-      '-i',
-      'pipe:0',
-      '-c:v',
-      'libx264',
-      '-pix_fmt',
-      'yuv420p',
-      '-preset',
-      'veryfast',
-      '-crf',
-      '18',
-      '-r',
-      String(fps),
-      '-movflags',
-      '+faststart',
-      outVideo,
-    ],
-    { stdio: ['pipe', 'inherit', 'inherit'] }
-  );
+  const ff = stills
+    ? null
+    : spawn(
+        'ffmpeg',
+        [
+          '-y',
+          '-f',
+          'image2pipe',
+          '-framerate',
+          String(fps),
+          '-i',
+          'pipe:0',
+          '-c:v',
+          'libx264',
+          '-pix_fmt',
+          'yuv420p',
+          '-preset',
+          'veryfast',
+          '-crf',
+          '18',
+          '-r',
+          String(fps),
+          '-movflags',
+          '+faststart',
+          outVideo,
+        ],
+        { stdio: ['pipe', 'inherit', 'inherit'] },
+      );
 
   const browser = await chromium.launch({
     headless: true,
     args: ['--disable-dev-shm-usage', '--no-sandbox'],
+    // Optional: point at a preinstalled Chromium when the pinned Playwright build isn't downloaded.
+    executablePath: process.env.CHROMIUM_PATH || undefined,
   });
   const page = await browser.newPage({
     viewport: { width: 1080, height: 1920 },
@@ -95,11 +103,32 @@ export async function captureVideo({ episodeDir, outVideo, fps = 30, duration })
   });
   await page.goto(pageUrl, { waitUntil: 'networkidle' });
   await page.waitForFunction(() => window.__ready && window.EPISODE);
+  // Optional episode preload hook (fonts, image decode) before the first frame.
+  await page.evaluate(async () => {
+    if (window.EPISODE.ready) await window.EPISODE.ready;
+    await document.fonts.ready;
+  });
+  const paint = () =>
+    page.evaluate(() => new Promise((r) => requestAnimationFrame(() => requestAnimationFrame(r))));
+
+  // Stills mode (contact sheets / previews): PNG per requested time, no video.
+  if (stills) {
+    fs.mkdirSync(outVideo, { recursive: true });
+    for (const t of stills) {
+      await page.evaluate((time) => window.renderFrame(time), t);
+      await paint();
+      await page.screenshot({ path: path.join(outVideo, `t${t.toFixed(2).padStart(6, '0')}.png`) });
+    }
+    await browser.close();
+    server.close();
+    return outVideo;
+  }
 
   const t0 = Date.now();
   for (let i = 0; i < totalFrames; i++) {
     const t = i / fps;
     await page.evaluate((time) => window.renderFrame(time), t);
+    await paint();
     const buf = await page.screenshot({ type: 'jpeg', quality: 88, animations: 'disabled' });
     const ok = ff.stdin.write(buf);
     if (!ok) await new Promise((r) => ff.stdin.once('drain', r));

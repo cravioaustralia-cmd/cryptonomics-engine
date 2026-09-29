@@ -148,3 +148,8 @@ Unpacked 6 Grok VOs into shorts/incoming-vo/. #01 matches finished Skylab Short;
 - 2026-09-29: Atlas VO locked at audio/vo.mp3 (40.920 s). Ready for Claude premium build.
 
 - 2026-09-29: Scaffold s20-sar-region (MAP EXPLAINER) + Atlas VO 40.536s locked. Ready for Claude.
+
+## 2026-09-29 — s21 Broome Japanese Cemetery (Checkpoint C build, issue #42)
+- Claude premium build: `render/scenes.js` (14 Skylab beats), faster-whisper `transcript.json` → karaoke captions, `render/mix.mjs` (VO static +5 dB + apad → float amix → two-pass master loudnorm −14 LUFS; Echoes bed ≈ −36 LUFS = ~4 dB under s18 bed)
+- Final: `final/s21-broome-japanese-cemetery.mp4` 1080×1920 @ 30 fps, 39.816 s; contact sheet `final/contact-sheet.jpg`
+- Shared renderer: `/fonts/*` (OFL Anton/Archivo Black/Oswald), `EPISODE.ready` preload wait, paint settle, stills mode, `CHROMIUM_PATH`

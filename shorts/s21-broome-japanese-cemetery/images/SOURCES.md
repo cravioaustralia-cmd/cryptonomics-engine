@@ -120,3 +120,24 @@ All files under `images/`. Wikimedia Commons public-domain or Creative Commons. 
 - **Licence:** No restrictions (SLQ)
 - **URL:** https://commons.wikimedia.org/wiki/File:Japanese_pearl_diver_(3211448893).jpg
 - **Why it fits:** Period Japanese pearl diver in standard dress. Soft: location **Thursday Island (Torres Strait)** — optional brief insert only; prefer Broome `s21_14` for hero diving beats. Never label as Broome.
+
+---
+
+## Usage in the Checkpoint C build (render/scenes.js)
+
+| Beat | Still | Treatment |
+|---|---|---|
+| Hook / loop | `s21_04` | full-bleed underlay under `900 GRAVES` |
+| Beach town | `s21_10` | split wipe from cemetery → Cable Beach |
+| Heartbreaking | `s21_08` | colour drains to near-mono |
+| Broome, WA | `s21_13` | ISS orbital underlay + HUD; label not pinned to a point |
+| Late 1800s / pearling boom | `s21_09` | print card, NLA border cropped out |
+| Pearl shell | `s21_10` (water only) | deep-sea grade under MG shells |
+| Arrival / Wakayama | `s21_12` | Broome shore underlay; north-up route chip only |
+| Helmets & boots | `s21_14` | Broome 1936 diving dress, callouts on the real boots |
+| Bends / drowning / cyclones | `s21_01` | plaque lines highlighted (primary source) |
+| >1 in 10 | `s21_06` | desaturated underlay |
+| Over 900 | `s21_03` | push along the path |
+| 1896 consulate | `s21_02` | underlay (Consul-General of Japan named); doc says **TOWNSVILLE, QLD** |
+
+Not used: `s21_05`, `s21_07`, `s21_11`, `s21_15`, `s21_16` (Thursday Island — never shown as Broome).
