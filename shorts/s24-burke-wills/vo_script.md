@@ -1,12 +1,12 @@
 # VO script — s24 Burke & Wills
 
-**Status:** Atlas VO **held** at `audio/vo.mp3` (**39.168 s**).  
+**Status:** Atlas VO **held** at `audio/vo.mp3` (**89.736 s**).  
 **Delivery:** fast / intense Australia-history Short. Map-route tragedy; nine-hours twist; Yandruwandha dignity. en-AU / Atlas. Emotion cues not spoken.
 
 **Loop note:** **Incomplete loop.** Last line `And it’s why, to this day, people still tell the story of how` bridges into `In 1860, two men set out…`.
 
 **Spoken word count:** ~251 words (excl. emotion cues).  
-**Held duration:** **39.168 s** (fast Atlas take — retune seams to Whisper).
+**Held duration:** **89.736 s** (full script Atlas take — supersedes incomplete 39.168 s back-half; retune seams to Whisper).
 
 ---
 
