@@ -159,3 +159,16 @@ Unpacked 6 Grok VOs into shorts/incoming-vo/. #01 matches finished Skylab Short;
 - Geography lock: Victoria / Shipwreck Coast / Loch Ard Gorge / Mutton Bird Island / Flagstaff Hill Warrnambool only; never stamp Twelve Apostles as wreck site
 - Note: s06 reserved Somerton Man; s21 Broome Japanese Cemetery; **this is s22**
 - Asset gaps for Claude: optional 1878 Pearce/Carmichael portraits (licence-check); Carmichael watch Commons CC0; hull/rigging plans PD
+
+## 2026-09-30T18:55+10:00 — s23 Wild Camels & The Ghan (scaffold)
+- Episode: `shorts/s23-wild-camels-ghan/`
+- Atlas VO **pending at scaffold** — separate hold commit expected (43.008 s source ready on box)
+- Scaffold only (Checkpoint C): script, vo_script (~107 spoken words), plan with ANIMATE beat table (standard Skylab, **not** map-explainer), SOURCES, fact-check (all PASS / PASS-SOFT; no FAIL), Between Two Evils bed (Michael Ramir C. / Mixkit id 1020; ~4 dB quieter than s18 bed instruction), Mixkit SFX (+ paper_rustle), render README
+- **No `scenes.js`** — Claude owns design / animation / mix
+- Stills: 25 Commons free-licence (modern AU feral/outback camels; period cameleer trains; The Ghan; Overland Telegraph corridor; soft OT map underlay); no AI stills; no carcass heroes
+- Soft facts: over a million soft/variable estimates; gradual release; Ghan “widely said”; Saudi live export PASS (2002+)
+- Hook: OVER A MILLION (alts THE GHAN · WILD CAMELS · 1860s); incomplete loop on `So yes.`
+- Geography lock: Australian outback / Red Centre / SA–NT Ghan corridor / OT only; never Arabia/Sahara/Gobi as Australia heroes
+- SFX preference locked 2026-09-30: ~6–10 intentional cues (sparse)
+- Note: s06 reserved Somerton Man; s22 Loch Ard Peacock; **this is s23**
+- Asset gaps for Claude: optional Amedulah Khan camel train; higher-res Sadadeen; soft export still if free-licence
