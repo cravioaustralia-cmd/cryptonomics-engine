@@ -599,13 +599,18 @@
   const S = (cam, key) => toScreen(cam, PT[key]);
   function placeLabel(cam, key, text, t, t0, o = {}) {
     if (t0 == null || t < t0) return '';
+    // optional life span: retire once the story moves on, return for the loop pull-out
+    let life = 1;
+    if (o.until != null) life = Math.max(1 - smoothstep(o.until, o.until + 0.5, t), smoothstep(T.loop + 0.3, T.loop + 0.9, t));
+    if (life <= 0.01) return '';
     const [x, y] = S(cam, key);
     const k = pop(t, t0 + 0.12, 0.35);
-    const a = (o.alpha ?? 1) * clamp(k * 1.5, 0, 1);
     const lx = x + (o.dx ?? 0);
     const ly = y + (o.dy ?? -70);
-    return pin(x, y, t, t0, { col: o.col, scale: o.pinScale || 1 }) +
-      label3d(text, lx, ly, { size: o.size || 50, alpha: a, scale: 0.7 + 0.3 * easeOutBack(k), anchor: o.anchor || 'middle', fill: o.fill });
+    const band = 1 - fadeWin(ly, 1225, 1475, 40, 40);
+    const a = (o.alpha ?? 1) * clamp(k * 1.5, 0, 1) * band;
+    return `<g opacity="${f2(life)}">` + pin(x, y, t, t0, { col: o.col, scale: o.pinScale || 1 }) +
+      label3d(text, lx, ly, { size: o.size || 50, alpha: a, scale: 0.7 + 0.3 * easeOutBack(k), anchor: o.anchor || 'middle', fill: o.fill }) + '</g>';
   }
   // keep labels out of the caption band / right-edge UI
   const safeY = (y) => clamp(y, 170, 1175);
@@ -618,10 +623,10 @@
 
     /* --- place pins & labels --- */
     if (full) {
-      s += placeLabel(cam, 'melb', 'MELBOURNE', t, T.leader, { dx: 60, dy: 80, size: 54 });
-      s += placeLabel(cam, 'menindee', 'MENINDEE', t, T.menindee, { dx: -150, dy: -60 });
-      s += placeLabel(cam, 'cooper', 'COOPER CREEK', t, T.cooperArr, { dx: 170, dy: -70 });
-      s += placeLabel(cam, 'gulf', 'GULF OF CARPENTARIA', t, T.gulfArr, { dy: 120, size: 48 });
+      s += placeLabel(cam, 'melb', 'MELBOURNE', t, T.leader, { dx: 60, dy: 80, size: 54, until: T.cooperArr });
+      s += placeLabel(cam, 'menindee', 'MENINDEE', t, T.menindee, { dx: -150, dy: -60, until: T.twoMonths });
+      s += placeLabel(cam, 'cooper', 'COOPER CREEK', t, T.cooperArr, { dx: 170, dy: -70, until: T.menWaiting - 0.4 });
+      s += placeLabel(cam, 'gulf', 'GULF OF CARPENTARIA', t, T.gulfArr, { dy: 120, size: 48, until: T.grayDies });
     } else {
       const k = T.proDraw1 - T.proDraw0;
       const at = (i) => T.proDraw0 + k * (OUT.wpDist(i) / OUT.len) - 0.08;
@@ -858,9 +863,9 @@
     // departure kit: camels, horses, ~20 t, oak table
     const kitA = fadeWin(t, T.camels, T.wagon + 0.3, 0.25, 0.35);
     if (kitA > 0) {
-      for (let i = 0; i < 3; i++) s += camel(safeX(mx + 20 + i * 105, 0), safeY(my + 150 + (i % 2) * 14), 1.0, kitA * pop(t, T.camels + i * 0.12, 0.3), true);
-      s += chip('~20 t', safeX(mx + 150, 180), safeY(my - 250), t, T.tonnes, { alpha: kitA });
-      s += chip('OAK TABLE', safeX(mx + 120, 260), safeY(my - 150), t, T.oak, { alpha: kitA, acc: '#b98545' });
+      for (let i = 0; i < 3; i++) s += camel(safeX(mx - 300 + i * 135, 0), safeY(my - 130 + (i % 2) * 18), 1.5, kitA * pop(t, T.camels + i * 0.12, 0.3), true);
+      s += chip('~20 t', safeX(mx + 190, 200), safeY(my - 360), t, T.tonnes, { alpha: kitA, size: 48 });
+      s += chip('OAK TABLE', safeX(mx + 170, 320), safeY(my - 250), t, T.oak, { alpha: kitA, acc: '#b98545', size: 42 });
     }
     // wagon break obstacle
     const wA = fadeWin(t, T.wagon, T.dump, 0.2, 0.3);
@@ -878,7 +883,6 @@
       if (a > 0) {
         s += `<circle cx="${f2(fx)}" cy="${f2(fy)}" r="12" fill="#fff" stroke="#ffc23a" stroke-width="5" opacity="${f2(a)}"/>`;
         s += chip('FIRST NIGHT', safeX(fx - 60, 280), safeY(fy - 110), t, T.firstNight + 0.2, { alpha: a, acc: '#7fdcff' });
-        s += chip('EDGE OF MELBOURNE', safeX(fx - 20, 420), safeY(fy + 110), t, T.edge, { alpha: a, acc: '#ffc23a', size: 30 });
       }
     }
     // dumping supplies behind the head
@@ -905,8 +909,8 @@
     if (sA > 0) {
       const [x, y] = S(cam, 'cooper');
       for (let i = 0; i < 4; i++) s += person(x - 70 + i * 34, y + 58, 0.9, sA * pop(t, T.four + 0.1 + i * 0.1, 0.3));
-      s += ring(safeX(x + 250, 260), safeY(y - 180), 70, (3 / 12) * smoothstep(T.threeMonths, T.threeMonths + 0.7, t), { alpha: sA * pop(t, T.threeMonths, 0.3), hand: true });
-      s += label3d('3 MONTHS', safeX(x + 250, 260), safeY(y - 50), { size: 46, alpha: sA * pop(t, T.threeMonths, 0.3) });
+      s += ring(safeX(x - 250, 260), safeY(y - 180), 70, (3 / 12) * smoothstep(T.threeMonths, T.threeMonths + 0.7, t), { alpha: sA * pop(t, T.threeMonths, 0.3), hand: true });
+      s += label3d('3 MONTHS', safeX(x - 250, 260), safeY(y - 50), { size: 46, alpha: sA * pop(t, T.threeMonths, 0.3) });
     }
     // race north: dashed intent + names + km ruler
     const nA = fadeWin(t, T.north, T.gulfArr + 0.4, 0.2, 0.4);

@@ -2,17 +2,20 @@
 
 Stack: SVG + `renderFrame(t)` + Playwright + ffmpeg. No Remotion. Reuses `shorts/shared/render/` (capture + frame loader).
 
-## ⚠ Held VO covers only the back half of the script
+## VO
 
-`audio/vo.mp3` (39.168 s) starts at **"On the way back, food runs out…"** and ends on **"…story of how"**, which is about 112 of ~251 words.
-The first half ("In 1860…" → "…never seeing the ocean") is **not in the file**. Whisper confirms speech starts at 0.00 s with no leading silence.
-At the take's real pace (~2.9 words/s) the full script would run **~87 s**, not 39 s.
+The full Atlas take is `audio/vo.mp3` (**89.736 s**). It supersedes the 39.168 s back-half take.
+`transcript.json` uses faster-whisper word timings with the script's own words, aligned by `render/align_transcript.py`. That fixes Whisper's "Two weeks", "tons", "miss", "O 'Hara" and "Yandrew Wanda".
 
-How this build handles it:
-- Every beat in `scenes.js` is anchored to a **phrase in `transcript.json`**, not to a hard-coded second.
-- **Held VO (back half):** beats 1–7 collapse into a 1.4 s route recap under the frame-1 `NINE HOURS` hook. The outward route self-draws Melbourne→Menindee→Cooper→Gulf with pins. The film then plays beats 8–13 at full quality. This is the Checkpoint C MP4.
-- **Full VO (when recorded):** drop the new `vo.mp3` in, re-transcribe to `transcript.json`, and run `video`. Beats 1–7 turn on automatically. Burke and Royal Park cards, camels, `~20 t`, `OAK TABLE`, the wagon break, `FIRST NIGHT`, dumping crates, the Menindee pile, the Cooper split, `3 MONTHS`, WILLS/KING/GRAY, the `~1,100 KM` ruler, `~2 MONTHS` and the mangrove "no ocean" obstacle all appear.
-  A silent **full-script animatic** with synthetic paced timings (`transcript-full-animatic.json`) previews that version.
+Every beat in `scenes.js` is anchored to a **phrase in the transcript**, not a hard-coded second. The same code also still renders a back-half-only VO: when "In 1860" is missing, beats 1–7 collapse into a 1.4 s route recap.
+`transcript-full-animatic.json` holds the synthetic timings used for the earlier silent animatic.
+
+Re-time after any new VO:
+```bash
+python3 /path/to/whisper_words.py audio/vo.mp3 > /tmp/raw.json   # faster-whisper small.en, word_timestamps=True
+python3 render/align_transcript.py /tmp/raw.json
+node render/render.mjs video && node render/render.mjs sheet
+```
 
 ## Commands
 ```bash
@@ -42,7 +45,7 @@ The ~1,100 KM figure is the straight-line haversine distance from Cooper Creek t
 `mix.mjs` follows the locked path:
 - VO measures −22.8 LUFS and gets static +5.2 dB plus `apad`.
 - The Dark Drama bed is −9.1 LUFS. It gets static −26 dB from 8 s in, about 4 dB under s18's Silent Descent seat, plus +3.5 dB lifts in VO gaps.
-- There are 9 phrase-anchored SFX cues.
+- There are 10 phrase-anchored SFX cues for the full VO: hook, the Melbourne push, the wagon, the race north, the DIG card, DIG, a riser, NINE HOURS, the pull-out and the whip.
 - Then float `amix`, a peak limiter and two-pass `loudnorm` on the master only. The master lands at −14.0 LUFS with a −1.9 dBTP peak.
 
 ## Fonts

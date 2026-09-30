@@ -4,7 +4,7 @@
  *   VO (held Atlas, never loudnorm'd pre-mix): measured −22.8 LUFS → static +5.2 dB + apad
  *   Music (Dark Drama, Mixkit 605, −9.1 LUFS track): static −26 dB (≈4 dB under s18's Silent Descent
  *     seat: −13.3 LUFS track at −19 dB) + gentle +3.5 dB lifts in VO gaps from transcript.json
- *   SFX: 9 intentional cues anchored to transcript phrases
+ *   SFX: 9–10 intentional cues anchored to transcript phrases
  *   → float amix (normalize=0) → peak limiter → two-pass loudnorm on the MASTER only (−14 LUFS / −1.5 dBTP)
  */
 import { execFileSync } from 'node:child_process';
@@ -39,18 +39,38 @@ for (let i = 0; i < words.length - 1; i++) {
 const lift = gaps.map(([a, b]) => `clip((t-${a.toFixed(2)})/0.12,0,1)*clip((${b.toFixed(2)}-t)/0.12,0,1)`).join('+') || '0';
 const musicExpr = `pow(10,(${MUSIC_DB}+3.5*min(1,${lift}))/20)`;
 
-const nine = at('nine hours', 22.5);
-const CUES = [
-  ['impact_hit', 0.0, -9], // frame-1 NINE HOURS slam
-  ['whoosh_1', 1.05, -9], // recap lands on the Gulf, return begins
-  ['paper_rustle', at('carve a message', 14.9), -6], // DIG Tree card
-  ['impact_hit', at('dig', 16.2) - 0.02, -8], // DIG blaze
-  ['riser', nine - 2.45, -12], // build into the miss
-  ['impact_hit', nine, -7], // NINE HOURS
-  ['whoosh_2', at('only king', 28.8) - 0.05, -10], // King card
-  ['whoosh_1', at("and it's why", 35.5), -11], // pull out to the continent
-  ['whoosh_2', DUR - 0.5, -7], // whip back to frame 1
-];
+const FULL = at('in 1860', null) != null;
+function atN(phrase, n, fb) {
+  const k = phrase.split(' ').map(norm);
+  for (let i = 0; i + k.length <= NW.length; i++) if (k.every((x, j) => NW[i + j] === x) && n-- === 0) return words[i].start;
+  return fb;
+}
+const nine = FULL ? atN('nine hours', 1, 73.2) : at('nine hours', 22.5);
+// 9–10 intentional cues, anchored to phrases (never dense text_pop chatter)
+const CUES = FULL
+  ? [
+      ['impact_hit', 0.0, -9], // frame-1 NINE HOURS slam
+      ['whoosh_1', at('their leader', 7.4) - 0.15, -11], // push into Melbourne
+      ['impact_hit', at('the park', 22.8), -15], // wagon breaks
+      ['whoosh_2', at('races north', 39.4) - 0.05, -10], // dash north
+      ['paper_rustle', at('carve a message', 65.6), -6], // DIG Tree card
+      ['impact_hit', at('dig', 67.0) - 0.02, -8], // DIG blaze
+      ['riser', nine - 2.45, -12], // build into the miss
+      ['impact_hit', nine, -7], // NINE HOURS
+      ['whoosh_1', at("and it's why", 86.0), -11], // pull out to the continent
+      ['whoosh_2', DUR - 0.5, -7], // whip back to frame 1
+    ]
+  : [
+      ['impact_hit', 0.0, -9],
+      ['whoosh_1', 1.05, -9],
+      ['paper_rustle', at('carve a message', 14.9), -6],
+      ['impact_hit', at('dig', 16.2) - 0.02, -8],
+      ['riser', nine - 2.45, -12],
+      ['impact_hit', nine, -7],
+      ['whoosh_2', at('only king', 28.8) - 0.05, -10],
+      ['whoosh_1', at("and it's why", 35.5), -11],
+      ['whoosh_2', DUR - 0.5, -7],
+    ];
 console.log('cues', CUES.map(([f, t]) => `${f}@${t.toFixed(2)}`).join(' '));
 
 const args = ['-y', '-hide_banner', '-loglevel', 'error'];

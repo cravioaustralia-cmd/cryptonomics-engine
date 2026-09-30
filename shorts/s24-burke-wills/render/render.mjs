@@ -45,7 +45,7 @@ if (mode === 'stills') {
   await captureVideo({ episodeDir: EP, outVideo: silent, fps: FPS, duration: DUR });
   const final = path.join(FINAL, 's24-burke-wills.mp4');
   execFileSync('ffmpeg', ['-y', '-hide_banner', '-loglevel', 'error', '-i', silent, '-i', path.join(OUT, 'final-mix.wav'),
-    '-map', '0:v', '-map', '1:a', '-c:v', 'libx264', '-preset', 'slow', '-crf', '19', '-pix_fmt', 'yuv420p', '-r', String(FPS),
+    '-map', '0:v', '-map', '1:a', '-c:v', 'libx264', '-preset', 'slow', '-crf', '20', '-maxrate', '4.2M', '-bufsize', '8M', '-pix_fmt', 'yuv420p', '-r', String(FPS), // maxrate keeps ~90 s ≤ ~50 MB (repo cap 100 MB)
     '-c:a', 'aac', '-b:a', '192k', '-t', String(DUR), '-movflags', '+faststart', final], { stdio: 'inherit' });
   console.log('DONE', final);
 } else if (mode === 'animatic') {
