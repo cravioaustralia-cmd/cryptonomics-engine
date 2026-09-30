@@ -201,3 +201,7 @@ Unpacked 6 Grok VOs into shorts/incoming-vo/. #01 matches finished Skylab Short;
 ## 2026-09-30T20:55+10:00 — s24 Burke & Wills (Atlas VO held)
 - Held Atlas en-AU `audio/vo.mp3` (**39.168 s**) from `/home/box/Downloads/s24_burke_wills_atlas_fast.mp3` (also `/workspace/deliverables/s24-burke-wills/vo-raw/vo-atlas.mp3`)
 - Ready for Claude Whisper / seam retune; incomplete loop on `…story of how`
+
+## 2026-10-01T01:04+10:00 — s25 Cliff Young (Atlas VO held)
+- Held Atlas en-AU `audio/vo.mp3` (**87.336 s**) from `/home/box/Downloads/s25_cliff_young_atlas_fast.mp3` (also `/workspace/deliverables/s25-cliff-young/vo-raw/vo-atlas.mp3`)
+- Ready for Claude Whisper / seam retune to this file; do not re-record
