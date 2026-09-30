@@ -1,7 +1,7 @@
 # S23 — Wild Camels & The Ghan
 
 **Slug:** `s23-wild-camels-ghan`  
-**Duration:** pending Atlas VO (~40–50 s target; ~107 spoken words)  
+**Duration:** Atlas VO held **43.008 s** (~107 spoken words)  
 **On-screen hook (frame 1 only; not spoken):** `OVER A MILLION`  
 **Alternates:** `THE GHAN` · `WILD CAMELS` · `1860s`  
 **Mode:** Standard Skylab photo-underlay + premium MG — **NOT** map-explainer mode.  

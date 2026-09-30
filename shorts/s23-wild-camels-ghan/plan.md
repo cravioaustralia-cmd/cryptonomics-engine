@@ -11,7 +11,7 @@
 - Crossfade at seams. **Incomplete loop** ends on `So yes.` — whip/match-cut back to frame-1 `OVER A MILLION` / camel-herd energy into the open.
 - Preferred look: **photo-underlay + MG** (Skylab), shocked herd → sly train tease → storytelling import → haul → Ghan → release twist → Saudi export amused → incomplete loop — not cartoon-world primary, not slideshow-only.
 - Visual rhythm: **shock → tease → origin story → labour → naming → release → export twist → incomplete loop.** Dignity for cameleer communities; no carcass-hero frames; Australian outback–correct stills only.
-- **Atlas VO:** pending → `audio/vo.mp3`. Retune all seams to Whisper timings once VO lands.
+- **Atlas VO:** **held** at `audio/vo.mp3` (**43.008 s**). Retune all seams to Whisper timings.
 - **SFX preference (locked 2026-09-30):** ~**6–10 intentional cues** only — sparse whoosh / riser / impact / soft paper or typewriter colour. **Not** dense `text_pop` chatter on every label.
 
 ## Hook recommendation
@@ -45,7 +45,7 @@ Gaps for Claude (optional): Amedulah Khan camel train (Commons rate-limited at s
 
 ## Audio hand-off
 
-- **`audio/vo.mp3`:** Atlas en-AU pending — drop in when recorded; do not invent timing from this plan alone.
+- **`audio/vo.mp3`:** Atlas en-AU **held** (**43.008 s**). Retune seams to Whisper timings.
 - Bed: `music/music.mp3` and `audio/music.mp3` — **Between Two Evils** by Michael Ramir C., Mixkit Stock Music Free Licence (~147 s; asset id **1020**). **Claude must seat the bed safely under VO**, target roughly **4 dB quieter** than s18’s original Silent Descent bed level before final master loudnorm.
 - SFX: shared Mixkit kit in `sfx/` (whoosh, riser, impact, text pop, typewriter, paper rustle). Source URLs in `sfx/sources.tsv`. Prefer **~6–10 intentional cues** — sparse, not dense text_pop chatter.
 - **Mix warning (critical — keep PR #21 / #23 / #25 path):** measure VO → static gain + `apad` → `amix` → **two-pass loudnorm on master only**. Prefer **float premix**. Do **not** reintroduce single-pass VO `loudnorm` before amix. Target ~**−14 LUFS** on master.

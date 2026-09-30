@@ -1,14 +1,12 @@
 # VO script — s23 Wild Camels & The Ghan
 
-**Status:** Atlas VO **pending** — place held file at `audio/vo.mp3` when recorded.  
-**Delivery target:** fast / shocked Australia-history Short (~40–50 s). Shock herd open; sly train tease; storytelling import; twist feral + Saudi export. en-AU / Atlas.
-
-Emotion cues are for performance reference only — **not spoken**.
+**Status:** Atlas VO **held** at `audio/vo.mp3` (**43.008 s**).  
+**Delivery:** fast / shocked Australia-history Short. Shock herd open; sly train tease; storytelling import; twist feral + Saudi export. en-AU / Atlas. Emotion cues not spoken.
 
 **Loop note:** **Incomplete loop.** Last line `So yes.` affirms the open so the Short cycles cleanly into `The world’s largest herd…`.
 
 **Spoken word count:** ~107 words (excl. emotion cues).  
-**Duration target:** ~40–50 s at Shorts pace (~2.1–2.5 wps).
+**Held duration:** **43.008 s**.
 
 ---
 

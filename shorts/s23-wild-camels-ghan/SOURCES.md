@@ -30,7 +30,7 @@ Episode copies the reviewed Mixkit shared-kit cues (whoosh, riser, impact, text 
 
 ## Audio hand-off
 
-- `audio/vo.mp3` — **pending Atlas en-AU**. See [`audio/README.md`](audio/README.md).
+- `audio/vo.mp3` — **held Atlas en-AU (43.008 s)**. See [`audio/README.md`](audio/README.md).
 - Claude owns audio ducking, SFX timing, final mix and render.
 - Mix path: measure VO → static gain + `apad` → `amix` (prefer float premix) → two-pass loudnorm on master only (PR #21 / #23 / #25). Do **not** pre-amix VO loudnorm. Target ~−14 LUFS. Music ~**4 dB quieter** than s18 original bed under VO.
 
