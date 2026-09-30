@@ -8,7 +8,11 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { pathToFileURL } from 'node:url';
 
-export async function captureVideo({ episodeDir, outVideo, fps = 30, duration }) {
+/**
+ * Start the static server + headless page for an episode. Exported so episode
+ * scripts (previews, contact sheets) reuse the exact render path.
+ */
+export async function openEpisodePage(episodeDir) {
   const renderDir = path.resolve(path.dirname(new URL(import.meta.url).pathname));
   const frameHtml = path.join(renderDir, 'frame.html');
   const scenesUrl = pathToFileURL(path.join(episodeDir, 'render', 'scenes.js')).href;
@@ -32,6 +36,12 @@ export async function captureVideo({ episodeDir, outVideo, fps = 30, duration })
     if (!file && u.pathname.startsWith('/img/')) {
       file = path.join(imgRoot, decodeURIComponent(u.pathname.slice(5)));
     }
+    // /ep/* → episode render/ folder (fonts, extra assets); no path escape
+    if (!file && u.pathname.startsWith('/ep/')) {
+      const base = path.join(episodeDir, 'render');
+      const f = path.normalize(path.join(base, decodeURIComponent(u.pathname.slice(4))));
+      if (f.startsWith(base + path.sep)) file = f;
+    }
     if (!file || !fs.existsSync(file)) {
       res.writeHead(404);
       res.end('missing');
@@ -46,6 +56,10 @@ export async function captureVideo({ episodeDir, outVideo, fps = 30, duration })
       '.jpeg': 'image/jpeg',
       '.png': 'image/png',
       '.webp': 'image/webp',
+      '.svg': 'image/svg+xml',
+      '.ttf': 'font/ttf',
+      '.otf': 'font/otf',
+      '.woff2': 'font/woff2',
     };
     res.writeHead(200, { 'Content-Type': types[ext] || 'application/octet-stream' });
     fs.createReadStream(file).pipe(res);
@@ -55,6 +69,34 @@ export async function captureVideo({ episodeDir, outVideo, fps = 30, duration })
   const { port } = server.address();
   const pageUrl = `http://127.0.0.1:${port}/frame.html?scenes=/scenes.js&transcript=/transcript.json`;
 
+  // Optional: PLAYWRIGHT_CHROMIUM=/path/to/chrome when the bundled browser
+  // revision is not installed (e.g. cloud containers ship /opt/pw-browsers/chromium).
+  const executablePath = process.env.PLAYWRIGHT_CHROMIUM || undefined;
+  const browser = await chromium.launch({
+    headless: true,
+    executablePath,
+    args: ['--disable-dev-shm-usage', '--no-sandbox'],
+  });
+  const page = await browser.newPage({
+    viewport: { width: 1080, height: 1920 },
+    deviceScaleFactor: 1,
+  });
+  await page.goto(pageUrl, { waitUntil: 'networkidle' });
+  await page.waitForFunction(() => window.__ready && window.EPISODE);
+  // Episodes may preload fonts/images (window.EPISODE_READY promise)
+  await page.evaluate(async () => {
+    if (window.EPISODE_READY) await window.EPISODE_READY;
+    if (document.fonts) await document.fonts.ready;
+  });
+  const close = async () => {
+    await browser.close();
+    server.close();
+  };
+  return { page, close };
+}
+
+export async function captureVideo({ episodeDir, outVideo, fps = 30, duration }) {
+  const { page, close } = await openEpisodePage(episodeDir);
   const totalFrames = Math.ceil(duration * fps);
   fs.mkdirSync(path.dirname(outVideo), { recursive: true });
 
@@ -85,17 +127,6 @@ export async function captureVideo({ episodeDir, outVideo, fps = 30, duration })
     { stdio: ['pipe', 'inherit', 'inherit'] }
   );
 
-  const browser = await chromium.launch({
-    headless: true,
-    args: ['--disable-dev-shm-usage', '--no-sandbox'],
-  });
-  const page = await browser.newPage({
-    viewport: { width: 1080, height: 1920 },
-    deviceScaleFactor: 1,
-  });
-  await page.goto(pageUrl, { waitUntil: 'networkidle' });
-  await page.waitForFunction(() => window.__ready && window.EPISODE);
-
   const t0 = Date.now();
   for (let i = 0; i < totalFrames; i++) {
     const t = i / fps;
@@ -112,8 +143,7 @@ export async function captureVideo({ episodeDir, outVideo, fps = 30, duration })
   await new Promise((resolve, reject) => {
     ff.on('exit', (code) => (code === 0 ? resolve() : reject(new Error('ffmpeg video ' + code))));
   });
-  await browser.close();
-  server.close();
+  await close();
   console.log('Silent video →', outVideo);
   return outVideo;
 }

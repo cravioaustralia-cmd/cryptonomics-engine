@@ -1,0 +1,23 @@
+VO measured -23.2 LUFS → static gain +5.2 dB (no loudnorm pre-mix)
+Music window measured -12.3 LUFS → static -23.9 dB (bed target -36.2 LUFS = s18 bed −4 LU)
+master pass 1: -18.63 LUFS · -5.94 dBTP · LRA 3.70 · thresh -29.37 · offset 0.74
+master pass 2 (ebur128 on final-mix.wav):
+[Parsed_ebur128_0 @ 0x559107885d00] Summary:
+
+  Integrated loudness:
+    I:         -14.1 LUFS
+    Threshold: -24.8 LUFS
+
+  Loudness range:
+    LRA:         3.0 LU
+    Threshold: -34.8 LUFS
+    LRA low:   -16.3 LUFS
+    LRA high:  -13.3 LUFS
+
+  True peak:
+    Peak:       -1.5 dBFS
+premix stem vo: I -18.5 LUFS · sample peak -6 dBFS · max short-term -15.9 LUFS
+premix stem music: I -35.9 LUFS · sample peak -20.7 dBFS · max short-term -33.8 LUFS
+premix stem sfx: I -34.3 LUFS · sample peak -19.6 dBFS · max short-term -33.8 LUFS
+SFX peak under VO peak: 13.6 dB · SFX max short-term under VO max short-term: 17.9 LU
+SFX: 10 beat cues + 10 shoe-counter dings (one staged gag, 1 → 10)

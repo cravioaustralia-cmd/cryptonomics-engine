@@ -205,3 +205,10 @@ Unpacked 6 Grok VOs into shorts/incoming-vo/. #01 matches finished Skylab Short;
 ## 2026-10-01T01:04+10:00 — s25 Cliff Young (Atlas VO held)
 - Held Atlas en-AU `audio/vo.mp3` (**87.336 s**) from `/home/box/Downloads/s25_cliff_young_atlas_fast.mp3` (also `/workspace/deliverables/s25-cliff-young/vo-raw/vo-atlas.mp3`)
 - Ready for Claude Whisper / seam retune to this file; do not re-record
+
+## 2026-10-01 — s25 Cliff Young (Claude premium build, Checkpoint C)
+- `render/scenes.js` owned by Claude: 16 Whisper-timed Skylab beats (photo underlay + SVG MG), frame-1 hook `61 · GUMBOOTS`, all five Visual gags staged on their lines (logos vs sheep sticker · zzz tents + shuffle-past · guilty alarm clock · shoe counter ×1→×10 with dings · confetti → gumboots on podium), incomplete loop `…laughed at when,` → whip to frame 1
+- `transcript.json`: faster-whisper `medium.en` on held `audio/vo.mp3` (87.336 s), snapped to script spelling (0 mismatches / 231 words)
+- Route map card: NASA Blue Marble SE-Australia crop, graded to GeoGlobeTales bar (no blown relief); approximate Hume corridor; labels SYDNEY · MELBOURNE only
+- Stills: Wikimedia hosts are blocked in the build container → CC BY 2.0 Flickr stills via CommonCatalog (HF) for boots, Apollo Bay/Otways, Otways sheep, NSW country road, crowd; Sydney + Melbourne reused from repo. **No free Cliff Young photo** — shown as gold token/pictogram only (see `images/SOURCES.md`)
+- Mix: VO static +5.2 dB → bed −36.2 LUFS (s18 −4 LU) → 10 beat SFX + 10 counter dings (synthesised ding / zzz / confetti) → float amix → two-pass master loudnorm −14 LUFS
