@@ -174,3 +174,16 @@ Unpacked 6 Grok VOs into shorts/incoming-vo/. #01 matches finished Skylab Short;
 - Asset gaps for Claude: optional Amedulah Khan camel train; higher-res Sadadeen; soft export still if free-licence
 
 - 2026-09-30T19:00+10:00 — Atlas VO locked at audio/vo.mp3 (**43.008 s**). Ready for Claude premium build (issue opened; do not @claude until Video Production hands off).
+
+## 2026-09-30T20:50+10:00 — s24 Burke & Wills (scaffold)
+- Episode: `shorts/s24-burke-wills/`
+- **Mode: MAP EXPLAINER (locked)** — GeoArchivez standing quality bar; Rankora secondary only
+- Atlas VO **held** at `audio/vo.mp3` (**39.168 s**) from Downloads `s24_burke_wills_atlas_fast.mp3` — not re-recorded
+- Scaffold only (Checkpoint C): script, vo_script, plan with ANIMATE map beat table, MAP_EXPLAINER_MODE.md, SOURCES, fact-check, Dark Drama bed (Mixkit 605), Mixkit SFX, render README
+- **No `scenes.js`** — Claude owns design / animation / mix
+- Stills: 22 Commons / NLA free-licence (Burke/Wills/King PD portraits, Dig Tree, Cooper/Menindee, NASA topo/sat basemaps, Longstaff, ST Gill departure, mangrove/Gulf coast); no AI stills
+- Hook: `NINE HOURS` (alts `DIG` · `1860`)
+- Soft facts: two-men open PASS-SOFT; ~20 t / oak table PASS; nine hours PASS-SOFT; DIG PASS; Gray ~4 days PASS; mangrove not ocean PASS; Yandruwandha dignity PASS
+- Geography lock: Melbourne→Menindee→Cooper→Gulf→Cooper; never beach-ocean at Gulf
+- Incomplete loop: `…story of how` → `In 1860…`
+- Note: s06 reserved Somerton Man; s23 Wild Camels; this is s24
