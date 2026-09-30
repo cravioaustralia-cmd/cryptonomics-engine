@@ -187,3 +187,7 @@ Unpacked 6 Grok VOs into shorts/incoming-vo/. #01 matches finished Skylab Short;
 - Geography lock: Melbourne→Menindee→Cooper→Gulf→Cooper; never beach-ocean at Gulf
 - Incomplete loop: `…story of how` → `In 1860…`
 - Note: s06 reserved Somerton Man; s23 Wild Camels; this is s24
+
+## 2026-09-30T20:55+10:00 — s24 Burke & Wills (Atlas VO held)
+- Held Atlas en-AU `audio/vo.mp3` (**39.168 s**) from `/home/box/Downloads/s24_burke_wills_atlas_fast.mp3` (also `/workspace/deliverables/s24-burke-wills/vo-raw/vo-atlas.mp3`)
+- Ready for Claude Whisper / seam retune; incomplete loop on `…story of how`
