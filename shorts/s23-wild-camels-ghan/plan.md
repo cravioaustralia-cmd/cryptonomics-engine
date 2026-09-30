@@ -22,7 +22,7 @@
 
 ## Beat table
 
-Approximate seams — Claude must retune against Whisper word timings from `audio/vo.mp3` once held.
+Approximate seams — Claude must retune against Whisper word timings from `audio/vo.mp3` (held **43.008 s**).
 
 | # | Time (approx) | Mode | Photo underlay (factually tied) | Named motion / MG treatment |
 |---|---|---|---|---|
