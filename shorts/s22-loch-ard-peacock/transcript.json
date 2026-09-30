@@ -1,0 +1,501 @@
+{
+ "duration": 40.2,
+ "source": "faster-whisper medium.en word timestamps on audio/vo.mp3 (hyphenated tokens merged)",
+ "words": [
+  {
+   "word": "A",
+   "start": 0.0,
+   "end": 0.16
+  },
+  {
+   "word": "ship",
+   "start": 0.16,
+   "end": 0.46
+  },
+  {
+   "word": "sank",
+   "start": 0.46,
+   "end": 0.8
+  },
+  {
+   "word": "off",
+   "start": 0.8,
+   "end": 1.1
+  },
+  {
+   "word": "Australia,",
+   "start": 1.1,
+   "end": 1.68
+  },
+  {
+   "word": "and",
+   "start": 2.1,
+   "end": 2.22
+  },
+  {
+   "word": "only",
+   "start": 2.22,
+   "end": 2.46
+  },
+  {
+   "word": "three",
+   "start": 2.46,
+   "end": 2.82
+  },
+  {
+   "word": "things",
+   "start": 2.82,
+   "end": 3.16
+  },
+  {
+   "word": "survived.",
+   "start": 3.16,
+   "end": 3.74
+  },
+  {
+   "word": "Two",
+   "start": 4.24,
+   "end": 4.36
+  },
+  {
+   "word": "teenagers\u2026",
+   "start": 4.36,
+   "end": 4.92
+  },
+  {
+   "word": "and",
+   "start": 4.92,
+   "end": 5.34
+  },
+  {
+   "word": "a",
+   "start": 5.34,
+   "end": 5.56
+  },
+  {
+   "word": "peacock.",
+   "start": 5.56,
+   "end": 6.04
+  },
+  {
+   "word": "1878.",
+   "start": 6.88,
+   "end": 7.48
+  },
+  {
+   "word": "The",
+   "start": 8.0,
+   "end": 8.06
+  },
+  {
+   "word": "Loch",
+   "start": 8.06,
+   "end": 8.38
+  },
+  {
+   "word": "Ard",
+   "start": 8.38,
+   "end": 8.66
+  },
+  {
+   "word": "hits",
+   "start": 8.66,
+   "end": 9.0
+  },
+  {
+   "word": "rocks",
+   "start": 9.0,
+   "end": 9.4
+  },
+  {
+   "word": "before",
+   "start": 9.4,
+   "end": 9.78
+  },
+  {
+   "word": "dawn.",
+   "start": 9.78,
+   "end": 10.2
+  },
+  {
+   "word": "Fifty-four",
+   "start": 10.68,
+   "end": 11.14
+  },
+  {
+   "word": "people",
+   "start": 11.14,
+   "end": 11.48
+  },
+  {
+   "word": "on",
+   "start": 11.48,
+   "end": 11.72
+  },
+  {
+   "word": "board.",
+   "start": 11.72,
+   "end": 11.98
+  },
+  {
+   "word": "Tom,",
+   "start": 12.58,
+   "end": 12.88
+  },
+  {
+   "word": "an",
+   "start": 13.06,
+   "end": 13.24
+  },
+  {
+   "word": "18-year-old",
+   "start": 13.24,
+   "end": 13.94
+  },
+  {
+   "word": "apprentice,",
+   "start": 13.94,
+   "end": 14.36
+  },
+  {
+   "word": "is",
+   "start": 14.68,
+   "end": 14.76
+  },
+  {
+   "word": "washed",
+   "start": 14.76,
+   "end": 15.16
+  },
+  {
+   "word": "into",
+   "start": 15.16,
+   "end": 15.44
+  },
+  {
+   "word": "a",
+   "start": 15.44,
+   "end": 15.68
+  },
+  {
+   "word": "gorge.",
+   "start": 15.68,
+   "end": 15.98
+  },
+  {
+   "word": "Then",
+   "start": 16.44,
+   "end": 16.64
+  },
+  {
+   "word": "he",
+   "start": 16.64,
+   "end": 16.82
+  },
+  {
+   "word": "hears",
+   "start": 16.82,
+   "end": 17.08
+  },
+  {
+   "word": "screaming.",
+   "start": 17.08,
+   "end": 17.6
+  },
+  {
+   "word": "It's",
+   "start": 18.04,
+   "end": 18.36
+  },
+  {
+   "word": "Eva,",
+   "start": 18.36,
+   "end": 18.6
+  },
+  {
+   "word": "also",
+   "start": 18.86,
+   "end": 19.14
+  },
+  {
+   "word": "18,",
+   "start": 19.14,
+   "end": 19.6
+  },
+  {
+   "word": "who's",
+   "start": 19.92,
+   "end": 20.2
+  },
+  {
+   "word": "just",
+   "start": 20.2,
+   "end": 20.4
+  },
+  {
+   "word": "lost",
+   "start": 20.4,
+   "end": 20.7
+  },
+  {
+   "word": "her",
+   "start": 20.7,
+   "end": 20.88
+  },
+  {
+   "word": "entire",
+   "start": 20.88,
+   "end": 21.3
+  },
+  {
+   "word": "family.",
+   "start": 21.3,
+   "end": 21.78
+  },
+  {
+   "word": "He",
+   "start": 22.06,
+   "end": 22.34
+  },
+  {
+   "word": "swims",
+   "start": 22.34,
+   "end": 22.8
+  },
+  {
+   "word": "back",
+   "start": 22.8,
+   "end": 23.02
+  },
+  {
+   "word": "out",
+   "start": 23.02,
+   "end": 23.32
+  },
+  {
+   "word": "and",
+   "start": 23.32,
+   "end": 23.54
+  },
+  {
+   "word": "drags",
+   "start": 23.54,
+   "end": 23.88
+  },
+  {
+   "word": "her",
+   "start": 23.88,
+   "end": 24.04
+  },
+  {
+   "word": "to",
+   "start": 24.04,
+   "end": 24.22
+  },
+  {
+   "word": "shore.",
+   "start": 24.22,
+   "end": 24.46
+  },
+  {
+   "word": "The",
+   "start": 24.84,
+   "end": 25.08
+  },
+  {
+   "word": "whole",
+   "start": 25.08,
+   "end": 25.3
+  },
+  {
+   "word": "country",
+   "start": 25.3,
+   "end": 25.66
+  },
+  {
+   "word": "wanted",
+   "start": 25.66,
+   "end": 25.96
+  },
+  {
+   "word": "them",
+   "start": 25.96,
+   "end": 26.14
+  },
+  {
+   "word": "to",
+   "start": 26.14,
+   "end": 26.38
+  },
+  {
+   "word": "marry.",
+   "start": 26.38,
+   "end": 26.6
+  },
+  {
+   "word": "They",
+   "start": 26.8,
+   "end": 26.98
+  },
+  {
+   "word": "didn't.",
+   "start": 26.98,
+   "end": 27.38
+  },
+  {
+   "word": "And",
+   "start": 27.38,
+   "end": 27.86
+  },
+  {
+   "word": "the",
+   "start": 27.86,
+   "end": 28.0
+  },
+  {
+   "word": "third",
+   "start": 28.0,
+   "end": 28.2
+  },
+  {
+   "word": "survivor?",
+   "start": 28.2,
+   "end": 28.74
+  },
+  {
+   "word": "A",
+   "start": 29.3,
+   "end": 29.3
+  },
+  {
+   "word": "life-size",
+   "start": 29.3,
+   "end": 29.84
+  },
+  {
+   "word": "ceramic",
+   "start": 29.84,
+   "end": 30.26
+  },
+  {
+   "word": "peacock,",
+   "start": 30.26,
+   "end": 30.88
+  },
+  {
+   "word": "washed",
+   "start": 31.12,
+   "end": 31.5
+  },
+  {
+   "word": "ashore",
+   "start": 31.5,
+   "end": 31.84
+  },
+  {
+   "word": "in",
+   "start": 31.84,
+   "end": 32.0
+  },
+  {
+   "word": "its",
+   "start": 32.0,
+   "end": 32.14
+  },
+  {
+   "word": "crate,",
+   "start": 32.14,
+   "end": 32.46
+  },
+  {
+   "word": "almost",
+   "start": 32.82,
+   "end": 33.08
+  },
+  {
+   "word": "without",
+   "start": 33.08,
+   "end": 33.4
+  },
+  {
+   "word": "a",
+   "start": 33.4,
+   "end": 33.58
+  },
+  {
+   "word": "scratch.",
+   "start": 33.58,
+   "end": 33.9
+  },
+  {
+   "word": "Today",
+   "start": 34.4,
+   "end": 34.66
+  },
+  {
+   "word": "it's",
+   "start": 34.66,
+   "end": 34.94
+  },
+  {
+   "word": "valued",
+   "start": 34.94,
+   "end": 35.2
+  },
+  {
+   "word": "at",
+   "start": 35.2,
+   "end": 35.5
+  },
+  {
+   "word": "millions.",
+   "start": 35.5,
+   "end": 35.78
+  },
+  {
+   "word": "Only",
+   "start": 36.4,
+   "end": 36.6
+  },
+  {
+   "word": "three",
+   "start": 36.6,
+   "end": 36.96
+  },
+  {
+   "word": "things",
+   "start": 36.96,
+   "end": 37.32
+  },
+  {
+   "word": "survived.",
+   "start": 37.32,
+   "end": 37.84
+  },
+  {
+   "word": "Two",
+   "start": 38.32,
+   "end": 38.46
+  },
+  {
+   "word": "teenagers\u2026",
+   "start": 38.46,
+   "end": 38.98
+  },
+  {
+   "word": "and",
+   "start": 38.98,
+   "end": 39.42
+  },
+  {
+   "word": "a",
+   "start": 39.42,
+   "end": 39.56
+  },
+  {
+   "word": "peacock.",
+   "start": 39.56,
+   "end": 40.0
+  }
+ ]
+}

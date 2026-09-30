@@ -38,3 +38,13 @@ Episode copies the reviewed Mixkit shared-kit cues (whoosh, riser, impact, text 
 - Flagstaff Hill Maritime Museum — Minton peacock provenance / display
 - National Portrait Gallery — Thomas Pearce notes (age 18 in NPG caption)
 - Period 1878 press / survivor narratives — rescue sequence; no marriage
+
+## Fonts (render/fonts)
+
+| File | Family | Licence | Source |
+|---|---|---|---|
+| `Anton-Regular.ttf` | Anton (Vernon Adams) | SIL Open Font License 1.1 | https://fonts.google.com/specimen/Anton |
+| `Montserrat-800.ttf`, `Montserrat-900.ttf` | Montserrat (Julieta Ulanovsky et al.) | SIL Open Font License 1.1 | https://fonts.google.com/specimen/Montserrat |
+| `PlayfairDisplay-900.ttf`, `PlayfairDisplay-700i.ttf` | Playfair Display (Claus Eggers Sørensen) | SIL Open Font License 1.1 | https://fonts.google.com/specimen/Playfair+Display |
+
+Stills used in the final cut: s22_01, 03, 04, 05, 07, 08, 09, 15, 16, 17, 20, 22. Twelve Apostles (s22_14) is not used.
