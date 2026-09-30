@@ -39,10 +39,19 @@ Output: `final/s22-loch-ard-peacock.mp4` (1080×1920, 30 fps, 40.200 s) and `fin
 
 Twelve Apostles still is **not used**. Captions sit at ~70% (y≈1344); all graphics stay clear of that band.
 
-## Mix
+## Mix (audio remaster — Checkpoint C redo)
 1. VO measured **−23.0 LUFS** (ebur128) → static **+5 dB** + `apad` — no loudnorm on VO
 2. Music *Fallen (Asper)* static **−23 dB** bed (s18 Silent Descent was −19 dB → 4 dB quieter), +3.5 dB only in VO gaps ≥ 0.45 s
-3. Float `amix` (normalize=0) of VO + music + 50 timed SFX cues → peak safety limiter
-4. **Two-pass loudnorm on the master only** (−14 LUFS, −1.5 dBTP, linear)
+3. **Sparse SFX (8 cues):** hook slam 0.00 · 1878 slam 6.86 (in the VO gap) · rocks 8.98 · rescue riser 21.6 → shore 24.2 · reveal riser 26.75 → peacock iris 29.28 · loop whoosh 39.5. No text pops, typewriter ticks, rustles or stacked whooshes. Impact tails trimmed to 1.6–2.2 s.
+4. Float `amix` (normalize=0) → peak safety limiter → **two-pass loudnorm on the master only** (−14 LUFS, −1.5 dBTP, linear)
 
-Result: master **−14.0 LUFS**; in the premix the bed sits ~18 LU under the VO stem.
+Premix levels (same gains):
+
+| Stem | Integrated | Sample peak | Max short-term |
+|---|---|---|---|
+| VO | −18.4 LUFS | −6.0 dBFS | −17.2 LUFS |
+| Music | −36.2 LUFS | −20.3 dBFS | −34.7 LUFS |
+| SFX | −34.7 LUFS | −18.6 dBFS | −34.1 LUFS |
+
+SFX peaks sit **12.6 dB** under VO peaks. There are no SFX at all from 11.2–21.6 s or 31.5–39.5 s.
+Final MP4: **−14.1 LUFS**, true peak −1.3 dBTP. Audio-only rebuild: `node build.mjs --remux`.

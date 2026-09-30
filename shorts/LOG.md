@@ -165,3 +165,4 @@ Unpacked 6 Grok VOs into shorts/incoming-vo/. #01 matches finished Skylab Short;
 - Mix: VO −23.0 LUFS → +5 dB static + apad; Fallen (Asper) bed −23 dB (4 dB under s18); float amix + SFX; two-pass loudnorm on master only → −14.0 LUFS
 - Final: `final/s22-loch-ard-peacock.mp4` (1080×1920, 30 fps, 40.200 s) + `final/contact-sheet.jpg`; loop last frame matches frame 1
 - Shared render: `capture.mjs` now serves `/ep/*` episode assets, waits for fonts, exports `openEpisodePage`, honours `PLAYWRIGHT_CHROMIUM`
+- 2026-09-30 — s22 audio remaster (Checkpoint C redo, feedback: SFX too noisy): SFX cut from 50 cues to 8 (hook, 1878, rocks, rescue riser + shore, reveal riser + peacock, loop whoosh), impact tails trimmed; SFX peak 12.6 dB under VO in premix; bed unchanged at −23 dB; master two-pass loudnorm only → −14.1 LUFS; remuxed onto the unchanged video stream

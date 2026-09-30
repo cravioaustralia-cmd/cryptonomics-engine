@@ -3,6 +3,7 @@
  * s22 full build: mix (mix.mjs) → Playwright capture (shared/render/capture.mjs)
  * → mux → final/s22-loch-ard-peacock.mp4 + final/contact-sheet.jpg (from the final MP4).
  *   PLAYWRIGHT_CHROMIUM=/opt/pw-browsers/chromium node build.mjs   (cloud container)
+ *   node build.mjs --remux   audio-only rebuild: re-mix and mux onto the existing out/ silent video
  */
 import { execFileSync } from 'node:child_process';
 import fs from 'node:fs';
@@ -22,9 +23,13 @@ const fps = 30;
 console.log('== Mix ==');
 execFileSync('node', [path.join(HERE, 'mix.mjs')], { stdio: 'inherit' });
 
-console.log('== Capture ==');
 const silent = path.join(OUT, `${slug}-silent.mp4`);
-await captureVideo({ episodeDir: EP, outVideo: silent, fps, duration });
+if (process.argv.includes('--remux') && fs.existsSync(silent)) {
+  console.log('== Capture skipped (--remux): reusing', silent, '==');
+} else {
+  console.log('== Capture ==');
+  await captureVideo({ episodeDir: EP, outVideo: silent, fps, duration });
+}
 
 console.log('== Mux ==');
 const mp4 = path.join(FINAL, `${slug}.mp4`);
