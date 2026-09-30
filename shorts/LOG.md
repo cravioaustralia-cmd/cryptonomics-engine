@@ -148,3 +148,14 @@ Unpacked 6 Grok VOs into shorts/incoming-vo/. #01 matches finished Skylab Short;
 - 2026-09-29: Atlas VO locked at audio/vo.mp3 (40.920 s). Ready for Claude premium build.
 
 - 2026-09-29: Scaffold s20-sar-region (MAP EXPLAINER) + Atlas VO 40.536s locked. Ready for Claude.
+
+## 2026-09-30T11:15+10:00 — s22 Loch Ard Peacock (scaffold)
+- Episode: `shorts/s22-loch-ard-peacock/`
+- Atlas VO **pending** — scaffold only (Checkpoint C): script, vo_script (~105–110 spoken words), plan with ANIMATE beat table (standard Skylab, **not** map-explainer), SOURCES, fact-check (all PASS / PASS-SOFT; no FAIL), Fallen (Asper) bed (Eugenio Mininni / Mixkit id 565; ~4 dB quieter than s18 bed instruction), Mixkit SFX (+ paper_rustle), render README
+- **No `scenes.js`** — Claude owns design / animation / mix
+- Stills: 19 Commons free-licence (Minton peacock; Loch Ard Gorge / Island Arch / Mutton Bird Island; period Loch Ard ship SLV/SLQ; gorge cemetery; Flagstaff Hill village; soft Twelve Apostles coast colour); no AI stills; no gore
+- Soft facts: ages 18–19; “third survivor” peacock metaphor; “valued at millions” = ~A$4m insurance/marketing not auction hammer; public wanted Tom & Eva to marry — they didn’t
+- Hook: THREE SURVIVORS (alts THE PEACOCK · LOCH ARD · 1878); incomplete loop echoes open
+- Geography lock: Victoria / Shipwreck Coast / Loch Ard Gorge / Mutton Bird Island / Flagstaff Hill Warrnambool only; never stamp Twelve Apostles as wreck site
+- Note: s06 reserved Somerton Man; s21 Broome Japanese Cemetery; **this is s22**
+- Asset gaps for Claude: optional 1878 Pearce/Carmichael portraits (licence-check); Carmichael watch Commons CC0; hull/rigging plans PD
