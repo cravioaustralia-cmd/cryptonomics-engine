@@ -757,7 +757,7 @@
       const a = fadeWin(t, T.aBurke - 0.1, T.missed + 0.4, 0.2, 0.35);
       names.forEach(([n, tn], i) => {
         s += person(dx + 70 + i * 40, dy - 34 + (i % 2) * 6, 0.95, a * pop(t, tn, 0.3), '#ffd7b0');
-        s += chip(n, safeX(dx - 200 + i * 205, 190), safeY(dy - 300 + (i % 2) * 10), t, tn, { alpha: a, acc: '#ff5a2c', size: 36 });
+        s += chip(n, 830, 360 + i * 92, t, tn, { alpha: a, acc: '#ff5a2c', size: 36 });
       });
     }
     const nk = fadeWin(t, T.missed, T.nineE + 1.5, 0.25, 0.45);
@@ -1014,7 +1014,7 @@
     <linearGradient id="topShade" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#000" stop-opacity=".55"/><stop offset=".16" stop-color="#000" stop-opacity="0"/><stop offset=".78" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity=".6"/></linearGradient>
     <pattern id="grainP" width="480" height="480" patternUnits="userSpaceOnUse"><image id="grainImg" href="/ep/render/assets/grain.png" width="480" height="480"/></pattern>
   </defs>
-  <rect width="${W}" height="${H}" fill="#050a12"/>
+  <rect width="${W}" height="${H}" fill="#08121f"/>
   <g id="camWrap" filter="url(#whip)"><g id="cam">
     <image href="/ep/render/assets/basemap.jpg" x="0" y="0" width="${MAP_W}" height="${MAP_H}" preserveAspectRatio="none"/>
     <g id="mapvec"></g>
