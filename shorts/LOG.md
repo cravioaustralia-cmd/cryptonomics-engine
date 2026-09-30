@@ -1,5 +1,15 @@
 # History Shorts production log
 
+
+## 2026-10-01 — Scaffold s25 Cliff Young (Skylab; pending Atlas VO)
+- Episode: `shorts/s25-cliff-young/`
+- Mode: Standard Skylab photo-underlay + MG (NOT map-explainer primary). Map inserts: GeoGlobeTales quality.
+- Hook: `61 · GUMBOOTS` (never spoken). Incomplete loop mid-phrase into open.
+- VO: pending Atlas — place at `audio/vo.mp3` when recorded (~231 spoken words).
+- Music: Mixkit Better Times Are Coming (Alejandro Magaña / id 173).
+- No scenes.js — Claude owns design. Five visual gags locked in script/plan.
+- Deliverables paste brief: `/workspace/deliverables/s25-cliff-young/PASTE_BRIEF.md`
+
 ## 2026-09-25 — Switched repo
 - Production home moved from cravioaustralia-cmd/shorts-channel to cravioaustralia-cmd/cryptonomics-engine per user.
 - Shared Mixkit SFX kit copied into public/sfx/ and shorts/shared/sfx/.
