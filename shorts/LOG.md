@@ -172,3 +172,5 @@ Unpacked 6 Grok VOs into shorts/incoming-vo/. #01 matches finished Skylab Short;
 - SFX preference locked 2026-09-30: ~6–10 intentional cues (sparse)
 - Note: s06 reserved Somerton Man; s22 Loch Ard Peacock; **this is s23**
 - Asset gaps for Claude: optional Amedulah Khan camel train; higher-res Sadadeen; soft export still if free-licence
+
+- 2026-09-30T19:00+10:00 — Atlas VO locked at audio/vo.mp3 (**43.008 s**). Ready for Claude premium build (issue opened; do not @claude until Video Production hands off).
