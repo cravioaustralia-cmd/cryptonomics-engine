@@ -191,3 +191,14 @@ Unpacked 6 Grok VOs into shorts/incoming-vo/. #01 matches finished Skylab Short;
 ## 2026-09-30T20:55+10:00 — s24 Burke & Wills (Atlas VO held)
 - Held Atlas en-AU `audio/vo.mp3` (**39.168 s**) from `/home/box/Downloads/s24_burke_wills_atlas_fast.mp3` (also `/workspace/deliverables/s24-burke-wills/vo-raw/vo-atlas.mp3`)
 - Ready for Claude Whisper / seam retune; incomplete loop on `…story of how`
+
+## 2026-09-30 — s24 Burke & Wills (Claude build, Checkpoint C)
+- Built `render/scenes.js` as a map explainer: georeferenced NASA topo canvas, self-drawing outward and return routes, always-moving camera, obstacle cutaways, dusk and grief grades, and a whip-back loop.
+- Built `render/mix.mjs` on the locked path. The master measures −14.0 LUFS and −1.9 dBTP, with 9 SFX cues.
+- **VO gap:** the held `audio/vo.mp3` (39.168 s) holds only the back half of the script, from "On the way back" to "…story of how". The Checkpoint C MP4 uses a 1.4 s route recap for beats 1–7. The full script at Atlas pace is ~87 s. A decision on the VO is needed; see PR.
+- Silent full-script animatic added for review of beats 1–7.
+
+## 2026-09-30 — s24 Burke & Wills (full-VO remaster)
+- Full Atlas VO 89.736 s. Re-ran Whisper; `render/align_transcript.py` puts the script's words onto Whisper timings, including "Too weak".
+- Beats 1–7 now play to the real VO: Burke, Royal Park, camels, ~20 t, oak table, wagon break, first night, dumping, Menindee, the Cooper split, 3 months, WILLS/KING/GRAY, ~1,100 km, ~2 months, and the mangrove "no ocean" beat. Front-half place labels retire as the route moves on and return for the loop pull-out.
+- The mix has 10 phrase-anchored SFX cues and the bed is unchanged. The final encode is bitrate-capped to stay under the repo size limit.
