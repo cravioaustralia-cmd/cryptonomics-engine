@@ -161,3 +161,16 @@ All files under `images/`. Wikimedia Commons public-domain or Creative Commons /
 - **Licence:** No restrictions (NLA)
 - **URL:** https://commons.wikimedia.org/wiki/File%3ACamel_train_of_the_Afghan_hawker%2C_Amedulah_Khan%2C_ca._1901_%289725658403%29.jpg
 - **Why it fits:** Period Australian camel train colour — soft camel iconography only (**not** the 1860 VEE party itself; do not label as Burke’s camels). Prefer map camel glyphs if unclear.
+
+---
+
+## Build notes (Claude, Checkpoint C)
+
+**Used in the cut:** `s24_12` is the map canvas, graded and upscaled 2× into `render/assets/basemap.jpg` (PD derivative). Brief inserts are `s24_08` (DIG inscription), `s24_14` (Longstaff *Arrival*, credited on the card as a painting) and `s24_20` (John King).
+The full-VO version adds `s24_01` (Burke), `s24_21` (ST Gill, Royal Park) and `s24_02` (Wills).
+
+**Deliberately not used:**
+- `s24_05_coopers_creek.jpg`: the frame shows a suburban creek with a house roof. It is almost certainly a different "Coopers Creek" (the author is NZ-based). It fails the geography lock.
+- `s24_16_weipa_gulf_coast.jpg` and `s24_19_mangrove.jpg`: both read as open sea or beach. The brief forbids a beach-ocean Gulf, so the mangrove obstacle is drawn as vectors on the map instead.
+
+**Fonts:** Anton, Archivo Black and Inter from @fontsource, SIL Open Font Licence 1.1.

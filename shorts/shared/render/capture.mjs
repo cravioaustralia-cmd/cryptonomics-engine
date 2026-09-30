@@ -8,7 +8,20 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { pathToFileURL } from 'node:url';
 
-export async function captureVideo({ episodeDir, outVideo, fps = 30, duration }) {
+// Optional: point at a preinstalled Chromium when the pinned Playwright build is absent.
+const LAUNCH_EXTRA = process.env.CHROMIUM_PATH ? { executablePath: process.env.CHROMIUM_PATH } : {};
+
+export async function captureVideo({
+  episodeDir,
+  outVideo,
+  fps = 30,
+  duration,
+  transcriptPath, // optional override (default <episode>/transcript.json)
+  times, // optional: array of seconds → write PNG stills instead of a video
+  stillsDir,
+  startFrame = 0,
+  endFrame, // optional exclusive frame bound for partial renders
+}) {
   const renderDir = path.resolve(path.dirname(new URL(import.meta.url).pathname));
   const frameHtml = path.join(renderDir, 'frame.html');
   const scenesUrl = pathToFileURL(path.join(episodeDir, 'render', 'scenes.js')).href;
@@ -21,7 +34,7 @@ export async function captureVideo({ episodeDir, outVideo, fps = 30, duration })
     '/engine.js': path.join(renderDir, 'engine.js'),
     '/frame.html': frameHtml,
     '/scenes.js': path.join(episodeDir, 'render', 'scenes.js'),
-    '/transcript.json': path.join(episodeDir, 'transcript.json'),
+    '/transcript.json': transcriptPath || path.join(episodeDir, 'transcript.json'),
   };
   // map /img/* to episode images
   const imgRoot = path.join(episodeDir, 'images');
@@ -31,6 +44,11 @@ export async function captureVideo({ episodeDir, outVideo, fps = 30, duration })
     let file = roots[u.pathname];
     if (!file && u.pathname.startsWith('/img/')) {
       file = path.join(imgRoot, decodeURIComponent(u.pathname.slice(5)));
+    }
+    // /ep/* → any file inside the episode folder (fonts, derived assets)
+    if (!file && u.pathname.startsWith('/ep/')) {
+      const p = path.normalize(path.join(episodeDir, decodeURIComponent(u.pathname.slice(4))));
+      if (p.startsWith(path.resolve(episodeDir) + path.sep)) file = p;
     }
     if (!file || !fs.existsSync(file)) {
       res.writeHead(404);
@@ -46,6 +64,7 @@ export async function captureVideo({ episodeDir, outVideo, fps = 30, duration })
       '.jpeg': 'image/jpeg',
       '.png': 'image/png',
       '.webp': 'image/webp',
+      '.woff2': 'font/woff2',
     };
     res.writeHead(200, { 'Content-Type': types[ext] || 'application/octet-stream' });
     fs.createReadStream(file).pipe(res);
@@ -56,6 +75,25 @@ export async function captureVideo({ episodeDir, outVideo, fps = 30, duration })
   const pageUrl = `http://127.0.0.1:${port}/frame.html?scenes=/scenes.js&transcript=/transcript.json`;
 
   const totalFrames = Math.ceil(duration * fps);
+
+  if (times && times.length) {
+    fs.mkdirSync(stillsDir, { recursive: true });
+    const browser = await chromium.launch({ headless: true, args: ['--disable-dev-shm-usage', '--no-sandbox'], ...LAUNCH_EXTRA });
+    const page = await browser.newPage({ viewport: { width: 1080, height: 1920 }, deviceScaleFactor: 1 });
+    await page.goto(pageUrl, { waitUntil: 'networkidle' });
+    await page.waitForFunction(() => window.__ready && window.EPISODE);
+    const out = [];
+    for (const t of times) {
+      await page.evaluate((time) => window.renderFrame(time), t);
+      const f = path.join(stillsDir, `t${t.toFixed(2).padStart(6, '0')}.png`);
+      await page.screenshot({ path: f, type: 'png', animations: 'disabled' });
+      out.push(f);
+    }
+    await browser.close();
+    server.close();
+    return out;
+  }
+
   fs.mkdirSync(path.dirname(outVideo), { recursive: true });
 
   const ff = spawn(
@@ -88,6 +126,7 @@ export async function captureVideo({ episodeDir, outVideo, fps = 30, duration })
   const browser = await chromium.launch({
     headless: true,
     args: ['--disable-dev-shm-usage', '--no-sandbox'],
+    ...LAUNCH_EXTRA,
   });
   const page = await browser.newPage({
     viewport: { width: 1080, height: 1920 },
@@ -97,7 +136,8 @@ export async function captureVideo({ episodeDir, outVideo, fps = 30, duration })
   await page.waitForFunction(() => window.__ready && window.EPISODE);
 
   const t0 = Date.now();
-  for (let i = 0; i < totalFrames; i++) {
+  const lastFrame = Math.min(totalFrames, endFrame ?? totalFrames);
+  for (let i = startFrame; i < lastFrame; i++) {
     const t = i / fps;
     await page.evaluate((time) => window.renderFrame(time), t);
     const buf = await page.screenshot({ type: 'jpeg', quality: 88, animations: 'disabled' });
@@ -105,7 +145,7 @@ export async function captureVideo({ episodeDir, outVideo, fps = 30, duration })
     if (!ok) await new Promise((r) => ff.stdin.once('drain', r));
     if (i % 90 === 0) {
       const elapsed = ((Date.now() - t0) / 1000).toFixed(1);
-      console.log(`frame ${i}/${totalFrames} t=${t.toFixed(2)}s (${elapsed}s elapsed)`);
+      console.log(`frame ${i}/${lastFrame} t=${t.toFixed(2)}s (${elapsed}s elapsed)`);
     }
   }
   ff.stdin.end();

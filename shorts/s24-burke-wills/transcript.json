@@ -1,0 +1,566 @@
+{
+ "duration": 39.168,
+ "source": "faster-whisper small.en word timestamps on audio/vo.mp3, corrected to vo_script.md wording",
+ "words": [
+  {
+   "word": "On",
+   "start": 0.0,
+   "end": 0.26
+  },
+  {
+   "word": "the",
+   "start": 0.26,
+   "end": 0.38
+  },
+  {
+   "word": "way",
+   "start": 0.38,
+   "end": 0.56
+  },
+  {
+   "word": "back,",
+   "start": 0.56,
+   "end": 0.94
+  },
+  {
+   "word": "food",
+   "start": 1.3,
+   "end": 1.48
+  },
+  {
+   "word": "runs",
+   "start": 1.48,
+   "end": 1.8
+  },
+  {
+   "word": "out.",
+   "start": 1.8,
+   "end": 2.14
+  },
+  {
+   "word": "They",
+   "start": 2.64,
+   "end": 2.74
+  },
+  {
+   "word": "start",
+   "start": 2.74,
+   "end": 3.0
+  },
+  {
+   "word": "killing",
+   "start": 3.0,
+   "end": 3.34
+  },
+  {
+   "word": "their",
+   "start": 3.34,
+   "end": 3.6
+  },
+  {
+   "word": "camels",
+   "start": 3.6,
+   "end": 4.06
+  },
+  {
+   "word": "for",
+   "start": 4.06,
+   "end": 4.26
+  },
+  {
+   "word": "meat.",
+   "start": 4.26,
+   "end": 4.54
+  },
+  {
+   "word": "Gray",
+   "start": 5.4,
+   "end": 5.4
+  },
+  {
+   "word": "dies",
+   "start": 5.58,
+   "end": 5.82
+  },
+  {
+   "word": "just",
+   "start": 5.82,
+   "end": 6.16
+  },
+  {
+   "word": "four",
+   "start": 6.16,
+   "end": 6.52
+  },
+  {
+   "word": "days",
+   "start": 6.52,
+   "end": 6.76
+  },
+  {
+   "word": "from",
+   "start": 6.76,
+   "end": 7.0
+  },
+  {
+   "word": "the",
+   "start": 7.0,
+   "end": 7.14
+  },
+  {
+   "word": "depot.",
+   "start": 7.14,
+   "end": 7.46
+  },
+  {
+   "word": "The",
+   "start": 8.02,
+   "end": 8.12
+  },
+  {
+   "word": "men",
+   "start": 8.12,
+   "end": 8.3
+  },
+  {
+   "word": "waiting",
+   "start": 8.3,
+   "end": 8.64
+  },
+  {
+   "word": "at",
+   "start": 8.64,
+   "end": 8.84
+  },
+  {
+   "word": "Cooper",
+   "start": 8.84,
+   "end": 9.14
+  },
+  {
+   "word": "Creek",
+   "start": 9.14,
+   "end": 9.46
+  },
+  {
+   "word": "hold",
+   "start": 9.46,
+   "end": 9.78
+  },
+  {
+   "word": "on",
+   "start": 9.78,
+   "end": 10.04
+  },
+  {
+   "word": "for",
+   "start": 10.04,
+   "end": 10.24
+  },
+  {
+   "word": "over",
+   "start": 10.24,
+   "end": 10.52
+  },
+  {
+   "word": "four",
+   "start": 10.52,
+   "end": 10.88
+  },
+  {
+   "word": "months.",
+   "start": 10.88,
+   "end": 11.18
+  },
+  {
+   "word": "Then",
+   "start": 11.82,
+   "end": 12.02
+  },
+  {
+   "word": "they",
+   "start": 12.02,
+   "end": 12.2
+  },
+  {
+   "word": "give",
+   "start": 12.2,
+   "end": 12.36
+  },
+  {
+   "word": "up,",
+   "start": 12.36,
+   "end": 12.68
+  },
+  {
+   "word": "bury",
+   "start": 13.02,
+   "end": 13.32
+  },
+  {
+   "word": "food",
+   "start": 13.32,
+   "end": 13.64
+  },
+  {
+   "word": "under",
+   "start": 13.64,
+   "end": 13.9
+  },
+  {
+   "word": "a",
+   "start": 13.9,
+   "end": 14.06
+  },
+  {
+   "word": "tree,",
+   "start": 14.06,
+   "end": 14.38
+  },
+  {
+   "word": "carve",
+   "start": 14.9,
+   "end": 15.04
+  },
+  {
+   "word": "a",
+   "start": 15.04,
+   "end": 15.24
+  },
+  {
+   "word": "message",
+   "start": 15.24,
+   "end": 15.48
+  },
+  {
+   "word": "into",
+   "start": 15.48,
+   "end": 15.78
+  },
+  {
+   "word": "it,",
+   "start": 15.78,
+   "end": 15.98
+  },
+  {
+   "word": "\u201cDIG\u201d\u2026",
+   "start": 16.2,
+   "end": 16.38
+  },
+  {
+   "word": "and",
+   "start": 16.74,
+   "end": 16.94
+  },
+  {
+   "word": "leave.",
+   "start": 16.94,
+   "end": 17.22
+  },
+  {
+   "word": "That",
+   "start": 17.74,
+   "end": 17.94
+  },
+  {
+   "word": "same",
+   "start": 17.94,
+   "end": 18.32
+  },
+  {
+   "word": "evening,",
+   "start": 18.32,
+   "end": 18.84
+  },
+  {
+   "word": "Burke,",
+   "start": 19.18,
+   "end": 19.24
+  },
+  {
+   "word": "Wills,",
+   "start": 19.54,
+   "end": 19.68
+  },
+  {
+   "word": "and",
+   "start": 19.88,
+   "end": 20.08
+  },
+  {
+   "word": "King",
+   "start": 20.08,
+   "end": 20.22
+  },
+  {
+   "word": "stumble",
+   "start": 20.22,
+   "end": 20.68
+  },
+  {
+   "word": "into",
+   "start": 20.68,
+   "end": 21.04
+  },
+  {
+   "word": "camp.",
+   "start": 21.04,
+   "end": 21.32
+  },
+  {
+   "word": "They",
+   "start": 21.8,
+   "end": 21.98
+  },
+  {
+   "word": "missed",
+   "start": 21.98,
+   "end": 22.16
+  },
+  {
+   "word": "them",
+   "start": 22.16,
+   "end": 22.4
+  },
+  {
+   "word": "by",
+   "start": 22.4,
+   "end": 22.56
+  },
+  {
+   "word": "nine",
+   "start": 22.56,
+   "end": 22.98
+  },
+  {
+   "word": "hours.",
+   "start": 22.98,
+   "end": 23.46
+  },
+  {
+   "word": "Too",
+   "start": 24.0,
+   "end": 24.18
+  },
+  {
+   "word": "weak",
+   "start": 24.18,
+   "end": 24.36
+  },
+  {
+   "word": "to",
+   "start": 24.36,
+   "end": 24.56
+  },
+  {
+   "word": "follow,",
+   "start": 24.56,
+   "end": 24.9
+  },
+  {
+   "word": "they",
+   "start": 24.9,
+   "end": 25.42
+  },
+  {
+   "word": "stay",
+   "start": 25.42,
+   "end": 25.72
+  },
+  {
+   "word": "by",
+   "start": 25.72,
+   "end": 25.92
+  },
+  {
+   "word": "the",
+   "start": 25.92,
+   "end": 26.08
+  },
+  {
+   "word": "creek.",
+   "start": 26.08,
+   "end": 26.36
+  },
+  {
+   "word": "Burke",
+   "start": 27.04,
+   "end": 27.04
+  },
+  {
+   "word": "and",
+   "start": 27.22,
+   "end": 27.28
+  },
+  {
+   "word": "Wills",
+   "start": 27.28,
+   "end": 27.52
+  },
+  {
+   "word": "both",
+   "start": 27.52,
+   "end": 27.78
+  },
+  {
+   "word": "die",
+   "start": 27.78,
+   "end": 28.12
+  },
+  {
+   "word": "there.",
+   "start": 28.12,
+   "end": 28.46
+  },
+  {
+   "word": "Only",
+   "start": 28.82,
+   "end": 29.04
+  },
+  {
+   "word": "King",
+   "start": 29.04,
+   "end": 29.3
+  },
+  {
+   "word": "survives\u2026",
+   "start": 29.3,
+   "end": 29.8
+  },
+  {
+   "word": "because",
+   "start": 29.8,
+   "end": 30.28
+  },
+  {
+   "word": "local",
+   "start": 30.28,
+   "end": 30.68
+  },
+  {
+   "word": "Yandruwandha",
+   "start": 30.68,
+   "end": 31.56
+  },
+  {
+   "word": "people",
+   "start": 31.56,
+   "end": 31.76
+  },
+  {
+   "word": "feed",
+   "start": 31.76,
+   "end": 32.24
+  },
+  {
+   "word": "and",
+   "start": 32.24,
+   "end": 32.46
+  },
+  {
+   "word": "shelter",
+   "start": 32.46,
+   "end": 32.76
+  },
+  {
+   "word": "him",
+   "start": 32.76,
+   "end": 33.14
+  },
+  {
+   "word": "until",
+   "start": 33.14,
+   "end": 33.62
+  },
+  {
+   "word": "a",
+   "start": 33.62,
+   "end": 33.76
+  },
+  {
+   "word": "rescue",
+   "start": 33.76,
+   "end": 34.06
+  },
+  {
+   "word": "party",
+   "start": 34.06,
+   "end": 34.4
+  },
+  {
+   "word": "finds",
+   "start": 34.4,
+   "end": 34.74
+  },
+  {
+   "word": "him.",
+   "start": 34.74,
+   "end": 35.02
+  },
+  {
+   "word": "And",
+   "start": 35.5,
+   "end": 35.58
+  },
+  {
+   "word": "it's",
+   "start": 35.58,
+   "end": 35.76
+  },
+  {
+   "word": "why,",
+   "start": 35.76,
+   "end": 36.02
+  },
+  {
+   "word": "to",
+   "start": 36.02,
+   "end": 36.2
+  },
+  {
+   "word": "this",
+   "start": 36.2,
+   "end": 36.42
+  },
+  {
+   "word": "day,",
+   "start": 36.42,
+   "end": 36.82
+  },
+  {
+   "word": "people",
+   "start": 37.1,
+   "end": 37.38
+  },
+  {
+   "word": "still",
+   "start": 37.38,
+   "end": 37.74
+  },
+  {
+   "word": "tell",
+   "start": 37.74,
+   "end": 37.96
+  },
+  {
+   "word": "the",
+   "start": 37.96,
+   "end": 38.12
+  },
+  {
+   "word": "story",
+   "start": 38.12,
+   "end": 38.42
+  },
+  {
+   "word": "of",
+   "start": 38.42,
+   "end": 38.62
+  },
+  {
+   "word": "how",
+   "start": 38.62,
+   "end": 38.84
+  }
+ ]
+}

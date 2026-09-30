@@ -34,6 +34,10 @@
           window.EPISODE.duration = data.duration || window.EPISODE.duration;
         }
       }
+      // Optional episode preload (fonts / image decode) before the first capture.
+      if (window.EPISODE && window.EPISODE.ready) {
+        try { await window.EPISODE.ready; } catch (e) { console.error(e); }
+      }
       window.__ready = true;
       if (window.EPISODE) window.renderFrame(0);
     })();
