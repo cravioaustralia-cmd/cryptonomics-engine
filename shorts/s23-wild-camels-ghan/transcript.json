@@ -1,0 +1,546 @@
+{
+ "duration": 43.008,
+ "source": "faster-whisper medium.en word timestamps on audio/vo.mp3 (hyphenated tokens merged); spelling fixed to script (cameleers, The Ghan)",
+ "words": [
+  {
+   "word": "The",
+   "start": 0.0,
+   "end": 0.24
+  },
+  {
+   "word": "world's",
+   "start": 0.24,
+   "end": 0.78
+  },
+  {
+   "word": "largest",
+   "start": 0.78,
+   "end": 1.12
+  },
+  {
+   "word": "herd",
+   "start": 1.12,
+   "end": 1.44
+  },
+  {
+   "word": "of",
+   "start": 1.44,
+   "end": 1.68
+  },
+  {
+   "word": "wild",
+   "start": 1.68,
+   "end": 1.98
+  },
+  {
+   "word": "camels",
+   "start": 1.98,
+   "end": 2.52
+  },
+  {
+   "word": "isn't",
+   "start": 2.52,
+   "end": 2.86
+  },
+  {
+   "word": "in",
+   "start": 2.86,
+   "end": 3.1
+  },
+  {
+   "word": "Arabia",
+   "start": 3.1,
+   "end": 3.54
+  },
+  {
+   "word": "or",
+   "start": 3.54,
+   "end": 3.88
+  },
+  {
+   "word": "Asia.",
+   "start": 3.88,
+   "end": 4.24
+  },
+  {
+   "word": "It's",
+   "start": 4.24,
+   "end": 4.8
+  },
+  {
+   "word": "in",
+   "start": 4.8,
+   "end": 4.94
+  },
+  {
+   "word": "Australia.",
+   "start": 4.94,
+   "end": 5.52
+  },
+  {
+   "word": "And",
+   "start": 5.92,
+   "end": 6.08
+  },
+  {
+   "word": "the",
+   "start": 6.08,
+   "end": 6.24
+  },
+  {
+   "word": "people",
+   "start": 6.24,
+   "end": 6.5
+  },
+  {
+   "word": "who",
+   "start": 6.5,
+   "end": 6.68
+  },
+  {
+   "word": "brought",
+   "start": 6.68,
+   "end": 6.96
+  },
+  {
+   "word": "them",
+   "start": 6.96,
+   "end": 7.2
+  },
+  {
+   "word": "have",
+   "start": 7.2,
+   "end": 7.4
+  },
+  {
+   "word": "a",
+   "start": 7.4,
+   "end": 7.62
+  },
+  {
+   "word": "famous",
+   "start": 7.62,
+   "end": 7.94
+  },
+  {
+   "word": "train",
+   "start": 7.94,
+   "end": 8.32
+  },
+  {
+   "word": "named",
+   "start": 8.32,
+   "end": 8.64
+  },
+  {
+   "word": "after",
+   "start": 8.64,
+   "end": 8.98
+  },
+  {
+   "word": "them.",
+   "start": 8.98,
+   "end": 9.3
+  },
+  {
+   "word": "1860s.",
+   "start": 10.34,
+   "end": 10.98
+  },
+  {
+   "word": "Horses",
+   "start": 11.24,
+   "end": 11.46
+  },
+  {
+   "word": "struggle",
+   "start": 11.46,
+   "end": 11.94
+  },
+  {
+   "word": "in",
+   "start": 11.94,
+   "end": 12.14
+  },
+  {
+   "word": "the",
+   "start": 12.14,
+   "end": 12.28
+  },
+  {
+   "word": "outback,",
+   "start": 12.28,
+   "end": 12.74
+  },
+  {
+   "word": "so",
+   "start": 12.74,
+   "end": 13.26
+  },
+  {
+   "word": "Australia",
+   "start": 13.26,
+   "end": 13.86
+  },
+  {
+   "word": "imports",
+   "start": 13.86,
+   "end": 14.34
+  },
+  {
+   "word": "thousands",
+   "start": 14.34,
+   "end": 14.88
+  },
+  {
+   "word": "of",
+   "start": 14.88,
+   "end": 15.2
+  },
+  {
+   "word": "camels,",
+   "start": 15.2,
+   "end": 15.62
+  },
+  {
+   "word": "mostly",
+   "start": 15.74,
+   "end": 16.28
+  },
+  {
+   "word": "from",
+   "start": 16.28,
+   "end": 16.54
+  },
+  {
+   "word": "what's",
+   "start": 16.54,
+   "end": 16.76
+  },
+  {
+   "word": "now",
+   "start": 16.76,
+   "end": 17.0
+  },
+  {
+   "word": "India",
+   "start": 17.0,
+   "end": 17.42
+  },
+  {
+   "word": "and",
+   "start": 17.42,
+   "end": 17.74
+  },
+  {
+   "word": "Pakistan.",
+   "start": 17.74,
+   "end": 18.26
+  },
+  {
+   "word": "With",
+   "start": 18.84,
+   "end": 19.06
+  },
+  {
+   "word": "them",
+   "start": 19.06,
+   "end": 19.3
+  },
+  {
+   "word": "come",
+   "start": 19.3,
+   "end": 19.56
+  },
+  {
+   "word": "cameleers",
+   "start": 19.56,
+   "end": 20.16
+  },
+  {
+   "word": "from",
+   "start": 20.16,
+   "end": 20.42
+  },
+  {
+   "word": "Afghanistan,",
+   "start": 20.42,
+   "end": 21.08
+  },
+  {
+   "word": "India",
+   "start": 21.44,
+   "end": 21.74
+  },
+  {
+   "word": "and",
+   "start": 21.74,
+   "end": 22.0
+  },
+  {
+   "word": "Pakistan,",
+   "start": 22.0,
+   "end": 22.64
+  },
+  {
+   "word": "all",
+   "start": 22.96,
+   "end": 23.28
+  },
+  {
+   "word": "nicknamed",
+   "start": 23.28,
+   "end": 23.8
+  },
+  {
+   "word": "Afghans.",
+   "start": 23.8,
+   "end": 24.46
+  },
+  {
+   "word": "They",
+   "start": 24.98,
+   "end": 25.2
+  },
+  {
+   "word": "haul",
+   "start": 25.2,
+   "end": 25.42
+  },
+  {
+   "word": "supplies",
+   "start": 25.42,
+   "end": 25.92
+  },
+  {
+   "word": "for",
+   "start": 25.92,
+   "end": 26.14
+  },
+  {
+   "word": "the",
+   "start": 26.14,
+   "end": 26.28
+  },
+  {
+   "word": "railways",
+   "start": 26.28,
+   "end": 26.68
+  },
+  {
+   "word": "and",
+   "start": 26.68,
+   "end": 27.02
+  },
+  {
+   "word": "the",
+   "start": 27.02,
+   "end": 27.2
+  },
+  {
+   "word": "telegraph.",
+   "start": 27.2,
+   "end": 27.72
+  },
+  {
+   "word": "The",
+   "start": 28.24,
+   "end": 28.4
+  },
+  {
+   "word": "Adelaide",
+   "start": 28.4,
+   "end": 28.78
+  },
+  {
+   "word": "to",
+   "start": 28.78,
+   "end": 29.02
+  },
+  {
+   "word": "Darwin",
+   "start": 29.02,
+   "end": 29.42
+  },
+  {
+   "word": "train,",
+   "start": 29.42,
+   "end": 29.88
+  },
+  {
+   "word": "The",
+   "start": 30.2,
+   "end": 30.24
+  },
+  {
+   "word": "Ghan,",
+   "start": 30.24,
+   "end": 30.6
+  },
+  {
+   "word": "is",
+   "start": 30.9,
+   "end": 31.16
+  },
+  {
+   "word": "widely",
+   "start": 31.16,
+   "end": 31.56
+  },
+  {
+   "word": "said",
+   "start": 31.56,
+   "end": 31.86
+  },
+  {
+   "word": "to",
+   "start": 31.86,
+   "end": 32.04
+  },
+  {
+   "word": "be",
+   "start": 32.04,
+   "end": 32.22
+  },
+  {
+   "word": "named",
+   "start": 32.22,
+   "end": 32.48
+  },
+  {
+   "word": "after",
+   "start": 32.48,
+   "end": 32.86
+  },
+  {
+   "word": "them.",
+   "start": 32.86,
+   "end": 33.16
+  },
+  {
+   "word": "Then",
+   "start": 33.56,
+   "end": 33.72
+  },
+  {
+   "word": "trucks",
+   "start": 33.72,
+   "end": 34.12
+  },
+  {
+   "word": "replace",
+   "start": 34.12,
+   "end": 34.48
+  },
+  {
+   "word": "them.",
+   "start": 34.48,
+   "end": 34.82
+  },
+  {
+   "word": "The",
+   "start": 35.22,
+   "end": 35.38
+  },
+  {
+   "word": "camels",
+   "start": 35.38,
+   "end": 35.7
+  },
+  {
+   "word": "are",
+   "start": 35.7,
+   "end": 35.86
+  },
+  {
+   "word": "set",
+   "start": 35.86,
+   "end": 36.06
+  },
+  {
+   "word": "free,",
+   "start": 36.06,
+   "end": 36.48
+  },
+  {
+   "word": "and",
+   "start": 36.74,
+   "end": 36.96
+  },
+  {
+   "word": "today",
+   "start": 36.96,
+   "end": 37.26
+  },
+  {
+   "word": "there",
+   "start": 37.26,
+   "end": 37.5
+  },
+  {
+   "word": "are",
+   "start": 37.5,
+   "end": 37.68
+  },
+  {
+   "word": "over",
+   "start": 37.68,
+   "end": 37.96
+  },
+  {
+   "word": "a",
+   "start": 37.96,
+   "end": 38.16
+  },
+  {
+   "word": "million.",
+   "start": 38.16,
+   "end": 38.48
+  },
+  {
+   "word": "Australia",
+   "start": 39.1,
+   "end": 39.62
+  },
+  {
+   "word": "now",
+   "start": 39.62,
+   "end": 39.88
+  },
+  {
+   "word": "exports",
+   "start": 39.88,
+   "end": 40.42
+  },
+  {
+   "word": "camels",
+   "start": 40.42,
+   "end": 40.86
+  },
+  {
+   "word": "to",
+   "start": 40.86,
+   "end": 41.04
+  },
+  {
+   "word": "Saudi",
+   "start": 41.04,
+   "end": 41.36
+  },
+  {
+   "word": "Arabia.",
+   "start": 41.36,
+   "end": 41.82
+  },
+  {
+   "word": "So",
+   "start": 42.18,
+   "end": 42.36
+  },
+  {
+   "word": "yes.",
+   "start": 42.36,
+   "end": 42.68
+  }
+ ]
+}

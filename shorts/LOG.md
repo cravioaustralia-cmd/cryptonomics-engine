@@ -174,3 +174,5 @@ Unpacked 6 Grok VOs into shorts/incoming-vo/. #01 matches finished Skylab Short;
 - Asset gaps for Claude: optional Amedulah Khan camel train; higher-res Sadadeen; soft export still if free-licence
 
 - 2026-09-30T19:00+10:00 — Atlas VO locked at audio/vo.mp3 (**43.008 s**). Ready for Claude premium build (issue opened; do not @claude until Video Production hands off).
+
+- 2026-09-30 — **Checkpoint C build** (Claude): `render/scenes.js` (15 Whisper-timed Skylab scenes), `mix.mjs`, `build.mjs`, `preview.mjs`, `transcript.json`; `final/s23-wild-camels-ghan.mp4` (1080×1920, 30 fps, 43.0 s, −13.9 LUFS / −1.3 dBTP) + `final/contact-sheet.jpg`. 9 sparse SFX cues; music bed −36.2 LUFS (4 LU under s18). `s23_07` unused (carcass-read risk). Refs #46.
