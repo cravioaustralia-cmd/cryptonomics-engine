@@ -46,7 +46,7 @@ The ~1,100 KM figure is the straight-line haversine distance from Cooper Creek t
 - VO measures −22.8 LUFS and gets static +5.2 dB plus `apad`.
 - The Dark Drama bed is −9.1 LUFS. It gets static −26 dB from 8 s in, about 4 dB under s18's Silent Descent seat, plus +3.5 dB lifts in VO gaps.
 - There are 10 phrase-anchored SFX cues for the full VO: hook, the Melbourne push, the wagon, the race north, the DIG card, DIG, a riser, NINE HOURS, the pull-out and the whip.
-- Then float `amix`, a peak limiter and two-pass `loudnorm` on the master only. The master lands at −14.0 LUFS with a −1.9 dBTP peak.
+- Then float `amix`, a peak limiter and two-pass `loudnorm` on the master only. The master lands at −14.0 LUFS with a −2.0 dBFS peak (full VO, 89.7 s).
 
 ## Fonts
 Anton, Archivo Black and Inter come from `@fontsource` under SIL OFL 1.1 and live in `render/fonts/`.
