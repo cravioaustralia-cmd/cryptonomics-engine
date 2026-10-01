@@ -1,0 +1,7 @@
+{
+  "slug": "s27-bert-hinkler",
+  "fps": 30,
+  "duration": 91.248,
+  "mode": "MAP EXPLAINER",
+  "note": "Built by render/build.mjs (episode mix.mjs on the locked path + shared capture). shared/render/mix-audio.mjs is not used because it loudnorms VO before the amix."
+}

@@ -1,0 +1,30 @@
+s27 Bert Hinkler — master loudness report (2026-10-01T05:21:38.446Z)
+VO (held Atlas en-AU, 91.248 s) measured -23 LUFS → static gain 5 dB (no pre-amix loudnorm)
+Music: Skyline (Mixkit 601) static -23 dB + envelope (gap lift +3.5, disappearance→funeral dip −4.5, home/series swell +2)
+SFX cues (10):
+    0.00 s  impact_hit       -10 dB  frame-1 hook slam 15 DAYS
+    0.95 s  whoosh_1          -9 dB  space dive onto London
+   18.86 s  thud              -6 dB  Gag 1 — cardboard wings, plop into the sand dune
+   31.05 s  text_pop         -12 dB  Gag 2 — the sandwich floats out of the cockpit
+   33.90 s  riser            -13 dB  take-off from London into the stamp run
+   35.64 s  stamps            -4 dB  Gag 3 — eight passport-stamp thunks, faster and faster (one composite cue)
+   54.30 s  paper_rustle      -8 dB  Gag 4 — 1920s newspaper spins in over Darwin
+   57.92 s  impact_hit       -13 dB  Gag 5 — vintage thumbs-up stamp lands on Darwin
+   64.36 s  whoosh_2         -15 dB  Gag 6 — plane vanishes; soft grey settle (low-passed)
+   89.95 s  whoosh_1          -8 dB  incomplete-loop whip back to the space dive / 15 DAYS
+Pass 1 (premix): I=-18.52 LUFS  TP=-5.86 dBTP  LRA=3.50  thresh=-29.06
+Pass 2 (master, linear=true) ebur128:
+[Parsed_ebur128_0 @ 0x55c832299040] Summary:
+
+  Integrated loudness:
+    I:         -14.1 LUFS
+    Threshold: -24.6 LUFS
+
+  Loudness range:
+    LRA:         3.4 LU
+    Threshold: -34.6 LUFS
+    LRA low:   -16.3 LUFS
+    LRA high:  -12.9 LUFS
+
+  True peak:
+    Peak:       -1.5 dBFS

@@ -1,6 +1,6 @@
 # Sources — s27-bert-hinkler
 
-Image sources will be documented in [`images/SOURCES.md`](images/SOURCES.md). Prefer free-licence, factually correct stills.
+Image sources are documented in [`images/SOURCES.md`](images/SOURCES.md): three real public-domain photographs of Bert Hinkler (two portraits, one with his Avro Avian) plus the satellite basemaps and globes built for this episode.
 
 **Mode:** **MAP EXPLAINER** — maps carry the story; photos brief credibility inserts only. Basemap: GeoGlobeTales quality — rich satellite, soft lighting, **no blown white relief**.
 
@@ -24,7 +24,7 @@ Episode copies the reviewed Mixkit shared-kit cues plus paper rustle, thud (pass
 
 ## Audio hand-off
 
-- `audio/vo.mp3` — **pending** Atlas en-AU. Duration TBD once Atlas seats. See [`audio/README.md`](audio/README.md).
+- `audio/vo.mp3` — **held** Atlas en-AU (91.25 s). Whisper word timings → `transcript.json`. See [`audio/README.md`](audio/README.md).
 - Mix path: measure VO → static gain + `apad` → float `amix` → two-pass loudnorm on master only (~−14 LUFS). No pre-amix VO loudnorm.
 
 ## Key factual sources
