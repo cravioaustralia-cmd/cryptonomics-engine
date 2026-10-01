@@ -1,5 +1,15 @@
 # History Shorts production log
 
+
+## 2026-10-01 — Scaffold s26 Bert Hinkler (MAP EXPLAINER; pending Atlas VO)
+- Episode: `shorts/s26-bert-hinkler/`
+- Mode: **MAP EXPLAINER** (kinetic cartography). GeoArchivez motion bar + GeoGlobeTales basemap (no blown white relief).
+- Hook: `15 DAYS` (never spoken). Incomplete loop mid-phrase into open.
+- VO: pending Atlas — place at `audio/vo.mp3` when recorded (~237 spoken words).
+- Music: Mixkit Drawing The Sky (Eugenio Mininni / id 606).
+- No scenes.js — Claude owns design. Five visual gags locked in script/plan.
+- Deliverables paste brief: `/workspace/deliverables/s26-bert-hinkler/PASTE_BRIEF.md`
+
 ## 2026-09-25 — Switched repo
 - Production home moved from cravioaustralia-cmd/shorts-channel to cravioaustralia-cmd/cryptonomics-engine per user.
 - Shared Mixkit SFX kit copied into public/sfx/ and shorts/shared/sfx/.
