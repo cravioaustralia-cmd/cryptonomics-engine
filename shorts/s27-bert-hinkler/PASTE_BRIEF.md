@@ -16,7 +16,7 @@ Series: **Impossible Journeys — episode 2** (s26 Mary Bryant was ep.1; gags al
 
 Design, animate, mix and render History Short **s27 Bert Hinkler** (1928 solo England→Australia / Hustling Hinkler / Italy twist / Florence burial) at best quality — exceed prior Shorts. Claude owns `scenes.js`. Production never hand-designs scenes.
 
-**VO pending** (duration TBD once Atlas seats) → place held Atlas en-AU at `shorts/s27-bert-hinkler/audio/vo.mp3` when recorded. Do not invent final timings before VO lands; estimated seams OK for first pass. Whisper-retune once held.
+**VO held** (Atlas en-AU, 91.25 s; Whisper-retune): `/workspace/deliverables/s27-bert-hinkler/vo-raw/vo-atlas.mp3` → `shorts/s27-bert-hinkler/audio/vo.mp3`. Retune seams to the held recording.
 
 ---
 
@@ -115,7 +115,7 @@ Humour lock: deadpan true details are funny alone; **stage these Visual gags** o
 
 ## Beat plan (ANIMATE vs STILL)
 
-Approximate seams — **retune to Whisper** once `audio/vo.mp3` is held (duration TBD).
+Approximate seams — **retune to Whisper** against the held `audio/vo.mp3` (91.25 s).
 
 | # | Beat (VO cue) | Mode | Treatment |
 |---|---|---|---|
@@ -179,7 +179,7 @@ Document every still in `SOURCES.md` / `images/SOURCES.md`. Prefer Australian En
 
 ## Style locks (verbatim)
 
-- **Atlas VO:** fast amazed → storytelling → tense → dark twist → warm series close; start instantly; never speak `()` cues; **VO pending** (duration TBD once Atlas seats)
+- **Atlas VO:** fast amazed → storytelling → tense → dark twist → warm series close; start instantly; never speak `()` cues; **VO held** (Atlas en-AU, 91.25 s; Whisper-retune)
 - **Captions** lower-middle ~70%; no VO-echo big titles; labels for names/places/facts only
 - **Sparse intentional SFX** ~6–10; mix: measure VO → static gain + apad → float amix → two-pass loudnorm ~−14 LUFS
 - **Humour:** deadpan true details funny alone; stage the seven Visual gags; dignity on death / funeral beats
@@ -214,4 +214,4 @@ Document every still in `SOURCES.md` / `images/SOURCES.md`. Prefer Australian En
 
 ## Success
 
-Premium **map-explainer** Short matching GeoArchivez motion bar + GeoGlobeTales lighting lock, all seven visual gags staged on cue (including series camel + master-map join), first-frame space dive, incomplete loop into open, **real Bert portrait insert**, contact sheet reviewed, loudnorm clean. **VO pending** (Atlas en-AU; duration TBD once Atlas seats) → `shorts/s27-bert-hinkler/audio/vo.mp3`. Claude should Whisper-retune seams once the held recording lands.
+Premium **map-explainer** Short matching GeoArchivez motion bar + GeoGlobeTales lighting lock, all seven visual gags staged on cue (including series camel + master-map join), first-frame space dive, incomplete loop into open, **real Bert portrait insert**, contact sheet reviewed, loudnorm clean. **VO held** (Atlas en-AU, 91.25 s; Whisper-retune) → `shorts/s27-bert-hinkler/audio/vo.mp3`. Claude should Whisper-retune seams to the held recording.

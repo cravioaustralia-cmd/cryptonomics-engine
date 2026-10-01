@@ -15,7 +15,7 @@
 - Stage all **seven Visual gags** on the named VO lines — **all on the map**.
 - **Series:** Impossible Journeys episode 2 — series camel hidden among passport stamps; final **red route joins master map**.
 - **Incomplete loop** mid-phrase into open (space dive / `15 DAYS` / London biplane).
-- **Atlas VO:** **pending** → `audio/vo.mp3`. Duration TBD once Atlas seats. Retune seams to Whisper when held.
+- **Atlas VO:** **held** → `audio/vo.mp3` (**91.25 s**, Atlas en-AU). Whisper-retune seams to the held recording.
 - Australian English (`kilometres`, humour spelling).
 - **Do not reuse** abandoned `s26-bert-hinkler` (ABANDONED markers stay).
 
@@ -69,7 +69,7 @@
 
 ## Audio
 
-- `audio/vo.mp3` — **VO pending** (duration TBD once Atlas seats)
+- `audio/vo.mp3` — **VO held** (Atlas en-AU, **91.25 s**); source `/workspace/deliverables/s27-bert-hinkler/vo-raw/vo-atlas.mp3`
 - Music: **Skyline** (Eugenio Mininni / Mixkit id **601**) — same Impossible Journeys bed as s26 Mary Bryant
 - Mix: measure VO → static gain + apad → float amix → two-pass loudnorm ~−14 LUFS
 - Sparse SFX ~6–10 (whoosh, riser, impact/stamp thunks accelerating, paper rustle, newspaper pop, soft grey settle, warm resolve)

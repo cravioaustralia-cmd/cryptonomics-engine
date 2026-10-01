@@ -2,7 +2,7 @@
 
 **Slug:** `s27-bert-hinkler`  
 **Series:** Impossible Journeys — **episode 2** (s26 Mary Bryant was ep.1)  
-**Duration:** pending Atlas VO (~95–120 s target; ~224 spoken words)  
+**Duration:** **91.25 s** held Atlas en-AU VO (~224 spoken words; Whisper-retune)  
 **On-screen hook (frame 1 only; not spoken):** `15 DAYS`  
 **Alternates:** `18,000 KM` · `HUSTLING HINKLER`  
 **Mode:** **MAP EXPLAINER** (kinetic cartography primary) — **NOT** Skylab photo-underlay slideshow.  

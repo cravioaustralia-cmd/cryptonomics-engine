@@ -1,16 +1,16 @@
 # VO script — s27 Bert Hinkler
 
-**Status:** Atlas VO **pending** — place held file at `audio/vo.mp3` when recorded. Duration TBD once Atlas seats.  
-**Delivery target:** fast amazed → storytelling → tense → dark twist → warm series close (~95–120 s). Start instantly; Impossible Journeys ep.2. en-AU / Atlas.
+**Status:** Atlas VO **held** — `91.25 s` at `audio/vo.mp3` (en-AU / Atlas).  
+**Delivery:** fast amazed → storytelling → tense → dark twist → warm series close. Start instantly; Impossible Journeys ep.2.
 
 Emotion cues are for performance reference only — **not spoken**.
 
 **Loop note:** **Incomplete loop.** Last line `All of it started with` bridges into `One man. One tiny open plane…`
 
 **Spoken word count:** ~224 words (excl. emotion cues).  
-**Duration target:** ~95–120 s at Shorts pace (~2.0–2.4 wps).
+**Held duration:** **91.25 s** (ffprobe). Whisper-retune seams to the held recording.
 
-**VO file coming — place at `shorts/s27-bert-hinkler/audio/vo.mp3`.**
+**VO file:** `shorts/s27-bert-hinkler/audio/vo.mp3` ← `/workspace/deliverables/s27-bert-hinkler/vo-raw/vo-atlas.mp3`.
 
 ---
 
