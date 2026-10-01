@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>Scene 1 — Cold Open</title>
+<style>
+  html, body { margin:0; padding:0; background:#000; overflow:hidden; }
+  #stageWrap { width:1920px; height:1080px; }
+  svg { display:block; }
+  text { font-family: Georgia, 'Times New Roman', serif; }
+</style>
+</head>
+<body>
+<div id="stageWrap">
+<svg id="stage" width="1920" height="1080" viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="gradNightSky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#04061a"/>
+      <stop offset="45%" stop-color="#0c1240"/>
+      <stop offset="78%" stop-color="#232a63"/>
+      <stop offset="100%" stop-color="#3a3470"/>
+    </linearGradient>
+
+    <linearGradient id="gradDaySky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#4f8fd6"/>
+      <stop offset="45%" stop-color="#9dcdf0"/>
+      <stop offset="78%" stop-color="#e7f2ee"/>
+      <stop offset="100%" stop-color="#f6e9c9"/>
+    </linearGradient>
+
+    <radialGradient id="gradLantern" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffd27a" stop-opacity="0.95"/>
+      <stop offset="40%" stop-color="#ffb14a" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#ffb14a" stop-opacity="0"/>
+    </radialGradient>
+
+    <linearGradient id="gradGroundNight" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#3a2c22"/>
+      <stop offset="35%" stop-color="#2a2018"/>
+      <stop offset="100%" stop-color="#140f0c"/>
+    </linearGradient>
+
+    <linearGradient id="gradField" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#c99a55"/>
+      <stop offset="45%" stop-color="#b98442"/>
+      <stop offset="100%" stop-color="#8f6330"/>
+    </linearGradient>
+
+    <linearGradient id="gradPole" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#5b3c22"/>
+      <stop offset="50%" stop-color="#8a6034"/>
+      <stop offset="100%" stop-color="#41290f"/>
+    </linearGradient>
+
+    <linearGradient id="gradFlag" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#d9530f"/>
+      <stop offset="45%" stop-color="#f07f1c"/>
+      <stop offset="100%" stop-color="#ffb548"/>
+    </linearGradient>
+
+    <linearGradient id="gradSkin" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#c98a5e"/>
+      <stop offset="100%" stop-color="#a56c46"/>
+    </linearGradient>
+
+    <linearGradient id="gradShirt" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fbf7ef"/>
+      <stop offset="100%" stop-color="#d9d2c2"/>
+    </linearGradient>
+
+    <linearGradient id="gradShorts" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#8a7847"/>
+      <stop offset="100%" stop-color="#69582f"/>
+    </linearGradient>
+
+    <linearGradient id="gradStand" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#c9d3da"/>
+      <stop offset="100%" stop-color="#8b98a3"/>
+    </linearGradient>
+
+    <radialGradient id="gradVignette" cx="50%" cy="46%" r="72%">
+      <stop offset="55%" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0.55"/>
+    </radialGradient>
+
+    <filter id="filterGrain" x="-5%" y="-5%" width="110%" height="110%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" seed="7" result="noise"/>
+      <feColorMatrix in="noise" type="matrix"
+        values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0.9 0 0 0 0"/>
+    </filter>
+
+    <filter id="blurSoft" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4"/>
+    </filter>
+
+    <filter id="blurTitle" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="0.4"/>
+    </filter>
+
+    <symbol id="figUnit" viewBox="-6 -10 12 14">
+      <ellipse cx="0" cy="3.2" rx="4.4" ry="2.4" fill="currentColor" opacity="0.9"/>
+      <rect x="-2.6" y="-3.2" width="5.2" height="6.6" rx="1.6" fill="currentColor"/>
+      <circle cx="0" cy="-6.2" r="2.6" fill="#caa27a"/>
+    </symbol>
+
+    <clipPath id="titleClip">
+      <rect id="titleClipRect" x="0" y="0" width="0" height="220"/>
+    </clipPath>
+  </defs>
+
+  <!-- ============ SHOT 1 : NIGHT MAIDAN ============ -->
+  <g id="shot1">
+    <g id="shot1cam">
+      <rect x="0" y="0" width="1920" height="1080" fill="url(#gradNightSky)"/>
+      <g id="stars"></g>
+      <g id="moon">
+        <circle cx="1560" cy="180" r="46" fill="#f3edd8" opacity="0.92"/>
+        <circle cx="1578" cy="168" r="40" fill="#0c1240" opacity="0.92"/>
+      </g>
+
+      <g id="bgSilhouettes"></g>
+
+      <g id="lanterns"></g>
+
+      <path id="groundNight" d="M0,700 L1920,700 L1920,1080 L0,1080 Z" fill="url(#gradGroundNight)"/>
+      <path d="M0,700 Q480,672 960,690 T1920,696 L1920,730 L0,730 Z" fill="#241a13" opacity="0.55"/>
+
+      <g id="dust"></g>
+
+      <g id="character1" transform="translate(760,760)">
+        <ellipse cx="0" cy="196" rx="86" ry="16" fill="#000000" opacity="0.35" filter="url(#blurSoft)"/>
+        <g id="c1-legL" transform="translate(-16,0)">
+          <rect x="-11" y="0" width="20" height="96" rx="8" fill="url(#gradShorts)"/>
+          <rect x="-11" y="70" width="20" height="60" rx="7" fill="#8a6a4c"/>
+          <path d="M-14,124 q11,-10 22,0 l0,10 q-11,8 -22,0 Z" fill="#2c2018"/>
+        </g>
+        <g id="c1-legR" transform="translate(16,0)">
+          <rect x="-11" y="0" width="20" height="96" rx="8" fill="url(#gradShorts)"/>
+          <rect x="-11" y="70" width="20" height="60" rx="7" fill="#8a6a4c"/>
+          <path d="M-14,124 q11,-10 22,0 l0,10 q-11,8 -22,0 Z" fill="#2c2018"/>
+        </g>
+        <path d="M-34,-6 Q0,-26 34,-6 L34,40 Q0,54 -34,40 Z" fill="url(#gradShorts)"/>
+        <path d="M-32,-96 Q0,-108 32,-96 L36,-6 Q0,10 -36,-6 Z" fill="url(#gradShirt)"/>
+        <path d="M-32,-96 Q0,-104 32,-96 L30,-80 Q0,-90 -30,-80 Z" fill="#ffffff" opacity="0.5"/>
+        <rect x="-8" y="-104" width="16" height="16" rx="5" fill="url(#gradSkin)"/>
+        <g id="c1-armL" transform="translate(-30,-92)">
+          <path d="M0,0 q-16,24 -11,60" stroke="url(#gradShirt)" stroke-width="12" fill="none" stroke-linecap="round"/>
+          <circle cx="-10" cy="58" r="7" fill="url(#gradSkin)"/>
+        </g>
+        <g id="c1-armR" transform="translate(30,-92)">
+          <path d="M0,0 q20,16 17,54" stroke="url(#gradShirt)" stroke-width="12" fill="none" stroke-linecap="round"/>
+          <circle cx="16" cy="52" r="7" fill="url(#gradSkin)"/>
+        </g>
+        <g id="c1-head" transform="translate(0,-130)">
+          <ellipse cx="1" cy="3" rx="17" ry="19" fill="url(#gradSkin)"/>
+          <path d="M14,0 q6,2 4,8 q-2,4 -6,2" fill="url(#gradSkin)"/>
+          <path d="M-18,-8 Q-19,-24 1,-25 Q22,-24 18,-6 Q17,-16 1,-17 Q-13,-16 -18,-8 Z" fill="#1c130c"/>
+          <path d="M-17,-9 Q-16,-22 1,-23 Q17,-22 16,-10 Q17,-19 1,-20 Q-14,-19 -17,-9 Z" fill="#000000"/>
+        </g>
+      </g>
+
+      <g id="flagpole1"></g>
+
+      <g id="fgGrass">
+        <path d="M0,1080 L0,940 Q480,910 960,928 T1920,922 L1920,1080 Z" fill="#0e0a08" opacity="0.85"/>
+      </g>
+    </g>
+  </g>
+
+  <!-- ============ SHOT 2 : STADIUM ============ -->
+  <g id="shot2" opacity="0">
+    <g id="shot2cam">
+      <rect x="0" y="0" width="1920" height="1080" fill="url(#gradDaySky)"/>
+      <g id="sunGlow">
+        <circle cx="1660" cy="150" r="120" fill="#fff6d8" opacity="0.55" filter="url(#blurSoft)"/>
+        <circle cx="1660" cy="150" r="60" fill="#fffdf3" opacity="0.9"/>
+      </g>
+
+      <g id="stadiumStructure">
+        <path d="M-100,560 Q960,270 1940,560 L1940,720 Q960,470 -100,720 Z" fill="url(#gradStand)"/>
+        <path d="M-100,560 Q960,270 1940,560 L1940,600 Q960,320 -100,600 Z" fill="#eef2f5" opacity="0.55"/>
+        <path d="M-100,470 Q960,190 1940,470" stroke="#dfe6ea" stroke-width="26" fill="none" opacity="0.9"/>
+        <path d="M-100,470 Q960,190 1940,470" stroke="#aab6c0" stroke-width="6" fill="none" opacity="0.8"/>
+        <g id="floodlights">
+          <g transform="translate(140,360)">
+            <rect x="-6" y="0" width="12" height="160" fill="#7c8792"/>
+            <rect x="-42" y="-26" width="84" height="30" rx="4" fill="#3c454e"/>
+          </g>
+          <g transform="translate(1780,360)">
+            <rect x="-6" y="0" width="12" height="160" fill="#7c8792"/>
+            <rect x="-42" y="-26" width="84" height="30" rx="4" fill="#3c454e"/>
+          </g>
+        </g>
+      </g>
+
+      <ellipse id="field" cx="960" cy="760" rx="900" ry="320" fill="url(#gradField)"/>
+      <ellipse cx="960" cy="760" rx="900" ry="320" fill="none" stroke="#7c5a2c" stroke-width="4" opacity="0.5"/>
+
+      <g id="crowdFar"></g>
+      <g id="crowdNear"></g>
+
+      <g id="flagpole2"></g>
+    </g>
+  </g>
+
+  <!-- ============ SHOT 3 : TITLE CARD ============ -->
+  <g id="shot3">
+    <rect id="shot3bg" x="0" y="0" width="1920" height="1080" fill="#05060d" opacity="0"/>
+    <g id="titleGroup" opacity="0">
+      <g clip-path="url(#titleClip)">
+        <text id="titleMain" x="960" y="510" text-anchor="middle" font-size="96" font-weight="700"
+          letter-spacing="6" fill="#f7f1e1" filter="url(#blurTitle)">RSS — EK CRITICAL HISTORY</text>
+      </g>
+      <rect id="titleUnderline" x="960" y="548" width="0" height="5" fill="url(#gradFlag)"/>
+    </g>
+  </g>
+
+  <!-- ============ SUBTITLES ============ -->
+  <g id="subtitleLayer" opacity="0">
+    <rect id="subtitleBg" x="260" y="940" width="1400" height="104" rx="14" fill="#000000" opacity="0.55"/>
+    <text id="subtitleText" x="960" y="982" text-anchor="middle" font-family="Verdana, Arial, sans-serif"
+      font-size="30" fill="#fbf7ef"></text>
+  </g>
+
+  <rect id="vignetteOverlay" x="0" y="0" width="1920" height="1080" fill="url(#gradVignette)" pointer-events="none"/>
+  <rect id="grainOverlay" x="0" y="0" width="1920" height="1080" filter="url(#filterGrain)" opacity="0.045" pointer-events="none"/>
+</svg>
+</div>
+
+<script>
+const SVGNS = "http://www.w3.org/2000/svg";
+function el(tag, attrs, parent) {
+  const e = document.createElementNS(SVGNS, tag);
+  for (const k in attrs) e.setAttribute(k, attrs[k]);
+  if (parent) parent.appendChild(e);
+  return e;
+}
+function lerp(a, b, t) { return a + (b - a) * t; }
+function clamp(v, a, b) { return Math.min(b, Math.max(a, v)); }
+function smoothstep(a, b, t) {
+  const x = clamp((t - a) / (b - a), 0, 1);
+  return x * x * (3 - 2 * x);
+}
+function mulberry32(seed) {
+  return function () {
+    seed |= 0; seed = (seed + 0x6D2B79F5) | 0;
+    let t = Math.imul(seed ^ (seed >>> 15), 1 | seed);
+    t = (t + Math.imul(t ^ (t >>> 7), 61 | t)) ^ t;
+    return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
+  };
+}
+const rand1 = mulberry32(1337);
+const rand2 = mulberry32(4242);
+const rand3 = mulberry32(9001);
+
+/* ---------- Timeline constants ---------- */
+const FPS = 30, DURATION = 30;
+const SHOT1_END = 10.0;
+const TRANS_START = 10.0, TRANS_END = 12.3;
+const SHOT2_END = 22.3;
+const BG_FADE_START = 22.3, BG_FADE_END = 23.0;
+const TITLE_REVEAL_START = 23.0, TITLE_REVEAL_END = 24.5;
+const TITLE_HOLD_END = 27.5;
+const TITLE_FADE_END = 30.0;
+
+const SUBTITLES = [
+  { start: 1.0, end: 5.2, text: "Sab kuch shuru hua tha Nagpur ke ek chhote se maidan mein, bas kuch ladkon ke saath." },
+  { start: 10.8, end: 15.0, text: "Aaj, sau saal baad, yeh duniya ke sabse bade volunteer organisations mein se ek hai." },
+  { start: 15.5, end: 19.2, text: "RSS kehta hai ki woh character build karta hai aur Hindu samaj ko unite karta hai." },
+  { start: 19.6, end: 22.3, text: "Lekin iske critics kehte hain ki iski history ek alag hi kahani sunati hai." },
+];
+
+/* ---------- Build stars ---------- */
+const starsGroup = document.getElementById("stars");
+const STAR_COUNT = 220;
+const stars = [];
+for (let i = 0; i < STAR_COUNT; i++) {
+  const x = rand1() * 1920;
+  const y = rand1() * 620;
+  const r = 0.6 + rand1() * 1.6;
+  const baseOp = 0.25 + rand1() * 0.5;
+  const c = el("circle", { cx: x, cy: y, r: r, fill: "#fdf8e8" }, starsGroup);
+  stars.push({ el: c, phase: rand1() * Math.PI * 2, speed: 0.6 + rand1() * 1.1, baseOp });
+}
+
+/* ---------- Background silhouettes: trees + houses ---------- */
+const bg = document.getElementById("bgSilhouettes");
+function house(x, y, w, h, color) {
+  const g = el("g", { transform: `translate(${x},${y})` }, bg);
+  el("rect", { x: -w / 2, y: -h, width: w, height: h, fill: color }, g);
+  el("path", { d: `M${-w / 2 - 6},${-h} L0,${-h - h * 0.55} L${w / 2 + 6},${-h} Z`, fill: color }, g);
+}
+function tree(x, y, s, color) {
+  const g = el("g", { transform: `translate(${x},${y}) scale(${s})` }, bg);
+  el("rect", { x: -3, y: -30, width: 6, height: 34, fill: color }, g);
+  el("ellipse", { cx: 0, cy: -50, rx: 26, ry: 32, fill: color }, g);
+  el("ellipse", { cx: -18, cy: -36, rx: 16, ry: 20, fill: color }, g);
+  el("ellipse", { cx: 18, cy: -38, rx: 15, ry: 19, fill: color }, g);
+}
+const farColor = "#171b3c", nearColor = "#0d0f28";
+for (let i = 0; i < 9; i++) house(120 + i * 210 + rand2() * 60, 700, 70 + rand2() * 40, 46 + rand2() * 30, farColor);
+for (let i = 0; i < 7; i++) tree(80 + i * 260 + rand2() * 90, 704, 0.8 + rand2() * 0.6, nearColor);
+tree(560, 706, 1.3, nearColor);
+tree(1080, 704, 1.15, nearColor);
+
+/* ---------- Lanterns ---------- */
+const lanternsGroup = document.getElementById("lanterns");
+const lanterns = [];
+[[420, 690], [1340, 680], [980, 700]].forEach(([x, y]) => {
+  const g = el("g", { transform: `translate(${x},${y})` }, lanternsGroup);
+  const glow = el("circle", { cx: 0, cy: -34, r: 46, fill: "url(#gradLantern)" }, g);
+  el("rect", { x: -3, y: -34, width: 6, height: 40, fill: "#2c2014" }, g);
+  const bulb = el("circle", { cx: 0, cy: -34, r: 6, fill: "#ffd27a" }, g);
+  lanterns.push({ glow, bulb, phase: rand2() * Math.PI * 2 });
+});
+
+/* ---------- Dust particles ---------- */
+const dustGroup = document.getElementById("dust");
+const DUST_COUNT = 70;
+const dustParticles = [];
+for (let i = 0; i < DUST_COUNT; i++) {
+  const x0 = rand3() * 1920;
+  const y0 = 740 + rand3() * 320;
+  const r = 0.8 + rand3() * 1.6;
+  const c = el("circle", { cx: x0, cy: y0, r: r, fill: "#d8b988" }, dustGroup);
+  dustParticles.push({
+    el: c, x0, y0, r,
+    swayAmp: 8 + rand3() * 22,
+    swaySpeed: 0.15 + rand3() * 0.3,
+    phase: rand3() * Math.PI * 2,
+    riseSpeed: 6 + rand3() * 10,
+    range: 300 + rand3() * 150,
+  });
+}
+
+/* ---------- Flag + pole builder (shared shape logic) ---------- */
+function buildFlagPole(parent, opts) {
+  const { x, groundY, poleTop, poleWidth, flagLen, flagH } = opts;
+  const g = el("g", { transform: `translate(${x},0)` }, parent);
+  el("rect", { x: -poleWidth / 2, y: poleTop, width: poleWidth, height: groundY - poleTop, fill: "url(#gradPole)", rx: poleWidth / 2 }, g);
+  el("ellipse", { cx: 0, cy: groundY, rx: poleWidth * 1.6, ry: poleWidth * 0.5, fill: "#241a10" }, g);
+  el("circle", { cx: 0, cy: poleTop, r: poleWidth * 0.9, fill: "#caa25a" }, g);
+  const flagPath = el("path", { fill: "url(#gradFlag)", stroke: "#b33d0a", "stroke-width": 1.2, "stroke-opacity": 0.5 }, g);
+  const flagShade = el("path", { fill: "#ffffff", opacity: 0.12 }, g);
+  return { group: g, flagPath, flagShade, x, groundY, poleTop, flagLen, flagH };
+}
+function updateFlag(f, t, riseT, flutterSeed) {
+  const attachY = lerp(f.groundY - 26, f.poleTop + 4, riseT);
+  const segs = 10;
+  const topPts = [], botPts = [];
+  for (let i = 0; i <= segs; i++) {
+    const xf = i / segs;
+    const x = xf * f.flagLen;
+    const taperTop = lerp(-f.flagH / 2, 0, xf);
+    const taperBot = lerp(f.flagH / 2, 0, xf);
+    const wave = Math.sin(xf * 7.2 - t * 5.4 + flutterSeed) * 9 * xf + Math.sin(xf * 3.1 - t * 2.6 + flutterSeed) * 5 * xf;
+    topPts.push([x, attachY + taperTop + wave]);
+    botPts.push([x, attachY + taperBot + wave]);
+  }
+  let d = `M0,${attachY - f.flagH / 2} `;
+  for (const [x, y] of topPts) d += `L${x.toFixed(1)},${y.toFixed(1)} `;
+  for (let i = botPts.length - 1; i >= 0; i--) d += `L${botPts[i][0].toFixed(1)},${botPts[i][1].toFixed(1)} `;
+  d += "Z";
+  f.flagPath.setAttribute("d", d);
+  let ds = `M0,${attachY - f.flagH / 2} `;
+  for (let i = 0; i <= Math.floor(segs * 0.55); i++) ds += `L${topPts[i][0].toFixed(1)},${topPts[i][1].toFixed(1)} `;
+  for (let i = Math.floor(segs * 0.55); i >= 0; i--) ds += `L${(topPts[i][0]).toFixed(1)},${(topPts[i][1] + f.flagH * 0.18).toFixed(1)} `;
+  ds += "Z";
+  f.flagShade.setAttribute("d", ds);
+  f.group.setAttribute("opacity", riseT > 0.01 ? 1 : 0);
+}
+
+const flag1 = buildFlagPole(document.getElementById("flagpole1"), {
+  x: 990, groundY: 760, poleTop: 300, poleWidth: 12, flagLen: 150, flagH: 92,
+});
+const flag2 = buildFlagPole(document.getElementById("flagpole2"), {
+  x: 960, groundY: 560, poleTop: 300, poleWidth: 10, flagLen: 130, flagH: 78,
+});
+
+/* ---------- Crowd (stadium) ---------- */
+const crowdFar = document.getElementById("crowdFar");
+const crowdNear = document.getElementById("crowdNear");
+const nearFigures = [];
+const UNIFORM_COLORS = ["#5a5230", "#736a3c", "#efe9d8", "#8a7a44"];
+
+function buildCrowd() {
+  const rows = 34;
+  const topY = 500, bottomY = 1010;
+  const flagX = 960;
+  const fieldCx = 960, fieldCy = 760, fieldRx = 900, fieldRy = 320;
+  for (let i = 0; i < rows; i++) {
+    const depthT = i / (rows - 1);
+    const eased = Math.pow(depthT, 1.15);
+    const y = lerp(topY, bottomY, eased);
+    const ellipseK = clamp(1 - Math.pow((y - fieldCy) / fieldRy, 2), 0, 1);
+    const rowWidth = Math.max(50, 2 * fieldRx * Math.sqrt(ellipseK) * 0.86);
+    const scale = lerp(0.42, 1.55, eased);
+    const count = clamp(Math.round(rowWidth / (26 - eased * 8)), 4, 90);
+    const isNear = depthT > 0.62;
+    const target = isNear ? crowdNear : crowdFar;
+    for (let j = 0; j < count; j++) {
+      const xf = count === 1 ? 0.5 : j / (count - 1);
+      const x = flagX - rowWidth / 2 + xf * rowWidth;
+      const jitterX = (rand1() - 0.5) * 6 * scale;
+      const jitterY = (rand1() - 0.5) * 4 * scale;
+      const color = UNIFORM_COLORS[Math.floor(rand1() * UNIFORM_COLORS.length)];
+      const use = el("use", {
+        href: "#figUnit", x: -6, y: -10, width: 12, height: 14,
+        transform: `translate(${(x + jitterX).toFixed(1)},${(y + jitterY).toFixed(1)}) scale(${scale.toFixed(2)})`,
+        color, opacity: (0.55 + depthT * 0.45).toFixed(2),
+      }, target);
+      use.setAttributeNS("http://www.w3.org/1999/xlink", "href", "#figUnit");
+      if (isNear) {
+        nearFigures.push({ use, baseX: x + jitterX, baseY: y + jitterY, scale, phase: rand1() * Math.PI * 2, speed: 1.4 + rand1() * 1.0 });
+      }
+    }
+  }
+}
+buildCrowd();
+
+/* ---------- Title text metrics for reveal ---------- */
+const titleMain = document.getElementById("titleMain");
+const titleClipRect = document.getElementById("titleClipRect");
+const titleUnderline = document.getElementById("titleUnderline");
+let titleBBox = null;
+function ensureTitleBBox() {
+  if (!titleBBox) {
+    const b = titleMain.getBBox();
+    titleBBox = b;
+    titleClipRect.setAttribute("x", b.x - 10);
+    titleClipRect.setAttribute("y", b.y - 20);
+    titleClipRect.setAttribute("height", b.height + 40);
+    titleUnderline.setAttribute("x", 960 - 210);
+    titleUnderline.setAttribute("width", 0);
+  }
+  return titleBBox;
+}
+
+/* ---------- Subtitles wrap helper ---------- */
+const subtitleText = document.getElementById("subtitleText");
+function wrapSubtitle(str) {
+  if (str.length <= 62) return [str];
+  const words = str.split(" ");
+  let l1 = "", l2 = "";
+  for (const w of words) {
+    if ((l1 + " " + w).trim().length <= Math.ceil(str.length / 2) + 6 && l2 === "") l1 = (l1 + " " + w).trim();
+    else l2 = (l2 + " " + w).trim();
+  }
+  return [l1, l2];
+}
+let lastSubtitleText = "";
+
+/* ---------- Camera focal groups ---------- */
+const shot1camEl = document.getElementById("shot1cam");
+const shot1El = document.getElementById("shot1");
+const shot2camEl = document.getElementById("shot2cam");
+const shot2El = document.getElementById("shot2");
+const shot3bgEl = document.getElementById("shot3bg");
+const titleGroupEl = document.getElementById("titleGroup");
+const subtitleLayerEl = document.getElementById("subtitleLayer");
+const subtitleBgEl = document.getElementById("subtitleBg");
+
+/* ============================================================
+   renderFrame(t): pure function of time — sets attributes only
+   ============================================================ */
+function renderFrame(t) {
+  t = clamp(t, 0, DURATION);
+
+  /* ---- Shot 1 ---- */
+  const s1Push = smoothstep(0, SHOT1_END, t);
+  const camScale1 = lerp(1.0, 1.07, s1Push);
+  const fx = 1000, fy = 620;
+  shot1camEl.setAttribute("transform", `translate(${fx},${fy}) scale(${camScale1}) translate(${-fx},${-fy})`);
+
+  const s1Opacity = 1 - smoothstep(TRANS_START, TRANS_END, t);
+  shot1El.setAttribute("opacity", s1Opacity.toFixed(3));
+
+  for (const s of stars) {
+    const op = clamp(s.baseOp + 0.35 * Math.sin(t * s.speed + s.phase), 0.05, 1);
+    s.el.setAttribute("opacity", op.toFixed(2));
+  }
+  for (const l of lanterns) {
+    const flick = 0.85 + 0.15 * Math.sin(t * 6 + l.phase) + 0.05 * Math.sin(t * 17 + l.phase);
+    l.glow.setAttribute("opacity", (0.55 * flick).toFixed(2));
+    l.bulb.setAttribute("opacity", flick.toFixed(2));
+  }
+  for (const d of dustParticles) {
+    const travelled = (d.riseSpeed * t) % d.range;
+    const y = d.y0 - travelled;
+    const x = d.x0 + Math.sin(t * d.swaySpeed + d.phase) * d.swayAmp;
+    const edgeFade = smoothstep(0, 30, travelled) * (1 - smoothstep(d.range - 30, d.range, travelled));
+    d.el.setAttribute("cx", x.toFixed(1));
+    d.el.setAttribute("cy", y.toFixed(1));
+    d.el.setAttribute("opacity", (0.75 * edgeFade).toFixed(2));
+  }
+
+  const breathe = Math.sin(t * 1.6) * 2.5;
+  const c1 = document.getElementById("character1");
+  c1.setAttribute("transform", `translate(760,${(760 + breathe * 0.15).toFixed(1)})`);
+  document.getElementById("c1-armL").setAttribute("transform", `translate(-30,${(-92 + breathe * 0.4).toFixed(1)}) rotate(${(Math.sin(t * 1.6) * 2).toFixed(2)})`);
+
+  const rise1 = smoothstep(1.0, 7.0, t);
+  updateFlag(flag1, t, Math.max(rise1, 0.001), 0);
+
+  /* ---- Transition camera on shot2 (zoom-out reveal) ---- */
+  const transT = smoothstep(TRANS_START, TRANS_END, t);
+  const camScale2 = lerp(2.5, 1.0, transT);
+  const fx2 = 960, fy2 = 560;
+  const settle = 1.0 + Math.sin(clamp((t - TRANS_END), 0, 999) * 0.35) * 0.006 * smoothstep(TRANS_END, TRANS_END + 3, t) * (1 - smoothstep(SHOT2_END - 1, SHOT2_END, t));
+  shot2camEl.setAttribute("transform", `translate(${fx2},${fy2}) scale(${(camScale2 * settle).toFixed(4)}) translate(${-fx2},${-fy2})`);
+  shot2El.setAttribute("opacity", transT.toFixed(3));
+
+  updateFlag(flag2, t, 1, 1.7);
+
+  for (const f of nearFigures) {
+    const bob = Math.sin(t * f.speed + f.phase) * 1.6 * f.scale;
+    const sway = Math.cos(t * f.speed * 0.6 + f.phase) * 1.2 * f.scale;
+    f.use.setAttribute("transform", `translate(${(f.baseX + sway).toFixed(1)},${(f.baseY + bob).toFixed(1)}) scale(${f.scale.toFixed(2)})`);
+  }
+
+  /* ---- Shot 3: title card ---- */
+  const bgFade = smoothstep(BG_FADE_START, BG_FADE_END, t);
+  shot3bgEl.setAttribute("opacity", bgFade.toFixed(3));
+
+  if (t >= BG_FADE_END - 0.05) {
+    ensureTitleBBox();
+    const reveal = smoothstep(TITLE_REVEAL_START, TITLE_REVEAL_END, t);
+    titleClipRect.setAttribute("width", (reveal * (titleBBox.width + 20)).toFixed(1));
+    const underlineT = smoothstep(TITLE_REVEAL_END, TITLE_REVEAL_END + 0.45, t);
+    titleUnderline.setAttribute("width", (underlineT * 420).toFixed(1));
+    const fadeOut = 1 - smoothstep(TITLE_HOLD_END, TITLE_FADE_END, t);
+    titleGroupEl.setAttribute("opacity", fadeOut.toFixed(3));
+  } else {
+    titleGroupEl.setAttribute("opacity", 0);
+  }
+
+  /* ---- Subtitles ---- */
+  let active = null;
+  for (const s of SUBTITLES) { if (t >= s.start - 0.001 && t <= s.end + 0.001) { active = s; break; } }
+  if (active) {
+    const a = smoothstep(active.start, active.start + 0.25, t) * (1 - smoothstep(active.end - 0.25, active.end, t));
+    subtitleLayerEl.setAttribute("opacity", a.toFixed(3));
+    if (active.text !== lastSubtitleText) {
+      lastSubtitleText = active.text;
+      const lines = wrapSubtitle(active.text);
+      while (subtitleText.firstChild) subtitleText.removeChild(subtitleText.firstChild);
+      lines.forEach((line, i) => {
+        const ts = el("tspan", { x: 960, dy: i === 0 ? 0 : 34 }, subtitleText);
+        ts.textContent = line;
+      });
+      const h = lines.length > 1 ? 104 : 74;
+      const yTop = lines.length > 1 ? 918 : 940;
+      subtitleBgEl.setAttribute("height", h);
+      subtitleBgEl.setAttribute("y", yTop);
+      subtitleText.setAttribute("y", lines.length > 1 ? 958 : 982);
+    }
+  } else {
+    subtitleLayerEl.setAttribute("opacity", 0);
+    lastSubtitleText = "";
+  }
+}
+
+window.renderFrame = renderFrame;
+window.sceneReady = true;
+renderFrame(0);
+</script>
+</body>
+</html>

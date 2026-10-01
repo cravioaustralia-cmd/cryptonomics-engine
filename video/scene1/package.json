@@ -1,0 +1,10 @@
+{
+  "name": "scene1-renderer",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Standalone deterministic SVG/Canvas renderer + Playwright frame capture for Scene 1, independent of the Remotion pipeline.",
+  "devDependencies": {
+    "playwright": "1.63.0"
+  }
+}
