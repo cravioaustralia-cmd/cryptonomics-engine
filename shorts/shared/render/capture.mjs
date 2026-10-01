@@ -8,7 +8,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { pathToFileURL } from 'node:url';
 
-export async function captureVideo({ episodeDir, outVideo, fps = 30, duration }) {
+export async function captureVideo({ episodeDir, outVideo, fps = 30, duration, jpegQuality = 88, crf = 18, preset = 'veryfast' }) {
   const renderDir = path.resolve(path.dirname(new URL(import.meta.url).pathname));
   const frameHtml = path.join(renderDir, 'frame.html');
   const scenesUrl = pathToFileURL(path.join(episodeDir, 'render', 'scenes.js')).href;
@@ -32,6 +32,11 @@ export async function captureVideo({ episodeDir, outVideo, fps = 30, duration })
     if (!file && u.pathname.startsWith('/img/')) {
       file = path.join(imgRoot, decodeURIComponent(u.pathname.slice(5)));
     }
+    // /ep/* → any file inside the episode folder (fonts, map data); no traversal outside it
+    if (!file && u.pathname.startsWith('/ep/')) {
+      const f = path.resolve(episodeDir, decodeURIComponent(u.pathname.slice(4)));
+      if (f.startsWith(path.resolve(episodeDir) + path.sep)) file = f;
+    }
     if (!file || !fs.existsSync(file)) {
       res.writeHead(404);
       res.end('missing');
@@ -46,6 +51,8 @@ export async function captureVideo({ episodeDir, outVideo, fps = 30, duration })
       '.jpeg': 'image/jpeg',
       '.png': 'image/png',
       '.webp': 'image/webp',
+      '.woff2': 'font/woff2',
+      '.svg': 'image/svg+xml',
     };
     res.writeHead(200, { 'Content-Type': types[ext] || 'application/octet-stream' });
     fs.createReadStream(file).pipe(res);
@@ -73,9 +80,9 @@ export async function captureVideo({ episodeDir, outVideo, fps = 30, duration })
       '-pix_fmt',
       'yuv420p',
       '-preset',
-      'veryfast',
+      preset,
       '-crf',
-      '18',
+      String(crf),
       '-r',
       String(fps),
       '-movflags',
@@ -85,22 +92,29 @@ export async function captureVideo({ episodeDir, outVideo, fps = 30, duration })
     { stdio: ['pipe', 'inherit', 'inherit'] }
   );
 
-  const browser = await chromium.launch({
-    headless: true,
-    args: ['--disable-dev-shm-usage', '--no-sandbox'],
-  });
+  const launchOpts = { headless: true, args: ['--disable-dev-shm-usage', '--no-sandbox'] };
+  let browser;
+  try {
+    browser = await chromium.launch(launchOpts);
+  } catch (e) {
+    // Playwright build newer than the pre-installed browser: fall back to the system Chromium
+    const exe = process.env.PW_CHROMIUM || '/opt/pw-browsers/chromium';
+    if (!fs.existsSync(exe)) throw e;
+    browser = await chromium.launch({ ...launchOpts, executablePath: exe });
+  }
   const page = await browser.newPage({
     viewport: { width: 1080, height: 1920 },
     deviceScaleFactor: 1,
   });
   await page.goto(pageUrl, { waitUntil: 'networkidle' });
-  await page.waitForFunction(() => window.__ready && window.EPISODE);
+  // episodes that preload images/fonts set window.__assetsReady = false, then true when decoded
+  await page.waitForFunction(() => window.__ready && window.EPISODE && window.__assetsReady !== false, null, { timeout: 120000 });
 
   const t0 = Date.now();
   for (let i = 0; i < totalFrames; i++) {
     const t = i / fps;
     await page.evaluate((time) => window.renderFrame(time), t);
-    const buf = await page.screenshot({ type: 'jpeg', quality: 88, animations: 'disabled' });
+    const buf = await page.screenshot({ type: 'jpeg', quality: jpegQuality, animations: 'disabled' });
     const ok = ff.stdin.write(buf);
     if (!ok) await new Promise((r) => ff.stdin.once('drain', r));
     if (i % 90 === 0) {

@@ -1,0 +1,30 @@
+s26 Mary Bryant — master loudness report (2026-10-01T03:04:31.754Z)
+VO (held Atlas en-AU) measured -23.1 LUFS → static gain 5.1 dB (no pre-amix loudnorm)
+Music: Skyline (Mixkit 601) static -23 dB + envelope (gap lift +3.5, deaths dip −4, pardon swell +2, series +1.5)
+SFX cues (10):
+    0.00 s  impact_hit       -10 dB  frame-1 hook slam 5,000 KM
+    4.35 s  whoosh_1          -9 dB  pull-out along the 5,000 km preview
+   25.96 s  thud              -3 dB  Gag 1 — governor's boat yanked off the harbour pin
+   36.15 s  whoosh_2         -11 dB  storm gust
+   42.50 s  riser            -12 dB  out across open sea → 69 DAYS
+   45.08 s  impact_hit       -11 dB  69 DAYS slam
+   59.45 s  record-scratch    -3 dB  Gag 5 — real shipwreck crew arrives
+   68.27 s  thud              -5 dB  Gag 6 — padlock snaps; map desaturates
+   82.60 s  impact_hit       -14 dB  PARDONED stamp
+   94.82 s  whoosh_1          -8 dB  incomplete-loop whip back to the hook
+Pass 1 (premix): I=-18.52 LUFS  TP=-5.30 dBTP  LRA=3.30  thresh=-29.11
+Pass 2 (master, linear=true) ebur128:
+[Parsed_ebur128_0 @ 0x5593cc621d00] Summary:
+
+  Integrated loudness:
+    I:         -14.1 LUFS
+    Threshold: -24.6 LUFS
+
+  Loudness range:
+    LRA:         3.0 LU
+    Threshold: -34.6 LUFS
+    LRA low:   -16.2 LUFS
+    LRA high:  -13.3 LUFS
+
+  True peak:
+    Peak:       -1.5 dBFS

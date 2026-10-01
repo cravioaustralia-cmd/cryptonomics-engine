@@ -213,3 +213,11 @@ Unpacked 6 Grok VOs into shorts/incoming-vo/. #01 matches finished Skylab Short;
 ## 2026-09-30T20:55+10:00 — s24 Burke & Wills (Atlas VO held)
 - Held Atlas en-AU `audio/vo.mp3` (**39.168 s**) from `/home/box/Downloads/s24_burke_wills_atlas_fast.mp3` (also `/workspace/deliverables/s24-burke-wills/vo-raw/vo-atlas.mp3`)
 - Ready for Claude Whisper / seam retune; incomplete loop on `…story of how`
+
+## 2026-10-01 — s26 Mary Bryant (Claude build, MAP EXPLAINER)
+- Whisper (faster-whisper medium.en) on held Atlas VO 96.12 s → `transcript.json`; recovered the dropped "rest of his life" with a second pass
+- Satellite basemap built in-repo (`render/tools/build_basemap.py`): NASA BMNG colour + Tilezen relief/bathymetry + Natural Earth masks; 6 layers (world, region, Torres, Kupang, Sydney, UK); soft knee, no blown white
+- `render/scenes.js`: one continuous kinetic map — self-drawing routes validated to stay at sea (escape 5,242 km Sydney→Kupang via the reef lagoon + Endeavour Strait; First Fleet arc; grey return via Batavia/Cape; Pandora boats), always-moving camera with whip blur, karaoke captions at 70 %, all 7 visual gags + series camel + master-map join, incomplete loop back to the frame-1 `5,000 KM`
+- Mix `render/mix.mjs` (locked path): 10 SFX, Skyline bed, two-pass master loudnorm −14 LUFS / −1.5 dBTP
+- Shared `capture.mjs`: Chromium fallback for newer Playwright, `/ep/` static route, waits for `__assetsReady`, quality/crf/preset options (defaults unchanged)
+- No photo inserts (egress policy blocked Commons/NLA/SLNSW; optional per brief) — documented in `images/SOURCES.md`

@@ -1,0 +1,1266 @@
+{
+ "duration": 96.12,
+ "text": "A mother, a toddler, a baby, and a stolen boat. Escaping across 5,000 kilometres of open sea, 1791. Her name is Mary Bryant, a young highway robber sent from England to the brand new prison colony in Sydney. The colony is starving. Her husband William, another convict, decides they're not staying. So they don't just steal a boat, they steal the governor's boat. One moonless night they slip out of Sydney Harbour, 11 people in one open boat. They sail north up the entire east coast of Australia. Storms nearly swamp them. They squeeze between the Great Barrier Reef and the coast, round the tip of Australia and out across open sea. 69 days later they land on the island of Timor, over 5,000 kilometres. Every single one of them alive. Their cover story? They're survivors of a shipwreck. And the Dutch officials believe it for a while. Then a real shipwreck crew arrives, a British Navy captain who'd been hunting the mutineers of the Bounty. Their story falls apart. They're arrested and shipped back in chains. On the way her baby son dies, then her husband, then her little daughter. Mary reaches London alone, facing a possible death sentence for escaping. But famous writer James Boswell takes up her case. She's pardoned and he sends her money for the If Mary deserves a like for sheer nerve, you know what to do. That's episode one of Impossible Journeys. Follow along for the next one. And it all started with...",
+ "words": [
+  {
+   "word": "A",
+   "start": 0.0,
+   "end": 0.18
+  },
+  {
+   "word": "mother,",
+   "start": 0.18,
+   "end": 0.6
+  },
+  {
+   "word": "a",
+   "start": 1.04,
+   "end": 1.04
+  },
+  {
+   "word": "toddler,",
+   "start": 1.04,
+   "end": 1.46
+  },
+  {
+   "word": "a",
+   "start": 1.74,
+   "end": 1.92
+  },
+  {
+   "word": "baby,",
+   "start": 1.92,
+   "end": 2.24
+  },
+  {
+   "word": "and",
+   "start": 2.64,
+   "end": 2.92
+  },
+  {
+   "word": "a",
+   "start": 2.92,
+   "end": 3.16
+  },
+  {
+   "word": "stolen",
+   "start": 3.16,
+   "end": 3.46
+  },
+  {
+   "word": "boat.",
+   "start": 3.46,
+   "end": 3.9
+  },
+  {
+   "word": "Escaping",
+   "start": 4.44,
+   "end": 4.9
+  },
+  {
+   "word": "across",
+   "start": 4.9,
+   "end": 5.4
+  },
+  {
+   "word": "5",
+   "start": 5.4,
+   "end": 5.92
+  },
+  {
+   "word": ",000",
+   "start": 5.92,
+   "end": 6.34
+  },
+  {
+   "word": "kilometres",
+   "start": 6.34,
+   "end": 6.72
+  },
+  {
+   "word": "of",
+   "start": 6.72,
+   "end": 7.04
+  },
+  {
+   "word": "open",
+   "start": 7.04,
+   "end": 7.32
+  },
+  {
+   "word": "sea,",
+   "start": 7.32,
+   "end": 7.68
+  },
+  {
+   "word": "1791.",
+   "start": 8.3,
+   "end": 9.34
+  },
+  {
+   "word": "Her",
+   "start": 10.0,
+   "end": 10.18
+  },
+  {
+   "word": "name",
+   "start": 10.18,
+   "end": 10.44
+  },
+  {
+   "word": "is",
+   "start": 10.44,
+   "end": 10.84
+  },
+  {
+   "word": "Mary",
+   "start": 10.84,
+   "end": 11.08
+  },
+  {
+   "word": "Bryant,",
+   "start": 11.08,
+   "end": 11.48
+  },
+  {
+   "word": "a",
+   "start": 11.92,
+   "end": 12.1
+  },
+  {
+   "word": "young",
+   "start": 12.1,
+   "end": 12.34
+  },
+  {
+   "word": "highway",
+   "start": 12.34,
+   "end": 12.76
+  },
+  {
+   "word": "robber",
+   "start": 12.76,
+   "end": 13.16
+  },
+  {
+   "word": "sent",
+   "start": 13.16,
+   "end": 13.46
+  },
+  {
+   "word": "from",
+   "start": 13.46,
+   "end": 13.7
+  },
+  {
+   "word": "England",
+   "start": 13.7,
+   "end": 14.02
+  },
+  {
+   "word": "to",
+   "start": 14.02,
+   "end": 14.24
+  },
+  {
+   "word": "the",
+   "start": 14.24,
+   "end": 14.44
+  },
+  {
+   "word": "brand",
+   "start": 14.44,
+   "end": 14.64
+  },
+  {
+   "word": "new",
+   "start": 14.64,
+   "end": 14.92
+  },
+  {
+   "word": "prison",
+   "start": 14.92,
+   "end": 15.26
+  },
+  {
+   "word": "colony",
+   "start": 15.26,
+   "end": 15.66
+  },
+  {
+   "word": "in",
+   "start": 15.66,
+   "end": 15.88
+  },
+  {
+   "word": "Sydney.",
+   "start": 15.88,
+   "end": 16.22
+  },
+  {
+   "word": "The",
+   "start": 16.8,
+   "end": 16.94
+  },
+  {
+   "word": "colony",
+   "start": 16.94,
+   "end": 17.28
+  },
+  {
+   "word": "is",
+   "start": 17.28,
+   "end": 17.5
+  },
+  {
+   "word": "starving.",
+   "start": 17.5,
+   "end": 17.96
+  },
+  {
+   "word": "Her",
+   "start": 18.44,
+   "end": 18.6
+  },
+  {
+   "word": "husband",
+   "start": 18.6,
+   "end": 18.9
+  },
+  {
+   "word": "William,",
+   "start": 18.9,
+   "end": 19.34
+  },
+  {
+   "word": "another",
+   "start": 19.58,
+   "end": 19.94
+  },
+  {
+   "word": "convict,",
+   "start": 19.94,
+   "end": 20.48
+  },
+  {
+   "word": "decides",
+   "start": 20.9,
+   "end": 21.28
+  },
+  {
+   "word": "they're",
+   "start": 21.28,
+   "end": 21.64
+  },
+  {
+   "word": "not",
+   "start": 21.64,
+   "end": 21.86
+  },
+  {
+   "word": "staying.",
+   "start": 21.86,
+   "end": 22.34
+  },
+  {
+   "word": "So",
+   "start": 22.72,
+   "end": 22.96
+  },
+  {
+   "word": "they",
+   "start": 22.96,
+   "end": 23.12
+  },
+  {
+   "word": "don't",
+   "start": 23.12,
+   "end": 23.42
+  },
+  {
+   "word": "just",
+   "start": 23.42,
+   "end": 23.6
+  },
+  {
+   "word": "steal",
+   "start": 23.6,
+   "end": 23.92
+  },
+  {
+   "word": "a",
+   "start": 23.92,
+   "end": 24.16
+  },
+  {
+   "word": "boat,",
+   "start": 24.16,
+   "end": 24.38
+  },
+  {
+   "word": "they",
+   "start": 24.66,
+   "end": 24.88
+  },
+  {
+   "word": "steal",
+   "start": 24.88,
+   "end": 25.16
+  },
+  {
+   "word": "the",
+   "start": 25.16,
+   "end": 25.46
+  },
+  {
+   "word": "governor's",
+   "start": 25.46,
+   "end": 25.98
+  },
+  {
+   "word": "boat.",
+   "start": 25.98,
+   "end": 26.18
+  },
+  {
+   "word": "One",
+   "start": 26.68,
+   "end": 26.96
+  },
+  {
+   "word": "moonless",
+   "start": 26.96,
+   "end": 27.48
+  },
+  {
+   "word": "night",
+   "start": 27.48,
+   "end": 27.8
+  },
+  {
+   "word": "they",
+   "start": 27.8,
+   "end": 28.1
+  },
+  {
+   "word": "slip",
+   "start": 28.1,
+   "end": 28.38
+  },
+  {
+   "word": "out",
+   "start": 28.38,
+   "end": 28.6
+  },
+  {
+   "word": "of",
+   "start": 28.6,
+   "end": 28.78
+  },
+  {
+   "word": "Sydney",
+   "start": 28.78,
+   "end": 29.0
+  },
+  {
+   "word": "Harbour,",
+   "start": 29.0,
+   "end": 29.36
+  },
+  {
+   "word": "11",
+   "start": 30.02,
+   "end": 30.22
+  },
+  {
+   "word": "people",
+   "start": 30.22,
+   "end": 30.66
+  },
+  {
+   "word": "in",
+   "start": 30.66,
+   "end": 30.94
+  },
+  {
+   "word": "one",
+   "start": 30.94,
+   "end": 31.26
+  },
+  {
+   "word": "open",
+   "start": 31.26,
+   "end": 31.64
+  },
+  {
+   "word": "boat.",
+   "start": 31.64,
+   "end": 31.94
+  },
+  {
+   "word": "They",
+   "start": 32.34,
+   "end": 32.62
+  },
+  {
+   "word": "sail",
+   "start": 32.62,
+   "end": 32.94
+  },
+  {
+   "word": "north",
+   "start": 32.94,
+   "end": 33.32
+  },
+  {
+   "word": "up",
+   "start": 33.32,
+   "end": 33.66
+  },
+  {
+   "word": "the",
+   "start": 33.66,
+   "end": 33.86
+  },
+  {
+   "word": "entire",
+   "start": 33.86,
+   "end": 34.32
+  },
+  {
+   "word": "east",
+   "start": 34.32,
+   "end": 34.7
+  },
+  {
+   "word": "coast",
+   "start": 34.7,
+   "end": 34.92
+  },
+  {
+   "word": "of",
+   "start": 34.92,
+   "end": 35.16
+  },
+  {
+   "word": "Australia.",
+   "start": 35.16,
+   "end": 35.72
+  },
+  {
+   "word": "Storms",
+   "start": 36.26,
+   "end": 36.78
+  },
+  {
+   "word": "nearly",
+   "start": 36.78,
+   "end": 37.04
+  },
+  {
+   "word": "swamp",
+   "start": 37.04,
+   "end": 37.4
+  },
+  {
+   "word": "them.",
+   "start": 37.4,
+   "end": 37.72
+  },
+  {
+   "word": "They",
+   "start": 37.94,
+   "end": 38.3
+  },
+  {
+   "word": "squeeze",
+   "start": 38.3,
+   "end": 38.62
+  },
+  {
+   "word": "between",
+   "start": 38.62,
+   "end": 39.0
+  },
+  {
+   "word": "the",
+   "start": 39.0,
+   "end": 39.2
+  },
+  {
+   "word": "Great",
+   "start": 39.2,
+   "end": 39.42
+  },
+  {
+   "word": "Barrier",
+   "start": 39.42,
+   "end": 39.74
+  },
+  {
+   "word": "Reef",
+   "start": 39.74,
+   "end": 40.06
+  },
+  {
+   "word": "and",
+   "start": 40.06,
+   "end": 40.32
+  },
+  {
+   "word": "the",
+   "start": 40.32,
+   "end": 40.52
+  },
+  {
+   "word": "coast,",
+   "start": 40.52,
+   "end": 40.88
+  },
+  {
+   "word": "round",
+   "start": 41.16,
+   "end": 41.52
+  },
+  {
+   "word": "the",
+   "start": 41.52,
+   "end": 41.72
+  },
+  {
+   "word": "tip",
+   "start": 41.72,
+   "end": 41.9
+  },
+  {
+   "word": "of",
+   "start": 41.9,
+   "end": 42.1
+  },
+  {
+   "word": "Australia",
+   "start": 42.1,
+   "end": 42.66
+  },
+  {
+   "word": "and",
+   "start": 42.66,
+   "end": 43.14
+  },
+  {
+   "word": "out",
+   "start": 43.14,
+   "end": 43.4
+  },
+  {
+   "word": "across",
+   "start": 43.4,
+   "end": 43.76
+  },
+  {
+   "word": "open",
+   "start": 43.76,
+   "end": 44.18
+  },
+  {
+   "word": "sea.",
+   "start": 44.18,
+   "end": 44.54
+  },
+  {
+   "word": "69",
+   "start": 45.12,
+   "end": 45.54
+  },
+  {
+   "word": "days",
+   "start": 45.54,
+   "end": 45.98
+  },
+  {
+   "word": "later",
+   "start": 45.98,
+   "end": 46.38
+  },
+  {
+   "word": "they",
+   "start": 46.38,
+   "end": 46.84
+  },
+  {
+   "word": "land",
+   "start": 46.84,
+   "end": 47.1
+  },
+  {
+   "word": "on",
+   "start": 47.1,
+   "end": 47.28
+  },
+  {
+   "word": "the",
+   "start": 47.28,
+   "end": 47.42
+  },
+  {
+   "word": "island",
+   "start": 47.42,
+   "end": 47.72
+  },
+  {
+   "word": "of",
+   "start": 47.72,
+   "end": 47.98
+  },
+  {
+   "word": "Timor,",
+   "start": 47.98,
+   "end": 48.34
+  },
+  {
+   "word": "over",
+   "start": 48.7,
+   "end": 49.0
+  },
+  {
+   "word": "5",
+   "start": 49.0,
+   "end": 49.6
+  },
+  {
+   "word": ",000",
+   "start": 49.6,
+   "end": 50.0
+  },
+  {
+   "word": "kilometres.",
+   "start": 50.0,
+   "end": 50.4
+  },
+  {
+   "word": "Every",
+   "start": 51.04,
+   "end": 51.38
+  },
+  {
+   "word": "single",
+   "start": 51.38,
+   "end": 51.64
+  },
+  {
+   "word": "one",
+   "start": 51.64,
+   "end": 51.88
+  },
+  {
+   "word": "of",
+   "start": 51.88,
+   "end": 52.02
+  },
+  {
+   "word": "them",
+   "start": 52.02,
+   "end": 52.14
+  },
+  {
+   "word": "alive.",
+   "start": 52.14,
+   "end": 52.62
+  },
+  {
+   "word": "Their",
+   "start": 52.94,
+   "end": 53.16
+  },
+  {
+   "word": "cover",
+   "start": 53.16,
+   "end": 53.46
+  },
+  {
+   "word": "story?",
+   "start": 53.46,
+   "end": 53.88
+  },
+  {
+   "word": "They're",
+   "start": 54.38,
+   "end": 54.58
+  },
+  {
+   "word": "survivors",
+   "start": 54.58,
+   "end": 55.02
+  },
+  {
+   "word": "of",
+   "start": 55.02,
+   "end": 55.24
+  },
+  {
+   "word": "a",
+   "start": 55.24,
+   "end": 55.42
+  },
+  {
+   "word": "shipwreck.",
+   "start": 55.42,
+   "end": 55.82
+  },
+  {
+   "word": "And",
+   "start": 55.82,
+   "end": 56.32
+  },
+  {
+   "word": "the",
+   "start": 56.32,
+   "end": 56.48
+  },
+  {
+   "word": "Dutch",
+   "start": 56.48,
+   "end": 56.72
+  },
+  {
+   "word": "officials",
+   "start": 56.72,
+   "end": 57.1
+  },
+  {
+   "word": "believe",
+   "start": 57.1,
+   "end": 57.52
+  },
+  {
+   "word": "it",
+   "start": 57.52,
+   "end": 57.74
+  },
+  {
+   "word": "for",
+   "start": 57.74,
+   "end": 58.12
+  },
+  {
+   "word": "a",
+   "start": 58.12,
+   "end": 58.36
+  },
+  {
+   "word": "while.",
+   "start": 58.36,
+   "end": 58.62
+  },
+  {
+   "word": "Then",
+   "start": 59.22,
+   "end": 59.32
+  },
+  {
+   "word": "a",
+   "start": 59.32,
+   "end": 59.54
+  },
+  {
+   "word": "real",
+   "start": 59.54,
+   "end": 59.84
+  },
+  {
+   "word": "shipwreck",
+   "start": 59.84,
+   "end": 60.22
+  },
+  {
+   "word": "crew",
+   "start": 60.22,
+   "end": 60.48
+  },
+  {
+   "word": "arrives,",
+   "start": 60.48,
+   "end": 60.96
+  },
+  {
+   "word": "a",
+   "start": 61.36,
+   "end": 61.52
+  },
+  {
+   "word": "British",
+   "start": 61.52,
+   "end": 61.8
+  },
+  {
+   "word": "Navy",
+   "start": 61.8,
+   "end": 62.14
+  },
+  {
+   "word": "captain",
+   "start": 62.14,
+   "end": 62.56
+  },
+  {
+   "word": "who'd",
+   "start": 62.56,
+   "end": 62.84
+  },
+  {
+   "word": "been",
+   "start": 62.84,
+   "end": 62.96
+  },
+  {
+   "word": "hunting",
+   "start": 62.96,
+   "end": 63.3
+  },
+  {
+   "word": "the",
+   "start": 63.3,
+   "end": 63.54
+  },
+  {
+   "word": "mutineers",
+   "start": 63.54,
+   "end": 63.98
+  },
+  {
+   "word": "of",
+   "start": 63.98,
+   "end": 64.14
+  },
+  {
+   "word": "the",
+   "start": 64.14,
+   "end": 64.3
+  },
+  {
+   "word": "Bounty.",
+   "start": 64.3,
+   "end": 64.6
+  },
+  {
+   "word": "Their",
+   "start": 65.0,
+   "end": 65.28
+  },
+  {
+   "word": "story",
+   "start": 65.28,
+   "end": 65.62
+  },
+  {
+   "word": "falls",
+   "start": 65.62,
+   "end": 65.96
+  },
+  {
+   "word": "apart.",
+   "start": 65.96,
+   "end": 66.38
+  },
+  {
+   "word": "They're",
+   "start": 66.7,
+   "end": 66.94
+  },
+  {
+   "word": "arrested",
+   "start": 66.94,
+   "end": 67.38
+  },
+  {
+   "word": "and",
+   "start": 67.38,
+   "end": 67.68
+  },
+  {
+   "word": "shipped",
+   "start": 67.68,
+   "end": 67.92
+  },
+  {
+   "word": "back",
+   "start": 67.92,
+   "end": 68.22
+  },
+  {
+   "word": "in",
+   "start": 68.22,
+   "end": 68.44
+  },
+  {
+   "word": "chains.",
+   "start": 68.44,
+   "end": 68.84
+  },
+  {
+   "word": "On",
+   "start": 69.3,
+   "end": 69.54
+  },
+  {
+   "word": "the",
+   "start": 69.54,
+   "end": 69.7
+  },
+  {
+   "word": "way",
+   "start": 69.7,
+   "end": 69.92
+  },
+  {
+   "word": "her",
+   "start": 69.92,
+   "end": 70.24
+  },
+  {
+   "word": "baby",
+   "start": 70.24,
+   "end": 70.54
+  },
+  {
+   "word": "son",
+   "start": 70.54,
+   "end": 70.84
+  },
+  {
+   "word": "dies,",
+   "start": 70.84,
+   "end": 71.28
+  },
+  {
+   "word": "then",
+   "start": 71.58,
+   "end": 71.84
+  },
+  {
+   "word": "her",
+   "start": 71.84,
+   "end": 72.02
+  },
+  {
+   "word": "husband,",
+   "start": 72.02,
+   "end": 72.44
+  },
+  {
+   "word": "then",
+   "start": 72.8,
+   "end": 73.04
+  },
+  {
+   "word": "her",
+   "start": 73.04,
+   "end": 73.22
+  },
+  {
+   "word": "little",
+   "start": 73.22,
+   "end": 73.44
+  },
+  {
+   "word": "daughter.",
+   "start": 73.44,
+   "end": 73.82
+  },
+  {
+   "word": "Mary",
+   "start": 74.42,
+   "end": 74.62
+  },
+  {
+   "word": "reaches",
+   "start": 74.62,
+   "end": 75.0
+  },
+  {
+   "word": "London",
+   "start": 75.0,
+   "end": 75.38
+  },
+  {
+   "word": "alone,",
+   "start": 75.38,
+   "end": 75.9
+  },
+  {
+   "word": "facing",
+   "start": 75.92,
+   "end": 76.48
+  },
+  {
+   "word": "a",
+   "start": 76.48,
+   "end": 76.74
+  },
+  {
+   "word": "possible",
+   "start": 76.74,
+   "end": 77.14
+  },
+  {
+   "word": "death",
+   "start": 77.14,
+   "end": 77.46
+  },
+  {
+   "word": "sentence",
+   "start": 77.46,
+   "end": 77.82
+  },
+  {
+   "word": "for",
+   "start": 77.82,
+   "end": 78.06
+  },
+  {
+   "word": "escaping.",
+   "start": 78.06,
+   "end": 78.56
+  },
+  {
+   "word": "But",
+   "start": 79.0,
+   "end": 79.3
+  },
+  {
+   "word": "famous",
+   "start": 79.3,
+   "end": 79.64
+  },
+  {
+   "word": "writer",
+   "start": 79.64,
+   "end": 80.0
+  },
+  {
+   "word": "James",
+   "start": 80.0,
+   "end": 80.46
+  },
+  {
+   "word": "Boswell",
+   "start": 80.46,
+   "end": 80.92
+  },
+  {
+   "word": "takes",
+   "start": 80.92,
+   "end": 81.26
+  },
+  {
+   "word": "up",
+   "start": 81.26,
+   "end": 81.44
+  },
+  {
+   "word": "her",
+   "start": 81.44,
+   "end": 81.6
+  },
+  {
+   "word": "case.",
+   "start": 81.6,
+   "end": 81.94
+  },
+  {
+   "word": "She's",
+   "start": 82.28,
+   "end": 82.7
+  },
+  {
+   "word": "pardoned",
+   "start": 82.7,
+   "end": 83.18
+  },
+  {
+   "word": "and",
+   "start": 83.18,
+   "end": 83.58
+  },
+  {
+   "word": "he",
+   "start": 83.58,
+   "end": 83.76
+  },
+  {
+   "word": "sends",
+   "start": 83.76,
+   "end": 84.04
+  },
+  {
+   "word": "her",
+   "start": 84.04,
+   "end": 84.2
+  },
+  {
+   "word": "money",
+   "start": 84.2,
+   "end": 84.44
+  },
+  {
+   "word": "for",
+   "start": 84.44,
+   "end": 84.68
+  },
+  {
+   "word": "the",
+   "start": 84.68,
+   "end": 85.8
+  },
+  {
+   "word": "If",
+   "start": 85.8,
+   "end": 86.34
+  },
+  {
+   "word": "Mary",
+   "start": 86.34,
+   "end": 86.64
+  },
+  {
+   "word": "deserves",
+   "start": 86.64,
+   "end": 87.1
+  },
+  {
+   "word": "a",
+   "start": 87.1,
+   "end": 87.36
+  },
+  {
+   "word": "like",
+   "start": 87.36,
+   "end": 87.52
+  },
+  {
+   "word": "for",
+   "start": 87.52,
+   "end": 87.74
+  },
+  {
+   "word": "sheer",
+   "start": 87.74,
+   "end": 88.02
+  },
+  {
+   "word": "nerve,",
+   "start": 88.02,
+   "end": 88.48
+  },
+  {
+   "word": "you",
+   "start": 89.0,
+   "end": 89.08
+  },
+  {
+   "word": "know",
+   "start": 89.08,
+   "end": 89.24
+  },
+  {
+   "word": "what",
+   "start": 89.24,
+   "end": 89.4
+  },
+  {
+   "word": "to",
+   "start": 89.4,
+   "end": 89.56
+  },
+  {
+   "word": "do.",
+   "start": 89.56,
+   "end": 89.84
+  },
+  {
+   "word": "That's",
+   "start": 90.28,
+   "end": 90.78
+  },
+  {
+   "word": "episode",
+   "start": 90.78,
+   "end": 90.9
+  },
+  {
+   "word": "one",
+   "start": 90.9,
+   "end": 91.3
+  },
+  {
+   "word": "of",
+   "start": 91.3,
+   "end": 91.48
+  },
+  {
+   "word": "Impossible",
+   "start": 91.48,
+   "end": 92.06
+  },
+  {
+   "word": "Journeys.",
+   "start": 92.06,
+   "end": 92.58
+  },
+  {
+   "word": "Follow",
+   "start": 93.08,
+   "end": 93.28
+  },
+  {
+   "word": "along",
+   "start": 93.28,
+   "end": 93.6
+  },
+  {
+   "word": "for",
+   "start": 93.6,
+   "end": 93.82
+  },
+  {
+   "word": "the",
+   "start": 93.82,
+   "end": 93.96
+  },
+  {
+   "word": "next",
+   "start": 93.96,
+   "end": 94.16
+  },
+  {
+   "word": "one.",
+   "start": 94.16,
+   "end": 94.5
+  },
+  {
+   "word": "And",
+   "start": 94.84,
+   "end": 94.92
+  },
+  {
+   "word": "it",
+   "start": 94.92,
+   "end": 95.04
+  },
+  {
+   "word": "all",
+   "start": 95.04,
+   "end": 95.26
+  },
+  {
+   "word": "started",
+   "start": 95.26,
+   "end": 95.66
+  },
+  {
+   "word": "with...",
+   "start": 95.66,
+   "end": 96.1
+  }
+ ]
+}
