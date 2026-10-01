@@ -191,3 +191,17 @@ Unpacked 6 Grok VOs into shorts/incoming-vo/. #01 matches finished Skylab Short;
 ## 2026-09-30T20:55+10:00 — s24 Burke & Wills (Atlas VO held)
 - Held Atlas en-AU `audio/vo.mp3` (**39.168 s**) from `/home/box/Downloads/s24_burke_wills_atlas_fast.mp3` (also `/workspace/deliverables/s24-burke-wills/vo-raw/vo-atlas.mp3`)
 - Ready for Claude Whisper / seam retune; incomplete loop on `…story of how`
+
+## 2026-10-01T14:33+10:00 — s27 Bert Hinkler (scaffold)
+- Episode: `shorts/s27-bert-hinkler/`
+- **Mode: MAP EXPLAINER (locked)** — GeoArchivez standing quality bar; GeoGlobeTales basemap (no blown white relief)
+- **Series:** Impossible Journeys — **episode 2** (s26 Mary Bryant was ep.1)
+- Atlas VO **pending** — scaffold only (Checkpoint C): script, vo_script (~224 spoken words), plan with ANIMATE beat table (all 7 gags), FACT_NOTES, MAP_EXPLAINER_MODE.md (from style-refs), SOURCES, fact-check (all PASS / PASS-SOFT; no FAIL), Skyline bed (Eugenio Mininni / Mixkit id **601** — same Impossible Journeys bed as s26 Mary), Mixkit SFX (+ paper_rustle, thud), render README, PASTE_BRIEF
+- **No `scenes.js`** — Claude owns design / animation / mix
+- **Image lock:** real free-licence Bert Hinkler portrait **mandatory** (never emoji/pictogram/name-chip); Avro Avian if licence-clean; Mussolini/Florence period free stills or soft map — not emoji; no AI stills
+- Hook: `15 DAYS` (alts `18,000 KM` · `HUSTLING HINKLER`); first-frame space dive → London biplane lift → red dotted SE route
+- Soft facts: ~15½ days / ~18,000 km / Croydon PASS-SOFT London / Hustling Hinkler / Pratomagno crash / Florence burial / Mussolini military honours
+- Geography lock: London → Italy → Med → North Africa → Middle East → India → Burma → Singapore → Indonesia islands → Darwin; crash Tuscany; burial Florence; childhood Bundaberg (gag 1)
+- Incomplete loop: `…All of it started with` → space dive / `15 DAYS` / London biplane → `One man. One tiny open plane…`
+- **Do not reuse** abandoned `s26-bert-hinkler` (ABANDONED markers stay; live Bert = s27)
+- Note: s06 reserved Somerton Man; s26 Mary Bryant Impossible Journeys ep.1; **this is s27**
