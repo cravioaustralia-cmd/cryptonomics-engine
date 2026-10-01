@@ -1,5 +1,17 @@
 # History Shorts production log
 
+## 2026-10-01 — Scaffold s26 Mary Bryant (MAP EXPLAINER; pending Atlas VO) — REPLACES Bert Hinkler
+- Episode: `shorts/s26-mary-bryant/` on branch `scaffold/s26-mary-bryant`
+- **User changed script** — s26 is now Mary Bryant (Impossible Journeys ep.1), not Bert Hinkler.
+- Abandoned: `shorts/s26-bert-hinkler/ABANDONED.md` + deliverables `s26-bert-hinkler/ABANDONED.md`
+- Mode: **MAP EXPLAINER** (kinetic cartography). GeoArchivez motion bar + GeoGlobeTales basemap (no blown white relief).
+- Hook: `5,000 KM` (never spoken). Incomplete loop mid-phrase into open (`And it all started with`).
+- VO: pending Atlas — place at `audio/vo.mp3` when recorded (~253 spoken words; ~110–130 s).
+- Music: Mixkit Skyline (Eugenio Mininni / id 601).
+- Seven visual gags all on map (governor boat yank; 11→12? series camel; coast Day counter; fake shipwreck faces; Pandora record-scratch; grey chains route; red series master-map join).
+- No scenes.js — Claude owns design. No @claude from scaffold issue — paste brief for user.
+- Deliverables paste brief: `/workspace/deliverables/s26-mary-bryant/PASTE_BRIEF.md`
+
 
 ## 2026-10-01 — Scaffold s26 Bert Hinkler (MAP EXPLAINER; pending Atlas VO)
 - Episode: `shorts/s26-bert-hinkler/`
