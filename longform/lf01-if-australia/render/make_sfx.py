@@ -299,6 +299,78 @@ CUES = {
     'series_sting': series_sting, 'cliff_sting': cliff_sting,
 }
 
+
+# ---------------------------------------------------------------- environment beds for B-roll shots (all original)
+def rain(d=8.0):
+    t = t_(d)
+    x = hp(noise(d), 900, 2) * 0.5 + bp(noise(d), 2500, 7000) * 0.4
+    drops = np.zeros(len(t))
+    for _ in range(int(d * 120)):
+        k = rng.integers(0, len(t) - 600)
+        drops[k:k + 600] += rng.uniform(0.2, 1.0) * np.exp(-np.arange(600) / 60.0) * rng.standard_normal(600)
+    x = x + hp(drops, 1500) * 0.35
+    e = np.minimum(1, t / 1.0) * np.minimum(1, (d - t) / 1.0)
+    return reverb(x * e, 1.2, 0.25, bright=6000)[: len(t)]
+
+
+def sea(d=8.0):
+    t = t_(d)
+    base = lp(noise(d), 600, 2)
+    swell = 0.55 + 0.45 * np.sin(2 * np.pi * t / 4.3) ** 2
+    wash = bp(noise(d), 400, 3000) * (0.3 + 0.7 * np.clip(np.sin(2 * np.pi * t / 4.3 + 1.0), 0, 1) ** 3)
+    x = base * swell * 0.8 + wash * 0.5
+    e = np.minimum(1, t / 1.2) * np.minimum(1, (d - t) / 1.2)
+    return reverb(x * e, 1.5, 0.3, bright=4000)[: len(t)]
+
+
+def war_ambience(d=9.0):
+    t = t_(d)
+    n = len(t)
+    x = lp(noise(d), 140, 4) * 0.9 * (0.7 + 0.3 * np.sin(2 * np.pi * 0.17 * t))
+    for at in (0.7, 1.9, 3.1, 4.6, 5.4, 7.2, 8.0):
+        k = int(at * SR)
+        m = n - k
+        x[k:] += (lp(noise(m / SR), 120, 4) * env_ad(m, 0.02, 0.7) * 1.6 + sweep_sine(48, 26, m / SR, 2) * env_ad(m, 0.01, 0.5) * 0.8)[:m]
+    e = np.minimum(1, t / 1.0) * np.minimum(1, (d - t) / 1.2)
+    return reverb(lp(x, 300) * e, 3.5, 0.5, bright=400)[: n]
+
+
+def fire_crackle(d=8.0):
+    t = t_(d)
+    n = len(t)
+    x = lp(noise(d), 500, 2) * 0.25
+    for _ in range(int(d * 40)):
+        k = rng.integers(0, n - 400)
+        x[k:k + 400] += rng.uniform(0.2, 1.0) * np.exp(-np.arange(400) / 40.0) * rng.standard_normal(400)
+    x = bp(x, 300, 5000)
+    e = np.minimum(1, t / 1.0) * np.minimum(1, (d - t) / 1.0)
+    return reverb(x * e, 2.0, 0.45, bright=2500)[: n]
+
+
+def underwater(d=7.0):
+    t = t_(d)
+    n = len(t)
+    x = lp(noise(d), 180, 4) * (0.8 + 0.2 * np.sin(2 * np.pi * 0.3 * t))
+    for _ in range(int(d * 6)):
+        k = rng.integers(0, n - 4800)
+        f0 = rng.uniform(300, 900)
+        tt = np.arange(4800) / SR
+        x[k:k + 4800] += 0.15 * np.sin(2 * np.pi * (f0 + 1200 * tt) * tt) * np.exp(-tt / 0.03)
+    e = np.minimum(1, t / 1.0) * np.minimum(1, (d - t) / 1.0)
+    return reverb(lp(x, 1200) * e, 2.5, 0.5, bright=900)[: n]
+
+
+def engine_low(d=7.0):
+    t = t_(d)
+    f = 31.0
+    x = sum(np.sin(2 * np.pi * f * k * t + k) / k for k in range(1, 7)) * (1 + 0.25 * np.sin(2 * np.pi * f / 2 * t))
+    x = lp(x + 0.3 * lp(noise(d), 200), 400) * np.minimum(1, t / 1.5) * np.minimum(1, (d - t) / 1.5)
+    return reverb(x, 1.5, 0.35, bright=800)[: len(t)]
+
+
+CUES.update({'rain': rain, 'sea': sea, 'war_ambience': war_ambience, 'fire_crackle': fire_crackle,
+             'underwater': underwater, 'engine_low': engine_low})
+
 if __name__ == '__main__':
     import zlib
     for k in (sys.argv[1:] or CUES):

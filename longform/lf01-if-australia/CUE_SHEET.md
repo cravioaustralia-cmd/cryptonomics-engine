@@ -7,55 +7,87 @@ Times are the final cut (Whisper-locked). Sparse by design: grim beats run nearl
 
 | In | Out | Cue | Picture / script beat | Source, fades |
 |---|---|---|---|---|
-| 0:00.00 | 0:18.87 | Tense bed under the cold open; cuts out completely on "rejected" | V01-V02 | Silent Descent — Eugenio Mininni (Mixkit 614) from 0.0s; fade in 0.4s / out 0.03s |
-| 0:29.70 | 1:21.73 | Music swells back in as the arrow re-extends; carries Act 1 opening | V03 gap 1.5 s -> V05 | Silent Descent — Eugenio Mininni (Mixkit 614) from 58.0s; fade in 1.5s / out 0.6s |
-| 1:29.27 | 1:50.61 | Bed returns, tense and building | V07 | Silent Descent — Eugenio Mininni (Mixkit 614) from 75.0s; fade in 1.2s / out 1.0s |
-| 1:57.91 | 3:01.14 | Bed under Curtin, Tokyo argument and the decision | V09-V11 | Silent Descent — Eugenio Mininni (Mixkit 614) from 88.0s; fade in 2.0s / out 0.2s |
-| 3:03.19 | 3:35.43 | Storytelling, then tense | V12-V13 | Dark Drama — Eugenio Mininni (Mixkit 605) from 0.0s; fade in 1.0s / out 1.2s |
-| 3:34.43 | 4:06.23 | Music shifts lighter and curious on "geography" | V13-V15 | Curiosity — Diego Nava (Mixkit 480) from 10.0s; fade in 1.4s / out 0.35s |
-| 4:09.53 | 5:21.12 | Curious bed resumes for Act 2 | V16-V18 | Curiosity — Diego Nava (Mixkit 480) from 40.0s; fade in 1.0s / out 0.9s |
-| 5:22.22 | 6:46.28 | Dramatic bed for the full invasion | V19-V22 | Dark Drama — Eugenio Mininni (Mixkit 605) from 40.0s; fade in 0.8s / out 1.0s |
-| 7:01.72 | 7:20.65 | Serious, then sly | V24 | Dark Drama — Eugenio Mininni (Mixkit 605) from 130.0s; fade in 1.5s / out 0.2s |
-| 7:22.80 | 8:02.38 | Tense bed: the plan to cut Australia off | V25-V26 | Fallen (Asper) — Eugenio Mininni (Mixkit 565) from 40.0s; fade in 0.8s / out 0.05s |
-| 8:18.28 | 8:43.56 | Tense turn: midget submarines, shelling, Kokoda | V27-V28 | Fallen (Asper) — Eugenio Mininni (Mixkit 565) from 130.0s; fade in 2.0s / out 1.6s |
-| 8:41.96 | 10:55.68 | Music lifts as the pins light and the lifeline redraws; resolves and holds through V30; warm under Act 5; outro under the end screen | V29-V34 + end screen | Vastness — Andrew Ev (Mixkit 184) from 0.0s; fade in 2.0s / out 3.5s |
+| 0:00.00 | 0:18.87 | Tense cold-open bed; cuts out completely on "rejected" | V01-V02 | Silent Descent — Eugenio Mininni (Mixkit 614) from 0.0s; fade in 0.4s / out 0.03s |
+| 0:29.70 | 0:59.94 | Swells back in as the arrow re-extends; carries V04 and the title | V03 gap -> V04 gap | Silent Descent — Eugenio Mininni (Mixkit 614) from 58.0s; fade in 0.9s / out 0.8s |
+| 1:00.24 | 1:21.73 | War: Japan sweeps across Asia (dark, heavy) | V05 | Dark Drama — Eugenio Mininni (Mixkit 605) from 20.0s; fade in 0.8s / out 0.8s |
+| 1:21.53 | 1:29.07 | Loss: the prisoners (sad, low) | V06 / B02 / gap 2 s | Echoes — Andrew Ev (Mixkit 188) from 40.0s; fade in 1.0s / out 0.8s |
+| 1:29.27 | 1:49.31 | Tense and building: Australia exposed | V07-V08 | Silent Descent — Eugenio Mininni (Mixkit 614) from 75.0s; fade in 1.0s / out 0.6s |
+| 1:49.51 | 1:59.05 | War: the bombing of Darwin (heavy, insistent) | V08 / B03 / gap 2.5 s | Between Two Evils — Michael Ramir C. (Mixkit 1020) from 40.0s; fade in 0.6s / out 1.0s |
+| 1:59.15 | 3:01.09 | Plans and argument: Curtin, Tokyo, the decision (mysterious) | V09-V11 | Fallen (Asper) — Eugenio Mininni (Mixkit 565) from 40.0s; fade in 1.2s / out 0.2s |
+| 3:03.19 | 3:34.93 | War: landings in the north (dark, heavy) | V12-V13 | Dark Drama — Eugenio Mininni (Mixkit 605) from 100.0s; fade in 1.0s / out 0.8s |
+| 3:35.23 | 4:05.43 | Geography takes over (lighter, curious); drops out for the deadpan beat | V13-V15 | Curiosity — Diego Nava (Mixkit 480) from 10.0s; fade in 1.4s / out 0.45s |
+| 4:09.53 | 5:21.12 | Curious bed resumes for the rest of scenario one | V16-V18 | Curiosity — Diego Nava (Mixkit 480) from 40.0s; fade in 1.0s / out 0.9s |
+| 5:22.22 | 6:45.98 | War: the full invasion (darkest, heaviest section) | V19-V22 | Dark Drama — Eugenio Mininni (Mixkit 605) from 200.0s; fade in 0.8s / out 1.0s |
+| 7:01.72 | 7:20.60 | Serious, then sly | V24 | Fallen (Asper) — Eugenio Mininni (Mixkit 565) from 130.0s; fade in 1.5s / out 0.2s |
+| 7:22.80 | 8:02.87 | War threat: the plan to cut Australia off (heavy, insistent); cuts on the snap | V25-V26 | Between Two Evils — Michael Ramir C. (Mixkit 1020) from 80.0s; fade in 0.8s / out 0.05s |
+| 8:08.78 | 8:23.00 | Loss: Australia cut off and alone (sad, low) | V27 | Echoes — Andrew Ev (Mixkit 188) from 100.0s; fade in 1.5s / out 0.8s |
+| 8:23.20 | 8:39.92 | War: midget submarines, shelling, Kokoda (dark, heavy) | V27-V28 | Dark Drama — Eugenio Mininni (Mixkit 605) from 120.0s; fade in 0.6s / out 0.9s |
+| 8:39.62 | 9:22.20 | Relief: the music lifts as the pins light and the lifeline redraws; resolves and holds | V29-V30 + gap 2 s | Vastness — Andrew Ev (Mixkit 184) from 0.0s; fade in 1.5s / out 1.2s |
+| 9:22.10 | 10:55.68 | Warm and hopeful: ANZUS, migration, the end screen outro | V31-V34 + end screen | The Journey — Ahjay Stelino (Mixkit 79) from 0.0s; fade in 1.5s / out 3.0s |
 
-Beds sit about 17 LU under the narration while Atlas speaks and rise to about 7.5 LU under it in the edit gaps (speech-activity envelope, attack 0.12 s / release 0.6 s). The voice itself is never processed.
+One cue per emotional section, with a short stop at section changes: darker, heavier beds (Dark Drama, Between Two Evils) for war and invasion; a sad, low bed (Echoes) and the scripted strings for loss; Fallen (Asper) for plans and argument; Curiosity for geography; Vastness for relief; The Journey for the warm Act 5.
 
-## Sound effects (all synthesised in-house by `render/make_sfx.py`)
+While Atlas speaks the bed sits about 23 LU under the narration, with a 1.5–4 kHz presence dip of about 7 dB. In pauses, the cold open and atmosphere beats it rises to about 11 LU under the narration: heard, never full. Speech detection runs 150 ms ahead, so beds are already down before a word starts.
+Word safety (speech band 200 Hz–5 kHz, every 20 ms frame where the voice sounds, 15898 frames): the voice is above music + SFX + ambience by **at least 12.0 dB**, median 27.0 dB. A sidechain on the beds (never on the voice) enforces the 12 dB floor.
+
+## Sound effects (synthesised in-house by `render/make_sfx.py`)
+
+Effects sit in the pauses; anything that overlaps narration is ducked about 16 dB and kept under the 12 dB floor above.
 
 | At | Ends | Cue | Script beat | File (level vs VO peak) |
 |---|---|---|---|---|
-| 0:00.00 | 0:18.89 | Low drone from frame 1 | V01 frame 1 | drone.flac (-15 dB) |
-| 0:07.39 | 0:15.39 | Deep boom on "invade Australia"; rings through the 1 s gap | V01 | boom.flac (+0 dB) |
-| 0:19.02 | 0:20.92 | Stamp thud as REJECTED slams | V02 | stamp_thud.flac (-2 dB) |
-| 0:57.94 | 1:05.24 | IF AUSTRALIA... series sting as the title builds | V04 gap 2.5 s | series_sting.flac (-2 dB) |
-| 1:11.79 | 1:12.89 | Pin thunk (hong) | V05 | pin_thunk.flac (-10 dB) |
-| 1:13.39 | 1:14.49 | Pin thunk (malaya) | V05 | pin_thunk.flac (-10 dB) |
-| 1:17.59 | 1:18.69 | Pin thunk (singapore) | V05 | pin_thunk.flac (-10 dB) |
-| 1:21.53 | 1:28.53 | Music drops to a single low note under the prisoner line and B02 | V06 / B02 | low_note.flac (-13 dB) |
-| 1:48.71 | 1:59.71 | Air-raid siren fades in, peaks over B03, fades on the pull-back | V08 / B03 / gap 2.5 s | siren.flac (-12 dB) |
-| 1:51.51 | 1:59.51 | Distant explosions, no screams | V08 / B03 | explosions_distant.flac (-8 dB) |
-| 2:45.61 | 2:47.51 | Soft thud as "4 MARCH 1942" stamps onto Tokyo | V11 | stamp_thud.flac (-12 dB) |
-| 3:01.04 | 3:07.54 | Cliffhanger sting; then 1.5 s hold (mid-roll 1) | V11 | cliff_sting.flac (-1 dB) |
-| 3:01.94 | 3:03.84 | Whoosh into the big "1" | Act 2 open | whoosh.flac (-6 dB) |
-| 3:02.61 | 3:08.71 | Drum hit as "1" slams onto the map | Act 2 open | drum_1.flac (-1 dB) |
-| 4:06.08 | 4:10.78 | Single gust of desert wind (the comic beat) over B05 | V15 / B05 | desert_wind.flac (-6 dB) |
-| 5:14.69 | 5:16.59 | Soft thud as STUCK stamps the verdict card | V18 | stamp_thud.flac (-10 dB) |
-| 5:20.87 | 5:22.77 | Whoosh into the big "2" | Act 3 open | whoosh.flac (-5 dB) |
-| 5:21.54 | 5:29.24 | Heavier drum hit as "2" slams on | Act 3 open | drum_2.flac (+0 dB) |
-| 5:51.14 | 5:55.94 | Sonar ping 1 (B07 periscope) | V20 / B07 | sonar_ping.flac (-8 dB) |
-| 5:54.39 | 5:59.19 | Sonar ping 2 (submarine icons strike) | V20 after B07 | sonar_ping.flac (-8 dB) |
-| 6:45.98 | 7:02.02 | Strings only under V23 and B09 | V23 / B09 / gap 1.5 s | strings_pad.flac (-8 dB) |
-| 7:20.55 | 7:27.05 | Cliffhanger sting; then 1.5 s hold (mid-roll 2) | V24 | cliff_sting.flac (-1 dB) |
-| 7:21.45 | 7:23.35 | Whoosh into the big "3" | Act 4 open | whoosh.flac (-4 dB) |
-| 7:22.12 | 7:31.42 | Heaviest hit of the three as "3" slams on | Act 4 open | drum_3.flac (+1 dB) |
-| 8:01.86 | 8:05.66 | Snapping cable as the lifeline breaks | V26 | cable_snap.flac (-2 dB) |
-| 8:02.46 | 8:14.46 | Near silence with a low wind tone (Australia alone) | V26 -> gap 2 s -> V27 | low_wind.flac (-17 dB) |
-| 8:42.79 | 8:43.89 | Pin thunk (coral) as the four pins light up | V29 | pin_thunk.flac (-9 dB) |
-| 8:43.95 | 8:45.05 | Pin thunk (midway) as the four pins light up | V29 | pin_thunk.flac (-9 dB) |
-| 8:46.35 | 8:47.45 | Pin thunk (kokoda) as the four pins light up | V29 | pin_thunk.flac (-9 dB) |
-| 8:47.99 | 8:49.09 | Pin thunk (millan) as the four pins light up | V29 | pin_thunk.flac (-9 dB) |
+| 0:00.00 | 0:18.89 | Low drone from frame 1 | V01 frame 1 | drone.flac (-16 dB) |
+| 0:08.64 | 0:16.64 | Deep boom right after "invade Australia"; rings through the 1 s gap | V01 / gap 1 s | boom.flac (+0 dB) |
+| 0:18.86 | 0:20.76 | Stamp thud as REJECTED slams (soft under the word) | V02 | stamp_thud.flac (-8 dB) |
+| 0:57.94 | 1:05.24 | IF AUSTRALIA... series sting as the title builds | V04 gap 2.5 s | series_sting.flac (-3 dB) |
+| 1:11.79 | 1:12.89 | Pin thunk (hong), soft under the voice | V05 | pin_thunk.flac (-14 dB) |
+| 1:13.39 | 1:14.49 | Pin thunk (malaya), soft under the voice | V05 | pin_thunk.flac (-14 dB) |
+| 1:17.59 | 1:18.69 | Pin thunk (singapore), soft under the voice | V05 | pin_thunk.flac (-14 dB) |
+| 1:21.53 | 1:28.53 | Single low note under the prisoner line and B02 | V06 / B02 | low_note.flac (-16 dB) |
+| 1:48.71 | 1:59.71 | Air-raid siren: rises in the pause before "It's the first time", ducks under the words, fades on the pull-back | V08 / B03 / gap 2.5 s | siren.flac (-12 dB) |
+| 1:51.51 | 1:59.51 | Distant explosions, no screams | V08 / B03 | explosions_distant.flac (-9 dB) |
+| 2:45.89 | 2:47.79 | Soft thud as "4 MARCH 1942" stamps onto Tokyo | V11 | stamp_thud.flac (-12 dB) |
+| 3:01.04 | 3:07.54 | Cliffhanger sting; then 1.5 s hold (mid-roll 1) | V11 | cliff_sting.flac (-7 dB) |
+| 3:01.94 | 3:03.84 | Whoosh into the big "1" | Act 2 open | whoosh.flac (-7 dB) |
+| 3:02.61 | 3:08.71 | Drum hit as "1" slams onto the map | Act 2 open | drum_1.flac (-2 dB) |
+| 4:07.58 | 4:12.28 | Single gust of desert wind after "road to nowhere" (the comic beat) | V15 / B05 / gap | desert_wind.flac (-8 dB) |
+| 5:15.09 | 5:16.99 | Soft thud as STUCK stamps the verdict card | V18 | stamp_thud.flac (-12 dB) |
+| 5:20.87 | 5:22.77 | Whoosh into the big "2" | Act 3 open | whoosh.flac (-6 dB) |
+| 5:21.54 | 5:29.24 | Heavier drum hit as "2" slams on | Act 3 open | drum_2.flac (-1 dB) |
+| 5:52.34 | 5:57.14 | Sonar ping 1 (periscope), in the pause after "aircraft" | V20 / B07 | sonar_ping.flac (-9 dB) |
+| 5:53.31 | 5:58.11 | Sonar ping 2 (submarine icons strike), in the 1 s gap | V20 gap | sonar_ping.flac (-11 dB) |
+| 6:45.98 | 7:02.02 | Loss: strings only under V23 and B09 | V23 / B09 / gap 1.5 s | strings_pad.flac (-8 dB) |
+| 7:20.55 | 7:27.05 | Cliffhanger sting; then 1.5 s hold (mid-roll 2) | V24 | cliff_sting.flac (-7 dB) |
+| 7:21.45 | 7:23.35 | Whoosh into the big "3" | Act 4 open | whoosh.flac (-5 dB) |
+| 7:22.12 | 7:31.42 | Heaviest hit of the three as "3" slams on | Act 4 open | drum_3.flac (+0 dB) |
+| 8:02.35 | 8:06.15 | Snapping cable in the pause after "fewer supplies" | V26 | cable_snap.flac (-3 dB) |
+| 8:02.95 | 8:10.18 | Near silence with a low wind tone (Australia alone) | V26 -> gap 2 s | low_wind.flac (-17 dB) |
+| 8:29.42 | 8:37.42 | Distant shell bursts, soft under the voice | V28 | explosions_distant.flac (-15 dB) |
+| 8:42.79 | 8:43.89 | Pin thunk (coral), soft under the voice | V29 | pin_thunk.flac (-14 dB) |
+| 8:43.95 | 8:45.05 | Pin thunk (midway), soft under the voice | V29 | pin_thunk.flac (-14 dB) |
+| 8:46.35 | 8:47.45 | Pin thunk (kokoda), soft under the voice | V29 | pin_thunk.flac (-14 dB) |
+| 8:47.99 | 8:49.09 | Pin thunk (millan), soft under the voice | V29 | pin_thunk.flac (-14 dB) |
+
+## Shot environment (B-roll)
+
+Every B-roll clip is muted: the clips' own generated audio is never mapped into the film (`compose.py` takes audio only from the master). Environment comes from in-house synthesised beds and one Mixkit file already in this repo. Ducked about 12 dB under narration. B01 (the drone carries it) and B09 (script: strings only) get none.
+
+| At | Ends | Environment | Shot | File (level vs VO peak) |
+|---|---|---|---|---|
+| 1:22.58 | 1:27.48 | Tropical rain under the marching column | B02 (Singapore pin, prisoners; ends, then pull back in the 2 s gap) | rain.flac (-15 dB) |
+| 1:51.06 | 1:56.96 | Distant fire over the harbour | B03 (Darwin pin after the planes) | fire_crackle.flac (-20 dB) |
+| 3:13.22 | 3:18.12 | Surf on the mangrove shore | B04 (Darwin coast pin, on 'landings') | sea.flac (-15 dB) |
+| 3:13.22 | 3:18.12 | Low landing-craft engine | B04 (Darwin coast pin, on 'landings') | engine_low.flac (-19 dB) |
+| 5:25.17 | 5:30.07 | Open sea under the fleet | B06 (open ocean) | sea.flac (-15 dB) |
+| 5:25.17 | 5:30.07 | Distant war rumble | B06 (open ocean) | war_ambience.flac (-16 dB) |
+| 5:50.84 | 5:54.74 | Choppy sea through the periscope | B07 (east-coast supply line, on 'submarines') | sea.flac (-17 dB) |
+| 6:08.58 | 6:13.48 | Distant war rumble around the burning carrier | B08 (Midway pin) | war_ambience.flac (-15 dB) |
+| 6:08.58 | 6:13.48 | Calm sea at Midway | B08 (Midway pin) | sea.flac (-19 dB) |
+| 8:23.81 | 8:28.71 | Underwater rumble in Sydney Harbour | B10 (Sydney Harbour pin) | underwater.flac (-15 dB) |
+| 8:32.33 | 8:38.23 | Heavy rain on the mountain track | B11 (New Guinea, Kokoda Track) | rain.flac (-15 dB) |
+| 8:32.33 | 8:38.23 | Distant war rumble | B11 (New Guinea, Kokoda Track) | war_ambience.flac (-20 dB) |
+| 8:32.33 | 8:38.23 | Jungle birds (repo file) | B11 (New Guinea, Kokoda Track) | birds_jungle_ambience.mp3 (-24 dB) |
+| 9:51.33 | 9:57.23 | Harbour water under the arriving ship | B12 (Act 5 harbour pin, warm) | sea.flac (-17 dB) |
 
 ## Structure markers
 
@@ -86,9 +118,9 @@ Beds sit about 17 LU under the narration while Atlas speaks and rise to about 7.
 ## Master
 
 - Voice as recorded, assembled: -22.0 LUFS integrated (no voice loudnorm, no compression).
-- Master chain: `volume=8.34dB,aresample=192000,alimiter=limit=0.7079:attack=3:release=80:level=false:asc=1,aresample=48000:resampler=soxr:precision=28,loudnorm(two-pass, linear)`.
+- Master chain: `volume=8.14dB,aresample=192000,alimiter=limit=0.7079:attack=3:release=80:level=false:asc=1,aresample=48000:resampler=soxr:precision=28,loudnorm(two-pass, linear)`.
 - Two-pass loudnorm on the master only, pass 2 normalisation type: **linear**.
-- Result: **-14.02 LUFS integrated, -2.05 dBTP true peak**, LRA 5.20 LU (target −14 LUFS, ≤ −1.5 dBTP).
+- Result: **-14.00 LUFS integrated, -2.17 dBTP true peak**, LRA 6.00 LU (target −14 LUFS, ≤ −1.5 dBTP).
 
 ## Series sting ("IF AUSTRALIA…")
 

@@ -8,21 +8,34 @@ What If Japan Had Invaded Australia in 1942? Long-form documentary, 16:9.
 
 ## Music (free licence)
 
-All five beds are Mixkit tracks under the **Mixkit Stock Music Free Licence**. They were already licensed and documented in this repo for earlier Shorts; the episode copies sit in `audio/music/`. Mixkit and Pixabay could not be reached from this build session (egress policy), so no new track was downloaded. The repo copies are the files from these exact assets.
+All eight beds are Mixkit tracks under the **Mixkit Stock Music Free Licence**. Every one was already licensed and documented in this repo for an earlier Short; the episode copies in `audio/music/` are byte-identical to those repo files. Nothing new was downloaded, and no copyrighted score is used.
 
-| File | Track — artist | Page | Asset | Used for |
-|---|---|---|---|---|
-| `audio/music/silent-descent-614.mp3` | Silent Descent — Eugenio Mininni | https://mixkit.co/free-stock-music/silent-descent/ | https://assets.mixkit.co/music/614/614.mp3 | Cold open and Act 1 |
-| `audio/music/dark-drama-605.mp3` | Dark Drama — Eugenio Mininni | https://mixkit.co/free-stock-music/dark-drama/ | https://assets.mixkit.co/music/605/605.mp3 | Act 2 opening, Act 3 |
-| `audio/music/curiosity-480.mp3` | Curiosity — Diego Nava | https://mixkit.co/free-stock-music/curiosity/ | https://assets.mixkit.co/music/480/480.mp3 | Act 2 from "geography" (the lighter, curious turn) |
-| `audio/music/fallen-asper-565.mp3` | Fallen (Asper) — Eugenio Mininni | https://mixkit.co/free-stock-music/fallen-asper/ | https://assets.mixkit.co/music/565/565.mp3 | Act 4 |
-| `audio/music/vastness-184.mp3` | Vastness — Andrew Ev | https://mixkit.co/free-stock-music/vastness/ | https://assets.mixkit.co/music/184/184.mp3 | Lift at V29, resolve at V30, Act 5 and the end-screen outro |
+| File | Track — artist | Page | Asset | Repo origin | Used for |
+|---|---|---|---|---|---|
+| `audio/music/silent-descent-614.mp3` | Silent Descent — Eugenio Mininni | https://mixkit.co/free-stock-music/silent-descent/ | https://assets.mixkit.co/music/614/614.mp3 | s18 | Cold open; tension build in V07 |
+| `audio/music/dark-drama-605.mp3` | Dark Drama — Eugenio Mininni (see note) | https://mixkit.co/free-stock-music/dark-drama/ | https://assets.mixkit.co/music/605/605.mp3 | s24 | War and invasion: V05, V12–V13, V19–V22, V27–V28 |
+| `audio/music/between-two-evils-1020.mp3` | Between Two Evils — Michael Ramir C. | https://mixkit.co/free-stock-music/between-two-evils/ | https://assets.mixkit.co/music/1020/1020.mp3 | s23 | War: the Darwin raid (V08); the plan to cut Australia off (V25–V26) |
+| `audio/music/echoes-188.mp3` | Echoes — Andrew Ev | https://mixkit.co/free-stock-music/echoes/ | https://assets.mixkit.co/music/188/188.mp3 | s21 | Loss: the prisoners (V06); Australia alone (V27) |
+| `audio/music/fallen-asper-565.mp3` | Fallen (Asper) — Eugenio Mininni | https://mixkit.co/free-stock-music/fallen-asper/ | https://assets.mixkit.co/music/565/565.mp3 | s22 | Plans and argument: V09–V11, V24 |
+| `audio/music/curiosity-480.mp3` | Curiosity — Diego Nava | https://mixkit.co/free-stock-music/curiosity/ | https://assets.mixkit.co/music/480/480.mp3 | s19 | Geography: V13 "geography" to V18 |
+| `audio/music/vastness-184.mp3` | Vastness — Andrew Ev | https://mixkit.co/free-stock-music/vastness/ | https://assets.mixkit.co/music/184/184.mp3 | s20 | Relief: V29 lift and V30 resolve |
+| `audio/music/the-journey-79.mp3` | The Journey — Ahjay Stelino | https://mixkit.co/free-stock-music/the-journey/ | https://assets.mixkit.co/music/79/79.mp3 | s17 | Act 5 (warm) and the end-screen outro |
+
+**Note on asset 605:** the same file (identical bytes, same asset URL) is titled "Dark Drama" in `shorts/s24-burke-wills` and "Delirium" in `shorts/s15-irukandji`. Mixkit could not be reached from this session to settle the title. The licence and asset URL are the same either way. Confirm the title before publishing credits.
 
 The Shorts Skyline bed and the Impossible Journeys sting are not used.
 
-## Sound effects
+## Sound effects and shot environment
 
-Every SFX in this film is **synthesised in-house** by `render/make_sfx.py` (numpy, seeded; no third-party samples): drone, boom, stamp thud, three drum hits, whoosh, low note, air-raid siren, distant explosions, desert wind gust, sonar ping, snapping cable, low wind, pin thunk, strings pad, cliffhanger sting, and the **IF AUSTRALIA… series sting**. Files are lossless 24-bit FLAC in `audio/sfx/`. The cue-by-cue placement is in `CUE_SHEET.md`.
+- **Spot effects:** synthesised in-house by `render/make_sfx.py` (numpy, seeded per cue; no third-party samples). They are drone, boom, stamp thud, three drum hits, whoosh, low note, air-raid siren, distant explosions, desert wind gust, sonar ping, snapping cable, low wind, pin thunk, strings pad, cliffhanger sting, and the **IF AUSTRALIA… series sting**.
+- **Environment beds for the B-roll shots:** synthesised in-house by the same script (rain, sea, distant war rumble, fire crackle, underwater rumble, low engine). These are original works made for this episode, with no third-party source.
+- **Jungle birds under B11:** `shorts/s11-cassowary/sfx/birds_jungle_ambience.mp3`, already in this repo. "Birds in the jungle", Mixkit, Mixkit Sound Effects Free Licence, https://mixkit.co/free-sound-effects/download/2434/ (recorded in `shorts/s11-cassowary/sfx/sources.tsv`).
+- Files are lossless 24-bit FLAC in `audio/sfx/`. Cue-by-cue placement is in `CUE_SHEET.md`.
+- No commercial sound effects and no audio from any YouTube video are used.
+
+## B-roll and archival audio: muted
+
+Every B-roll clip is **muted**. The clips' own generated audio (they carry a track) is never mapped into the film: `render/compose.py` takes video only from the clips and audio only from `build/master.wav`. The delivered MP4 has exactly one audio stream, the mix. There is no original speech and no leftover dialogue. No archival audio is used.
 
 ## Map (open data)
 

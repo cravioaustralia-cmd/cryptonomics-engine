@@ -14,3 +14,10 @@
 - Mix: VO untouched (−22.0 LUFS assembled), Mixkit beds, in-house SFX, series sting invented here. Two-pass loudnorm on the master only (linear) after a 4× oversampled peak limiter. Delivered MP4: −14.0 LUFS, −1.6 dBTP (final/loudnorm-report.md).
 - Final: `final/lf01-if-australia.mp4`, 10:55, 1920×1080/30, H.264 two-pass ~1.0 Mbit/s + AAC 192 kbit/s (94 MiB, kept under GitHub's 100 MiB file limit). For a higher-bitrate upload master, rebuild with `python3 render/compose.py --crf 18` (about 250–300 MB, not committed).
 - Review notes on delivered B-roll (not swapped, per brief): B04 reads as a modern ferry/catamaran rather than a 1940s landing craft (avoid-list risk: modern vehicles). B11 soldiers wear US-style helmets. B12 shows faces at the rail (not identifiable real people). Regenerate B04 if Video Production agrees.
+
+2026-10-03 — Audio-only remix (picture unchanged: the video stream in the new MP4 is bit-identical, MD5 of the stream matches; no map re-render, no shot moves, VO and B-roll untouched).
+- Documentary balance: bed about 23 LU under the voice while Atlas speaks (plus a ~7 dB 1.5–4 kHz dip), about 11 LU under in pauses, the cold open and atmosphere beats. Speech detection runs 150 ms ahead.
+- Cue per emotion with short stops at section changes: Dark Drama / Between Two Evils for war and invasion, Echoes and the scripted strings for loss, Fallen (Asper) for plans, Curiosity for geography, Vastness for relief, The Journey for Act 5. Three beds added from repo copies (s21, s23, s17).
+- SFX moved into pauses (boom after "Australia", sonar pings after "aircraft", snap after "supplies", wind gust after "nowhere"); anything under a word is ducked ~16 dB. A sidechain on the beds keeps every voiced 20 ms frame ≥ 12 dB above music+SFX+ambience in the speech band (median 27 dB).
+- B-roll muted (clip audio never mapped). Shot environment added from in-house synth beds plus the repo's Mixkit jungle-birds file for B11.
+- Two-pass loudnorm on the master only (linear). Delivered MP4: −14.0 LUFS, −1.9 dBTP.
