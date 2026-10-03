@@ -12,3 +12,6 @@ out
 # Shorts render outputs
 shorts/**/out/
 shorts/shared/render/node_modules/
+
+# Python bytecode
+__pycache__/
