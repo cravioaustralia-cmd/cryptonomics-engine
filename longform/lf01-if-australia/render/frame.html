@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+<meta charset="utf-8"/>
+<title>IF AUSTRALIA ep1 frame</title>
+<style>
+  @font-face { font-family: 'Fell'; src: url('/ep/fonts/im-fell-english-sc-latin-400-normal.woff2') format('woff2'); }
+  @font-face { font-family: 'FellItalic'; src: url('/ep/fonts/im-fell-english-latin-400-italic.woff2') format('woff2'); }
+  @font-face { font-family: 'Elite'; src: url('/ep/fonts/special-elite-latin-400-normal.woff2') format('woff2'); }
+  @font-face { font-family: 'Oswald'; font-weight: 500; src: url('/ep/fonts/oswald-latin-500-normal.woff2') format('woff2'); }
+  @font-face { font-family: 'Oswald'; font-weight: 700; src: url('/ep/fonts/oswald-latin-700-normal.woff2') format('woff2'); }
+  @font-face { font-family: 'Playfair'; font-weight: 700; src: url('/ep/fonts/playfair-display-latin-700-normal.woff2') format('woff2'); }
+  @font-face { font-family: 'Playfair'; font-weight: 900; src: url('/ep/fonts/playfair-display-latin-900-normal.woff2') format('woff2'); }
+  @font-face { font-family: 'Stamp'; src: url('/ep/fonts/black-ops-one-latin-400-normal.woff2') format('woff2'); }
+  @font-face { font-family: 'Baskerville'; font-weight: 400; src: url('/ep/fonts/libre-baskerville-latin-400-normal.woff2') format('woff2'); }
+  @font-face { font-family: 'Baskerville'; font-weight: 700; src: url('/ep/fonts/libre-baskerville-latin-700-normal.woff2') format('woff2'); }
+  html, body { margin: 0; padding: 0; width: 1920px; height: 1080px; overflow: hidden; background: #000; }
+  #root { position: relative; width: 1920px; height: 1080px; overflow: hidden; background: #0d0b08; }
+  .map { position: absolute; left: 0; top: 0; width: 1920px; height: 1080px; overflow: hidden; }
+  .map svg { position: absolute; left: 0; top: 0; }
+  .tint { position: absolute; inset: 0; pointer-events: none; }
+  #fx { position: absolute; left: 0; top: 0; }
+  #paper { position: absolute; left: 0; top: 0; width: 1920px; height: 1080px; mix-blend-mode: multiply; pointer-events: none; }
+  body.transparent, body.transparent #root { background: transparent; }
+</style>
+</head>
+<body>
+<div id="root"></div>
+<script src="/engine.js"></script>
+<script>
+  (async function () {
+    const params = new URLSearchParams(location.search);
+    const scenes = params.get('scenes') || '/scenes.js';
+    await new Promise((res, rej) => {
+      const s = document.createElement('script');
+      s.src = scenes; s.onload = res; s.onerror = rej;
+      document.body.appendChild(s);
+    });
+    window.__ready = true;
+  })();
+</script>
+</body>
+</html>

@@ -1,0 +1,8081 @@
+{
+ "duration": 655.676,
+ "words": [
+  {
+   "word": "February",
+   "start": 0.6,
+   "end": 1.24,
+   "chunk": "V01"
+  },
+  {
+   "word": "1942.",
+   "start": 1.24,
+   "end": 2.68,
+   "chunk": "V01"
+  },
+  {
+   "word": "In",
+   "start": 3.48,
+   "end": 3.52,
+   "chunk": "V01"
+  },
+  {
+   "word": "Tokyo,",
+   "start": 3.52,
+   "end": 4.06,
+   "chunk": "V01"
+  },
+  {
+   "word": "Japanese",
+   "start": 4.46,
+   "end": 4.84,
+   "chunk": "V01"
+  },
+  {
+   "word": "admirals",
+   "start": 4.84,
+   "end": 5.46,
+   "chunk": "V01"
+  },
+  {
+   "word": "put",
+   "start": 5.46,
+   "end": 5.68,
+   "chunk": "V01"
+  },
+  {
+   "word": "a",
+   "start": 5.68,
+   "end": 5.82,
+   "chunk": "V01"
+  },
+  {
+   "word": "proposal",
+   "start": 5.82,
+   "end": 6.22,
+   "chunk": "V01"
+  },
+  {
+   "word": "on",
+   "start": 6.22,
+   "end": 6.46,
+   "chunk": "V01"
+  },
+  {
+   "word": "the",
+   "start": 6.46,
+   "end": 6.62,
+   "chunk": "V01"
+  },
+  {
+   "word": "table,",
+   "start": 6.62,
+   "end": 6.98,
+   "chunk": "V01"
+  },
+  {
+   "word": "invade",
+   "start": 7.44,
+   "end": 7.82,
+   "chunk": "V01"
+  },
+  {
+   "word": "Australia.",
+   "start": 7.82,
+   "end": 8.6,
+   "chunk": "V01"
+  },
+  {
+   "word": "This",
+   "start": 9.88,
+   "end": 10.14,
+   "chunk": "V02"
+  },
+  {
+   "word": "isn't",
+   "start": 10.14,
+   "end": 10.4,
+   "chunk": "V02"
+  },
+  {
+   "word": "a",
+   "start": 10.4,
+   "end": 10.5,
+   "chunk": "V02"
+  },
+  {
+   "word": "myth.",
+   "start": 10.5,
+   "end": 10.84,
+   "chunk": "V02"
+  },
+  {
+   "word": "The",
+   "start": 11.22,
+   "end": 11.3,
+   "chunk": "V02"
+  },
+  {
+   "word": "idea",
+   "start": 11.3,
+   "end": 11.62,
+   "chunk": "V02"
+  },
+  {
+   "word": "was",
+   "start": 11.62,
+   "end": 11.86,
+   "chunk": "V02"
+  },
+  {
+   "word": "real,",
+   "start": 11.86,
+   "end": 12.24,
+   "chunk": "V02"
+  },
+  {
+   "word": "and",
+   "start": 12.52,
+   "end": 12.58,
+   "chunk": "V02"
+  },
+  {
+   "word": "Japan's",
+   "start": 12.58,
+   "end": 13.2,
+   "chunk": "V02"
+  },
+  {
+   "word": "top",
+   "start": 13.2,
+   "end": 13.36,
+   "chunk": "V02"
+  },
+  {
+   "word": "commanders",
+   "start": 13.36,
+   "end": 13.86,
+   "chunk": "V02"
+  },
+  {
+   "word": "argued",
+   "start": 13.86,
+   "end": 14.4,
+   "chunk": "V02"
+  },
+  {
+   "word": "about",
+   "start": 14.4,
+   "end": 14.68,
+   "chunk": "V02"
+  },
+  {
+   "word": "it",
+   "start": 14.68,
+   "end": 14.86,
+   "chunk": "V02"
+  },
+  {
+   "word": "for",
+   "start": 14.86,
+   "end": 15.02,
+   "chunk": "V02"
+  },
+  {
+   "word": "weeks.",
+   "start": 15.02,
+   "end": 15.46,
+   "chunk": "V02"
+  },
+  {
+   "word": "And",
+   "start": 16.22,
+   "end": 16.4,
+   "chunk": "V02"
+  },
+  {
+   "word": "then",
+   "start": 16.4,
+   "end": 16.74,
+   "chunk": "V02"
+  },
+  {
+   "word": "it",
+   "start": 16.74,
+   "end": 18.38,
+   "chunk": "V02"
+  },
+  {
+   "word": "was",
+   "start": 18.38,
+   "end": 18.84,
+   "chunk": "V02"
+  },
+  {
+   "word": "rejected.",
+   "start": 18.84,
+   "end": 19.68,
+   "chunk": "V02"
+  },
+  {
+   "word": "But",
+   "start": 21.008,
+   "end": 21.408,
+   "chunk": "V03"
+  },
+  {
+   "word": "what",
+   "start": 21.408,
+   "end": 21.928,
+   "chunk": "V03"
+  },
+  {
+   "word": "if",
+   "start": 21.928,
+   "end": 22.348,
+   "chunk": "V03"
+  },
+  {
+   "word": "it",
+   "start": 22.348,
+   "end": 22.708,
+   "chunk": "V03"
+  },
+  {
+   "word": "hadn't",
+   "start": 22.708,
+   "end": 23.488,
+   "chunk": "V03"
+  },
+  {
+   "word": "been?",
+   "start": 23.488,
+   "end": 23.728,
+   "chunk": "V03"
+  },
+  {
+   "word": "What",
+   "start": 25.008,
+   "end": 25.268,
+   "chunk": "V03"
+  },
+  {
+   "word": "if",
+   "start": 25.268,
+   "end": 25.528,
+   "chunk": "V03"
+  },
+  {
+   "word": "Japan",
+   "start": 25.528,
+   "end": 25.968,
+   "chunk": "V03"
+  },
+  {
+   "word": "had",
+   "start": 25.968,
+   "end": 26.308,
+   "chunk": "V03"
+  },
+  {
+   "word": "actually",
+   "start": 26.308,
+   "end": 26.768,
+   "chunk": "V03"
+  },
+  {
+   "word": "sent",
+   "start": 26.768,
+   "end": 27.128,
+   "chunk": "V03"
+  },
+  {
+   "word": "its",
+   "start": 27.128,
+   "end": 27.308,
+   "chunk": "V03"
+  },
+  {
+   "word": "army",
+   "start": 27.308,
+   "end": 27.668,
+   "chunk": "V03"
+  },
+  {
+   "word": "across",
+   "start": 27.668,
+   "end": 28.068,
+   "chunk": "V03"
+  },
+  {
+   "word": "the",
+   "start": 28.068,
+   "end": 28.288,
+   "chunk": "V03"
+  },
+  {
+   "word": "sea",
+   "start": 28.288,
+   "end": 28.548,
+   "chunk": "V03"
+  },
+  {
+   "word": "to",
+   "start": 28.548,
+   "end": 28.768,
+   "chunk": "V03"
+  },
+  {
+   "word": "Australia?",
+   "start": 28.768,
+   "end": 29.308,
+   "chunk": "V03"
+  },
+  {
+   "word": "Today,",
+   "start": 31.196,
+   "end": 31.576,
+   "chunk": "V04"
+  },
+  {
+   "word": "we're",
+   "start": 31.936,
+   "end": 32.056,
+   "chunk": "V04"
+  },
+  {
+   "word": "playing",
+   "start": 32.056,
+   "end": 32.356,
+   "chunk": "V04"
+  },
+  {
+   "word": "it",
+   "start": 32.356,
+   "end": 32.556,
+   "chunk": "V04"
+  },
+  {
+   "word": "out,",
+   "start": 32.556,
+   "end": 32.876,
+   "chunk": "V04"
+  },
+  {
+   "word": "not",
+   "start": 33.356,
+   "end": 33.656,
+   "chunk": "V04"
+  },
+  {
+   "word": "as",
+   "start": 33.656,
+   "end": 33.836,
+   "chunk": "V04"
+  },
+  {
+   "word": "fantasy,",
+   "start": 33.836,
+   "end": 34.396,
+   "chunk": "V04"
+  },
+  {
+   "word": "but",
+   "start": 34.396,
+   "end": 34.936,
+   "chunk": "V04"
+  },
+  {
+   "word": "with",
+   "start": 34.936,
+   "end": 35.136,
+   "chunk": "V04"
+  },
+  {
+   "word": "real",
+   "start": 35.136,
+   "end": 35.496,
+   "chunk": "V04"
+  },
+  {
+   "word": "plans,",
+   "start": 35.496,
+   "end": 36.056,
+   "chunk": "V04"
+  },
+  {
+   "word": "real",
+   "start": 36.436,
+   "end": 36.596,
+   "chunk": "V04"
+  },
+  {
+   "word": "numbers,",
+   "start": 36.596,
+   "end": 37.056,
+   "chunk": "V04"
+  },
+  {
+   "word": "and",
+   "start": 37.296,
+   "end": 37.416,
+   "chunk": "V04"
+  },
+  {
+   "word": "real",
+   "start": 37.416,
+   "end": 37.736,
+   "chunk": "V04"
+  },
+  {
+   "word": "geography.",
+   "start": 37.736,
+   "end": 38.396,
+   "chunk": "V04"
+  },
+  {
+   "word": "Three",
+   "start": 39.956,
+   "end": 40.316,
+   "chunk": "V04"
+  },
+  {
+   "word": "versions",
+   "start": 40.316,
+   "end": 40.776,
+   "chunk": "V04"
+  },
+  {
+   "word": "of",
+   "start": 40.776,
+   "end": 41.076,
+   "chunk": "V04"
+  },
+  {
+   "word": "1942,",
+   "start": 41.076,
+   "end": 41.976,
+   "chunk": "V04"
+  },
+  {
+   "word": "a",
+   "start": 42.616,
+   "end": 42.776,
+   "chunk": "V04"
+  },
+  {
+   "word": "small",
+   "start": 42.776,
+   "end": 43.116,
+   "chunk": "V04"
+  },
+  {
+   "word": "invasion,",
+   "start": 43.116,
+   "end": 43.676,
+   "chunk": "V04"
+  },
+  {
+   "word": "a",
+   "start": 44.196,
+   "end": 44.276,
+   "chunk": "V04"
+  },
+  {
+   "word": "full",
+   "start": 44.276,
+   "end": 44.596,
+   "chunk": "V04"
+  },
+  {
+   "word": "invasion,",
+   "start": 44.596,
+   "end": 45.216,
+   "chunk": "V04"
+  },
+  {
+   "word": "and",
+   "start": 46.156,
+   "end": 46.816,
+   "chunk": "V04"
+  },
+  {
+   "word": "the",
+   "start": 46.816,
+   "end": 46.996,
+   "chunk": "V04"
+  },
+  {
+   "word": "plan",
+   "start": 46.996,
+   "end": 47.276,
+   "chunk": "V04"
+  },
+  {
+   "word": "Japan",
+   "start": 47.276,
+   "end": 47.716,
+   "chunk": "V04"
+  },
+  {
+   "word": "actually",
+   "start": 47.716,
+   "end": 48.356,
+   "chunk": "V04"
+  },
+  {
+   "word": "chose,",
+   "start": 48.356,
+   "end": 48.916,
+   "chunk": "V04"
+  },
+  {
+   "word": "which",
+   "start": 48.916,
+   "end": 49.476,
+   "chunk": "V04"
+  },
+  {
+   "word": "might",
+   "start": 49.476,
+   "end": 49.796,
+   "chunk": "V04"
+  },
+  {
+   "word": "have",
+   "start": 49.796,
+   "end": 49.976,
+   "chunk": "V04"
+  },
+  {
+   "word": "been",
+   "start": 49.976,
+   "end": 50.176,
+   "chunk": "V04"
+  },
+  {
+   "word": "the",
+   "start": 50.176,
+   "end": 50.336,
+   "chunk": "V04"
+  },
+  {
+   "word": "most",
+   "start": 50.336,
+   "end": 50.556,
+   "chunk": "V04"
+  },
+  {
+   "word": "dangerous",
+   "start": 50.556,
+   "end": 51.016,
+   "chunk": "V04"
+  },
+  {
+   "word": "of",
+   "start": 51.016,
+   "end": 51.256,
+   "chunk": "V04"
+  },
+  {
+   "word": "all.",
+   "start": 51.256,
+   "end": 51.916,
+   "chunk": "V04"
+  },
+  {
+   "word": "Stay",
+   "start": 53.256,
+   "end": 53.576,
+   "chunk": "V04"
+  },
+  {
+   "word": "for",
+   "start": 53.576,
+   "end": 53.776,
+   "chunk": "V04"
+  },
+  {
+   "word": "that",
+   "start": 53.776,
+   "end": 53.956,
+   "chunk": "V04"
+  },
+  {
+   "word": "last",
+   "start": 53.956,
+   "end": 54.296,
+   "chunk": "V04"
+  },
+  {
+   "word": "one.",
+   "start": 54.296,
+   "end": 54.596,
+   "chunk": "V04"
+  },
+  {
+   "word": "It",
+   "start": 55.056,
+   "end": 55.296,
+   "chunk": "V04"
+  },
+  {
+   "word": "changes",
+   "start": 55.296,
+   "end": 55.756,
+   "chunk": "V04"
+  },
+  {
+   "word": "how",
+   "start": 55.756,
+   "end": 56.036,
+   "chunk": "V04"
+  },
+  {
+   "word": "you",
+   "start": 56.036,
+   "end": 56.216,
+   "chunk": "V04"
+  },
+  {
+   "word": "see",
+   "start": 56.216,
+   "end": 56.436,
+   "chunk": "V04"
+  },
+  {
+   "word": "Australia",
+   "start": 56.436,
+   "end": 57.076,
+   "chunk": "V04"
+  },
+  {
+   "word": "today.",
+   "start": 57.076,
+   "end": 57.536,
+   "chunk": "V04"
+  },
+  {
+   "word": "First,",
+   "start": 60.336,
+   "end": 60.936,
+   "chunk": "V05"
+  },
+  {
+   "word": "the",
+   "start": 61.336,
+   "end": 61.416,
+   "chunk": "V05"
+  },
+  {
+   "word": "scene,",
+   "start": 61.416,
+   "end": 61.876,
+   "chunk": "V05"
+  },
+  {
+   "word": "December",
+   "start": 62.636,
+   "end": 63.156,
+   "chunk": "V05"
+  },
+  {
+   "word": "1941,",
+   "start": 63.156,
+   "end": 64.536,
+   "chunk": "V05"
+  },
+  {
+   "word": "Japan",
+   "start": 65.336,
+   "end": 65.676,
+   "chunk": "V05"
+  },
+  {
+   "word": "attacks",
+   "start": 65.676,
+   "end": 66.156,
+   "chunk": "V05"
+  },
+  {
+   "word": "Pearl",
+   "start": 66.156,
+   "end": 66.496,
+   "chunk": "V05"
+  },
+  {
+   "word": "Harbor",
+   "start": 66.496,
+   "end": 66.876,
+   "chunk": "V05"
+  },
+  {
+   "word": "and",
+   "start": 66.876,
+   "end": 67.456,
+   "chunk": "V05"
+  },
+  {
+   "word": "almost",
+   "start": 67.456,
+   "end": 67.876,
+   "chunk": "V05"
+  },
+  {
+   "word": "at",
+   "start": 67.876,
+   "end": 68.096,
+   "chunk": "V05"
+  },
+  {
+   "word": "the",
+   "start": 68.096,
+   "end": 68.236,
+   "chunk": "V05"
+  },
+  {
+   "word": "same",
+   "start": 68.236,
+   "end": 68.536,
+   "chunk": "V05"
+  },
+  {
+   "word": "moment",
+   "start": 68.536,
+   "end": 68.916,
+   "chunk": "V05"
+  },
+  {
+   "word": "it",
+   "start": 68.916,
+   "end": 69.196,
+   "chunk": "V05"
+  },
+  {
+   "word": "strikes",
+   "start": 69.196,
+   "end": 69.536,
+   "chunk": "V05"
+  },
+  {
+   "word": "across",
+   "start": 69.536,
+   "end": 69.976,
+   "chunk": "V05"
+  },
+  {
+   "word": "Southeast",
+   "start": 69.976,
+   "end": 70.416,
+   "chunk": "V05"
+  },
+  {
+   "word": "Asia,",
+   "start": 70.416,
+   "end": 70.936,
+   "chunk": "V05"
+  },
+  {
+   "word": "Hong",
+   "start": 71.656,
+   "end": 71.836,
+   "chunk": "V05"
+  },
+  {
+   "word": "Kong",
+   "start": 71.836,
+   "end": 72.176,
+   "chunk": "V05"
+  },
+  {
+   "word": "Falls,",
+   "start": 72.176,
+   "end": 72.696,
+   "chunk": "V05"
+  },
+  {
+   "word": "Malaya",
+   "start": 73.256,
+   "end": 73.576,
+   "chunk": "V05"
+  },
+  {
+   "word": "Falls.",
+   "start": 73.576,
+   "end": 74.076,
+   "chunk": "V05"
+  },
+  {
+   "word": "Then",
+   "start": 74.576,
+   "end": 74.776,
+   "chunk": "V05"
+  },
+  {
+   "word": "in",
+   "start": 74.776,
+   "end": 75.336,
+   "chunk": "V05"
+  },
+  {
+   "word": "February",
+   "start": 75.336,
+   "end": 75.756,
+   "chunk": "V05"
+  },
+  {
+   "word": "1942,",
+   "start": 75.756,
+   "end": 76.776,
+   "chunk": "V05"
+  },
+  {
+   "word": "Singapore,",
+   "start": 77.456,
+   "end": 77.896,
+   "chunk": "V05"
+  },
+  {
+   "word": "Britain's",
+   "start": 78.396,
+   "end": 78.816,
+   "chunk": "V05"
+  },
+  {
+   "word": "great",
+   "start": 78.816,
+   "end": 79.056,
+   "chunk": "V05"
+  },
+  {
+   "word": "fortress",
+   "start": 79.056,
+   "end": 79.556,
+   "chunk": "V05"
+  },
+  {
+   "word": "in",
+   "start": 79.556,
+   "end": 79.756,
+   "chunk": "V05"
+  },
+  {
+   "word": "Asia,",
+   "start": 79.756,
+   "end": 80.196,
+   "chunk": "V05"
+  },
+  {
+   "word": "surrenders.",
+   "start": 80.376,
+   "end": 81.216,
+   "chunk": "V05"
+  },
+  {
+   "word": "Around",
+   "start": 81.832,
+   "end": 82.532,
+   "chunk": "V06"
+  },
+  {
+   "word": "15",
+   "start": 82.532,
+   "end": 83.312,
+   "chunk": "V06"
+  },
+  {
+   "word": ",000",
+   "start": 83.312,
+   "end": 84.212,
+   "chunk": "V06"
+  },
+  {
+   "word": "Australian",
+   "start": 84.212,
+   "end": 84.892,
+   "chunk": "V06"
+  },
+  {
+   "word": "soldiers",
+   "start": 84.892,
+   "end": 85.612,
+   "chunk": "V06"
+  },
+  {
+   "word": "become",
+   "start": 85.612,
+   "end": 86.452,
+   "chunk": "V06"
+  },
+  {
+   "word": "prisoners.",
+   "start": 86.452,
+   "end": 86.992,
+   "chunk": "V06"
+  },
+  {
+   "word": "Now",
+   "start": 89.472,
+   "end": 89.732,
+   "chunk": "V07"
+  },
+  {
+   "word": "look",
+   "start": 89.732,
+   "end": 89.992,
+   "chunk": "V07"
+  },
+  {
+   "word": "at",
+   "start": 89.992,
+   "end": 90.152,
+   "chunk": "V07"
+  },
+  {
+   "word": "the",
+   "start": 90.152,
+   "end": 90.292,
+   "chunk": "V07"
+  },
+  {
+   "word": "map.",
+   "start": 90.292,
+   "end": 90.712,
+   "chunk": "V07"
+  },
+  {
+   "word": "Japan's",
+   "start": 91.672,
+   "end": 92.192,
+   "chunk": "V07"
+  },
+  {
+   "word": "empire",
+   "start": 92.192,
+   "end": 92.572,
+   "chunk": "V07"
+  },
+  {
+   "word": "is",
+   "start": 92.572,
+   "end": 92.872,
+   "chunk": "V07"
+  },
+  {
+   "word": "racing",
+   "start": 92.872,
+   "end": 93.372,
+   "chunk": "V07"
+  },
+  {
+   "word": "south.",
+   "start": 93.372,
+   "end": 93.832,
+   "chunk": "V07"
+  },
+  {
+   "word": "And",
+   "start": 94.492,
+   "end": 94.572,
+   "chunk": "V07"
+  },
+  {
+   "word": "sitting",
+   "start": 94.572,
+   "end": 94.912,
+   "chunk": "V07"
+  },
+  {
+   "word": "at",
+   "start": 94.912,
+   "end": 95.112,
+   "chunk": "V07"
+  },
+  {
+   "word": "the",
+   "start": 95.112,
+   "end": 95.272,
+   "chunk": "V07"
+  },
+  {
+   "word": "bottom",
+   "start": 95.272,
+   "end": 95.592,
+   "chunk": "V07"
+  },
+  {
+   "word": "is",
+   "start": 95.592,
+   "end": 95.912,
+   "chunk": "V07"
+  },
+  {
+   "word": "Australia,",
+   "start": 95.912,
+   "end": 96.572,
+   "chunk": "V07"
+  },
+  {
+   "word": "about",
+   "start": 97.252,
+   "end": 97.392,
+   "chunk": "V07"
+  },
+  {
+   "word": "seven",
+   "start": 97.392,
+   "end": 97.772,
+   "chunk": "V07"
+  },
+  {
+   "word": "million",
+   "start": 97.772,
+   "end": 98.132,
+   "chunk": "V07"
+  },
+  {
+   "word": "people,",
+   "start": 98.132,
+   "end": 98.632,
+   "chunk": "V07"
+  },
+  {
+   "word": "a",
+   "start": 99.132,
+   "end": 99.252,
+   "chunk": "V07"
+  },
+  {
+   "word": "coastline",
+   "start": 99.252,
+   "end": 99.692,
+   "chunk": "V07"
+  },
+  {
+   "word": "over",
+   "start": 99.692,
+   "end": 100.092,
+   "chunk": "V07"
+  },
+  {
+   "word": "30",
+   "start": 100.092,
+   "end": 100.532,
+   "chunk": "V07"
+  },
+  {
+   "word": ",000",
+   "start": 100.532,
+   "end": 101.112,
+   "chunk": "V07"
+  },
+  {
+   "word": "kilometers",
+   "start": 101.112,
+   "end": 101.532,
+   "chunk": "V07"
+  },
+  {
+   "word": "long,",
+   "start": 101.532,
+   "end": 102.012,
+   "chunk": "V07"
+  },
+  {
+   "word": "and",
+   "start": 102.392,
+   "end": 102.652,
+   "chunk": "V07"
+  },
+  {
+   "word": "most",
+   "start": 102.652,
+   "end": 102.972,
+   "chunk": "V07"
+  },
+  {
+   "word": "of",
+   "start": 102.972,
+   "end": 103.132,
+   "chunk": "V07"
+  },
+  {
+   "word": "its",
+   "start": 103.132,
+   "end": 103.272,
+   "chunk": "V07"
+  },
+  {
+   "word": "best",
+   "start": 103.272,
+   "end": 103.612,
+   "chunk": "V07"
+  },
+  {
+   "word": "trained",
+   "start": 103.612,
+   "end": 103.992,
+   "chunk": "V07"
+  },
+  {
+   "word": "soldiers",
+   "start": 103.992,
+   "end": 104.472,
+   "chunk": "V07"
+  },
+  {
+   "word": "on",
+   "start": 104.472,
+   "end": 104.812,
+   "chunk": "V07"
+  },
+  {
+   "word": "the",
+   "start": 104.812,
+   "end": 105.012,
+   "chunk": "V07"
+  },
+  {
+   "word": "other",
+   "start": 105.012,
+   "end": 105.292,
+   "chunk": "V07"
+  },
+  {
+   "word": "side",
+   "start": 105.292,
+   "end": 105.592,
+   "chunk": "V07"
+  },
+  {
+   "word": "of",
+   "start": 105.592,
+   "end": 105.772,
+   "chunk": "V07"
+  },
+  {
+   "word": "the",
+   "start": 105.772,
+   "end": 105.892,
+   "chunk": "V07"
+  },
+  {
+   "word": "world.",
+   "start": 105.892,
+   "end": 106.152,
+   "chunk": "V07"
+  },
+  {
+   "word": "Four",
+   "start": 106.912,
+   "end": 107.272,
+   "chunk": "V08"
+  },
+  {
+   "word": "days",
+   "start": 107.272,
+   "end": 107.592,
+   "chunk": "V08"
+  },
+  {
+   "word": "after",
+   "start": 107.592,
+   "end": 108.012,
+   "chunk": "V08"
+  },
+  {
+   "word": "Singapore",
+   "start": 108.012,
+   "end": 108.532,
+   "chunk": "V08"
+  },
+  {
+   "word": "falls,",
+   "start": 108.532,
+   "end": 109.172,
+   "chunk": "V08"
+  },
+  {
+   "word": "Japanese",
+   "start": 109.612,
+   "end": 109.992,
+   "chunk": "V08"
+  },
+  {
+   "word": "planes",
+   "start": 109.992,
+   "end": 110.492,
+   "chunk": "V08"
+  },
+  {
+   "word": "bomb",
+   "start": 110.492,
+   "end": 110.892,
+   "chunk": "V08"
+  },
+  {
+   "word": "Darwin.",
+   "start": 110.892,
+   "end": 111.392,
+   "chunk": "V08"
+  },
+  {
+   "word": "It's",
+   "start": 112.452,
+   "end": 112.692,
+   "chunk": "V08"
+  },
+  {
+   "word": "the",
+   "start": 112.692,
+   "end": 112.812,
+   "chunk": "V08"
+  },
+  {
+   "word": "first",
+   "start": 112.812,
+   "end": 113.172,
+   "chunk": "V08"
+  },
+  {
+   "word": "time",
+   "start": 113.172,
+   "end": 113.592,
+   "chunk": "V08"
+  },
+  {
+   "word": "the",
+   "start": 113.592,
+   "end": 113.812,
+   "chunk": "V08"
+  },
+  {
+   "word": "Australian",
+   "start": 113.812,
+   "end": 114.352,
+   "chunk": "V08"
+  },
+  {
+   "word": "mainland",
+   "start": 114.352,
+   "end": 114.812,
+   "chunk": "V08"
+  },
+  {
+   "word": "has",
+   "start": 114.812,
+   "end": 115.092,
+   "chunk": "V08"
+  },
+  {
+   "word": "ever",
+   "start": 115.092,
+   "end": 115.472,
+   "chunk": "V08"
+  },
+  {
+   "word": "come",
+   "start": 115.472,
+   "end": 115.752,
+   "chunk": "V08"
+  },
+  {
+   "word": "under",
+   "start": 115.752,
+   "end": 116.032,
+   "chunk": "V08"
+  },
+  {
+   "word": "attack.",
+   "start": 116.032,
+   "end": 116.512,
+   "chunk": "V08"
+  },
+  {
+   "word": "Weeks",
+   "start": 119.348,
+   "end": 119.928,
+   "chunk": "V09"
+  },
+  {
+   "word": "earlier,",
+   "start": 119.928,
+   "end": 120.748,
+   "chunk": "V09"
+  },
+  {
+   "word": "Prime",
+   "start": 121.368,
+   "end": 121.508,
+   "chunk": "V09"
+  },
+  {
+   "word": "Minister",
+   "start": 121.508,
+   "end": 121.968,
+   "chunk": "V09"
+  },
+  {
+   "word": "John",
+   "start": 121.968,
+   "end": 122.388,
+   "chunk": "V09"
+  },
+  {
+   "word": "Curtin",
+   "start": 122.388,
+   "end": 122.828,
+   "chunk": "V09"
+  },
+  {
+   "word": "had",
+   "start": 122.828,
+   "end": 123.068,
+   "chunk": "V09"
+  },
+  {
+   "word": "already",
+   "start": 123.068,
+   "end": 123.548,
+   "chunk": "V09"
+  },
+  {
+   "word": "made",
+   "start": 123.548,
+   "end": 123.788,
+   "chunk": "V09"
+  },
+  {
+   "word": "a",
+   "start": 123.788,
+   "end": 124.008,
+   "chunk": "V09"
+  },
+  {
+   "word": "choice",
+   "start": 124.008,
+   "end": 124.308,
+   "chunk": "V09"
+  },
+  {
+   "word": "that",
+   "start": 124.308,
+   "end": 124.568,
+   "chunk": "V09"
+  },
+  {
+   "word": "stunned",
+   "start": 124.568,
+   "end": 125.068,
+   "chunk": "V09"
+  },
+  {
+   "word": "Britain.",
+   "start": 125.068,
+   "end": 125.488,
+   "chunk": "V09"
+  },
+  {
+   "word": "He",
+   "start": 126.188,
+   "end": 126.288,
+   "chunk": "V09"
+  },
+  {
+   "word": "wrote",
+   "start": 126.288,
+   "end": 126.488,
+   "chunk": "V09"
+  },
+  {
+   "word": "that",
+   "start": 126.488,
+   "end": 126.708,
+   "chunk": "V09"
+  },
+  {
+   "word": "Australia",
+   "start": 126.708,
+   "end": 127.308,
+   "chunk": "V09"
+  },
+  {
+   "word": "would",
+   "start": 127.308,
+   "end": 127.608,
+   "chunk": "V09"
+  },
+  {
+   "word": "now",
+   "start": 127.608,
+   "end": 127.868,
+   "chunk": "V09"
+  },
+  {
+   "word": "look",
+   "start": 127.868,
+   "end": 128.088,
+   "chunk": "V09"
+  },
+  {
+   "word": "to",
+   "start": 128.088,
+   "end": 128.288,
+   "chunk": "V09"
+  },
+  {
+   "word": "America",
+   "start": 128.288,
+   "end": 128.728,
+   "chunk": "V09"
+  },
+  {
+   "word": "for",
+   "start": 128.728,
+   "end": 128.968,
+   "chunk": "V09"
+  },
+  {
+   "word": "help",
+   "start": 128.968,
+   "end": 129.348,
+   "chunk": "V09"
+  },
+  {
+   "word": "without",
+   "start": 129.348,
+   "end": 129.828,
+   "chunk": "V09"
+  },
+  {
+   "word": "any",
+   "start": 129.828,
+   "end": 130.228,
+   "chunk": "V09"
+  },
+  {
+   "word": "guilt",
+   "start": 130.228,
+   "end": 130.528,
+   "chunk": "V09"
+  },
+  {
+   "word": "about",
+   "start": 130.528,
+   "end": 130.788,
+   "chunk": "V09"
+  },
+  {
+   "word": "its",
+   "start": 130.788,
+   "end": 130.968,
+   "chunk": "V09"
+  },
+  {
+   "word": "old",
+   "start": 130.968,
+   "end": 131.248,
+   "chunk": "V09"
+  },
+  {
+   "word": "ties",
+   "start": 131.248,
+   "end": 131.568,
+   "chunk": "V09"
+  },
+  {
+   "word": "to",
+   "start": 131.568,
+   "end": 131.828,
+   "chunk": "V09"
+  },
+  {
+   "word": "Britain.",
+   "start": 131.828,
+   "end": 132.088,
+   "chunk": "V09"
+  },
+  {
+   "word": "Meanwhile,",
+   "start": 133.356,
+   "end": 133.956,
+   "chunk": "V10"
+  },
+  {
+   "word": "in",
+   "start": 134.276,
+   "end": 134.576,
+   "chunk": "V10"
+  },
+  {
+   "word": "Tokyo,",
+   "start": 134.576,
+   "end": 135.076,
+   "chunk": "V10"
+  },
+  {
+   "word": "the",
+   "start": 135.516,
+   "end": 135.636,
+   "chunk": "V10"
+  },
+  {
+   "word": "argument",
+   "start": 135.636,
+   "end": 136.176,
+   "chunk": "V10"
+  },
+  {
+   "word": "begins.",
+   "start": 136.176,
+   "end": 136.856,
+   "chunk": "V10"
+  },
+  {
+   "word": "The",
+   "start": 137.496,
+   "end": 137.716,
+   "chunk": "V10"
+  },
+  {
+   "word": "Navy",
+   "start": 137.716,
+   "end": 138.016,
+   "chunk": "V10"
+  },
+  {
+   "word": "wants",
+   "start": 138.016,
+   "end": 138.336,
+   "chunk": "V10"
+  },
+  {
+   "word": "to",
+   "start": 138.336,
+   "end": 138.556,
+   "chunk": "V10"
+  },
+  {
+   "word": "strike",
+   "start": 138.556,
+   "end": 138.856,
+   "chunk": "V10"
+  },
+  {
+   "word": "Australia",
+   "start": 138.856,
+   "end": 139.516,
+   "chunk": "V10"
+  },
+  {
+   "word": "before",
+   "start": 139.516,
+   "end": 139.976,
+   "chunk": "V10"
+  },
+  {
+   "word": "America",
+   "start": 139.976,
+   "end": 140.496,
+   "chunk": "V10"
+  },
+  {
+   "word": "can",
+   "start": 140.496,
+   "end": 140.776,
+   "chunk": "V10"
+  },
+  {
+   "word": "turn",
+   "start": 140.776,
+   "end": 140.996,
+   "chunk": "V10"
+  },
+  {
+   "word": "it",
+   "start": 140.996,
+   "end": 141.156,
+   "chunk": "V10"
+  },
+  {
+   "word": "into",
+   "start": 141.156,
+   "end": 141.416,
+   "chunk": "V10"
+  },
+  {
+   "word": "a",
+   "start": 141.416,
+   "end": 141.676,
+   "chunk": "V10"
+  },
+  {
+   "word": "giant",
+   "start": 141.676,
+   "end": 141.936,
+   "chunk": "V10"
+  },
+  {
+   "word": "base.",
+   "start": 141.936,
+   "end": 142.436,
+   "chunk": "V10"
+  },
+  {
+   "word": "The",
+   "start": 143.476,
+   "end": 143.816,
+   "chunk": "V10"
+  },
+  {
+   "word": "army",
+   "start": 143.816,
+   "end": 144.096,
+   "chunk": "V10"
+  },
+  {
+   "word": "says",
+   "start": 144.096,
+   "end": 144.396,
+   "chunk": "V10"
+  },
+  {
+   "word": "no.",
+   "start": 144.396,
+   "end": 144.776,
+   "chunk": "V10"
+  },
+  {
+   "word": "The",
+   "start": 145.416,
+   "end": 145.676,
+   "chunk": "V10"
+  },
+  {
+   "word": "army's",
+   "start": 145.676,
+   "end": 146.176,
+   "chunk": "V10"
+  },
+  {
+   "word": "problem",
+   "start": 146.176,
+   "end": 146.436,
+   "chunk": "V10"
+  },
+  {
+   "word": "is",
+   "start": 146.436,
+   "end": 146.636,
+   "chunk": "V10"
+  },
+  {
+   "word": "numbers.",
+   "start": 146.636,
+   "end": 147.136,
+   "chunk": "V10"
+  },
+  {
+   "word": "Its",
+   "start": 147.636,
+   "end": 147.776,
+   "chunk": "V10"
+  },
+  {
+   "word": "planners",
+   "start": 147.776,
+   "end": 148.156,
+   "chunk": "V10"
+  },
+  {
+   "word": "estimate",
+   "start": 148.156,
+   "end": 148.776,
+   "chunk": "V10"
+  },
+  {
+   "word": "an",
+   "start": 148.776,
+   "end": 149.016,
+   "chunk": "V10"
+  },
+  {
+   "word": "invasion",
+   "start": 149.016,
+   "end": 149.516,
+   "chunk": "V10"
+  },
+  {
+   "word": "would",
+   "start": 149.516,
+   "end": 149.776,
+   "chunk": "V10"
+  },
+  {
+   "word": "eat",
+   "start": 149.776,
+   "end": 149.996,
+   "chunk": "V10"
+  },
+  {
+   "word": "around",
+   "start": 149.996,
+   "end": 150.296,
+   "chunk": "V10"
+  },
+  {
+   "word": "10",
+   "start": 150.296,
+   "end": 150.696,
+   "chunk": "V10"
+  },
+  {
+   "word": "to",
+   "start": 150.696,
+   "end": 150.876,
+   "chunk": "V10"
+  },
+  {
+   "word": "12",
+   "start": 150.876,
+   "end": 151.196,
+   "chunk": "V10"
+  },
+  {
+   "word": "divisions,",
+   "start": 151.196,
+   "end": 151.716,
+   "chunk": "V10"
+  },
+  {
+   "word": "an",
+   "start": 152.236,
+   "end": 152.496,
+   "chunk": "V10"
+  },
+  {
+   "word": "army",
+   "start": 152.496,
+   "end": 152.736,
+   "chunk": "V10"
+  },
+  {
+   "word": "of",
+   "start": 152.736,
+   "end": 153.016,
+   "chunk": "V10"
+  },
+  {
+   "word": "well",
+   "start": 153.016,
+   "end": 153.196,
+   "chunk": "V10"
+  },
+  {
+   "word": "over",
+   "start": 153.196,
+   "end": 153.536,
+   "chunk": "V10"
+  },
+  {
+   "word": "100",
+   "start": 153.536,
+   "end": 153.976,
+   "chunk": "V10"
+  },
+  {
+   "word": ",000",
+   "start": 153.976,
+   "end": 154.396,
+   "chunk": "V10"
+  },
+  {
+   "word": "men",
+   "start": 154.396,
+   "end": 154.696,
+   "chunk": "V10"
+  },
+  {
+   "word": "and",
+   "start": 154.696,
+   "end": 155.216,
+   "chunk": "V10"
+  },
+  {
+   "word": "up",
+   "start": 155.216,
+   "end": 155.316,
+   "chunk": "V10"
+  },
+  {
+   "word": "to",
+   "start": 155.316,
+   "end": 155.556,
+   "chunk": "V10"
+  },
+  {
+   "word": "2",
+   "start": 155.556,
+   "end": 155.836,
+   "chunk": "V10"
+  },
+  {
+   "word": "million",
+   "start": 155.836,
+   "end": 156.116,
+   "chunk": "V10"
+  },
+  {
+   "word": "tons",
+   "start": 156.116,
+   "end": 156.456,
+   "chunk": "V10"
+  },
+  {
+   "word": "of",
+   "start": 156.456,
+   "end": 156.716,
+   "chunk": "V10"
+  },
+  {
+   "word": "shipping",
+   "start": 156.716,
+   "end": 156.996,
+   "chunk": "V10"
+  },
+  {
+   "word": "just",
+   "start": 156.996,
+   "end": 157.336,
+   "chunk": "V10"
+  },
+  {
+   "word": "to",
+   "start": 157.336,
+   "end": 157.536,
+   "chunk": "V10"
+  },
+  {
+   "word": "get",
+   "start": 157.536,
+   "end": 157.676,
+   "chunk": "V10"
+  },
+  {
+   "word": "them",
+   "start": 157.676,
+   "end": 157.836,
+   "chunk": "V10"
+  },
+  {
+   "word": "there.",
+   "start": 157.836,
+   "end": 158.196,
+   "chunk": "V10"
+  },
+  {
+   "word": "And",
+   "start": 158.836,
+   "end": 159.096,
+   "chunk": "V10"
+  },
+  {
+   "word": "most",
+   "start": 159.096,
+   "end": 159.416,
+   "chunk": "V10"
+  },
+  {
+   "word": "of",
+   "start": 159.416,
+   "end": 159.616,
+   "chunk": "V10"
+  },
+  {
+   "word": "Japan's",
+   "start": 159.616,
+   "end": 160.176,
+   "chunk": "V10"
+  },
+  {
+   "word": "army",
+   "start": 160.176,
+   "end": 160.416,
+   "chunk": "V10"
+  },
+  {
+   "word": "is",
+   "start": 160.416,
+   "end": 160.676,
+   "chunk": "V10"
+  },
+  {
+   "word": "already",
+   "start": 160.676,
+   "end": 161.176,
+   "chunk": "V10"
+  },
+  {
+   "word": "locked",
+   "start": 161.176,
+   "end": 161.536,
+   "chunk": "V10"
+  },
+  {
+   "word": "into",
+   "start": 161.536,
+   "end": 161.836,
+   "chunk": "V10"
+  },
+  {
+   "word": "a",
+   "start": 161.836,
+   "end": 162.076,
+   "chunk": "V10"
+  },
+  {
+   "word": "huge",
+   "start": 162.076,
+   "end": 162.316,
+   "chunk": "V10"
+  },
+  {
+   "word": "war",
+   "start": 162.316,
+   "end": 162.576,
+   "chunk": "V10"
+  },
+  {
+   "word": "in",
+   "start": 162.576,
+   "end": 162.816,
+   "chunk": "V10"
+  },
+  {
+   "word": "China.",
+   "start": 162.816,
+   "end": 163.156,
+   "chunk": "V10"
+  },
+  {
+   "word": "On",
+   "start": 163.732,
+   "end": 164.132,
+   "chunk": "V11"
+  },
+  {
+   "word": "the",
+   "start": 164.132,
+   "end": 164.312,
+   "chunk": "V11"
+  },
+  {
+   "word": "4th",
+   "start": 164.312,
+   "end": 165.112,
+   "chunk": "V11"
+  },
+  {
+   "word": "of",
+   "start": 165.112,
+   "end": 165.292,
+   "chunk": "V11"
+  },
+  {
+   "word": "March",
+   "start": 165.292,
+   "end": 165.872,
+   "chunk": "V11"
+  },
+  {
+   "word": "1942,",
+   "start": 165.872,
+   "end": 167.392,
+   "chunk": "V11"
+  },
+  {
+   "word": "the",
+   "start": 168.312,
+   "end": 168.432,
+   "chunk": "V11"
+  },
+  {
+   "word": "decision",
+   "start": 168.432,
+   "end": 168.912,
+   "chunk": "V11"
+  },
+  {
+   "word": "is",
+   "start": 168.912,
+   "end": 169.312,
+   "chunk": "V11"
+  },
+  {
+   "word": "made.",
+   "start": 169.312,
+   "end": 169.812,
+   "chunk": "V11"
+  },
+  {
+   "word": "No",
+   "start": 170.792,
+   "end": 171.092,
+   "chunk": "V11"
+  },
+  {
+   "word": "invasion.",
+   "start": 171.092,
+   "end": 171.632,
+   "chunk": "V11"
+  },
+  {
+   "word": "Japan",
+   "start": 172.612,
+   "end": 172.932,
+   "chunk": "V11"
+  },
+  {
+   "word": "will",
+   "start": 172.932,
+   "end": 173.172,
+   "chunk": "V11"
+  },
+  {
+   "word": "try",
+   "start": 173.172,
+   "end": 173.412,
+   "chunk": "V11"
+  },
+  {
+   "word": "something",
+   "start": 173.412,
+   "end": 173.812,
+   "chunk": "V11"
+  },
+  {
+   "word": "else",
+   "start": 173.812,
+   "end": 174.052,
+   "chunk": "V11"
+  },
+  {
+   "word": "instead.",
+   "start": 174.052,
+   "end": 174.572,
+   "chunk": "V11"
+  },
+  {
+   "word": "We'll",
+   "start": 176.332,
+   "end": 176.572,
+   "chunk": "V11"
+  },
+  {
+   "word": "get",
+   "start": 176.572,
+   "end": 176.712,
+   "chunk": "V11"
+  },
+  {
+   "word": "to",
+   "start": 176.712,
+   "end": 176.912,
+   "chunk": "V11"
+  },
+  {
+   "word": "that.",
+   "start": 176.912,
+   "end": 177.292,
+   "chunk": "V11"
+  },
+  {
+   "word": "But",
+   "start": 177.572,
+   "end": 177.672,
+   "chunk": "V11"
+  },
+  {
+   "word": "first,",
+   "start": 177.672,
+   "end": 178.152,
+   "chunk": "V11"
+  },
+  {
+   "word": "what",
+   "start": 178.632,
+   "end": 178.752,
+   "chunk": "V11"
+  },
+  {
+   "word": "if",
+   "start": 178.752,
+   "end": 178.932,
+   "chunk": "V11"
+  },
+  {
+   "word": "the",
+   "start": 178.932,
+   "end": 179.152,
+   "chunk": "V11"
+  },
+  {
+   "word": "admirals",
+   "start": 179.152,
+   "end": 179.632,
+   "chunk": "V11"
+  },
+  {
+   "word": "had",
+   "start": 179.632,
+   "end": 179.832,
+   "chunk": "V11"
+  },
+  {
+   "word": "won",
+   "start": 179.832,
+   "end": 180.112,
+   "chunk": "V11"
+  },
+  {
+   "word": "the",
+   "start": 180.112,
+   "end": 180.352,
+   "chunk": "V11"
+  },
+  {
+   "word": "argument?",
+   "start": 180.352,
+   "end": 180.792,
+   "chunk": "V11"
+  },
+  {
+   "word": "Scenario",
+   "start": 183.488,
+   "end": 184.408,
+   "chunk": "V12"
+  },
+  {
+   "word": "one",
+   "start": 184.408,
+   "end": 184.928,
+   "chunk": "V12"
+  },
+  {
+   "word": "is",
+   "start": 184.928,
+   "end": 185.428,
+   "chunk": "V12"
+  },
+  {
+   "word": "the",
+   "start": 185.428,
+   "end": 185.748,
+   "chunk": "V12"
+  },
+  {
+   "word": "Navy's",
+   "start": 185.748,
+   "end": 186.348,
+   "chunk": "V12"
+  },
+  {
+   "word": "own",
+   "start": 186.348,
+   "end": 186.588,
+   "chunk": "V12"
+  },
+  {
+   "word": "idea.",
+   "start": 186.588,
+   "end": 187.128,
+   "chunk": "V12"
+  },
+  {
+   "word": "Don't",
+   "start": 187.908,
+   "end": 188.188,
+   "chunk": "V12"
+  },
+  {
+   "word": "conquer",
+   "start": 188.188,
+   "end": 188.508,
+   "chunk": "V12"
+  },
+  {
+   "word": "Australia.",
+   "start": 188.508,
+   "end": 189.208,
+   "chunk": "V12"
+  },
+  {
+   "word": "Just",
+   "start": 189.888,
+   "end": 189.908,
+   "chunk": "V12"
+  },
+  {
+   "word": "grab",
+   "start": 189.908,
+   "end": 190.268,
+   "chunk": "V12"
+  },
+  {
+   "word": "pieces",
+   "start": 190.268,
+   "end": 190.668,
+   "chunk": "V12"
+  },
+  {
+   "word": "of",
+   "start": 190.668,
+   "end": 190.908,
+   "chunk": "V12"
+  },
+  {
+   "word": "the",
+   "start": 190.908,
+   "end": 191.068,
+   "chunk": "V12"
+  },
+  {
+   "word": "North.",
+   "start": 191.068,
+   "end": 191.468,
+   "chunk": "V12"
+  },
+  {
+   "word": "Picture",
+   "start": 192.388,
+   "end": 192.648,
+   "chunk": "V12"
+  },
+  {
+   "word": "Japanese",
+   "start": 192.648,
+   "end": 193.368,
+   "chunk": "V12"
+  },
+  {
+   "word": "landings",
+   "start": 193.368,
+   "end": 193.928,
+   "chunk": "V12"
+  },
+  {
+   "word": "at",
+   "start": 193.928,
+   "end": 194.068,
+   "chunk": "V12"
+  },
+  {
+   "word": "ports",
+   "start": 194.068,
+   "end": 194.388,
+   "chunk": "V12"
+  },
+  {
+   "word": "like",
+   "start": 194.388,
+   "end": 194.628,
+   "chunk": "V12"
+  },
+  {
+   "word": "Darwin,",
+   "start": 194.628,
+   "end": 195.108,
+   "chunk": "V12"
+  },
+  {
+   "word": "airfields",
+   "start": 195.708,
+   "end": 196.148,
+   "chunk": "V12"
+  },
+  {
+   "word": "to",
+   "start": 196.148,
+   "end": 196.348,
+   "chunk": "V12"
+  },
+  {
+   "word": "bomb",
+   "start": 196.348,
+   "end": 196.708,
+   "chunk": "V12"
+  },
+  {
+   "word": "the",
+   "start": 196.708,
+   "end": 196.888,
+   "chunk": "V12"
+  },
+  {
+   "word": "rest",
+   "start": 196.888,
+   "end": 197.088,
+   "chunk": "V12"
+  },
+  {
+   "word": "of",
+   "start": 197.088,
+   "end": 197.248,
+   "chunk": "V12"
+  },
+  {
+   "word": "the",
+   "start": 197.248,
+   "end": 197.408,
+   "chunk": "V12"
+  },
+  {
+   "word": "country,",
+   "start": 197.408,
+   "end": 197.808,
+   "chunk": "V12"
+  },
+  {
+   "word": "bases",
+   "start": 198.368,
+   "end": 198.608,
+   "chunk": "V12"
+  },
+  {
+   "word": "to",
+   "start": 198.608,
+   "end": 198.868,
+   "chunk": "V12"
+  },
+  {
+   "word": "block",
+   "start": 198.868,
+   "end": 199.168,
+   "chunk": "V12"
+  },
+  {
+   "word": "American",
+   "start": 199.168,
+   "end": 199.648,
+   "chunk": "V12"
+  },
+  {
+   "word": "ships.",
+   "start": 199.648,
+   "end": 200.108,
+   "chunk": "V12"
+  },
+  {
+   "word": "Could",
+   "start": 200.808,
+   "end": 201.188,
+   "chunk": "V13"
+  },
+  {
+   "word": "Australia",
+   "start": 201.188,
+   "end": 202.028,
+   "chunk": "V13"
+  },
+  {
+   "word": "have",
+   "start": 202.028,
+   "end": 202.348,
+   "chunk": "V13"
+  },
+  {
+   "word": "stopped",
+   "start": 202.348,
+   "end": 202.908,
+   "chunk": "V13"
+  },
+  {
+   "word": "a",
+   "start": 202.908,
+   "end": 203.188,
+   "chunk": "V13"
+  },
+  {
+   "word": "landing",
+   "start": 203.188,
+   "end": 203.548,
+   "chunk": "V13"
+  },
+  {
+   "word": "at",
+   "start": 203.548,
+   "end": 203.888,
+   "chunk": "V13"
+  },
+  {
+   "word": "Darwin",
+   "start": 203.888,
+   "end": 204.328,
+   "chunk": "V13"
+  },
+  {
+   "word": "in",
+   "start": 204.328,
+   "end": 204.768,
+   "chunk": "V13"
+  },
+  {
+   "word": "early",
+   "start": 204.768,
+   "end": 205.208,
+   "chunk": "V13"
+  },
+  {
+   "word": "1942?",
+   "start": 205.208,
+   "end": 206.008,
+   "chunk": "V13"
+  },
+  {
+   "word": "Probably",
+   "start": 207.408,
+   "end": 207.768,
+   "chunk": "V13"
+  },
+  {
+   "word": "not.",
+   "start": 207.768,
+   "end": 208.168,
+   "chunk": "V13"
+  },
+  {
+   "word": "The",
+   "start": 208.688,
+   "end": 208.788,
+   "chunk": "V13"
+  },
+  {
+   "word": "town",
+   "start": 208.788,
+   "end": 209.048,
+   "chunk": "V13"
+  },
+  {
+   "word": "had",
+   "start": 209.048,
+   "end": 209.268,
+   "chunk": "V13"
+  },
+  {
+   "word": "already",
+   "start": 209.268,
+   "end": 209.728,
+   "chunk": "V13"
+  },
+  {
+   "word": "been",
+   "start": 209.728,
+   "end": 209.968,
+   "chunk": "V13"
+  },
+  {
+   "word": "hammered",
+   "start": 209.968,
+   "end": 210.368,
+   "chunk": "V13"
+  },
+  {
+   "word": "from",
+   "start": 210.368,
+   "end": 210.648,
+   "chunk": "V13"
+  },
+  {
+   "word": "the",
+   "start": 210.648,
+   "end": 210.848,
+   "chunk": "V13"
+  },
+  {
+   "word": "air,",
+   "start": 210.848,
+   "end": 211.148,
+   "chunk": "V13"
+  },
+  {
+   "word": "and",
+   "start": 211.468,
+   "end": 211.628,
+   "chunk": "V13"
+  },
+  {
+   "word": "most",
+   "start": 211.628,
+   "end": 211.888,
+   "chunk": "V13"
+  },
+  {
+   "word": "of",
+   "start": 211.888,
+   "end": 212.028,
+   "chunk": "V13"
+  },
+  {
+   "word": "its",
+   "start": 212.028,
+   "end": 212.188,
+   "chunk": "V13"
+  },
+  {
+   "word": "civilians",
+   "start": 212.188,
+   "end": 212.608,
+   "chunk": "V13"
+  },
+  {
+   "word": "had",
+   "start": 212.608,
+   "end": 212.848,
+   "chunk": "V13"
+  },
+  {
+   "word": "been",
+   "start": 212.848,
+   "end": 213.008,
+   "chunk": "V13"
+  },
+  {
+   "word": "sent",
+   "start": 213.008,
+   "end": 213.308,
+   "chunk": "V13"
+  },
+  {
+   "word": "south.",
+   "start": 213.308,
+   "end": 213.728,
+   "chunk": "V13"
+  },
+  {
+   "word": "But",
+   "start": 214.328,
+   "end": 214.508,
+   "chunk": "V13"
+  },
+  {
+   "word": "this",
+   "start": 214.508,
+   "end": 214.688,
+   "chunk": "V13"
+  },
+  {
+   "word": "is",
+   "start": 214.688,
+   "end": 214.868,
+   "chunk": "V13"
+  },
+  {
+   "word": "where",
+   "start": 214.868,
+   "end": 215.028,
+   "chunk": "V13"
+  },
+  {
+   "word": "geography",
+   "start": 215.028,
+   "end": 215.648,
+   "chunk": "V13"
+  },
+  {
+   "word": "takes",
+   "start": 215.648,
+   "end": 216.008,
+   "chunk": "V13"
+  },
+  {
+   "word": "over.",
+   "start": 216.008,
+   "end": 216.348,
+   "chunk": "V13"
+  },
+  {
+   "word": "Look",
+   "start": 217.528,
+   "end": 217.828,
+   "chunk": "V14"
+  },
+  {
+   "word": "at",
+   "start": 217.828,
+   "end": 218.048,
+   "chunk": "V14"
+  },
+  {
+   "word": "what",
+   "start": 218.048,
+   "end": 218.228,
+   "chunk": "V14"
+  },
+  {
+   "word": "lies",
+   "start": 218.228,
+   "end": 218.728,
+   "chunk": "V14"
+  },
+  {
+   "word": "between",
+   "start": 218.728,
+   "end": 219.168,
+   "chunk": "V14"
+  },
+  {
+   "word": "Darwin",
+   "start": 219.168,
+   "end": 219.668,
+   "chunk": "V14"
+  },
+  {
+   "word": "and",
+   "start": 219.668,
+   "end": 220.028,
+   "chunk": "V14"
+  },
+  {
+   "word": "the",
+   "start": 220.028,
+   "end": 220.268,
+   "chunk": "V14"
+  },
+  {
+   "word": "cities",
+   "start": 220.268,
+   "end": 220.588,
+   "chunk": "V14"
+  },
+  {
+   "word": "where",
+   "start": 220.588,
+   "end": 220.828,
+   "chunk": "V14"
+  },
+  {
+   "word": "most",
+   "start": 220.828,
+   "end": 221.268,
+   "chunk": "V14"
+  },
+  {
+   "word": "Australians",
+   "start": 221.268,
+   "end": 221.928,
+   "chunk": "V14"
+  },
+  {
+   "word": "live,",
+   "start": 221.928,
+   "end": 222.528,
+   "chunk": "V14"
+  },
+  {
+   "word": "thousands",
+   "start": 223.388,
+   "end": 223.688,
+   "chunk": "V14"
+  },
+  {
+   "word": "of",
+   "start": 223.688,
+   "end": 224.008,
+   "chunk": "V14"
+  },
+  {
+   "word": "kilometers",
+   "start": 224.008,
+   "end": 224.468,
+   "chunk": "V14"
+  },
+  {
+   "word": "of",
+   "start": 224.468,
+   "end": 224.788,
+   "chunk": "V14"
+  },
+  {
+   "word": "desert.",
+   "start": 224.788,
+   "end": 225.168,
+   "chunk": "V14"
+  },
+  {
+   "word": "In",
+   "start": 226.208,
+   "end": 226.388,
+   "chunk": "V14"
+  },
+  {
+   "word": "1942,",
+   "start": 226.388,
+   "end": 227.408,
+   "chunk": "V14"
+  },
+  {
+   "word": "the",
+   "start": 227.968,
+   "end": 228.088,
+   "chunk": "V14"
+  },
+  {
+   "word": "railway",
+   "start": 228.088,
+   "end": 228.488,
+   "chunk": "V14"
+  },
+  {
+   "word": "from",
+   "start": 228.488,
+   "end": 228.808,
+   "chunk": "V14"
+  },
+  {
+   "word": "Darwin",
+   "start": 228.808,
+   "end": 229.288,
+   "chunk": "V14"
+  },
+  {
+   "word": "stopped",
+   "start": 229.288,
+   "end": 229.748,
+   "chunk": "V14"
+  },
+  {
+   "word": "at",
+   "start": 229.748,
+   "end": 229.908,
+   "chunk": "V14"
+  },
+  {
+   "word": "a",
+   "start": 229.908,
+   "end": 230.188,
+   "chunk": "V14"
+  },
+  {
+   "word": "tiny",
+   "start": 230.188,
+   "end": 230.428,
+   "chunk": "V14"
+  },
+  {
+   "word": "place",
+   "start": 230.428,
+   "end": 230.808,
+   "chunk": "V14"
+  },
+  {
+   "word": "called",
+   "start": 230.808,
+   "end": 231.128,
+   "chunk": "V14"
+  },
+  {
+   "word": "Birdham.",
+   "start": 231.128,
+   "end": 231.668,
+   "chunk": "V14"
+  },
+  {
+   "word": "The",
+   "start": 232.308,
+   "end": 232.508,
+   "chunk": "V14"
+  },
+  {
+   "word": "line",
+   "start": 232.508,
+   "end": 232.788,
+   "chunk": "V14"
+  },
+  {
+   "word": "from",
+   "start": 232.788,
+   "end": 233.048,
+   "chunk": "V14"
+  },
+  {
+   "word": "the",
+   "start": 233.048,
+   "end": 233.308,
+   "chunk": "V14"
+  },
+  {
+   "word": "south",
+   "start": 233.308,
+   "end": 233.528,
+   "chunk": "V14"
+  },
+  {
+   "word": "ended",
+   "start": 233.528,
+   "end": 233.928,
+   "chunk": "V14"
+  },
+  {
+   "word": "at",
+   "start": 233.928,
+   "end": 234.208,
+   "chunk": "V14"
+  },
+  {
+   "word": "Alice",
+   "start": 234.208,
+   "end": 234.488,
+   "chunk": "V14"
+  },
+  {
+   "word": "Springs.",
+   "start": 234.488,
+   "end": 234.948,
+   "chunk": "V14"
+  },
+  {
+   "word": "In",
+   "start": 236.048,
+   "end": 236.228,
+   "chunk": "V14"
+  },
+  {
+   "word": "between,",
+   "start": 236.228,
+   "end": 236.708,
+   "chunk": "V14"
+  },
+  {
+   "word": "roughly",
+   "start": 237.388,
+   "end": 237.688,
+   "chunk": "V14"
+  },
+  {
+   "word": "a",
+   "start": 237.688,
+   "end": 237.968,
+   "chunk": "V14"
+  },
+  {
+   "word": "thousand",
+   "start": 237.968,
+   "end": 238.308,
+   "chunk": "V14"
+  },
+  {
+   "word": "kilometers",
+   "start": 238.308,
+   "end": 238.928,
+   "chunk": "V14"
+  },
+  {
+   "word": "with",
+   "start": 238.928,
+   "end": 239.228,
+   "chunk": "V14"
+  },
+  {
+   "word": "no",
+   "start": 239.228,
+   "end": 239.608,
+   "chunk": "V14"
+  },
+  {
+   "word": "railway",
+   "start": 239.608,
+   "end": 240.088,
+   "chunk": "V14"
+  },
+  {
+   "word": "at",
+   "start": 240.088,
+   "end": 240.328,
+   "chunk": "V14"
+  },
+  {
+   "word": "all.",
+   "start": 240.328,
+   "end": 240.648,
+   "chunk": "V14"
+  },
+  {
+   "word": "If",
+   "start": 241.232,
+   "end": 241.492,
+   "chunk": "V15"
+  },
+  {
+   "word": "you're",
+   "start": 241.492,
+   "end": 241.712,
+   "chunk": "V15"
+  },
+  {
+   "word": "an",
+   "start": 241.712,
+   "end": 241.832,
+   "chunk": "V15"
+  },
+  {
+   "word": "invading",
+   "start": 241.832,
+   "end": 242.312,
+   "chunk": "V15"
+  },
+  {
+   "word": "army,",
+   "start": 242.312,
+   "end": 242.812,
+   "chunk": "V15"
+  },
+  {
+   "word": "that's",
+   "start": 242.812,
+   "end": 243.652,
+   "chunk": "V15"
+  },
+  {
+   "word": "not",
+   "start": 243.652,
+   "end": 243.832,
+   "chunk": "V15"
+  },
+  {
+   "word": "a",
+   "start": 243.832,
+   "end": 244.032,
+   "chunk": "V15"
+  },
+  {
+   "word": "road",
+   "start": 244.032,
+   "end": 244.232,
+   "chunk": "V15"
+  },
+  {
+   "word": "into",
+   "start": 244.232,
+   "end": 244.552,
+   "chunk": "V15"
+  },
+  {
+   "word": "Australia,",
+   "start": 244.552,
+   "end": 245.232,
+   "chunk": "V15"
+  },
+  {
+   "word": "that's",
+   "start": 245.232,
+   "end": 246.512,
+   "chunk": "V15"
+  },
+  {
+   "word": "a",
+   "start": 246.512,
+   "end": 246.612,
+   "chunk": "V15"
+  },
+  {
+   "word": "road",
+   "start": 246.612,
+   "end": 246.852,
+   "chunk": "V15"
+  },
+  {
+   "word": "to",
+   "start": 246.852,
+   "end": 247.072,
+   "chunk": "V15"
+  },
+  {
+   "word": "nowhere.",
+   "start": 247.072,
+   "end": 247.532,
+   "chunk": "V15"
+  },
+  {
+   "word": "Australia",
+   "start": 249.356,
+   "end": 250.116,
+   "chunk": "V16"
+  },
+  {
+   "word": "was",
+   "start": 250.116,
+   "end": 250.376,
+   "chunk": "V16"
+  },
+  {
+   "word": "already",
+   "start": 250.376,
+   "end": 250.856,
+   "chunk": "V16"
+  },
+  {
+   "word": "racing",
+   "start": 250.856,
+   "end": 251.376,
+   "chunk": "V16"
+  },
+  {
+   "word": "to",
+   "start": 251.376,
+   "end": 251.656,
+   "chunk": "V16"
+  },
+  {
+   "word": "push",
+   "start": 251.656,
+   "end": 251.876,
+   "chunk": "V16"
+  },
+  {
+   "word": "a",
+   "start": 251.876,
+   "end": 252.096,
+   "chunk": "V16"
+  },
+  {
+   "word": "military",
+   "start": 252.096,
+   "end": 252.596,
+   "chunk": "V16"
+  },
+  {
+   "word": "road",
+   "start": 252.596,
+   "end": 252.996,
+   "chunk": "V16"
+  },
+  {
+   "word": "through",
+   "start": 252.996,
+   "end": 253.316,
+   "chunk": "V16"
+  },
+  {
+   "word": "that",
+   "start": 253.316,
+   "end": 253.576,
+   "chunk": "V16"
+  },
+  {
+   "word": "gap,",
+   "start": 253.576,
+   "end": 254.056,
+   "chunk": "V16"
+  },
+  {
+   "word": "the",
+   "start": 254.376,
+   "end": 254.696,
+   "chunk": "V16"
+  },
+  {
+   "word": "road",
+   "start": 254.696,
+   "end": 254.916,
+   "chunk": "V16"
+  },
+  {
+   "word": "that",
+   "start": 254.916,
+   "end": 255.116,
+   "chunk": "V16"
+  },
+  {
+   "word": "became",
+   "start": 255.116,
+   "end": 255.476,
+   "chunk": "V16"
+  },
+  {
+   "word": "the",
+   "start": 255.476,
+   "end": 255.716,
+   "chunk": "V16"
+  },
+  {
+   "word": "Stewart",
+   "start": 255.716,
+   "end": 256.076,
+   "chunk": "V16"
+  },
+  {
+   "word": "Highway,",
+   "start": 256.076,
+   "end": 256.516,
+   "chunk": "V16"
+  },
+  {
+   "word": "to",
+   "start": 256.976,
+   "end": 257.216,
+   "chunk": "V16"
+  },
+  {
+   "word": "move",
+   "start": 257.216,
+   "end": 257.516,
+   "chunk": "V16"
+  },
+  {
+   "word": "troops",
+   "start": 257.516,
+   "end": 257.976,
+   "chunk": "V16"
+  },
+  {
+   "word": "north.",
+   "start": 257.976,
+   "end": 258.356,
+   "chunk": "V16"
+  },
+  {
+   "word": "So",
+   "start": 259.016,
+   "end": 259.376,
+   "chunk": "V16"
+  },
+  {
+   "word": "a",
+   "start": 259.376,
+   "end": 259.596,
+   "chunk": "V16"
+  },
+  {
+   "word": "Japanese",
+   "start": 259.596,
+   "end": 260.056,
+   "chunk": "V16"
+  },
+  {
+   "word": "force",
+   "start": 260.056,
+   "end": 260.496,
+   "chunk": "V16"
+  },
+  {
+   "word": "in",
+   "start": 260.496,
+   "end": 260.776,
+   "chunk": "V16"
+  },
+  {
+   "word": "Darwin",
+   "start": 260.776,
+   "end": 261.156,
+   "chunk": "V16"
+  },
+  {
+   "word": "could",
+   "start": 261.156,
+   "end": 261.496,
+   "chunk": "V16"
+  },
+  {
+   "word": "bomb,",
+   "start": 261.496,
+   "end": 262.056,
+   "chunk": "V16"
+  },
+  {
+   "word": "block,",
+   "start": 262.436,
+   "end": 262.636,
+   "chunk": "V16"
+  },
+  {
+   "word": "and",
+   "start": 262.856,
+   "end": 263.016,
+   "chunk": "V16"
+  },
+  {
+   "word": "threaten,",
+   "start": 263.016,
+   "end": 263.416,
+   "chunk": "V16"
+  },
+  {
+   "word": "but",
+   "start": 263.856,
+   "end": 264.096,
+   "chunk": "V16"
+  },
+  {
+   "word": "marching",
+   "start": 264.096,
+   "end": 264.596,
+   "chunk": "V16"
+  },
+  {
+   "word": "south?",
+   "start": 264.596,
+   "end": 265.076,
+   "chunk": "V16"
+  },
+  {
+   "word": "Close",
+   "start": 265.936,
+   "end": 266.076,
+   "chunk": "V16"
+  },
+  {
+   "word": "to",
+   "start": 266.076,
+   "end": 266.336,
+   "chunk": "V16"
+  },
+  {
+   "word": "impossible.",
+   "start": 266.336,
+   "end": 266.956,
+   "chunk": "V16"
+  },
+  {
+   "word": "Tokyo's",
+   "start": 267.716,
+   "end": 268.356,
+   "chunk": "V16"
+  },
+  {
+   "word": "generals",
+   "start": 268.356,
+   "end": 268.616,
+   "chunk": "V16"
+  },
+  {
+   "word": "could",
+   "start": 268.616,
+   "end": 268.956,
+   "chunk": "V16"
+  },
+  {
+   "word": "see",
+   "start": 268.956,
+   "end": 269.216,
+   "chunk": "V16"
+  },
+  {
+   "word": "the",
+   "start": 269.216,
+   "end": 269.436,
+   "chunk": "V16"
+  },
+  {
+   "word": "trap,",
+   "start": 269.436,
+   "end": 269.816,
+   "chunk": "V16"
+  },
+  {
+   "word": "an",
+   "start": 270.236,
+   "end": 270.476,
+   "chunk": "V16"
+  },
+  {
+   "word": "army",
+   "start": 270.476,
+   "end": 270.776,
+   "chunk": "V16"
+  },
+  {
+   "word": "stuck",
+   "start": 270.776,
+   "end": 271.136,
+   "chunk": "V16"
+  },
+  {
+   "word": "in",
+   "start": 271.136,
+   "end": 271.316,
+   "chunk": "V16"
+  },
+  {
+   "word": "the",
+   "start": 271.316,
+   "end": 271.496,
+   "chunk": "V16"
+  },
+  {
+   "word": "north",
+   "start": 271.496,
+   "end": 271.756,
+   "chunk": "V16"
+  },
+  {
+   "word": "facing",
+   "start": 271.756,
+   "end": 272.356,
+   "chunk": "V16"
+  },
+  {
+   "word": "Australian",
+   "start": 272.356,
+   "end": 273.096,
+   "chunk": "V16"
+  },
+  {
+   "word": "and",
+   "start": 273.096,
+   "end": 273.316,
+   "chunk": "V16"
+  },
+  {
+   "word": "American",
+   "start": 273.316,
+   "end": 273.816,
+   "chunk": "V16"
+  },
+  {
+   "word": "counter",
+   "start": 273.816,
+   "end": 274.276,
+   "chunk": "V16"
+  },
+  {
+   "word": "attacks,",
+   "start": 274.276,
+   "end": 274.796,
+   "chunk": "V16"
+  },
+  {
+   "word": "with",
+   "start": 275.316,
+   "end": 275.376,
+   "chunk": "V16"
+  },
+  {
+   "word": "supply",
+   "start": 275.376,
+   "end": 275.796,
+   "chunk": "V16"
+  },
+  {
+   "word": "lines",
+   "start": 275.796,
+   "end": 276.176,
+   "chunk": "V16"
+  },
+  {
+   "word": "stretching",
+   "start": 276.176,
+   "end": 276.596,
+   "chunk": "V16"
+  },
+  {
+   "word": "thousands",
+   "start": 276.596,
+   "end": 277.236,
+   "chunk": "V16"
+  },
+  {
+   "word": "of",
+   "start": 277.236,
+   "end": 277.496,
+   "chunk": "V16"
+  },
+  {
+   "word": "kilometers",
+   "start": 277.496,
+   "end": 277.936,
+   "chunk": "V16"
+  },
+  {
+   "word": "back",
+   "start": 277.936,
+   "end": 278.396,
+   "chunk": "V16"
+  },
+  {
+   "word": "to",
+   "start": 278.396,
+   "end": 278.636,
+   "chunk": "V16"
+  },
+  {
+   "word": "Japan,",
+   "start": 278.636,
+   "end": 279.116,
+   "chunk": "V16"
+  },
+  {
+   "word": "exactly",
+   "start": 279.736,
+   "end": 280.356,
+   "chunk": "V16"
+  },
+  {
+   "word": "the",
+   "start": 280.356,
+   "end": 280.576,
+   "chunk": "V16"
+  },
+  {
+   "word": "kind",
+   "start": 280.576,
+   "end": 280.836,
+   "chunk": "V16"
+  },
+  {
+   "word": "of",
+   "start": 280.836,
+   "end": 281.076,
+   "chunk": "V16"
+  },
+  {
+   "word": "endless",
+   "start": 281.076,
+   "end": 281.436,
+   "chunk": "V16"
+  },
+  {
+   "word": "war",
+   "start": 281.436,
+   "end": 281.796,
+   "chunk": "V16"
+  },
+  {
+   "word": "they",
+   "start": 281.796,
+   "end": 281.976,
+   "chunk": "V16"
+  },
+  {
+   "word": "were",
+   "start": 281.976,
+   "end": 282.136,
+   "chunk": "V16"
+  },
+  {
+   "word": "already",
+   "start": 282.136,
+   "end": 282.596,
+   "chunk": "V16"
+  },
+  {
+   "word": "stuck",
+   "start": 282.596,
+   "end": 282.956,
+   "chunk": "V16"
+  },
+  {
+   "word": "in",
+   "start": 282.956,
+   "end": 283.196,
+   "chunk": "V16"
+  },
+  {
+   "word": "in",
+   "start": 283.196,
+   "end": 283.516,
+   "chunk": "V16"
+  },
+  {
+   "word": "China.",
+   "start": 283.516,
+   "end": 283.936,
+   "chunk": "V16"
+  },
+  {
+   "word": "And",
+   "start": 284.7,
+   "end": 285.0,
+   "chunk": "V17"
+  },
+  {
+   "word": "the",
+   "start": 285.0,
+   "end": 285.3,
+   "chunk": "V17"
+  },
+  {
+   "word": "North",
+   "start": 285.3,
+   "end": 285.66,
+   "chunk": "V17"
+  },
+  {
+   "word": "wasn't",
+   "start": 285.66,
+   "end": 286.36,
+   "chunk": "V17"
+  },
+  {
+   "word": "empty,",
+   "start": 286.36,
+   "end": 286.78,
+   "chunk": "V17"
+  },
+  {
+   "word": "it",
+   "start": 287.26,
+   "end": 287.46,
+   "chunk": "V17"
+  },
+  {
+   "word": "was",
+   "start": 287.46,
+   "end": 287.66,
+   "chunk": "V17"
+  },
+  {
+   "word": "home",
+   "start": 287.66,
+   "end": 287.98,
+   "chunk": "V17"
+  },
+  {
+   "word": "to",
+   "start": 287.98,
+   "end": 288.26,
+   "chunk": "V17"
+  },
+  {
+   "word": "Aboriginal",
+   "start": 288.26,
+   "end": 288.78,
+   "chunk": "V17"
+  },
+  {
+   "word": "communities",
+   "start": 288.78,
+   "end": 289.5,
+   "chunk": "V17"
+  },
+  {
+   "word": "who",
+   "start": 289.5,
+   "end": 290.02,
+   "chunk": "V17"
+  },
+  {
+   "word": "knew",
+   "start": 290.02,
+   "end": 290.26,
+   "chunk": "V17"
+  },
+  {
+   "word": "that",
+   "start": 290.26,
+   "end": 290.52,
+   "chunk": "V17"
+  },
+  {
+   "word": "country",
+   "start": 290.52,
+   "end": 290.9,
+   "chunk": "V17"
+  },
+  {
+   "word": "better",
+   "start": 290.9,
+   "end": 291.22,
+   "chunk": "V17"
+  },
+  {
+   "word": "than",
+   "start": 291.22,
+   "end": 291.48,
+   "chunk": "V17"
+  },
+  {
+   "word": "anyone.",
+   "start": 291.48,
+   "end": 291.92,
+   "chunk": "V17"
+  },
+  {
+   "word": "On",
+   "start": 293.4,
+   "end": 293.66,
+   "chunk": "V17"
+  },
+  {
+   "word": "the",
+   "start": 293.66,
+   "end": 293.8,
+   "chunk": "V17"
+  },
+  {
+   "word": "day",
+   "start": 293.8,
+   "end": 294.06,
+   "chunk": "V17"
+  },
+  {
+   "word": "Darwin",
+   "start": 294.06,
+   "end": 294.46,
+   "chunk": "V17"
+  },
+  {
+   "word": "was",
+   "start": 294.46,
+   "end": 294.72,
+   "chunk": "V17"
+  },
+  {
+   "word": "bombed,",
+   "start": 294.72,
+   "end": 295.2,
+   "chunk": "V17"
+  },
+  {
+   "word": "a",
+   "start": 295.64,
+   "end": 295.8,
+   "chunk": "V17"
+  },
+  {
+   "word": "Japanese",
+   "start": 295.8,
+   "end": 296.28,
+   "chunk": "V17"
+  },
+  {
+   "word": "pilot",
+   "start": 296.28,
+   "end": 296.74,
+   "chunk": "V17"
+  },
+  {
+   "word": "crash",
+   "start": 296.74,
+   "end": 297.16,
+   "chunk": "V17"
+  },
+  {
+   "word": "landed",
+   "start": 297.16,
+   "end": 297.54,
+   "chunk": "V17"
+  },
+  {
+   "word": "on",
+   "start": 297.54,
+   "end": 297.8,
+   "chunk": "V17"
+  },
+  {
+   "word": "Melville",
+   "start": 297.8,
+   "end": 298.2,
+   "chunk": "V17"
+  },
+  {
+   "word": "Island.",
+   "start": 298.2,
+   "end": 298.66,
+   "chunk": "V17"
+  },
+  {
+   "word": "He",
+   "start": 299.24,
+   "end": 299.3,
+   "chunk": "V17"
+  },
+  {
+   "word": "was",
+   "start": 299.3,
+   "end": 299.48,
+   "chunk": "V17"
+  },
+  {
+   "word": "captured",
+   "start": 299.48,
+   "end": 299.94,
+   "chunk": "V17"
+  },
+  {
+   "word": "by",
+   "start": 299.94,
+   "end": 300.2,
+   "chunk": "V17"
+  },
+  {
+   "word": "a",
+   "start": 300.2,
+   "end": 300.42,
+   "chunk": "V17"
+  },
+  {
+   "word": "Tiwi",
+   "start": 300.42,
+   "end": 300.7,
+   "chunk": "V17"
+  },
+  {
+   "word": "man,",
+   "start": 300.7,
+   "end": 301.14,
+   "chunk": "V17"
+  },
+  {
+   "word": "Matthias",
+   "start": 301.72,
+   "end": 302.06,
+   "chunk": "V17"
+  },
+  {
+   "word": "Ulungora.",
+   "start": 302.06,
+   "end": 302.76,
+   "chunk": "V17"
+  },
+  {
+   "word": "It's",
+   "start": 303.3,
+   "end": 303.72,
+   "chunk": "V17"
+  },
+  {
+   "word": "widely",
+   "start": 303.72,
+   "end": 304.02,
+   "chunk": "V17"
+  },
+  {
+   "word": "seen",
+   "start": 304.02,
+   "end": 304.36,
+   "chunk": "V17"
+  },
+  {
+   "word": "as",
+   "start": 304.36,
+   "end": 304.56,
+   "chunk": "V17"
+  },
+  {
+   "word": "the",
+   "start": 304.56,
+   "end": 304.74,
+   "chunk": "V17"
+  },
+  {
+   "word": "first",
+   "start": 304.74,
+   "end": 305.0,
+   "chunk": "V17"
+  },
+  {
+   "word": "Japanese",
+   "start": 305.0,
+   "end": 305.56,
+   "chunk": "V17"
+  },
+  {
+   "word": "prisoner",
+   "start": 305.56,
+   "end": 305.96,
+   "chunk": "V17"
+  },
+  {
+   "word": "of",
+   "start": 305.96,
+   "end": 306.22,
+   "chunk": "V17"
+  },
+  {
+   "word": "war",
+   "start": 306.22,
+   "end": 306.38,
+   "chunk": "V17"
+  },
+  {
+   "word": "taken",
+   "start": 306.38,
+   "end": 306.76,
+   "chunk": "V17"
+  },
+  {
+   "word": "on",
+   "start": 306.76,
+   "end": 307.06,
+   "chunk": "V17"
+  },
+  {
+   "word": "Australian",
+   "start": 307.06,
+   "end": 307.56,
+   "chunk": "V17"
+  },
+  {
+   "word": "soil.",
+   "start": 307.56,
+   "end": 307.98,
+   "chunk": "V17"
+  },
+  {
+   "word": "Verdict",
+   "start": 308.692,
+   "end": 309.352,
+   "chunk": "V18"
+  },
+  {
+   "word": "on",
+   "start": 309.352,
+   "end": 309.692,
+   "chunk": "V18"
+  },
+  {
+   "word": "scenario",
+   "start": 309.692,
+   "end": 310.132,
+   "chunk": "V18"
+  },
+  {
+   "word": "one,",
+   "start": 310.132,
+   "end": 310.612,
+   "chunk": "V18"
+  },
+  {
+   "word": "Japan",
+   "start": 311.112,
+   "end": 311.472,
+   "chunk": "V18"
+  },
+  {
+   "word": "probably",
+   "start": 311.472,
+   "end": 312.032,
+   "chunk": "V18"
+  },
+  {
+   "word": "takes",
+   "start": 312.032,
+   "end": 312.372,
+   "chunk": "V18"
+  },
+  {
+   "word": "a",
+   "start": 312.372,
+   "end": 312.512,
+   "chunk": "V18"
+  },
+  {
+   "word": "port",
+   "start": 312.512,
+   "end": 312.772,
+   "chunk": "V18"
+  },
+  {
+   "word": "or",
+   "start": 312.772,
+   "end": 312.912,
+   "chunk": "V18"
+  },
+  {
+   "word": "two",
+   "start": 312.912,
+   "end": 313.312,
+   "chunk": "V18"
+  },
+  {
+   "word": "and",
+   "start": 313.312,
+   "end": 314.372,
+   "chunk": "V18"
+  },
+  {
+   "word": "gets",
+   "start": 314.372,
+   "end": 314.572,
+   "chunk": "V18"
+  },
+  {
+   "word": "stuck.",
+   "start": 314.572,
+   "end": 315.072,
+   "chunk": "V18"
+  },
+  {
+   "word": "Painful",
+   "start": 315.912,
+   "end": 316.312,
+   "chunk": "V18"
+  },
+  {
+   "word": "for",
+   "start": 316.312,
+   "end": 316.552,
+   "chunk": "V18"
+  },
+  {
+   "word": "Australia,",
+   "start": 316.552,
+   "end": 317.132,
+   "chunk": "V18"
+  },
+  {
+   "word": "very",
+   "start": 317.832,
+   "end": 317.992,
+   "chunk": "V18"
+  },
+  {
+   "word": "likely",
+   "start": 317.992,
+   "end": 318.352,
+   "chunk": "V18"
+  },
+  {
+   "word": "a",
+   "start": 318.352,
+   "end": 318.532,
+   "chunk": "V18"
+  },
+  {
+   "word": "disaster",
+   "start": 318.532,
+   "end": 319.012,
+   "chunk": "V18"
+  },
+  {
+   "word": "for",
+   "start": 319.012,
+   "end": 319.272,
+   "chunk": "V18"
+  },
+  {
+   "word": "Japan.",
+   "start": 319.272,
+   "end": 319.632,
+   "chunk": "V18"
+  },
+  {
+   "word": "Scenario",
+   "start": 322.424,
+   "end": 323.364,
+   "chunk": "V19"
+  },
+  {
+   "word": "2.",
+   "start": 323.364,
+   "end": 324.164,
+   "chunk": "V19"
+  },
+  {
+   "word": "Forget",
+   "start": 325.484,
+   "end": 325.544,
+   "chunk": "V19"
+  },
+  {
+   "word": "the",
+   "start": 325.544,
+   "end": 326.004,
+   "chunk": "V19"
+  },
+  {
+   "word": "North.",
+   "start": 326.004,
+   "end": 326.404,
+   "chunk": "V19"
+  },
+  {
+   "word": "Japan",
+   "start": 327.744,
+   "end": 328.204,
+   "chunk": "V19"
+  },
+  {
+   "word": "goes",
+   "start": 328.204,
+   "end": 328.564,
+   "chunk": "V19"
+  },
+  {
+   "word": "all",
+   "start": 328.564,
+   "end": 329.064,
+   "chunk": "V19"
+  },
+  {
+   "word": "in.",
+   "start": 329.064,
+   "end": 329.464,
+   "chunk": "V19"
+  },
+  {
+   "word": "10",
+   "start": 330.072,
+   "end": 330.352,
+   "chunk": "V20"
+  },
+  {
+   "word": "to",
+   "start": 330.352,
+   "end": 330.512,
+   "chunk": "V20"
+  },
+  {
+   "word": "12",
+   "start": 330.512,
+   "end": 330.832,
+   "chunk": "V20"
+  },
+  {
+   "word": "divisions,",
+   "start": 330.832,
+   "end": 331.372,
+   "chunk": "V20"
+  },
+  {
+   "word": "landings",
+   "start": 331.932,
+   "end": 332.312,
+   "chunk": "V20"
+  },
+  {
+   "word": "on",
+   "start": 332.312,
+   "end": 332.472,
+   "chunk": "V20"
+  },
+  {
+   "word": "the",
+   "start": 332.472,
+   "end": 332.632,
+   "chunk": "V20"
+  },
+  {
+   "word": "East",
+   "start": 332.632,
+   "end": 332.872,
+   "chunk": "V20"
+  },
+  {
+   "word": "coast",
+   "start": 332.872,
+   "end": 333.212,
+   "chunk": "V20"
+  },
+  {
+   "word": "where",
+   "start": 333.212,
+   "end": 333.512,
+   "chunk": "V20"
+  },
+  {
+   "word": "the",
+   "start": 333.512,
+   "end": 333.752,
+   "chunk": "V20"
+  },
+  {
+   "word": "cities",
+   "start": 333.752,
+   "end": 333.972,
+   "chunk": "V20"
+  },
+  {
+   "word": "are,",
+   "start": 333.972,
+   "end": 334.372,
+   "chunk": "V20"
+  },
+  {
+   "word": "Brisbane,",
+   "start": 334.752,
+   "end": 335.052,
+   "chunk": "V20"
+  },
+  {
+   "word": "Sydney,",
+   "start": 335.412,
+   "end": 335.652,
+   "chunk": "V20"
+  },
+  {
+   "word": "Melbourne.",
+   "start": 335.932,
+   "end": 336.192,
+   "chunk": "V20"
+  },
+  {
+   "word": "To",
+   "start": 336.732,
+   "end": 336.912,
+   "chunk": "V20"
+  },
+  {
+   "word": "even",
+   "start": 336.912,
+   "end": 337.212,
+   "chunk": "V20"
+  },
+  {
+   "word": "try",
+   "start": 337.212,
+   "end": 337.572,
+   "chunk": "V20"
+  },
+  {
+   "word": "it,",
+   "start": 337.572,
+   "end": 337.812,
+   "chunk": "V20"
+  },
+  {
+   "word": "Japan",
+   "start": 337.972,
+   "end": 338.292,
+   "chunk": "V20"
+  },
+  {
+   "word": "needs",
+   "start": 338.292,
+   "end": 338.612,
+   "chunk": "V20"
+  },
+  {
+   "word": "up",
+   "start": 338.612,
+   "end": 338.812,
+   "chunk": "V20"
+  },
+  {
+   "word": "to",
+   "start": 338.812,
+   "end": 339.052,
+   "chunk": "V20"
+  },
+  {
+   "word": "2",
+   "start": 339.052,
+   "end": 339.292,
+   "chunk": "V20"
+  },
+  {
+   "word": "million",
+   "start": 339.292,
+   "end": 339.672,
+   "chunk": "V20"
+  },
+  {
+   "word": "tons",
+   "start": 339.672,
+   "end": 340.012,
+   "chunk": "V20"
+  },
+  {
+   "word": "of",
+   "start": 340.012,
+   "end": 340.272,
+   "chunk": "V20"
+  },
+  {
+   "word": "shipping",
+   "start": 340.272,
+   "end": 340.592,
+   "chunk": "V20"
+  },
+  {
+   "word": "just",
+   "start": 340.592,
+   "end": 341.192,
+   "chunk": "V20"
+  },
+  {
+   "word": "to",
+   "start": 341.192,
+   "end": 341.412,
+   "chunk": "V20"
+  },
+  {
+   "word": "move",
+   "start": 341.412,
+   "end": 341.572,
+   "chunk": "V20"
+  },
+  {
+   "word": "the",
+   "start": 341.572,
+   "end": 341.812,
+   "chunk": "V20"
+  },
+  {
+   "word": "army,",
+   "start": 341.812,
+   "end": 342.112,
+   "chunk": "V20"
+  },
+  {
+   "word": "then",
+   "start": 342.532,
+   "end": 342.632,
+   "chunk": "V20"
+  },
+  {
+   "word": "a",
+   "start": 342.632,
+   "end": 342.892,
+   "chunk": "V20"
+  },
+  {
+   "word": "nonstop",
+   "start": 342.892,
+   "end": 343.432,
+   "chunk": "V20"
+  },
+  {
+   "word": "stream",
+   "start": 343.432,
+   "end": 343.772,
+   "chunk": "V20"
+  },
+  {
+   "word": "of",
+   "start": 343.772,
+   "end": 344.012,
+   "chunk": "V20"
+  },
+  {
+   "word": "ships",
+   "start": 344.012,
+   "end": 344.212,
+   "chunk": "V20"
+  },
+  {
+   "word": "to",
+   "start": 344.212,
+   "end": 344.392,
+   "chunk": "V20"
+  },
+  {
+   "word": "keep",
+   "start": 344.392,
+   "end": 344.572,
+   "chunk": "V20"
+  },
+  {
+   "word": "it",
+   "start": 344.572,
+   "end": 344.732,
+   "chunk": "V20"
+  },
+  {
+   "word": "fed",
+   "start": 344.732,
+   "end": 345.012,
+   "chunk": "V20"
+  },
+  {
+   "word": "and",
+   "start": 345.012,
+   "end": 345.232,
+   "chunk": "V20"
+  },
+  {
+   "word": "armed",
+   "start": 345.232,
+   "end": 345.692,
+   "chunk": "V20"
+  },
+  {
+   "word": "across",
+   "start": 345.692,
+   "end": 346.252,
+   "chunk": "V20"
+  },
+  {
+   "word": "thousands",
+   "start": 346.252,
+   "end": 346.792,
+   "chunk": "V20"
+  },
+  {
+   "word": "of",
+   "start": 346.792,
+   "end": 347.072,
+   "chunk": "V20"
+  },
+  {
+   "word": "kilometers",
+   "start": 347.072,
+   "end": 347.432,
+   "chunk": "V20"
+  },
+  {
+   "word": "of",
+   "start": 347.432,
+   "end": 347.712,
+   "chunk": "V20"
+  },
+  {
+   "word": "ocean.",
+   "start": 347.712,
+   "end": 347.972,
+   "chunk": "V20"
+  },
+  {
+   "word": "Every",
+   "start": 348.732,
+   "end": 348.992,
+   "chunk": "V20"
+  },
+  {
+   "word": "one",
+   "start": 348.992,
+   "end": 349.172,
+   "chunk": "V20"
+  },
+  {
+   "word": "of",
+   "start": 349.172,
+   "end": 349.272,
+   "chunk": "V20"
+  },
+  {
+   "word": "those",
+   "start": 349.272,
+   "end": 349.452,
+   "chunk": "V20"
+  },
+  {
+   "word": "ships",
+   "start": 349.452,
+   "end": 349.732,
+   "chunk": "V20"
+  },
+  {
+   "word": "is",
+   "start": 349.732,
+   "end": 349.912,
+   "chunk": "V20"
+  },
+  {
+   "word": "a",
+   "start": 349.912,
+   "end": 350.132,
+   "chunk": "V20"
+  },
+  {
+   "word": "target",
+   "start": 350.132,
+   "end": 350.412,
+   "chunk": "V20"
+  },
+  {
+   "word": "for",
+   "start": 350.412,
+   "end": 350.652,
+   "chunk": "V20"
+  },
+  {
+   "word": "American",
+   "start": 350.652,
+   "end": 351.092,
+   "chunk": "V20"
+  },
+  {
+   "word": "submarines",
+   "start": 351.092,
+   "end": 351.672,
+   "chunk": "V20"
+  },
+  {
+   "word": "and",
+   "start": 351.672,
+   "end": 351.892,
+   "chunk": "V20"
+  },
+  {
+   "word": "aircraft.",
+   "start": 351.892,
+   "end": 352.292,
+   "chunk": "V20"
+  },
+  {
+   "word": "Then",
+   "start": 353.608,
+   "end": 354.028,
+   "chunk": "V21"
+  },
+  {
+   "word": "there's",
+   "start": 354.028,
+   "end": 354.528,
+   "chunk": "V21"
+  },
+  {
+   "word": "timing.",
+   "start": 354.528,
+   "end": 355.088,
+   "chunk": "V21"
+  },
+  {
+   "word": "In",
+   "start": 355.848,
+   "end": 355.968,
+   "chunk": "V21"
+  },
+  {
+   "word": "May",
+   "start": 355.968,
+   "end": 356.308,
+   "chunk": "V21"
+  },
+  {
+   "word": "1942,",
+   "start": 356.308,
+   "end": 357.308,
+   "chunk": "V21"
+  },
+  {
+   "word": "the",
+   "start": 357.948,
+   "end": 358.068,
+   "chunk": "V21"
+  },
+  {
+   "word": "Battle",
+   "start": 358.068,
+   "end": 358.428,
+   "chunk": "V21"
+  },
+  {
+   "word": "of",
+   "start": 358.428,
+   "end": 358.648,
+   "chunk": "V21"
+  },
+  {
+   "word": "the",
+   "start": 358.648,
+   "end": 358.848,
+   "chunk": "V21"
+  },
+  {
+   "word": "Coral",
+   "start": 358.848,
+   "end": 359.068,
+   "chunk": "V21"
+  },
+  {
+   "word": "Sea",
+   "start": 359.068,
+   "end": 359.548,
+   "chunk": "V21"
+  },
+  {
+   "word": "off",
+   "start": 359.548,
+   "end": 360.088,
+   "chunk": "V21"
+  },
+  {
+   "word": "Australia's",
+   "start": 360.088,
+   "end": 360.948,
+   "chunk": "V21"
+  },
+  {
+   "word": "northeast",
+   "start": 360.948,
+   "end": 361.268,
+   "chunk": "V21"
+  },
+  {
+   "word": "coast",
+   "start": 361.268,
+   "end": 361.828,
+   "chunk": "V21"
+  },
+  {
+   "word": "turns",
+   "start": 361.828,
+   "end": 362.508,
+   "chunk": "V21"
+  },
+  {
+   "word": "back",
+   "start": 362.508,
+   "end": 362.928,
+   "chunk": "V21"
+  },
+  {
+   "word": "a",
+   "start": 362.928,
+   "end": 363.228,
+   "chunk": "V21"
+  },
+  {
+   "word": "Japanese",
+   "start": 363.228,
+   "end": 363.628,
+   "chunk": "V21"
+  },
+  {
+   "word": "invasion",
+   "start": 363.628,
+   "end": 364.148,
+   "chunk": "V21"
+  },
+  {
+   "word": "force",
+   "start": 364.148,
+   "end": 364.568,
+   "chunk": "V21"
+  },
+  {
+   "word": "heading",
+   "start": 364.568,
+   "end": 364.868,
+   "chunk": "V21"
+  },
+  {
+   "word": "for",
+   "start": 364.868,
+   "end": 365.208,
+   "chunk": "V21"
+  },
+  {
+   "word": "Port",
+   "start": 365.208,
+   "end": 365.428,
+   "chunk": "V21"
+  },
+  {
+   "word": "Moresby.",
+   "start": 365.428,
+   "end": 365.968,
+   "chunk": "V21"
+  },
+  {
+   "word": "One",
+   "start": 367.008,
+   "end": 367.248,
+   "chunk": "V21"
+  },
+  {
+   "word": "month",
+   "start": 367.248,
+   "end": 367.508,
+   "chunk": "V21"
+  },
+  {
+   "word": "later,",
+   "start": 367.508,
+   "end": 367.908,
+   "chunk": "V21"
+  },
+  {
+   "word": "at",
+   "start": 368.128,
+   "end": 368.228,
+   "chunk": "V21"
+  },
+  {
+   "word": "Midway,",
+   "start": 368.228,
+   "end": 368.808,
+   "chunk": "V21"
+  },
+  {
+   "word": "Japan",
+   "start": 369.268,
+   "end": 369.608,
+   "chunk": "V21"
+  },
+  {
+   "word": "loses",
+   "start": 369.608,
+   "end": 369.988,
+   "chunk": "V21"
+  },
+  {
+   "word": "four",
+   "start": 369.988,
+   "end": 370.488,
+   "chunk": "V21"
+  },
+  {
+   "word": "of",
+   "start": 370.488,
+   "end": 370.708,
+   "chunk": "V21"
+  },
+  {
+   "word": "its",
+   "start": 370.708,
+   "end": 370.868,
+   "chunk": "V21"
+  },
+  {
+   "word": "big",
+   "start": 370.868,
+   "end": 371.228,
+   "chunk": "V21"
+  },
+  {
+   "word": "aircraft",
+   "start": 371.228,
+   "end": 371.728,
+   "chunk": "V21"
+  },
+  {
+   "word": "carriers.",
+   "start": 371.728,
+   "end": 372.308,
+   "chunk": "V21"
+  },
+  {
+   "word": "Now",
+   "start": 374.044,
+   "end": 374.484,
+   "chunk": "V22"
+  },
+  {
+   "word": "imagine",
+   "start": 374.484,
+   "end": 375.304,
+   "chunk": "V22"
+  },
+  {
+   "word": "those",
+   "start": 375.304,
+   "end": 375.684,
+   "chunk": "V22"
+  },
+  {
+   "word": "carriers",
+   "start": 375.684,
+   "end": 376.284,
+   "chunk": "V22"
+  },
+  {
+   "word": "had",
+   "start": 376.284,
+   "end": 376.624,
+   "chunk": "V22"
+  },
+  {
+   "word": "been",
+   "start": 376.624,
+   "end": 376.804,
+   "chunk": "V22"
+  },
+  {
+   "word": "tied",
+   "start": 376.804,
+   "end": 377.204,
+   "chunk": "V22"
+  },
+  {
+   "word": "up",
+   "start": 377.204,
+   "end": 377.504,
+   "chunk": "V22"
+  },
+  {
+   "word": "guarding",
+   "start": 377.504,
+   "end": 377.904,
+   "chunk": "V22"
+  },
+  {
+   "word": "an",
+   "start": 377.904,
+   "end": 378.124,
+   "chunk": "V22"
+  },
+  {
+   "word": "invasion",
+   "start": 378.124,
+   "end": 378.664,
+   "chunk": "V22"
+  },
+  {
+   "word": "of",
+   "start": 378.664,
+   "end": 378.924,
+   "chunk": "V22"
+  },
+  {
+   "word": "Australia",
+   "start": 378.924,
+   "end": 379.564,
+   "chunk": "V22"
+  },
+  {
+   "word": "instead.",
+   "start": 379.564,
+   "end": 380.184,
+   "chunk": "V22"
+  },
+  {
+   "word": "Some",
+   "start": 381.304,
+   "end": 381.424,
+   "chunk": "V22"
+  },
+  {
+   "word": "historians",
+   "start": 381.424,
+   "end": 382.024,
+   "chunk": "V22"
+  },
+  {
+   "word": "think",
+   "start": 382.024,
+   "end": 382.404,
+   "chunk": "V22"
+  },
+  {
+   "word": "Japan",
+   "start": 382.404,
+   "end": 382.904,
+   "chunk": "V22"
+  },
+  {
+   "word": "might",
+   "start": 382.904,
+   "end": 383.284,
+   "chunk": "V22"
+  },
+  {
+   "word": "have",
+   "start": 383.284,
+   "end": 383.504,
+   "chunk": "V22"
+  },
+  {
+   "word": "won",
+   "start": 383.504,
+   "end": 383.784,
+   "chunk": "V22"
+  },
+  {
+   "word": "more",
+   "start": 383.784,
+   "end": 384.124,
+   "chunk": "V22"
+  },
+  {
+   "word": "early",
+   "start": 384.124,
+   "end": 384.524,
+   "chunk": "V22"
+  },
+  {
+   "word": "battles.",
+   "start": 384.524,
+   "end": 385.024,
+   "chunk": "V22"
+  },
+  {
+   "word": "Others",
+   "start": 385.644,
+   "end": 385.984,
+   "chunk": "V22"
+  },
+  {
+   "word": "argue",
+   "start": 385.984,
+   "end": 386.404,
+   "chunk": "V22"
+  },
+  {
+   "word": "it",
+   "start": 386.404,
+   "end": 386.664,
+   "chunk": "V22"
+  },
+  {
+   "word": "would",
+   "start": 386.664,
+   "end": 386.804,
+   "chunk": "V22"
+  },
+  {
+   "word": "have",
+   "start": 386.804,
+   "end": 386.964,
+   "chunk": "V22"
+  },
+  {
+   "word": "stretched",
+   "start": 386.964,
+   "end": 387.404,
+   "chunk": "V22"
+  },
+  {
+   "word": "Japan's",
+   "start": 387.404,
+   "end": 388.264,
+   "chunk": "V22"
+  },
+  {
+   "word": "navy",
+   "start": 388.264,
+   "end": 388.264,
+   "chunk": "V22"
+  },
+  {
+   "word": "so",
+   "start": 388.264,
+   "end": 388.564,
+   "chunk": "V22"
+  },
+  {
+   "word": "thin",
+   "start": 388.564,
+   "end": 389.004,
+   "chunk": "V22"
+  },
+  {
+   "word": "that",
+   "start": 389.004,
+   "end": 389.644,
+   "chunk": "V22"
+  },
+  {
+   "word": "the",
+   "start": 389.644,
+   "end": 389.804,
+   "chunk": "V22"
+  },
+  {
+   "word": "collapse",
+   "start": 389.804,
+   "end": 390.264,
+   "chunk": "V22"
+  },
+  {
+   "word": "would",
+   "start": 390.264,
+   "end": 390.484,
+   "chunk": "V22"
+  },
+  {
+   "word": "have",
+   "start": 390.484,
+   "end": 390.604,
+   "chunk": "V22"
+  },
+  {
+   "word": "come",
+   "start": 390.604,
+   "end": 390.864,
+   "chunk": "V22"
+  },
+  {
+   "word": "even",
+   "start": 390.864,
+   "end": 391.224,
+   "chunk": "V22"
+  },
+  {
+   "word": "faster.",
+   "start": 391.224,
+   "end": 391.824,
+   "chunk": "V22"
+  },
+  {
+   "word": "On",
+   "start": 392.504,
+   "end": 392.664,
+   "chunk": "V22"
+  },
+  {
+   "word": "land,",
+   "start": 392.664,
+   "end": 393.144,
+   "chunk": "V22"
+  },
+  {
+   "word": "Australia",
+   "start": 393.584,
+   "end": 394.104,
+   "chunk": "V22"
+  },
+  {
+   "word": "would",
+   "start": 394.104,
+   "end": 394.324,
+   "chunk": "V22"
+  },
+  {
+   "word": "have",
+   "start": 394.324,
+   "end": 394.464,
+   "chunk": "V22"
+  },
+  {
+   "word": "fought",
+   "start": 394.464,
+   "end": 394.744,
+   "chunk": "V22"
+  },
+  {
+   "word": "for",
+   "start": 394.744,
+   "end": 395.004,
+   "chunk": "V22"
+  },
+  {
+   "word": "every",
+   "start": 395.004,
+   "end": 395.384,
+   "chunk": "V22"
+  },
+  {
+   "word": "town.",
+   "start": 395.384,
+   "end": 395.844,
+   "chunk": "V22"
+  },
+  {
+   "word": "By",
+   "start": 396.424,
+   "end": 396.564,
+   "chunk": "V22"
+  },
+  {
+   "word": "mid",
+   "start": 396.564,
+   "end": 396.904,
+   "chunk": "V22"
+  },
+  {
+   "word": "-1942,",
+   "start": 396.904,
+   "end": 397.904,
+   "chunk": "V22"
+  },
+  {
+   "word": "Australian",
+   "start": 398.524,
+   "end": 399.044,
+   "chunk": "V22"
+  },
+  {
+   "word": "troops",
+   "start": 399.044,
+   "end": 399.384,
+   "chunk": "V22"
+  },
+  {
+   "word": "were",
+   "start": 399.384,
+   "end": 399.564,
+   "chunk": "V22"
+  },
+  {
+   "word": "coming",
+   "start": 399.564,
+   "end": 399.824,
+   "chunk": "V22"
+  },
+  {
+   "word": "home",
+   "start": 399.824,
+   "end": 400.104,
+   "chunk": "V22"
+  },
+  {
+   "word": "from",
+   "start": 400.104,
+   "end": 400.344,
+   "chunk": "V22"
+  },
+  {
+   "word": "the",
+   "start": 400.344,
+   "end": 400.504,
+   "chunk": "V22"
+  },
+  {
+   "word": "Middle",
+   "start": 400.504,
+   "end": 400.644,
+   "chunk": "V22"
+  },
+  {
+   "word": "East,",
+   "start": 400.644,
+   "end": 401.084,
+   "chunk": "V22"
+  },
+  {
+   "word": "the",
+   "start": 401.464,
+   "end": 401.584,
+   "chunk": "V22"
+  },
+  {
+   "word": "home",
+   "start": 401.584,
+   "end": 401.804,
+   "chunk": "V22"
+  },
+  {
+   "word": "army",
+   "start": 401.804,
+   "end": 402.124,
+   "chunk": "V22"
+  },
+  {
+   "word": "was",
+   "start": 402.124,
+   "end": 402.304,
+   "chunk": "V22"
+  },
+  {
+   "word": "growing,",
+   "start": 402.304,
+   "end": 402.744,
+   "chunk": "V22"
+  },
+  {
+   "word": "and",
+   "start": 403.264,
+   "end": 403.304,
+   "chunk": "V22"
+  },
+  {
+   "word": "American",
+   "start": 403.304,
+   "end": 403.804,
+   "chunk": "V22"
+  },
+  {
+   "word": "soldiers",
+   "start": 403.804,
+   "end": 404.264,
+   "chunk": "V22"
+  },
+  {
+   "word": "and",
+   "start": 404.264,
+   "end": 404.524,
+   "chunk": "V22"
+  },
+  {
+   "word": "aircraft",
+   "start": 404.524,
+   "end": 404.964,
+   "chunk": "V22"
+  },
+  {
+   "word": "were",
+   "start": 404.964,
+   "end": 405.204,
+   "chunk": "V22"
+  },
+  {
+   "word": "pouring",
+   "start": 405.204,
+   "end": 405.604,
+   "chunk": "V22"
+  },
+  {
+   "word": "in.",
+   "start": 405.604,
+   "end": 405.884,
+   "chunk": "V22"
+  },
+  {
+   "word": "Could",
+   "start": 406.58,
+   "end": 406.84,
+   "chunk": "V23"
+  },
+  {
+   "word": "Japan",
+   "start": 406.84,
+   "end": 407.38,
+   "chunk": "V23"
+  },
+  {
+   "word": "have",
+   "start": 407.38,
+   "end": 407.62,
+   "chunk": "V23"
+  },
+  {
+   "word": "taken",
+   "start": 407.62,
+   "end": 407.98,
+   "chunk": "V23"
+  },
+  {
+   "word": "cities?",
+   "start": 407.98,
+   "end": 408.58,
+   "chunk": "V23"
+  },
+  {
+   "word": "Possibly,",
+   "start": 409.34,
+   "end": 409.76,
+   "chunk": "V23"
+  },
+  {
+   "word": "for",
+   "start": 410.1,
+   "end": 410.28,
+   "chunk": "V23"
+  },
+  {
+   "word": "a",
+   "start": 410.28,
+   "end": 410.44,
+   "chunk": "V23"
+  },
+  {
+   "word": "time.",
+   "start": 410.44,
+   "end": 410.82,
+   "chunk": "V23"
+  },
+  {
+   "word": "And",
+   "start": 411.34,
+   "end": 411.46,
+   "chunk": "V23"
+  },
+  {
+   "word": "the",
+   "start": 411.46,
+   "end": 411.66,
+   "chunk": "V23"
+  },
+  {
+   "word": "cost",
+   "start": 411.66,
+   "end": 411.94,
+   "chunk": "V23"
+  },
+  {
+   "word": "for",
+   "start": 411.94,
+   "end": 412.2,
+   "chunk": "V23"
+  },
+  {
+   "word": "Australian",
+   "start": 412.2,
+   "end": 412.68,
+   "chunk": "V23"
+  },
+  {
+   "word": "civilians",
+   "start": 412.68,
+   "end": 413.24,
+   "chunk": "V23"
+  },
+  {
+   "word": "could",
+   "start": 413.24,
+   "end": 413.56,
+   "chunk": "V23"
+  },
+  {
+   "word": "have",
+   "start": 413.56,
+   "end": 413.68,
+   "chunk": "V23"
+  },
+  {
+   "word": "been",
+   "start": 413.68,
+   "end": 413.9,
+   "chunk": "V23"
+  },
+  {
+   "word": "terrible.",
+   "start": 413.9,
+   "end": 414.3,
+   "chunk": "V23"
+  },
+  {
+   "word": "Across",
+   "start": 415.0,
+   "end": 415.24,
+   "chunk": "V23"
+  },
+  {
+   "word": "Asia,",
+   "start": 415.24,
+   "end": 415.8,
+   "chunk": "V23"
+  },
+  {
+   "word": "people",
+   "start": 416.3,
+   "end": 416.46,
+   "chunk": "V23"
+  },
+  {
+   "word": "living",
+   "start": 416.46,
+   "end": 416.82,
+   "chunk": "V23"
+  },
+  {
+   "word": "under",
+   "start": 416.82,
+   "end": 417.1,
+   "chunk": "V23"
+  },
+  {
+   "word": "Japanese",
+   "start": 417.1,
+   "end": 417.64,
+   "chunk": "V23"
+  },
+  {
+   "word": "occupation",
+   "start": 417.64,
+   "end": 418.36,
+   "chunk": "V23"
+  },
+  {
+   "word": "suffered",
+   "start": 418.36,
+   "end": 418.88,
+   "chunk": "V23"
+  },
+  {
+   "word": "enormously.",
+   "start": 418.88,
+   "end": 419.44,
+   "chunk": "V23"
+  },
+  {
+   "word": "But",
+   "start": 421.424,
+   "end": 421.664,
+   "chunk": "V24"
+  },
+  {
+   "word": "could",
+   "start": 421.664,
+   "end": 421.964,
+   "chunk": "V24"
+  },
+  {
+   "word": "Japan",
+   "start": 421.964,
+   "end": 422.404,
+   "chunk": "V24"
+  },
+  {
+   "word": "have",
+   "start": 422.404,
+   "end": 422.624,
+   "chunk": "V24"
+  },
+  {
+   "word": "held",
+   "start": 422.624,
+   "end": 422.824,
+   "chunk": "V24"
+  },
+  {
+   "word": "the",
+   "start": 422.824,
+   "end": 423.084,
+   "chunk": "V24"
+  },
+  {
+   "word": "continent",
+   "start": 423.084,
+   "end": 423.484,
+   "chunk": "V24"
+  },
+  {
+   "word": "almost",
+   "start": 423.484,
+   "end": 423.924,
+   "chunk": "V24"
+  },
+  {
+   "word": "the",
+   "start": 423.924,
+   "end": 424.264,
+   "chunk": "V24"
+  },
+  {
+   "word": "size",
+   "start": 424.264,
+   "end": 424.484,
+   "chunk": "V24"
+  },
+  {
+   "word": "of",
+   "start": 424.484,
+   "end": 424.684,
+   "chunk": "V24"
+  },
+  {
+   "word": "the",
+   "start": 424.684,
+   "end": 424.844,
+   "chunk": "V24"
+  },
+  {
+   "word": "mainland",
+   "start": 424.844,
+   "end": 425.184,
+   "chunk": "V24"
+  },
+  {
+   "word": "United",
+   "start": 425.184,
+   "end": 425.604,
+   "chunk": "V24"
+  },
+  {
+   "word": "States",
+   "start": 425.604,
+   "end": 426.164,
+   "chunk": "V24"
+  },
+  {
+   "word": "with",
+   "start": 426.164,
+   "end": 426.704,
+   "chunk": "V24"
+  },
+  {
+   "word": "millions",
+   "start": 426.704,
+   "end": 427.184,
+   "chunk": "V24"
+  },
+  {
+   "word": "of",
+   "start": 427.184,
+   "end": 427.504,
+   "chunk": "V24"
+  },
+  {
+   "word": "hostile",
+   "start": 427.504,
+   "end": 427.884,
+   "chunk": "V24"
+  },
+  {
+   "word": "people",
+   "start": 427.884,
+   "end": 428.364,
+   "chunk": "V24"
+  },
+  {
+   "word": "and",
+   "start": 428.364,
+   "end": 428.884,
+   "chunk": "V24"
+  },
+  {
+   "word": "America",
+   "start": 428.884,
+   "end": 429.424,
+   "chunk": "V24"
+  },
+  {
+   "word": "next",
+   "start": 429.424,
+   "end": 429.744,
+   "chunk": "V24"
+  },
+  {
+   "word": "in",
+   "start": 429.744,
+   "end": 429.964,
+   "chunk": "V24"
+  },
+  {
+   "word": "line?",
+   "start": 429.964,
+   "end": 430.424,
+   "chunk": "V24"
+  },
+  {
+   "word": "Very",
+   "start": 431.744,
+   "end": 431.944,
+   "chunk": "V24"
+  },
+  {
+   "word": "few",
+   "start": 431.944,
+   "end": 432.244,
+   "chunk": "V24"
+  },
+  {
+   "word": "historians",
+   "start": 432.244,
+   "end": 432.804,
+   "chunk": "V24"
+  },
+  {
+   "word": "think",
+   "start": 432.804,
+   "end": 433.104,
+   "chunk": "V24"
+  },
+  {
+   "word": "so,",
+   "start": 433.104,
+   "end": 433.584,
+   "chunk": "V24"
+  },
+  {
+   "word": "which",
+   "start": 434.144,
+   "end": 434.444,
+   "chunk": "V24"
+  },
+  {
+   "word": "is",
+   "start": 434.444,
+   "end": 434.644,
+   "chunk": "V24"
+  },
+  {
+   "word": "exactly",
+   "start": 434.644,
+   "end": 435.244,
+   "chunk": "V24"
+  },
+  {
+   "word": "why",
+   "start": 435.244,
+   "end": 435.584,
+   "chunk": "V24"
+  },
+  {
+   "word": "Japan's",
+   "start": 435.584,
+   "end": 436.264,
+   "chunk": "V24"
+  },
+  {
+   "word": "generals",
+   "start": 436.264,
+   "end": 436.564,
+   "chunk": "V24"
+  },
+  {
+   "word": "refused",
+   "start": 436.564,
+   "end": 437.084,
+   "chunk": "V24"
+  },
+  {
+   "word": "to",
+   "start": 437.084,
+   "end": 437.404,
+   "chunk": "V24"
+  },
+  {
+   "word": "try.",
+   "start": 437.404,
+   "end": 437.764,
+   "chunk": "V24"
+  },
+  {
+   "word": "Instead,",
+   "start": 438.304,
+   "end": 438.704,
+   "chunk": "V24"
+  },
+  {
+   "word": "they",
+   "start": 439.064,
+   "end": 439.144,
+   "chunk": "V24"
+  },
+  {
+   "word": "went",
+   "start": 439.144,
+   "end": 439.304,
+   "chunk": "V24"
+  },
+  {
+   "word": "with",
+   "start": 439.304,
+   "end": 439.524,
+   "chunk": "V24"
+  },
+  {
+   "word": "plan",
+   "start": 439.524,
+   "end": 439.804,
+   "chunk": "V24"
+  },
+  {
+   "word": "three.",
+   "start": 439.804,
+   "end": 440.244,
+   "chunk": "V24"
+  },
+  {
+   "word": "Scenario",
+   "start": 443.004,
+   "end": 443.624,
+   "chunk": "V25"
+  },
+  {
+   "word": "three",
+   "start": 443.624,
+   "end": 444.144,
+   "chunk": "V25"
+  },
+  {
+   "word": "is",
+   "start": 444.144,
+   "end": 444.464,
+   "chunk": "V25"
+  },
+  {
+   "word": "the",
+   "start": 444.464,
+   "end": 444.604,
+   "chunk": "V25"
+  },
+  {
+   "word": "one",
+   "start": 444.604,
+   "end": 444.784,
+   "chunk": "V25"
+  },
+  {
+   "word": "Japan",
+   "start": 444.784,
+   "end": 445.244,
+   "chunk": "V25"
+  },
+  {
+   "word": "actually",
+   "start": 445.244,
+   "end": 445.884,
+   "chunk": "V25"
+  },
+  {
+   "word": "chose,",
+   "start": 445.884,
+   "end": 446.404,
+   "chunk": "V25"
+  },
+  {
+   "word": "and",
+   "start": 446.404,
+   "end": 447.124,
+   "chunk": "V25"
+  },
+  {
+   "word": "it",
+   "start": 447.124,
+   "end": 447.264,
+   "chunk": "V25"
+  },
+  {
+   "word": "might",
+   "start": 447.264,
+   "end": 447.564,
+   "chunk": "V25"
+  },
+  {
+   "word": "be",
+   "start": 447.564,
+   "end": 447.884,
+   "chunk": "V25"
+  },
+  {
+   "word": "the",
+   "start": 447.884,
+   "end": 448.064,
+   "chunk": "V25"
+  },
+  {
+   "word": "scariest.",
+   "start": 448.064,
+   "end": 448.844,
+   "chunk": "V25"
+  },
+  {
+   "word": "Don't",
+   "start": 449.564,
+   "end": 450.064,
+   "chunk": "V25"
+  },
+  {
+   "word": "invade",
+   "start": 450.064,
+   "end": 450.424,
+   "chunk": "V25"
+  },
+  {
+   "word": "Australia.",
+   "start": 450.424,
+   "end": 451.164,
+   "chunk": "V25"
+  },
+  {
+   "word": "Cut",
+   "start": 452.124,
+   "end": 452.244,
+   "chunk": "V25"
+  },
+  {
+   "word": "it",
+   "start": 452.244,
+   "end": 452.444,
+   "chunk": "V25"
+  },
+  {
+   "word": "off.",
+   "start": 452.444,
+   "end": 452.884,
+   "chunk": "V25"
+  },
+  {
+   "word": "Australia's",
+   "start": 453.584,
+   "end": 454.384,
+   "chunk": "V25"
+  },
+  {
+   "word": "lifeline",
+   "start": 454.384,
+   "end": 454.824,
+   "chunk": "V25"
+  },
+  {
+   "word": "to",
+   "start": 454.824,
+   "end": 455.064,
+   "chunk": "V25"
+  },
+  {
+   "word": "America",
+   "start": 455.064,
+   "end": 455.644,
+   "chunk": "V25"
+  },
+  {
+   "word": "ran",
+   "start": 455.644,
+   "end": 456.084,
+   "chunk": "V25"
+  },
+  {
+   "word": "across",
+   "start": 456.084,
+   "end": 456.564,
+   "chunk": "V25"
+  },
+  {
+   "word": "the",
+   "start": 456.564,
+   "end": 456.844,
+   "chunk": "V25"
+  },
+  {
+   "word": "Pacific,",
+   "start": 456.844,
+   "end": 457.404,
+   "chunk": "V25"
+  },
+  {
+   "word": "past",
+   "start": 457.824,
+   "end": 458.204,
+   "chunk": "V25"
+  },
+  {
+   "word": "islands",
+   "start": 458.204,
+   "end": 458.684,
+   "chunk": "V25"
+  },
+  {
+   "word": "like",
+   "start": 458.684,
+   "end": 458.944,
+   "chunk": "V25"
+  },
+  {
+   "word": "Fiji,",
+   "start": 458.944,
+   "end": 459.484,
+   "chunk": "V25"
+  },
+  {
+   "word": "Samoa,",
+   "start": 460.044,
+   "end": 460.444,
+   "chunk": "V25"
+  },
+  {
+   "word": "and",
+   "start": 460.864,
+   "end": 460.904,
+   "chunk": "V25"
+  },
+  {
+   "word": "New",
+   "start": 460.904,
+   "end": 461.184,
+   "chunk": "V25"
+  },
+  {
+   "word": "Caledonia.",
+   "start": 461.184,
+   "end": 461.944,
+   "chunk": "V25"
+  },
+  {
+   "word": "Japan",
+   "start": 462.604,
+   "end": 463.004,
+   "chunk": "V25"
+  },
+  {
+   "word": "planned",
+   "start": 463.004,
+   "end": 463.364,
+   "chunk": "V25"
+  },
+  {
+   "word": "to",
+   "start": 463.364,
+   "end": 463.644,
+   "chunk": "V25"
+  },
+  {
+   "word": "take",
+   "start": 463.644,
+   "end": 463.884,
+   "chunk": "V25"
+  },
+  {
+   "word": "them.",
+   "start": 463.884,
+   "end": 464.204,
+   "chunk": "V25"
+  },
+  {
+   "word": "At",
+   "start": 464.704,
+   "end": 464.984,
+   "chunk": "V25"
+  },
+  {
+   "word": "the",
+   "start": 464.984,
+   "end": 465.144,
+   "chunk": "V25"
+  },
+  {
+   "word": "same",
+   "start": 465.144,
+   "end": 465.424,
+   "chunk": "V25"
+  },
+  {
+   "word": "time,",
+   "start": 465.424,
+   "end": 465.924,
+   "chunk": "V25"
+  },
+  {
+   "word": "it",
+   "start": 466.164,
+   "end": 466.244,
+   "chunk": "V25"
+  },
+  {
+   "word": "wanted",
+   "start": 466.244,
+   "end": 466.604,
+   "chunk": "V25"
+  },
+  {
+   "word": "Port",
+   "start": 466.604,
+   "end": 467.084,
+   "chunk": "V25"
+  },
+  {
+   "word": "Moresby",
+   "start": 467.084,
+   "end": 467.564,
+   "chunk": "V25"
+  },
+  {
+   "word": "in",
+   "start": 467.564,
+   "end": 467.784,
+   "chunk": "V25"
+  },
+  {
+   "word": "New",
+   "start": 467.784,
+   "end": 467.924,
+   "chunk": "V25"
+  },
+  {
+   "word": "Guinea,",
+   "start": 467.924,
+   "end": 468.264,
+   "chunk": "V25"
+  },
+  {
+   "word": "just",
+   "start": 468.264,
+   "end": 468.924,
+   "chunk": "V25"
+  },
+  {
+   "word": "across",
+   "start": 468.924,
+   "end": 469.324,
+   "chunk": "V25"
+  },
+  {
+   "word": "the",
+   "start": 469.324,
+   "end": 469.604,
+   "chunk": "V25"
+  },
+  {
+   "word": "water",
+   "start": 469.604,
+   "end": 469.884,
+   "chunk": "V25"
+  },
+  {
+   "word": "from",
+   "start": 469.884,
+   "end": 470.224,
+   "chunk": "V25"
+  },
+  {
+   "word": "Northern",
+   "start": 470.224,
+   "end": 470.544,
+   "chunk": "V25"
+  },
+  {
+   "word": "Australia,",
+   "start": 470.544,
+   "end": 471.304,
+   "chunk": "V25"
+  },
+  {
+   "word": "close",
+   "start": 471.784,
+   "end": 472.084,
+   "chunk": "V25"
+  },
+  {
+   "word": "enough",
+   "start": 472.084,
+   "end": 472.404,
+   "chunk": "V25"
+  },
+  {
+   "word": "for",
+   "start": 472.404,
+   "end": 472.644,
+   "chunk": "V25"
+  },
+  {
+   "word": "its",
+   "start": 472.644,
+   "end": 472.764,
+   "chunk": "V25"
+  },
+  {
+   "word": "bombers",
+   "start": 472.764,
+   "end": 473.224,
+   "chunk": "V25"
+  },
+  {
+   "word": "to",
+   "start": 473.224,
+   "end": 473.564,
+   "chunk": "V25"
+  },
+  {
+   "word": "reach",
+   "start": 473.564,
+   "end": 473.784,
+   "chunk": "V25"
+  },
+  {
+   "word": "Queensland.",
+   "start": 473.784,
+   "end": 474.344,
+   "chunk": "V25"
+  },
+  {
+   "word": "If",
+   "start": 475.228,
+   "end": 475.488,
+   "chunk": "V26"
+  },
+  {
+   "word": "both",
+   "start": 475.488,
+   "end": 475.868,
+   "chunk": "V26"
+  },
+  {
+   "word": "worked,",
+   "start": 475.868,
+   "end": 476.428,
+   "chunk": "V26"
+  },
+  {
+   "word": "American",
+   "start": 477.008,
+   "end": 477.328,
+   "chunk": "V26"
+  },
+  {
+   "word": "ships",
+   "start": 477.328,
+   "end": 477.768,
+   "chunk": "V26"
+  },
+  {
+   "word": "would",
+   "start": 477.768,
+   "end": 478.028,
+   "chunk": "V26"
+  },
+  {
+   "word": "struggle",
+   "start": 478.028,
+   "end": 478.428,
+   "chunk": "V26"
+  },
+  {
+   "word": "to",
+   "start": 478.428,
+   "end": 478.728,
+   "chunk": "V26"
+  },
+  {
+   "word": "reach",
+   "start": 478.728,
+   "end": 478.928,
+   "chunk": "V26"
+  },
+  {
+   "word": "Australia,",
+   "start": 478.928,
+   "end": 479.628,
+   "chunk": "V26"
+  },
+  {
+   "word": "fewer",
+   "start": 480.248,
+   "end": 480.468,
+   "chunk": "V26"
+  },
+  {
+   "word": "reinforcements,",
+   "start": 480.468,
+   "end": 481.288,
+   "chunk": "V26"
+  },
+  {
+   "word": "fewer",
+   "start": 481.908,
+   "end": 482.108,
+   "chunk": "V26"
+  },
+  {
+   "word": "supplies.",
+   "start": 482.108,
+   "end": 482.808,
+   "chunk": "V26"
+  },
+  {
+   "word": "Australia",
+   "start": 483.568,
+   "end": 484.248,
+   "chunk": "V26"
+  },
+  {
+   "word": "alone",
+   "start": 484.248,
+   "end": 485.208,
+   "chunk": "V26"
+  },
+  {
+   "word": "at",
+   "start": 485.208,
+   "end": 485.488,
+   "chunk": "V26"
+  },
+  {
+   "word": "the",
+   "start": 485.488,
+   "end": 485.668,
+   "chunk": "V26"
+  },
+  {
+   "word": "bottom",
+   "start": 485.668,
+   "end": 485.988,
+   "chunk": "V26"
+  },
+  {
+   "word": "of",
+   "start": 485.988,
+   "end": 486.248,
+   "chunk": "V26"
+  },
+  {
+   "word": "the",
+   "start": 486.248,
+   "end": 486.348,
+   "chunk": "V26"
+  },
+  {
+   "word": "map.",
+   "start": 486.348,
+   "end": 486.688,
+   "chunk": "V26"
+  },
+  {
+   "word": "Japan's",
+   "start": 489.084,
+   "end": 489.944,
+   "chunk": "V27"
+  },
+  {
+   "word": "hope",
+   "start": 489.944,
+   "end": 490.164,
+   "chunk": "V27"
+  },
+  {
+   "word": "was",
+   "start": 490.164,
+   "end": 490.624,
+   "chunk": "V27"
+  },
+  {
+   "word": "that",
+   "start": 490.624,
+   "end": 490.824,
+   "chunk": "V27"
+  },
+  {
+   "word": "a",
+   "start": 490.824,
+   "end": 490.984,
+   "chunk": "V27"
+  },
+  {
+   "word": "cut",
+   "start": 490.984,
+   "end": 491.204,
+   "chunk": "V27"
+  },
+  {
+   "word": "-off",
+   "start": 491.204,
+   "end": 491.424,
+   "chunk": "V27"
+  },
+  {
+   "word": "Australia",
+   "start": 491.424,
+   "end": 492.124,
+   "chunk": "V27"
+  },
+  {
+   "word": "could",
+   "start": 492.124,
+   "end": 492.484,
+   "chunk": "V27"
+  },
+  {
+   "word": "be",
+   "start": 492.484,
+   "end": 492.684,
+   "chunk": "V27"
+  },
+  {
+   "word": "knocked",
+   "start": 492.684,
+   "end": 493.024,
+   "chunk": "V27"
+  },
+  {
+   "word": "out",
+   "start": 493.024,
+   "end": 493.304,
+   "chunk": "V27"
+  },
+  {
+   "word": "of",
+   "start": 493.304,
+   "end": 493.464,
+   "chunk": "V27"
+  },
+  {
+   "word": "the",
+   "start": 493.464,
+   "end": 493.604,
+   "chunk": "V27"
+  },
+  {
+   "word": "war",
+   "start": 493.604,
+   "end": 493.864,
+   "chunk": "V27"
+  },
+  {
+   "word": "without",
+   "start": 493.864,
+   "end": 494.184,
+   "chunk": "V27"
+  },
+  {
+   "word": "a",
+   "start": 494.184,
+   "end": 494.504,
+   "chunk": "V27"
+  },
+  {
+   "word": "single",
+   "start": 494.504,
+   "end": 494.824,
+   "chunk": "V27"
+  },
+  {
+   "word": "soldier",
+   "start": 494.824,
+   "end": 495.244,
+   "chunk": "V27"
+  },
+  {
+   "word": "landing",
+   "start": 495.244,
+   "end": 495.724,
+   "chunk": "V27"
+  },
+  {
+   "word": "on",
+   "start": 495.724,
+   "end": 495.944,
+   "chunk": "V27"
+  },
+  {
+   "word": "the",
+   "start": 495.944,
+   "end": 496.104,
+   "chunk": "V27"
+  },
+  {
+   "word": "mainland.",
+   "start": 496.104,
+   "end": 496.524,
+   "chunk": "V27"
+  },
+  {
+   "word": "And",
+   "start": 498.484,
+   "end": 498.604,
+   "chunk": "V27"
+  },
+  {
+   "word": "for",
+   "start": 498.604,
+   "end": 498.844,
+   "chunk": "V27"
+  },
+  {
+   "word": "a",
+   "start": 498.844,
+   "end": 498.964,
+   "chunk": "V27"
+  },
+  {
+   "word": "few",
+   "start": 498.964,
+   "end": 499.224,
+   "chunk": "V27"
+  },
+  {
+   "word": "months",
+   "start": 499.224,
+   "end": 499.624,
+   "chunk": "V27"
+  },
+  {
+   "word": "in",
+   "start": 499.624,
+   "end": 499.904,
+   "chunk": "V27"
+  },
+  {
+   "word": "1942,",
+   "start": 499.904,
+   "end": 500.824,
+   "chunk": "V27"
+  },
+  {
+   "word": "it",
+   "start": 501.344,
+   "end": 501.424,
+   "chunk": "V27"
+  },
+  {
+   "word": "was",
+   "start": 501.424,
+   "end": 501.624,
+   "chunk": "V27"
+  },
+  {
+   "word": "really",
+   "start": 501.624,
+   "end": 502.064,
+   "chunk": "V27"
+  },
+  {
+   "word": "happening.",
+   "start": 502.064,
+   "end": 502.604,
+   "chunk": "V27"
+  },
+  {
+   "word": "Japanese",
+   "start": 503.404,
+   "end": 503.864,
+   "chunk": "V27"
+  },
+  {
+   "word": "midget",
+   "start": 503.864,
+   "end": 504.344,
+   "chunk": "V27"
+  },
+  {
+   "word": "submarines",
+   "start": 504.344,
+   "end": 504.964,
+   "chunk": "V27"
+  },
+  {
+   "word": "slipped",
+   "start": 504.964,
+   "end": 505.644,
+   "chunk": "V27"
+  },
+  {
+   "word": "into",
+   "start": 505.644,
+   "end": 506.004,
+   "chunk": "V27"
+  },
+  {
+   "word": "Sydney",
+   "start": 506.004,
+   "end": 506.424,
+   "chunk": "V27"
+  },
+  {
+   "word": "harbor.",
+   "start": 506.424,
+   "end": 506.744,
+   "chunk": "V27"
+  },
+  {
+   "word": "Sydney",
+   "start": 507.378,
+   "end": 507.838,
+   "chunk": "V28"
+  },
+  {
+   "word": "and",
+   "start": 507.838,
+   "end": 508.098,
+   "chunk": "V28"
+  },
+  {
+   "word": "Newcastle",
+   "start": 508.098,
+   "end": 508.658,
+   "chunk": "V28"
+  },
+  {
+   "word": "were",
+   "start": 508.658,
+   "end": 508.938,
+   "chunk": "V28"
+  },
+  {
+   "word": "shelled",
+   "start": 508.938,
+   "end": 509.398,
+   "chunk": "V28"
+  },
+  {
+   "word": "from",
+   "start": 509.398,
+   "end": 509.618,
+   "chunk": "V28"
+  },
+  {
+   "word": "the",
+   "start": 509.618,
+   "end": 509.798,
+   "chunk": "V28"
+  },
+  {
+   "word": "sea.",
+   "start": 509.798,
+   "end": 510.198,
+   "chunk": "V28"
+  },
+  {
+   "word": "Japanese",
+   "start": 510.798,
+   "end": 511.158,
+   "chunk": "V28"
+  },
+  {
+   "word": "troops",
+   "start": 511.158,
+   "end": 511.638,
+   "chunk": "V28"
+  },
+  {
+   "word": "pushed",
+   "start": 511.638,
+   "end": 512.058,
+   "chunk": "V28"
+  },
+  {
+   "word": "over",
+   "start": 512.058,
+   "end": 512.358,
+   "chunk": "V28"
+  },
+  {
+   "word": "the",
+   "start": 512.358,
+   "end": 512.518,
+   "chunk": "V28"
+  },
+  {
+   "word": "mountains",
+   "start": 512.518,
+   "end": 512.838,
+   "chunk": "V28"
+  },
+  {
+   "word": "of",
+   "start": 512.838,
+   "end": 513.098,
+   "chunk": "V28"
+  },
+  {
+   "word": "New",
+   "start": 513.098,
+   "end": 513.258,
+   "chunk": "V28"
+  },
+  {
+   "word": "Guinea",
+   "start": 513.258,
+   "end": 513.578,
+   "chunk": "V28"
+  },
+  {
+   "word": "along",
+   "start": 513.578,
+   "end": 513.938,
+   "chunk": "V28"
+  },
+  {
+   "word": "the",
+   "start": 513.938,
+   "end": 514.158,
+   "chunk": "V28"
+  },
+  {
+   "word": "Kokoda",
+   "start": 514.158,
+   "end": 514.638,
+   "chunk": "V28"
+  },
+  {
+   "word": "Track",
+   "start": 514.638,
+   "end": 515.058,
+   "chunk": "V28"
+  },
+  {
+   "word": "and",
+   "start": 515.058,
+   "end": 515.638,
+   "chunk": "V28"
+  },
+  {
+   "word": "got",
+   "start": 515.638,
+   "end": 515.838,
+   "chunk": "V28"
+  },
+  {
+   "word": "within",
+   "start": 515.838,
+   "end": 516.178,
+   "chunk": "V28"
+  },
+  {
+   "word": "about",
+   "start": 516.178,
+   "end": 516.498,
+   "chunk": "V28"
+  },
+  {
+   "word": "40",
+   "start": 516.498,
+   "end": 516.958,
+   "chunk": "V28"
+  },
+  {
+   "word": "kilometers",
+   "start": 516.958,
+   "end": 517.578,
+   "chunk": "V28"
+  },
+  {
+   "word": "of",
+   "start": 517.578,
+   "end": 517.978,
+   "chunk": "V28"
+  },
+  {
+   "word": "Port",
+   "start": 517.978,
+   "end": 518.178,
+   "chunk": "V28"
+  },
+  {
+   "word": "Moresby.",
+   "start": 518.178,
+   "end": 518.778,
+   "chunk": "V28"
+  },
+  {
+   "word": "What",
+   "start": 520.018,
+   "end": 520.278,
+   "chunk": "V29"
+  },
+  {
+   "word": "stopped",
+   "start": 520.278,
+   "end": 520.838,
+   "chunk": "V29"
+  },
+  {
+   "word": "it?",
+   "start": 520.838,
+   "end": 521.438,
+   "chunk": "V29"
+  },
+  {
+   "word": "The",
+   "start": 522.498,
+   "end": 522.558,
+   "chunk": "V29"
+  },
+  {
+   "word": "Coral",
+   "start": 522.558,
+   "end": 522.898,
+   "chunk": "V29"
+  },
+  {
+   "word": "Sea,",
+   "start": 522.898,
+   "end": 523.338,
+   "chunk": "V29"
+  },
+  {
+   "word": "Midway,",
+   "start": 523.718,
+   "end": 524.158,
+   "chunk": "V29"
+  },
+  {
+   "word": "Australian",
+   "start": 524.878,
+   "end": 525.238,
+   "chunk": "V29"
+  },
+  {
+   "word": "soldiers",
+   "start": 525.238,
+   "end": 525.698,
+   "chunk": "V29"
+  },
+  {
+   "word": "on",
+   "start": 525.698,
+   "end": 525.958,
+   "chunk": "V29"
+  },
+  {
+   "word": "the",
+   "start": 525.958,
+   "end": 526.118,
+   "chunk": "V29"
+  },
+  {
+   "word": "Kokoda",
+   "start": 526.118,
+   "end": 526.558,
+   "chunk": "V29"
+  },
+  {
+   "word": "Track,",
+   "start": 526.558,
+   "end": 527.018,
+   "chunk": "V29"
+  },
+  {
+   "word": "and",
+   "start": 527.558,
+   "end": 527.578,
+   "chunk": "V29"
+  },
+  {
+   "word": "at",
+   "start": 527.578,
+   "end": 527.758,
+   "chunk": "V29"
+  },
+  {
+   "word": "Millan",
+   "start": 527.758,
+   "end": 528.218,
+   "chunk": "V29"
+  },
+  {
+   "word": "Bay",
+   "start": 528.218,
+   "end": 528.558,
+   "chunk": "V29"
+  },
+  {
+   "word": "on",
+   "start": 528.558,
+   "end": 529.158,
+   "chunk": "V29"
+  },
+  {
+   "word": "New",
+   "start": 529.158,
+   "end": 529.398,
+   "chunk": "V29"
+  },
+  {
+   "word": "Guinea's",
+   "start": 529.398,
+   "end": 529.938,
+   "chunk": "V29"
+  },
+  {
+   "word": "eastern",
+   "start": 529.938,
+   "end": 530.258,
+   "chunk": "V29"
+  },
+  {
+   "word": "tip,",
+   "start": 530.258,
+   "end": 530.718,
+   "chunk": "V29"
+  },
+  {
+   "word": "Australian",
+   "start": 531.198,
+   "end": 531.718,
+   "chunk": "V29"
+  },
+  {
+   "word": "troops",
+   "start": 531.718,
+   "end": 532.178,
+   "chunk": "V29"
+  },
+  {
+   "word": "handed",
+   "start": 532.178,
+   "end": 532.538,
+   "chunk": "V29"
+  },
+  {
+   "word": "Japan",
+   "start": 532.538,
+   "end": 533.018,
+   "chunk": "V29"
+  },
+  {
+   "word": "one",
+   "start": 533.018,
+   "end": 533.358,
+   "chunk": "V29"
+  },
+  {
+   "word": "of",
+   "start": 533.358,
+   "end": 533.478,
+   "chunk": "V29"
+  },
+  {
+   "word": "its",
+   "start": 533.478,
+   "end": 533.618,
+   "chunk": "V29"
+  },
+  {
+   "word": "first",
+   "start": 533.618,
+   "end": 534.018,
+   "chunk": "V29"
+  },
+  {
+   "word": "defeats",
+   "start": 534.018,
+   "end": 534.478,
+   "chunk": "V29"
+  },
+  {
+   "word": "on",
+   "start": 534.478,
+   "end": 534.778,
+   "chunk": "V29"
+  },
+  {
+   "word": "land",
+   "start": 534.778,
+   "end": 535.138,
+   "chunk": "V29"
+  },
+  {
+   "word": "in",
+   "start": 535.138,
+   "end": 535.338,
+   "chunk": "V29"
+  },
+  {
+   "word": "the",
+   "start": 535.338,
+   "end": 535.478,
+   "chunk": "V29"
+  },
+  {
+   "word": "whole",
+   "start": 535.478,
+   "end": 535.698,
+   "chunk": "V29"
+  },
+  {
+   "word": "war.",
+   "start": 535.698,
+   "end": 536.258,
+   "chunk": "V29"
+  },
+  {
+   "word": "After",
+   "start": 537.318,
+   "end": 537.738,
+   "chunk": "V29"
+  },
+  {
+   "word": "Midway,",
+   "start": 537.738,
+   "end": 538.318,
+   "chunk": "V29"
+  },
+  {
+   "word": "Japan",
+   "start": 538.698,
+   "end": 539.098,
+   "chunk": "V29"
+  },
+  {
+   "word": "canceled",
+   "start": 539.098,
+   "end": 539.638,
+   "chunk": "V29"
+  },
+  {
+   "word": "the",
+   "start": 539.638,
+   "end": 539.898,
+   "chunk": "V29"
+  },
+  {
+   "word": "plan",
+   "start": 539.898,
+   "end": 540.138,
+   "chunk": "V29"
+  },
+  {
+   "word": "to",
+   "start": 540.138,
+   "end": 540.398,
+   "chunk": "V29"
+  },
+  {
+   "word": "take",
+   "start": 540.398,
+   "end": 540.598,
+   "chunk": "V29"
+  },
+  {
+   "word": "Fiji",
+   "start": 540.598,
+   "end": 541.018,
+   "chunk": "V29"
+  },
+  {
+   "word": "and",
+   "start": 541.018,
+   "end": 541.278,
+   "chunk": "V29"
+  },
+  {
+   "word": "Samoa.",
+   "start": 541.278,
+   "end": 541.758,
+   "chunk": "V29"
+  },
+  {
+   "word": "The",
+   "start": 542.678,
+   "end": 542.858,
+   "chunk": "V29"
+  },
+  {
+   "word": "lifeline",
+   "start": 542.858,
+   "end": 543.398,
+   "chunk": "V29"
+  },
+  {
+   "word": "held.",
+   "start": 543.398,
+   "end": 543.798,
+   "chunk": "V29"
+  },
+  {
+   "word": "So",
+   "start": 545.542,
+   "end": 545.962,
+   "chunk": "V30"
+  },
+  {
+   "word": "maybe",
+   "start": 545.962,
+   "end": 546.682,
+   "chunk": "V30"
+  },
+  {
+   "word": "the",
+   "start": 546.682,
+   "end": 546.942,
+   "chunk": "V30"
+  },
+  {
+   "word": "real",
+   "start": 546.942,
+   "end": 547.302,
+   "chunk": "V30"
+  },
+  {
+   "word": "answer",
+   "start": 547.302,
+   "end": 547.762,
+   "chunk": "V30"
+  },
+  {
+   "word": "is",
+   "start": 547.762,
+   "end": 548.142,
+   "chunk": "V30"
+  },
+  {
+   "word": "this.",
+   "start": 548.142,
+   "end": 548.642,
+   "chunk": "V30"
+  },
+  {
+   "word": "Japan",
+   "start": 549.862,
+   "end": 550.442,
+   "chunk": "V30"
+  },
+  {
+   "word": "didn't",
+   "start": 550.442,
+   "end": 551.042,
+   "chunk": "V30"
+  },
+  {
+   "word": "need",
+   "start": 551.042,
+   "end": 551.262,
+   "chunk": "V30"
+  },
+  {
+   "word": "to",
+   "start": 551.262,
+   "end": 551.542,
+   "chunk": "V30"
+  },
+  {
+   "word": "invade",
+   "start": 551.542,
+   "end": 551.842,
+   "chunk": "V30"
+  },
+  {
+   "word": "Australia.",
+   "start": 551.842,
+   "end": 552.502,
+   "chunk": "V30"
+  },
+  {
+   "word": "The",
+   "start": 553.062,
+   "end": 553.162,
+   "chunk": "V30"
+  },
+  {
+   "word": "bigger",
+   "start": 553.162,
+   "end": 553.462,
+   "chunk": "V30"
+  },
+  {
+   "word": "danger",
+   "start": 553.462,
+   "end": 553.922,
+   "chunk": "V30"
+  },
+  {
+   "word": "was",
+   "start": 553.922,
+   "end": 554.142,
+   "chunk": "V30"
+  },
+  {
+   "word": "being",
+   "start": 554.142,
+   "end": 554.362,
+   "chunk": "V30"
+  },
+  {
+   "word": "cut",
+   "start": 554.362,
+   "end": 554.662,
+   "chunk": "V30"
+  },
+  {
+   "word": "off.",
+   "start": 554.662,
+   "end": 555.082,
+   "chunk": "V30"
+  },
+  {
+   "word": "And",
+   "start": 555.722,
+   "end": 555.862,
+   "chunk": "V30"
+  },
+  {
+   "word": "in",
+   "start": 555.862,
+   "end": 556.042,
+   "chunk": "V30"
+  },
+  {
+   "word": "1942,",
+   "start": 556.042,
+   "end": 556.982,
+   "chunk": "V30"
+  },
+  {
+   "word": "that",
+   "start": 557.702,
+   "end": 557.822,
+   "chunk": "V30"
+  },
+  {
+   "word": "came",
+   "start": 557.822,
+   "end": 558.082,
+   "chunk": "V30"
+  },
+  {
+   "word": "closer",
+   "start": 558.082,
+   "end": 558.542,
+   "chunk": "V30"
+  },
+  {
+   "word": "than",
+   "start": 558.542,
+   "end": 558.762,
+   "chunk": "V30"
+  },
+  {
+   "word": "most",
+   "start": 558.762,
+   "end": 559.042,
+   "chunk": "V30"
+  },
+  {
+   "word": "people",
+   "start": 559.042,
+   "end": 559.362,
+   "chunk": "V30"
+  },
+  {
+   "word": "realize.",
+   "start": 559.362,
+   "end": 559.842,
+   "chunk": "V30"
+  },
+  {
+   "word": "But",
+   "start": 562.302,
+   "end": 562.542,
+   "chunk": "V31"
+  },
+  {
+   "word": "here's",
+   "start": 562.542,
+   "end": 563.002,
+   "chunk": "V31"
+  },
+  {
+   "word": "the",
+   "start": 563.002,
+   "end": 563.122,
+   "chunk": "V31"
+  },
+  {
+   "word": "twist.",
+   "start": 563.122,
+   "end": 563.602,
+   "chunk": "V31"
+  },
+  {
+   "word": "The",
+   "start": 564.622,
+   "end": 564.742,
+   "chunk": "V31"
+  },
+  {
+   "word": "invasion",
+   "start": 564.742,
+   "end": 565.302,
+   "chunk": "V31"
+  },
+  {
+   "word": "never",
+   "start": 565.302,
+   "end": 565.722,
+   "chunk": "V31"
+  },
+  {
+   "word": "came,",
+   "start": 565.722,
+   "end": 566.202,
+   "chunk": "V31"
+  },
+  {
+   "word": "and",
+   "start": 566.282,
+   "end": 566.782,
+   "chunk": "V31"
+  },
+  {
+   "word": "it",
+   "start": 566.782,
+   "end": 566.942,
+   "chunk": "V31"
+  },
+  {
+   "word": "still",
+   "start": 566.942,
+   "end": 567.302,
+   "chunk": "V31"
+  },
+  {
+   "word": "changed",
+   "start": 567.302,
+   "end": 567.822,
+   "chunk": "V31"
+  },
+  {
+   "word": "Australia",
+   "start": 567.822,
+   "end": 568.422,
+   "chunk": "V31"
+  },
+  {
+   "word": "forever.",
+   "start": 568.422,
+   "end": 568.922,
+   "chunk": "V31"
+  },
+  {
+   "word": "The",
+   "start": 570.042,
+   "end": 570.162,
+   "chunk": "V31"
+  },
+  {
+   "word": "fear",
+   "start": 570.162,
+   "end": 570.482,
+   "chunk": "V31"
+  },
+  {
+   "word": "of",
+   "start": 570.482,
+   "end": 570.702,
+   "chunk": "V31"
+  },
+  {
+   "word": "1942",
+   "start": 570.702,
+   "end": 571.642,
+   "chunk": "V31"
+  },
+  {
+   "word": "locked",
+   "start": 571.642,
+   "end": 572.222,
+   "chunk": "V31"
+  },
+  {
+   "word": "in",
+   "start": 572.222,
+   "end": 572.482,
+   "chunk": "V31"
+  },
+  {
+   "word": "curtains",
+   "start": 572.482,
+   "end": 572.902,
+   "chunk": "V31"
+  },
+  {
+   "word": "turned",
+   "start": 572.902,
+   "end": 573.322,
+   "chunk": "V31"
+  },
+  {
+   "word": "toward",
+   "start": 573.322,
+   "end": 573.622,
+   "chunk": "V31"
+  },
+  {
+   "word": "America.",
+   "start": 573.622,
+   "end": 574.142,
+   "chunk": "V31"
+  },
+  {
+   "word": "In",
+   "start": 574.802,
+   "end": 574.882,
+   "chunk": "V31"
+  },
+  {
+   "word": "1951,",
+   "start": 574.882,
+   "end": 575.822,
+   "chunk": "V31"
+  },
+  {
+   "word": "Australia,",
+   "start": 576.462,
+   "end": 577.062,
+   "chunk": "V31"
+  },
+  {
+   "word": "New",
+   "start": 577.322,
+   "end": 577.422,
+   "chunk": "V31"
+  },
+  {
+   "word": "Zealand,",
+   "start": 577.422,
+   "end": 577.822,
+   "chunk": "V31"
+  },
+  {
+   "word": "and",
+   "start": 578.042,
+   "end": 578.162,
+   "chunk": "V31"
+  },
+  {
+   "word": "the",
+   "start": 578.162,
+   "end": 578.282,
+   "chunk": "V31"
+  },
+  {
+   "word": "United",
+   "start": 578.282,
+   "end": 578.522,
+   "chunk": "V31"
+  },
+  {
+   "word": "States",
+   "start": 578.522,
+   "end": 579.022,
+   "chunk": "V31"
+  },
+  {
+   "word": "signed",
+   "start": 579.022,
+   "end": 579.322,
+   "chunk": "V31"
+  },
+  {
+   "word": "the",
+   "start": 579.322,
+   "end": 579.582,
+   "chunk": "V31"
+  },
+  {
+   "word": "ANZUS",
+   "start": 579.582,
+   "end": 580.102,
+   "chunk": "V31"
+  },
+  {
+   "word": "Treaty,",
+   "start": 580.102,
+   "end": 580.402,
+   "chunk": "V31"
+  },
+  {
+   "word": "an",
+   "start": 581.002,
+   "end": 581.082,
+   "chunk": "V31"
+  },
+  {
+   "word": "alliance",
+   "start": 581.082,
+   "end": 581.502,
+   "chunk": "V31"
+  },
+  {
+   "word": "that",
+   "start": 581.502,
+   "end": 581.842,
+   "chunk": "V31"
+  },
+  {
+   "word": "still",
+   "start": 581.842,
+   "end": 582.182,
+   "chunk": "V31"
+  },
+  {
+   "word": "shapes",
+   "start": 582.182,
+   "end": 582.582,
+   "chunk": "V31"
+  },
+  {
+   "word": "Australia's",
+   "start": 582.582,
+   "end": 583.362,
+   "chunk": "V31"
+  },
+  {
+   "word": "defense",
+   "start": 583.362,
+   "end": 583.602,
+   "chunk": "V31"
+  },
+  {
+   "word": "today.",
+   "start": 583.602,
+   "end": 584.142,
+   "chunk": "V31"
+  },
+  {
+   "word": "And",
+   "start": 584.984,
+   "end": 585.444,
+   "chunk": "V32"
+  },
+  {
+   "word": "the",
+   "start": 585.444,
+   "end": 585.704,
+   "chunk": "V32"
+  },
+  {
+   "word": "shock",
+   "start": 585.704,
+   "end": 586.284,
+   "chunk": "V32"
+  },
+  {
+   "word": "of",
+   "start": 586.284,
+   "end": 586.744,
+   "chunk": "V32"
+  },
+  {
+   "word": "being",
+   "start": 586.744,
+   "end": 587.184,
+   "chunk": "V32"
+  },
+  {
+   "word": "a",
+   "start": 587.184,
+   "end": 587.604,
+   "chunk": "V32"
+  },
+  {
+   "word": "nearly",
+   "start": 587.604,
+   "end": 587.964,
+   "chunk": "V32"
+  },
+  {
+   "word": "empty",
+   "start": 587.964,
+   "end": 588.544,
+   "chunk": "V32"
+  },
+  {
+   "word": "continent",
+   "start": 588.544,
+   "end": 589.164,
+   "chunk": "V32"
+  },
+  {
+   "word": "so",
+   "start": 589.164,
+   "end": 590.004,
+   "chunk": "V32"
+  },
+  {
+   "word": "close",
+   "start": 590.004,
+   "end": 590.404,
+   "chunk": "V32"
+  },
+  {
+   "word": "to",
+   "start": 590.404,
+   "end": 590.624,
+   "chunk": "V32"
+  },
+  {
+   "word": "the",
+   "start": 590.624,
+   "end": 590.804,
+   "chunk": "V32"
+  },
+  {
+   "word": "war",
+   "start": 590.804,
+   "end": 591.064,
+   "chunk": "V32"
+  },
+  {
+   "word": "led",
+   "start": 591.064,
+   "end": 591.344,
+   "chunk": "V32"
+  },
+  {
+   "word": "to",
+   "start": 591.344,
+   "end": 591.604,
+   "chunk": "V32"
+  },
+  {
+   "word": "a",
+   "start": 591.604,
+   "end": 591.824,
+   "chunk": "V32"
+  },
+  {
+   "word": "new",
+   "start": 591.824,
+   "end": 591.984,
+   "chunk": "V32"
+  },
+  {
+   "word": "slogan.",
+   "start": 591.984,
+   "end": 592.524,
+   "chunk": "V32"
+  },
+  {
+   "word": "Populate",
+   "start": 593.864,
+   "end": 594.604,
+   "chunk": "V32"
+  },
+  {
+   "word": "or",
+   "start": 594.604,
+   "end": 595.304,
+   "chunk": "V32"
+  },
+  {
+   "word": "perish.",
+   "start": 595.304,
+   "end": 595.724,
+   "chunk": "V32"
+  },
+  {
+   "word": "Australia",
+   "start": 597.168,
+   "end": 597.828,
+   "chunk": "V33"
+  },
+  {
+   "word": "launched",
+   "start": 597.828,
+   "end": 598.308,
+   "chunk": "V33"
+  },
+  {
+   "word": "one",
+   "start": 598.308,
+   "end": 598.508,
+   "chunk": "V33"
+  },
+  {
+   "word": "of",
+   "start": 598.508,
+   "end": 598.668,
+   "chunk": "V33"
+  },
+  {
+   "word": "the",
+   "start": 598.668,
+   "end": 598.868,
+   "chunk": "V33"
+  },
+  {
+   "word": "biggest",
+   "start": 598.868,
+   "end": 599.208,
+   "chunk": "V33"
+  },
+  {
+   "word": "immigration",
+   "start": 599.208,
+   "end": 599.848,
+   "chunk": "V33"
+  },
+  {
+   "word": "programs",
+   "start": 599.848,
+   "end": 600.408,
+   "chunk": "V33"
+  },
+  {
+   "word": "in",
+   "start": 600.408,
+   "end": 600.628,
+   "chunk": "V33"
+  },
+  {
+   "word": "the",
+   "start": 600.628,
+   "end": 600.768,
+   "chunk": "V33"
+  },
+  {
+   "word": "world.",
+   "start": 600.768,
+   "end": 601.108,
+   "chunk": "V33"
+  },
+  {
+   "word": "Millions",
+   "start": 601.768,
+   "end": 602.048,
+   "chunk": "V33"
+  },
+  {
+   "word": "of",
+   "start": 602.048,
+   "end": 602.328,
+   "chunk": "V33"
+  },
+  {
+   "word": "people",
+   "start": 602.328,
+   "end": 602.648,
+   "chunk": "V33"
+  },
+  {
+   "word": "arrived",
+   "start": 602.648,
+   "end": 603.188,
+   "chunk": "V33"
+  },
+  {
+   "word": "over",
+   "start": 603.188,
+   "end": 603.528,
+   "chunk": "V33"
+  },
+  {
+   "word": "the",
+   "start": 603.528,
+   "end": 603.708,
+   "chunk": "V33"
+  },
+  {
+   "word": "following",
+   "start": 603.708,
+   "end": 604.028,
+   "chunk": "V33"
+  },
+  {
+   "word": "decades,",
+   "start": 604.028,
+   "end": 604.708,
+   "chunk": "V33"
+  },
+  {
+   "word": "first",
+   "start": 605.288,
+   "end": 605.448,
+   "chunk": "V33"
+  },
+  {
+   "word": "from",
+   "start": 605.448,
+   "end": 605.688,
+   "chunk": "V33"
+  },
+  {
+   "word": "Britain",
+   "start": 605.688,
+   "end": 606.088,
+   "chunk": "V33"
+  },
+  {
+   "word": "and",
+   "start": 606.088,
+   "end": 606.488,
+   "chunk": "V33"
+  },
+  {
+   "word": "Europe,",
+   "start": 606.488,
+   "end": 606.828,
+   "chunk": "V33"
+  },
+  {
+   "word": "and",
+   "start": 606.828,
+   "end": 607.328,
+   "chunk": "V33"
+  },
+  {
+   "word": "later",
+   "start": 607.328,
+   "end": 607.608,
+   "chunk": "V33"
+  },
+  {
+   "word": "from",
+   "start": 607.608,
+   "end": 607.868,
+   "chunk": "V33"
+  },
+  {
+   "word": "almost",
+   "start": 607.868,
+   "end": 608.308,
+   "chunk": "V33"
+  },
+  {
+   "word": "everywhere.",
+   "start": 608.308,
+   "end": 609.008,
+   "chunk": "V33"
+  },
+  {
+   "word": "So",
+   "start": 609.768,
+   "end": 609.988,
+   "chunk": "V33"
+  },
+  {
+   "word": "in",
+   "start": 609.988,
+   "end": 610.128,
+   "chunk": "V33"
+  },
+  {
+   "word": "a",
+   "start": 610.128,
+   "end": 610.288,
+   "chunk": "V33"
+  },
+  {
+   "word": "strange",
+   "start": 610.288,
+   "end": 610.648,
+   "chunk": "V33"
+  },
+  {
+   "word": "way,",
+   "start": 610.648,
+   "end": 611.108,
+   "chunk": "V33"
+  },
+  {
+   "word": "the",
+   "start": 611.548,
+   "end": 611.668,
+   "chunk": "V33"
+  },
+  {
+   "word": "invasion",
+   "start": 611.668,
+   "end": 612.208,
+   "chunk": "V33"
+  },
+  {
+   "word": "that",
+   "start": 612.208,
+   "end": 612.448,
+   "chunk": "V33"
+  },
+  {
+   "word": "never",
+   "start": 612.448,
+   "end": 612.828,
+   "chunk": "V33"
+  },
+  {
+   "word": "happened",
+   "start": 612.828,
+   "end": 613.408,
+   "chunk": "V33"
+  },
+  {
+   "word": "helped",
+   "start": 613.408,
+   "end": 613.748,
+   "chunk": "V33"
+  },
+  {
+   "word": "build",
+   "start": 613.748,
+   "end": 614.168,
+   "chunk": "V33"
+  },
+  {
+   "word": "the",
+   "start": 614.168,
+   "end": 614.388,
+   "chunk": "V33"
+  },
+  {
+   "word": "Australia",
+   "start": 614.388,
+   "end": 614.948,
+   "chunk": "V33"
+  },
+  {
+   "word": "we",
+   "start": 614.948,
+   "end": 615.168,
+   "chunk": "V33"
+  },
+  {
+   "word": "know",
+   "start": 615.168,
+   "end": 615.368,
+   "chunk": "V33"
+  },
+  {
+   "word": "today,",
+   "start": 615.368,
+   "end": 615.848,
+   "chunk": "V33"
+  },
+  {
+   "word": "its",
+   "start": 616.368,
+   "end": 616.508,
+   "chunk": "V33"
+  },
+  {
+   "word": "alliances,",
+   "start": 616.508,
+   "end": 617.188,
+   "chunk": "V33"
+  },
+  {
+   "word": "its",
+   "start": 617.628,
+   "end": 617.708,
+   "chunk": "V33"
+  },
+  {
+   "word": "cities,",
+   "start": 617.708,
+   "end": 618.228,
+   "chunk": "V33"
+  },
+  {
+   "word": "and",
+   "start": 618.268,
+   "end": 618.788,
+   "chunk": "V33"
+  },
+  {
+   "word": "the",
+   "start": 618.788,
+   "end": 618.928,
+   "chunk": "V33"
+  },
+  {
+   "word": "mix",
+   "start": 618.928,
+   "end": 619.168,
+   "chunk": "V33"
+  },
+  {
+   "word": "of",
+   "start": 619.168,
+   "end": 619.408,
+   "chunk": "V33"
+  },
+  {
+   "word": "people",
+   "start": 619.408,
+   "end": 619.708,
+   "chunk": "V33"
+  },
+  {
+   "word": "who",
+   "start": 619.708,
+   "end": 619.928,
+   "chunk": "V33"
+  },
+  {
+   "word": "live",
+   "start": 619.928,
+   "end": 620.148,
+   "chunk": "V33"
+  },
+  {
+   "word": "there.",
+   "start": 620.148,
+   "end": 620.468,
+   "chunk": "V33"
+  },
+  {
+   "word": "Australia's",
+   "start": 622.14,
+   "end": 623.0,
+   "chunk": "V34"
+  },
+  {
+   "word": "history",
+   "start": 623.0,
+   "end": 623.34,
+   "chunk": "V34"
+  },
+  {
+   "word": "is",
+   "start": 623.34,
+   "end": 623.62,
+   "chunk": "V34"
+  },
+  {
+   "word": "full",
+   "start": 623.62,
+   "end": 623.96,
+   "chunk": "V34"
+  },
+  {
+   "word": "of",
+   "start": 623.96,
+   "end": 624.26,
+   "chunk": "V34"
+  },
+  {
+   "word": "moments",
+   "start": 624.26,
+   "end": 624.64,
+   "chunk": "V34"
+  },
+  {
+   "word": "like",
+   "start": 624.64,
+   "end": 624.88,
+   "chunk": "V34"
+  },
+  {
+   "word": "this,",
+   "start": 624.88,
+   "end": 625.36,
+   "chunk": "V34"
+  },
+  {
+   "word": "where",
+   "start": 625.46,
+   "end": 625.84,
+   "chunk": "V34"
+  },
+  {
+   "word": "one",
+   "start": 625.84,
+   "end": 626.18,
+   "chunk": "V34"
+  },
+  {
+   "word": "decision",
+   "start": 626.18,
+   "end": 626.7,
+   "chunk": "V34"
+  },
+  {
+   "word": "could",
+   "start": 626.7,
+   "end": 627.0,
+   "chunk": "V34"
+  },
+  {
+   "word": "have",
+   "start": 627.0,
+   "end": 627.2,
+   "chunk": "V34"
+  },
+  {
+   "word": "changed",
+   "start": 627.2,
+   "end": 627.58,
+   "chunk": "V34"
+  },
+  {
+   "word": "everything.",
+   "start": 627.58,
+   "end": 628.2,
+   "chunk": "V34"
+  },
+  {
+   "word": "Tell",
+   "start": 628.92,
+   "end": 629.02,
+   "chunk": "V34"
+  },
+  {
+   "word": "me",
+   "start": 629.02,
+   "end": 629.2,
+   "chunk": "V34"
+  },
+  {
+   "word": "in",
+   "start": 629.2,
+   "end": 629.3,
+   "chunk": "V34"
+  },
+  {
+   "word": "the",
+   "start": 629.3,
+   "end": 629.5,
+   "chunk": "V34"
+  },
+  {
+   "word": "comments",
+   "start": 629.5,
+   "end": 629.86,
+   "chunk": "V34"
+  },
+  {
+   "word": "which",
+   "start": 629.86,
+   "end": 630.28,
+   "chunk": "V34"
+  },
+  {
+   "word": "What",
+   "start": 630.28,
+   "end": 630.68,
+   "chunk": "V34"
+  },
+  {
+   "word": "If",
+   "start": 630.68,
+   "end": 630.94,
+   "chunk": "V34"
+  },
+  {
+   "word": "you",
+   "start": 630.94,
+   "end": 631.32,
+   "chunk": "V34"
+  },
+  {
+   "word": "want",
+   "start": 631.32,
+   "end": 631.54,
+   "chunk": "V34"
+  },
+  {
+   "word": "to",
+   "start": 631.54,
+   "end": 631.7,
+   "chunk": "V34"
+  },
+  {
+   "word": "see",
+   "start": 631.7,
+   "end": 631.9,
+   "chunk": "V34"
+  },
+  {
+   "word": "next.",
+   "start": 631.9,
+   "end": 632.4,
+   "chunk": "V34"
+  },
+  {
+   "word": "And",
+   "start": 633.46,
+   "end": 633.58,
+   "chunk": "V34"
+  },
+  {
+   "word": "if",
+   "start": 633.58,
+   "end": 633.72,
+   "chunk": "V34"
+  },
+  {
+   "word": "you",
+   "start": 633.72,
+   "end": 633.88,
+   "chunk": "V34"
+  },
+  {
+   "word": "enjoyed",
+   "start": 633.88,
+   "end": 634.3,
+   "chunk": "V34"
+  },
+  {
+   "word": "playing",
+   "start": 634.3,
+   "end": 634.7,
+   "chunk": "V34"
+  },
+  {
+   "word": "out",
+   "start": 634.7,
+   "end": 634.92,
+   "chunk": "V34"
+  },
+  {
+   "word": "history",
+   "start": 634.92,
+   "end": 635.34,
+   "chunk": "V34"
+  },
+  {
+   "word": "with",
+   "start": 635.34,
+   "end": 635.62,
+   "chunk": "V34"
+  },
+  {
+   "word": "us,",
+   "start": 635.62,
+   "end": 635.96,
+   "chunk": "V34"
+  },
+  {
+   "word": "a",
+   "start": 636.42,
+   "end": 636.48,
+   "chunk": "V34"
+  },
+  {
+   "word": "like",
+   "start": 636.48,
+   "end": 636.78,
+   "chunk": "V34"
+  },
+  {
+   "word": "helps",
+   "start": 636.78,
+   "end": 637.18,
+   "chunk": "V34"
+  },
+  {
+   "word": "this",
+   "start": 637.18,
+   "end": 637.46,
+   "chunk": "V34"
+  },
+  {
+   "word": "series",
+   "start": 637.46,
+   "end": 637.82,
+   "chunk": "V34"
+  },
+  {
+   "word": "reach",
+   "start": 637.82,
+   "end": 638.12,
+   "chunk": "V34"
+  },
+  {
+   "word": "more",
+   "start": 638.12,
+   "end": 638.4,
+   "chunk": "V34"
+  },
+  {
+   "word": "people.",
+   "start": 638.4,
+   "end": 638.86,
+   "chunk": "V34"
+  },
+  {
+   "word": "Follow",
+   "start": 639.5,
+   "end": 639.74,
+   "chunk": "V34"
+  },
+  {
+   "word": "along,",
+   "start": 639.74,
+   "end": 640.26,
+   "chunk": "V34"
+  },
+  {
+   "word": "because",
+   "start": 640.6,
+   "end": 640.9,
+   "chunk": "V34"
+  },
+  {
+   "word": "Australia",
+   "start": 640.9,
+   "end": 641.54,
+   "chunk": "V34"
+  },
+  {
+   "word": "came",
+   "start": 641.54,
+   "end": 641.84,
+   "chunk": "V34"
+  },
+  {
+   "word": "closer",
+   "start": 641.84,
+   "end": 642.34,
+   "chunk": "V34"
+  },
+  {
+   "word": "to",
+   "start": 642.34,
+   "end": 642.56,
+   "chunk": "V34"
+  },
+  {
+   "word": "a",
+   "start": 642.56,
+   "end": 642.8,
+   "chunk": "V34"
+  },
+  {
+   "word": "different",
+   "start": 642.8,
+   "end": 643.04,
+   "chunk": "V34"
+  },
+  {
+   "word": "future",
+   "start": 643.04,
+   "end": 643.5,
+   "chunk": "V34"
+  },
+  {
+   "word": "more",
+   "start": 643.5,
+   "end": 643.84,
+   "chunk": "V34"
+  },
+  {
+   "word": "often",
+   "start": 643.84,
+   "end": 644.24,
+   "chunk": "V34"
+  },
+  {
+   "word": "than",
+   "start": 644.24,
+   "end": 644.44,
+   "chunk": "V34"
+  },
+  {
+   "word": "you'd",
+   "start": 644.44,
+   "end": 644.74,
+   "chunk": "V34"
+  },
+  {
+   "word": "think.",
+   "start": 644.74,
+   "end": 644.96,
+   "chunk": "V34"
+  }
+ ]
+}

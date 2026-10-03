@@ -1,0 +1,14 @@
+[
+  {"id": "B01", "chunk": "V01", "word": "admirals", "off": 0.05, "dur": 4, "lon": 139.69, "lat": 35.69, "note": "Tokyo pin, on 'admirals'"},
+  {"id": "B02", "chunk": "V06", "local": 1.0, "dur": 4, "lon": 103.82, "lat": 1.35, "note": "Singapore pin, prisoners; ends, then pull back in the 2 s gap"},
+  {"id": "B03", "chunk": "V08", "local": 4.4, "dur": 5, "lon": 130.84, "lat": -12.46, "note": "Darwin pin after the planes"},
+  {"id": "B04", "chunk": "V12", "word": "landings", "off": 0.1, "dur": 4, "lon": 130.88, "lat": -12.33, "note": "Darwin coast pin, on 'landings'"},
+  {"id": "B05", "chunk": "V15", "word": "that", "occ": 1, "off": 0.1, "dur": 4, "lon": 133.55, "lat": -19.6, "note": "railway gap, 'that's a road to nowhere'"},
+  {"id": "B06", "chunk": "V19", "local": 3.0, "dur": 4, "lon": 156.0, "lat": 2.0, "note": "open ocean"},
+  {"id": "B07", "chunk": "V20", "word": "submarines", "off": 0.0, "dur": 3, "lon": 150.0, "lat": 10.0, "note": "east-coast supply line, on 'submarines'"},
+  {"id": "B08", "chunk": "V21", "word": "midway", "off": 0.6, "dur": 4, "lon": 182.63, "lat": 28.21, "note": "Midway pin"},
+  {"id": "B09", "chunk": "V23", "local": 4.8, "dur": 5, "lon": 151.21, "lat": -33.87, "note": "city pin (Sydney), blackout street"},
+  {"id": "B10", "chunk": "V27", "word": "midget", "off": 0.2, "dur": 4, "lon": 151.26, "lat": -33.84, "note": "Sydney Harbour pin"},
+  {"id": "B11", "chunk": "V28", "local": 5.2, "dur": 5, "lon": 147.6, "lat": -9.1, "note": "New Guinea, Kokoda Track"},
+  {"id": "B12", "chunk": "V32", "local": 6.6, "dur": 5, "lon": 144.93, "lat": -37.84, "note": "Act 5 harbour pin, warm"}
+]
