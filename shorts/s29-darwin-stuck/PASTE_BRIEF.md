@@ -10,7 +10,7 @@ Role: **Teaser Short** for long-form **lf01** (*What If Japan Had Invaded Austra
 
 **Handoff:** the user pastes this file into Claude Code. Do **not** post a GitHub comment that summons Claude. Do **not** `@claude`. The user pastes this file into Claude Code themselves.
 
-**VO:** Atlas en-AU will be seated at `audio/vo.mp3` **before paste**. Match the s28 convention: `shorts/s29-darwin-stuck/audio/vo.mp3`. **VO will be seated before paste; do not record a new one.** Do not overwrite `vo.mp3` if present. Whisper-retune seams to that recording. Do not invent timings before VO lands.
+**VO:** Atlas en-AU is already at `shorts/s29-darwin-stuck/audio/vo.mp3`. **Claude must not re-record it.** Do not overwrite `vo.mp3` if present. Whisper-retune seams to that recording. Do not invent timings before VO lands.
 
 ---
 
@@ -158,7 +158,7 @@ Approximate seams — **retune to Whisper** once Atlas VO is held at `audio/vo.m
 
 ## Style locks (verbatim)
 
-- **Atlas VO:** fast amazed → sly → storytelling → tense → deadpan → awed → fast → amused → deadpan twist → warm teaser → loop; start instantly; never speak `()` cues; never speak the hook; **VO will be seated before paste at `audio/vo.mp3`**; do not record a new one; do not overwrite; Whisper-retune seams to it
+- **Atlas VO:** fast amazed → sly → storytelling → tense → deadpan → awed → fast → amused → deadpan twist → warm teaser → loop; start instantly; never speak `()` cues; never speak the hook; **VO is already at `shorts/s29-darwin-stuck/audio/vo.mp3`; Claude must not re-record it**; do not record a new one; do not overwrite; Whisper-retune seams to it
 - **Captions** lower-middle ~70%; never overlapping graphics; no VO-echo big titles; labels for names/places/facts only
 - **Sparse intentional SFX** ~6–10, clearly under VO, VO-only stretches; sad horn toot is one; cut dense whoosh/pop chatter
 - **Music:** Silent Descent (Mixkit 614) — tense map explainer; **not** Skyline 601; seat ~4 dB quieter than s18’s original Silent Descent bed under VO

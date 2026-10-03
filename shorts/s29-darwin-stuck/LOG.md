@@ -17,3 +17,4 @@
 - Stills: none required at scaffold (no named-person portraits)
 - Dirty unrelated paths left unstaged: `shorts/incoming-vo/*`, `shorts/s19-emu-war/images/*`
 - Handoff next: parent records Atlas VO → seat `audio/vo.mp3` → user pastes `PASTE_BRIEF.md` into Claude Code (after pulling this branch)
+- Atlas VO seated at `audio/vo.mp3` (51.8s); do not overwrite.
