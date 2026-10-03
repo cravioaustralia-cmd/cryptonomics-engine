@@ -574,187 +574,199 @@ V34 · 8:58
 
 
 
-PART 3: Paste-ready Grok voiceover (voice: Atlas)
-Generate each chunk separately and save it as its own file (V01.mp3, V02.mp3…). Paste
-only the text inside each block; the chunk labels are for you.
+PART 3: Full spoken voiceover (voice: Atlas)
+These are the uncut lines, one chunk per file in audio/vo/. Tags are delivery, not words.
+Do not rewrite them.
 
+V01
+February, nineteen forty-two. [pause] In Tokyo, Japanese admirals put a proposal
+on the table: [pause] invade Australia.
 
- V01
- February, nineteen forty-two. [pause] In Tokyo, Japanese admirals put a proposal on the table
+V02
+This isn't a myth. The idea was real, and Japan's top commanders argued about it
+for weeks. [pause] And then... [long-pause] <slow>it was rejected.</slow>
 
+V03
+But what if it hadn't been? [pause] What if Japan had actually sent its army
+across the sea to Australia?
 
+V04
+Today, we're playing it out. Not as fantasy, but with real plans, real numbers,
+and real geography. [pause] Three versions of nineteen forty-two: a small
+invasion, a full invasion... [pause] and the plan Japan actually chose, which
+might have been the most dangerous of all. [pause] Stay for that last one. It
+changes how you see Australia today.
 
- V02
- This isn't a myth. The idea was real, and Japan's top commanders argued about it for weeks. [
+V05
+First, the scene. December, nineteen forty-one. Japan attacks Pearl Harbor, and
+almost at the same moment, it strikes across Southeast Asia. [pause] Hong Kong
+falls. Malaya falls. Then, in February nineteen forty-two, Singapore, Britain's
+great fortress in Asia, surrenders.
 
+V06
+<soft>Around fifteen thousand Australian soldiers become prisoners.</soft>
 
+V07
+Now look at the map. [pause] Japan's empire is racing south. And sitting at the
+bottom is Australia: about seven million people, a coastline over thirty thousand
+kilometres long, and most of its best-trained soldiers on the other side of the
+world.
 
- V03
- But what if it hadn't been? [pause] What if Japan had actually sent its army across the sea t
+V08
+Four days after Singapore falls, Japanese planes bomb Darwin. [pause] It's the
+first time the Australian mainland has ever come under attack.
 
+V09
+Weeks earlier, Prime Minister John Curtin had already made a choice that stunned
+Britain. He wrote that Australia would now look to America for help, without any
+guilt about its old ties to Britain.
 
+V10
+Meanwhile, in Tokyo, the argument begins. The Navy wants to strike Australia
+before America can turn it into a giant base. [pause] The Army says no. [pause]
+The Army's problem is numbers. Its planners estimate an invasion would need around
+ten to twelve divisions, an army of well over a hundred thousand men, and up to
+two million tons of shipping just to get them there. [pause] And most of Japan's
+army is already locked into a huge war in China.
 
- V04
- Today, we're playing it out. Not as fantasy, but with real plans, real numbers, and real geog
+V11
+On the fourth of March, nineteen forty-two, the decision is made. [pause] No
+invasion. [pause] Japan will try something else instead. [long-pause] We'll get to
+that. But first: what if the admirals had won the argument?
 
+V12
+Scenario one is the Navy's own idea. Don't conquer Australia. Just grab pieces of
+the north. [pause] Picture Japanese landings at ports like Darwin. Airfields to
+bomb the rest of the country. Bases to block American ships.
 
-
- V05
- First, the scene. December, nineteen forty-one. Japan attacks Pearl Harbor, and almost at the
-
-
-
- V06
- <soft>Around fifteen thousand Australian soldiers become prisoners.</soft>
-
-
-
- V07
- Now look at the map. [pause] Japan's empire is racing south. And sitting at the bottom is Aus
-
-
-
- V08
- Four days after Singapore falls, Japanese planes bomb Darwin. [pause] It's the first time the
-
-
-
- V09
- Weeks earlier, Prime Minister John Curtin had already made a choice that stunned Britain. He
-
-
-
- V10
- Meanwhile, in Tokyo, the argument begins. The Navy wants to strike Australia before America c
-
-
-
- V11
- On the fourth of March, nineteen forty-two, the decision is made. [pause] No invasion. [pause
-
-
-
- V12
- Scenario one is the Navy's own idea. Don't conquer Australia. Just grab pieces of the north.
-V13
-Could Australia have stopped a landing at Darwin in early nineteen forty-two? [pause] Probabl
-
-
+V13
+Could Australia have stopped a landing at Darwin in early nineteen forty-two?
+[pause] Probably not. The town had already been hammered from the air, and most of
+its civilians had been sent south. [pause] But this is where geography takes over.
 
 V14
-Look at what lies between Darwin and the cities where most Australians live. Thousands of kil
-
-
+Look at what lies between Darwin and the cities where most Australians live.
+Thousands of kilometres of desert. [pause] In nineteen forty-two, the railway from
+Darwin stopped at a tiny place called Birdum. The line from the south ended at
+Alice Springs. [pause] In between, roughly a thousand kilometres with no railway
+at all.
 
 V15
-If you're an invading army, that's not a road into Australia. [pause] That's a road to nowher
-
-
+If you're an invading army, that's not a road into Australia. [pause] That's a
+road to nowhere.
 
 V16
-Australia was already racing to push a military road through that gap, the road that became t
-
-
+Australia was already racing to push a military road through that gap, the road
+that became the Stuart Highway, to move troops north. [pause] So a Japanese force
+in Darwin could bomb, block, and threaten. But marching south? [pause] Close to
+impossible. [pause] Tokyo's generals could see the trap: an army stuck in the
+north, facing Australian and American counterattacks, with supply lines stretching
+thousands of kilometres back to Japan. Exactly the kind of endless war they were
+already stuck in, in China.
 
 V17
-And the north wasn't empty. It was home to Aboriginal communities who knew that country bette
-
-
+And the north wasn't empty. It was home to Aboriginal communities who knew that
+country better than anyone. [pause] On the day Darwin was bombed, a Japanese pilot
+crash-landed on Melville Island. He was captured by a Tiwi man, Matthias Ulungura.
+It's widely seen as the first Japanese prisoner of war taken on Australian soil.
 
 V18
-Verdict on scenario one: Japan probably takes a port or two... [pause] and gets stuck. Painfu
-
-
+Verdict on scenario one: Japan probably takes a port or two... [pause] and gets
+stuck. Painful for Australia. Very likely a disaster for Japan.
 
 V19
 Scenario two. Forget the north. [pause] Japan goes all in.
 
-
-
 V20
-Ten to twelve divisions. Landings on the east coast, where the cities are: Brisbane, Sydney,
-
-
+Ten to twelve divisions. Landings on the east coast, where the cities are:
+Brisbane, Sydney, Melbourne. [pause] To even try it, Japan needs up to two million
+tons of shipping just to move the army, then a non-stop stream of ships to keep it
+fed and armed, across thousands of kilometres of ocean. [pause] Every one of those
+ships is a target for American submarines and aircraft.
 
 V21
-Then there's timing. In May nineteen forty-two, the Battle of the Coral Sea, off Australia's
-
-
+Then there's timing. In May nineteen forty-two, the Battle of the Coral Sea, off
+Australia's north-east coast, turns back a Japanese invasion force heading for
+Port Moresby. [pause] One month later, at Midway, Japan loses four of its big
+aircraft carriers.
 
 V22
-Now imagine those carriers had been tied up guarding an invasion of Australia instead. [pause
-
-
+Now imagine those carriers had been tied up guarding an invasion of Australia
+instead. [pause] Some historians think Japan might have won more early battles.
+Others argue it would have stretched Japan's navy so thin that the collapse would
+have come even faster. [pause] On land, Australia would have fought for every
+town. By mid nineteen forty-two, Australian troops were coming home from the
+Middle East, the home army was growing, and American soldiers and aircraft were
+pouring in.
 
 V23
-<soft>Could Japan have taken cities? [pause] Possibly, for a time. And the cost for Australia
-
-
+<soft>Could Japan have taken cities? [pause] Possibly, for a time. And the cost
+for Australian civilians could have been terrible. Across Asia, people living
+under Japanese occupation suffered enormously.</soft>
 
 V24
-But could Japan have held a continent almost the size of the mainland United States, with mil
- V25
- Scenario three is the one Japan actually chose. And it might be the scariest. [pause] Don't i
+But could Japan have held a continent almost the size of the mainland United
+States, with millions of hostile people, and America next in line? [pause] Very
+few historians think so. [pause] Which is exactly why Japan's generals refused to
+try. Instead, they went with plan three.
 
+V25
+Scenario three is the one Japan actually chose. And it might be the scariest.
+[pause] Don't invade Australia. [pause] Cut it off. [pause] Australia's lifeline
+to America ran across the Pacific, past islands like Fiji, Samoa, and New
+Caledonia. Japan planned to take them. [pause] At the same time, it wanted Port
+Moresby in New Guinea, just across the water from northern Australia, close enough
+for its bombers to reach Queensland.
 
+V26
+If both worked, American ships would struggle to reach Australia. Fewer
+reinforcements. Fewer supplies. [pause] <slow>Australia, alone at the bottom of
+the map.</slow>
 
- V26
- If both worked, American ships would struggle to reach Australia. Fewer reinforcements. Fewer
+V27
+Japan's hope was that a cut-off Australia could be knocked out of the war without
+a single soldier landing on the mainland. [long-pause] And for a few months in
+nineteen forty-two, it was really happening. Japanese midget submarines slipped
+into Sydney Harbour.
 
+V28
+Sydney and Newcastle were shelled from the sea. [pause] Japanese troops pushed
+over the mountains of New Guinea along the Kokoda Track, and got within about
+forty kilometres of Port Moresby.
 
+V29
+What stopped it? [pause] The Coral Sea. Midway. Australian soldiers on the Kokoda
+Track. And at Milne Bay, on New Guinea's eastern tip, Australian troops handed
+Japan one of its first defeats on land in the whole war. [pause] After Midway,
+Japan cancelled the plan to take Fiji and Samoa. [pause] The lifeline held.
 
- V27
- Japan's hope was that a cut-off Australia could be knocked out of the war without a single so
+V30
+<slow>So maybe the real answer is this: [pause] Japan didn't need to invade
+Australia. The bigger danger was being cut off. [pause] And in nineteen forty-two,
+that came closer than most people realise.</slow>
 
+V31
+But here's the twist. [pause] The invasion never came... and it still changed
+Australia forever. [pause] The fear of nineteen forty-two locked in Curtin's turn
+toward America. In nineteen fifty-one, Australia, New Zealand, and the United
+States signed the Anzus treaty, an alliance that still shapes Australia's defence
+today.
 
+V32
+And the shock of being a nearly empty continent so close to the war led to a new
+slogan: [pause] populate, or perish.
 
- V28
- Sydney and Newcastle were shelled from the sea. [pause] Japanese troops pushed over the mount
+V33
+Australia launched one of the biggest immigration programs in the world. Millions
+of people arrived over the following decades, first from Britain and Europe, and
+later from almost everywhere. [pause] So in a strange way, the invasion that never
+happened helped build the Australia we know today: its alliances, its cities, and
+the mix of people who live there.
 
+V34
+Australia's history is full of moments like this, where one decision could have
+changed everything. Tell me in the comments which "what if" you want to see next.
+[pause] And if you enjoyed playing out history with us, a like helps this series
+reach more people. Follow along... because Australia came closer to a different
+future more often than you'd think.
 
-
- V29
- What stopped it? [pause] The Coral Sea. Midway. Australian soldiers on the Kokoda Track. And
-
-
-
- V30
- <slow>So maybe the real answer is this: [pause] Japan didn't need to invade Australia. The bi
-
-
-
- V31
- But here's the twist. [pause] The invasion never came... and it still changed Australia forev
-
-
-
- V32
- And the shock of being a nearly empty continent so close to the war led to a new slogan: [pau
-
-
-
- V33
- Australia launched one of the biggest immigration programs in the world. Millions of people a
-
-
-
- V34
- Australia's history is full of moments like this, where one decision could have changed every
-
-
-
-
-Shot count summary
-  Map motion graphics: the main visual for the whole runtime, about 80%.
-
-  AI B-roll: 12 clips (B01–B12), 3–5 seconds each, all entering and exiting through zoom-
-  through transitions.
-   Archive: 1 (a John Curtin photo, shown as a card pinned on the map).
-
-   Voice chunks: 34 (V01–V34).
-
-   Edit gaps: about 35 seconds in total, placed after reveals, B-roll moments, scenario
-   numbers and before each mid-roll.
-
-Fact and sensitivity notes are unchanged from the episode script file.
-
