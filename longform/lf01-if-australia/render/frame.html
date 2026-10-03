@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+  <meta charset="utf-8"/>
+  <title>IF AUSTRALIA lf01 frame</title>
+  <style>
+    @font-face { font-family: 'Oswald'; src: url('/ep/fonts/Oswald.ttf'); font-weight: 200 700; }
+    @font-face { font-family: 'Elite'; src: url('/ep/fonts/SpecialElite.ttf'); }
+    @font-face { font-family: 'Fell'; src: url('/ep/fonts/IMFell.ttf'); }
+    @font-face { font-family: 'FellSC'; src: url('/ep/fonts/IMFellSC.ttf'); }
+    @font-face { font-family: 'FellIt'; src: url('/ep/fonts/IMFellItalic.ttf'); }
+    html, body { margin: 0; padding: 0; width: 1920px; height: 1080px; overflow: hidden; background: #000; }
+    .view { position: absolute; left: 0; top: 0; width: 1920px; height: 1080px; overflow: hidden; }
+    .tiles { position: absolute; left: 0; top: 0; width: 1920px; height: 1080px; overflow: hidden;
+             background: #aab3a3; }
+    .tiles img { position: absolute; left: 0; top: 0; width: 512px; height: 512px; transform-origin: 0 0;
+                 image-rendering: auto; backface-visibility: hidden; }
+    .tint { position: absolute; inset: 0; pointer-events: none; }
+    #paper { position: absolute; inset: 0; background: url('/ep/assets/paper.jpg'); mix-blend-mode: multiply; opacity: 0.55; }
+    #vignette { position: absolute; inset: 0;
+      background: radial-gradient(ellipse 75% 70% at 50% 50%, rgba(0,0,0,0) 55%, rgba(48,34,18,0.38) 100%); }
+    #haze { position: absolute; inset: 0;
+      box-shadow: inset 0 0 140px 30px rgba(232,220,190,0.22); }
+    svg#ov { position: absolute; left: 0; top: 0; }
+    #fontwarm { position: absolute; left: -9999px; }
+  </style>
+</head>
+<body>
+  <div id="stage"></div>
+  <div id="fontwarm"><span style="font-family:Oswald">a</span><span style="font-family:Elite">a</span><span style="font-family:Fell">a</span><span style="font-family:FellSC">a</span><span style="font-family:FellIt">a</span></div>
+  <script src="/ep/map.js"></script>
+  <script src="/ep/icons.js"></script>
+  <script src="/ep/score.js"></script>
+  <script src="/ep/runtime.js"></script>
+</body>
+</html>
