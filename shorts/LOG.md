@@ -191,3 +191,18 @@ Unpacked 6 Grok VOs into shorts/incoming-vo/. #01 matches finished Skylab Short;
 ## 2026-09-30T20:55+10:00 — s24 Burke & Wills (Atlas VO held)
 - Held Atlas en-AU `audio/vo.mp3` (**39.168 s**) from `/home/box/Downloads/s24_burke_wills_atlas_fast.mp3` (also `/workspace/deliverables/s24-burke-wills/vo-raw/vo-atlas.mp3`)
 - Ready for Claude Whisper / seam retune; incomplete loop on `…story of how`
+
+## 2026-10-04T05:08+11:00 AEDT — s29 Darwin Stuck (scaffold)
+- Episode: `shorts/s29-darwin-stuck/`
+- Branch: `scaffold/s29-darwin-stuck` off `origin/main` (confirmed highest prior short = **s28**; next = **s29**)
+- **Mode: MAP EXPLAINER (locked)** — GeoArchivez standing quality bar; GeoGlobeTales basemap
+- Teaser for long-form **lf01** (scenario one — Darwin / desert / railway trap)
+- Atlas VO **pending** at `audio/vo.mp3` — parent records Atlas; do not record in scaffold
+- Scaffold only: script, vo_script (~139 spoken words), plan with ANIMATE map beat table, PASTE_BRIEF, MAP_EXPLAINER_MODE, SOURCES, FACT_NOTES, Silent Descent bed (Mixkit 614 from s18; **not** Skyline 601), Mixkit SFX, render README
+- **No `scenes.js`** — Claude owns design / animation / mix
+- Hook: `ROAD TO NOWHERE`; button loop on spoken `Because remember:`
+- Geography lock: Darwin / Birdum / Alice Springs / ~1,000 km gap
+- End card: arrow down to Related — no invented YouTube URL; do not upload
+- No portrait stills; no emoji; no AI historical stills
+- Dirty unrelated paths left unstaged: `shorts/incoming-vo/*`, `shorts/s19-emu-war/images/*`
+- Next: record Atlas VO → seat `audio/vo.mp3` → paste PASTE_BRIEF into Claude Code after pulling branch
