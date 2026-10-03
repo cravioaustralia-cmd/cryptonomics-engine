@@ -1,0 +1,199 @@
+{
+ "id": "V30",
+ "model": "small.en",
+ "text": "So maybe the real answer is this. Japan didn't need to invade Australia. The bigger danger was being cut off. And in nineteen forty-two, that came closer than most people realise.",
+ "words": [
+  {
+   "word": "So",
+   "start": 0.0,
+   "end": 0.42,
+   "p": 0.936
+  },
+  {
+   "word": "maybe",
+   "start": 0.42,
+   "end": 1.02,
+   "p": 0.59
+  },
+  {
+   "word": "the",
+   "start": 1.02,
+   "end": 1.36,
+   "p": 0.992
+  },
+  {
+   "word": "real",
+   "start": 1.36,
+   "end": 1.72,
+   "p": 0.991
+  },
+  {
+   "word": "answer",
+   "start": 1.72,
+   "end": 2.14,
+   "p": 0.997
+  },
+  {
+   "word": "is",
+   "start": 2.14,
+   "end": 2.48,
+   "p": 0.996
+  },
+  {
+   "word": "this.",
+   "start": 2.48,
+   "end": 3.0,
+   "p": 0.992
+  },
+  {
+   "word": "Japan",
+   "start": 4.78,
+   "end": 4.78,
+   "p": 0.994
+  },
+  {
+   "word": "didn't",
+   "start": 4.78,
+   "end": 5.46,
+   "p": 0.992
+  },
+  {
+   "word": "need",
+   "start": 5.46,
+   "end": 5.72,
+   "p": 0.993
+  },
+  {
+   "word": "to",
+   "start": 5.72,
+   "end": 5.94,
+   "p": 0.999
+  },
+  {
+   "word": "invade",
+   "start": 5.94,
+   "end": 6.26,
+   "p": 0.998
+  },
+  {
+   "word": "Australia.",
+   "start": 6.26,
+   "end": 6.76,
+   "p": 0.99
+  },
+  {
+   "word": "The",
+   "start": 7.44,
+   "end": 7.6,
+   "p": 0.99
+  },
+  {
+   "word": "bigger",
+   "start": 7.6,
+   "end": 7.9,
+   "p": 0.987
+  },
+  {
+   "word": "danger",
+   "start": 7.9,
+   "end": 8.24,
+   "p": 0.999
+  },
+  {
+   "word": "was",
+   "start": 8.24,
+   "end": 8.6,
+   "p": 0.995
+  },
+  {
+   "word": "being",
+   "start": 8.6,
+   "end": 8.8,
+   "p": 0.995
+  },
+  {
+   "word": "cut",
+   "start": 8.8,
+   "end": 9.1,
+   "p": 0.995
+  },
+  {
+   "word": "off.",
+   "start": 9.1,
+   "end": 9.46,
+   "p": 0.995
+  },
+  {
+   "word": "And",
+   "start": 10.22,
+   "end": 10.3,
+   "p": 0.954
+  },
+  {
+   "word": "in",
+   "start": 10.3,
+   "end": 10.44,
+   "p": 0.978
+  },
+  {
+   "word": "nineteen",
+   "start": 10.44,
+   "end": 10.68,
+   "p": 0.001
+  },
+  {
+   "word": "forty",
+   "start": 10.68,
+   "end": 11.16,
+   "p": 0.897
+  },
+  {
+   "word": "-two,",
+   "start": 11.16,
+   "end": 11.62,
+   "p": 0.704
+  },
+  {
+   "word": "that",
+   "start": 11.94,
+   "end": 12.24,
+   "p": 0.993
+  },
+  {
+   "word": "came",
+   "start": 12.24,
+   "end": 12.52,
+   "p": 0.994
+  },
+  {
+   "word": "closer",
+   "start": 12.52,
+   "end": 12.88,
+   "p": 0.996
+  },
+  {
+   "word": "than",
+   "start": 12.88,
+   "end": 13.2,
+   "p": 0.98
+  },
+  {
+   "word": "most",
+   "start": 13.2,
+   "end": 13.44,
+   "p": 0.995
+  },
+  {
+   "word": "people",
+   "start": 13.44,
+   "end": 13.76,
+   "p": 0.995
+  },
+  {
+   "word": "realise.",
+   "start": 13.76,
+   "end": 14.26,
+   "p": 0.016
+  }
+ ]
+}

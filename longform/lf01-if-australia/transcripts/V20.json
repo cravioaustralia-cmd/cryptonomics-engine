@@ -1,0 +1,403 @@
+{
+ "id": "V20",
+ "model": "small.en",
+ "text": "Ten to twelve divisions. Landings on the east coast, where the cities are. Brisbane, Sydney, Melbourne. To even try it, Japan needs up to two million tons of shipping just to move the army, then a non-stop stream of ships to keep it fed and armed, across thousands of kilometres of ocean. Every one of those ships is a target for American submarines and aircraft.",
+ "words": [
+  {
+   "word": "Ten",
+   "start": 0.0,
+   "end": 0.28,
+   "p": 0.27
+  },
+  {
+   "word": "to",
+   "start": 0.28,
+   "end": 0.44,
+   "p": 0.982
+  },
+  {
+   "word": "twelve",
+   "start": 0.44,
+   "end": 0.72,
+   "p": 0.744
+  },
+  {
+   "word": "divisions.",
+   "start": 0.72,
+   "end": 1.18,
+   "p": 0.978
+  },
+  {
+   "word": "Landings",
+   "start": 1.84,
+   "end": 2.2,
+   "p": 0.982
+  },
+  {
+   "word": "on",
+   "start": 2.2,
+   "end": 2.38,
+   "p": 0.995
+  },
+  {
+   "word": "the",
+   "start": 2.38,
+   "end": 2.52,
+   "p": 0.996
+  },
+  {
+   "word": "east",
+   "start": 2.52,
+   "end": 2.74,
+   "p": 0.629
+  },
+  {
+   "word": "coast,",
+   "start": 2.74,
+   "end": 3.06,
+   "p": 0.995
+  },
+  {
+   "word": "where",
+   "start": 3.42,
+   "end": 3.42,
+   "p": 0.992
+  },
+  {
+   "word": "the",
+   "start": 3.42,
+   "end": 3.6,
+   "p": 0.987
+  },
+  {
+   "word": "cities",
+   "start": 3.6,
+   "end": 3.78,
+   "p": 0.994
+  },
+  {
+   "word": "are.",
+   "start": 3.78,
+   "end": 4.2,
+   "p": 0.996
+  },
+  {
+   "word": "Brisbane,",
+   "start": 4.72,
+   "end": 4.9,
+   "p": 0.995
+  },
+  {
+   "word": "Sydney,",
+   "start": 5.56,
+   "end": 5.56,
+   "p": 0.98
+  },
+  {
+   "word": "Melbourne.",
+   "start": 5.84,
+   "end": 6.06,
+   "p": 0.985
+  },
+  {
+   "word": "To",
+   "start": 6.76,
+   "end": 6.82,
+   "p": 0.99
+  },
+  {
+   "word": "even",
+   "start": 6.82,
+   "end": 7.14,
+   "p": 0.996
+  },
+  {
+   "word": "try",
+   "start": 7.14,
+   "end": 7.5,
+   "p": 0.997
+  },
+  {
+   "word": "it,",
+   "start": 7.5,
+   "end": 7.72,
+   "p": 0.992
+  },
+  {
+   "word": "Japan",
+   "start": 7.88,
+   "end": 8.18,
+   "p": 0.996
+  },
+  {
+   "word": "needs",
+   "start": 8.18,
+   "end": 8.5,
+   "p": 0.994
+  },
+  {
+   "word": "up",
+   "start": 8.5,
+   "end": 8.72,
+   "p": 0.971
+  },
+  {
+   "word": "to",
+   "start": 8.72,
+   "end": 8.92,
+   "p": 0.985
+  },
+  {
+   "word": "two",
+   "start": 8.92,
+   "end": 9.18,
+   "p": 0.476
+  },
+  {
+   "word": "million",
+   "start": 9.18,
+   "end": 9.54,
+   "p": 0.978
+  },
+  {
+   "word": "tons",
+   "start": 9.54,
+   "end": 9.9,
+   "p": 0.923
+  },
+  {
+   "word": "of",
+   "start": 9.9,
+   "end": 10.14,
+   "p": 0.998
+  },
+  {
+   "word": "shipping",
+   "start": 10.14,
+   "end": 10.46,
+   "p": 0.998
+  },
+  {
+   "word": "just",
+   "start": 10.46,
+   "end": 11.06,
+   "p": 0.685
+  },
+  {
+   "word": "to",
+   "start": 11.06,
+   "end": 11.3,
+   "p": 0.998
+  },
+  {
+   "word": "move",
+   "start": 11.3,
+   "end": 11.46,
+   "p": 0.998
+  },
+  {
+   "word": "the",
+   "start": 11.46,
+   "end": 11.66,
+   "p": 0.996
+  },
+  {
+   "word": "army,",
+   "start": 11.66,
+   "end": 11.98,
+   "p": 0.698
+  },
+  {
+   "word": "then",
+   "start": 12.3,
+   "end": 12.56,
+   "p": 0.985
+  },
+  {
+   "word": "a",
+   "start": 12.56,
+   "end": 12.78,
+   "p": 0.99
+  },
+  {
+   "word": "non",
+   "start": 12.78,
+   "end": 13.0,
+   "p": 0.996
+  },
+  {
+   "word": "-stop",
+   "start": 13.0,
+   "end": 13.32,
+   "p": 0.827
+  },
+  {
+   "word": "stream",
+   "start": 13.32,
+   "end": 13.64,
+   "p": 0.986
+  },
+  {
+   "word": "of",
+   "start": 13.64,
+   "end": 13.92,
+   "p": 0.997
+  },
+  {
+   "word": "ships",
+   "start": 13.92,
+   "end": 14.06,
+   "p": 0.997
+  },
+  {
+   "word": "to",
+   "start": 14.06,
+   "end": 14.32,
+   "p": 0.984
+  },
+  {
+   "word": "keep",
+   "start": 14.32,
+   "end": 14.46,
+   "p": 0.997
+  },
+  {
+   "word": "it",
+   "start": 14.46,
+   "end": 14.66,
+   "p": 0.993
+  },
+  {
+   "word": "fed",
+   "start": 14.66,
+   "end": 14.88,
+   "p": 0.984
+  },
+  {
+   "word": "and",
+   "start": 14.88,
+   "end": 15.14,
+   "p": 0.989
+  },
+  {
+   "word": "armed,",
+   "start": 15.14,
+   "end": 15.6,
+   "p": 0.993
+  },
+  {
+   "word": "across",
+   "start": 15.72,
+   "end": 16.16,
+   "p": 0.99
+  },
+  {
+   "word": "thousands",
+   "start": 16.16,
+   "end": 16.66,
+   "p": 0.991
+  },
+  {
+   "word": "of",
+   "start": 16.66,
+   "end": 16.96,
+   "p": 0.991
+  },
+  {
+   "word": "kilometres",
+   "start": 16.96,
+   "end": 17.26,
+   "p": 0.115
+  },
+  {
+   "word": "of",
+   "start": 17.26,
+   "end": 17.58,
+   "p": 0.996
+  },
+  {
+   "word": "ocean.",
+   "start": 17.58,
+   "end": 17.84,
+   "p": 0.972
+  },
+  {
+   "word": "Every",
+   "start": 18.6,
+   "end": 18.88,
+   "p": 0.947
+  },
+  {
+   "word": "one",
+   "start": 18.88,
+   "end": 19.08,
+   "p": 0.997
+  },
+  {
+   "word": "of",
+   "start": 19.08,
+   "end": 19.18,
+   "p": 0.997
+  },
+  {
+   "word": "those",
+   "start": 19.18,
+   "end": 19.34,
+   "p": 0.986
+  },
+  {
+   "word": "ships",
+   "start": 19.34,
+   "end": 19.58,
+   "p": 0.994
+  },
+  {
+   "word": "is",
+   "start": 19.58,
+   "end": 19.82,
+   "p": 0.995
+  },
+  {
+   "word": "a",
+   "start": 19.82,
+   "end": 20.04,
+   "p": 0.987
+  },
+  {
+   "word": "target",
+   "start": 20.04,
+   "end": 20.26,
+   "p": 0.999
+  },
+  {
+   "word": "for",
+   "start": 20.26,
+   "end": 20.56,
+   "p": 0.993
+  },
+  {
+   "word": "American",
+   "start": 20.56,
+   "end": 20.96,
+   "p": 0.972
+  },
+  {
+   "word": "submarines",
+   "start": 20.96,
+   "end": 21.5,
+   "p": 0.967
+  },
+  {
+   "word": "and",
+   "start": 21.5,
+   "end": 21.8,
+   "p": 0.992
+  },
+  {
+   "word": "aircraft.",
+   "start": 21.8,
+   "end": 22.2,
+   "p": 0.991
+  }
+ ]
+}

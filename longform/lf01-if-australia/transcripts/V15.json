@@ -1,0 +1,103 @@
+{
+ "id": "V15",
+ "model": "small.en",
+ "text": "If you're an invading army, that's not a road into Australia. That's a road to nowhere.",
+ "words": [
+  {
+   "word": "If",
+   "start": 0.0,
+   "end": 0.2,
+   "p": 0.893
+  },
+  {
+   "word": "you're",
+   "start": 0.2,
+   "end": 0.46,
+   "p": 0.975
+  },
+  {
+   "word": "an",
+   "start": 0.46,
+   "end": 0.56,
+   "p": 0.98
+  },
+  {
+   "word": "invading",
+   "start": 0.56,
+   "end": 1.02,
+   "p": 0.995
+  },
+  {
+   "word": "army,",
+   "start": 1.02,
+   "end": 1.52,
+   "p": 0.973
+  },
+  {
+   "word": "that's",
+   "start": 2.16,
+   "end": 2.38,
+   "p": 0.996
+  },
+  {
+   "word": "not",
+   "start": 2.38,
+   "end": 2.58,
+   "p": 0.998
+  },
+  {
+   "word": "a",
+   "start": 2.58,
+   "end": 2.74,
+   "p": 0.996
+  },
+  {
+   "word": "road",
+   "start": 2.74,
+   "end": 2.96,
+   "p": 0.999
+  },
+  {
+   "word": "into",
+   "start": 2.96,
+   "end": 3.3,
+   "p": 0.966
+  },
+  {
+   "word": "Australia.",
+   "start": 3.3,
+   "end": 3.78,
+   "p": 0.997
+  },
+  {
+   "word": "That's",
+   "start": 4.88,
+   "end": 5.26,
+   "p": 0.993
+  },
+  {
+   "word": "a",
+   "start": 5.26,
+   "end": 5.34,
+   "p": 0.995
+  },
+  {
+   "word": "road",
+   "start": 5.34,
+   "end": 5.54,
+   "p": 0.996
+  },
+  {
+   "word": "to",
+   "start": 5.54,
+   "end": 5.8,
+   "p": 0.998
+  },
+  {
+   "word": "nowhere.",
+   "start": 5.8,
+   "end": 6.26,
+   "p": 0.966
+  }
+ ]
+}

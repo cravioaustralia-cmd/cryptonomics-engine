@@ -1,0 +1,247 @@
+{
+ "id": "V13",
+ "model": "small.en",
+ "text": "Could Australia have stopped a landing at Darwin in early nineteen forty-two? Probably not. The town had already been hammered from the air, and most of its civilians had been sent south. But this is where geography takes over.",
+ "words": [
+  {
+   "word": "Could",
+   "start": 0.0,
+   "end": 0.36,
+   "p": 0.962
+  },
+  {
+   "word": "Australia",
+   "start": 0.36,
+   "end": 1.1,
+   "p": 0.994
+  },
+  {
+   "word": "have",
+   "start": 1.1,
+   "end": 1.5,
+   "p": 0.994
+  },
+  {
+   "word": "stopped",
+   "start": 1.5,
+   "end": 2.02,
+   "p": 0.99
+  },
+  {
+   "word": "a",
+   "start": 2.02,
+   "end": 2.32,
+   "p": 0.989
+  },
+  {
+   "word": "landing",
+   "start": 2.32,
+   "end": 2.66,
+   "p": 0.995
+  },
+  {
+   "word": "at",
+   "start": 2.66,
+   "end": 3.02,
+   "p": 0.992
+  },
+  {
+   "word": "Darwin",
+   "start": 3.02,
+   "end": 3.52,
+   "p": 0.968
+  },
+  {
+   "word": "in",
+   "start": 3.52,
+   "end": 3.92,
+   "p": 0.985
+  },
+  {
+   "word": "early",
+   "start": 3.92,
+   "end": 4.36,
+   "p": 0.977
+  },
+  {
+   "word": "nineteen",
+   "start": 4.36,
+   "end": 4.72,
+   "p": 0.001
+  },
+  {
+   "word": "forty",
+   "start": 4.72,
+   "end": 5.22,
+   "p": 0.871
+  },
+  {
+   "word": "-two?",
+   "start": 5.22,
+   "end": 5.64,
+   "p": 0.744
+  },
+  {
+   "word": "Probably",
+   "start": 6.54,
+   "end": 6.88,
+   "p": 0.993
+  },
+  {
+   "word": "not.",
+   "start": 6.88,
+   "end": 7.32,
+   "p": 0.998
+  },
+  {
+   "word": "The",
+   "start": 7.86,
+   "end": 7.96,
+   "p": 0.989
+  },
+  {
+   "word": "town",
+   "start": 7.96,
+   "end": 8.2,
+   "p": 0.991
+  },
+  {
+   "word": "had",
+   "start": 8.2,
+   "end": 8.4,
+   "p": 0.993
+  },
+  {
+   "word": "already",
+   "start": 8.4,
+   "end": 8.88,
+   "p": 0.995
+  },
+  {
+   "word": "been",
+   "start": 8.88,
+   "end": 9.14,
+   "p": 0.998
+  },
+  {
+   "word": "hammered",
+   "start": 9.14,
+   "end": 9.54,
+   "p": 0.995
+  },
+  {
+   "word": "from",
+   "start": 9.54,
+   "end": 9.8,
+   "p": 0.994
+  },
+  {
+   "word": "the",
+   "start": 9.8,
+   "end": 9.98,
+   "p": 0.996
+  },
+  {
+   "word": "air,",
+   "start": 9.98,
+   "end": 10.22,
+   "p": 0.999
+  },
+  {
+   "word": "and",
+   "start": 10.76,
+   "end": 10.82,
+   "p": 0.991
+  },
+  {
+   "word": "most",
+   "start": 10.82,
+   "end": 11.02,
+   "p": 0.997
+  },
+  {
+   "word": "of",
+   "start": 11.02,
+   "end": 11.2,
+   "p": 0.996
+  },
+  {
+   "word": "its",
+   "start": 11.2,
+   "end": 11.34,
+   "p": 0.953
+  },
+  {
+   "word": "civilians",
+   "start": 11.34,
+   "end": 11.7,
+   "p": 0.996
+  },
+  {
+   "word": "had",
+   "start": 11.7,
+   "end": 12.02,
+   "p": 0.978
+  },
+  {
+   "word": "been",
+   "start": 12.02,
+   "end": 12.2,
+   "p": 0.999
+  },
+  {
+   "word": "sent",
+   "start": 12.2,
+   "end": 12.46,
+   "p": 0.997
+  },
+  {
+   "word": "south.",
+   "start": 12.46,
+   "end": 12.8,
+   "p": 0.874
+  },
+  {
+   "word": "But",
+   "start": 13.58,
+   "end": 13.68,
+   "p": 0.981
+  },
+  {
+   "word": "this",
+   "start": 13.68,
+   "end": 13.88,
+   "p": 0.967
+  },
+  {
+   "word": "is",
+   "start": 13.88,
+   "end": 14.0,
+   "p": 0.993
+  },
+  {
+   "word": "where",
+   "start": 14.0,
+   "end": 14.2,
+   "p": 0.997
+  },
+  {
+   "word": "geography",
+   "start": 14.2,
+   "end": 14.76,
+   "p": 0.981
+  },
+  {
+   "word": "takes",
+   "start": 14.76,
+   "end": 15.12,
+   "p": 0.994
+  },
+  {
+   "word": "over.",
+   "start": 15.12,
+   "end": 15.5,
+   "p": 1.0
+  }
+ ]
+}

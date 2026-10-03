@@ -1,0 +1,175 @@
+{
+ "id": "V23",
+ "model": "small.en",
+ "text": "Could Japan have taken cities? Possibly, for a time. And the cost for Australian civilians could have been terrible. Across Asia, people living under Japanese occupation suffered enormously.",
+ "words": [
+  {
+   "word": "Could",
+   "start": 0.0,
+   "end": 0.26,
+   "p": 0.967
+  },
+  {
+   "word": "Japan",
+   "start": 0.26,
+   "end": 0.74,
+   "p": 0.995
+  },
+  {
+   "word": "have",
+   "start": 0.74,
+   "end": 1.04,
+   "p": 0.994
+  },
+  {
+   "word": "taken",
+   "start": 1.04,
+   "end": 1.4,
+   "p": 0.998
+  },
+  {
+   "word": "cities?",
+   "start": 1.4,
+   "end": 1.9,
+   "p": 0.996
+  },
+  {
+   "word": "Possibly,",
+   "start": 2.72,
+   "end": 3.04,
+   "p": 0.996
+  },
+  {
+   "word": "for",
+   "start": 3.38,
+   "end": 3.68,
+   "p": 0.998
+  },
+  {
+   "word": "a",
+   "start": 3.68,
+   "end": 3.84,
+   "p": 0.997
+  },
+  {
+   "word": "time.",
+   "start": 3.84,
+   "end": 4.16,
+   "p": 0.999
+  },
+  {
+   "word": "And",
+   "start": 4.74,
+   "end": 4.88,
+   "p": 0.977
+  },
+  {
+   "word": "the",
+   "start": 4.88,
+   "end": 5.02,
+   "p": 0.986
+  },
+  {
+   "word": "cost",
+   "start": 5.02,
+   "end": 5.3,
+   "p": 0.982
+  },
+  {
+   "word": "for",
+   "start": 5.3,
+   "end": 5.62,
+   "p": 0.991
+  },
+  {
+   "word": "Australian",
+   "start": 5.62,
+   "end": 6.08,
+   "p": 0.975
+  },
+  {
+   "word": "civilians",
+   "start": 6.08,
+   "end": 6.6,
+   "p": 0.983
+  },
+  {
+   "word": "could",
+   "start": 6.6,
+   "end": 6.96,
+   "p": 0.996
+  },
+  {
+   "word": "have",
+   "start": 6.96,
+   "end": 7.08,
+   "p": 0.919
+  },
+  {
+   "word": "been",
+   "start": 7.08,
+   "end": 7.24,
+   "p": 0.999
+  },
+  {
+   "word": "terrible.",
+   "start": 7.24,
+   "end": 7.68,
+   "p": 0.998
+  },
+  {
+   "word": "Across",
+   "start": 8.6,
+   "end": 8.68,
+   "p": 0.996
+  },
+  {
+   "word": "Asia,",
+   "start": 8.68,
+   "end": 9.18,
+   "p": 0.997
+  },
+  {
+   "word": "people",
+   "start": 9.68,
+   "end": 9.84,
+   "p": 0.997
+  },
+  {
+   "word": "living",
+   "start": 9.84,
+   "end": 10.18,
+   "p": 0.999
+  },
+  {
+   "word": "under",
+   "start": 10.18,
+   "end": 10.52,
+   "p": 0.997
+  },
+  {
+   "word": "Japanese",
+   "start": 10.52,
+   "end": 11.04,
+   "p": 0.997
+  },
+  {
+   "word": "occupation",
+   "start": 11.04,
+   "end": 11.64,
+   "p": 0.762
+  },
+  {
+   "word": "suffered",
+   "start": 11.64,
+   "end": 12.18,
+   "p": 0.992
+  },
+  {
+   "word": "enormously.",
+   "start": 12.18,
+   "end": 12.92,
+   "p": 0.975
+  }
+ ]
+}

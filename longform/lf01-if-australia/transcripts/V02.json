@@ -1,0 +1,139 @@
+{
+ "id": "V02",
+ "model": "small.en",
+ "text": "This isn't a myth. The idea was real, and Japan's top commanders argued about it for weeks. And then... it was rejected.",
+ "words": [
+  {
+   "word": "This",
+   "start": 0.0,
+   "end": 0.22,
+   "p": 0.917
+  },
+  {
+   "word": "isn't",
+   "start": 0.22,
+   "end": 0.5,
+   "p": 0.982
+  },
+  {
+   "word": "a",
+   "start": 0.5,
+   "end": 0.62,
+   "p": 0.993
+  },
+  {
+   "word": "myth.",
+   "start": 0.62,
+   "end": 0.86,
+   "p": 0.99
+  },
+  {
+   "word": "The",
+   "start": 1.4,
+   "end": 1.4,
+   "p": 0.98
+  },
+  {
+   "word": "idea",
+   "start": 1.4,
+   "end": 1.7,
+   "p": 0.995
+  },
+  {
+   "word": "was",
+   "start": 1.7,
+   "end": 1.96,
+   "p": 0.997
+  },
+  {
+   "word": "real,",
+   "start": 1.96,
+   "end": 2.32,
+   "p": 0.996
+  },
+  {
+   "word": "and",
+   "start": 2.64,
+   "end": 2.7,
+   "p": 0.986
+  },
+  {
+   "word": "Japan's",
+   "start": 2.7,
+   "end": 3.22,
+   "p": 0.98
+  },
+  {
+   "word": "top",
+   "start": 3.22,
+   "end": 3.46,
+   "p": 0.977
+  },
+  {
+   "word": "commanders",
+   "start": 3.46,
+   "end": 3.94,
+   "p": 0.978
+  },
+  {
+   "word": "argued",
+   "start": 3.94,
+   "end": 4.46,
+   "p": 0.995
+  },
+  {
+   "word": "about",
+   "start": 4.46,
+   "end": 4.8,
+   "p": 0.983
+  },
+  {
+   "word": "it",
+   "start": 4.8,
+   "end": 4.94,
+   "p": 0.993
+  },
+  {
+   "word": "for",
+   "start": 4.94,
+   "end": 5.12,
+   "p": 0.997
+  },
+  {
+   "word": "weeks.",
+   "start": 5.12,
+   "end": 5.44,
+   "p": 0.998
+  },
+  {
+   "word": "And",
+   "start": 6.32,
+   "end": 6.48,
+   "p": 0.974
+  },
+  {
+   "word": "then...",
+   "start": 6.48,
+   "end": 8.22,
+   "p": 0.682
+  },
+  {
+   "word": "it",
+   "start": 8.22,
+   "end": 8.48,
+   "p": 0.512
+  },
+  {
+   "word": "was",
+   "start": 8.48,
+   "end": 8.88,
+   "p": 0.998
+  },
+  {
+   "word": "rejected.",
+   "start": 8.88,
+   "end": 9.58,
+   "p": 0.964
+  }
+ ]
+}

@@ -1,0 +1,211 @@
+{
+ "id": "V11",
+ "model": "small.en",
+ "text": "On the fourth of March, nineteen forty-two, the decision is made. No invasion. Japan will try something else instead. We'll get to that. But first, what if the admirals had won the argument?",
+ "words": [
+  {
+   "word": "On",
+   "start": 0.0,
+   "end": 0.3,
+   "p": 0.806
+  },
+  {
+   "word": "the",
+   "start": 0.3,
+   "end": 0.5,
+   "p": 0.916
+  },
+  {
+   "word": "fourth",
+   "start": 0.5,
+   "end": 0.96,
+   "p": 0.065
+  },
+  {
+   "word": "of",
+   "start": 0.96,
+   "end": 1.52,
+   "p": 0.982
+  },
+  {
+   "word": "March,",
+   "start": 1.52,
+   "end": 1.98,
+   "p": 0.82
+  },
+  {
+   "word": "nineteen",
+   "start": 2.72,
+   "end": 2.8,
+   "p": 0.002
+  },
+  {
+   "word": "forty",
+   "start": 2.8,
+   "end": 3.56,
+   "p": 0.854
+  },
+  {
+   "word": "-two,",
+   "start": 3.56,
+   "end": 4.02,
+   "p": 0.677
+  },
+  {
+   "word": "the",
+   "start": 4.38,
+   "end": 4.64,
+   "p": 0.986
+  },
+  {
+   "word": "decision",
+   "start": 4.64,
+   "end": 5.08,
+   "p": 0.991
+  },
+  {
+   "word": "is",
+   "start": 5.08,
+   "end": 5.54,
+   "p": 0.988
+  },
+  {
+   "word": "made.",
+   "start": 5.54,
+   "end": 5.98,
+   "p": 0.998
+  },
+  {
+   "word": "No",
+   "start": 7.18,
+   "end": 7.34,
+   "p": 0.982
+  },
+  {
+   "word": "invasion.",
+   "start": 7.34,
+   "end": 7.74,
+   "p": 0.953
+  },
+  {
+   "word": "Japan",
+   "start": 8.88,
+   "end": 9.14,
+   "p": 0.992
+  },
+  {
+   "word": "will",
+   "start": 9.14,
+   "end": 9.4,
+   "p": 0.993
+  },
+  {
+   "word": "try",
+   "start": 9.4,
+   "end": 9.66,
+   "p": 0.998
+  },
+  {
+   "word": "something",
+   "start": 9.66,
+   "end": 10.02,
+   "p": 0.994
+  },
+  {
+   "word": "else",
+   "start": 10.02,
+   "end": 10.3,
+   "p": 0.997
+  },
+  {
+   "word": "instead.",
+   "start": 10.3,
+   "end": 10.78,
+   "p": 0.972
+  },
+  {
+   "word": "We'll",
+   "start": 12.54,
+   "end": 12.82,
+   "p": 0.963
+  },
+  {
+   "word": "get",
+   "start": 12.82,
+   "end": 12.96,
+   "p": 0.998
+  },
+  {
+   "word": "to",
+   "start": 12.96,
+   "end": 13.14,
+   "p": 0.994
+  },
+  {
+   "word": "that.",
+   "start": 13.14,
+   "end": 13.42,
+   "p": 0.996
+  },
+  {
+   "word": "But",
+   "start": 13.84,
+   "end": 13.92,
+   "p": 0.97
+  },
+  {
+   "word": "first,",
+   "start": 13.92,
+   "end": 14.24,
+   "p": 0.979
+  },
+  {
+   "word": "what",
+   "start": 14.8,
+   "end": 15.0,
+   "p": 0.98
+  },
+  {
+   "word": "if",
+   "start": 15.0,
+   "end": 15.14,
+   "p": 0.995
+  },
+  {
+   "word": "the",
+   "start": 15.14,
+   "end": 15.3,
+   "p": 0.989
+  },
+  {
+   "word": "admirals",
+   "start": 15.3,
+   "end": 15.88,
+   "p": 0.841
+  },
+  {
+   "word": "had",
+   "start": 15.88,
+   "end": 16.06,
+   "p": 0.969
+  },
+  {
+   "word": "won",
+   "start": 16.06,
+   "end": 16.34,
+   "p": 0.991
+  },
+  {
+   "word": "the",
+   "start": 16.34,
+   "end": 16.56,
+   "p": 0.994
+  },
+  {
+   "word": "argument?",
+   "start": 16.56,
+   "end": 16.92,
+   "p": 0.983
+  }
+ ]
+}

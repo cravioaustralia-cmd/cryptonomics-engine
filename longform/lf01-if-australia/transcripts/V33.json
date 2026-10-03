@@ -1,0 +1,355 @@
+{
+ "id": "V33",
+ "model": "small.en",
+ "text": "Australia launched one of the biggest immigration programs in the world. Millions of people arrived over the following decades, first from Britain and Europe, and later from almost everywhere. So in a strange way, the invasion that never happened helped build the Australia we know today, its alliances, its cities, and the mix of people who live there.",
+ "words": [
+  {
+   "word": "Australia",
+   "start": 0.0,
+   "end": 0.6,
+   "p": 0.981
+  },
+  {
+   "word": "launched",
+   "start": 0.6,
+   "end": 1.06,
+   "p": 0.997
+  },
+  {
+   "word": "one",
+   "start": 1.06,
+   "end": 1.34,
+   "p": 0.992
+  },
+  {
+   "word": "of",
+   "start": 1.34,
+   "end": 1.46,
+   "p": 0.997
+  },
+  {
+   "word": "the",
+   "start": 1.46,
+   "end": 1.58,
+   "p": 0.999
+  },
+  {
+   "word": "biggest",
+   "start": 1.58,
+   "end": 1.98,
+   "p": 0.997
+  },
+  {
+   "word": "immigration",
+   "start": 1.98,
+   "end": 2.58,
+   "p": 0.996
+  },
+  {
+   "word": "programs",
+   "start": 2.58,
+   "end": 3.04,
+   "p": 0.974
+  },
+  {
+   "word": "in",
+   "start": 3.04,
+   "end": 3.44,
+   "p": 0.997
+  },
+  {
+   "word": "the",
+   "start": 3.44,
+   "end": 3.54,
+   "p": 0.999
+  },
+  {
+   "word": "world.",
+   "start": 3.54,
+   "end": 3.92,
+   "p": 0.999
+  },
+  {
+   "word": "Millions",
+   "start": 4.86,
+   "end": 4.86,
+   "p": 0.989
+  },
+  {
+   "word": "of",
+   "start": 4.86,
+   "end": 5.14,
+   "p": 0.999
+  },
+  {
+   "word": "people",
+   "start": 5.14,
+   "end": 5.42,
+   "p": 0.999
+  },
+  {
+   "word": "arrived",
+   "start": 5.42,
+   "end": 5.94,
+   "p": 0.99
+  },
+  {
+   "word": "over",
+   "start": 5.94,
+   "end": 6.34,
+   "p": 0.997
+  },
+  {
+   "word": "the",
+   "start": 6.34,
+   "end": 6.5,
+   "p": 0.999
+  },
+  {
+   "word": "following",
+   "start": 6.5,
+   "end": 6.86,
+   "p": 0.999
+  },
+  {
+   "word": "decades,",
+   "start": 6.86,
+   "end": 7.54,
+   "p": 0.994
+  },
+  {
+   "word": "first",
+   "start": 7.88,
+   "end": 8.22,
+   "p": 0.992
+  },
+  {
+   "word": "from",
+   "start": 8.22,
+   "end": 8.54,
+   "p": 0.986
+  },
+  {
+   "word": "Britain",
+   "start": 8.54,
+   "end": 8.82,
+   "p": 0.999
+  },
+  {
+   "word": "and",
+   "start": 8.82,
+   "end": 9.24,
+   "p": 0.983
+  },
+  {
+   "word": "Europe,",
+   "start": 9.24,
+   "end": 9.58,
+   "p": 0.998
+  },
+  {
+   "word": "and",
+   "start": 10.02,
+   "end": 10.14,
+   "p": 0.998
+  },
+  {
+   "word": "later",
+   "start": 10.14,
+   "end": 10.38,
+   "p": 0.997
+  },
+  {
+   "word": "from",
+   "start": 10.38,
+   "end": 10.68,
+   "p": 0.959
+  },
+  {
+   "word": "almost",
+   "start": 10.68,
+   "end": 11.08,
+   "p": 0.997
+  },
+  {
+   "word": "everywhere.",
+   "start": 11.08,
+   "end": 11.82,
+   "p": 0.998
+  },
+  {
+   "word": "So",
+   "start": 12.68,
+   "end": 12.82,
+   "p": 0.973
+  },
+  {
+   "word": "in",
+   "start": 12.82,
+   "end": 12.94,
+   "p": 0.777
+  },
+  {
+   "word": "a",
+   "start": 12.94,
+   "end": 13.08,
+   "p": 0.999
+  },
+  {
+   "word": "strange",
+   "start": 13.08,
+   "end": 13.38,
+   "p": 0.998
+  },
+  {
+   "word": "way,",
+   "start": 13.38,
+   "end": 13.92,
+   "p": 0.999
+  },
+  {
+   "word": "the",
+   "start": 14.3,
+   "end": 14.46,
+   "p": 0.993
+  },
+  {
+   "word": "invasion",
+   "start": 14.46,
+   "end": 14.94,
+   "p": 0.995
+  },
+  {
+   "word": "that",
+   "start": 14.94,
+   "end": 15.26,
+   "p": 0.999
+  },
+  {
+   "word": "never",
+   "start": 15.26,
+   "end": 15.62,
+   "p": 0.999
+  },
+  {
+   "word": "happened",
+   "start": 15.62,
+   "end": 16.18,
+   "p": 0.999
+  },
+  {
+   "word": "helped",
+   "start": 16.18,
+   "end": 16.52,
+   "p": 0.967
+  },
+  {
+   "word": "build",
+   "start": 16.52,
+   "end": 16.94,
+   "p": 0.993
+  },
+  {
+   "word": "the",
+   "start": 16.94,
+   "end": 17.16,
+   "p": 0.99
+  },
+  {
+   "word": "Australia",
+   "start": 17.16,
+   "end": 17.66,
+   "p": 0.993
+  },
+  {
+   "word": "we",
+   "start": 17.66,
+   "end": 17.98,
+   "p": 0.992
+  },
+  {
+   "word": "know",
+   "start": 17.98,
+   "end": 18.2,
+   "p": 0.996
+  },
+  {
+   "word": "today,",
+   "start": 18.2,
+   "end": 18.7,
+   "p": 0.997
+  },
+  {
+   "word": "its",
+   "start": 19.1,
+   "end": 19.32,
+   "p": 0.942
+  },
+  {
+   "word": "alliances,",
+   "start": 19.32,
+   "end": 19.92,
+   "p": 0.993
+  },
+  {
+   "word": "its",
+   "start": 20.42,
+   "end": 20.52,
+   "p": 0.983
+  },
+  {
+   "word": "cities,",
+   "start": 20.52,
+   "end": 20.94,
+   "p": 0.999
+  },
+  {
+   "word": "and",
+   "start": 21.38,
+   "end": 21.6,
+   "p": 0.999
+  },
+  {
+   "word": "the",
+   "start": 21.6,
+   "end": 21.72,
+   "p": 0.998
+  },
+  {
+   "word": "mix",
+   "start": 21.72,
+   "end": 21.96,
+   "p": 0.998
+  },
+  {
+   "word": "of",
+   "start": 21.96,
+   "end": 22.2,
+   "p": 0.999
+  },
+  {
+   "word": "people",
+   "start": 22.2,
+   "end": 22.52,
+   "p": 0.999
+  },
+  {
+   "word": "who",
+   "start": 22.52,
+   "end": 22.76,
+   "p": 0.996
+  },
+  {
+   "word": "live",
+   "start": 22.76,
+   "end": 22.94,
+   "p": 0.969
+  },
+  {
+   "word": "there.",
+   "start": 22.94,
+   "end": 23.26,
+   "p": 0.997
+  }
+ ]
+}

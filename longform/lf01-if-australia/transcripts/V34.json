@@ -1,0 +1,367 @@
+{
+ "id": "V34",
+ "model": "small.en",
+ "text": "Australia's history is full of moments like this, where one decision could have changed everything. Tell me in the comments which what if you want to see next. And if you enjoyed playing out history with us, a like helps this series reach more people. Follow along... because Australia came closer to a different future more often than you'd think.",
+ "words": [
+  {
+   "word": "Australia's",
+   "start": 0.0,
+   "end": 0.82,
+   "p": 0.978
+  },
+  {
+   "word": "history",
+   "start": 0.82,
+   "end": 1.16,
+   "p": 0.991
+  },
+  {
+   "word": "is",
+   "start": 1.16,
+   "end": 1.44,
+   "p": 0.997
+  },
+  {
+   "word": "full",
+   "start": 1.44,
+   "end": 1.8,
+   "p": 0.994
+  },
+  {
+   "word": "of",
+   "start": 1.8,
+   "end": 2.06,
+   "p": 0.999
+  },
+  {
+   "word": "moments",
+   "start": 2.06,
+   "end": 2.4,
+   "p": 0.996
+  },
+  {
+   "word": "like",
+   "start": 2.4,
+   "end": 2.74,
+   "p": 0.997
+  },
+  {
+   "word": "this,",
+   "start": 2.74,
+   "end": 3.18,
+   "p": 0.998
+  },
+  {
+   "word": "where",
+   "start": 3.34,
+   "end": 3.68,
+   "p": 0.989
+  },
+  {
+   "word": "one",
+   "start": 3.68,
+   "end": 4.04,
+   "p": 0.996
+  },
+  {
+   "word": "decision",
+   "start": 4.04,
+   "end": 4.5,
+   "p": 0.997
+  },
+  {
+   "word": "could",
+   "start": 4.5,
+   "end": 4.84,
+   "p": 0.998
+  },
+  {
+   "word": "have",
+   "start": 4.84,
+   "end": 4.98,
+   "p": 0.748
+  },
+  {
+   "word": "changed",
+   "start": 4.98,
+   "end": 5.36,
+   "p": 0.995
+  },
+  {
+   "word": "everything.",
+   "start": 5.36,
+   "end": 6.02,
+   "p": 0.998
+  },
+  {
+   "word": "Tell",
+   "start": 6.74,
+   "end": 6.86,
+   "p": 0.995
+  },
+  {
+   "word": "me",
+   "start": 6.86,
+   "end": 7.04,
+   "p": 0.999
+  },
+  {
+   "word": "in",
+   "start": 7.04,
+   "end": 7.14,
+   "p": 0.995
+  },
+  {
+   "word": "the",
+   "start": 7.14,
+   "end": 7.28,
+   "p": 0.998
+  },
+  {
+   "word": "comments",
+   "start": 7.28,
+   "end": 7.66,
+   "p": 0.997
+  },
+  {
+   "word": "which",
+   "start": 7.66,
+   "end": 8.1,
+   "p": 0.855
+  },
+  {
+   "word": "what",
+   "start": 8.1,
+   "end": 8.52,
+   "p": 0.084
+  },
+  {
+   "word": "if",
+   "start": 8.52,
+   "end": 8.74,
+   "p": 0.428
+  },
+  {
+   "word": "you",
+   "start": 8.74,
+   "end": 9.18,
+   "p": 0.937
+  },
+  {
+   "word": "want",
+   "start": 9.18,
+   "end": 9.36,
+   "p": 0.996
+  },
+  {
+   "word": "to",
+   "start": 9.36,
+   "end": 9.56,
+   "p": 0.998
+  },
+  {
+   "word": "see",
+   "start": 9.56,
+   "end": 9.76,
+   "p": 0.999
+  },
+  {
+   "word": "next.",
+   "start": 9.76,
+   "end": 10.16,
+   "p": 0.997
+  },
+  {
+   "word": "And",
+   "start": 11.16,
+   "end": 11.42,
+   "p": 0.958
+  },
+  {
+   "word": "if",
+   "start": 11.42,
+   "end": 11.56,
+   "p": 0.966
+  },
+  {
+   "word": "you",
+   "start": 11.56,
+   "end": 11.74,
+   "p": 0.998
+  },
+  {
+   "word": "enjoyed",
+   "start": 11.74,
+   "end": 12.16,
+   "p": 0.996
+  },
+  {
+   "word": "playing",
+   "start": 12.16,
+   "end": 12.48,
+   "p": 0.995
+  },
+  {
+   "word": "out",
+   "start": 12.48,
+   "end": 12.76,
+   "p": 0.829
+  },
+  {
+   "word": "history",
+   "start": 12.76,
+   "end": 13.16,
+   "p": 0.988
+  },
+  {
+   "word": "with",
+   "start": 13.16,
+   "end": 13.44,
+   "p": 0.997
+  },
+  {
+   "word": "us,",
+   "start": 13.44,
+   "end": 13.76,
+   "p": 0.999
+  },
+  {
+   "word": "a",
+   "start": 14.3,
+   "end": 14.32,
+   "p": 0.969
+  },
+  {
+   "word": "like",
+   "start": 14.32,
+   "end": 14.62,
+   "p": 0.915
+  },
+  {
+   "word": "helps",
+   "start": 14.62,
+   "end": 15.0,
+   "p": 0.995
+  },
+  {
+   "word": "this",
+   "start": 15.0,
+   "end": 15.28,
+   "p": 0.972
+  },
+  {
+   "word": "series",
+   "start": 15.28,
+   "end": 15.6,
+   "p": 0.999
+  },
+  {
+   "word": "reach",
+   "start": 15.6,
+   "end": 15.92,
+   "p": 0.998
+  },
+  {
+   "word": "more",
+   "start": 15.92,
+   "end": 16.22,
+   "p": 0.999
+  },
+  {
+   "word": "people.",
+   "start": 16.22,
+   "end": 16.58,
+   "p": 0.999
+  },
+  {
+   "word": "Follow",
+   "start": 17.4,
+   "end": 17.58,
+   "p": 0.997
+  },
+  {
+   "word": "along...",
+   "start": 17.58,
+   "end": 18.58,
+   "p": 0.499
+  },
+  {
+   "word": "because",
+   "start": 18.58,
+   "end": 18.74,
+   "p": 0.509
+  },
+  {
+   "word": "Australia",
+   "start": 18.74,
+   "end": 19.28,
+   "p": 0.992
+  },
+  {
+   "word": "came",
+   "start": 19.28,
+   "end": 19.66,
+   "p": 0.996
+  },
+  {
+   "word": "closer",
+   "start": 19.66,
+   "end": 20.06,
+   "p": 0.998
+  },
+  {
+   "word": "to",
+   "start": 20.06,
+   "end": 20.4,
+   "p": 0.999
+  },
+  {
+   "word": "a",
+   "start": 20.4,
+   "end": 20.54,
+   "p": 0.998
+  },
+  {
+   "word": "different",
+   "start": 20.54,
+   "end": 20.86,
+   "p": 0.998
+  },
+  {
+   "word": "future",
+   "start": 20.86,
+   "end": 21.32,
+   "p": 0.998
+  },
+  {
+   "word": "more",
+   "start": 21.32,
+   "end": 21.66,
+   "p": 0.974
+  },
+  {
+   "word": "often",
+   "start": 21.66,
+   "end": 22.08,
+   "p": 0.998
+  },
+  {
+   "word": "than",
+   "start": 22.08,
+   "end": 22.26,
+   "p": 0.989
+  },
+  {
+   "word": "you'd",
+   "start": 22.26,
+   "end": 22.48,
+   "p": 0.972
+  },
+  {
+   "word": "think.",
+   "start": 22.48,
+   "end": 22.76,
+   "p": 0.999
+  }
+ ]
+}

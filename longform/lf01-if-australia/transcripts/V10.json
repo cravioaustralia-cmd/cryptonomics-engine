@@ -1,0 +1,475 @@
+{
+ "id": "V10",
+ "model": "small.en",
+ "text": "Meanwhile, in Tokyo, the argument begins. The Navy wants to strike Australia before America can turn it into a giant base. The Army says no. The Army's problem is numbers. Its planners estimate an invasion would need around ten to twelve divisions, an army of well over a hundred thousand men, and up to two million tons of shipping just to get them there. And most of Japan's army is already locked into a huge war in China.",
+ "words": [
+  {
+   "word": "Meanwhile,",
+   "start": 0.0,
+   "end": 0.6,
+   "p": 0.985
+  },
+  {
+   "word": "in",
+   "start": 1.06,
+   "end": 1.24,
+   "p": 0.991
+  },
+  {
+   "word": "Tokyo,",
+   "start": 1.24,
+   "end": 1.66,
+   "p": 0.994
+  },
+  {
+   "word": "the",
+   "start": 2.2,
+   "end": 2.24,
+   "p": 0.995
+  },
+  {
+   "word": "argument",
+   "start": 2.24,
+   "end": 2.74,
+   "p": 0.99
+  },
+  {
+   "word": "begins.",
+   "start": 2.74,
+   "end": 3.36,
+   "p": 0.993
+  },
+  {
+   "word": "The",
+   "start": 4.12,
+   "end": 4.32,
+   "p": 0.993
+  },
+  {
+   "word": "Navy",
+   "start": 4.32,
+   "end": 4.6,
+   "p": 0.601
+  },
+  {
+   "word": "wants",
+   "start": 4.6,
+   "end": 4.92,
+   "p": 0.988
+  },
+  {
+   "word": "to",
+   "start": 4.92,
+   "end": 5.16,
+   "p": 0.998
+  },
+  {
+   "word": "strike",
+   "start": 5.16,
+   "end": 5.48,
+   "p": 0.999
+  },
+  {
+   "word": "Australia",
+   "start": 5.48,
+   "end": 6.04,
+   "p": 0.991
+  },
+  {
+   "word": "before",
+   "start": 6.04,
+   "end": 6.6,
+   "p": 0.959
+  },
+  {
+   "word": "America",
+   "start": 6.6,
+   "end": 7.06,
+   "p": 0.989
+  },
+  {
+   "word": "can",
+   "start": 7.06,
+   "end": 7.38,
+   "p": 0.995
+  },
+  {
+   "word": "turn",
+   "start": 7.38,
+   "end": 7.62,
+   "p": 0.999
+  },
+  {
+   "word": "it",
+   "start": 7.62,
+   "end": 7.76,
+   "p": 0.992
+  },
+  {
+   "word": "into",
+   "start": 7.76,
+   "end": 8.04,
+   "p": 0.992
+  },
+  {
+   "word": "a",
+   "start": 8.04,
+   "end": 8.28,
+   "p": 0.988
+  },
+  {
+   "word": "giant",
+   "start": 8.28,
+   "end": 8.52,
+   "p": 0.998
+  },
+  {
+   "word": "base.",
+   "start": 8.52,
+   "end": 8.9,
+   "p": 0.995
+  },
+  {
+   "word": "The",
+   "start": 10.18,
+   "end": 10.4,
+   "p": 0.989
+  },
+  {
+   "word": "Army",
+   "start": 10.4,
+   "end": 10.68,
+   "p": 0.612
+  },
+  {
+   "word": "says",
+   "start": 10.68,
+   "end": 11.0,
+   "p": 0.992
+  },
+  {
+   "word": "no.",
+   "start": 11.0,
+   "end": 11.38,
+   "p": 0.849
+  },
+  {
+   "word": "The",
+   "start": 12.1,
+   "end": 12.26,
+   "p": 0.989
+  },
+  {
+   "word": "Army's",
+   "start": 12.26,
+   "end": 12.74,
+   "p": 0.957
+  },
+  {
+   "word": "problem",
+   "start": 12.74,
+   "end": 13.04,
+   "p": 0.996
+  },
+  {
+   "word": "is",
+   "start": 13.04,
+   "end": 13.26,
+   "p": 0.998
+  },
+  {
+   "word": "numbers.",
+   "start": 13.26,
+   "end": 13.62,
+   "p": 0.988
+  },
+  {
+   "word": "Its",
+   "start": 14.26,
+   "end": 14.42,
+   "p": 0.878
+  },
+  {
+   "word": "planners",
+   "start": 14.42,
+   "end": 14.78,
+   "p": 0.994
+  },
+  {
+   "word": "estimate",
+   "start": 14.78,
+   "end": 15.4,
+   "p": 0.995
+  },
+  {
+   "word": "an",
+   "start": 15.4,
+   "end": 15.62,
+   "p": 0.982
+  },
+  {
+   "word": "invasion",
+   "start": 15.62,
+   "end": 16.08,
+   "p": 0.995
+  },
+  {
+   "word": "would",
+   "start": 16.08,
+   "end": 16.4,
+   "p": 0.997
+  },
+  {
+   "word": "need",
+   "start": 16.4,
+   "end": 16.6,
+   "p": 0.22
+  },
+  {
+   "word": "around",
+   "start": 16.6,
+   "end": 16.9,
+   "p": 0.965
+  },
+  {
+   "word": "ten",
+   "start": 16.9,
+   "end": 17.3,
+   "p": 0.116
+  },
+  {
+   "word": "to",
+   "start": 17.3,
+   "end": 17.5,
+   "p": 0.991
+  },
+  {
+   "word": "twelve",
+   "start": 17.5,
+   "end": 17.8,
+   "p": 0.988
+  },
+  {
+   "word": "divisions,",
+   "start": 17.8,
+   "end": 18.26,
+   "p": 0.997
+  },
+  {
+   "word": "an",
+   "start": 18.86,
+   "end": 19.02,
+   "p": 0.981
+  },
+  {
+   "word": "army",
+   "start": 19.02,
+   "end": 19.34,
+   "p": 0.904
+  },
+  {
+   "word": "of",
+   "start": 19.34,
+   "end": 19.58,
+   "p": 0.995
+  },
+  {
+   "word": "well",
+   "start": 19.58,
+   "end": 19.82,
+   "p": 0.986
+  },
+  {
+   "word": "over",
+   "start": 19.82,
+   "end": 20.16,
+   "p": 0.987
+  },
+  {
+   "word": "a",
+   "start": 20.16,
+   "end": 20.28,
+   "p": 0.479
+  },
+  {
+   "word": "hundred",
+   "start": 20.28,
+   "end": 20.56,
+   "p": 0.994
+  },
+  {
+   "word": "thousand",
+   "start": 20.56,
+   "end": 20.96,
+   "p": 0.988
+  },
+  {
+   "word": "men,",
+   "start": 20.96,
+   "end": 21.26,
+   "p": 0.995
+  },
+  {
+   "word": "and",
+   "start": 21.72,
+   "end": 21.84,
+   "p": 0.995
+  },
+  {
+   "word": "up",
+   "start": 21.84,
+   "end": 21.96,
+   "p": 0.991
+  },
+  {
+   "word": "to",
+   "start": 21.96,
+   "end": 22.12,
+   "p": 0.995
+  },
+  {
+   "word": "two",
+   "start": 22.12,
+   "end": 22.4,
+   "p": 0.908
+  },
+  {
+   "word": "million",
+   "start": 22.4,
+   "end": 22.72,
+   "p": 0.981
+  },
+  {
+   "word": "tons",
+   "start": 22.72,
+   "end": 23.06,
+   "p": 0.961
+  },
+  {
+   "word": "of",
+   "start": 23.06,
+   "end": 23.28,
+   "p": 0.992
+  },
+  {
+   "word": "shipping",
+   "start": 23.28,
+   "end": 23.56,
+   "p": 0.998
+  },
+  {
+   "word": "just",
+   "start": 23.56,
+   "end": 23.94,
+   "p": 0.949
+  },
+  {
+   "word": "to",
+   "start": 23.94,
+   "end": 24.16,
+   "p": 0.999
+  },
+  {
+   "word": "get",
+   "start": 24.16,
+   "end": 24.28,
+   "p": 0.999
+  },
+  {
+   "word": "them",
+   "start": 24.28,
+   "end": 24.46,
+   "p": 0.99
+  },
+  {
+   "word": "there.",
+   "start": 24.46,
+   "end": 24.7,
+   "p": 0.993
+  },
+  {
+   "word": "And",
+   "start": 25.56,
+   "end": 25.74,
+   "p": 0.984
+  },
+  {
+   "word": "most",
+   "start": 25.74,
+   "end": 26.0,
+   "p": 0.985
+  },
+  {
+   "word": "of",
+   "start": 26.0,
+   "end": 26.2,
+   "p": 0.817
+  },
+  {
+   "word": "Japan's",
+   "start": 26.2,
+   "end": 26.7,
+   "p": 0.971
+  },
+  {
+   "word": "army",
+   "start": 26.7,
+   "end": 27.06,
+   "p": 0.847
+  },
+  {
+   "word": "is",
+   "start": 27.06,
+   "end": 27.28,
+   "p": 0.979
+  },
+  {
+   "word": "already",
+   "start": 27.28,
+   "end": 27.76,
+   "p": 0.965
+  },
+  {
+   "word": "locked",
+   "start": 27.76,
+   "end": 28.18,
+   "p": 0.992
+  },
+  {
+   "word": "into",
+   "start": 28.18,
+   "end": 28.46,
+   "p": 0.975
+  },
+  {
+   "word": "a",
+   "start": 28.46,
+   "end": 28.66,
+   "p": 0.996
+  },
+  {
+   "word": "huge",
+   "start": 28.66,
+   "end": 28.9,
+   "p": 0.994
+  },
+  {
+   "word": "war",
+   "start": 28.9,
+   "end": 29.2,
+   "p": 0.998
+  },
+  {
+   "word": "in",
+   "start": 29.2,
+   "end": 29.38,
+   "p": 0.993
+  },
+  {
+   "word": "China.",
+   "start": 29.38,
+   "end": 29.64,
+   "p": 0.988
+  }
+ ]
+}

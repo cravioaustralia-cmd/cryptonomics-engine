@@ -1,0 +1,211 @@
+{
+ "id": "V09",
+ "model": "small.en",
+ "text": "Weeks earlier, Prime Minister John Curtin had already made a choice that stunned Britain. He wrote that Australia would now look to America for help, without any guilt about its old ties to Britain.",
+ "words": [
+  {
+   "word": "Weeks",
+   "start": 0.0,
+   "end": 0.56,
+   "p": 0.805
+  },
+  {
+   "word": "earlier,",
+   "start": 0.56,
+   "end": 1.36,
+   "p": 0.996
+  },
+  {
+   "word": "Prime",
+   "start": 1.98,
+   "end": 2.12,
+   "p": 0.937
+  },
+  {
+   "word": "Minister",
+   "start": 2.12,
+   "end": 2.58,
+   "p": 0.99
+  },
+  {
+   "word": "John",
+   "start": 2.58,
+   "end": 2.98,
+   "p": 0.968
+  },
+  {
+   "word": "Curtin",
+   "start": 2.98,
+   "end": 3.48,
+   "p": 0.953
+  },
+  {
+   "word": "had",
+   "start": 3.48,
+   "end": 3.68,
+   "p": 0.994
+  },
+  {
+   "word": "already",
+   "start": 3.68,
+   "end": 4.14,
+   "p": 0.994
+  },
+  {
+   "word": "made",
+   "start": 4.14,
+   "end": 4.42,
+   "p": 0.998
+  },
+  {
+   "word": "a",
+   "start": 4.42,
+   "end": 4.66,
+   "p": 0.998
+  },
+  {
+   "word": "choice",
+   "start": 4.66,
+   "end": 4.9,
+   "p": 0.999
+  },
+  {
+   "word": "that",
+   "start": 4.9,
+   "end": 5.18,
+   "p": 0.994
+  },
+  {
+   "word": "stunned",
+   "start": 5.18,
+   "end": 5.64,
+   "p": 0.993
+  },
+  {
+   "word": "Britain.",
+   "start": 5.64,
+   "end": 6.04,
+   "p": 0.994
+  },
+  {
+   "word": "He",
+   "start": 6.74,
+   "end": 6.92,
+   "p": 0.996
+  },
+  {
+   "word": "wrote",
+   "start": 6.92,
+   "end": 7.12,
+   "p": 0.999
+  },
+  {
+   "word": "that",
+   "start": 7.12,
+   "end": 7.32,
+   "p": 0.99
+  },
+  {
+   "word": "Australia",
+   "start": 7.32,
+   "end": 7.82,
+   "p": 0.968
+  },
+  {
+   "word": "would",
+   "start": 7.82,
+   "end": 8.24,
+   "p": 0.99
+  },
+  {
+   "word": "now",
+   "start": 8.24,
+   "end": 8.52,
+   "p": 0.971
+  },
+  {
+   "word": "look",
+   "start": 8.52,
+   "end": 8.72,
+   "p": 0.993
+  },
+  {
+   "word": "to",
+   "start": 8.72,
+   "end": 8.92,
+   "p": 0.995
+  },
+  {
+   "word": "America",
+   "start": 8.92,
+   "end": 9.32,
+   "p": 0.995
+  },
+  {
+   "word": "for",
+   "start": 9.32,
+   "end": 9.6,
+   "p": 0.995
+  },
+  {
+   "word": "help,",
+   "start": 9.6,
+   "end": 9.9,
+   "p": 0.999
+  },
+  {
+   "word": "without",
+   "start": 10.16,
+   "end": 10.5,
+   "p": 0.996
+  },
+  {
+   "word": "any",
+   "start": 10.5,
+   "end": 10.9,
+   "p": 0.996
+  },
+  {
+   "word": "guilt",
+   "start": 10.9,
+   "end": 11.14,
+   "p": 0.997
+  },
+  {
+   "word": "about",
+   "start": 11.14,
+   "end": 11.4,
+   "p": 0.997
+  },
+  {
+   "word": "its",
+   "start": 11.4,
+   "end": 11.6,
+   "p": 0.984
+  },
+  {
+   "word": "old",
+   "start": 11.6,
+   "end": 11.88,
+   "p": 0.988
+  },
+  {
+   "word": "ties",
+   "start": 11.88,
+   "end": 12.18,
+   "p": 1.0
+  },
+  {
+   "word": "to",
+   "start": 12.18,
+   "end": 12.46,
+   "p": 0.998
+  },
+  {
+   "word": "Britain.",
+   "start": 12.46,
+   "end": 12.64,
+   "p": 0.998
+  }
+ ]
+}

@@ -1,0 +1,349 @@
+{
+ "id": "V04",
+ "model": "small.en",
+ "text": "Today, we're playing it out. Not as fantasy, but with real plans, real numbers, and real geography. Three versions of nineteen forty-two. A small invasion, a full invasion... and the plan Japan actually chose, which might have been the most dangerous of all. Stay for that last one. It It changes how you see Australia today.",
+ "words": [
+  {
+   "word": "Today,",
+   "start": 0.0,
+   "end": 0.4,
+   "p": 0.909
+  },
+  {
+   "word": "we're",
+   "start": 0.72,
+   "end": 0.9,
+   "p": 0.94
+  },
+  {
+   "word": "playing",
+   "start": 0.9,
+   "end": 1.14,
+   "p": 0.99
+  },
+  {
+   "word": "it",
+   "start": 1.14,
+   "end": 1.32,
+   "p": 0.995
+  },
+  {
+   "word": "out.",
+   "start": 1.32,
+   "end": 1.58,
+   "p": 0.998
+  },
+  {
+   "word": "Not",
+   "start": 2.18,
+   "end": 2.42,
+   "p": 0.994
+  },
+  {
+   "word": "as",
+   "start": 2.42,
+   "end": 2.62,
+   "p": 0.989
+  },
+  {
+   "word": "fantasy,",
+   "start": 2.62,
+   "end": 3.12,
+   "p": 0.99
+  },
+  {
+   "word": "but",
+   "start": 3.52,
+   "end": 3.72,
+   "p": 0.996
+  },
+  {
+   "word": "with",
+   "start": 3.72,
+   "end": 3.9,
+   "p": 0.995
+  },
+  {
+   "word": "real",
+   "start": 3.9,
+   "end": 4.28,
+   "p": 0.983
+  },
+  {
+   "word": "plans,",
+   "start": 4.28,
+   "end": 4.86,
+   "p": 0.997
+  },
+  {
+   "word": "real",
+   "start": 5.1,
+   "end": 5.36,
+   "p": 0.996
+  },
+  {
+   "word": "numbers,",
+   "start": 5.36,
+   "end": 5.76,
+   "p": 1.0
+  },
+  {
+   "word": "and",
+   "start": 6.12,
+   "end": 6.2,
+   "p": 0.992
+  },
+  {
+   "word": "real",
+   "start": 6.2,
+   "end": 6.54,
+   "p": 0.998
+  },
+  {
+   "word": "geography.",
+   "start": 6.54,
+   "end": 7.14,
+   "p": 0.995
+  },
+  {
+   "word": "Three",
+   "start": 8.76,
+   "end": 9.12,
+   "p": 0.939
+  },
+  {
+   "word": "versions",
+   "start": 9.12,
+   "end": 9.5,
+   "p": 0.976
+  },
+  {
+   "word": "of",
+   "start": 9.5,
+   "end": 9.76,
+   "p": 0.999
+  },
+  {
+   "word": "nineteen",
+   "start": 9.76,
+   "end": 10.02,
+   "p": 0.0
+  },
+  {
+   "word": "forty",
+   "start": 10.02,
+   "end": 10.52,
+   "p": 0.767
+  },
+  {
+   "word": "-two.",
+   "start": 10.52,
+   "end": 10.92,
+   "p": 0.745
+  },
+  {
+   "word": "A",
+   "start": 11.36,
+   "end": 11.54,
+   "p": 0.979
+  },
+  {
+   "word": "small",
+   "start": 11.54,
+   "end": 11.88,
+   "p": 0.995
+  },
+  {
+   "word": "invasion,",
+   "start": 11.88,
+   "end": 12.28,
+   "p": 0.992
+  },
+  {
+   "word": "a",
+   "start": 12.88,
+   "end": 13.06,
+   "p": 0.989
+  },
+  {
+   "word": "full",
+   "start": 13.06,
+   "end": 13.36,
+   "p": 0.997
+  },
+  {
+   "word": "invasion...",
+   "start": 13.36,
+   "end": 15.14,
+   "p": 0.519
+  },
+  {
+   "word": "and",
+   "start": 15.14,
+   "end": 15.62,
+   "p": 0.487
+  },
+  {
+   "word": "the",
+   "start": 15.62,
+   "end": 15.74,
+   "p": 0.993
+  },
+  {
+   "word": "plan",
+   "start": 15.74,
+   "end": 16.08,
+   "p": 0.971
+  },
+  {
+   "word": "Japan",
+   "start": 16.08,
+   "end": 16.46,
+   "p": 0.969
+  },
+  {
+   "word": "actually",
+   "start": 16.46,
+   "end": 17.14,
+   "p": 0.992
+  },
+  {
+   "word": "chose,",
+   "start": 17.14,
+   "end": 17.58,
+   "p": 0.98
+  },
+  {
+   "word": "which",
+   "start": 17.92,
+   "end": 18.28,
+   "p": 0.996
+  },
+  {
+   "word": "might",
+   "start": 18.28,
+   "end": 18.58,
+   "p": 0.988
+  },
+  {
+   "word": "have",
+   "start": 18.58,
+   "end": 18.78,
+   "p": 0.869
+  },
+  {
+   "word": "been",
+   "start": 18.78,
+   "end": 18.96,
+   "p": 0.996
+  },
+  {
+   "word": "the",
+   "start": 18.96,
+   "end": 19.1,
+   "p": 0.992
+  },
+  {
+   "word": "most",
+   "start": 19.1,
+   "end": 19.32,
+   "p": 0.997
+  },
+  {
+   "word": "dangerous",
+   "start": 19.32,
+   "end": 19.76,
+   "p": 0.997
+  },
+  {
+   "word": "of",
+   "start": 19.76,
+   "end": 20.04,
+   "p": 0.995
+  },
+  {
+   "word": "all.",
+   "start": 20.04,
+   "end": 20.26,
+   "p": 0.999
+  },
+  {
+   "word": "Stay",
+   "start": 21.96,
+   "end": 22.36,
+   "p": 0.988
+  },
+  {
+   "word": "for",
+   "start": 22.36,
+   "end": 22.56,
+   "p": 0.998
+  },
+  {
+   "word": "that",
+   "start": 22.56,
+   "end": 22.74,
+   "p": 0.982
+  },
+  {
+   "word": "last",
+   "start": 22.74,
+   "end": 23.0,
+   "p": 0.999
+  },
+  {
+   "word": "one.",
+   "start": 23.0,
+   "end": 23.34,
+   "p": 0.998
+  },
+  {
+   "word": "It",
+   "start": 23.8,
+   "end": 24.08,
+   "p": 0.995
+  },
+  {
+   "word": "It",
+   "start": 24.08,
+   "end": 24.14,
+   "p": 0.499
+  },
+  {
+   "word": "changes",
+   "start": 24.14,
+   "end": 24.54,
+   "p": 0.979
+  },
+  {
+   "word": "how",
+   "start": 24.54,
+   "end": 24.82,
+   "p": 0.99
+  },
+  {
+   "word": "you",
+   "start": 24.82,
+   "end": 24.98,
+   "p": 0.998
+  },
+  {
+   "word": "see",
+   "start": 24.98,
+   "end": 25.22,
+   "p": 0.992
+  },
+  {
+   "word": "Australia",
+   "start": 25.22,
+   "end": 25.78,
+   "p": 0.991
+  },
+  {
+   "word": "today.",
+   "start": 25.78,
+   "end": 26.26,
+   "p": 0.973
+  }
+ ]
+}

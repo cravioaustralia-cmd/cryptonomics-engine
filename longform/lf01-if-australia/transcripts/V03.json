@@ -1,0 +1,121 @@
+{
+ "id": "V03",
+ "model": "small.en",
+ "text": "But what if it hadn't been? What if Japan had actually sent its army across the sea to Australia?",
+ "words": [
+  {
+   "word": "But",
+   "start": 0.0,
+   "end": 0.38,
+   "p": 0.914
+  },
+  {
+   "word": "what",
+   "start": 0.38,
+   "end": 0.88,
+   "p": 0.858
+  },
+  {
+   "word": "if",
+   "start": 0.88,
+   "end": 1.24,
+   "p": 0.987
+  },
+  {
+   "word": "it",
+   "start": 1.24,
+   "end": 1.66,
+   "p": 0.962
+  },
+  {
+   "word": "hadn't",
+   "start": 1.66,
+   "end": 2.36,
+   "p": 0.971
+  },
+  {
+   "word": "been?",
+   "start": 2.36,
+   "end": 2.7,
+   "p": 0.994
+  },
+  {
+   "word": "What",
+   "start": 3.98,
+   "end": 4.24,
+   "p": 0.977
+  },
+  {
+   "word": "if",
+   "start": 4.24,
+   "end": 4.52,
+   "p": 0.99
+  },
+  {
+   "word": "Japan",
+   "start": 4.52,
+   "end": 4.9,
+   "p": 0.987
+  },
+  {
+   "word": "had",
+   "start": 4.9,
+   "end": 5.18,
+   "p": 0.97
+  },
+  {
+   "word": "actually",
+   "start": 5.18,
+   "end": 5.74,
+   "p": 0.775
+  },
+  {
+   "word": "sent",
+   "start": 5.74,
+   "end": 6.06,
+   "p": 0.996
+  },
+  {
+   "word": "its",
+   "start": 6.06,
+   "end": 6.28,
+   "p": 0.865
+  },
+  {
+   "word": "army",
+   "start": 6.28,
+   "end": 6.62,
+   "p": 0.968
+  },
+  {
+   "word": "across",
+   "start": 6.62,
+   "end": 7.04,
+   "p": 0.97
+  },
+  {
+   "word": "the",
+   "start": 7.04,
+   "end": 7.26,
+   "p": 0.994
+  },
+  {
+   "word": "sea",
+   "start": 7.26,
+   "end": 7.5,
+   "p": 0.99
+  },
+  {
+   "word": "to",
+   "start": 7.5,
+   "end": 7.74,
+   "p": 0.979
+  },
+  {
+   "word": "Australia?",
+   "start": 7.74,
+   "end": 8.14,
+   "p": 0.994
+  }
+ ]
+}

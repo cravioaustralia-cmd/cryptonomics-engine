@@ -1,0 +1,325 @@
+{
+ "id": "V14",
+ "model": "small.en",
+ "text": "Look at what lies between Darwin and the cities where most Australians live. Thousands of kilometres of desert. In nineteen forty-two, the railway from Darwin stopped at a tiny place called Birdum. The line from the south ended at Alice Springs. In between, roughly a thousand kilometres with no railway at all.",
+ "words": [
+  {
+   "word": "Look",
+   "start": 0.0,
+   "end": 0.3,
+   "p": 0.937
+  },
+  {
+   "word": "at",
+   "start": 0.3,
+   "end": 0.46,
+   "p": 0.995
+  },
+  {
+   "word": "what",
+   "start": 0.46,
+   "end": 0.68,
+   "p": 0.997
+  },
+  {
+   "word": "lies",
+   "start": 0.68,
+   "end": 1.12,
+   "p": 0.998
+  },
+  {
+   "word": "between",
+   "start": 1.12,
+   "end": 1.64,
+   "p": 0.997
+  },
+  {
+   "word": "Darwin",
+   "start": 1.64,
+   "end": 2.14,
+   "p": 0.991
+  },
+  {
+   "word": "and",
+   "start": 2.14,
+   "end": 2.48,
+   "p": 0.988
+  },
+  {
+   "word": "the",
+   "start": 2.48,
+   "end": 2.6,
+   "p": 0.995
+  },
+  {
+   "word": "cities",
+   "start": 2.6,
+   "end": 2.9,
+   "p": 0.998
+  },
+  {
+   "word": "where",
+   "start": 2.9,
+   "end": 3.28,
+   "p": 0.991
+  },
+  {
+   "word": "most",
+   "start": 3.28,
+   "end": 3.7,
+   "p": 0.997
+  },
+  {
+   "word": "Australians",
+   "start": 3.7,
+   "end": 4.24,
+   "p": 0.974
+  },
+  {
+   "word": "live.",
+   "start": 4.24,
+   "end": 4.9,
+   "p": 0.998
+  },
+  {
+   "word": "Thousands",
+   "start": 6.12,
+   "end": 6.12,
+   "p": 0.982
+  },
+  {
+   "word": "of",
+   "start": 6.12,
+   "end": 6.42,
+   "p": 0.999
+  },
+  {
+   "word": "kilometres",
+   "start": 6.42,
+   "end": 6.82,
+   "p": 0.274
+  },
+  {
+   "word": "of",
+   "start": 6.82,
+   "end": 7.2,
+   "p": 0.993
+  },
+  {
+   "word": "desert.",
+   "start": 7.2,
+   "end": 7.52,
+   "p": 0.992
+  },
+  {
+   "word": "In",
+   "start": 8.68,
+   "end": 8.84,
+   "p": 0.994
+  },
+  {
+   "word": "nineteen",
+   "start": 8.84,
+   "end": 9.1,
+   "p": 0.001
+  },
+  {
+   "word": "forty",
+   "start": 9.1,
+   "end": 9.6,
+   "p": 0.848
+  },
+  {
+   "word": "-two,",
+   "start": 9.6,
+   "end": 10.1,
+   "p": 0.699
+  },
+  {
+   "word": "the",
+   "start": 10.44,
+   "end": 10.52,
+   "p": 0.995
+  },
+  {
+   "word": "railway",
+   "start": 10.52,
+   "end": 10.9,
+   "p": 0.984
+  },
+  {
+   "word": "from",
+   "start": 10.9,
+   "end": 11.26,
+   "p": 0.997
+  },
+  {
+   "word": "Darwin",
+   "start": 11.26,
+   "end": 11.76,
+   "p": 0.998
+  },
+  {
+   "word": "stopped",
+   "start": 11.76,
+   "end": 12.14,
+   "p": 0.985
+  },
+  {
+   "word": "at",
+   "start": 12.14,
+   "end": 12.38,
+   "p": 0.996
+  },
+  {
+   "word": "a",
+   "start": 12.38,
+   "end": 12.5,
+   "p": 0.99
+  },
+  {
+   "word": "tiny",
+   "start": 12.5,
+   "end": 12.84,
+   "p": 0.995
+  },
+  {
+   "word": "place",
+   "start": 12.84,
+   "end": 13.2,
+   "p": 0.997
+  },
+  {
+   "word": "called",
+   "start": 13.2,
+   "end": 13.6,
+   "p": 0.995
+  },
+  {
+   "word": "Birdum.",
+   "start": 13.6,
+   "end": 14.12,
+   "p": 0.061
+  },
+  {
+   "word": "The",
+   "start": 14.78,
+   "end": 14.94,
+   "p": 0.993
+  },
+  {
+   "word": "line",
+   "start": 14.94,
+   "end": 15.22,
+   "p": 0.995
+  },
+  {
+   "word": "from",
+   "start": 15.22,
+   "end": 15.48,
+   "p": 0.997
+  },
+  {
+   "word": "the",
+   "start": 15.48,
+   "end": 15.68,
+   "p": 0.995
+  },
+  {
+   "word": "south",
+   "start": 15.68,
+   "end": 15.92,
+   "p": 0.795
+  },
+  {
+   "word": "ended",
+   "start": 15.92,
+   "end": 16.34,
+   "p": 0.991
+  },
+  {
+   "word": "at",
+   "start": 16.34,
+   "end": 16.62,
+   "p": 0.992
+  },
+  {
+   "word": "Alice",
+   "start": 16.62,
+   "end": 16.94,
+   "p": 0.973
+  },
+  {
+   "word": "Springs.",
+   "start": 16.94,
+   "end": 17.38,
+   "p": 0.985
+  },
+  {
+   "word": "In",
+   "start": 18.5,
+   "end": 18.66,
+   "p": 0.993
+  },
+  {
+   "word": "between,",
+   "start": 18.66,
+   "end": 19.12,
+   "p": 0.958
+  },
+  {
+   "word": "roughly",
+   "start": 20.1,
+   "end": 20.1,
+   "p": 0.995
+  },
+  {
+   "word": "a",
+   "start": 20.1,
+   "end": 20.3,
+   "p": 0.89
+  },
+  {
+   "word": "thousand",
+   "start": 20.3,
+   "end": 20.72,
+   "p": 0.992
+  },
+  {
+   "word": "kilometres",
+   "start": 20.72,
+   "end": 21.3,
+   "p": 0.929
+  },
+  {
+   "word": "with",
+   "start": 21.3,
+   "end": 21.66,
+   "p": 0.948
+  },
+  {
+   "word": "no",
+   "start": 21.66,
+   "end": 22.04,
+   "p": 0.998
+  },
+  {
+   "word": "railway",
+   "start": 22.04,
+   "end": 22.48,
+   "p": 0.996
+  },
+  {
+   "word": "at",
+   "start": 22.48,
+   "end": 22.74,
+   "p": 0.994
+  },
+  {
+   "word": "all.",
+   "start": 22.74,
+   "end": 23.0,
+   "p": 1.0
+  }
+ ]
+}

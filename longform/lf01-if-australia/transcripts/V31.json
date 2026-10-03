@@ -1,0 +1,301 @@
+{
+ "id": "V31",
+ "model": "small.en",
+ "text": "But here's the twist. The invasion never came, and it still changed Australia forever. The fear of nineteen forty-two locked in Curtin's turn toward America. In nineteen fifty-one, Australia, New Zealand, and the United States signed the Anzus treaty, an alliance that still shapes Australia's defence today.",
+ "words": [
+  {
+   "word": "But",
+   "start": 0.0,
+   "end": 0.24,
+   "p": 0.917
+  },
+  {
+   "word": "here's",
+   "start": 0.24,
+   "end": 0.64,
+   "p": 0.952
+  },
+  {
+   "word": "the",
+   "start": 0.64,
+   "end": 0.82,
+   "p": 0.994
+  },
+  {
+   "word": "twist.",
+   "start": 0.82,
+   "end": 1.18,
+   "p": 0.996
+  },
+  {
+   "word": "The",
+   "start": 2.4,
+   "end": 2.44,
+   "p": 0.982
+  },
+  {
+   "word": "invasion",
+   "start": 2.44,
+   "end": 2.88,
+   "p": 0.989
+  },
+  {
+   "word": "never",
+   "start": 2.88,
+   "end": 3.38,
+   "p": 0.999
+  },
+  {
+   "word": "came,",
+   "start": 3.38,
+   "end": 3.86,
+   "p": 0.996
+  },
+  {
+   "word": "and",
+   "start": 4.44,
+   "end": 4.48,
+   "p": 0.995
+  },
+  {
+   "word": "it",
+   "start": 4.48,
+   "end": 4.6,
+   "p": 0.988
+  },
+  {
+   "word": "still",
+   "start": 4.6,
+   "end": 4.96,
+   "p": 0.845
+  },
+  {
+   "word": "changed",
+   "start": 4.96,
+   "end": 5.52,
+   "p": 0.997
+  },
+  {
+   "word": "Australia",
+   "start": 5.52,
+   "end": 6.1,
+   "p": 0.992
+  },
+  {
+   "word": "forever.",
+   "start": 6.1,
+   "end": 6.52,
+   "p": 0.994
+  },
+  {
+   "word": "The",
+   "start": 7.72,
+   "end": 7.8,
+   "p": 0.991
+  },
+  {
+   "word": "fear",
+   "start": 7.8,
+   "end": 8.1,
+   "p": 0.936
+  },
+  {
+   "word": "of",
+   "start": 8.1,
+   "end": 8.32,
+   "p": 0.998
+  },
+  {
+   "word": "nineteen",
+   "start": 8.32,
+   "end": 8.54,
+   "p": 0.001
+  },
+  {
+   "word": "forty",
+   "start": 8.54,
+   "end": 9.08,
+   "p": 0.825
+  },
+  {
+   "word": "-two",
+   "start": 9.08,
+   "end": 9.44,
+   "p": 0.716
+  },
+  {
+   "word": "locked",
+   "start": 9.44,
+   "end": 9.84,
+   "p": 0.975
+  },
+  {
+   "word": "in",
+   "start": 9.84,
+   "end": 10.12,
+   "p": 0.926
+  },
+  {
+   "word": "Curtin's",
+   "start": 10.12,
+   "end": 10.76,
+   "p": 0.678
+  },
+  {
+   "word": "turn",
+   "start": 10.76,
+   "end": 10.92,
+   "p": 0.978
+  },
+  {
+   "word": "toward",
+   "start": 10.92,
+   "end": 11.26,
+   "p": 0.952
+  },
+  {
+   "word": "America.",
+   "start": 11.26,
+   "end": 11.8,
+   "p": 0.997
+  },
+  {
+   "word": "In",
+   "start": 12.46,
+   "end": 12.52,
+   "p": 0.993
+  },
+  {
+   "word": "nineteen",
+   "start": 12.52,
+   "end": 12.74,
+   "p": 0.466
+  },
+  {
+   "word": "fifty",
+   "start": 12.74,
+   "end": 13.2,
+   "p": 0.953
+  },
+  {
+   "word": "-one,",
+   "start": 13.2,
+   "end": 13.72,
+   "p": 0.91
+  },
+  {
+   "word": "Australia,",
+   "start": 14.02,
+   "end": 14.58,
+   "p": 0.997
+  },
+  {
+   "word": "New",
+   "start": 14.98,
+   "end": 15.12,
+   "p": 0.998
+  },
+  {
+   "word": "Zealand,",
+   "start": 15.12,
+   "end": 15.5,
+   "p": 0.996
+  },
+  {
+   "word": "and",
+   "start": 15.76,
+   "end": 15.84,
+   "p": 0.995
+  },
+  {
+   "word": "the",
+   "start": 15.84,
+   "end": 15.96,
+   "p": 0.987
+  },
+  {
+   "word": "United",
+   "start": 15.96,
+   "end": 16.2,
+   "p": 0.993
+  },
+  {
+   "word": "States",
+   "start": 16.2,
+   "end": 16.6,
+   "p": 0.998
+  },
+  {
+   "word": "signed",
+   "start": 16.6,
+   "end": 16.98,
+   "p": 0.969
+  },
+  {
+   "word": "the",
+   "start": 16.98,
+   "end": 17.2,
+   "p": 0.983
+  },
+  {
+   "word": "Anzus",
+   "start": 17.2,
+   "end": 17.7,
+   "p": 0.319
+  },
+  {
+   "word": "treaty,",
+   "start": 17.7,
+   "end": 18.04,
+   "p": 0.175
+  },
+  {
+   "word": "an",
+   "start": 18.66,
+   "end": 18.76,
+   "p": 0.991
+  },
+  {
+   "word": "alliance",
+   "start": 18.76,
+   "end": 19.14,
+   "p": 0.995
+  },
+  {
+   "word": "that",
+   "start": 19.14,
+   "end": 19.5,
+   "p": 0.996
+  },
+  {
+   "word": "still",
+   "start": 19.5,
+   "end": 19.84,
+   "p": 0.997
+  },
+  {
+   "word": "shapes",
+   "start": 19.84,
+   "end": 20.28,
+   "p": 0.995
+  },
+  {
+   "word": "Australia's",
+   "start": 20.28,
+   "end": 21.0,
+   "p": 0.993
+  },
+  {
+   "word": "defence",
+   "start": 21.0,
+   "end": 21.28,
+   "p": 0.114
+  },
+  {
+   "word": "today.",
+   "start": 21.28,
+   "end": 21.78,
+   "p": 0.996
+  }
+ ]
+}

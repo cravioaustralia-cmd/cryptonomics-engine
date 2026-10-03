@@ -1,0 +1,139 @@
+{
+ "id": "V32",
+ "model": "small.en",
+ "text": "And the shock of being a nearly empty continent so close to the war led to a new slogan, populate, or perish.",
+ "words": [
+  {
+   "word": "And",
+   "start": 0.0,
+   "end": 0.44,
+   "p": 0.705
+  },
+  {
+   "word": "the",
+   "start": 0.44,
+   "end": 0.68,
+   "p": 0.951
+  },
+  {
+   "word": "shock",
+   "start": 0.68,
+   "end": 1.2,
+   "p": 0.993
+  },
+  {
+   "word": "of",
+   "start": 1.2,
+   "end": 1.72,
+   "p": 0.994
+  },
+  {
+   "word": "being",
+   "start": 1.72,
+   "end": 2.14,
+   "p": 0.995
+  },
+  {
+   "word": "a",
+   "start": 2.14,
+   "end": 2.48,
+   "p": 0.98
+  },
+  {
+   "word": "nearly",
+   "start": 2.48,
+   "end": 3.0,
+   "p": 0.996
+  },
+  {
+   "word": "empty",
+   "start": 3.0,
+   "end": 3.54,
+   "p": 0.972
+  },
+  {
+   "word": "continent",
+   "start": 3.54,
+   "end": 4.14,
+   "p": 0.985
+  },
+  {
+   "word": "so",
+   "start": 4.14,
+   "end": 5.0,
+   "p": 0.896
+  },
+  {
+   "word": "close",
+   "start": 5.0,
+   "end": 5.38,
+   "p": 0.998
+  },
+  {
+   "word": "to",
+   "start": 5.38,
+   "end": 5.6,
+   "p": 0.998
+  },
+  {
+   "word": "the",
+   "start": 5.6,
+   "end": 5.76,
+   "p": 0.99
+  },
+  {
+   "word": "war",
+   "start": 5.76,
+   "end": 6.06,
+   "p": 0.986
+  },
+  {
+   "word": "led",
+   "start": 6.06,
+   "end": 6.34,
+   "p": 0.931
+  },
+  {
+   "word": "to",
+   "start": 6.34,
+   "end": 6.62,
+   "p": 0.996
+  },
+  {
+   "word": "a",
+   "start": 6.62,
+   "end": 6.76,
+   "p": 0.994
+  },
+  {
+   "word": "new",
+   "start": 6.76,
+   "end": 7.0,
+   "p": 0.997
+  },
+  {
+   "word": "slogan,",
+   "start": 7.0,
+   "end": 7.46,
+   "p": 0.995
+  },
+  {
+   "word": "populate,",
+   "start": 9.04,
+   "end": 9.3,
+   "p": 0.187
+  },
+  {
+   "word": "or",
+   "start": 10.26,
+   "end": 10.32,
+   "p": 0.996
+  },
+  {
+   "word": "perish.",
+   "start": 10.32,
+   "end": 10.74,
+   "p": 0.991
+  }
+ ]
+}

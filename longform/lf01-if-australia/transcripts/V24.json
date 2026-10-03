@@ -1,0 +1,277 @@
+{
+ "id": "V24",
+ "model": "small.en",
+ "text": "But could Japan have held a continent almost the size of the mainland United States, with millions of hostile people, and America next in line? Very few historians think so. Which is exactly why Japan's generals refused to try. Instead, they went with plan three.",
+ "words": [
+  {
+   "word": "But",
+   "start": 0.0,
+   "end": 0.26,
+   "p": 0.83
+  },
+  {
+   "word": "could",
+   "start": 0.26,
+   "end": 0.52,
+   "p": 0.842
+  },
+  {
+   "word": "Japan",
+   "start": 0.52,
+   "end": 0.92,
+   "p": 0.979
+  },
+  {
+   "word": "have",
+   "start": 0.92,
+   "end": 1.16,
+   "p": 0.981
+  },
+  {
+   "word": "held",
+   "start": 1.16,
+   "end": 1.4,
+   "p": 0.993
+  },
+  {
+   "word": "a",
+   "start": 1.4,
+   "end": 1.54,
+   "p": 0.8
+  },
+  {
+   "word": "continent",
+   "start": 1.54,
+   "end": 2.02,
+   "p": 0.998
+  },
+  {
+   "word": "almost",
+   "start": 2.02,
+   "end": 2.48,
+   "p": 0.952
+  },
+  {
+   "word": "the",
+   "start": 2.48,
+   "end": 2.76,
+   "p": 0.997
+  },
+  {
+   "word": "size",
+   "start": 2.76,
+   "end": 3.02,
+   "p": 0.974
+  },
+  {
+   "word": "of",
+   "start": 3.02,
+   "end": 3.2,
+   "p": 0.998
+  },
+  {
+   "word": "the",
+   "start": 3.2,
+   "end": 3.34,
+   "p": 0.983
+  },
+  {
+   "word": "mainland",
+   "start": 3.34,
+   "end": 3.72,
+   "p": 0.819
+  },
+  {
+   "word": "United",
+   "start": 3.72,
+   "end": 4.12,
+   "p": 0.894
+  },
+  {
+   "word": "States,",
+   "start": 4.12,
+   "end": 4.64,
+   "p": 0.992
+  },
+  {
+   "word": "with",
+   "start": 5.12,
+   "end": 5.28,
+   "p": 0.987
+  },
+  {
+   "word": "millions",
+   "start": 5.28,
+   "end": 5.74,
+   "p": 0.992
+  },
+  {
+   "word": "of",
+   "start": 5.74,
+   "end": 6.0,
+   "p": 0.994
+  },
+  {
+   "word": "hostile",
+   "start": 6.0,
+   "end": 6.42,
+   "p": 0.997
+  },
+  {
+   "word": "people,",
+   "start": 6.42,
+   "end": 6.9,
+   "p": 0.981
+  },
+  {
+   "word": "and",
+   "start": 7.32,
+   "end": 7.46,
+   "p": 0.978
+  },
+  {
+   "word": "America",
+   "start": 7.46,
+   "end": 7.92,
+   "p": 0.987
+  },
+  {
+   "word": "next",
+   "start": 7.92,
+   "end": 8.28,
+   "p": 0.987
+  },
+  {
+   "word": "in",
+   "start": 8.28,
+   "end": 8.5,
+   "p": 0.99
+  },
+  {
+   "word": "line?",
+   "start": 8.5,
+   "end": 8.8,
+   "p": 0.994
+  },
+  {
+   "word": "Very",
+   "start": 10.12,
+   "end": 10.52,
+   "p": 0.985
+  },
+  {
+   "word": "few",
+   "start": 10.52,
+   "end": 10.78,
+   "p": 0.999
+  },
+  {
+   "word": "historians",
+   "start": 10.78,
+   "end": 11.18,
+   "p": 0.996
+  },
+  {
+   "word": "think",
+   "start": 11.18,
+   "end": 11.64,
+   "p": 0.992
+  },
+  {
+   "word": "so.",
+   "start": 11.64,
+   "end": 12.0,
+   "p": 0.996
+  },
+  {
+   "word": "Which",
+   "start": 12.78,
+   "end": 13.0,
+   "p": 0.977
+  },
+  {
+   "word": "is",
+   "start": 13.0,
+   "end": 13.16,
+   "p": 0.993
+  },
+  {
+   "word": "exactly",
+   "start": 13.16,
+   "end": 13.68,
+   "p": 0.972
+  },
+  {
+   "word": "why",
+   "start": 13.68,
+   "end": 14.14,
+   "p": 0.995
+  },
+  {
+   "word": "Japan's",
+   "start": 14.14,
+   "end": 14.78,
+   "p": 0.976
+  },
+  {
+   "word": "generals",
+   "start": 14.78,
+   "end": 15.06,
+   "p": 0.938
+  },
+  {
+   "word": "refused",
+   "start": 15.06,
+   "end": 15.66,
+   "p": 0.88
+  },
+  {
+   "word": "to",
+   "start": 15.66,
+   "end": 15.96,
+   "p": 0.999
+  },
+  {
+   "word": "try.",
+   "start": 15.96,
+   "end": 16.3,
+   "p": 0.998
+  },
+  {
+   "word": "Instead,",
+   "start": 16.86,
+   "end": 17.24,
+   "p": 0.996
+  },
+  {
+   "word": "they",
+   "start": 17.56,
+   "end": 17.68,
+   "p": 0.995
+  },
+  {
+   "word": "went",
+   "start": 17.68,
+   "end": 17.86,
+   "p": 0.998
+  },
+  {
+   "word": "with",
+   "start": 17.86,
+   "end": 18.12,
+   "p": 0.997
+  },
+  {
+   "word": "plan",
+   "start": 18.12,
+   "end": 18.34,
+   "p": 0.609
+  },
+  {
+   "word": "three.",
+   "start": 18.34,
+   "end": 18.78,
+   "p": 0.254
+  }
+ ]
+}

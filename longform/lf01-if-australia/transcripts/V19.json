@@ -1,0 +1,61 @@
+{
+ "id": "V19",
+ "model": "small.en",
+ "text": "Scenario two. Forget the north. Japan goes all in.",
+ "words": [
+  {
+   "word": "Scenario",
+   "start": 0.0,
+   "end": 0.86,
+   "p": 0.889
+  },
+  {
+   "word": "two.",
+   "start": 0.86,
+   "end": 1.68,
+   "p": 0.301
+  },
+  {
+   "word": "Forget",
+   "start": 2.76,
+   "end": 3.1,
+   "p": 0.921
+  },
+  {
+   "word": "the",
+   "start": 3.1,
+   "end": 3.5,
+   "p": 0.995
+  },
+  {
+   "word": "north.",
+   "start": 3.5,
+   "end": 3.88,
+   "p": 0.428
+  },
+  {
+   "word": "Japan",
+   "start": 5.32,
+   "end": 5.68,
+   "p": 0.995
+  },
+  {
+   "word": "goes",
+   "start": 5.68,
+   "end": 6.1,
+   "p": 0.993
+  },
+  {
+   "word": "all",
+   "start": 6.1,
+   "end": 6.6,
+   "p": 0.989
+  },
+  {
+   "word": "in.",
+   "start": 6.6,
+   "end": 6.98,
+   "p": 0.694
+  }
+ ]
+}

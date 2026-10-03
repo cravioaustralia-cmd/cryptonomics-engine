@@ -1,0 +1,337 @@
+{
+ "id": "V17",
+ "model": "small.en",
+ "text": "And the north wasn't empty. It was home to Aboriginal communities who knew that country better than anyone. On the day Darwin was bombed, a Japanese pilot crash-landed on Melville Island. He was captured by a Tiwi man, Matthias Ulungura. It's widely seen as the first Japanese prisoner of war taken on Australian soil.",
+ "words": [
+  {
+   "word": "And",
+   "start": 0.0,
+   "end": 0.28,
+   "p": 0.671
+  },
+  {
+   "word": "the",
+   "start": 0.28,
+   "end": 0.48,
+   "p": 0.969
+  },
+  {
+   "word": "north",
+   "start": 0.48,
+   "end": 0.86,
+   "p": 0.511
+  },
+  {
+   "word": "wasn't",
+   "start": 0.86,
+   "end": 1.66,
+   "p": 0.986
+  },
+  {
+   "word": "empty.",
+   "start": 1.66,
+   "end": 2.04,
+   "p": 0.999
+  },
+  {
+   "word": "It",
+   "start": 2.64,
+   "end": 2.74,
+   "p": 0.994
+  },
+  {
+   "word": "was",
+   "start": 2.74,
+   "end": 2.9,
+   "p": 0.999
+  },
+  {
+   "word": "home",
+   "start": 2.9,
+   "end": 3.24,
+   "p": 0.995
+  },
+  {
+   "word": "to",
+   "start": 3.24,
+   "end": 3.5,
+   "p": 0.999
+  },
+  {
+   "word": "Aboriginal",
+   "start": 3.5,
+   "end": 4.0,
+   "p": 0.619
+  },
+  {
+   "word": "communities",
+   "start": 4.0,
+   "end": 4.74,
+   "p": 0.997
+  },
+  {
+   "word": "who",
+   "start": 4.74,
+   "end": 5.28,
+   "p": 0.886
+  },
+  {
+   "word": "knew",
+   "start": 5.28,
+   "end": 5.52,
+   "p": 0.997
+  },
+  {
+   "word": "that",
+   "start": 5.52,
+   "end": 5.8,
+   "p": 0.988
+  },
+  {
+   "word": "country",
+   "start": 5.8,
+   "end": 6.14,
+   "p": 0.997
+  },
+  {
+   "word": "better",
+   "start": 6.14,
+   "end": 6.46,
+   "p": 0.999
+  },
+  {
+   "word": "than",
+   "start": 6.46,
+   "end": 6.7,
+   "p": 0.998
+  },
+  {
+   "word": "anyone.",
+   "start": 6.7,
+   "end": 7.14,
+   "p": 0.998
+  },
+  {
+   "word": "On",
+   "start": 8.76,
+   "end": 8.94,
+   "p": 0.988
+  },
+  {
+   "word": "the",
+   "start": 8.94,
+   "end": 9.1,
+   "p": 0.998
+  },
+  {
+   "word": "day",
+   "start": 9.1,
+   "end": 9.34,
+   "p": 0.995
+  },
+  {
+   "word": "Darwin",
+   "start": 9.34,
+   "end": 9.68,
+   "p": 0.972
+  },
+  {
+   "word": "was",
+   "start": 9.68,
+   "end": 10.0,
+   "p": 0.999
+  },
+  {
+   "word": "bombed,",
+   "start": 10.0,
+   "end": 10.4,
+   "p": 0.997
+  },
+  {
+   "word": "a",
+   "start": 10.94,
+   "end": 11.02,
+   "p": 0.994
+  },
+  {
+   "word": "Japanese",
+   "start": 11.02,
+   "end": 11.46,
+   "p": 0.997
+  },
+  {
+   "word": "pilot",
+   "start": 11.46,
+   "end": 12.0,
+   "p": 0.997
+  },
+  {
+   "word": "crash",
+   "start": 12.0,
+   "end": 12.46,
+   "p": 0.996
+  },
+  {
+   "word": "-landed",
+   "start": 12.46,
+   "end": 12.9,
+   "p": 0.888
+  },
+  {
+   "word": "on",
+   "start": 12.9,
+   "end": 13.04,
+   "p": 0.998
+  },
+  {
+   "word": "Melville",
+   "start": 13.04,
+   "end": 13.48,
+   "p": 0.989
+  },
+  {
+   "word": "Island.",
+   "start": 13.48,
+   "end": 13.88,
+   "p": 0.946
+  },
+  {
+   "word": "He",
+   "start": 14.44,
+   "end": 14.6,
+   "p": 0.997
+  },
+  {
+   "word": "was",
+   "start": 14.6,
+   "end": 14.74,
+   "p": 1.0
+  },
+  {
+   "word": "captured",
+   "start": 14.74,
+   "end": 15.18,
+   "p": 0.999
+  },
+  {
+   "word": "by",
+   "start": 15.18,
+   "end": 15.46,
+   "p": 0.997
+  },
+  {
+   "word": "a",
+   "start": 15.46,
+   "end": 15.68,
+   "p": 0.993
+  },
+  {
+   "word": "Tiwi",
+   "start": 15.68,
+   "end": 16.04,
+   "p": 0.824
+  },
+  {
+   "word": "man,",
+   "start": 16.04,
+   "end": 16.42,
+   "p": 0.972
+  },
+  {
+   "word": "Matthias",
+   "start": 16.88,
+   "end": 17.3,
+   "p": 0.882
+  },
+  {
+   "word": "Ulungura.",
+   "start": 17.3,
+   "end": 18.02,
+   "p": 0.516
+  },
+  {
+   "word": "It's",
+   "start": 18.82,
+   "end": 18.92,
+   "p": 0.973
+  },
+  {
+   "word": "widely",
+   "start": 18.92,
+   "end": 19.24,
+   "p": 0.998
+  },
+  {
+   "word": "seen",
+   "start": 19.24,
+   "end": 19.64,
+   "p": 0.995
+  },
+  {
+   "word": "as",
+   "start": 19.64,
+   "end": 19.82,
+   "p": 0.998
+  },
+  {
+   "word": "the",
+   "start": 19.82,
+   "end": 20.0,
+   "p": 0.996
+  },
+  {
+   "word": "first",
+   "start": 20.0,
+   "end": 20.28,
+   "p": 0.997
+  },
+  {
+   "word": "Japanese",
+   "start": 20.28,
+   "end": 20.78,
+   "p": 0.989
+  },
+  {
+   "word": "prisoner",
+   "start": 20.78,
+   "end": 21.18,
+   "p": 0.981
+  },
+  {
+   "word": "of",
+   "start": 21.18,
+   "end": 21.44,
+   "p": 0.903
+  },
+  {
+   "word": "war",
+   "start": 21.44,
+   "end": 21.66,
+   "p": 0.997
+  },
+  {
+   "word": "taken",
+   "start": 21.66,
+   "end": 21.96,
+   "p": 0.988
+  },
+  {
+   "word": "on",
+   "start": 21.96,
+   "end": 22.32,
+   "p": 0.998
+  },
+  {
+   "word": "Australian",
+   "start": 22.32,
+   "end": 22.8,
+   "p": 0.994
+  },
+  {
+   "word": "soil.",
+   "start": 22.8,
+   "end": 23.2,
+   "p": 0.994
+  }
+ ]
+}

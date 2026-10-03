@@ -15,7 +15,7 @@
 
   /* text with a parchment halo so it reads on any part of the map */
   function label(x, y, text, o = {}) {
-    const size = o.size || 26, fill = o.fill || C.ink, font = o.font || 'FellSC';
+    const size = o.size || 30, fill = o.fill || C.ink, font = o.font || 'FellSC';
     const halo = o.halo ?? 'rgba(241,230,203,0.92)', hw = o.hw ?? Math.max(3, size * 0.22);
     const anchor = o.anchor || 'middle', ls = o.ls ?? 1.2, a = o.o ?? 1;
     if (a <= 0.001) return '';

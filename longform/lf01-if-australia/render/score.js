@@ -54,7 +54,7 @@
 
   function buildScore(T, GEO) {
     const S = Object.fromEntries(T.segments.map((s) => [s.id, s]));
-    const CK = [], LK = { night: [], desat: [], warm: [], dim: [] }, ITEMS = [], BROLL = [], SFX = [], MUS = [], ANCH = [];
+    const ZT = [], CK = [], LK = { night: [], desat: [], warm: [], dim: [] }, ITEMS = [], BROLL = [], SFX = [], MUS = [], ANCH = [];
     const key = (t, ll, z, o = {}) => CK.push({ t, lon: ll[0], lat: ll[1], z, ...o });
     const look = (ch, t, v, e) => LK[ch].push({ t, v, ease: e });
     const add = (t0, t1, draw, z = 0) => ITEMS.push({ t0, t1, draw, z });
@@ -113,10 +113,11 @@
     function zoomThrough(id, ll, tIn, dur, hold, out, o = {}) {
       // 1. camera zooms fast into the pin  2. pin flares (0.3 s) into the clip  3. clip plays  4. shrinks back, camera pulls out
       const zPin = o.zPin || 9.4, appr = o.appr || 0.95;
-      key(tIn - appr, hold.ll, hold.z, { mode: 'glide', ease: 'io2' });
-      key(tIn, ll, zPin, { mode: 'fly', ease: 'in2', rho: 1.2 });
-      key(tIn + dur - 0.4, ll, zPin + 0.45, { mode: 'glide', ease: 'lin' });
-      key(tIn + dur + (out.d || 1.3), out.ll, out.z, { mode: 'fly', ease: 'out', rho: 1.2 });
+      key(tIn - appr, hold.ll, hold.z, { mode: 'glide', ease: 'io2', zt: id });
+      key(tIn, ll, zPin, { mode: 'fly', ease: 'in2', rho: 1.2, zt: id });
+      key(tIn + dur - 0.4, ll, zPin + 0.45, { mode: 'glide', ease: 'lin', zt: id });
+      key(tIn + dur + (out.d || 1.3), out.ll, out.z, { mode: 'fly', ease: 'out', rho: 1.2, zt: id });
+      ZT.push({ id, a: tIn - appr, b: tIn + dur + (out.d || 1.3) });
       add(tIn - 0.25, tIn + 0.4, (ctx) => { const p = ctx.P(ll); return X.flare(p[0], p[1], (ctx.t - (tIn - 0.25)) / 0.65); }, 40);
       add(tIn + dur - 0.35, tIn + dur + 0.35, (ctx) => { const p = ctx.P(ll); return X.flare(p[0], p[1], 1 - (ctx.t - (tIn + dur - 0.35)) / 0.7); }, 40);
       BROLL.push({ id, t: +tIn.toFixed(3), dur, ll, beat: o.beat });
@@ -246,7 +247,7 @@
       Vk(s.end, { ll: [151, 3], z: 3.55 }, { mode: 'glide', ease: 'lin' });
       Vk(s.gapEnd, { ll: [150, 2], z: 3.62 }, { mode: 'glide', ease: 'lin' });
       const tS = s.start + 0.2 * s.dur;
-      const pulses = { 1: F('V04', 0.42), 2: F('V04', 0.56), 3: F('V04', 0.7) };
+      const pulses = { 1: A('V04', 'small invasion', 0.42), 2: A('V04', 'full invasion', 0.56), 3: A('V04', 'actually chose', 0.7) };
       const tDanger = A('V04', 'most dangerous of all', 0, true);
       const tGlow3 = tDanger ?? s.end + 0.3; // fallback: pulse arrow 3 on the title gap, no words invented
       const tEnd = S.V05.start + 1.2;
@@ -278,17 +279,23 @@
       s += `<rect x="${f2(-560 * plate)}" y="-120" width="${f2(1120 * plate)}" height="230" fill="rgba(241,230,203,0.82)" stroke="${C.ink}" stroke-width="3"/>
             <rect x="${f2(-544 * plate)}" y="-104" width="${f2(1088 * plate)}" height="198" fill="none" stroke="${C.red}" stroke-width="2"/>`;
       const letters = (word1 + ' ' + word2).split('');
-      const adv = 74, x0 = -((letters.length - 1) * adv) / 2 - 40;
+      const ADV = { I: 0.3, F: 0.47, A: 0.6, U: 0.6, S: 0.54, T: 0.48, R: 0.58, L: 0.45, ' ': 0.3 }; // Oswald Bold, em
+      const FS = 128, TRK = 10;
+      const widths = letters.map((ch) => ADV[ch] * FS + TRK);
+      const dotsW = 3 * 30;
+      const total = widths.reduce((a, b) => a + b, 0) + dotsW;
+      let xx = -total / 2;
       letters.forEach((ch, i) => {
+        const cxl = xx + widths[i] / 2; xx += widths[i];
         if (ch === ' ') return;
         const ti = 0.25 + i * 0.075, k = clamp((lt - ti) / 0.12, 0, 1);
         if (k <= 0) return;
         const sc = lerp(2.2, 1, ease.in2(k));
-        s += `<text x="0" y="0" transform="translate(${f2(x0 + i * adv)} 44) scale(${f2(sc)})" text-anchor="middle" font-family="Oswald" font-weight="700" font-size="128" fill="${i < 2 ? C.red : C.ink}" opacity="${f2(k)}">${ch}</text>`;
+        s += `<text x="0" y="0" transform="translate(${f2(cxl)} 44) scale(${f2(sc)})" text-anchor="middle" font-family="Oswald" font-weight="700" font-size="${FS}" fill="${i < 2 ? C.red : C.ink}" opacity="${f2(k)}">${ch}</text>`;
       });
       for (let d = 0; d < 3; d++) {
         const k = clamp((lt - 1.25 - d * 0.12) / 0.12, 0, 1);
-        if (k > 0) s += `<circle cx="${f2(x0 + 11 * adv - 10 + d * 30)}" cy="34" r="${f2(9 * ease.back(k))}" fill="${C.red}"/>`;
+        if (k > 0) s += `<circle cx="${f2(xx + 14 + d * 30)}" cy="34" r="${f2(9 * ease.back(k))}" fill="${C.red}"/>`;
       }
       const rule = ease.io(clamp((lt - 1.0) / 0.6, 0, 1));
       s += `<line x1="${f2(-420 * rule)}" y1="78" x2="${f2(420 * rule)}" y2="78" stroke="${C.ink}" stroke-width="3"/>`;
@@ -349,23 +356,24 @@
       zoomThrough('B02', PL.singapore, tIn, 4, { ll: [106, 3], z: 5.2 }, { ...VIEW.northIslands, d: 1.6 }, { beat: 'V06' });
       look('desat', s.start, 0); look('desat', s.start + 0.8, 0.7); look('desat', s.gapEnd, 0.7); look('desat', S.V07.start + 1.4, 0);
       mus(s.start, 'lownote');
+      mus(S.V07.start, 'tension', { fade: 2.5 });
     }
 
     // V07 Map: the red tide reaches the islands north of Australia, which sits pale below. Counters appear one by
     // one: "Population: ~7 million", "Coastline: 30,000+ km". Small blue soldier icons far away in the Middle East.
     {
       const s = S.V07;
-      Vk(s.start + 0.45 * s.dur, { ll: [131, -16], z: 4.15 }, { mode: 'glide', ease: 'io' });
-      Vk(s.start + 0.72 * s.dur, VIEW.mideast, { mode: 'fly', ease: 'io' });
+      const tc1 = A('V07', 'bottom is Australia', 0.38) + 0.7, tc2 = A('V07', 'coastline', 0.52), tMe = A('V07', 'other side of the world', 0.75) - 1.2;
+      Vk(tc1 - 0.2, { ll: [131, -16], z: 4.15 }, { mode: 'glide', ease: 'io' });
+      Vk(tMe + 1.4, VIEW.mideast, { mode: 'fly', ease: 'io' });
       Vk(s.end, { ll: [92, 2], z: 3.2 }, { mode: 'glide', ease: 'lin' });
       add(s.start, S.V08.start + 1.5, (ctx) => {
         const a = fio(ctx.t, s.start + 0.8, S.V08.start + 1.5, 1.2, 0.8);
-        return `<path d="${ausPath(ctx)}" fill="rgba(250,244,226,0.55)" stroke="rgba(250,244,226,0.9)" stroke-width="5" opacity="${f2(a)}"/>`;
+        return `<path d="${ausPath(ctx)}" fill="rgba(246,236,210,0.36)" stroke="rgba(246,236,210,0.75)" stroke-width="4" opacity="${f2(a)}"/>`;
       }, 3);
-      const tc1 = F('V07', 0.38), tc2 = F('V07', 0.52), tEndC = s.start + 0.7 * s.dur;
+      const tEndC = tMe + 0.3;
       add(tc1, tEndC, (ctx) => { const p = ctx.P([133.5, -22.5]); return X.tag(p[0], p[1] - 40, 'Population: ~7 million', prog(ctx.t, tc1, 1.0), { size: 30, o: fio(ctx.t, tc1, tEndC, 0.1, 0.5) }); }, 20);
       add(tc2, tEndC, (ctx) => { const p = ctx.P([133.5, -22.5]); return X.tag(p[0] + 20, p[1] + 40, 'Coastline: 30,000+ km', prog(ctx.t, tc2, 1.0), { size: 30, o: fio(ctx.t, tc2, tEndC, 0.1, 0.5), rot: 1.0 }); }, 20);
-      const tMe = s.start + 0.7 * s.dur;
       add(tMe, S.V08.start + 1.2, (ctx) => {
         let o = '';
         const pos = [[33.2, 30.6], [35.0, 31.6], [36.6, 33.2], [34.2, 29.2], [37.8, 31.0], [31.6, 30.3]];
@@ -444,13 +452,13 @@
       Vk(tCh + 1.0, VIEW.china, { mode: 'fly', ease: 'io' });
       Vk(s.end, { ll: [124, 9], z: 3.65 }, { mode: 'glide', ease: 'lin' });
       dropPin(PL.tokyo, s.start + 1.2, tCh + 0.6, { db: -10 });
-      const t0 = s.start + 0.12 * s.dur, t1 = tCh - 0.4;
+      const t0 = A('V10', 'Navy wants', 0.12) - 0.2, tArmy = A('V10', 'Army says no', 0.25), t1 = tCh - 0.4;
       look('dim', s.start + 1.6, 0); look('dim', t0 + 0.4, 0.28); look('dim', t1, 0.28); look('dim', t1 + 0.8, 0);
       add(t0, t1, (ctx) => {
         const t = ctx.t, a = fio(t, t0, t1, 0.4, 0.5);
-        const ka = ease.back(prog(t, t0, 0.5)), kh = ease.back(prog(t, t0 + 0.35, 0.5));
+        const ka = ease.back(prog(t, t0, 0.5)), kh = ease.back(prog(t, tArmy, 0.5));
         let crack = '';
-        if (t > t0 + 0.9) {
+        if (t > tArmy + 0.4) {
           let d = 'M820 400', seed = Math.floor(t * 14);
           for (let i = 1; i <= 8; i++) { seed = (seed * 9301 + 49297) % 233280; d += `L${820 + i * 35} ${400 + (seed / 233280 - 0.5) * 70}`; }
           crack = `<path d="${d}" fill="none" stroke="#ffd98a" stroke-width="5" opacity="${f2(0.5 + 0.5 * Math.abs(Math.sin(t * 23)))}" filter="url(#fSoft)"/><path d="${d}" fill="none" stroke="#fff3cf" stroke-width="2"/>`;
@@ -462,7 +470,7 @@
           ${X.label(740, 545, 'NAVY', { size: 34, font: 'Oswald', ls: 6, o: ka })}${X.label(1180, 545, 'ARMY', { size: 34, font: 'Oswald', ls: 6, o: kh })}
         </g>`;
       }, 30);
-      const td = F('V10', 0.36), tsn = F('V10', 0.5);
+      const td = A('V10', 'divisions', 0.36) - 0.3, tsn = A('V10', 'shipping', 0.5) - 1.2;
       add(td, t1, (ctx) => X.tag(760, 680, 'Divisions needed: 10–12', prog(ctx.t, td, 1.1), { size: 34, o: fio(ctx.t, td, t1, 0.1, 0.5) }), 31);
       add(tsn, t1, (ctx) => {
         const n = 2000000 * ease.out(prog(ctx.t, tsn + 0.4, 2.2));
@@ -482,7 +490,7 @@
         o += X.tag(pc[0] - 30, pc[1] - 150, 'Tied down in China', prog(ctx.t, tCh + 0.5, 0.9), { size: 32, o: a });
         return o;
       }, 14);
-      sfx('crackle', t0 + 0.9, -14, { len: Math.max(1.5, t1 - t0 - 1.2) });
+      sfx('crackle', tArmy + 0.4, -14, { len: Math.max(1.5, Math.min(3.0, t1 - tArmy - 0.8)) });
     }
 
     // V11 Map: a date label stamps "4 MARCH 1942" onto Tokyo. On "No invasion", the arrow vanishes. The three dotted
@@ -490,7 +498,7 @@
     {
       const s = S.V11;
       Vk(s.start + 1.6, VIEW.japanAus, { mode: 'fly', ease: 'io' });
-      const tDate = A('V11', 'fourth of March', 0.06) + 1.0;
+      const tDate = A('V11', 'decision is made', 0.12) + 0.3;
       const tNo = A('V11', 'No invasion', 0.34);
       Vk(tNo + 1.4, VIEW.threeArrows, { mode: 'glide', ease: 'io' });
       Vk(s.gapEnd + 0.9, { ll: [146, 0], z: 3.75 }, { mode: 'glide', ease: 'lin' });
@@ -555,14 +563,14 @@
     {
       const s = S.V13;
       Vk(s.start + 1.2, { ll: [131.3, -13.1], z: 6.5 }, { mode: 'glide', ease: 'io' });
-      const tG = A('V13', 'geography', 0.86);
+      const tG = A('V13', 'geography', 0.86), tHam = A('V13', 'hammered', 0.45) - 0.2, tCiv = A('V13', 'civilians', 0.6) - 0.3;
       Vk(tG + 0.2, { ll: [131.8, -13.8], z: 6.0 }, { mode: 'glide', ease: 'io2' });
       add(s.start, s.gapEnd + 0.6, (ctx) => {
         const a = fio(ctx.t, s.start, s.gapEnd + 0.6, 0.3, 0.6);
         let o = '';
-        [[130.84, -12.46], [130.88, -12.43], [130.82, -12.42], [130.9, -12.47], [130.86, -12.38]].forEach((ll, i) => { const p = ctx.P(ll); o += X.damage(p[0] + i * 6, p[1], ctx.t, { s: 1.1 * ease.back(prog(ctx.t, s.start + 0.2 + i * 0.12, 0.3)), o: a }); });
+        [[130.84, -12.46], [130.88, -12.43], [130.82, -12.42], [130.9, -12.47], [130.86, -12.38]].forEach((ll, i) => { const p = ctx.P(ll); o += X.damage(p[0] + i * 6, p[1], ctx.t, { s: 1.1 * ease.back(prog(ctx.t, tHam + i * 0.12, 0.3)), o: a }); });
         for (let i = 0; i < 5; i++) {
-          const t0 = s.start + 1.6 + i * 0.5;
+          const t0 = tCiv + i * 0.5;
           const pts = scr(ctx, [[130.9 + i * 0.05, -12.55], [131.05 + i * 0.03, -13.2], [131.5, -13.6 - i * 0.04], [131.9, -14.1 - i * 0.05]]);
           o += X.arrow(pts, ease.io(prog(ctx.t, t0, 2.4)), { width: 5, color: '#6b6151', dk: '#3e372c', head: 13, o: a * 0.95 });
         }
@@ -575,15 +583,16 @@
     // counter: "~1,000 km of NO railway".
     {
       const s = S.V14;
-      Vk(s.start + 0.45 * s.dur, VIEW.interior, { mode: 'fly', ease: 'io', rho: 1.0 });
+      Vk(A('V14', 'desert', 0.2) + 1.5, VIEW.interior, { mode: 'fly', ease: 'io', rho: 1.0 });
       Vk(s.end, { ll: [134.0, -20.8], z: 5.1 }, { mode: 'glide', ease: 'lin' });
-      const tn = F('V14', 0.1), ts = F('V14', 0.38), tg = F('V14', 0.62), tc = F('V14', 0.72);
+      const tn = A('V14', 'railway from Darwin', 0.3) - 0.2, ts = A('V14', 'line from the south', 0.6) - 0.2, tg = A('V14', 'in between', 0.78), tc = A('V14', 'roughly', 0.85) + 0.3;
+      const tBi = A('V14', 'Birdum', 0.45), tAl = A('V14', 'Alice Springs', 0.7);
       const tEnd = S.V16.start + 2.0;
-      add(tn, tEnd, (ctx) => X.rail(scr(ctx, RAIL_N), ease.io(prog(ctx.t, tn, 2.2)), { o: fio(ctx.t, tn, tEnd, 0.1, 0.6) }), 12);
+      add(tn, tEnd, (ctx) => X.rail(scr(ctx, RAIL_N), ease.io(prog(ctx.t, tn, Math.max(1.2, tBi - tn))), { o: fio(ctx.t, tn, tEnd, 0.1, 0.6) }), 12);
       placeLabel(PL.darwin, 'Darwin', tn, tEnd, { dy: -26, size: 30 });
-      placeLabel(PL.birdum, 'Birdum', tn + 2.0, tEnd, { dx: 18, dy: 10, anchor: 'start', size: 32 });
-      add(ts, tEnd, (ctx) => X.rail(scr(ctx, RAIL_S), ease.io(prog(ctx.t, ts, 2.6)), { o: fio(ctx.t, ts, tEnd, 0.1, 0.6) }), 12);
-      placeLabel(PL.alice, 'Alice Springs', ts + 2.4, tEnd, { dx: 22, dy: 10, anchor: 'start', size: 32 });
+      placeLabel(PL.birdum, 'Birdum', tBi, tEnd, { dx: 18, dy: 10, anchor: 'start', size: 32 });
+      add(ts, tEnd, (ctx) => X.rail(scr(ctx, RAIL_S), ease.io(prog(ctx.t, ts, Math.max(1.2, tAl - ts))), { o: fio(ctx.t, ts, tEnd, 0.1, 0.6) }), 12);
+      placeLabel(PL.alice, 'Alice Springs', tAl, tEnd, { dx: 22, dy: 10, anchor: 'start', size: 32 });
       add(tg, S.V15.gapEnd + 0.4, (ctx) => {
         const a = fio(ctx.t, tg, S.V15.gapEnd + 0.4, 0.6, 0.5);
         const pts = scr(ctx, gcPath(PL.birdum, PL.alice, 20));
@@ -605,7 +614,7 @@
     // red supply line stretches back to Japan, flickering and fraying.
     {
       const s = S.V16;
-      const tr = s.start + 0.4, tStuck = F('V16', 0.42), tSup = F('V16', 0.66);
+      const tr = A('V16', 'military road', 0.05) - 0.2, tStuck = A('V16', 'Japanese force', 0.3), tCA = A('V16', 'counterattacks', 0.72), tSup = A('V16', 'supply lines', 0.8);
       Vk(tStuck - 0.6, VIEW.interiorN, { mode: 'glide', ease: 'lin' });
       Vk(tStuck + 0.8, { ll: [131.6, -13.4], z: 6.1 }, { mode: 'fly', ease: 'io' });
       Vk(tSup + 1.6, VIEW.pacificJA, { mode: 'fly', ease: 'io' });
@@ -622,7 +631,9 @@
         }
         return o;
       }, 13);
-      add(tr + 1.6, tStuck + 0.4, (ctx) => { const p = ctx.P([134.5, -19.8]); return X.label(p[0] + 26, p[1], '→ Stuart Highway', { anchor: 'start', size: 34, fill: C.blueDk, o: fio(ctx.t, tr + 1.6, tStuck + 0.4, 0.4, 0.4) }); }, 14);
+      mus(tStuck, 'serious', { fade: 2.0 });
+      const tSH = A('V16', 'Stuart Highway', 0.12);
+      add(tSH, tStuck + 0.4, (ctx) => { const p = ctx.P([134.5, -19.8]); return X.label(p[0] + 26, p[1], '→ Stuart Highway', { anchor: 'start', size: 34, fill: C.blueDk, o: fio(ctx.t, tSH, tStuck + 0.4, 0.4, 0.4) }); }, 14);
       add(tStuck, tSup + 1.6, (ctx) => {
         const t = ctx.t, a = fio(t, tStuck, tSup + 1.6, 0.3, 0.6);
         let o = '';
@@ -631,7 +642,7 @@
           o += X.unit(p[0] + j, p[1], { s: 0.95 * ease.back(prog(t, tStuck + i * 0.08, 0.3)), o: a });
         });
         [[[132.4, -14.6], [131.2, -12.9]], [[131.0, -14.4], [130.95, -12.85]], [[129.9, -13.9], [130.65, -12.8]]].forEach(([b, e2], i) => {
-          o += X.arrow(X.curve(ctx.P(b), ctx.P(e2), 0.1, 20), ease.io(prog(t, tStuck + 1.0 + i * 0.3, 1.4)), { color: C.blue, dk: C.blueDk, width: 12, o: a });
+          o += X.arrow(X.curve(ctx.P(b), ctx.P(e2), 0.1, 20), ease.io(prog(t, tCA - 0.6 + i * 0.3, 1.4)), { color: C.blue, dk: C.blueDk, width: 12, o: a });
         });
         return o;
       }, 13);
@@ -661,7 +672,7 @@
       Vk(s.start + 2.2, VIEW.melville, { mode: 'fly', ease: 'io' });
       Vk(s.end, { ll: [130.78, -11.5], z: 8.35 }, { mode: 'glide', ease: 'lin' });
       placeLabel([130.95, -11.62], 'Melville Island', s.start + 1.6, s.end + 0.8, { dy: 0, size: 38, font: 'FellSC', fill: '#4a3a28' });
-      const tp = F('V17', 0.24), tl = F('V17', 0.5), tlab = F('V17', 0.58);
+      const tp = A('V17', 'crash landed', 0.45) - 0.6, tl = tp + 2.8, tlab = A('V17', 'captured by', 0.62);
       add(tp, s.end + 0.8, (ctx) => {
         const t = ctx.t, u = prog(t, tp, tl - tp);
         const b = PL.melvilleBeach;
@@ -678,7 +689,7 @@
         const p = ctx.P(PL.melvilleBeach), a = fio(ctx.t, tlab, s.end + 0.8, 0.6, 0.6);
         const k = ease.out(prog(ctx.t, tlab, 0.8));
         return `<g opacity="${f2(a)}"><line x1="${f2(p[0])}" y1="${f2(p[1] - 14)}" x2="${f2(p[0] + 60)}" y2="${f2(p[1] - 120)}" stroke="${C.ink}" stroke-width="2"/>
-          <rect x="${f2(p[0] + 60)}" y="${f2(p[1] - 168)}" width="${f2(640 * k)}" height="78" fill="rgba(241,230,203,0.94)" stroke="${C.inkSoft}" stroke-width="1.5"/>
+          <rect x="${f2(p[0] + 60)}" y="${f2(p[1] - 168)}" width="${f2(720 * k)}" height="78" fill="rgba(241,230,203,0.94)" stroke="${C.inkSoft}" stroke-width="1.5"/>
           <rect x="${f2(p[0] + 60)}" y="${f2(p[1] - 168)}" width="6" height="78" fill="${C.gold}"/>
           ${X.label(p[0] + 84, p[1] - 117, 'Captured by Matthias Ulungura, Tiwi man', { anchor: 'start', size: 33, font: 'Fell', halo: 'none', hw: 0, o: k })}</g>`;
       }, 20);
@@ -713,7 +724,7 @@
     {
       const s = S.V20;
       const tSub = A('V20', 'submarines', 0.66);
-      const ta = s.start + 0.3;
+      const ta = A('V20', 'east coast', 0.05) - 0.3;
       const EC = [[PL.brisbane, [161, -16]], [PL.sydney, [163, -22]], [PL.melbourne, [158, -30]]];
       add(ta, s.gapEnd + 0.5, (ctx) => {
         const a = fio(ctx.t, ta, s.gapEnd + 0.5, 0.2, 0.6);
@@ -740,7 +751,7 @@
         });
         return o;
       }, 13);
-      const tc = s.start + 0.28 * s.dur;
+      const tc = A('V20', 'shipping', 0.4) - 1.2;
       add(tc, tSub + 0.2, (ctx) => X.tag(330, 840, `Shipping: ${X.fmtInt(2000000 * ease.io(prog(ctx.t, tc + 0.3, Math.max(1.5, tSub - tc - 1.2))))} tons`, 2, { size: 34, type: false, o: fio(ctx.t, tc, tSub + 0.2, 0.3, 0.3), rot: -0.8 }), 30);
       const pinB07 = PL.supplyPin;
       dropPin(pinB07, tSub - 1.1, tSub + 0.3, { thunk: false, color: C.blue });
@@ -783,8 +794,8 @@
     // the Middle East to Australia, and from the USA, with plane and soldier icons landing on Australian cities.
     {
       const s = S.V22;
-      Vk(s.start + 0.6, { ll: [160, 8], z: 3.15 }, { mode: 'glide', ease: 'io' });
-      const tb = s.start + 0.6, tTroops = F('V22', 0.45), tLand = F('V22', 0.75);
+      const tb = A('V22', 'Some historians', 0.2) - 0.2, tTroops = A('V22', 'Middle East', 0.7) - 1.2, tLand = A('V22', 'American soldiers', 0.85);
+      Vk(tb + 0.4, { ll: [160, 8], z: 3.15 }, { mode: 'glide', ease: 'io' });
       add(tb, tTroops + 0.4, (ctx) => {
         const t = ctx.t, a = fio(t, tb, tTroops + 0.4, 0.2, 0.5);
         const o0 = ctx.P([165, 18]);
@@ -833,7 +844,7 @@
     // Sound: the cliffhanger sting. Edit gap 1.5 s. Then the second mid-roll hold.
     {
       const s = S.V24;
-      const t0 = s.start + 0.6, t3 = F('V24', 0.72);
+      const t0 = A('V24', 'United States', 0.2) - 1.4, t3 = A('V24', 'plan three', 0.9) - 0.9;
       Vk(t3 - 0.2, { ll: [137.5, -26.5], z: 4.5 }, { mode: 'glide', ease: 'lin' });
       Vk(t3 + 1.6, VIEW.threeArrows, { mode: 'fly', ease: 'io' });
       Vk(s.gapEnd + 0.9, { ll: [154, 3], z: 3.55 }, { mode: 'glide', ease: 'lin' });
@@ -847,7 +858,7 @@
         const slide = 1 - ease.io(prog(t, t0, 2.4));
         const c0 = ctx.P(AUSC), ppk = M.pxPerKm(ctx.c, AUSC[1]);
         const d = off.map(([x, y], i) => `${i ? 'L' : 'M'}${f2(c0[0] + x * ppk + slide * 1300)} ${f2(c0[1] - y * ppk)}`).join('') + 'Z';
-        return `<g opacity="${f2(a)}"><path d="${d}" fill="rgba(29,79,143,0.18)" stroke="${C.blue}" stroke-width="4" stroke-dasharray="14 8"/>
+        return `<g opacity="${f2(a)}"><path d="${d}" fill="rgba(29,79,143,0.10)" stroke="${C.blue}" stroke-width="4" stroke-dasharray="14 8"/>
           ${X.label(c0[0] + slide * 1300, c0[1] - 300 * ppk / 1, 'United States', { size: 34, fill: C.blueDk, o: 1 })}</g>`;
       }, 15);
       add(t3, s.gapEnd + 0.9, (ctx) => {
@@ -872,7 +883,7 @@
     {
       const s = S.V25;
       Vk(s.start + 1.2, VIEW.pacificWhole, { mode: 'fly', ease: 'io' });
-      const tl = s.start + 0.8, tr = F('V25', 0.4), tPM = F('V25', 0.64);
+      const tl = A('V25', 'lifeline', 0.35) - 0.3, tr = A('V25', 'Japan planned', 0.55), tPM = A('V25', 'Port Moresby', 0.75) - 0.6;
       const tQ = A('V25', 'Queensland', 0.92);
       Vk(tPM - 0.4, { ll: [190, -6], z: 2.95 }, { mode: 'glide', ease: 'lin' });
       Vk(tPM + 1.2, VIEW.pngQld, { mode: 'fly', ease: 'io' });
@@ -902,7 +913,7 @@
     {
       const s = S.V26;
       Vk(s.start + 1.2, { ll: [178, -14], z: 3.05 }, { mode: 'fly', ease: 'io' });
-      const tSnap = s.start + 0.45 * s.dur;
+      const tSnap = A('V26', 'Fewer supplies', 0.45) + 0.9;
       Vk(s.gapEnd + 1.0, VIEW.isolated, { mode: 'glide', ease: 'io' });
       const SNAP = 0.62; // fraction along the lifeline (near Samoa / Fiji)
       add(S.V26.start + 0.8, S.V29.start + 2.0, (ctx) => {
@@ -957,18 +968,18 @@
       }
       placeLabel(PL.sydney, 'Sydney', tShell, tShell + 3.2, { dy: 44, size: 32 });
       placeLabel(PL.newcastle, 'Newcastle', tShell, tShell + 3.2, { dy: 44, size: 32 });
-      const tNG = tShell + 3.0;
+      const tNG = tShell + 1.4;
       Vk(tNG + 1.8, VIEW.png, { mode: 'fly', ease: 'io' });
       dropPin(PL.kokoda, tNG + 1.6, tNG + 3.0, { thunk: false });
       placeLabel(PL.kokoda, 'Kokoda', tNG + 1.8, tNG + 3.0, { dy: 38 });
-      const tIn = Math.max(tNG + 2.6, A('V28', 'Port Moresby', 0.35) - 2.0);
+      const tIn = Math.max(tNG + 1.7, A('V28', 'pushed over', 0.35));
       const after = zoomThrough('B11', PL.kokoda, tIn, 5, VIEW.png, { ...VIEW.png, d: 1.3 }, { beat: 'V28', zPin: 10.0 });
       // crawl, stopping where the straight-line distance to Port Moresby reaches 40 km
       const path = densify(KOKODA, 12);
       let stop = path.length - 1;
       for (let i = 0; i < path.length; i++) if (km(path[i][0], path[i][1], PL.moresby[0], PL.moresby[1]) <= 40) { stop = i; break; }
       const crawl = path.slice(0, stop + 1);
-      const tc = after + 1.4, tcEnd = Math.max(tc + 3.0, s.end - 0.6);
+      const tc = after + 0.4, tcEnd = Math.max(tc + 2.2, s.gapEnd - 0.2);
       Vk(s.gapEnd, { ll: [147.65, -9.1], z: 8.5 }, { mode: 'glide', ease: 'lin' });
       add(after + 1.0, S.V29.start + 1.2, (ctx) => {
         const t = ctx.t, a = fio(t, after + 1.0, S.V29.start + 1.2, 0.3, 0.6);
@@ -1022,7 +1033,8 @@
     {
       const s = S.V31;
       Vk(s.end, { ll: [195, -3], z: 2.55 }, { mode: 'glide', ease: 'lin' });
-      const ty = [F('V31', 0.06), F('V31', 0.2), F('V31', 0.34)];
+      const ty0 = A('V31', 'The fear', 0.4), ty2 = A('V31', 'New Zealand', 0.65) - 1.4;
+      const ty = [ty0, (ty0 + ty2) / 2, ty2];
       look('warm', ty[0], 0); look('warm', ty[2] + 0.8, 1, 'io2');
       add(ty[0], ty[2] + 2.2, (ctx) => {
         const t = ctx.t, a = fio(t, ty[0], ty[2] + 2.2, 0.2, 0.6);
@@ -1038,7 +1050,7 @@
         if (a <= 0.01) return '';
         return `<g opacity="${f2(Math.min(0.85, a))}">` + GEO.borders.map((r) => `<path d="${pathD(ctx, r)}" fill="none" stroke="#7a6248" stroke-width="1.3"/>`).join('') + '</g>';
       }, 3);
-      const tt = F('V31', 0.42), tri = F('V31', 0.64), tA = A('V31', 'Anzus', 0.8);
+      const tt = A('V31', 'signed', 0.75) - 0.6, tri = tt + 1.4, tA = A('V31', 'Anzus', 0.8);
       add(tt, s.end + 0.6, (ctx) => X.treaty(960, 560, prog(ctx.t, tt, 2.6), { o: fio(ctx.t, tt, s.end + 0.6, 0.1, 0.6) }), 31);
       const triPts = [PL.canberra, PL.wellington, PL.washington, PL.canberra];
       add(tri, S.V32.start + 1.2, (ctx) => {
@@ -1065,7 +1077,7 @@
     {
       const s = S.V33;
       Vk(s.gapEnd, { ll: [112, 3], z: 2.3 }, { mode: 'glide', ease: 'lin' });
-      const t1 = s.start + 0.3, t2 = F('V33', 0.38);
+      const t1 = A('V33', 'Britain and Europe', 0.3) - 0.6, t2 = A('V33', 'almost everywhere', 0.42) - 0.3;
       const AU = { syd: PL.sydney, mel: PL.melbourne, per: PL.perth, bri: PL.brisbane, ade: PL.adelaide };
       const routesEU = [
         [[-1.5, 52.6], [-9, 44], [-6, 36], [5, 37.5], [20, 34.5], [32.5, 31.5], [33.5, 27], [43, 12.5], [65, 2], [100, -20], [AU.per[0], AU.per[1]]],
@@ -1089,12 +1101,12 @@
         return Object.values(AU).map((ll, i) => { const p = ctx.P(ll); const r = 6 + 22 * g + 3 * Math.sin(ctx.t * 3 + i); return `<circle cx="${f2(p[0])}" cy="${f2(p[1])}" r="${f2(r * 2.2)}" fill="#ffd27a" opacity="${f2(0.35 * a)}" filter="url(#fGlow)"/><circle cx="${f2(p[0])}" cy="${f2(p[1])}" r="${f2(r * 0.45)}" fill="#fff0c4" opacity="${f2(a)}"/>`; }).join('');
       }, 14);
       // population counter: starts at the script's ~7 million and climbs as a spinning odometer (never settles)
-      const tc = F('V33', 0.18);
+      const tc = A('V33', 'Millions', 0.18);
       add(tc, S.V34.start + 0.4, (ctx) => popCounter(ctx.t - tc, fio(ctx.t, tc, S.V34.start + 0.4, 0.2, 0.5)), 30);
     }
     function popCounter(lt, a) {
       if (a <= 0) return '';
-      const x = 1380, y = 860;
+      const x = 1210, y = 170;
       const spin = clamp((lt - 1.4) / 0.6, 0, 1);
       let digits = '';
       if (spin <= 0) digits = `<text x="${x - 150}" y="${y + 14}" font-family="Elite" font-size="38" fill="${C.ink}">Population: ~7 million</text>`;
@@ -1124,6 +1136,8 @@
     const endT = T.endScreen;
 
     /* =============================================================== frame() */
+    // keys that land inside a zoom-through window move to just after it (the pin approach and pull-out own that time)
+    for (const k of CK) for (const z of ZT) if (k.zt !== z.id && k.t > z.a - 0.05 && k.t < z.b + 0.05) { k.movedFrom = k.t; k.t = z.b + 0.9; }
     CK.sort((a, b) => a.t - b.t);
     const camAt = camTrack(CK);
     const LT = Object.fromEntries(Object.entries(LK).map(([k, v]) => [k, track(v, 0)]));
@@ -1136,7 +1150,7 @@
       return s;
     }
     const DEFS2 = X.DEFS.replace('</defs>', `<radialGradient id="gSpace" cx="50%" cy="50%" r="75%"><stop offset="0.25" stop-color="#05060c" stop-opacity="0.15"/><stop offset="1" stop-color="#020308" stop-opacity="1"/></radialGradient>
-      <filter id="fBlurY"><feGaussianBlur stdDeviation="0 1.6"/></filter></defs>`);
+      <filter id="fBlurY" x="-20%" y="-60%" width="140%" height="220%"><feGaussianBlur stdDeviation="0.6 4.5"/></filter></defs>`);
 
     function drift(c, t, amp = 1) {
       const k = scale(c);
@@ -1189,7 +1203,7 @@
       return { views: [{ cam: c, look: lookAt(t) }], svg: DEFS2 + overlays(t, c) };
     }
 
-    return { duration: T.duration, frame, broll: BROLL, sfx: SFX.sort((a, b) => a.t - b.t), music: MUS.sort((a, b) => a.t - b.t), anchors: ANCH, camKeys: CK, timeline: T };
+    return { duration: T.duration, frame, broll: BROLL, sfx: SFX.sort((a, b) => a.t - b.t), music: MUS.sort((a, b) => a.t - b.t), anchors: ANCH, camKeys: CK, zt: ZT, timeline: T };
   }
 
   G.buildScore = buildScore;

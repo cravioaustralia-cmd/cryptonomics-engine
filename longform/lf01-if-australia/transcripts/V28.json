@@ -1,0 +1,187 @@
+{
+ "id": "V28",
+ "model": "small.en",
+ "text": "Sydney and Newcastle were shelled from the sea. Japanese troops pushed over the mountains of New Guinea along the Kokoda Track, and got within about forty kilometres of Port Moresby.",
+ "words": [
+  {
+   "word": "Sydney",
+   "start": 0.0,
+   "end": 0.4,
+   "p": 0.937
+  },
+  {
+   "word": "and",
+   "start": 0.4,
+   "end": 0.66,
+   "p": 0.991
+  },
+  {
+   "word": "Newcastle",
+   "start": 0.66,
+   "end": 1.16,
+   "p": 0.886
+  },
+  {
+   "word": "were",
+   "start": 1.16,
+   "end": 1.58,
+   "p": 0.995
+  },
+  {
+   "word": "shelled",
+   "start": 1.58,
+   "end": 2.0,
+   "p": 0.984
+  },
+  {
+   "word": "from",
+   "start": 2.0,
+   "end": 2.22,
+   "p": 0.998
+  },
+  {
+   "word": "the",
+   "start": 2.22,
+   "end": 2.4,
+   "p": 0.995
+  },
+  {
+   "word": "sea.",
+   "start": 2.4,
+   "end": 2.68,
+   "p": 0.998
+  },
+  {
+   "word": "Japanese",
+   "start": 3.4,
+   "end": 3.72,
+   "p": 0.996
+  },
+  {
+   "word": "troops",
+   "start": 3.72,
+   "end": 4.18,
+   "p": 0.997
+  },
+  {
+   "word": "pushed",
+   "start": 4.18,
+   "end": 4.62,
+   "p": 0.997
+  },
+  {
+   "word": "over",
+   "start": 4.62,
+   "end": 4.94,
+   "p": 0.998
+  },
+  {
+   "word": "the",
+   "start": 4.94,
+   "end": 5.1,
+   "p": 0.995
+  },
+  {
+   "word": "mountains",
+   "start": 5.1,
+   "end": 5.38,
+   "p": 0.985
+  },
+  {
+   "word": "of",
+   "start": 5.38,
+   "end": 5.66,
+   "p": 0.997
+  },
+  {
+   "word": "New",
+   "start": 5.66,
+   "end": 5.86,
+   "p": 0.991
+  },
+  {
+   "word": "Guinea",
+   "start": 5.86,
+   "end": 6.16,
+   "p": 0.998
+  },
+  {
+   "word": "along",
+   "start": 6.16,
+   "end": 6.54,
+   "p": 0.987
+  },
+  {
+   "word": "the",
+   "start": 6.54,
+   "end": 6.78,
+   "p": 0.997
+  },
+  {
+   "word": "Kokoda",
+   "start": 6.78,
+   "end": 7.22,
+   "p": 0.901
+  },
+  {
+   "word": "Track,",
+   "start": 7.22,
+   "end": 7.58,
+   "p": 0.488
+  },
+  {
+   "word": "and",
+   "start": 8.2,
+   "end": 8.26,
+   "p": 0.994
+  },
+  {
+   "word": "got",
+   "start": 8.26,
+   "end": 8.44,
+   "p": 0.993
+  },
+  {
+   "word": "within",
+   "start": 8.44,
+   "end": 8.78,
+   "p": 0.998
+  },
+  {
+   "word": "about",
+   "start": 8.78,
+   "end": 9.06,
+   "p": 0.992
+  },
+  {
+   "word": "forty",
+   "start": 9.06,
+   "end": 9.52,
+   "p": 0.026
+  },
+  {
+   "word": "kilometres",
+   "start": 9.52,
+   "end": 10.1,
+   "p": 0.238
+  },
+  {
+   "word": "of",
+   "start": 10.1,
+   "end": 10.5,
+   "p": 0.993
+  },
+  {
+   "word": "Port",
+   "start": 10.5,
+   "end": 10.76,
+   "p": 0.992
+  },
+  {
+   "word": "Moresby.",
+   "start": 10.76,
+   "end": 11.34,
+   "p": 0.926
+  }
+ ]
+}

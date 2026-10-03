@@ -1,0 +1,139 @@
+{
+ "id": "V26",
+ "model": "small.en",
+ "text": "If both worked, American ships would struggle to reach Australia. Fewer reinforcements. Fewer supplies. Australia, alone at the bottom of the map.",
+ "words": [
+  {
+   "word": "If",
+   "start": 0.0,
+   "end": 0.26,
+   "p": 0.932
+  },
+  {
+   "word": "both",
+   "start": 0.26,
+   "end": 0.58,
+   "p": 0.996
+  },
+  {
+   "word": "worked,",
+   "start": 0.58,
+   "end": 1.18,
+   "p": 0.986
+  },
+  {
+   "word": "American",
+   "start": 1.78,
+   "end": 2.04,
+   "p": 0.978
+  },
+  {
+   "word": "ships",
+   "start": 2.04,
+   "end": 2.44,
+   "p": 0.997
+  },
+  {
+   "word": "would",
+   "start": 2.44,
+   "end": 2.74,
+   "p": 0.998
+  },
+  {
+   "word": "struggle",
+   "start": 2.74,
+   "end": 3.14,
+   "p": 0.998
+  },
+  {
+   "word": "to",
+   "start": 3.14,
+   "end": 3.44,
+   "p": 0.999
+  },
+  {
+   "word": "reach",
+   "start": 3.44,
+   "end": 3.68,
+   "p": 0.998
+  },
+  {
+   "word": "Australia.",
+   "start": 3.68,
+   "end": 4.36,
+   "p": 0.997
+  },
+  {
+   "word": "Fewer",
+   "start": 4.98,
+   "end": 5.32,
+   "p": 0.98
+  },
+  {
+   "word": "reinforcements.",
+   "start": 5.32,
+   "end": 5.88,
+   "p": 0.988
+  },
+  {
+   "word": "Fewer",
+   "start": 6.68,
+   "end": 7.0,
+   "p": 0.998
+  },
+  {
+   "word": "supplies.",
+   "start": 7.0,
+   "end": 7.42,
+   "p": 0.988
+  },
+  {
+   "word": "Australia,",
+   "start": 9.06,
+   "end": 9.06,
+   "p": 0.997
+  },
+  {
+   "word": "alone",
+   "start": 9.48,
+   "end": 9.96,
+   "p": 0.99
+  },
+  {
+   "word": "at",
+   "start": 9.96,
+   "end": 10.22,
+   "p": 0.985
+  },
+  {
+   "word": "the",
+   "start": 10.22,
+   "end": 10.4,
+   "p": 0.998
+  },
+  {
+   "word": "bottom",
+   "start": 10.4,
+   "end": 10.68,
+   "p": 0.999
+  },
+  {
+   "word": "of",
+   "start": 10.68,
+   "end": 10.96,
+   "p": 0.998
+  },
+  {
+   "word": "the",
+   "start": 10.96,
+   "end": 11.1,
+   "p": 0.997
+  },
+  {
+   "word": "map.",
+   "start": 11.1,
+   "end": 11.38,
+   "p": 0.997
+  }
+ ]
+}

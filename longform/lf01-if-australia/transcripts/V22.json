@@ -1,0 +1,475 @@
+{
+ "id": "V22",
+ "model": "small.en",
+ "text": "Now imagine those carriers had been tied up guarding an invasion of Australia instead. Some historians think Japan might have won more early battles. Others argue it would have stretched Japan's navy so thin that the collapse would have come even faster. On land, Australia would have fought for every town. By mid nineteen forty-two, Australian troops were coming home from the Middle East, The Home Army was growing and American soldiers and aircraft were pouring in.",
+ "words": [
+  {
+   "word": "Now",
+   "start": 0.0,
+   "end": 0.46,
+   "p": 0.868
+  },
+  {
+   "word": "imagine",
+   "start": 0.46,
+   "end": 1.28,
+   "p": 0.567
+  },
+  {
+   "word": "those",
+   "start": 1.28,
+   "end": 1.62,
+   "p": 0.966
+  },
+  {
+   "word": "carriers",
+   "start": 1.62,
+   "end": 2.16,
+   "p": 0.916
+  },
+  {
+   "word": "had",
+   "start": 2.16,
+   "end": 2.56,
+   "p": 0.959
+  },
+  {
+   "word": "been",
+   "start": 2.56,
+   "end": 2.78,
+   "p": 0.998
+  },
+  {
+   "word": "tied",
+   "start": 2.78,
+   "end": 3.12,
+   "p": 0.987
+  },
+  {
+   "word": "up",
+   "start": 3.12,
+   "end": 3.42,
+   "p": 0.993
+  },
+  {
+   "word": "guarding",
+   "start": 3.42,
+   "end": 3.8,
+   "p": 0.96
+  },
+  {
+   "word": "an",
+   "start": 3.8,
+   "end": 4.04,
+   "p": 0.978
+  },
+  {
+   "word": "invasion",
+   "start": 4.04,
+   "end": 4.56,
+   "p": 0.997
+  },
+  {
+   "word": "of",
+   "start": 4.56,
+   "end": 4.84,
+   "p": 0.993
+  },
+  {
+   "word": "Australia",
+   "start": 4.84,
+   "end": 5.46,
+   "p": 0.981
+  },
+  {
+   "word": "instead.",
+   "start": 5.46,
+   "end": 6.08,
+   "p": 0.936
+  },
+  {
+   "word": "Some",
+   "start": 7.06,
+   "end": 7.38,
+   "p": 0.973
+  },
+  {
+   "word": "historians",
+   "start": 7.38,
+   "end": 7.82,
+   "p": 0.994
+  },
+  {
+   "word": "think",
+   "start": 7.82,
+   "end": 8.34,
+   "p": 0.987
+  },
+  {
+   "word": "Japan",
+   "start": 8.34,
+   "end": 8.84,
+   "p": 0.913
+  },
+  {
+   "word": "might",
+   "start": 8.84,
+   "end": 9.22,
+   "p": 0.989
+  },
+  {
+   "word": "have",
+   "start": 9.22,
+   "end": 9.42,
+   "p": 0.997
+  },
+  {
+   "word": "won",
+   "start": 9.42,
+   "end": 9.72,
+   "p": 0.977
+  },
+  {
+   "word": "more",
+   "start": 9.72,
+   "end": 10.04,
+   "p": 0.984
+  },
+  {
+   "word": "early",
+   "start": 10.04,
+   "end": 10.42,
+   "p": 0.984
+  },
+  {
+   "word": "battles.",
+   "start": 10.42,
+   "end": 10.92,
+   "p": 0.998
+  },
+  {
+   "word": "Others",
+   "start": 11.68,
+   "end": 11.88,
+   "p": 0.967
+  },
+  {
+   "word": "argue",
+   "start": 11.88,
+   "end": 12.34,
+   "p": 0.996
+  },
+  {
+   "word": "it",
+   "start": 12.34,
+   "end": 12.6,
+   "p": 0.938
+  },
+  {
+   "word": "would",
+   "start": 12.6,
+   "end": 12.74,
+   "p": 0.997
+  },
+  {
+   "word": "have",
+   "start": 12.74,
+   "end": 12.86,
+   "p": 0.913
+  },
+  {
+   "word": "stretched",
+   "start": 12.86,
+   "end": 13.3,
+   "p": 0.992
+  },
+  {
+   "word": "Japan's",
+   "start": 13.3,
+   "end": 13.94,
+   "p": 0.983
+  },
+  {
+   "word": "navy",
+   "start": 13.94,
+   "end": 14.12,
+   "p": 0.522
+  },
+  {
+   "word": "so",
+   "start": 14.12,
+   "end": 14.52,
+   "p": 0.991
+  },
+  {
+   "word": "thin",
+   "start": 14.52,
+   "end": 14.98,
+   "p": 0.998
+  },
+  {
+   "word": "that",
+   "start": 14.98,
+   "end": 15.58,
+   "p": 0.892
+  },
+  {
+   "word": "the",
+   "start": 15.58,
+   "end": 15.76,
+   "p": 0.978
+  },
+  {
+   "word": "collapse",
+   "start": 15.76,
+   "end": 16.14,
+   "p": 0.99
+  },
+  {
+   "word": "would",
+   "start": 16.14,
+   "end": 16.42,
+   "p": 0.993
+  },
+  {
+   "word": "have",
+   "start": 16.42,
+   "end": 16.56,
+   "p": 0.952
+  },
+  {
+   "word": "come",
+   "start": 16.56,
+   "end": 16.82,
+   "p": 0.991
+  },
+  {
+   "word": "even",
+   "start": 16.82,
+   "end": 17.14,
+   "p": 0.983
+  },
+  {
+   "word": "faster.",
+   "start": 17.14,
+   "end": 17.74,
+   "p": 0.997
+  },
+  {
+   "word": "On",
+   "start": 18.38,
+   "end": 18.6,
+   "p": 0.993
+  },
+  {
+   "word": "land,",
+   "start": 18.6,
+   "end": 19.1,
+   "p": 0.995
+  },
+  {
+   "word": "Australia",
+   "start": 19.88,
+   "end": 19.98,
+   "p": 0.994
+  },
+  {
+   "word": "would",
+   "start": 19.98,
+   "end": 20.26,
+   "p": 0.994
+  },
+  {
+   "word": "have",
+   "start": 20.26,
+   "end": 20.38,
+   "p": 0.984
+  },
+  {
+   "word": "fought",
+   "start": 20.38,
+   "end": 20.66,
+   "p": 1.0
+  },
+  {
+   "word": "for",
+   "start": 20.66,
+   "end": 20.92,
+   "p": 0.996
+  },
+  {
+   "word": "every",
+   "start": 20.92,
+   "end": 21.36,
+   "p": 0.996
+  },
+  {
+   "word": "town.",
+   "start": 21.36,
+   "end": 21.72,
+   "p": 0.994
+  },
+  {
+   "word": "By",
+   "start": 22.36,
+   "end": 22.48,
+   "p": 0.992
+  },
+  {
+   "word": "mid",
+   "start": 22.48,
+   "end": 22.76,
+   "p": 0.987
+  },
+  {
+   "word": "nineteen",
+   "start": 22.76,
+   "end": 23.18,
+   "p": 0.002
+  },
+  {
+   "word": "forty",
+   "start": 23.18,
+   "end": 23.5,
+   "p": 0.909
+  },
+  {
+   "word": "-two,",
+   "start": 23.5,
+   "end": 24.0,
+   "p": 0.633
+  },
+  {
+   "word": "Australian",
+   "start": 24.48,
+   "end": 24.92,
+   "p": 0.992
+  },
+  {
+   "word": "troops",
+   "start": 24.92,
+   "end": 25.28,
+   "p": 0.998
+  },
+  {
+   "word": "were",
+   "start": 25.28,
+   "end": 25.54,
+   "p": 0.991
+  },
+  {
+   "word": "coming",
+   "start": 25.54,
+   "end": 25.76,
+   "p": 0.998
+  },
+  {
+   "word": "home",
+   "start": 25.76,
+   "end": 26.04,
+   "p": 0.989
+  },
+  {
+   "word": "from",
+   "start": 26.04,
+   "end": 26.26,
+   "p": 0.996
+  },
+  {
+   "word": "the",
+   "start": 26.26,
+   "end": 26.44,
+   "p": 0.997
+  },
+  {
+   "word": "Middle",
+   "start": 26.44,
+   "end": 26.54,
+   "p": 0.937
+  },
+  {
+   "word": "East,",
+   "start": 26.54,
+   "end": 26.96,
+   "p": 0.989
+  },
+  {
+   "word": "The",
+   "start": 26.96,
+   "end": 27.48,
+   "p": 0.572
+  },
+  {
+   "word": "Home",
+   "start": 27.48,
+   "end": 27.72,
+   "p": 0.644
+  },
+  {
+   "word": "Army",
+   "start": 27.72,
+   "end": 28.04,
+   "p": 0.994
+  },
+  {
+   "word": "was",
+   "start": 28.04,
+   "end": 28.26,
+   "p": 0.998
+  },
+  {
+   "word": "growing",
+   "start": 28.26,
+   "end": 28.66,
+   "p": 0.998
+  },
+  {
+   "word": "and",
+   "start": 28.66,
+   "end": 29.24,
+   "p": 0.706
+  },
+  {
+   "word": "American",
+   "start": 29.24,
+   "end": 29.7,
+   "p": 0.981
+  },
+  {
+   "word": "soldiers",
+   "start": 29.7,
+   "end": 30.08,
+   "p": 0.894
+  },
+  {
+   "word": "and",
+   "start": 30.08,
+   "end": 30.4,
+   "p": 0.949
+  },
+  {
+   "word": "aircraft",
+   "start": 30.4,
+   "end": 30.84,
+   "p": 0.995
+  },
+  {
+   "word": "were",
+   "start": 30.84,
+   "end": 31.18,
+   "p": 0.992
+  },
+  {
+   "word": "pouring",
+   "start": 31.18,
+   "end": 31.54,
+   "p": 0.997
+  },
+  {
+   "word": "in.",
+   "start": 31.54,
+   "end": 31.78,
+   "p": 0.998
+  }
+ ]
+}

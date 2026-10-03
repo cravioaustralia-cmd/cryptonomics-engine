@@ -1,0 +1,49 @@
+{
+ "id": "V06",
+ "model": "small.en",
+ "text": "Around fifteen thousand Australian soldiers become prisoners.",
+ "words": [
+  {
+   "word": "Around",
+   "start": 0.0,
+   "end": 0.66,
+   "p": 0.679
+  },
+  {
+   "word": "fifteen",
+   "start": 0.66,
+   "end": 1.08,
+   "p": 0.052
+  },
+  {
+   "word": "thousand",
+   "start": 1.08,
+   "end": 2.14,
+   "p": 0.979
+  },
+  {
+   "word": "Australian",
+   "start": 2.14,
+   "end": 2.98,
+   "p": 0.982
+  },
+  {
+   "word": "soldiers",
+   "start": 2.98,
+   "end": 3.64,
+   "p": 0.949
+  },
+  {
+   "word": "become",
+   "start": 3.64,
+   "end": 4.58,
+   "p": 0.942
+  },
+  {
+   "word": "prisoners.",
+   "start": 4.58,
+   "end": 5.14,
+   "p": 0.995
+  }
+ ]
+}

@@ -12,3 +12,9 @@ out
 # Shorts render outputs
 shorts/**/out/
 shorts/shared/render/node_modules/
+
+# Long-form render outputs (final/ deliverables are committed; scratch is not)
+longform/**/out/
+longform/**/render/sfx/*.wav
+!longform/**/render/sfx/sting_series.wav
+!longform/**/render/sfx/sting_cliff.wav

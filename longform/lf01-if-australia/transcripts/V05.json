@@ -1,0 +1,247 @@
+{
+ "id": "V05",
+ "model": "small.en",
+ "text": "First, the scene. December, nineteen forty-one. Japan attacks Pearl Harbor, and almost at the same moment, it strikes across Southeast Asia. Hong Kong falls. Malaya falls. Then, in February nineteen forty-two, Singapore, Britain's great fortress in Asia, surrenders.",
+ "words": [
+  {
+   "word": "First,",
+   "start": 0.0,
+   "end": 0.58,
+   "p": 0.776
+  },
+  {
+   "word": "the",
+   "start": 1.02,
+   "end": 1.04,
+   "p": 0.929
+  },
+  {
+   "word": "scene.",
+   "start": 1.04,
+   "end": 1.44,
+   "p": 0.898
+  },
+  {
+   "word": "December,",
+   "start": 2.8,
+   "end": 2.8,
+   "p": 0.926
+  },
+  {
+   "word": "nineteen",
+   "start": 3.24,
+   "end": 3.44,
+   "p": 0.001
+  },
+  {
+   "word": "forty",
+   "start": 3.44,
+   "end": 4.0,
+   "p": 0.646
+  },
+  {
+   "word": "-one.",
+   "start": 4.0,
+   "end": 4.42,
+   "p": 0.695
+  },
+  {
+   "word": "Japan",
+   "start": 5.0,
+   "end": 5.32,
+   "p": 0.995
+  },
+  {
+   "word": "attacks",
+   "start": 5.32,
+   "end": 5.78,
+   "p": 0.989
+  },
+  {
+   "word": "Pearl",
+   "start": 5.78,
+   "end": 6.12,
+   "p": 0.998
+  },
+  {
+   "word": "Harbor,",
+   "start": 6.12,
+   "end": 6.5,
+   "p": 0.986
+  },
+  {
+   "word": "and",
+   "start": 7.08,
+   "end": 7.12,
+   "p": 0.982
+  },
+  {
+   "word": "almost",
+   "start": 7.12,
+   "end": 7.5,
+   "p": 0.97
+  },
+  {
+   "word": "at",
+   "start": 7.5,
+   "end": 7.72,
+   "p": 0.991
+  },
+  {
+   "word": "the",
+   "start": 7.72,
+   "end": 7.9,
+   "p": 0.995
+  },
+  {
+   "word": "same",
+   "start": 7.9,
+   "end": 8.16,
+   "p": 0.996
+  },
+  {
+   "word": "moment,",
+   "start": 8.16,
+   "end": 8.52,
+   "p": 0.994
+  },
+  {
+   "word": "it",
+   "start": 8.7,
+   "end": 8.82,
+   "p": 0.977
+  },
+  {
+   "word": "strikes",
+   "start": 8.82,
+   "end": 9.1,
+   "p": 0.824
+  },
+  {
+   "word": "across",
+   "start": 9.1,
+   "end": 9.6,
+   "p": 0.876
+  },
+  {
+   "word": "Southeast",
+   "start": 9.6,
+   "end": 10.02,
+   "p": 0.856
+  },
+  {
+   "word": "Asia.",
+   "start": 10.02,
+   "end": 10.52,
+   "p": 0.996
+  },
+  {
+   "word": "Hong",
+   "start": 11.34,
+   "end": 11.5,
+   "p": 0.994
+  },
+  {
+   "word": "Kong",
+   "start": 11.5,
+   "end": 11.76,
+   "p": 0.99
+  },
+  {
+   "word": "falls.",
+   "start": 11.76,
+   "end": 12.16,
+   "p": 0.712
+  },
+  {
+   "word": "Malaya",
+   "start": 12.94,
+   "end": 13.22,
+   "p": 0.902
+  },
+  {
+   "word": "falls.",
+   "start": 13.22,
+   "end": 13.58,
+   "p": 0.896
+  },
+  {
+   "word": "Then,",
+   "start": 14.26,
+   "end": 14.38,
+   "p": 0.979
+  },
+  {
+   "word": "in",
+   "start": 14.64,
+   "end": 14.88,
+   "p": 0.973
+  },
+  {
+   "word": "February",
+   "start": 14.88,
+   "end": 15.3,
+   "p": 0.991
+  },
+  {
+   "word": "nineteen",
+   "start": 15.3,
+   "end": 15.7,
+   "p": 0.205
+  },
+  {
+   "word": "forty",
+   "start": 15.7,
+   "end": 16.16,
+   "p": 0.857
+  },
+  {
+   "word": "-two,",
+   "start": 16.16,
+   "end": 16.64,
+   "p": 0.973
+  },
+  {
+   "word": "Singapore,",
+   "start": 17.1,
+   "end": 17.42,
+   "p": 0.992
+  },
+  {
+   "word": "Britain's",
+   "start": 18.04,
+   "end": 18.44,
+   "p": 0.982
+  },
+  {
+   "word": "great",
+   "start": 18.44,
+   "end": 18.66,
+   "p": 0.785
+  },
+  {
+   "word": "fortress",
+   "start": 18.66,
+   "end": 19.12,
+   "p": 0.977
+  },
+  {
+   "word": "in",
+   "start": 19.12,
+   "end": 19.38,
+   "p": 0.99
+  },
+  {
+   "word": "Asia,",
+   "start": 19.38,
+   "end": 19.84,
+   "p": 0.998
+  },
+  {
+   "word": "surrenders.",
+   "start": 20.04,
+   "end": 20.82,
+   "p": 0.975
+  }
+ ]
+}

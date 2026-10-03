@@ -1,0 +1,259 @@
+{
+ "id": "V07",
+ "model": "small.en",
+ "text": "Now look at the map. Japan's empire is racing south. And sitting at the bottom is Australia, about seven million people, a coastline over thirty thousand kilometres long, and most of its best-trained soldiers on the other side of the world.",
+ "words": [
+  {
+   "word": "Now",
+   "start": 0.0,
+   "end": 0.28,
+   "p": 0.908
+  },
+  {
+   "word": "look",
+   "start": 0.28,
+   "end": 0.5,
+   "p": 0.919
+  },
+  {
+   "word": "at",
+   "start": 0.5,
+   "end": 0.66,
+   "p": 0.996
+  },
+  {
+   "word": "the",
+   "start": 0.66,
+   "end": 0.8,
+   "p": 0.993
+  },
+  {
+   "word": "map.",
+   "start": 0.8,
+   "end": 1.14,
+   "p": 0.993
+  },
+  {
+   "word": "Japan's",
+   "start": 2.36,
+   "end": 2.64,
+   "p": 0.988
+  },
+  {
+   "word": "empire",
+   "start": 2.64,
+   "end": 3.06,
+   "p": 0.913
+  },
+  {
+   "word": "is",
+   "start": 3.06,
+   "end": 3.38,
+   "p": 0.995
+  },
+  {
+   "word": "racing",
+   "start": 3.38,
+   "end": 3.88,
+   "p": 0.99
+  },
+  {
+   "word": "south.",
+   "start": 3.88,
+   "end": 4.28,
+   "p": 0.955
+  },
+  {
+   "word": "And",
+   "start": 5.06,
+   "end": 5.08,
+   "p": 0.905
+  },
+  {
+   "word": "sitting",
+   "start": 5.08,
+   "end": 5.4,
+   "p": 0.986
+  },
+  {
+   "word": "at",
+   "start": 5.4,
+   "end": 5.62,
+   "p": 0.996
+  },
+  {
+   "word": "the",
+   "start": 5.62,
+   "end": 5.74,
+   "p": 0.998
+  },
+  {
+   "word": "bottom",
+   "start": 5.74,
+   "end": 6.1,
+   "p": 0.999
+  },
+  {
+   "word": "is",
+   "start": 6.1,
+   "end": 6.42,
+   "p": 0.979
+  },
+  {
+   "word": "Australia,",
+   "start": 6.42,
+   "end": 6.9,
+   "p": 0.992
+  },
+  {
+   "word": "about",
+   "start": 7.56,
+   "end": 7.86,
+   "p": 0.983
+  },
+  {
+   "word": "seven",
+   "start": 7.86,
+   "end": 8.3,
+   "p": 0.321
+  },
+  {
+   "word": "million",
+   "start": 8.3,
+   "end": 8.62,
+   "p": 0.995
+  },
+  {
+   "word": "people,",
+   "start": 8.62,
+   "end": 9.12,
+   "p": 0.993
+  },
+  {
+   "word": "a",
+   "start": 9.66,
+   "end": 9.7,
+   "p": 0.975
+  },
+  {
+   "word": "coastline",
+   "start": 9.7,
+   "end": 10.14,
+   "p": 0.995
+  },
+  {
+   "word": "over",
+   "start": 10.14,
+   "end": 10.58,
+   "p": 0.983
+  },
+  {
+   "word": "thirty",
+   "start": 10.58,
+   "end": 10.94,
+   "p": 0.122
+  },
+  {
+   "word": "thousand",
+   "start": 10.94,
+   "end": 11.4,
+   "p": 0.966
+  },
+  {
+   "word": "kilometres",
+   "start": 11.4,
+   "end": 11.98,
+   "p": 0.056
+  },
+  {
+   "word": "long,",
+   "start": 11.98,
+   "end": 12.48,
+   "p": 0.998
+  },
+  {
+   "word": "and",
+   "start": 12.88,
+   "end": 13.16,
+   "p": 0.992
+  },
+  {
+   "word": "most",
+   "start": 13.16,
+   "end": 13.44,
+   "p": 0.995
+  },
+  {
+   "word": "of",
+   "start": 13.44,
+   "end": 13.62,
+   "p": 0.995
+  },
+  {
+   "word": "its",
+   "start": 13.62,
+   "end": 13.78,
+   "p": 0.77
+  },
+  {
+   "word": "best",
+   "start": 13.78,
+   "end": 14.1,
+   "p": 0.981
+  },
+  {
+   "word": "-trained",
+   "start": 14.1,
+   "end": 14.48,
+   "p": 0.559
+  },
+  {
+   "word": "soldiers",
+   "start": 14.48,
+   "end": 14.94,
+   "p": 0.996
+  },
+  {
+   "word": "on",
+   "start": 14.94,
+   "end": 15.32,
+   "p": 0.973
+  },
+  {
+   "word": "the",
+   "start": 15.32,
+   "end": 15.48,
+   "p": 0.998
+  },
+  {
+   "word": "other",
+   "start": 15.48,
+   "end": 15.8,
+   "p": 0.998
+  },
+  {
+   "word": "side",
+   "start": 15.8,
+   "end": 16.08,
+   "p": 0.999
+  },
+  {
+   "word": "of",
+   "start": 16.08,
+   "end": 16.28,
+   "p": 0.998
+  },
+  {
+   "word": "the",
+   "start": 16.28,
+   "end": 16.36,
+   "p": 0.998
+  },
+  {
+   "word": "world.",
+   "start": 16.36,
+   "end": 16.6,
+   "p": 0.998
+  }
+ ]
+}

@@ -1,0 +1,145 @@
+{
+ "id": "V18",
+ "model": "small.en",
+ "text": "Verdict on scenario one. Japan probably takes a port or two... and gets stuck. Painful for Australia. Very likely a disaster for Japan.",
+ "words": [
+  {
+   "word": "Verdict",
+   "start": 0.0,
+   "end": 0.62,
+   "p": 0.898
+  },
+  {
+   "word": "on",
+   "start": 0.62,
+   "end": 0.92,
+   "p": 0.987
+  },
+  {
+   "word": "scenario",
+   "start": 0.92,
+   "end": 1.28,
+   "p": 0.692
+  },
+  {
+   "word": "one.",
+   "start": 1.28,
+   "end": 1.88,
+   "p": 0.504
+  },
+  {
+   "word": "Japan",
+   "start": 2.68,
+   "end": 2.72,
+   "p": 0.994
+  },
+  {
+   "word": "probably",
+   "start": 2.72,
+   "end": 3.18,
+   "p": 0.987
+  },
+  {
+   "word": "takes",
+   "start": 3.18,
+   "end": 3.62,
+   "p": 0.992
+  },
+  {
+   "word": "a",
+   "start": 3.62,
+   "end": 3.82,
+   "p": 0.996
+  },
+  {
+   "word": "port",
+   "start": 3.82,
+   "end": 4.04,
+   "p": 0.961
+  },
+  {
+   "word": "or",
+   "start": 4.04,
+   "end": 4.2,
+   "p": 0.992
+  },
+  {
+   "word": "two...",
+   "start": 4.2,
+   "end": 5.18,
+   "p": 0.557
+  },
+  {
+   "word": "and",
+   "start": 5.18,
+   "end": 5.66,
+   "p": 0.579
+  },
+  {
+   "word": "gets",
+   "start": 5.66,
+   "end": 5.84,
+   "p": 0.966
+  },
+  {
+   "word": "stuck.",
+   "start": 5.84,
+   "end": 6.28,
+   "p": 0.998
+  },
+  {
+   "word": "Painful",
+   "start": 7.06,
+   "end": 7.58,
+   "p": 0.962
+  },
+  {
+   "word": "for",
+   "start": 7.58,
+   "end": 7.8,
+   "p": 0.998
+  },
+  {
+   "word": "Australia.",
+   "start": 7.8,
+   "end": 8.4,
+   "p": 0.994
+  },
+  {
+   "word": "Very",
+   "start": 9.02,
+   "end": 9.28,
+   "p": 0.987
+  },
+  {
+   "word": "likely",
+   "start": 9.28,
+   "end": 9.56,
+   "p": 0.998
+  },
+  {
+   "word": "a",
+   "start": 9.56,
+   "end": 9.82,
+   "p": 0.991
+  },
+  {
+   "word": "disaster",
+   "start": 9.82,
+   "end": 10.12,
+   "p": 0.997
+  },
+  {
+   "word": "for",
+   "start": 10.12,
+   "end": 10.54,
+   "p": 0.998
+  },
+  {
+   "word": "Japan.",
+   "start": 10.54,
+   "end": 10.88,
+   "p": 0.998
+  }
+ ]
+}

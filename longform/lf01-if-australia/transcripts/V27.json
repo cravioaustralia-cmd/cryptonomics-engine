@@ -1,0 +1,265 @@
+{
+ "id": "V27",
+ "model": "small.en",
+ "text": "Japan's hope was that a cut-off Australia could be knocked out of the war without a single soldier landing on the mainland. And for a few months in nineteen forty-two, it was really happening. Japanese midget submarines slipped into Sydney Harbour.",
+ "words": [
+  {
+   "word": "Japan's",
+   "start": 0.0,
+   "end": 0.76,
+   "p": 0.989
+  },
+  {
+   "word": "hope",
+   "start": 0.76,
+   "end": 1.04,
+   "p": 0.99
+  },
+  {
+   "word": "was",
+   "start": 1.04,
+   "end": 1.52,
+   "p": 0.984
+  },
+  {
+   "word": "that",
+   "start": 1.52,
+   "end": 1.72,
+   "p": 0.995
+  },
+  {
+   "word": "a",
+   "start": 1.72,
+   "end": 1.86,
+   "p": 0.996
+  },
+  {
+   "word": "cut",
+   "start": 1.86,
+   "end": 2.08,
+   "p": 0.799
+  },
+  {
+   "word": "-off",
+   "start": 2.08,
+   "end": 2.3,
+   "p": 0.852
+  },
+  {
+   "word": "Australia",
+   "start": 2.3,
+   "end": 2.98,
+   "p": 0.96
+  },
+  {
+   "word": "could",
+   "start": 2.98,
+   "end": 3.38,
+   "p": 0.987
+  },
+  {
+   "word": "be",
+   "start": 3.38,
+   "end": 3.56,
+   "p": 0.996
+  },
+  {
+   "word": "knocked",
+   "start": 3.56,
+   "end": 3.9,
+   "p": 0.996
+  },
+  {
+   "word": "out",
+   "start": 3.9,
+   "end": 4.2,
+   "p": 0.995
+  },
+  {
+   "word": "of",
+   "start": 4.2,
+   "end": 4.34,
+   "p": 0.989
+  },
+  {
+   "word": "the",
+   "start": 4.34,
+   "end": 4.48,
+   "p": 0.983
+  },
+  {
+   "word": "war",
+   "start": 4.48,
+   "end": 4.76,
+   "p": 0.991
+  },
+  {
+   "word": "without",
+   "start": 4.76,
+   "end": 5.1,
+   "p": 0.947
+  },
+  {
+   "word": "a",
+   "start": 5.1,
+   "end": 5.28,
+   "p": 0.996
+  },
+  {
+   "word": "single",
+   "start": 5.28,
+   "end": 5.7,
+   "p": 0.998
+  },
+  {
+   "word": "soldier",
+   "start": 5.7,
+   "end": 6.16,
+   "p": 0.993
+  },
+  {
+   "word": "landing",
+   "start": 6.16,
+   "end": 6.56,
+   "p": 0.999
+  },
+  {
+   "word": "on",
+   "start": 6.56,
+   "end": 6.82,
+   "p": 0.997
+  },
+  {
+   "word": "the",
+   "start": 6.82,
+   "end": 6.96,
+   "p": 0.995
+  },
+  {
+   "word": "mainland.",
+   "start": 6.96,
+   "end": 7.44,
+   "p": 0.983
+  },
+  {
+   "word": "And",
+   "start": 9.16,
+   "end": 9.5,
+   "p": 0.965
+  },
+  {
+   "word": "for",
+   "start": 9.5,
+   "end": 9.72,
+   "p": 0.982
+  },
+  {
+   "word": "a",
+   "start": 9.72,
+   "end": 9.86,
+   "p": 0.997
+  },
+  {
+   "word": "few",
+   "start": 9.86,
+   "end": 10.12,
+   "p": 0.999
+  },
+  {
+   "word": "months",
+   "start": 10.12,
+   "end": 10.5,
+   "p": 0.998
+  },
+  {
+   "word": "in",
+   "start": 10.5,
+   "end": 10.78,
+   "p": 0.799
+  },
+  {
+   "word": "nineteen",
+   "start": 10.78,
+   "end": 11.06,
+   "p": 0.0
+  },
+  {
+   "word": "forty",
+   "start": 11.06,
+   "end": 11.48,
+   "p": 0.781
+  },
+  {
+   "word": "-two,",
+   "start": 11.48,
+   "end": 11.94,
+   "p": 0.798
+  },
+  {
+   "word": "it",
+   "start": 12.2,
+   "end": 12.32,
+   "p": 0.993
+  },
+  {
+   "word": "was",
+   "start": 12.32,
+   "end": 12.5,
+   "p": 0.996
+  },
+  {
+   "word": "really",
+   "start": 12.5,
+   "end": 12.94,
+   "p": 0.996
+  },
+  {
+   "word": "happening.",
+   "start": 12.94,
+   "end": 13.52,
+   "p": 0.984
+  },
+  {
+   "word": "Japanese",
+   "start": 14.74,
+   "end": 14.74,
+   "p": 0.995
+  },
+  {
+   "word": "midget",
+   "start": 14.74,
+   "end": 15.16,
+   "p": 0.907
+  },
+  {
+   "word": "submarines",
+   "start": 15.16,
+   "end": 15.78,
+   "p": 0.974
+  },
+  {
+   "word": "slipped",
+   "start": 15.78,
+   "end": 16.52,
+   "p": 0.97
+  },
+  {
+   "word": "into",
+   "start": 16.52,
+   "end": 16.92,
+   "p": 0.991
+  },
+  {
+   "word": "Sydney",
+   "start": 16.92,
+   "end": 17.3,
+   "p": 0.967
+  },
+  {
+   "word": "Harbour.",
+   "start": 17.3,
+   "end": 17.54,
+   "p": 0.151
+  }
+ ]
+}

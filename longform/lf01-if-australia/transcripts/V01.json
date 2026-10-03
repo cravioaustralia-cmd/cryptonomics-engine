@@ -1,0 +1,103 @@
+{
+ "id": "V01",
+ "model": "small.en",
+ "text": "February, nineteen forty-two. In Tokyo, Japanese admirals put a proposal on the table. Invade Australia.",
+ "words": [
+  {
+   "word": "February,",
+   "start": 0.0,
+   "end": 0.58,
+   "p": 0.93
+  },
+  {
+   "word": "nineteen",
+   "start": 0.96,
+   "end": 1.2,
+   "p": 0.0
+  },
+  {
+   "word": "forty",
+   "start": 1.2,
+   "end": 1.82,
+   "p": 0.848
+  },
+  {
+   "word": "-two.",
+   "start": 1.82,
+   "end": 2.26,
+   "p": 0.68
+  },
+  {
+   "word": "In",
+   "start": 2.74,
+   "end": 2.94,
+   "p": 0.981
+  },
+  {
+   "word": "Tokyo,",
+   "start": 2.94,
+   "end": 3.42,
+   "p": 0.989
+  },
+  {
+   "word": "Japanese",
+   "start": 3.82,
+   "end": 4.18,
+   "p": 0.994
+  },
+  {
+   "word": "admirals",
+   "start": 4.18,
+   "end": 4.82,
+   "p": 0.933
+  },
+  {
+   "word": "put",
+   "start": 4.82,
+   "end": 5.06,
+   "p": 0.995
+  },
+  {
+   "word": "a",
+   "start": 5.06,
+   "end": 5.18,
+   "p": 0.995
+  },
+  {
+   "word": "proposal",
+   "start": 5.18,
+   "end": 5.52,
+   "p": 0.997
+  },
+  {
+   "word": "on",
+   "start": 5.52,
+   "end": 5.82,
+   "p": 0.993
+  },
+  {
+   "word": "the",
+   "start": 5.82,
+   "end": 5.98,
+   "p": 0.998
+  },
+  {
+   "word": "table.",
+   "start": 5.98,
+   "end": 6.34,
+   "p": 0.999
+  },
+  {
+   "word": "Invade",
+   "start": 6.82,
+   "end": 7.3,
+   "p": 0.928
+  },
+  {
+   "word": "Australia.",
+   "start": 7.3,
+   "end": 7.82,
+   "p": 0.99
+  }
+ ]
+}

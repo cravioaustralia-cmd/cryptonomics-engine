@@ -1,0 +1,259 @@
+{
+ "id": "V21",
+ "model": "small.en",
+ "text": "Then there's timing. In May nineteen forty-two, the Battle of the Coral Sea, off Australia's north-east coast, turns back a Japanese invasion force heading for Port Moresby. One month later, at Midway, Japan loses four of its big aircraft carriers.",
+ "words": [
+  {
+   "word": "Then",
+   "start": 0.0,
+   "end": 0.38,
+   "p": 0.957
+  },
+  {
+   "word": "there's",
+   "start": 0.38,
+   "end": 0.86,
+   "p": 0.931
+  },
+  {
+   "word": "timing.",
+   "start": 0.86,
+   "end": 1.38,
+   "p": 0.873
+  },
+  {
+   "word": "In",
+   "start": 2.3,
+   "end": 2.34,
+   "p": 0.991
+  },
+  {
+   "word": "May",
+   "start": 2.34,
+   "end": 2.66,
+   "p": 0.982
+  },
+  {
+   "word": "nineteen",
+   "start": 2.66,
+   "end": 2.94,
+   "p": 0.0
+  },
+  {
+   "word": "forty",
+   "start": 2.94,
+   "end": 3.48,
+   "p": 0.919
+  },
+  {
+   "word": "-two,",
+   "start": 3.48,
+   "end": 3.92,
+   "p": 0.683
+  },
+  {
+   "word": "the",
+   "start": 4.4,
+   "end": 4.46,
+   "p": 0.98
+  },
+  {
+   "word": "Battle",
+   "start": 4.46,
+   "end": 4.78,
+   "p": 0.74
+  },
+  {
+   "word": "of",
+   "start": 4.78,
+   "end": 5.0,
+   "p": 0.996
+  },
+  {
+   "word": "the",
+   "start": 5.0,
+   "end": 5.14,
+   "p": 0.987
+  },
+  {
+   "word": "Coral",
+   "start": 5.14,
+   "end": 5.44,
+   "p": 0.995
+  },
+  {
+   "word": "Sea,",
+   "start": 5.44,
+   "end": 5.86,
+   "p": 0.987
+  },
+  {
+   "word": "off",
+   "start": 6.26,
+   "end": 6.48,
+   "p": 0.991
+  },
+  {
+   "word": "Australia's",
+   "start": 6.48,
+   "end": 7.3,
+   "p": 0.949
+  },
+  {
+   "word": "north",
+   "start": 7.3,
+   "end": 7.44,
+   "p": 0.096
+  },
+  {
+   "word": "-east",
+   "start": 7.44,
+   "end": 7.7,
+   "p": 0.746
+  },
+  {
+   "word": "coast,",
+   "start": 7.7,
+   "end": 8.16,
+   "p": 0.996
+  },
+  {
+   "word": "turns",
+   "start": 8.64,
+   "end": 8.86,
+   "p": 0.99
+  },
+  {
+   "word": "back",
+   "start": 8.86,
+   "end": 9.28,
+   "p": 0.997
+  },
+  {
+   "word": "a",
+   "start": 9.28,
+   "end": 9.56,
+   "p": 0.973
+  },
+  {
+   "word": "Japanese",
+   "start": 9.56,
+   "end": 9.92,
+   "p": 0.976
+  },
+  {
+   "word": "invasion",
+   "start": 9.92,
+   "end": 10.46,
+   "p": 0.993
+  },
+  {
+   "word": "force",
+   "start": 10.46,
+   "end": 10.94,
+   "p": 0.947
+  },
+  {
+   "word": "heading",
+   "start": 10.94,
+   "end": 11.2,
+   "p": 0.975
+  },
+  {
+   "word": "for",
+   "start": 11.2,
+   "end": 11.52,
+   "p": 0.992
+  },
+  {
+   "word": "Port",
+   "start": 11.52,
+   "end": 11.8,
+   "p": 0.99
+  },
+  {
+   "word": "Moresby.",
+   "start": 11.8,
+   "end": 12.3,
+   "p": 0.927
+  },
+  {
+   "word": "One",
+   "start": 13.38,
+   "end": 13.62,
+   "p": 0.993
+  },
+  {
+   "word": "month",
+   "start": 13.62,
+   "end": 13.84,
+   "p": 0.998
+  },
+  {
+   "word": "later,",
+   "start": 13.84,
+   "end": 14.28,
+   "p": 0.998
+  },
+  {
+   "word": "at",
+   "start": 14.56,
+   "end": 14.6,
+   "p": 0.997
+  },
+  {
+   "word": "Midway,",
+   "start": 14.6,
+   "end": 15.14,
+   "p": 0.932
+  },
+  {
+   "word": "Japan",
+   "start": 15.96,
+   "end": 15.96,
+   "p": 0.997
+  },
+  {
+   "word": "loses",
+   "start": 15.96,
+   "end": 16.34,
+   "p": 0.985
+  },
+  {
+   "word": "four",
+   "start": 16.34,
+   "end": 16.86,
+   "p": 0.916
+  },
+  {
+   "word": "of",
+   "start": 16.86,
+   "end": 17.08,
+   "p": 0.995
+  },
+  {
+   "word": "its",
+   "start": 17.08,
+   "end": 17.24,
+   "p": 0.964
+  },
+  {
+   "word": "big",
+   "start": 17.24,
+   "end": 17.56,
+   "p": 0.987
+  },
+  {
+   "word": "aircraft",
+   "start": 17.56,
+   "end": 18.04,
+   "p": 0.565
+  },
+  {
+   "word": "carriers.",
+   "start": 18.04,
+   "end": 18.58,
+   "p": 0.992
+  }
+ ]
+}

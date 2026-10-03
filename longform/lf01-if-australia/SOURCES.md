@@ -25,3 +25,19 @@ Voice (`audio/vo/V01.mp3`–`V34.mp3`) and B-roll (`broll/B01.mp4`–`B12.mp4`) 
 - Credit line: Music: Long note One by Kevin MacLeod (incompetech.com). Licensed under Creative Commons: By Attribution 4.0.
 
 Not the Shorts Skyline bed. Not Mixkit. Not Pixabay.
+
+## Map and design sources (added with the cut)
+
+- **Terrain elevation:** AWS Terrain Tiles (Mapzen "terrarium" encoding), Open Data on AWS, fetched from `https://elevation-tiles-prod.s3.amazonaws.com/terrarium/{z}/{x}/{y}.png` by `render/tools/build-tiles.py`. Free to use with attribution. The tiles combine SRTM (NASA), GMTED2010 (USGS), ETOPO1 (NOAA) and other public datasets. Full attribution: https://github.com/tilezen/joerd/blob/master/docs/attribution.md. The parchment styling, hillshade, water lining and ink coastlines are drawn by our script.
+- **Coastlines, lakes, rivers, country outlines:** Natural Earth 1:10m / 1:50m / 1:110m, public domain, from https://github.com/nvkelso/natural-earth-vector.
+- **Rail and road lines** (Darwin to Birdum, Port Augusta to Alice Springs, the north–south road through the gap) and the Kokoda line are approximate alignments drawn for the map. The Japanese-held wash in Act 1 is an approximate early-1942 extent.
+- **Fonts** (in `render/fonts/`, licence files alongside): Oswald (SIL Open Font Licence 1.1), Special Elite (Apache 2.0), IM FELL English and IM FELL English SC (SIL Open Font Licence 1.1). All from https://github.com/google/fonts.
+- **Paper grain, clouds:** generated procedurally by `render/tools/make-assets.py`. No third-party images.
+
+## Sound effects
+
+All sound effects, the IF AUSTRALIA series sting and the cliffhanger sting are synthesised in-house by `render/tools/build-sfx.py` (numpy). No third-party samples, no Mixkit, no Pixabay. The series sting is kept at `render/sfx/sting_series.wav` for later episodes.
+
+## B-roll
+
+B01–B12 are AI-generated dramatised reconstructions (Grok Imagine, prompts in `broll/PROMPTS.md`). They show no real people. Mark the upload as altered or synthetic content.

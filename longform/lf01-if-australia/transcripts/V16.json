@@ -1,0 +1,487 @@
+{
+ "id": "V16",
+ "model": "small.en",
+ "text": "Australia was already racing to push a military road through that gap, the road that became the Stuart Highway, to move troops north. So a Japanese force in Darwin could bomb, block, and threaten. But marching south? Close to impossible. Tokyo's generals could see the trap. An army stuck in the north, facing Australian and American counterattacks, with supply lines stretching thousands of kilometers back to Japan. Exactly the kind of endless war they were already stuck in in China.",
+ "words": [
+  {
+   "word": "Australia",
+   "start": 0.0,
+   "end": 0.64,
+   "p": 0.979
+  },
+  {
+   "word": "was",
+   "start": 0.64,
+   "end": 0.98,
+   "p": 0.998
+  },
+  {
+   "word": "already",
+   "start": 0.98,
+   "end": 1.5,
+   "p": 0.997
+  },
+  {
+   "word": "racing",
+   "start": 1.5,
+   "end": 1.96,
+   "p": 0.993
+  },
+  {
+   "word": "to",
+   "start": 1.96,
+   "end": 2.26,
+   "p": 0.997
+  },
+  {
+   "word": "push",
+   "start": 2.26,
+   "end": 2.48,
+   "p": 0.979
+  },
+  {
+   "word": "a",
+   "start": 2.48,
+   "end": 2.66,
+   "p": 0.996
+  },
+  {
+   "word": "military",
+   "start": 2.66,
+   "end": 3.16,
+   "p": 0.991
+  },
+  {
+   "word": "road",
+   "start": 3.16,
+   "end": 3.6,
+   "p": 0.997
+  },
+  {
+   "word": "through",
+   "start": 3.6,
+   "end": 3.92,
+   "p": 0.994
+  },
+  {
+   "word": "that",
+   "start": 3.92,
+   "end": 4.2,
+   "p": 0.97
+  },
+  {
+   "word": "gap,",
+   "start": 4.2,
+   "end": 4.58,
+   "p": 0.998
+  },
+  {
+   "word": "the",
+   "start": 4.96,
+   "end": 5.3,
+   "p": 0.99
+  },
+  {
+   "word": "road",
+   "start": 5.3,
+   "end": 5.5,
+   "p": 0.969
+  },
+  {
+   "word": "that",
+   "start": 5.5,
+   "end": 5.72,
+   "p": 0.995
+  },
+  {
+   "word": "became",
+   "start": 5.72,
+   "end": 6.08,
+   "p": 0.994
+  },
+  {
+   "word": "the",
+   "start": 6.08,
+   "end": 6.28,
+   "p": 0.994
+  },
+  {
+   "word": "Stuart",
+   "start": 6.28,
+   "end": 6.64,
+   "p": 0.273
+  },
+  {
+   "word": "Highway,",
+   "start": 6.64,
+   "end": 7.12,
+   "p": 0.746
+  },
+  {
+   "word": "to",
+   "start": 7.48,
+   "end": 7.86,
+   "p": 0.997
+  },
+  {
+   "word": "move",
+   "start": 7.86,
+   "end": 8.12,
+   "p": 0.999
+  },
+  {
+   "word": "troops",
+   "start": 8.12,
+   "end": 8.56,
+   "p": 0.983
+  },
+  {
+   "word": "north.",
+   "start": 8.56,
+   "end": 8.9,
+   "p": 0.883
+  },
+  {
+   "word": "So",
+   "start": 9.74,
+   "end": 10.0,
+   "p": 0.98
+  },
+  {
+   "word": "a",
+   "start": 10.0,
+   "end": 10.16,
+   "p": 0.723
+  },
+  {
+   "word": "Japanese",
+   "start": 10.16,
+   "end": 10.62,
+   "p": 0.992
+  },
+  {
+   "word": "force",
+   "start": 10.62,
+   "end": 11.1,
+   "p": 0.986
+  },
+  {
+   "word": "in",
+   "start": 11.1,
+   "end": 11.36,
+   "p": 0.994
+  },
+  {
+   "word": "Darwin",
+   "start": 11.36,
+   "end": 11.78,
+   "p": 0.991
+  },
+  {
+   "word": "could",
+   "start": 11.78,
+   "end": 12.1,
+   "p": 0.996
+  },
+  {
+   "word": "bomb,",
+   "start": 12.1,
+   "end": 12.66,
+   "p": 0.992
+  },
+  {
+   "word": "block,",
+   "start": 12.86,
+   "end": 13.2,
+   "p": 0.997
+  },
+  {
+   "word": "and",
+   "start": 13.44,
+   "end": 13.62,
+   "p": 0.995
+  },
+  {
+   "word": "threaten.",
+   "start": 13.62,
+   "end": 14.02,
+   "p": 0.997
+  },
+  {
+   "word": "But",
+   "start": 14.54,
+   "end": 14.74,
+   "p": 0.991
+  },
+  {
+   "word": "marching",
+   "start": 14.74,
+   "end": 15.2,
+   "p": 0.962
+  },
+  {
+   "word": "south?",
+   "start": 15.2,
+   "end": 15.62,
+   "p": 0.956
+  },
+  {
+   "word": "Close",
+   "start": 16.58,
+   "end": 16.68,
+   "p": 0.993
+  },
+  {
+   "word": "to",
+   "start": 16.68,
+   "end": 16.94,
+   "p": 0.998
+  },
+  {
+   "word": "impossible.",
+   "start": 16.94,
+   "end": 17.46,
+   "p": 0.997
+  },
+  {
+   "word": "Tokyo's",
+   "start": 18.46,
+   "end": 18.92,
+   "p": 0.994
+  },
+  {
+   "word": "generals",
+   "start": 18.92,
+   "end": 19.18,
+   "p": 0.978
+  },
+  {
+   "word": "could",
+   "start": 19.18,
+   "end": 19.58,
+   "p": 0.997
+  },
+  {
+   "word": "see",
+   "start": 19.58,
+   "end": 19.84,
+   "p": 0.998
+  },
+  {
+   "word": "the",
+   "start": 19.84,
+   "end": 20.04,
+   "p": 0.998
+  },
+  {
+   "word": "trap.",
+   "start": 20.04,
+   "end": 20.36,
+   "p": 0.98
+  },
+  {
+   "word": "An",
+   "start": 20.92,
+   "end": 21.08,
+   "p": 0.981
+  },
+  {
+   "word": "army",
+   "start": 21.08,
+   "end": 21.42,
+   "p": 0.974
+  },
+  {
+   "word": "stuck",
+   "start": 21.42,
+   "end": 21.74,
+   "p": 0.991
+  },
+  {
+   "word": "in",
+   "start": 21.74,
+   "end": 21.94,
+   "p": 0.999
+  },
+  {
+   "word": "the",
+   "start": 21.94,
+   "end": 22.08,
+   "p": 0.998
+  },
+  {
+   "word": "north,",
+   "start": 22.08,
+   "end": 22.38,
+   "p": 0.936
+  },
+  {
+   "word": "facing",
+   "start": 22.58,
+   "end": 22.96,
+   "p": 0.998
+  },
+  {
+   "word": "Australian",
+   "start": 22.96,
+   "end": 23.68,
+   "p": 0.985
+  },
+  {
+   "word": "and",
+   "start": 23.68,
+   "end": 23.96,
+   "p": 0.996
+  },
+  {
+   "word": "American",
+   "start": 23.96,
+   "end": 24.46,
+   "p": 0.998
+  },
+  {
+   "word": "counterattacks,",
+   "start": 24.46,
+   "end": 25.34,
+   "p": 0.781
+  },
+  {
+   "word": "with",
+   "start": 25.34,
+   "end": 25.96,
+   "p": 0.712
+  },
+  {
+   "word": "supply",
+   "start": 25.96,
+   "end": 26.4,
+   "p": 0.987
+  },
+  {
+   "word": "lines",
+   "start": 26.4,
+   "end": 26.78,
+   "p": 0.943
+  },
+  {
+   "word": "stretching",
+   "start": 26.78,
+   "end": 27.22,
+   "p": 0.996
+  },
+  {
+   "word": "thousands",
+   "start": 27.22,
+   "end": 27.76,
+   "p": 0.976
+  },
+  {
+   "word": "of",
+   "start": 27.76,
+   "end": 28.06,
+   "p": 0.998
+  },
+  {
+   "word": "kilometers",
+   "start": 28.06,
+   "end": 28.52,
+   "p": 0.919
+  },
+  {
+   "word": "back",
+   "start": 28.52,
+   "end": 29.0,
+   "p": 0.998
+  },
+  {
+   "word": "to",
+   "start": 29.0,
+   "end": 29.26,
+   "p": 0.997
+  },
+  {
+   "word": "Japan.",
+   "start": 29.26,
+   "end": 29.66,
+   "p": 0.99
+  },
+  {
+   "word": "Exactly",
+   "start": 30.42,
+   "end": 30.82,
+   "p": 0.974
+  },
+  {
+   "word": "the",
+   "start": 30.82,
+   "end": 31.2,
+   "p": 0.994
+  },
+  {
+   "word": "kind",
+   "start": 31.2,
+   "end": 31.42,
+   "p": 0.996
+  },
+  {
+   "word": "of",
+   "start": 31.42,
+   "end": 31.6,
+   "p": 0.999
+  },
+  {
+   "word": "endless",
+   "start": 31.6,
+   "end": 32.02,
+   "p": 0.98
+  },
+  {
+   "word": "war",
+   "start": 32.02,
+   "end": 32.42,
+   "p": 0.997
+  },
+  {
+   "word": "they",
+   "start": 32.42,
+   "end": 32.6,
+   "p": 0.983
+  },
+  {
+   "word": "were",
+   "start": 32.6,
+   "end": 32.76,
+   "p": 0.996
+  },
+  {
+   "word": "already",
+   "start": 32.76,
+   "end": 33.2,
+   "p": 0.982
+  },
+  {
+   "word": "stuck",
+   "start": 33.2,
+   "end": 33.56,
+   "p": 0.997
+  },
+  {
+   "word": "in",
+   "start": 33.56,
+   "end": 33.86,
+   "p": 0.997
+  },
+  {
+   "word": "in",
+   "start": 33.86,
+   "end": 34.16,
+   "p": 0.633
+  },
+  {
+   "word": "China.",
+   "start": 34.16,
+   "end": 34.46,
+   "p": 0.995
+  }
+ ]
+}

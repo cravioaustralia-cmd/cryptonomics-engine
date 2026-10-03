@@ -1,0 +1,223 @@
+{
+ "id": "V12",
+ "model": "small.en",
+ "text": "Scenario one is the Navy's own idea. Don't conquer Australia. Just grab pieces of the north. Picture Japanese landings at ports like Darwin. Airfields to bomb the rest of the country. Bases to block American ships.",
+ "words": [
+  {
+   "word": "Scenario",
+   "start": 0.0,
+   "end": 0.78,
+   "p": 0.93
+  },
+  {
+   "word": "one",
+   "start": 0.78,
+   "end": 1.36,
+   "p": 0.445
+  },
+  {
+   "word": "is",
+   "start": 1.36,
+   "end": 1.94,
+   "p": 0.952
+  },
+  {
+   "word": "the",
+   "start": 1.94,
+   "end": 2.16,
+   "p": 0.986
+  },
+  {
+   "word": "Navy's",
+   "start": 2.16,
+   "end": 2.76,
+   "p": 0.886
+  },
+  {
+   "word": "own",
+   "start": 2.76,
+   "end": 3.04,
+   "p": 0.996
+  },
+  {
+   "word": "idea.",
+   "start": 3.04,
+   "end": 3.58,
+   "p": 0.997
+  },
+  {
+   "word": "Don't",
+   "start": 4.4,
+   "end": 5.04,
+   "p": 0.984
+  },
+  {
+   "word": "conquer",
+   "start": 5.04,
+   "end": 5.04,
+   "p": 0.989
+  },
+  {
+   "word": "Australia.",
+   "start": 5.04,
+   "end": 5.54,
+   "p": 0.993
+  },
+  {
+   "word": "Just",
+   "start": 6.34,
+   "end": 6.42,
+   "p": 0.981
+  },
+  {
+   "word": "grab",
+   "start": 6.42,
+   "end": 6.76,
+   "p": 0.997
+  },
+  {
+   "word": "pieces",
+   "start": 6.76,
+   "end": 7.08,
+   "p": 0.972
+  },
+  {
+   "word": "of",
+   "start": 7.08,
+   "end": 7.38,
+   "p": 0.997
+  },
+  {
+   "word": "the",
+   "start": 7.38,
+   "end": 7.58,
+   "p": 0.998
+  },
+  {
+   "word": "north.",
+   "start": 7.58,
+   "end": 7.78,
+   "p": 0.453
+  },
+  {
+   "word": "Picture",
+   "start": 8.92,
+   "end": 9.12,
+   "p": 0.955
+  },
+  {
+   "word": "Japanese",
+   "start": 9.12,
+   "end": 9.8,
+   "p": 0.986
+  },
+  {
+   "word": "landings",
+   "start": 9.8,
+   "end": 10.4,
+   "p": 0.997
+  },
+  {
+   "word": "at",
+   "start": 10.4,
+   "end": 10.6,
+   "p": 0.994
+  },
+  {
+   "word": "ports",
+   "start": 10.6,
+   "end": 10.82,
+   "p": 0.997
+  },
+  {
+   "word": "like",
+   "start": 10.82,
+   "end": 11.12,
+   "p": 0.996
+  },
+  {
+   "word": "Darwin.",
+   "start": 11.12,
+   "end": 11.56,
+   "p": 0.992
+  },
+  {
+   "word": "Airfields",
+   "start": 12.2,
+   "end": 12.58,
+   "p": 0.966
+  },
+  {
+   "word": "to",
+   "start": 12.58,
+   "end": 12.88,
+   "p": 0.993
+  },
+  {
+   "word": "bomb",
+   "start": 12.88,
+   "end": 13.16,
+   "p": 0.997
+  },
+  {
+   "word": "the",
+   "start": 13.16,
+   "end": 13.36,
+   "p": 0.997
+  },
+  {
+   "word": "rest",
+   "start": 13.36,
+   "end": 13.52,
+   "p": 0.994
+  },
+  {
+   "word": "of",
+   "start": 13.52,
+   "end": 13.72,
+   "p": 0.998
+  },
+  {
+   "word": "the",
+   "start": 13.72,
+   "end": 13.86,
+   "p": 0.998
+  },
+  {
+   "word": "country.",
+   "start": 13.86,
+   "end": 14.24,
+   "p": 0.995
+  },
+  {
+   "word": "Bases",
+   "start": 14.92,
+   "end": 15.12,
+   "p": 0.962
+  },
+  {
+   "word": "to",
+   "start": 15.12,
+   "end": 15.38,
+   "p": 0.999
+  },
+  {
+   "word": "block",
+   "start": 15.38,
+   "end": 15.68,
+   "p": 0.996
+  },
+  {
+   "word": "American",
+   "start": 15.68,
+   "end": 16.14,
+   "p": 0.984
+  },
+  {
+   "word": "ships.",
+   "start": 16.14,
+   "end": 16.46,
+   "p": 0.993
+  }
+ ]
+}

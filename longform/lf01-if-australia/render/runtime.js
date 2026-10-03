@@ -81,11 +81,11 @@
 
   function applyLook(view, L) {
     const n = L.night || 0, d = L.desat || 0, wm = L.warm || 0, dim = L.dim || 0;
-    let b = (1 - 0.62 * n) * (1 - 0.1 * d) * (1 + 0.04 * wm) * (1 - dim);
+    let b = (1 - 0.46 * n) * (1 - 0.1 * d) * (1 + 0.04 * wm) * (1 - dim);
     let s = (1 - 0.45 * n) * (1 - 0.85 * d) * (1 + 0.28 * wm);
     const f = `brightness(${b.toFixed(3)}) saturate(${s.toFixed(3)}) contrast(${(1 - 0.08 * d + 0.03 * wm).toFixed(3)}) sepia(${(0.2 * wm).toFixed(3)})`;
     view.tiles.style.filter = f;
-    view.night.style.opacity = (0.55 * n).toFixed(3);
+    view.night.style.opacity = (0.42 * n).toFixed(3);
     view.warm.style.opacity = (0.3 * wm).toFixed(3);
   }
 
@@ -118,6 +118,7 @@
     for (const [L, list] of Object.entries(MANIFEST)) HAVE[L] = new Set(list.map(([x, y]) => x * 4096 + y));
     await document.fonts.ready;
     await Promise.all(['Oswald', 'Elite', 'Fell', 'FellSC', 'FellIt'].map((f) => document.fonts.load(`40px ${f}`)));
+    window.CURTIN_IMG = '/img/curtin.jpg';
     window.SCORE = window.buildScore(timeline, geo);
     window.EPISODE = { duration: window.SCORE.duration, fps: 30 };
     window.__ready = true;
