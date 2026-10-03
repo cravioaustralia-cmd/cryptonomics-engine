@@ -1,7 +1,7 @@
 # Cue sheet — lf01 IF AUSTRALIA… Episode 1
 
 Generated from the cue list that `render/mix.py` actually used, so this sheet and the mix match.
-Times are the final cut (Whisper-locked). Sparse by design: grim beats run nearly dry; no Shorts whoosh/pop chatter.
+Times are the edit timeline (Whisper-locked, 1×). The delivered final plays the whole film at **1.28×** with the voice pitch held, so divide every time here by 1.28 for the final file.
 
 ## Music beds (free licence, see SOURCES.md)
 
@@ -28,7 +28,7 @@ Times are the final cut (Whisper-locked). Sparse by design: grim beats run nearl
 One cue per emotional section, with a short stop at section changes: darker, heavier beds (Dark Drama, Between Two Evils) for war and invasion; a sad, low bed (Echoes) and the scripted strings for loss; Fallen (Asper) for plans and argument; Curiosity for geography; Vastness for relief; The Journey for the warm Act 5.
 
 While Atlas speaks the bed sits about 23 LU under the narration, with a 1.5–4 kHz presence dip of about 7 dB. In pauses, the cold open and atmosphere beats it rises to about 11 LU under the narration: heard, never full. Speech detection runs 150 ms ahead, so beds are already down before a word starts.
-Word safety (speech band 200 Hz–5 kHz, every 20 ms frame where the voice sounds, 15898 frames): the voice is above music + SFX + ambience by **at least 12.0 dB**, median 26.9 dB. A sidechain on the beds (never on the voice) enforces the 12 dB floor.
+Word safety (speech band 200 Hz–5 kHz, every 20 ms frame where the voice sounds, 15898 frames): the voice is above music + SFX + ambience by **at least 12.0 dB**, median 27.3 dB. A sidechain on the beds (never on the voice) enforces the 12 dB floor.
 
 ## Sound effects (synthesised in-house by `render/make_sfx.py`)
 
@@ -120,11 +120,9 @@ Effects sit in the pauses; anything that overlaps narration is ducked about 16 d
 | 7:46.70 | 7:47.25 | Label click: PORT MORESBY | V25 | click.flac (-17 dB) |
 | 7:53.78 | 7:54.33 | Label click: QUEENSLAND | V25 | click.flac (-17 dB) |
 | 8:02.35 | 8:06.15 | Snapping cable in the pause after "fewer supplies" | V26 | cable_snap.flac (-3 dB) |
-| 8:02.95 | 8:10.18 | Near silence with a low wind tone (Australia alone) | V26 -> gap 2 s | low_wind.flac (-17 dB) |
 | 8:23.80 | 8:24.35 | Label click: SYDNEY HARBOUR | V27 | click.flac (-17 dB) |
 | 8:28.74 | 8:29.29 | Label click: SYDNEY | V28 | click.flac (-17 dB) |
 | 8:29.09 | 8:29.64 | Label click: NEWCASTLE | V28 | click.flac (-17 dB) |
-| 8:29.42 | 8:37.42 | Distant shell bursts, soft under the voice | V28 | explosions_distant.flac (-15 dB) |
 | 8:37.78 | 8:38.33 | Label click: PORT MORESBY | V28 | click.flac (-17 dB) |
 | 8:37.83 | 8:38.20 | Counter falls: distance to Port Moresby, stops at ~40 km | V28 | tick.flac (-18 dB) |
 | 8:37.83 | 8:39.33 | Red line crawls toward Port Moresby | V28 | pen_draw.flac (-24 dB) |
@@ -188,7 +186,9 @@ Every B-roll clip is muted: the clips' own generated audio is never mapped into 
 | 5:50.84 | 5:54.74 | Choppy sea through the periscope | B07 (east-coast supply line, on 'submarines') | sea.flac (-17 dB) |
 | 6:08.58 | 6:13.48 | Distant war rumble around the burning carrier | B08 (Midway pin) | war_ambience.flac (-15 dB) |
 | 6:08.58 | 6:13.48 | Calm sea at Midway | B08 (Midway pin) | sea.flac (-19 dB) |
+| 8:02.95 | 8:10.18 | Near silence with a low wind tone (Australia alone) | V26 -> gap 2 s | low_wind.flac (-17 dB) |
 | 8:23.81 | 8:28.71 | Underwater rumble in Sydney Harbour | B10 (Sydney Harbour pin) | underwater.flac (-15 dB) |
+| 8:29.42 | 8:37.42 | Distant shell bursts, soft under the voice | V28 | explosions_distant.flac (-15 dB) |
 | 8:32.33 | 8:38.23 | Heavy rain on the mountain track | B11 (New Guinea, Kokoda Track) | rain.flac (-15 dB) |
 | 8:32.33 | 8:38.23 | Distant war rumble | B11 (New Guinea, Kokoda Track) | war_ambience.flac (-20 dB) |
 | 8:32.33 | 8:38.23 | Jungle birds (repo file) | B11 (New Guinea, Kokoda Track) | birds_jungle_ambience.mp3 (-24 dB) |
@@ -223,9 +223,9 @@ Every B-roll clip is muted: the clips' own generated audio is never mapped into 
 ## Master
 
 - Voice as recorded, assembled: -22.0 LUFS integrated (no voice loudnorm, no compression).
-- Master chain: `volume=8.15dB,aresample=192000,alimiter=limit=0.7079:attack=3:release=80:level=false:asc=1,aresample=48000:resampler=soxr:precision=28,loudnorm(two-pass, linear)`.
+- Master chain: `volume=8.38dB,aresample=192000,alimiter=limit=0.7079:attack=3:release=80:level=false:asc=1,aresample=48000:resampler=soxr:precision=28,loudnorm(two-pass, linear)`.
 - Two-pass loudnorm on the master only, pass 2 normalisation type: **linear**.
-- Result: **-14.00 LUFS integrated, -2.17 dBTP true peak**, LRA 6.00 LU (target −14 LUFS, ≤ −1.5 dBTP).
+- Result: **-14.00 LUFS integrated, -2.10 dBTP true peak**, LRA 5.10 LU (target −14 LUFS, ≤ −1.5 dBTP).
 
 ## Series sting ("IF AUSTRALIA…")
 

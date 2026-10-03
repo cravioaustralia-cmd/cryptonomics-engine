@@ -26,3 +26,8 @@
 - Hard words after a pause ("rejected", "No invasion", "stuck", "Cut it off", "populate") get a short rise through the pause and a tight low hit on the word. These replace the stamp thuds on "rejected" and "stuck". The cliffhanger stings were cut to 2.2 s.
 - Labels get a soft click, counters and dates get typewriter ticks (runs for the climbing shipping, falling Kokoda distance and climbing population counters), and map draws get a quiet pencil scratch. All under the voice or in the gaps; 12 dB voice floor still enforced.
 - New in-house files: tick, click, pen_draw, riser_short, word_hit (SOURCES.md). Delivered MP4: −14.0 LUFS, −1.8 dBTP.
+
+2026-10-03 — Clean voice from "Japan's hope" + 1.28× final (no map re-render).
+- V27 to the end of Act 4: environment/noise beds (underwater, rain, war rumble, jungle birds, low wind, shell bursts) muted under the words (kept in pauses); music under the voice loses its sub-220 Hz rumble and sits 7 dB lower, matching the rest of the film. Ducked music and hits elsewhere unchanged.
+- Final = whole film at 1.28×, picture and sound together. Audio: finished pre-master mix stretched with ffmpeg atempo (pitch unchanged; Rubber Band in this build shifted level and estimated pitch, so not used), then the master chain + two-pass linear loudnorm on that file only. Picture: recomposited from the existing map plate (B-roll, badge, label) and sped up in the same ffmpeg pass.
+- Delivered: 8:32, 1920×1080/30, H.264 ~1.3 Mbit/s + AAC 192 kbit/s (92 MiB), −14.0 LUFS, −1.54 dBTP. Chapters, mid-rolls (2:22, 5:45) and end screen (8:24–8:32, 7.8 s) converted in YOUTUBE_DESCRIPTION.md. CUE_SHEET times stay on the 1× edit timeline (divide by 1.28).
