@@ -1,17 +1,16 @@
 # VO script — s28 Robyn Davidson
 
-**Status:** Atlas VO **PENDING** — `audio/vo.mp3` does not exist yet. Do not invent a file and do not overwrite one if Video Production seats it first.  
-**Who seats it:** Video Production will seat Atlas en-AU VO at `shorts/s28-robyn-davidson/audio/vo.mp3` **before** the user pastes this brief into Claude Code.  
-**Delivery target:** fast amazed → storytelling → sly/deadpan → tense → dark slower (music out) → awed coast → warm series close (~105–125 s). Start instantly; Impossible Journeys ep.4. en-AU / Atlas.
+**Status:** Atlas VO **SEATED** at `audio/vo.mp3` (95.4 s). Do not overwrite.  
+**Delivery:** fast amazed → storytelling → sly/deadpan → tense → dark slower (music out) → awed coast → warm series close. Start instantly; Impossible Journeys ep.4. en-AU / Atlas.
 
 Emotion cues are for performance reference only — **not spoken**. Never speak the hook card.
 
 **Loop note:** **Incomplete loop.** Last line `All of it, for` bridges into `One woman. Four camels…`
 
 **Spoken word count:** 250 words (excl. emotion cues).  
-**Duration target:** ~105–125 s at Shorts pace (~2.0–2.4 wps). Whisper-retune seams only after the held VO lands.
+**Duration:** 95.4 s (held). Whisper-retune seams to this recording.
 
-**VO file coming — place at `shorts/s28-robyn-davidson/audio/vo.mp3`.**
+**VO file:** `shorts/s28-robyn-davidson/audio/vo.mp3` (95.4 s).
 
 ---
 

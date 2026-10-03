@@ -10,7 +10,7 @@ Series: **Impossible Journeys — episode 4** (s26 Mary Bryant was ep.1; s27 Ber
 
 **Handoff:** the user pastes this file into Claude Code. Do **not** post a GitHub comment that summons Claude. The user pastes this file into Claude Code themselves.
 
-**VO:** Atlas en-AU is **PENDING** at `audio/vo.mp3`. Video Production will seat Atlas VO **before** the user pastes. If `audio/vo.mp3` is already there when you start, do not overwrite it. Whisper-retune seams to the held recording. Do not invent timings before it lands.
+**VO:** Atlas en-AU is **SEATED** at `audio/vo.mp3` (95.4 s). Do not overwrite it. Whisper-retune seams to this recording.
 
 ---
 
@@ -121,7 +121,7 @@ Humour lock: deadpan true details are funny alone; **stage these visual gags** o
 
 ## Beat plan (ANIMATE vs STILL)
 
-Approximate seams — **retune to Whisper** once Atlas VO is held at `audio/vo.mp3`. Target ~105–125 s for ~250 words. Do not lock frame counts before the recording exists.
+Approximate seams — **retune to Whisper** on the held Atlas VO at `audio/vo.mp3` (**95.4 s**, faster than the 105–125 s guess). Do not overwrite `vo.mp3`.
 
 | # | Beat (VO cue) | Mode | Treatment |
 |---|---|---|---|
@@ -175,7 +175,7 @@ Document every still in `SOURCES.md` / `images/SOURCES.md`.
 
 ## Style locks (verbatim)
 
-- **Atlas VO:** fast amazed → storytelling → sly/deadpan → tense → dark slower → awed → warm series close; start instantly; never speak `()` cues; never speak the hook; **VO PENDING** (Atlas en-AU; Video Production seats `audio/vo.mp3` before paste; Whisper-retune after)
+- **Atlas VO:** fast amazed → storytelling → sly/deadpan → tense → dark slower → awed → warm series close; start instantly; never speak `()` cues; never speak the hook; **VO SEATED** at `audio/vo.mp3` (Atlas en-AU, 95.4 s). Do not overwrite. Whisper-retune seams to it
 - **Captions** lower-middle ~70%; no VO-echo big titles; labels for names/places/facts only
 - **Sparse intentional SFX** ~6–10, clearly under VO, VO-only stretches; cut dense whoosh/pop chatter
 - **Music:** Mixkit Skyline id 601, seated ~4 dB quieter than the s18 bed under VO (same as other Impossible Journeys). On gag 4, music drops out
@@ -213,4 +213,4 @@ Document every still in `SOURCES.md` / `images/SOURCES.md`.
 
 ## Success
 
-Premium **map-explainer** Short matching the GeoArchivez motion bar + GeoGlobeTales lighting lock, all six visual gags staged on cue (including series camel at the back of the line + master-map join), first-frame red-centre march with the Indian Ocean glowing, incomplete loop into that open, dignity held on the elder and the dog, contact sheet reviewed, loudnorm clean. **VO pending** until Video Production seats Atlas at `shorts/s28-robyn-davidson/audio/vo.mp3`.
+Premium **map-explainer** Short matching the GeoArchivez motion bar + GeoGlobeTales lighting lock, all six visual gags staged on cue (including series camel at the back of the line + master-map join), first-frame red-centre march with the Indian Ocean glowing, incomplete loop into that open, dignity held on the elder and the dog, contact sheet reviewed, loudnorm clean. Atlas VO is seated at `shorts/s28-robyn-davidson/audio/vo.mp3` (95.4 s). Do not overwrite it.
