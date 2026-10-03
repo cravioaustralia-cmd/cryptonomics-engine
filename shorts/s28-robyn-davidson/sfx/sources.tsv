@@ -8,3 +8,6 @@ typewriter_tick.mp3	Typewriter	Mixkit Free Sound Effects Licence	https://mixkit.
 paper_rustle.mp3	Paper	Mixkit Free Sound Effects Licence	https://mixkit.co/free-sound-effects/	passport stamp / newspaper colour
 thud.mp3	Thud	Mixkit Free Sound Effects Licence	https://mixkit.co/free-sound-effects/	pin-drop / stamp thunk
 record-scratch.mp3	Record scratch	Mixkit Free Sound Effects Licence	https://mixkit.co/free-sound-effects/	optional accent — prefer sparse
+shutter_click.wav	Camera shutter click	Synthesised in-repo (ffmpeg anoisesrc; no third-party audio)	n/a	Gag 2 camera pops
+press_swarm.wav	Press-car swarm hum	Synthesised in-repo (ffmpeg aevalsrc + brown noise)	n/a	Gag 3 swarm
+splash.wav	Water splash	Synthesised in-repo (ffmpeg pink/white noise + droplet chirps)	n/a	Gag 5 wade-in

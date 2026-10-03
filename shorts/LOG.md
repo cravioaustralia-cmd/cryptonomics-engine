@@ -191,3 +191,12 @@ Unpacked 6 Grok VOs into shorts/incoming-vo/. #01 matches finished Skylab Short;
 ## 2026-09-30T20:55+10:00 — s24 Burke & Wills (Atlas VO held)
 - Held Atlas en-AU `audio/vo.mp3` (**39.168 s**) from `/home/box/Downloads/s24_burke_wills_atlas_fast.mp3` (also `/workspace/deliverables/s24-burke-wills/vo-raw/vo-atlas.mp3`)
 - Ready for Claude Whisper / seam retune; incomplete loop on `…story of how`
+
+## 2026-10-03 — s28 Robyn Davidson (Claude build · MAP EXPLAINER · Impossible Journeys ep.4)
+- Built on the held Atlas VO (`audio/vo.mp3`, 95.4 s, untouched). faster-whisper `medium.en` timings went to `transcript.json`, with all 250 script words aligned.
+- Basemap is GeoGlobeTales-grade and built from open data: NASA Blue Marble colour, AWS Terrain Tiles relief and bathymetry, and a Natural Earth coast. It has no blown white relief.
+- Seven feathered resolution layers sit under one projective tilted-plane camera with screen-space SVG overlays (`render/scenes.js`).
+- All six gags are staged on cue. Elder and dog beats are held with dignity, and the incomplete loop matches frame 1.
+- The mix follows the locked path: master −14.0 LUFS and −1.5 dBTP, with music out 66.32–74.9 s.
+- Output: `final/s28-robyn-davidson.mp4`, plus the contact sheet and loudnorm report.
+- No upload and no merge.

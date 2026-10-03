@@ -20,11 +20,11 @@ Same Impossible Journeys standing bed as s26 Mary Bryant (ep.1) and s27 Bert Hin
 
 ## SFX
 
-Episode copies the reviewed Mixkit shared-kit cues. Source URLs in [`sfx/sources.tsv`](sfx/sources.tsv). Prefer ~**6–10 intentional cues** — sparse, clearly under VO, with VO-only stretches. No gunshot on the dog beat. Stage side-eye, camera clicks, press-car swarm, and one splash. Cut dense whoosh/pop chatter.
+Episode copies the reviewed Mixkit shared-kit cues, plus three cues synthesised in-repo with ffmpeg: `shutter_click.wav`, `press_swarm.wav` and `splash.wav`. Source URLs in [`sfx/sources.tsv`](sfx/sources.tsv). Prefer ~**6–10 intentional cues** — sparse, clearly under VO, with VO-only stretches. No gunshot on the dog beat. Stage side-eye, camera clicks, press-car swarm, and one splash. Cut dense whoosh/pop chatter.
 
 ## Audio hand-off
 
-- `audio/vo.mp3` — **PENDING**. Video Production seats Atlas en-AU before the user pastes this brief. Do not overwrite a file that lands later. Whisper word timings → `transcript.json` only after VO exists. See [`audio/README.md`](audio/README.md).
+- `audio/vo.mp3` — Atlas en-AU, **seated** (95.4 s), never modified. Word timings come from faster-whisper `medium.en` in `transcript.json`; all 250 script words aligned. See `render/README.md`.
 - Mix path: measure VO → static gain + `apad` → float `amix` → two-pass loudnorm on master only (~−14 LUFS). No pre-amix VO loudnorm.
 
 ## Key factual sources (notes only — not added to the spoken script)

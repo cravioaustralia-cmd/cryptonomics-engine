@@ -1,0 +1,72 @@
+{
+ "base": {
+  "lon0": 96.0,
+  "lon1": 162.0,
+  "latT": 6.0,
+  "latB": -48.0,
+  "K": 72,
+  "w": 4307,
+  "h": 3888,
+  "src": "assets/map_base.jpg"
+ },
+ "corridor": {
+  "lon0": 111.6,
+  "lon1": 135.9,
+  "latT": -20.1,
+  "latB": -29.4,
+  "K": 300,
+  "w": 6607,
+  "h": 2790,
+  "src": "assets/map_corridor.jpg"
+ },
+ "sharkbay": {
+  "lon0": 112.95,
+  "lon1": 115.15,
+  "latT": -24.65,
+  "latB": -27.55,
+  "K": 760,
+  "w": 1515,
+  "h": 2204,
+  "src": "assets/map_sharkbay.jpg"
+ },
+ "opening": {
+  "lon0": 128.6,
+  "lon1": 131.6,
+  "latT": -24.2,
+  "latB": -26.2,
+  "K": 900,
+  "w": 2447,
+  "h": 1800,
+  "src": "assets/map_opening.jpg"
+ },
+ "uluru": {
+  "lon0": 130.62,
+  "lon1": 131.58,
+  "latT": -24.97,
+  "latB": -25.73,
+  "K": 1500,
+  "w": 1305,
+  "h": 1140,
+  "src": "assets/map_uluru.jpg"
+ },
+ "alice": {
+  "lon0": 133.3,
+  "lon1": 134.4,
+  "latT": -23.3,
+  "latB": -24.1,
+  "K": 1000,
+  "w": 997,
+  "h": 800,
+  "src": "assets/map_alice.jpg"
+ },
+ "hamelin": {
+  "lon0": 113.9,
+  "lon1": 114.45,
+  "latT": -26.2,
+  "latB": -26.6,
+  "K": 2400,
+  "w": 1196,
+  "h": 960,
+  "src": "assets/map_hamelin.jpg"
+ }
+}

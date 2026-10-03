@@ -28,6 +28,32 @@
 - Italian Commons file `Tracks, il film che racconta…` — film still, not used.
 - No free-licence photograph of the elder (Mr Eddie) was sought for portrait use. Map icon only; no caricature.
 
-## Basemap
+## Basemap (built in `render/make_basemap.py`; no stills used as the basemap)
 
-Claude builds the GeoGlobeTales-style satellite canvas in render (rich land colour, deep navy bathymetry, no blown white relief). Do not treat these stills as the basemap.
+The satellite canvas in `render/assets/map_*.jpg` is a graded derivative of open data only. The licences allow commercial use.
+
+| Layer input | What it gives | Licence | Source |
+|---|---|---|---|
+| NASA Blue Marble Next Generation (5400×2700 copy in the PyPI package `basemap-data` 2.0.0, file `mpl_toolkits/basemap_data/bmng.jpg`) | Natural land colour | Public domain (NASA Earth Observatory) | https://pypi.org/project/basemap-data/ · https://visibleearth.nasa.gov/collection/1484/blue-marble |
+| AWS Open Data Terrain Tiles (Terrarium PNG, zooms 7–12) | Elevation for soft hillshade, dune gating, Uluru relief and ocean depth | Open data. Sources include SRTM (NASA/USGS, public domain), GMTED2010 (USGS, public domain) and ETOPO1 (NOAA, public domain); attribution per https://github.com/tilezen/joerd/blob/master/docs/attribution.md | https://registry.opendata.aws/terrain-tiles/ |
+| Natural Earth 10m land, minor islands, admin-1 lines and geography regions | Coastline mask, unlabelled state borders and the Gibson Desert outline | Public domain | https://github.com/nvkelso/natural-earth-vector |
+
+Grade, per the GeoGlobeTales lock:
+
+- **Colour:** saturation is lifted and the red centre warmed. Salt pans are pulled to pale ochre.
+- **No blown white relief:** a highlight shoulder caps luminance at about 80 %, and the hillshade lift is capped at +11 %.
+- **Ocean:** a deep-navy bathymetry ramp with turquoise coastal shallows.
+- **Dunes:** a stylised linear-dune texture, roughly east–west, is gated to sandy low-relief country so the red-centre dunes read on screen. It is texture, not surveyed dunes.
+
+Every layer is graded by the same function of longitude, latitude and elevation, so the high-resolution patches feather seamlessly into the base. The patches cover the route corridor, the opening shot, Alice Springs, Uluru, Shark Bay and Hamelin Pool.
+
+## Route and master map (vector, drawn in `render/scenes.js`)
+
+- **Route:** her 1977 line is an approximate track: Alice Springs, Glen Helen, Areyonga, past Uluru, Docker River, Warburton, Carnegie, Wiluna, Hamelin Pool. It is not a surveyed path. Only Alice Springs, Uluru, Gibson Desert, Indian Ocean, west coast and the sourced Hamelin Pool end pin are labelled.
+- **Distance callouts:** the 2,700 km callout runs along the route as a dimension line, so it does not claim a straight-line distance. The "~335 km" Alice–Uluru callout is the published straight-line distance (Wikipedia, *Uluru*). The haversine between the town centre and the rock measures 341 km.
+- **Master map:** episode routes are approximate series graphics. Episode 1 runs from Sydney Cove north inside the reef, through Torres Strait, to Kupang. Episode 2 arrives from Singapore via Java and Bima to Darwin. Episode 3 has no folder yet, so nothing is drawn for it.
+
+## Inserts used in the cut
+
+- `s28_02_rick_smolan_macworld_2009.jpg` is shown about 1.6 s on "a photographer will meet her along the way". It is labelled "RICK SMOLAN · PHOTOGRAPHER · PICTURED 2009" with the on-screen credit "Photo: Aljawad · CC BY-SA 3.0". It is not presented as a trek photo.
+- No other stills are used. The Uluru photo is not used, which sidesteps its EPBC park caveat. Robyn appears only as the map person icon, never as a fake face.
