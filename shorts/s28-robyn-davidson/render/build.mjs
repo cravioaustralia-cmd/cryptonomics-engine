@@ -68,12 +68,13 @@ if (process.argv.includes('--remux') && fs.existsSync(silent)) {
   fs.rmSync(list);
 }
 
-console.log('== Mux ==');
+console.log('== Mux (re-encode: keeps the grain-heavy master under the repo 100 MB limit) ==');
 const mp4 = path.join(FINAL, `${slug}.mp4`);
 execFileSync('ffmpeg', ['-y', '-hide_banner', '-loglevel', 'error', '-i', silent, '-i', path.join(OUT, 'final-mix.wav'),
-  '-map', '0:v', '-map', '1:a', '-c:v', 'copy', '-c:a', 'aac', '-b:a', '192k', '-t', String(duration),
+  '-map', '0:v', '-map', '1:a', '-c:v', 'libx264', '-preset', 'slow', '-crf', '21', '-tune', 'film', '-pix_fmt', 'yuv420p', '-c:a', 'aac', '-b:a', '192k', '-t', String(duration),
   '-movflags', '+faststart', mp4], { stdio: 'inherit' });
 fs.copyFileSync(mp4, path.join(OUT, `${slug}.mp4`));
+fs.copyFileSync(path.join(OUT, 'loudnorm-report.txt'), path.join(FINAL, 'loudnorm-report.txt'));
 
 console.log('== Contact sheet (from final MP4) ==');
 const N = 24;
