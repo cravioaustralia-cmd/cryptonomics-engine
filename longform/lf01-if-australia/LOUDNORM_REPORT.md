@@ -40,3 +40,8 @@ Summary:
   True peak:
     Peak:       -1.8 dBFS
 ```
+
+## Delivered file check
+`final/lf01-if-australia.mp4` (HEVC 1920×1080 30 fps, AAC 160 kb/s 48 kHz stereo, 647.2 s, 92.8 MiB) re-measured with ebur128 after encoding: **I −14.0 LUFS, true peak −1.8 dBTP**.
+
+The deliverable is sized to fit GitHub's 100 MB file limit (two-pass HEVC, about 1 Mb/s video). The full-quality master (`out/master.mp4`, x264 CRF 16, 553 MB) is not committed; `render/build-all.sh` rebuilds it.
