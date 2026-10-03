@@ -8,7 +8,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { pathToFileURL } from 'node:url';
 
-export async function captureVideo({ episodeDir, outVideo, fps = 30, duration }) {
+export async function captureVideo({ episodeDir, outVideo, fps = 30, duration, jpegQuality = 88, crf = 18, preset = 'veryfast' }) {
   const renderDir = path.resolve(path.dirname(new URL(import.meta.url).pathname));
   const frameHtml = path.join(renderDir, 'frame.html');
   const scenesUrl = pathToFileURL(path.join(episodeDir, 'render', 'scenes.js')).href;
@@ -46,6 +46,7 @@ export async function captureVideo({ episodeDir, outVideo, fps = 30, duration })
       '.jpeg': 'image/jpeg',
       '.png': 'image/png',
       '.webp': 'image/webp',
+      '.woff2': 'font/woff2',
     };
     res.writeHead(200, { 'Content-Type': types[ext] || 'application/octet-stream' });
     fs.createReadStream(file).pipe(res);
@@ -73,9 +74,9 @@ export async function captureVideo({ episodeDir, outVideo, fps = 30, duration })
       '-pix_fmt',
       'yuv420p',
       '-preset',
-      'veryfast',
+      preset,
       '-crf',
-      '18',
+      String(crf),
       '-r',
       String(fps),
       '-movflags',
@@ -87,6 +88,8 @@ export async function captureVideo({ episodeDir, outVideo, fps = 30, duration })
 
   const browser = await chromium.launch({
     headless: true,
+    // optional: point at a preinstalled Chromium when the bundled build is absent
+    executablePath: process.env.PW_CHROMIUM_PATH || undefined,
     args: ['--disable-dev-shm-usage', '--no-sandbox'],
   });
   const page = await browser.newPage({
@@ -100,7 +103,7 @@ export async function captureVideo({ episodeDir, outVideo, fps = 30, duration })
   for (let i = 0; i < totalFrames; i++) {
     const t = i / fps;
     await page.evaluate((time) => window.renderFrame(time), t);
-    const buf = await page.screenshot({ type: 'jpeg', quality: 88, animations: 'disabled' });
+    const buf = await page.screenshot({ type: 'jpeg', quality: jpegQuality, animations: 'disabled' });
     const ok = ff.stdin.write(buf);
     if (!ok) await new Promise((r) => ff.stdin.once('drain', r));
     if (i % 90 === 0) {

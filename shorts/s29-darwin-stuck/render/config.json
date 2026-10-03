@@ -1,0 +1,6 @@
+{
+  "duration": 51.9,
+  "fps": 30,
+  "sfxDir": "shorts/s29-darwin-stuck/sfx",
+  "note": "Audio is mixed by render/mix.mjs (two-pass master loudnorm), not shared/render/mix-audio.mjs. Build with render/build.mjs."
+}

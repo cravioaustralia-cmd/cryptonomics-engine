@@ -206,3 +206,7 @@ Unpacked 6 Grok VOs into shorts/incoming-vo/. #01 matches finished Skylab Short;
 - No portrait stills; no emoji; no AI historical stills
 - Dirty unrelated paths left unstaged: `shorts/incoming-vo/*`, `shorts/s19-emu-war/images/*`
 - Next: record Atlas VO → seat `audio/vo.mp3` → paste PASTE_BRIEF into Claude Code after pulling branch
+
+## 2026-10-03 — s29-darwin-stuck rendered (Claude Code)
+- MAP EXPLAINER build on `claude/model-opus-8v96iw`: `final/s29-darwin-stuck.mp4` (51.9 s), contact sheet, loudnorm report (−14.0 LUFS / −1.7 dBTP). Not uploaded.
+- Shared `render/capture.mjs`: optional `jpegQuality` / `crf` / `preset` args (defaults unchanged), `PW_CHROMIUM_PATH` override, `.woff2` MIME.

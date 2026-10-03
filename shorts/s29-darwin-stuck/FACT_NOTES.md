@@ -20,3 +20,11 @@ This Short is a **teaser for lf01** (*What If Japan Had Invaded Australia in 194
 ## Decision “they said no”
 
 - Japanese high-command debate over invading / occupying northern Australia is the long-form’s territory. This Short only needs the locked line: generals saw the supply/trap problem and said no. Do not add named officers to the VO or invent portraits.
+
+## On-screen numbers (render, 3 Oct 2026)
+
+- `~1,000 km` on the Birdum ↔ Alice Springs gap = the spoken "roughly a thousand kilometres". Straight-line Birdum → Alice is ~900 km; by the overland route it is roughly 1,000 km.
+- `2,600 km` Darwin → Adelaide = great-circle 2,617 km, rounded (desert / cities beat).
+- `5,400 km` Darwin → Tokyo = great-circle 5,434 km, rounded (supply-line beat).
+- `1942` chip = year as spoken. No February date, casualty count or officer names on screen.
+- Northern Territory highlight uses the real borders (129°E, 26°S, 138°E).

@@ -1,0 +1,700 @@
+{
+ "duration": 51.816,
+ "words": [
+  {
+   "word": "Japan",
+   "start": 0.0,
+   "end": 0.48
+  },
+  {
+   "word": "could",
+   "start": 0.48,
+   "end": 0.76
+  },
+  {
+   "word": "have",
+   "start": 0.76,
+   "end": 0.94
+  },
+  {
+   "word": "captured",
+   "start": 0.94,
+   "end": 1.38
+  },
+  {
+   "word": "Darwin",
+   "start": 1.38,
+   "end": 1.8
+  },
+  {
+   "word": "in",
+   "start": 1.8,
+   "end": 2.04
+  },
+  {
+   "word": "1942\u2026",
+   "start": 2.04,
+   "end": 2.86
+  },
+  {
+   "word": "and",
+   "start": 2.86,
+   "end": 3.54
+  },
+  {
+   "word": "still",
+   "start": 3.54,
+   "end": 3.82
+  },
+  {
+   "word": "been",
+   "start": 3.82,
+   "end": 4.04
+  },
+  {
+   "word": "stuck.",
+   "start": 4.04,
+   "end": 4.5
+  },
+  {
+   "word": "Blame",
+   "start": 5.12,
+   "end": 5.18
+  },
+  {
+   "word": "the",
+   "start": 5.18,
+   "end": 5.34
+  },
+  {
+   "word": "map.",
+   "start": 5.34,
+   "end": 5.66
+  },
+  {
+   "word": "Some",
+   "start": 6.28,
+   "end": 6.36
+  },
+  {
+   "word": "Japanese",
+   "start": 6.36,
+   "end": 6.94
+  },
+  {
+   "word": "admirals",
+   "start": 6.94,
+   "end": 7.44
+  },
+  {
+   "word": "wanted",
+   "start": 7.44,
+   "end": 7.74
+  },
+  {
+   "word": "to",
+   "start": 7.74,
+   "end": 7.94
+  },
+  {
+   "word": "grab",
+   "start": 7.94,
+   "end": 8.22
+  },
+  {
+   "word": "northern",
+   "start": 8.22,
+   "end": 8.7
+  },
+  {
+   "word": "Australia.",
+   "start": 8.7,
+   "end": 9.32
+  },
+  {
+   "word": "Darwin",
+   "start": 9.96,
+   "end": 10.18
+  },
+  {
+   "word": "had",
+   "start": 10.18,
+   "end": 10.4
+  },
+  {
+   "word": "already",
+   "start": 10.4,
+   "end": 10.76
+  },
+  {
+   "word": "been",
+   "start": 10.76,
+   "end": 10.98
+  },
+  {
+   "word": "bombed.",
+   "start": 10.98,
+   "end": 11.42
+  },
+  {
+   "word": "Most",
+   "start": 11.92,
+   "end": 12.1
+  },
+  {
+   "word": "of",
+   "start": 12.1,
+   "end": 12.26
+  },
+  {
+   "word": "its",
+   "start": 12.26,
+   "end": 12.38
+  },
+  {
+   "word": "people",
+   "start": 12.38,
+   "end": 12.66
+  },
+  {
+   "word": "were",
+   "start": 12.66,
+   "end": 12.88
+  },
+  {
+   "word": "gone.",
+   "start": 12.88,
+   "end": 13.22
+  },
+  {
+   "word": "So",
+   "start": 13.68,
+   "end": 13.72
+  },
+  {
+   "word": "landing",
+   "start": 13.72,
+   "end": 14.12
+  },
+  {
+   "word": "there?",
+   "start": 14.12,
+   "end": 14.48
+  },
+  {
+   "word": "Probably",
+   "start": 14.92,
+   "end": 15.26
+  },
+  {
+   "word": "possible.",
+   "start": 15.26,
+   "end": 15.82
+  },
+  {
+   "word": "But",
+   "start": 16.2,
+   "end": 16.38
+  },
+  {
+   "word": "then",
+   "start": 16.38,
+   "end": 16.62
+  },
+  {
+   "word": "look",
+   "start": 16.62,
+   "end": 16.84
+  },
+  {
+   "word": "south.",
+   "start": 16.84,
+   "end": 17.26
+  },
+  {
+   "word": "Thousands",
+   "start": 18.08,
+   "end": 18.12
+  },
+  {
+   "word": "of",
+   "start": 18.12,
+   "end": 18.44
+  },
+  {
+   "word": "kilometres",
+   "start": 18.44,
+   "end": 18.8
+  },
+  {
+   "word": "of",
+   "start": 18.8,
+   "end": 19.2
+  },
+  {
+   "word": "desert",
+   "start": 19.2,
+   "end": 19.44
+  },
+  {
+   "word": "between",
+   "start": 19.44,
+   "end": 19.86
+  },
+  {
+   "word": "Darwin",
+   "start": 19.86,
+   "end": 20.28
+  },
+  {
+   "word": "and",
+   "start": 20.28,
+   "end": 20.46
+  },
+  {
+   "word": "the",
+   "start": 20.46,
+   "end": 20.68
+  },
+  {
+   "word": "cities.",
+   "start": 20.68,
+   "end": 21.0
+  },
+  {
+   "word": "The",
+   "start": 21.54,
+   "end": 21.66
+  },
+  {
+   "word": "railway",
+   "start": 21.66,
+   "end": 21.92
+  },
+  {
+   "word": "from",
+   "start": 21.92,
+   "end": 22.22
+  },
+  {
+   "word": "Darwin",
+   "start": 22.22,
+   "end": 22.64
+  },
+  {
+   "word": "stopped",
+   "start": 22.64,
+   "end": 23.08
+  },
+  {
+   "word": "at",
+   "start": 23.08,
+   "end": 23.24
+  },
+  {
+   "word": "a",
+   "start": 23.24,
+   "end": 23.48
+  },
+  {
+   "word": "tiny",
+   "start": 23.48,
+   "end": 23.7
+  },
+  {
+   "word": "place",
+   "start": 23.7,
+   "end": 24.06
+  },
+  {
+   "word": "called",
+   "start": 24.06,
+   "end": 24.34
+  },
+  {
+   "word": "Birdum.",
+   "start": 24.34,
+   "end": 24.84
+  },
+  {
+   "word": "The",
+   "start": 25.32,
+   "end": 25.46
+  },
+  {
+   "word": "line",
+   "start": 25.46,
+   "end": 25.74
+  },
+  {
+   "word": "from",
+   "start": 25.74,
+   "end": 25.96
+  },
+  {
+   "word": "the",
+   "start": 25.96,
+   "end": 26.24
+  },
+  {
+   "word": "south",
+   "start": 26.24,
+   "end": 26.46
+  },
+  {
+   "word": "ended",
+   "start": 26.46,
+   "end": 26.82
+  },
+  {
+   "word": "at",
+   "start": 26.82,
+   "end": 27.1
+  },
+  {
+   "word": "Alice",
+   "start": 27.1,
+   "end": 27.36
+  },
+  {
+   "word": "Springs.",
+   "start": 27.36,
+   "end": 27.84
+  },
+  {
+   "word": "In",
+   "start": 27.84,
+   "end": 28.44
+  },
+  {
+   "word": "between?",
+   "start": 28.44,
+   "end": 28.84
+  },
+  {
+   "word": "Roughly",
+   "start": 29.46,
+   "end": 29.72
+  },
+  {
+   "word": "a",
+   "start": 29.72,
+   "end": 30.02
+  },
+  {
+   "word": "thousand",
+   "start": 30.02,
+   "end": 30.34
+  },
+  {
+   "word": "kilometres",
+   "start": 30.34,
+   "end": 30.86
+  },
+  {
+   "word": "of",
+   "start": 30.86,
+   "end": 31.14
+  },
+  {
+   "word": "no",
+   "start": 31.14,
+   "end": 31.44
+  },
+  {
+   "word": "railway",
+   "start": 31.44,
+   "end": 31.78
+  },
+  {
+   "word": "at",
+   "start": 31.78,
+   "end": 32.0
+  },
+  {
+   "word": "all.",
+   "start": 32.0,
+   "end": 32.28
+  },
+  {
+   "word": "That\u2019s",
+   "start": 32.72,
+   "end": 32.9
+  },
+  {
+   "word": "not",
+   "start": 32.9,
+   "end": 33.04
+  },
+  {
+   "word": "a",
+   "start": 33.04,
+   "end": 33.26
+  },
+  {
+   "word": "road",
+   "start": 33.26,
+   "end": 33.44
+  },
+  {
+   "word": "into",
+   "start": 33.44,
+   "end": 33.72
+  },
+  {
+   "word": "Australia.",
+   "start": 33.72,
+   "end": 34.28
+  },
+  {
+   "word": "That\u2019s",
+   "start": 34.64,
+   "end": 34.98
+  },
+  {
+   "word": "a",
+   "start": 34.98,
+   "end": 35.16
+  },
+  {
+   "word": "road",
+   "start": 35.16,
+   "end": 35.32
+  },
+  {
+   "word": "to",
+   "start": 35.32,
+   "end": 35.52
+  },
+  {
+   "word": "nowhere.",
+   "start": 35.52,
+   "end": 35.98
+  },
+  {
+   "word": "Japan\u2019s",
+   "start": 36.56,
+   "end": 37.02
+  },
+  {
+   "word": "own",
+   "start": 37.02,
+   "end": 37.24
+  },
+  {
+   "word": "generals",
+   "start": 37.24,
+   "end": 37.56
+  },
+  {
+   "word": "saw",
+   "start": 37.56,
+   "end": 37.86
+  },
+  {
+   "word": "the",
+   "start": 37.86,
+   "end": 38.04
+  },
+  {
+   "word": "trap:",
+   "start": 38.04,
+   "end": 38.42
+  },
+  {
+   "word": "an",
+   "start": 38.84,
+   "end": 38.88
+  },
+  {
+   "word": "army",
+   "start": 38.88,
+   "end": 39.24
+  },
+  {
+   "word": "stranded",
+   "start": 39.24,
+   "end": 39.68
+  },
+  {
+   "word": "in",
+   "start": 39.68,
+   "end": 39.88
+  },
+  {
+   "word": "the",
+   "start": 39.88,
+   "end": 40.04
+  },
+  {
+   "word": "north,",
+   "start": 40.04,
+   "end": 40.32
+  },
+  {
+   "word": "with",
+   "start": 40.32,
+   "end": 40.8
+  },
+  {
+   "word": "supply",
+   "start": 40.8,
+   "end": 41.22
+  },
+  {
+   "word": "lines",
+   "start": 41.22,
+   "end": 41.6
+  },
+  {
+   "word": "stretching",
+   "start": 41.6,
+   "end": 42.0
+  },
+  {
+   "word": "all",
+   "start": 42.0,
+   "end": 42.34
+  },
+  {
+   "word": "the",
+   "start": 42.34,
+   "end": 42.5
+  },
+  {
+   "word": "way",
+   "start": 42.5,
+   "end": 42.64
+  },
+  {
+   "word": "back",
+   "start": 42.64,
+   "end": 42.88
+  },
+  {
+   "word": "to",
+   "start": 42.88,
+   "end": 43.06
+  },
+  {
+   "word": "Japan.",
+   "start": 43.06,
+   "end": 43.5
+  },
+  {
+   "word": "So",
+   "start": 43.88,
+   "end": 44.08
+  },
+  {
+   "word": "they",
+   "start": 44.08,
+   "end": 44.24
+  },
+  {
+   "word": "said",
+   "start": 44.24,
+   "end": 44.42
+  },
+  {
+   "word": "no.",
+   "start": 44.42,
+   "end": 44.78
+  },
+  {
+   "word": "And",
+   "start": 45.1,
+   "end": 45.3
+  },
+  {
+   "word": "that\u2019s",
+   "start": 45.3,
+   "end": 45.58
+  },
+  {
+   "word": "just",
+   "start": 45.58,
+   "end": 45.74
+  },
+  {
+   "word": "scenario",
+   "start": 45.74,
+   "end": 46.24
+  },
+  {
+   "word": "one.",
+   "start": 46.24,
+   "end": 46.62
+  },
+  {
+   "word": "The",
+   "start": 47.06,
+   "end": 47.18
+  },
+  {
+   "word": "other",
+   "start": 47.18,
+   "end": 47.34
+  },
+  {
+   "word": "two",
+   "start": 47.34,
+   "end": 47.56
+  },
+  {
+   "word": "are",
+   "start": 47.56,
+   "end": 47.72
+  },
+  {
+   "word": "even",
+   "start": 47.72,
+   "end": 47.94
+  },
+  {
+   "word": "wilder.",
+   "start": 47.94,
+   "end": 48.56
+  },
+  {
+   "word": "The",
+   "start": 48.96,
+   "end": 49.02
+  },
+  {
+   "word": "full",
+   "start": 49.02,
+   "end": 49.22
+  },
+  {
+   "word": "video\u2019s",
+   "start": 49.22,
+   "end": 49.72
+  },
+  {
+   "word": "linked",
+   "start": 49.72,
+   "end": 49.92
+  },
+  {
+   "word": "right",
+   "start": 49.92,
+   "end": 50.16
+  },
+  {
+   "word": "here.",
+   "start": 50.16,
+   "end": 50.62
+  },
+  {
+   "word": "Because",
+   "start": 51.02,
+   "end": 51.16
+  },
+  {
+   "word": "remember:",
+   "start": 51.16,
+   "end": 51.6
+  }
+ ]
+}

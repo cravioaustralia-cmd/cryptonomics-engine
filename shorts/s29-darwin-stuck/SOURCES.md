@@ -13,7 +13,20 @@ Why: tense cinematic bed for a 1942 Darwin map-explainer teaser (same free bed a
 ## SFX
 
 Shared Mixkit kit copied into `sfx/` — see `sfx/sources.tsv`.  
-**Gap:** gag 3 needs a **sad train-horn toot**. No dedicated horn file was seated at scaffold. Claude may add one Mixkit-free horn and append the credit row to `sfx/sources.tsv`.
+**Sad horn toot (gag 3):** `sfx/sad_horn_toot.wav` is an **original synthesis** (`render/make_horn.py`; minor A–C–E chord sagging ~2 semitones). Mixkit (`mixkit.co`, `assets.mixkit.co`) was blocked by the render container's network policy, so no third-party horn could be fetched. No licence encumbrance; credited in `sfx/sources.tsv`.
+
+## Basemap (built in render — not stills)
+
+| Layer | Source | Licence |
+|---|---|---|
+| Elevation + bathymetry (hillshade, coast, ocean depth) | AWS Terrain Tiles, Mapzen "terrarium" encoding (SRTM, GMTED2010, ETOPO1 and others) — https://registry.opendata.aws/terrain-tiles/ | Open data; attribution per https://github.com/tilezen/joerd/blob/master/docs/attribution.md |
+| Land colour | NASA Blue Marble Next Generation (cloud-free), 4096×2048 copy shipped in the `three-globe` npm package (`example/img/earth-blue-marble.jpg`) | NASA imagery, public domain |
+
+Built by `render/build_basemap.py` → `images/map/*` (Web Mercator mip chain + NT and desert overlays). Look: rich land colour, deep navy bathymetry, soft hillshade with highlights soft-clipped (no blown white relief). Inland water re-tinted from black to lake blue. Rail alignments, borders and city positions are hand-placed from real coordinates in `render/scenes.js`.
+
+## Fonts
+
+Montserrat (700/800/900) and Anton, SIL Open Font Licence 1.1, from the `@fontsource/montserrat` and `@fontsource/anton` npm packages → `images/fonts/`.
 
 ## Stills
 

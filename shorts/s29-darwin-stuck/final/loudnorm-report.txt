@@ -1,0 +1,50 @@
+# s29 Darwin Stuck — master loudnorm report
+# generated 2026-10-03T18:55:57.904Z by render/mix.mjs
+
+VO (held Atlas, untouched) integrated: -23 LUFS → static gain 5.4 dB (premix seat -17.6 LUFS)
+Music: Silent Descent (Mixkit 614) from 26s at -23 dB (s18 bed −19 dB → 4 dB quieter), +3.5 dB VO-gap lifts, −4 dB late-swell trim
+SFX cues: 10
+
+## Pass 1 (premix measurement)
+{
+ "input_i": "-18.13",
+ "input_tp": "-5.82",
+ "input_lra": "2.90",
+ "input_thresh": "-28.88",
+ "output_i": "-13.98",
+ "output_tp": "-1.50",
+ "output_lra": "3.10",
+ "output_thresh": "-24.78",
+ "normalization_type": "dynamic",
+ "target_offset": "-0.02"
+}
+
+## Pass 2 (linear loudnorm on master)
+{
+ "input_i": "-18.14",
+ "input_tp": "-6.02",
+ "input_lra": "3.00",
+ "input_thresh": "-28.91",
+ "output_i": "-14.00",
+ "output_tp": "-1.89",
+ "output_lra": "3.00",
+ "output_thresh": "-24.78",
+ "normalization_type": "linear",
+ "target_offset": "0.00"
+}
+
+## Final master check (ebur128, true peak)
+[Parsed_ebur128_0 @ 0x55a25b396080] Summary:
+
+  Integrated loudness:
+    I:         -14.0 LUFS
+    Threshold: -24.8 LUFS
+
+  Loudness range:
+    LRA:         3.0 LU
+    Threshold: -34.9 LUFS
+    LRA low:   -16.5 LUFS
+    LRA high:  -13.4 LUFS
+
+  True peak:
+    Peak:       -1.7 dBFS
