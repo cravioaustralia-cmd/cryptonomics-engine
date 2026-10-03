@@ -86,9 +86,9 @@ Beds sit about 17 LU under the narration while Atlas speaks and rise to about 7.
 ## Master
 
 - Voice as recorded, assembled: -22.0 LUFS integrated (no voice loudnorm, no compression).
-- Master chain: `volume=8.34dB,aresample=192000,alimiter=limit=0.7586:attack=3:release=80:level=false:asc=1,aresample=48000:resampler=soxr:precision=28,loudnorm(two-pass, linear)`.
+- Master chain: `volume=8.34dB,aresample=192000,alimiter=limit=0.7079:attack=3:release=80:level=false:asc=1,aresample=48000:resampler=soxr:precision=28,loudnorm(two-pass, linear)`.
 - Two-pass loudnorm on the master only, pass 2 normalisation type: **linear**.
-- Result: **-14.01 LUFS integrated, -1.64 dBTP true peak**, LRA 5.30 LU (target −14 LUFS, ≤ −1.5 dBTP).
+- Result: **-14.02 LUFS integrated, -2.05 dBTP true peak**, LRA 5.20 LU (target −14 LUFS, ≤ −1.5 dBTP).
 
 ## Series sting ("IF AUSTRALIA…")
 

@@ -212,7 +212,7 @@ def loudnorm_pass(inp, extra=''):
 
 # master chain: static make-up gain -> transparent peak limiter -> two-pass LINEAR loudnorm
 gain = -14.0 - pre
-CEIL = float(os.environ.get('CEIL', '-2.4'))
+CEIL = float(os.environ.get('CEIL', '-3.0'))
 PRE = f'volume={gain:.2f}dB,aresample=192000,alimiter=limit={db(CEIL):.4f}:attack=3:release=80:level=false:asc=1,aresample=48000:resampler=soxr:precision=28,'
 m1 = loudnorm_pass(os.path.join(BUILD, 'mix.wav'), PRE)
 af = PRE + (f"loudnorm=I=-14:TP=-1.5:LRA=11:measured_I={m1['input_i']}:measured_TP={m1['input_tp']}:"

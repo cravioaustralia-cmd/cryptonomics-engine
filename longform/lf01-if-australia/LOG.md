@@ -11,4 +11,6 @@
 - 12 B-roll clips trimmed to their Part 2 lengths and composited by ffmpeg as zoom-throughs (iris from the pin, 0.3 s in, 0.35 s back into the pin). "Dramatised reconstruction" label on B01 only.
 - John Curtin: no photo in this render. Commons is blocked by the session egress policy, so the V09 card is an archive nameplate. Drop the file at `render/archive/curtin.jpg` and re-render to add it (see SOURCES.md).
 - Matthias Ulungura: map label only.
-- Mix: VO untouched (−22.0 LUFS assembled), Mixkit beds, in-house SFX, series sting invented here. Two-pass loudnorm on the master only (linear) after a 4× oversampled peak limiter: −14.0 LUFS, −1.6 dBTP.
+- Mix: VO untouched (−22.0 LUFS assembled), Mixkit beds, in-house SFX, series sting invented here. Two-pass loudnorm on the master only (linear) after a 4× oversampled peak limiter. Delivered MP4: −14.0 LUFS, −1.6 dBTP (final/loudnorm-report.md).
+- Final: `final/lf01-if-australia.mp4`, 10:55, 1920×1080/30, H.264 two-pass ~1.0 Mbit/s + AAC 192 kbit/s (94 MiB, kept under GitHub's 100 MiB file limit). For a higher-bitrate upload master, rebuild with `python3 render/compose.py --crf 18` (about 250–300 MB, not committed).
+- Review notes on delivered B-roll (not swapped, per brief): B04 reads as a modern ferry/catamaran rather than a 1940s landing craft (avoid-list risk: modern vehicles). B11 soldiers wear US-style helmets. B12 shows faces at the rail (not identifiable real people). Regenerate B04 if Video Production agrees.
