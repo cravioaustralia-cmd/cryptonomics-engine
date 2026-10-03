@@ -14,7 +14,7 @@ def mmss(x):
 
 out = ['# Cue sheet — lf01 IF AUSTRALIA… Episode 1', '',
        'Generated from the cue list that `render/mix.py` actually used, so this sheet and the mix match.',
-       'Times are the final cut (Whisper-locked). Sparse by design: grim beats run nearly dry; no Shorts whoosh/pop chatter.', '',
+       'Times are the edit timeline (Whisper-locked, 1×). The delivered final plays the whole film at **1.28×** with the voice pitch held, so divide every time here by 1.28 for the final file.', '',
        '## Music beds (free licence, see SOURCES.md)', '',
        '| In | Out | Cue | Picture / script beat | Source, fades |', '|---|---|---|---|---|']
 for kind, t0, t1, src, label, beat in sorted([c for c in CUES if c[0] == 'music'], key=lambda c: c[1]):

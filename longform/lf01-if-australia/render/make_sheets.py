@@ -9,10 +9,12 @@ EP = os.path.abspath(os.path.join(HERE, '..'))
 FINAL = os.path.join(EP, 'final', 'lf01-if-australia.mp4')
 TL = json.load(open(os.path.join(HERE, 'timeline.json')))
 M, C = TL['marks'], TL['chunks']
+SPEED = json.load(open(os.path.join(EP, 'build', 'loudnorm.json'))).get('speed', 1.0)  # final plays faster than the edit timeline
 os.makedirs(os.path.join(EP, 'final', 'chapters'), exist_ok=True)
 
 
 def grab(t, path, w=None):
+    t = t / SPEED
     vf = ['-vf', f'scale={w}:-2'] if w else []
     subprocess.run(['ffmpeg', '-v', 'error', '-y', '-ss', f'{t:.3f}', '-i', FINAL, '-frames:v', '1', '-q:v', '3'] + vf + [path], check=True)
 
@@ -37,11 +39,13 @@ for slug, name, t in chapters:
     print(slug, round(t, 2))
 
 tmp = os.path.join(EP, 'build', 'sheet')
+import shutil
+shutil.rmtree(tmp, ignore_errors=True)
 os.makedirs(tmp, exist_ok=True)
-times = [t for t in range(0, int(TL['duration']), 15)]
+times = [t * SPEED for t in range(0, int(TL['duration'] / SPEED), 15)]
 for i, t in enumerate(times):
     grab(t + 0.5, os.path.join(tmp, f'{i:03d}.jpg'), 320)
 subprocess.run(['ffmpeg', '-v', 'error', '-y', '-framerate', '1', '-i', os.path.join(tmp, '%03d.jpg'),
                 '-vf', f"tile=6x{(len(times) + 5) // 6}:padding=4:margin=4:color=0x1a1410", '-frames:v', '1', '-q:v', '3',
                 os.path.join(EP, 'final', 'contact-sheet.jpg')], check=True)
-print('contact sheet:', len(times), 'frames, every 15 s')
+print('contact sheet:', len(times), 'frames, every 15 s of the final')

@@ -20,6 +20,8 @@ ap.add_argument('--out', default=os.path.join(EP, 'final', 'lf01-if-australia.mp
 ap.add_argument('--preset', default='slow')
 ap.add_argument('--t0', type=float, default=None)
 ap.add_argument('--t1', type=float, default=None)
+ap.add_argument('--speed', type=float, default=1.0, help='play picture faster by this factor (audio must already be stretched to match)')
+ap.add_argument('--audio', default=os.path.join(BUILD, 'master.wav'))
 a = ap.parse_args()
 
 CX, CY = 960, 511  # pin head (pin tip parked at frame centre; head sits 29 px above)
@@ -36,7 +38,7 @@ for b in TL['broll']:
     inputs += ['-i', os.path.join(EP, 'broll', b['id'] + '.mp4')]
 inputs += ['-loop', '1', '-framerate', '30', '-i', os.path.join(HERE, 'assets', 'badge.png')]
 inputs += ['-loop', '1', '-framerate', '30', '-i', os.path.join(HERE, 'assets', 'label_dramatised.png')]
-inputs += ['-i', os.path.join(BUILD, 'master.wav')]
+inputs += ['-i', a.audio]
 for p in patches:
     inputs += ['-i', p['file']]
 nb = len(TL['broll'])
@@ -64,10 +66,10 @@ for i, b in enumerate(TL['broll']):
     cur = f'vb{i}'
 b1 = TL['broll'][0]
 f.append(f"[{cur}][{I_LABEL}:v]overlay=60:960:enable='between(t,{b1['tIn'] + 0.3:.3f},{b1['tOut'] - 0.35:.3f})':shortest=0[vl]")
-f.append(f'[vl][{I_BADGE}:v]overlay=40:34:shortest=0,format=yuv420p[vout]')
+f.append(f'[vl][{I_BADGE}:v]overlay=40:34:shortest=0' + (f',setpts=PTS/{a.speed},fps=30' if a.speed != 1.0 else '') + ',format=yuv420p[vout]')
 graph = ';'.join(f)
 
-dur = TL['duration']
+dur = TL['duration'] / a.speed
 trim = []
 if a.t0 is not None:
     trim = ['-ss', str(a.t0), '-t', str((a.t1 or dur) - a.t0)]

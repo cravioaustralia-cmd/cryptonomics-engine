@@ -224,11 +224,11 @@ sfx_cue('drum_3', MK['slam3'] + 0.12, 0, 'Heaviest hit of the three as "3" slams
 snap = Ae('V26', 'supplies') + 0.04
 music_cue('BT', S('V25') - 0.2, snap + 0.02, 80.0, 0.8, 0.05, label='War threat: the plan to cut Australia off (heavy, insistent); cuts on the snap', beat='V25-V26')
 sfx_cue('cable_snap', snap - 0.5, -3, 'Snapping cable in the pause after "fewer supplies"', 'V26')
-sfx_cue('low_wind', snap + 0.1, -17, 'Near silence with a low wind tone (Australia alone)', 'V26 -> gap 2 s', dur=S('V27') + 1.0 - snap, fout=1.2)
+sfx_cue('low_wind', snap + 0.1, -17, 'Near silence with a low wind tone (Australia alone)', 'V26 -> gap 2 s', dur=S('V27') + 1.0 - snap, fout=1.2, bus='amb')
 music_cue('EC', S('V27') - 0.3, A('V27', 'japanese') - 0.4, 100.0, 1.5, 0.8, label='Loss: Australia cut off and alone (sad, low)', beat='V27')
 music_cue('DD', A('V27', 'japanese') - 0.2, E('V28') + 0.9, 120.0, 0.6, 0.9, label='War: midget submarines, shelling, Kokoda (dark, heavy)', beat='V27-V28')
 shot_amb('B10', 'underwater', -15, 'Underwater rumble in Sydney Harbour')
-sfx_cue('explosions_distant', Ae('V28', 'shelled') + 0.02, -15, 'Distant shell bursts, soft under the voice', 'V28')
+sfx_cue('explosions_distant', Ae('V28', 'shelled') + 0.02, -15, 'Distant shell bursts, soft under the voice', 'V28', bus='amb')
 shot_amb('B11', 'rain', -15, 'Heavy rain on the mountain track')
 shot_amb('B11', 'war_ambience', -20, 'Distant war rumble')
 shot_amb('B11', 'jungle_birds', -24, 'Jungle birds (repo file)', path=JUNGLE)
@@ -335,6 +335,17 @@ music = music - band * (1 - db(-7)) * voact[:, None]          # about -7 dB at 1
 sfx = sfx * (1 - voact * (1 - db(-16)))[:, None]
 amb = amb * (1 - voact * (1 - db(-12)))[:, None]
 hits = hits * (1 - voact * (1 - db(-4)))[:, None]   # hits land on the word: light duck only, mostly sub-speech band
+
+# CLEAN STRETCH: from "Japan's hope" (V27) to the end of Act 4 (before V31) the voice gets the same clean bed as
+# the rest of the film: no environment/noise beds under the words (they stay in the pauses), and the music
+# loses its sub-220 Hz rumble and sits at the normal bed level while Atlas speaks.
+CLEAN0, CLEAN1 = S('V27') - 0.3, S('V31') - 0.3
+tt = np.arange(N) / SR
+cl = (np.clip((tt - CLEAN0) / 0.3, 0, 1) * np.clip((CLEAN1 - tt) / 0.3, 0, 1)).astype(np.float32)
+under = (cl * voact)[:, None]
+amb = amb * (1 - under)
+low = np.stack([_sig.sosfilt(_sig.butter(4, 220 / (SR / 2), 'low', output='sos'), music[:, c]) for c in range(2)], 1).astype(np.float32)
+music = (music - low * under) * (1 - under * (1 - db(-7)))
 
 # ------------------------------------------------------------------ sum, master
 # margin keeper: wherever Atlas is sounding, keep music+SFX+ambience >= 12 dB under the voice
