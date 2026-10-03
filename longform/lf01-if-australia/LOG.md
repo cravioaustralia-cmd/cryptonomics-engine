@@ -21,3 +21,8 @@
 - SFX moved into pauses (boom after "Australia", sonar pings after "aircraft", snap after "supplies", wind gust after "nowhere"); anything under a word is ducked ~16 dB. A sidechain on the beds keeps every voiced 20 ms frame ≥ 12 dB above music+SFX+ambience in the speech band (median 27 dB).
 - B-roll muted (clip audio never mapped). Shot environment added from in-house synth beds plus the repo's Mixkit jungle-birds file for B11.
 - Two-pass loudnorm on the master only (linear). Delivered MP4: −14.0 LUFS, −1.9 dBTP.
+
+2026-10-03 — Picture-sync accents (audio only; previous remix kept; video stream bit-identical; voice untouched).
+- Hard words after a pause ("rejected", "No invasion", "stuck", "Cut it off", "populate") get a short rise through the pause and a tight low hit on the word. These replace the stamp thuds on "rejected" and "stuck". The cliffhanger stings were cut to 2.2 s.
+- Labels get a soft click, counters and dates get typewriter ticks (runs for the climbing shipping, falling Kokoda distance and climbing population counters), and map draws get a quiet pencil scratch. All under the voice or in the gaps; 12 dB voice floor still enforced.
+- New in-house files: tick, click, pen_draw, riser_short, word_hit (SOURCES.md). Delivered MP4: −14.0 LUFS, −1.8 dBTP.

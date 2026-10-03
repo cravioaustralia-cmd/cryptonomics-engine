@@ -371,6 +371,61 @@ def engine_low(d=7.0):
 CUES.update({'rain': rain, 'sea': sea, 'war_ambience': war_ambience, 'fire_crackle': fire_crackle,
              'underwater': underwater, 'engine_low': engine_low})
 
+
+# ---------------------------------------------------------------- picture-sync accents (short, dry, original)
+def tick(d=0.12):
+    """Typewriter / counter tick: tiny, bright, dry."""
+    n = int(round(d * SR))
+    t = t_(d)
+    x = bp(noise(d), 2200, 7000) * env_ad(n, 0.0004, 0.006) + 0.25 * np.sin(2 * np.pi * 1850 * t) * env_ad(n, 0.0005, 0.01)
+    return reverb(x, 0.25, 0.08, bright=7000)
+
+
+def click(d=0.2):
+    """Soft label click: small wooden pin-tap."""
+    n = int(round(d * SR))
+    t = t_(d)
+    x = bp(noise(d), 700, 3200) * env_ad(n, 0.0005, 0.012) + 0.5 * np.sin(2 * np.pi * 620 * t) * env_ad(n, 0.0008, 0.02)
+    return reverb(x, 0.35, 0.1, bright=5000)
+
+
+def pen_draw(d=1.6):
+    """Quiet pencil-on-paper scratch while a line draws; trimmed to each draw's length in the mix."""
+    t = t_(d)
+    tex = np.abs(np.convolve(rng.standard_normal(len(t)), np.ones(240) / 240, mode='same'))
+    x = bp(noise(d), 1800, 6000) * (0.4 + 2.0 * tex)
+    e = np.minimum(1, t / 0.08) * np.minimum(1, (d - t) / 0.2)
+    return x * e
+
+
+def riser_short(d=0.85):
+    """Short rise that stops dead on the hit: noise sweep up plus a rising tone, no tail."""
+    t = t_(d)
+    n = len(t)
+    u = t / d
+    out = np.zeros(n)
+    x = noise(d)
+    seg = 512
+    for i in range(0, n, seg):
+        fc = 300 + 3200 * (i / n) ** 2
+        out[i:i + seg] = bp(x[max(0, i - 2048):i + seg], fc * 0.7, fc * 1.3)[-len(out[i:i + seg]):]
+    tone = np.sin(2 * np.pi * np.cumsum(90 + 260 * u ** 2) / SR)
+    e = u ** 2.2
+    y = (out * 0.8 + tone * 0.35) * e
+    y[-int(0.004 * SR):] *= np.linspace(1, 0, int(0.004 * SR))
+    return np.stack([y, y], 1)
+
+
+def word_hit(d=0.6):
+    """Tight low hit for a hard word: punch, short body, short room. Mostly below the speech band."""
+    n = int(round(d * SR))
+    body = sweep_sine(115, 44, d, 14) * env_ad(n, 0.002, 0.16)
+    knock = lp(noise(d), 700) * env_ad(n, 0.0008, 0.02) * 0.6
+    return reverb(body + knock, 0.6, 0.15, bright=1500)
+
+
+CUES.update({'tick': tick, 'click': click, 'pen_draw': pen_draw, 'riser_short': riser_short, 'word_hit': word_hit})
+
 if __name__ == '__main__':
     import zlib
     for k in (sys.argv[1:] or CUES):

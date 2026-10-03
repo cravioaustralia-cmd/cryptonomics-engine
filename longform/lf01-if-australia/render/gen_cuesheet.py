@@ -28,6 +28,11 @@ out += ['', 'One cue per emotional section, with a short stop at section changes
         '| At | Ends | Cue | Script beat | File (level vs VO peak) |', '|---|---|---|---|---|']
 for kind, t0, t1, src, label, beat in sorted([c for c in CUES if c[0] == 'sfx'], key=lambda c: c[1]):
     out.append(f'| {mmss(t0)} | {mmss(t1)} | {label} | {beat} | {src} |')
+out += ['', '## Picture-sync accents on hard words', '',
+        'A pause before a hard word gets a short rise (0.85 s, stops dead) and a tight low hit right on the word, instead of a long sting. Hits sit mostly below the speech band and stay under the 12 dB voice floor. Labels landing get a soft click, number changes get typewriter ticks (a short run for climbing or falling counters), and lines drawing on the map get a quiet pencil scratch; these are listed in the effects table above.', '',
+        '| At | Ends | Cue | Script beat | File (level vs VO peak) |', '|---|---|---|---|---|']
+for kind, t0, t1, src, label, beat in sorted([c for c in CUES if c[0] == 'sync'], key=lambda c: c[1]):
+    out.append(f'| {mmss(t0)} | {mmss(t1)} | {label} | {beat} | {src} |')
 out += ['', '## Shot environment (B-roll)', '',
         'Every B-roll clip is muted: the clips\' own generated audio is never mapped into the film (`compose.py` takes audio only from the master). Environment comes from in-house synthesised beds and one Mixkit file already in this repo. Ducked about 12 dB under narration. B01 (the drone carries it) and B09 (script: strings only) get none.', '',
         '| At | Ends | Environment | Shot | File (level vs VO peak) |', '|---|---|---|---|---|']

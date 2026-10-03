@@ -29,6 +29,7 @@ The Shorts Skyline bed and the Impossible Journeys sting are not used.
 
 - **Spot effects:** synthesised in-house by `render/make_sfx.py` (numpy, seeded per cue; no third-party samples). They are drone, boom, stamp thud, three drum hits, whoosh, low note, air-raid siren, distant explosions, desert wind gust, sonar ping, snapping cable, low wind, pin thunk, strings pad, cliffhanger sting, and the **IF AUSTRALIA… series sting**.
 - **Environment beds for the B-roll shots:** synthesised in-house by the same script (rain, sea, distant war rumble, fire crackle, underwater rumble, low engine). These are original works made for this episode, with no third-party source.
+- **Picture-sync accents:** synthesised in-house by the same script (`tick`, `click`, `pen_draw`, `riser_short`, `word_hit`). They are short original sounds made for this episode: typewriter ticks for counters and dates, a soft click for labels, a pencil scratch for lines drawing, and a short rise into a low hit for hard words. No third-party source and no copyrighted effects.
 - **Jungle birds under B11:** `shorts/s11-cassowary/sfx/birds_jungle_ambience.mp3`, already in this repo. "Birds in the jungle", Mixkit, Mixkit Sound Effects Free Licence, https://mixkit.co/free-sound-effects/download/2434/ (recorded in `shorts/s11-cassowary/sfx/sources.tsv`).
 - Files are lossless 24-bit FLAC in `audio/sfx/`. Cue-by-cue placement is in `CUE_SHEET.md`.
 - No commercial sound effects and no audio from any YouTube video are used.

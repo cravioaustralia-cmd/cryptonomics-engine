@@ -28,7 +28,7 @@ Times are the final cut (Whisper-locked). Sparse by design: grim beats run nearl
 One cue per emotional section, with a short stop at section changes: darker, heavier beds (Dark Drama, Between Two Evils) for war and invasion; a sad, low bed (Echoes) and the scripted strings for loss; Fallen (Asper) for plans and argument; Curiosity for geography; Vastness for relief; The Journey for the warm Act 5.
 
 While Atlas speaks the bed sits about 23 LU under the narration, with a 1.5–4 kHz presence dip of about 7 dB. In pauses, the cold open and atmosphere beats it rises to about 11 LU under the narration: heard, never full. Speech detection runs 150 ms ahead, so beds are already down before a word starts.
-Word safety (speech band 200 Hz–5 kHz, every 20 ms frame where the voice sounds, 15898 frames): the voice is above music + SFX + ambience by **at least 12.0 dB**, median 27.0 dB. A sidechain on the beds (never on the voice) enforces the 12 dB floor.
+Word safety (speech band 200 Hz–5 kHz, every 20 ms frame where the voice sounds, 15898 frames): the voice is above music + SFX + ambience by **at least 12.0 dB**, median 26.9 dB. A sidechain on the beds (never on the voice) enforces the 12 dB floor.
 
 ## Sound effects (synthesised in-house by `render/make_sfx.py`)
 
@@ -37,36 +37,141 @@ Effects sit in the pauses; anything that overlaps narration is ducked about 16 d
 | At | Ends | Cue | Script beat | File (level vs VO peak) |
 |---|---|---|---|---|
 | 0:00.00 | 0:18.89 | Low drone from frame 1 | V01 frame 1 | drone.flac (-16 dB) |
+| 0:03.82 | 0:04.37 | Label click: TOKYO | V01 | click.flac (-17 dB) |
 | 0:08.64 | 0:16.64 | Deep boom right after "invade Australia"; rings through the 1 s gap | V01 / gap 1 s | boom.flac (+0 dB) |
-| 0:18.86 | 0:20.76 | Stamp thud as REJECTED slams (soft under the word) | V02 | stamp_thud.flac (-8 dB) |
+| 0:11.30 | 0:12.90 | Red arrow draws Tokyo to northern Australia | V02 | pen_draw.flac (-24 dB) |
+| 0:21.21 | 0:22.81 | Arrow re-extends | V03 | pen_draw.flac (-24 dB) |
+| 0:39.96 | 0:41.16 | Arrow splits into dotted 1, 2, 3 | V04 | pen_draw.flac (-24 dB) |
 | 0:57.94 | 1:05.24 | IF AUSTRALIA... series sting as the title builds | V04 gap 2.5 s | series_sting.flac (-3 dB) |
+| 1:02.64 | 1:03.01 | Date tick: DECEMBER 1941 | V05 | tick.flac (-18 dB) |
+| 1:02.76 | 1:03.13 | Date tick: DECEMBER 1941 | V05 | tick.flac (-18 dB) |
+| 1:06.36 | 1:06.91 | Label click: PEARL HARBOR | V05 | click.flac (-17 dB) |
 | 1:11.79 | 1:12.89 | Pin thunk (hong), soft under the voice | V05 | pin_thunk.flac (-14 dB) |
 | 1:13.39 | 1:14.49 | Pin thunk (malaya), soft under the voice | V05 | pin_thunk.flac (-14 dB) |
+| 1:15.34 | 1:15.71 | Date tick: FEBRUARY 1942 | V05 | tick.flac (-18 dB) |
+| 1:15.46 | 1:15.83 | Date tick: FEBRUARY 1942 | V05 | tick.flac (-18 dB) |
 | 1:17.59 | 1:18.69 | Pin thunk (singapore), soft under the voice | V05 | pin_thunk.flac (-14 dB) |
 | 1:21.53 | 1:28.53 | Single low note under the prisoner line and B02 | V06 / B02 | low_note.flac (-16 dB) |
+| 1:35.91 | 1:36.46 | Label click: AUSTRALIA | V07 | click.flac (-17 dB) |
+| 1:37.19 | 1:37.56 | Counter: Population ~7 million | V07 | tick.flac (-18 dB) |
+| 1:37.34 | 1:37.71 | Counter: Population ~7 million | V07 | tick.flac (-18 dB) |
+| 1:39.25 | 1:39.62 | Counter: Coastline 30,000+ km | V07 | tick.flac (-18 dB) |
+| 1:39.40 | 1:39.77 | Counter: Coastline 30,000+ km | V07 | tick.flac (-18 dB) |
+| 1:45.31 | 1:45.86 | Label click: MIDDLE EAST | V07 | click.flac (-17 dB) |
 | 1:48.71 | 1:59.71 | Air-raid siren: rises in the pause before "It's the first time", ducks under the words, fades on the pull-back | V08 / B03 / gap 2.5 s | siren.flac (-12 dB) |
+| 1:50.49 | 1:51.04 | Label click: DARWIN | V08 | click.flac (-17 dB) |
 | 1:51.51 | 1:59.51 | Distant explosions, no screams | V08 / B03 | explosions_distant.flac (-9 dB) |
+| 2:07.87 | 2:09.47 | Blue line to the United States | V09 | pen_draw.flac (-24 dB) |
+| 2:09.37 | 2:09.92 | Label click: UNITED STATES | V09 | click.flac (-17 dB) |
+| 2:30.20 | 2:30.57 | Counter: Divisions needed 10–12 | V10 | tick.flac (-18 dB) |
+| 2:30.35 | 2:30.72 | Counter: Divisions needed 10–12 | V10 | tick.flac (-18 dB) |
+| 2:35.46 | 2:35.83 | Counter: Shipping needed | V10 | tick.flac (-18 dB) |
+| 2:35.61 | 2:35.98 | Counter: Shipping needed | V10 | tick.flac (-18 dB) |
+| 2:41.38 | 2:41.93 | Label click: Tied down in China | V10 | click.flac (-17 dB) |
 | 2:45.89 | 2:47.79 | Soft thud as "4 MARCH 1942" stamps onto Tokyo | V11 | stamp_thud.flac (-12 dB) |
-| 3:01.04 | 3:07.54 | Cliffhanger sting; then 1.5 s hold (mid-roll 1) | V11 | cliff_sting.flac (-7 dB) |
+| 3:01.04 | 3:03.24 | Cliffhanger sting (short); then 1.5 s hold (mid-roll 1) | V11 | cliff_sting.flac (-7 dB) |
 | 3:01.94 | 3:03.84 | Whoosh into the big "1" | Act 2 open | whoosh.flac (-7 dB) |
 | 3:02.61 | 3:08.71 | Drum hit as "1" slams onto the map | Act 2 open | drum_1.flac (-2 dB) |
+| 3:06.59 | 3:07.14 | Label click: DARWIN | V12 | click.flac (-17 dB) |
+| 3:48.09 | 3:49.69 | Railway draws to Birdum | V14 | pen_draw.flac (-24 dB) |
+| 3:51.13 | 3:51.68 | Label click: BIRDUM | V14 | click.flac (-17 dB) |
+| 3:52.51 | 3:54.11 | Railway draws up to Alice Springs | V14 | pen_draw.flac (-24 dB) |
+| 3:54.21 | 3:54.76 | Label click: ALICE SPRINGS | V14 | click.flac (-17 dB) |
+| 3:57.77 | 3:58.14 | Counter: ~1,000 km of NO railway | V14 | tick.flac (-18 dB) |
+| 3:57.92 | 3:58.29 | Counter: ~1,000 km of NO railway | V14 | tick.flac (-18 dB) |
 | 4:07.58 | 4:12.28 | Single gust of desert wind after "road to nowhere" (the comic beat) | V15 / B05 / gap | desert_wind.flac (-8 dB) |
-| 5:15.09 | 5:16.99 | Soft thud as STUCK stamps the verdict card | V18 | stamp_thud.flac (-12 dB) |
+| 4:11.66 | 4:13.26 | Road draws through the gap | V16 | pen_draw.flac (-24 dB) |
+| 4:15.72 | 4:16.27 | Label click: Stuart Highway | V16 | click.flac (-17 dB) |
+| 4:35.38 | 4:36.98 | Supply line draws back to Japan | V16 | pen_draw.flac (-24 dB) |
+| 4:57.80 | 4:58.35 | Label click: MELVILLE ISLAND | V17 | click.flac (-17 dB) |
+| 4:59.48 | 5:00.03 | Label click: Ulungura label | V17 | click.flac (-17 dB) |
 | 5:20.87 | 5:22.77 | Whoosh into the big "2" | Act 3 open | whoosh.flac (-6 dB) |
 | 5:21.54 | 5:29.24 | Heavier drum hit as "2" slams on | Act 3 open | drum_2.flac (-1 dB) |
+| 5:34.90 | 5:35.45 | Label click: BRISBANE | V20 | click.flac (-17 dB) |
+| 5:35.56 | 5:36.11 | Label click: SYDNEY | V20 | click.flac (-17 dB) |
+| 5:36.08 | 5:36.63 | Label click: MELBOURNE | V20 | click.flac (-17 dB) |
+| 5:38.85 | 5:39.22 | Counter climbs: shipping to 2,000,000 tons | V20 | tick.flac (-18 dB) |
+| 5:39.18 | 5:39.55 | Counter climbs: shipping to 2,000,000 tons | V20 | tick.flac (-20 dB) |
+| 5:39.48 | 5:39.85 | Counter climbs: shipping to 2,000,000 tons | V20 | tick.flac (-20 dB) |
+| 5:39.74 | 5:40.11 | Counter climbs: shipping to 2,000,000 tons | V20 | tick.flac (-20 dB) |
+| 5:39.97 | 5:40.34 | Counter climbs: shipping to 2,000,000 tons | V20 | tick.flac (-20 dB) |
+| 5:40.15 | 5:40.52 | Counter climbs: shipping to 2,000,000 tons | V20 | tick.flac (-20 dB) |
+| 5:40.29 | 5:40.66 | Counter climbs: shipping to 2,000,000 tons | V20 | tick.flac (-20 dB) |
+| 5:40.35 | 5:40.72 | Counter climbs: shipping to 2,000,000 tons | V20 | tick.flac (-18 dB) |
+| 5:42.53 | 5:43.73 | Supply route draws | V20 | pen_draw.flac (-24 dB) |
 | 5:52.34 | 5:57.14 | Sonar ping 1 (periscope), in the pause after "aircraft" | V20 / B07 | sonar_ping.flac (-9 dB) |
 | 5:53.31 | 5:58.11 | Sonar ping 2 (submarine icons strike), in the 1 s gap | V20 gap | sonar_ping.flac (-11 dB) |
+| 5:58.85 | 5:59.40 | Label click: Coral Sea | V21 | click.flac (-17 dB) |
+| 6:05.21 | 6:05.76 | Label click: PORT MORESBY | V21 | click.flac (-17 dB) |
+| 6:08.13 | 6:08.68 | Label click: MIDWAY | V21 | click.flac (-17 dB) |
+| 6:22.90 | 6:23.45 | Label click: Early wins? | V22 | click.flac (-17 dB) |
+| 6:29.40 | 6:29.95 | Label click: Faster collapse? | V22 | click.flac (-17 dB) |
+| 6:38.74 | 6:39.29 | Label click: MIDDLE EAST | V22 | click.flac (-17 dB) |
+| 6:38.74 | 6:40.34 | Troop arrow from the Middle East | V22 | pen_draw.flac (-24 dB) |
+| 6:43.30 | 6:44.80 | Arrow from the United States | V22 | pen_draw.flac (-24 dB) |
 | 6:45.98 | 7:02.02 | Loss: strings only under V23 and B09 | V23 / B09 / gap 1.5 s | strings_pad.flac (-8 dB) |
-| 7:20.55 | 7:27.05 | Cliffhanger sting; then 1.5 s hold (mid-roll 2) | V24 | cliff_sting.flac (-7 dB) |
+| 7:20.55 | 7:22.75 | Cliffhanger sting (short); then 1.5 s hold (mid-roll 2) | V24 | cliff_sting.flac (-7 dB) |
 | 7:21.45 | 7:23.35 | Whoosh into the big "3" | Act 4 open | whoosh.flac (-5 dB) |
 | 7:22.12 | 7:31.42 | Heaviest hit of the three as "3" slams on | Act 4 open | drum_3.flac (+0 dB) |
+| 7:34.38 | 7:35.98 | Lifeline draws across the Pacific | V25 | pen_draw.flac (-24 dB) |
+| 7:38.94 | 7:39.49 | Label click: FIJI | V25 | click.flac (-17 dB) |
+| 7:40.04 | 7:40.59 | Label click: SAMOA | V25 | click.flac (-17 dB) |
+| 7:40.90 | 7:41.45 | Label click: NEW CALEDONIA | V25 | click.flac (-17 dB) |
+| 7:46.70 | 7:47.25 | Label click: PORT MORESBY | V25 | click.flac (-17 dB) |
+| 7:53.78 | 7:54.33 | Label click: QUEENSLAND | V25 | click.flac (-17 dB) |
 | 8:02.35 | 8:06.15 | Snapping cable in the pause after "fewer supplies" | V26 | cable_snap.flac (-3 dB) |
 | 8:02.95 | 8:10.18 | Near silence with a low wind tone (Australia alone) | V26 -> gap 2 s | low_wind.flac (-17 dB) |
+| 8:23.80 | 8:24.35 | Label click: SYDNEY HARBOUR | V27 | click.flac (-17 dB) |
+| 8:28.74 | 8:29.29 | Label click: SYDNEY | V28 | click.flac (-17 dB) |
+| 8:29.09 | 8:29.64 | Label click: NEWCASTLE | V28 | click.flac (-17 dB) |
 | 8:29.42 | 8:37.42 | Distant shell bursts, soft under the voice | V28 | explosions_distant.flac (-15 dB) |
+| 8:37.78 | 8:38.33 | Label click: PORT MORESBY | V28 | click.flac (-17 dB) |
+| 8:37.83 | 8:38.20 | Counter falls: distance to Port Moresby, stops at ~40 km | V28 | tick.flac (-18 dB) |
+| 8:37.83 | 8:39.33 | Red line crawls toward Port Moresby | V28 | pen_draw.flac (-24 dB) |
+| 8:37.88 | 8:38.43 | Label click: KOKODA | V28 | click.flac (-17 dB) |
+| 8:38.21 | 8:38.58 | Counter falls: distance to Port Moresby, stops at ~40 km | V28 | tick.flac (-20 dB) |
+| 8:38.54 | 8:38.91 | Counter falls: distance to Port Moresby, stops at ~40 km | V28 | tick.flac (-20 dB) |
+| 8:38.83 | 8:39.20 | Counter falls: distance to Port Moresby, stops at ~40 km | V28 | tick.flac (-20 dB) |
+| 8:39.07 | 8:39.44 | Counter falls: distance to Port Moresby, stops at ~40 km | V28 | tick.flac (-20 dB) |
+| 8:39.24 | 8:39.61 | Counter falls: distance to Port Moresby, stops at ~40 km | V28 | tick.flac (-20 dB) |
+| 8:39.33 | 8:39.70 | Counter falls: distance to Port Moresby, stops at ~40 km | V28 | tick.flac (-18 dB) |
 | 8:42.79 | 8:43.89 | Pin thunk (coral), soft under the voice | V29 | pin_thunk.flac (-14 dB) |
 | 8:43.95 | 8:45.05 | Pin thunk (midway), soft under the voice | V29 | pin_thunk.flac (-14 dB) |
 | 8:46.35 | 8:47.45 | Pin thunk (kokoda), soft under the voice | V29 | pin_thunk.flac (-14 dB) |
 | 8:47.99 | 8:49.09 | Pin thunk (millan), soft under the voice | V29 | pin_thunk.flac (-14 dB) |
+| 9:02.86 | 9:04.16 | Lifeline redraws solid | V29 | pen_draw.flac (-24 dB) |
+| 9:24.74 | 9:25.11 | Year ticks to 1942 | V31 | tick.flac (-15 dB) |
+| 9:28.42 | 9:28.79 | Year ticks to 1945 | V31 | tick.flac (-15 dB) |
+| 9:34.88 | 9:35.25 | Year ticks to 1951 | V31 | tick.flac (-15 dB) |
+| 9:39.28 | 9:40.38 | ANZUS triangle draws | V31 | pen_draw.flac (-24 dB) |
+| 9:39.58 | 9:40.13 | Label click: AUSTRALIA / NEW ZEALAND / USA | V31 | click.flac (-17 dB) |
+| 9:40.18 | 9:40.73 | Label click: ANZUS 1951 | V31 | click.flac (-17 dB) |
+| 10:01.57 | 10:01.94 | Counter climbs: population | V33 | tick.flac (-18 dB) |
+| 10:02.29 | 10:02.66 | Counter climbs: population | V33 | tick.flac (-20 dB) |
+| 10:02.91 | 10:03.28 | Counter climbs: population | V33 | tick.flac (-20 dB) |
+| 10:03.41 | 10:03.78 | Counter climbs: population | V33 | tick.flac (-20 dB) |
+| 10:03.79 | 10:04.16 | Counter climbs: population | V33 | tick.flac (-20 dB) |
+| 10:03.97 | 10:04.34 | Counter climbs: population | V33 | tick.flac (-18 dB) |
+| 10:05.39 | 10:06.79 | Migration arrows from Britain and Europe | V33 | pen_draw.flac (-24 dB) |
+| 10:07.23 | 10:08.63 | Migration arrows from everywhere | V33 | pen_draw.flac (-24 dB) |
+| 10:25.84 | 10:26.39 | Label click: 1942 / TODAY split | V34 | click.flac (-17 dB) |
+
+## Picture-sync accents on hard words
+
+A pause before a hard word gets a short rise (0.85 s, stops dead) and a tight low hit right on the word, instead of a long sting. Hits sit mostly below the speech band and stay under the 12 dB voice floor. Labels landing get a soft click, number changes get typewriter ticks (a short run for climbing or falling counters), and lines drawing on the map get a quiet pencil scratch; these are listed in the effects table above.
+
+| At | Ends | Cue | Script beat | File (level vs VO peak) |
+|---|---|---|---|---|
+| 0:17.99 | 0:18.84 | Short rise into "rejected" (REJECTED stamp) | V02 | riser_short.flac (-9 dB) |
+| 0:18.83 | 0:20.03 | Hit right on "rejected" (REJECTED stamp) | V02 | word_hit.flac (+1 dB) |
+| 2:49.94 | 2:50.79 | Short rise into "No invasion" (the arrow vanishes) | V11 | riser_short.flac (-9 dB) |
+| 2:50.78 | 2:51.98 | Hit right on "No invasion" (the arrow vanishes) | V11 | word_hit.flac (+1 dB) |
+| 5:13.72 | 5:14.57 | Short rise into "stuck" (STUCK stamp) | V18 | riser_short.flac (-9 dB) |
+| 5:14.56 | 5:15.76 | Hit right on "stuck" (STUCK stamp) | V18 | word_hit.flac (+1 dB) |
+| 7:31.27 | 7:32.12 | Short rise into "Cut it off" | V25 | riser_short.flac (-9 dB) |
+| 7:32.11 | 7:33.31 | Hit right on "Cut it off" | V25 | word_hit.flac (+1 dB) |
+| 9:53.01 | 9:53.86 | Short rise into "populate, or perish" | V32 | riser_short.flac (-9 dB) |
+| 9:53.85 | 9:55.05 | Hit right on "populate, or perish" | V32 | word_hit.flac (+1 dB) |
 
 ## Shot environment (B-roll)
 
@@ -118,7 +223,7 @@ Every B-roll clip is muted: the clips' own generated audio is never mapped into 
 ## Master
 
 - Voice as recorded, assembled: -22.0 LUFS integrated (no voice loudnorm, no compression).
-- Master chain: `volume=8.14dB,aresample=192000,alimiter=limit=0.7079:attack=3:release=80:level=false:asc=1,aresample=48000:resampler=soxr:precision=28,loudnorm(two-pass, linear)`.
+- Master chain: `volume=8.15dB,aresample=192000,alimiter=limit=0.7079:attack=3:release=80:level=false:asc=1,aresample=48000:resampler=soxr:precision=28,loudnorm(two-pass, linear)`.
 - Two-pass loudnorm on the master only, pass 2 normalisation type: **linear**.
 - Result: **-14.00 LUFS integrated, -2.17 dBTP true peak**, LRA 6.00 LU (target −14 LUFS, ≤ −1.5 dBTP).
 
