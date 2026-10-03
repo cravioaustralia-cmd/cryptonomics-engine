@@ -24,6 +24,17 @@ Part 1 and Part 2 are the original production script, page breaks included. Part
 
 You do the design. The production manager does not hand you scene layouts. This brief locks the rules and points at the script. It is not a second script.
 
+## Already in the repo — do not fetch, do not wait
+
+Narration V01–V34 and B-roll B01–B12 are already committed on branch `scaffold/lf01-if-australia`. Do not wait for them. Do not regenerate them. If `git status` or the working tree does not show them, `git pull` the branch `scaffold/lf01-if-australia`. Exact paths:
+
+- `longform/lf01-if-australia/audio/vo/V01.mp3` through `longform/lf01-if-australia/audio/vo/V34.mp3`
+- `longform/lf01-if-australia/broll/B01.mp4` through `longform/lf01-if-australia/broll/B12.mp4`
+
+The Curtin photo is already at `longform/lf01-if-australia/images/curtin.jpg`. Use that file. Do not fetch Wikimedia.
+
+The music bed is already at `longform/lf01-if-australia/audio/music/bed.mp3`. Use that file. Do not fetch Mixkit or Pixabay. Duck it under the VO. Two-pass loudnorm on the master only.
+
 ## Role split
 
 - Claude Code does **all** design, animation, edit, mix, and assembly.
@@ -123,7 +134,7 @@ Avoid list (every clip):
 ## People
 
 - **Real people only as archive photos on the map.**
-- **John Curtin:** one framed card, pinned to Australia on the V09 beat, with the newspaper icon the script describes. There is **no Curtin photo in this repo**. Do not invent a face and do not generate one. Use this free-licence file if you fetch an archive still: [File:John Curtin austerity speech SLNSW 1942.jpg](https://commons.wikimedia.org/wiki/File:John_Curtin_austerity_speech_SLNSW_1942.jpg) (public domain; acknowledge Mitchell Library, State Library of New South Wales). It is a 30 October 1942 picture, later than the "weeks earlier" line. That is acceptable as an archive card of the prime minister. Do not use a grave photo, and do not use the c.1908 youth portrait as the wartime card. Write the credit in a `SOURCES.md` in this episode folder.
+- **John Curtin:** one framed card, pinned to Australia on the V09 beat, with the newspaper icon the script describes. The photo is already at `longform/lf01-if-australia/images/curtin.jpg`. Use that file. Do not fetch Wikimedia. Do not invent a face and do not generate one. It is the Mitchell Library / State Library of New South Wales photograph of the 30 October 1942 austerity speech at Sydney Town Hall (public domain; credit Mitchell Library, State Library of New South Wales; details in `SOURCES.md`). It is later than the "weeks earlier" line. That is acceptable as an archive card of the prime minister. Do not use a grave photo, and do not use the c.1908 youth portrait as the wartime card.
 - **Matthias Ulungura** is a **map label only**: "Captured by Matthias Ulungura, Tiwi man", on Melville Island, with the small plane the script describes. **No AI person. Do not generate him.** No photo unless a free-licence image is documented **and** Tiwi protocols are noted in `SOURCES.md`. Default for this pass: **label only, no photo.**
 
 ## Audio
@@ -154,7 +165,7 @@ Scripted calls (do not add a parallel score that fights these):
 - V30: music **resolves and holds**. 2 s gap.
 - End screen after V34 (**10 s** in the script): music outro under the badge, with space for a subscribe button and one suggested video. Do not upload, and do not fake YouTube UI chrome beyond a clean empty area.
 
-**Music:** pick a **free-licence** bed (Mixkit or Pixabay) and document the **URL** in `SOURCES.md`. Do **not** use the Shorts Skyline bed unless it actually fits. This is a war counterfactual, not Impossible Journeys. No copyrighted score.
+**Music:** the bed is already at `longform/lf01-if-australia/audio/music/bed.mp3` (Kevin MacLeod, "Long note One": basses and violins, dark and suspenseful, CC BY 4.0, 7 minutes 20 seconds). Use that file. Do not fetch Mixkit or Pixabay. Do **not** use the Shorts Skyline bed. Duck it under the VO. Loop it if the film runs longer than the file (about 9–12 minutes, plus the 10 s end screen). Two-pass loudnorm on the master only. Source URL and the credit line are in `SOURCES.md`. No copyrighted score.
 
 ## On-screen text
 
