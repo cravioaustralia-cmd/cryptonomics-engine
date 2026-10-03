@@ -14,11 +14,11 @@ The shot list and the narration source of truth is:
 
 `longform/lf01-if-australia/script/script.md`
 
-That file is the user's production script v2, copied unchanged (page-break characters and all). Read the whole file. Follow it beat for beat.
+Read the whole file. Follow it beat for beat.
 
-- Do **not** rewrite spoken words.
-- Do **not** add facts, places, numbers, or beats that are not in that file.
-- Do **not** rewrite spoken words. Part 3 is the full narration and it matches `audio/vo/`.
+Part 1 and Part 2 are the original production script, page breaks included. Part 3 is the full uncut narration, and it matches `audio/vo/`.
+
+- Do **not** rewrite spoken words. Do **not** add facts, places, numbers, or beats that are not in that file.
 - Part 2 "Voice" lines are often shortened with ellipses. They are picture cues. If they disagree with Part 3, Part 3 is what was said.
 - "Should sound" notes were for the voice take, which is already recorded. Never put them on screen as titles.
 
