@@ -14,6 +14,7 @@ from __future__ import annotations
 import logging
 
 from .db import DB
+from .redact import redact
 from .timeutil import HOUR_MS, now_ms, short
 
 log = logging.getLogger(__name__)
@@ -31,6 +32,7 @@ class HealthTracker:
         self.send_recovery = send_recovery
 
     def report(self, source: str, status: str, detail: str = "") -> None:
+        detail = redact(detail)
         t = now_ms()
         row = self.db.one("SELECT * FROM source_health WHERE source=?", (source,))
         fails = row["consecutive_failures"] if row else 0

@@ -338,6 +338,8 @@ def load_config(config_path: str | Path, env_path: str | Path | None = None,
             problems.append("TELEGRAM_CHAT_ID must be a number (e.g. 123456789 or -100123...) or @channelname")
         if problems:
             raise ConfigError(".env is invalid:\n" + "\n".join(f"  - {p}" for p in problems))
+    from .redact import register_secret
+    register_secret(token)
     cfg.telegram_bot_token = token
     cfg.telegram_chat_id = chat
     return cfg

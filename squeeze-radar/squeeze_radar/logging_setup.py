@@ -7,8 +7,10 @@ import time
 from logging.handlers import RotatingFileHandler
 from pathlib import Path
 
+from .redact import RedactingFormatter
 
-class _UTCFormatter(logging.Formatter):
+
+class _UTCFormatter(RedactingFormatter):
     converter = time.gmtime
 
 

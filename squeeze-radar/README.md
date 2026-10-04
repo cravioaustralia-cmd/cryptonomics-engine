@@ -65,7 +65,7 @@ and the Binance announcement JSON still has the expected shape.
 | `python main.py --loop` | Run continuously on the schedule in `config.yaml` |
 | `--dry-run` | Print alerts to the console instead of Telegram (no `.env` needed) |
 | `python main.py --once --job collect` | Run only selected jobs (`universe`, `announcements`, `collect`, `hourly_summary`, `outcomes`, `heartbeat`) |
-| `python main.py --test-telegram` | Send one test message |
+| `python main.py --test-telegram` | Check the token with getMe, print the bot's username and send "squeeze-radar connected ✅" with the UTC time. On "chat not found" or 403 it tells you to open the bot and press Start. |
 | `python report.py [--csv reports/] [--kind score]` | Outcome report in the terminal, optionally CSV |
 
 ---
@@ -210,6 +210,11 @@ sudo systemctl daemon-reload
 sudo systemctl enable --now squeeze-radar
 sudo systemctl status squeeze-radar
 ```
+
+### Secrets
+
+The bot token and chat id live only in `.env`, which git ignores. Every log line, stored error and
+console message masks the token: a URL shows up as `bot<redacted>/sendMessage`.
 
 ### Viewing logs
 

@@ -16,6 +16,7 @@ import requests
 
 from .db import DB
 from .http import backoff_delay
+from .redact import redact
 from .timeutil import iso, now_ms
 
 log = logging.getLogger(__name__)
@@ -97,7 +98,7 @@ class Notifier:
                 self._deliver(row["text"])
             except TelegramError as e:
                 self.db.execute("UPDATE outbox SET attempts=attempts+1, last_error=? WHERE id=?",
-                                (str(e)[:500], row["id"]))
+                                (redact(e)[:500], row["id"]))
                 self.db.log_event("ERROR", "telegram", str(e))
                 log.error("Telegram delivery failed, message kept in outbox for retry: %s", e)
                 break  # keep order; retry later
@@ -109,7 +110,7 @@ class Notifier:
     # -- internals ----------------------------------------------------------
     def _deliver(self, text: str) -> None:
         if self.dry_run:
-            self.printer("\n----- [DRY-RUN Telegram message] -----\n" + text + "\n--------------------------------------")
+            self.printer("\n----- [DRY-RUN Telegram message] -----\n" + redact(text) + "\n--------------------------------------")
             return
         wait = self.min_interval - (time.monotonic() - self._last_send)
         if wait > 0:
@@ -129,7 +130,7 @@ class Notifier:
                 if r.status_code == 200 and data.get("ok"):
                     return
                 desc = data.get("description") or r.text[:200]
-                last = f"HTTP {r.status_code}: {desc}"
+                last = redact(f"HTTP {r.status_code}: {desc}")
                 if r.status_code == 429:
                     ra = (data.get("parameters") or {}).get("retry_after", 5)
                     self.sleep(float(ra) + 0.5)
@@ -142,12 +143,49 @@ class Notifier:
                 if 400 <= r.status_code < 500 and r.status_code != 429:
                     raise TelegramError(last)  # bad token/chat id: retrying will not help
             except requests.RequestException as e:
-                last = f"network error: {e}"
+                last = redact(f"network error: {type(e).__name__}: {e}")
             if attempt < self.max_retries:
                 self.sleep(backoff_delay(attempt, 1.0, 30.0))
-        raise TelegramError(last)
+        raise TelegramError(redact(last))
 
 
 def _strip_tags(s: str) -> str:
     import re
     return re.sub(r"</?[a-zA-Z][^>]*>", "", s)
+
+
+START_HINT = ("Open your bot in Telegram, press Start (or send it any message), then run this again: "
+              "python main.py --test-telegram")
+
+
+def check_connection(token: str, chat_id: str, text: str, session: requests.Session | None = None,
+                     timeout: float = 20) -> tuple[bool, str]:
+    """getMe, then send `text` (plain, no HTML) to chat_id. Returns (ok, human message).
+    The token never appears in the returned message."""
+    s = session or requests.Session()
+    base = f"https://api.telegram.org/bot{token}"
+    try:
+        r = s.get(base + "/getMe", timeout=timeout)
+        me = r.json()
+    except (requests.RequestException, ValueError) as e:
+        return False, redact(f"getMe failed: cannot reach Telegram: {type(e).__name__}: {e}")
+    if not me.get("ok"):
+        if r.status_code == 401:
+            return False, "getMe failed: HTTP 401 Unauthorized. The bot token in .env is wrong or revoked."
+        return False, redact(f"getMe failed: HTTP {r.status_code}: {me.get('description')}")
+    username = (me.get("result") or {}).get("username")
+    lines = [f"getMe OK: bot username @{username}"]
+    try:
+        r = s.post(base + "/sendMessage", json={"chat_id": chat_id, "text": text}, timeout=timeout)
+        data = r.json()
+    except (requests.RequestException, ValueError) as e:
+        lines.append(redact(f"sendMessage failed: {type(e).__name__}: {e}"))
+        return False, "\n".join(lines)
+    if data.get("ok"):
+        lines.append(f"Test message sent to chat {chat_id} (message_id {data['result'].get('message_id')}).")
+        return True, "\n".join(lines)
+    desc = str(data.get("description") or "")
+    lines.append(redact(f"sendMessage failed: HTTP {r.status_code}: {desc}"))
+    if r.status_code == 403 or "chat not found" in desc.lower():
+        lines.append(START_HINT)
+    return False, "\n".join(lines)

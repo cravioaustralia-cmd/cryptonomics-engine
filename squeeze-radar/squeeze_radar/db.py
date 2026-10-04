@@ -6,6 +6,7 @@ import sqlite3
 from pathlib import Path
 from typing import Any, Iterable
 
+from .redact import redact
 from .timeutil import iso, now_ms
 
 SCHEMA = """
@@ -297,7 +298,7 @@ class DB:
     def log_event(self, level: str, source: str, message: str) -> None:
         t = now_ms()
         self.conn.execute("INSERT INTO events (at_ms, at_iso, level, source, message) VALUES (?,?,?,?,?)",
-                          (t, iso(t), level, source, message[:2000]))
+                          (t, iso(t), level, source, redact(message)[:2000]))
 
     def get_meta(self, key: str) -> str | None:
         r = self.one("SELECT value FROM meta WHERE key=?", (key,))

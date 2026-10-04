@@ -20,6 +20,7 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 
 from squeeze_radar.config import load_config  # noqa: E402
+from squeeze_radar.redact import redact  # noqa: E402
 
 RESULTS = []
 
@@ -246,7 +247,7 @@ def main() -> int:
         r = requests.get(f"https://api.telegram.org/bot{c2.telegram_bot_token}/getMe", timeout=20).json()
         check("Telegram bot token valid (getMe)", r.get("ok") is True, f"bot @{(r.get('result') or {}).get('username')}")
     except Exception as e:
-        check("Telegram (needs .env)", False, str(e), warn=True)
+        check("Telegram (needs .env)", False, redact(e), warn=True)
 
     fails = RESULTS.count("FAIL")
     print(f"\n{RESULTS.count('PASS')} PASS, {RESULTS.count('WARN')} WARN, {fails} FAIL")

@@ -62,15 +62,16 @@ def main(argv=None) -> int:
     app = App(cfg, dry_run=args.dry_run)
     try:
         if args.test_telegram:
+            from squeeze_radar.telegram import check_connection
             from squeeze_radar.timeutil import iso, now_ms
-            app.notifier.send(f"✅ <b>squeeze-radar test message</b>\nTelegram is configured correctly. "
-                              f"Sent {iso(now_ms())}.\nThis bot is read-only: it never trades.")
-            pending = app.db.one("SELECT COUNT(*) AS n FROM outbox WHERE sent_ms IS NULL")["n"]
-            if pending:
-                print("Telegram test FAILED: message is still in the outbox. See logs/errors.log.", file=sys.stderr)
-                return 1
-            print("Telegram test message sent.")
-            return 0
+            if args.dry_run:
+                print("--test-telegram sends a real message; run it without --dry-run.", file=sys.stderr)
+                return 2
+            ok, msg = check_connection(cfg.telegram_bot_token, cfg.telegram_chat_id,
+                                       f"squeeze-radar connected ✅ {iso(now_ms())} (UTC)")
+            print(msg, file=sys.stdout if ok else sys.stderr)
+            log.info("telegram test: %s", "ok" if ok else "FAILED")
+            return 0 if ok else 1
         if args.once:
             log.info("single run (%s)", "dry-run" if args.dry_run else "live")
             app.run_once(args.job)
