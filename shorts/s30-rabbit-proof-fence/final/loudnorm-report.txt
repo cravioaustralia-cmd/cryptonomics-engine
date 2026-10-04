@@ -1,0 +1,23 @@
+VO measured -23.5 LUFS → static gain +5.5 dB (no loudnorm pre-mix)
+Music (Skyline, Mixkit 601) window measured -9.7 LUFS → static -26.5 dB (bed target -36.2 LUFS = s18 bed −4 LU)
+master pass 1: -18.68 LUFS · -5.60 dBTP · LRA 4.30 · thresh -29.38 · offset 0.28
+master pass 2 (ebur128 on final-mix.wav):
+[Parsed_ebur128_0 @ 0x55f53a420040] Summary:
+
+  Integrated loudness:
+    I:         -14.0 LUFS
+    Threshold: -24.7 LUFS
+
+  Loudness range:
+    LRA:         4.2 LU
+    Threshold: -34.7 LUFS
+    LRA low:   -17.0 LUFS
+    LRA high:  -12.8 LUFS
+
+  True peak:
+    Peak:       -1.5 dBFS
+premix stem vo: I -18.6 LUFS · sample peak -6 dBFS · max short-term -15.4 LUFS
+premix stem music: I -36.2 LUFS · sample peak -23.7 dBFS · max short-term -34.0 LUFS
+premix stem sfx: I -36.4 LUFS · sample peak -19.6 dBFS · max short-term -35.6 LUFS
+SFX peak under VO peak: 13.6 dB · SFX max short-term under VO max short-term: 20.2 LU
+SFX: 6 cue types, 9 events; no music drop-outs, no stingers

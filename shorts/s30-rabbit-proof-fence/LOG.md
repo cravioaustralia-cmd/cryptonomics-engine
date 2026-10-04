@@ -18,3 +18,14 @@
 - Master map: prior polylines exist on other commits (`f83a646` Mary, `3db0f94` Hinkler `routes.flight`, s28 `WAY`) but **not on this branch**. If Claude cannot load them: pull back over Western Australia and hold. Do not invent episode 3. Do not draw s29
 - Dirty unrelated paths left unstaged: `shorts/incoming-vo/*`, `shorts/s19-emu-war/images/*`
 - Handoff next: parent seats Atlas `audio/vo.mp3` → user pulls this branch → user pastes `PASTE_BRIEF.md` into Claude Code. Do not @claude, do not PR from this scaffold, do not upload
+
+## 2026-10-04 — s30 Rabbit-Proof Fence (Claude build)
+- Built on `claude/model-opus-v3027k` from `scaffold/s30-rabbit-proof-fence`. MAP EXPLAINER. SVG + renderFrame + Playwright + ffmpeg. No Remotion
+- Held Atlas VO untouched (94.392 s); `transcript.json` = faster-whisper medium.en, 269/269 words, "mothers." seam pinned by silencedetect
+- Basemap from open data (NASA BMNG, AWS Terrain Tiles, Natural Earth): WA layer + Moore River and Jigalong close-ups; soft relief, no blown whites
+- Quiet map moments staged: glowing self-drawing fence, day counter DAY 1 → NINE WEEKS, three trails → two (unnamed town), two trails reach Jigalong, second walk with one pin that stays at Moore River, `20+ YEARS`
+- Master map uses only loaded polylines: ep.1 Mary (`3db0f94` mary.escape), ep.2 Hinkler (`3db0f94` routes.flight), ep.4 Robyn (s28 `WAY`). No ep.3, no s29
+- No gags, no emoji, no portraits, no faces, no daughter names, no town name
+- Mix: VO −23.5 LUFS +5.5 dB static, Skyline bed −36.2 LUFS (s18 −4 LU), 9 sparse SFX, float amix, two-pass master loudnorm → −14.0 LUFS / −1.5 dBTP
+- Fence No. 1 trace is approximate between documented anchors (OSM and Wikipedia blocked from the container); see `images/SOURCES.md`
+- Deliverables: `final/s30-rabbit-proof-fence.mp4` (1080×1920, 30 fps, 94.4 s, 65 MB), `final/contact-sheet.jpg`, `final/loudnorm-report.txt`. Not uploaded. Not merged
