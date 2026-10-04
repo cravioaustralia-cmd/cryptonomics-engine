@@ -443,7 +443,15 @@
         const tiltX = d.pip ? 0 : (d.tiltX == null ? 7 : d.tiltX), tiltY = d.pip ? 0 : (d.tiltY == null ? -9 : d.tiltY);
         const rot = d.rot == null ? -2 : d.rot;
         const ty = d.center ? '-50%' : '-100%';
-        el.style.left = d.x.toFixed(1) + 'px'; el.style.top = (d.y + (d.dropY || 0)).toFixed(1) + 'px';
+        // keep every card fully on screen (the pin still marks the true place)
+        const cw = d.w + 18, ch = ids.reduce((m, i) => Math.max(m, (d.w / ids.length) * SIZES[i].h / SIZES[i].w), 0) + (d.noCap ? 9 : 60);
+        const sc = (d.scale || 1);
+        let cx = d.x, cy = d.y;
+        if (!d.pip) {
+          const hw = (cw * sc) / 2 + 24, top = (d.center ? (ch * sc) / 2 : ch * sc + 18) + 24, bot = d.center ? (ch * sc) / 2 + 24 : 24;
+          cx = clamp(cx, hw, W - hw); cy = clamp(cy, top, H - bot);
+        }
+        el.style.left = cx.toFixed(1) + 'px'; el.style.top = (cy + (d.dropY || 0)).toFixed(1) + 'px';
         el.style.transform = `translate(-50%, ${ty}) translate(0, ${d.center ? 0 : -18}px) perspective(1400px) rotateX(${tiltX}deg) rotateY(${tiltY}deg) rotate(${rot}deg) scale(${((d.scale || 1) * (d.sx == null ? 1 : d.sx)).toFixed(3)}, ${(d.scale || 1).toFixed(3)})`;
         el.style.opacity = Math.min(1, d.op).toFixed(3);
         el.style.filter = d.grey ? `grayscale(${d.grey.toFixed(2)}) brightness(${(1 - 0.25 * d.grey).toFixed(2)})` : '';
@@ -922,7 +930,7 @@
           const pl = projUV(anchorUV), plo = proj(P.london);
           const p = [lerp(plo[0], pl[0], f / 0.13), lerp(plo[1], pl[1], f / 0.13)];
           const a = win(t, c0, c1, 0.4, 0.4), u = easeOutBack(clamp((t - c0) / 0.55, 0, 1));
-          card('img02', 'IMG02', p[0] - 40, p[1] - 10, 330, a, { scale: 0.6 + 0.4 * u, dropY: (1 - u) * -40 });
+          card('img02', 'IMG02', p[0] - 120, p[1] + 330, 300, a, { scale: 0.6 + 0.4 * u, dropY: (1 - u) * -40 });
           add(pin(P.london, c0 - 0.1, { until: c1, col: BLUE, dk: BLUE_D }));
         }
       }
@@ -1101,7 +1109,7 @@
     {
       const a = win(t, T.lone - 0.3, S('V19') + 2.0, 0.2, 0.6) * (1 - win(t, b.B15.tIn - 0.3, b.B15.tOut + 0.2, 0.2, 0.2));
       if (a > 0) {
-        for (const [ll, n, t0, dy] of [[P.lonepine, 'Lone Pine', T.lone, 40], [P.nek, 'The Nek', T.nek, -60], [P.chunuk, 'Chunuk Bair', T.chunuk, -60]]) {
+        for (const [ll, n, t0, dy] of [[P.lonepine, 'Lone Pine', T.lone, 40], [P.nek, 'The Nek', T.nek, -60], [P.chunuk, 'Chunuk Bair', T.chunuk, 40]]) {
           add(pin(ll, t0, { col: BLUE, dk: BLUE_D, op: a, lit: sstep(t0, t0 + 0.2, t) * (1 - sstep(t0 + 0.5, t0 + 1.4, t)) }));
           add(placeLabel(ll, n, t0 + 0.1, { dy, op: a, size: 26 }));
         }
@@ -1252,8 +1260,8 @@
         const pk = proj(P.ankara);
         add(pin(P.ankara, T.img16 - 0.1, { until: b.B29.tIn - 0.3, col: INK }));
         add(placeLabel(P.ankara, 'Ankara', T.img16, { until: b.B29.tIn - 0.3, dy: 34, size: 22 }));
-        card('img16', 'IMG16', pk[0] + 150, pk[1] - 10, 200, win(t, T.img16, b.B29.tIn - 0.35, 0.4, 0.4), { scale: 0.6 + 0.4 * easeOutBack(clamp((t - T.img16) / 0.55, 0, 1)), rot: 2 });
-        card('img06b', 'IMG06', pk[0] - 150, pk[1] - 10, 200, win(t, T.img06b, b.B29.tIn - 0.35, 0.4, 0.4), { scale: 0.6 + 0.4 * easeOutBack(clamp((t - T.img06b) / 0.55, 0, 1)), rot: -3 });
+        card('img16', 'IMG16', pk[0] + 130, pk[1] + 420, 190, win(t, T.img16, b.B29.tIn - 0.35, 0.4, 0.4), { scale: 0.6 + 0.4 * easeOutBack(clamp((t - T.img16) / 0.55, 0, 1)), rot: 2 });
+        card('img06b', 'IMG06', pk[0] - 130, pk[1] + 420, 190, win(t, T.img06b, b.B29.tIn - 0.35, 0.4, 0.4), { scale: 0.6 + 0.4 * easeOutBack(clamp((t - T.img06b) / 0.55, 0, 1)), rot: -3 });
       }
       // M33: Arı Burnu -> Anzac Koyu (Anzac Cove), 1985; 1915 / 2012 split card on the cove pin
       const a3 = win(t, T.ari - 0.3, b.B30.tIn - 0.3, 0.3, 0.3);

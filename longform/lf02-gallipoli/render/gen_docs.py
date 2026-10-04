@@ -82,7 +82,16 @@ R = ['# Loudnorm report — final/lf02-gallipoli.mp4', '',
      f"3. Whole mix stretched to {SP}× with `atempo={SP}` (WSOLA, pitch unchanged): {LN['premaster_speed_lufs']:.1f} LUFS.",
      f"4. Master chain on the {SP}× file only: `{LN['master_chain']}`.",
      f"5. Two-pass loudnorm: pass 1 measured I {LN['pass1']['input_i']} LUFS / TP {LN['pass1']['input_tp']} dBTP; pass 2 type `{LN['pass2']['normalization_type']}`.", '',
-     '## ffmpeg ebur128 on the master', '', '```', LN['ebur128_summary'], '```', '']
+     '## ffmpeg ebur128 on the master WAV', '', '```', LN['ebur128_summary'], '```', '']
+mp4 = os.path.join(EP, 'final', 'lf02-gallipoli.mp4')
+if os.path.exists(mp4):
+    import subprocess
+    e = subprocess.run(['ffmpeg', '-hide_banner', '-nostats', '-i', mp4, '-map', '0:a', '-af', 'ebur128=peak=true', '-f', 'null', '-'], capture_output=True, text=True).stderr
+    summ = e[e.rindex('Summary:'):].strip()
+    import re
+    I = re.search(r'I:\s+(-?[0-9.]+) LUFS', summ).group(1); P = re.search(r'Peak:\s+(-?[0-9.]+) dBFS', summ).group(1)
+    R[6:6] = [f'| Delivered mp4 audio (AAC 192 kb/s) | {I} LUFS integrated, {P} dBTP true peak | measured on `final/lf02-gallipoli.mp4` |']
+    R += ['## ffmpeg ebur128 on the delivered mp4 (AAC stream)', '', '```', summ, '```', '']
 os.makedirs(os.path.join(EP, 'final'), exist_ok=True)
 open(os.path.join(EP, 'final', 'loudnorm-report.md'), 'w').write('\n'.join(R))
 print('CUE_SHEET.md, final/loudnorm-report.md, build/chapters.json written')
