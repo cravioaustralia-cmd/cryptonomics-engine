@@ -6,7 +6,7 @@
 - Branch: `scaffold/s30-rabbit-proof-fence` off `origin/main` (highest prior short folder confirmed: **s29** on `scaffold/s29-darwin-stuck`; next = **s30**)
 - **Mode: MAP EXPLAINER (locked)** — GeoArchivez standing quality bar; GeoGlobeTales basemap lock
 - Series: Impossible Journeys **episode 5** (s26 Mary Bryant ep.1; s27 Bert Hinkler ep.2; no ep.3 folder; s28 Robyn Davidson ep.4). s29 is the Darwin teaser, not this series
-- Atlas VO **PENDING** at `audio/vo.mp3` — Video Production (parent) seats it before paste; **not recorded in this scaffold**
+- Atlas VO **seated** at `audio/vo.mp3` (**94.392 s**, from `/workspace/s30-vo.mp3`) — Whisper small usable (Molly, Daisy, Gracie, Perth; ending “Because it all began with”); **do not re-record**
 - Scaffold: `script.md`, `vo_script.md` (269 spoken words), `plan.md`, `PASTE_BRIEF.md`, `MAP_EXPLAINER_MODE.md`, `SOURCES.md`, `FACT_NOTES.md`, `images/SOURCES.md`, Skyline 601 + shared SFX, render README, final/.gitkeep
 - **No `scenes.js`** — Claude owns design / animation / mix
 - Music: **Skyline** (Eugenio Mininni / Mixkit id **601**, ~205.9 s) copied from s28 (already in-repo). Not downloaded

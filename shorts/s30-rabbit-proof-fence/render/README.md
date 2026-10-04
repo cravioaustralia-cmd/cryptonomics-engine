@@ -1,6 +1,6 @@
 # Render — s30-rabbit-proof-fence
 
-Claude owns `scenes.js` and the Playwright + ffmpeg build here. Reuse `shorts/shared/render/`. Atlas VO **pending** at `audio/vo.mp3` (Video Production seats it before paste; duration TBD). **Do not write scenes.js in the scaffold. Do not re-record VO.** No Remotion. **MAP EXPLAINER MODE** — match the GeoArchivez quality bar in `MAP_EXPLAINER_MODE.md`.
+Claude owns `scenes.js` and the Playwright + ffmpeg build here. Reuse `shorts/shared/render/`. Atlas VO is already at `audio/vo.mp3` (**94.392 s**). **Claude must not re-record it.** **Do not write scenes.js in the scaffold. Do not re-record VO.** No Remotion. **MAP EXPLAINER MODE** — match the GeoArchivez quality bar in `MAP_EXPLAINER_MODE.md`.
 
 **First frame:** Western Australia satellite; faint glowing fence thread; three trails; hook `1,600 km. NO MAP` (never spoken).
 

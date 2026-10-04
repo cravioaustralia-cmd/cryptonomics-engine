@@ -16,7 +16,7 @@
 - **Place labels (confirmed, labels only — do not add them to the spoken words):** the remote desert community is **Jigalong**; the government camp near Perth is **Moore River** (Moore River Native Settlement). Do **not** name the “nearby town” (do not print Wiluna, Meekatharra, or any other town the script does not say). Do not print daughter names (Doris, Annabelle) — the script does not say them.
 - **Series:** Impossible Journeys **episode 5**. At the series line the route joins the master map and the camera pulls back over prior IJ routes **only if their polylines load**. Otherwise **pull back over Western Australia and hold**.
 - **Incomplete loop:** spoken `Because it all began with` → open hook / “Three girls.”
-- **Atlas VO:** **PENDING** → `audio/vo.mp3`. It will be seated before paste. **Do not re-record. Do not overwrite `vo.mp3`.**
+- **Atlas VO:** already at `audio/vo.mp3` (**94.392 s**). **Claude must not re-record. Do not overwrite `vo.mp3`.**
 - Australian English. Do not rewrite the spoken words.
 
 ## Hook
@@ -78,7 +78,7 @@ These polylines are **in the repo but not on this branch**. Load them with `git 
 
 ## Audio
 
-- `audio/vo.mp3` — **PENDING** Atlas en-AU. Will be seated before paste. **Do not re-record. Do not overwrite.**
+- `audio/vo.mp3` — Atlas en-AU already seated (**94.392 s**). **Claude must not re-record. Do not overwrite.**
 - Music: **Skyline** (Eugenio Mininni / Mixkit id **601**) — already in the repo from s26 / s27 / s28; copied here to `music/music.mp3` and `audio/music.mp3` (~205.9 s). Credit it. Seat ~**4 dB quieter** than the s18 original Silent Descent bed level under VO before master loudnorm. Keep it restrained. Do not drop into comedy stingers. No extra music download.
 - Mix: measure VO → static gain + apad → float amix → **two-pass loudnorm** ~−14 LUFS / true peak ≤ −1.5 dBTP. Do **not** use a one-pass mix that flattens the voice.
 - Sparse SFX under the voice (~4–8, not dense whooshes): fence draw, soft day-counter tick, trail split when Gracie is caught, arrival at the community pin, quiet series pullback. VO-only stretches required. No sad-horn gag, no record-scratch joke, no rabbit squeak. Shared kit is in `sfx/`.

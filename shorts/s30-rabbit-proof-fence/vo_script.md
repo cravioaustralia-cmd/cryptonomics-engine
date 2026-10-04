@@ -1,6 +1,6 @@
 # VO script — s30 Rabbit-Proof Fence
 
-**Status:** Atlas VO **PENDING** at `audio/vo.mp3`. Video Production seats it before the user pastes. Do not overwrite a file that appears later. Do not invent timings before VO lands. **Do not re-record. Do not record in this scaffold.**  
+**Status:** Atlas VO **seated** at `audio/vo.mp3` (**94.392 s**). **Do not re-record. Do not overwrite `vo.mp3`.**  
 **Delivery:** fast intense → serious → storytelling → dark → dark → tense → fast plan → tense pursuit → awed fence weeks → dark Gracie → awed home → twist slow second walk → serious separation → serious like → warm serious series → loop. Start instantly. en-AU / Atlas.  
 **Dignity:** Stolen Generations. Quiet, not jokey. No comic timing.
 
@@ -9,9 +9,9 @@ Emotion cues are for performance reference only — **not spoken**. Never speak 
 **Loop note:** **Incomplete loop.** Last line `Because it all began with` bridges into `Three girls.`
 
 **Spoken word count:** 269 words (excl. emotion cues).  
-**Duration:** TBD once Atlas seats. Whisper-retune seams to the held recording.
+**Duration:** **94.392 s**. Whisper-retune seams to the held recording.
 
-**VO file:** `shorts/s30-rabbit-proof-fence/audio/vo.mp3` (pending — will be seated before paste).
+**VO file:** `shorts/s30-rabbit-proof-fence/audio/vo.mp3` (already seated — **do not re-record**).
 
 ---
 

@@ -10,7 +10,7 @@ Series: **Impossible Journeys — episode 5**. Confirmed from prior PASTE_BRIEFs
 
 **Handoff:** the user pastes this file into Claude Code. Do **not** post a GitHub comment that summons Claude. Do **not** `@claude`. The user pastes this file into Claude Code themselves.
 
-**VO:** Atlas en-AU will already be at `shorts/s30-rabbit-proof-fence/audio/vo.mp3` before this paste (seated by Video Production; not in the scaffold commit). **Claude must not re-record it.** Do not overwrite `vo.mp3`. Do not record a new VO. Whisper-retune seams to that recording. Do not invent timings before VO lands.
+**VO:** Atlas en-AU is already at `shorts/s30-rabbit-proof-fence/audio/vo.mp3` (**94.392 s**). **Claude must not re-record it.** Do not overwrite `vo.mp3`. Do not record a new VO. Whisper-retune seams to that recording.
 
 ---
 
@@ -180,7 +180,7 @@ If you cannot load those polylines: **pull back over Western Australia and hold*
 
 ## Style locks (verbatim)
 
-- **Atlas VO:** fast intense → serious → storytelling → dark → tense → fast → awed → dark → twist slow → serious → warm serious → loop; start instantly; Australian English; never speak `()` cues; never speak the hook; **VO will be at `shorts/s30-rabbit-proof-fence/audio/vo.mp3` before paste; Claude must not re-record it**; do not overwrite; Whisper-retune seams to it
+- **Atlas VO:** fast intense → serious → storytelling → dark → tense → fast → awed → dark → twist slow → serious → warm serious → loop; start instantly; Australian English; never speak `()` cues; never speak the hook; **VO is already at `shorts/s30-rabbit-proof-fence/audio/vo.mp3`; Claude must not re-record it**; do not overwrite; Whisper-retune seams to it
 - **Captions** ~70% from the top; clear of graphics; no VO-echo big titles; labels for names/places/distances/dates only
 - **Sparse SFX** under the voice; not dense whooshes; VO-only stretches
 - **Music:** Skyline (Mixkit 601), already copied in; credit Eugenio Mininni / Mixkit; seat ~4 dB quieter than the s18 Silent Descent bed

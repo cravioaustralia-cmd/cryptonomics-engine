@@ -2,7 +2,7 @@
 
 **Slug:** `s30-rabbit-proof-fence`  
 **Series:** Impossible Journeys — **episode 5**. Confirmed from prior PASTE_BRIEFs: s26 Mary Bryant was **episode 1**; s27 Bert Hinkler was **episode 2**; s28 Robyn Davidson was **episode 4** (no episode-3 folder exists — do not invent one and do not renumber). **s29 Darwin Stuck is not this series** (lf01 teaser). This short is **s30**, and the spoken series label stays **episode five**.  
-**Duration:** **pending** Atlas en-AU VO (~269 spoken words; target ~100–125 s).  
+**Duration:** Atlas en-AU VO seated at `audio/vo.mp3` (**94.392 s**; ~269 spoken words).  
 **On-screen hook (frame 1 only; not spoken):** `1,600 km. NO MAP`  
 **Mode:** **MAP EXPLAINER** (kinetic cartography primary) — **NOT** a photo slideshow.  
 **Basemap lock:** GeoGlobeTales rich satellite, soft lighting, **NO blown white relief**. Ref: `/workspace/deliverables/style-refs/map-quality-geoglobetales-france-guiana.png`.  
