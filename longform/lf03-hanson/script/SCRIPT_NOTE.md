@@ -3,6 +3,7 @@
 Episode folder: `longform/lf03-hanson/`
 
 The full production script was supplied by Abhishek on 5 Oct 2026. It is not stored in this repository. The narration source of truth in the repo is `longform/lf03-hanson/audio/vo-text/` (S01.txt–S37.txt).
+Voice files S01–S37 are now in `audio/vo/`; they were recorded in Grok Atlas, Australian English, on 5 Oct 2026.
 
 ## Locked title
 
