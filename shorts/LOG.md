@@ -191,3 +191,16 @@ Unpacked 6 Grok VOs into shorts/incoming-vo/. #01 matches finished Skylab Short;
 ## 2026-09-30T20:55+10:00 — s24 Burke & Wills (Atlas VO held)
 - Held Atlas en-AU `audio/vo.mp3` (**39.168 s**) from `/home/box/Downloads/s24_burke_wills_atlas_fast.mp3` (also `/workspace/deliverables/s24-burke-wills/vo-raw/vo-atlas.mp3`)
 - Ready for Claude Whisper / seam retune; incomplete loop on `…story of how`
+
+## 2026-10-04T12:25+11:00 — s30 Rabbit-Proof Fence (scaffold)
+- Episode: `shorts/s30-rabbit-proof-fence/`
+- Branch: `scaffold/s30-rabbit-proof-fence` off `origin/main` (highest prior short folder: **s29**; this is **s30**)
+- **Mode: MAP EXPLAINER (locked)** — Impossible Journeys **episode 5** (Mary Bryant ep.1, Bert Hinkler ep.2, no ep.3 folder, Robyn Davidson ep.4; s29 is not this series)
+- Atlas VO **pending** — not recorded in this scaffold. Do not re-record when seated
+- Scaffold only: script, vo_script (269 spoken words), plan, PASTE_BRIEF, MAP_EXPLAINER_MODE, SOURCES, FACT_NOTES, Skyline bed (Eugenio Mininni / Mixkit id 601, copied from s28), Mixkit SFX, render README
+- **No `scenes.js`** — Claude owns design / animation / mix
+- Visual gags: none. Quiet map moments only. No free portrait of Molly, Daisy, or Gracie — map labels only
+- Place labels: Jigalong, Moore River (confirmed). Nearby town unnamed
+- Hook: `1,600 km. NO MAP`; incomplete loop `Because it all began with` → `Three girls.`
+- Master map: do not invent routes; if prior polylines cannot be loaded from other commits, pull back over Western Australia and hold
+- Dirty unrelated paths left unstaged: `shorts/incoming-vo/*`, `shorts/s19-emu-war/images/*`
