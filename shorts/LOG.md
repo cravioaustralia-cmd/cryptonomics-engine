@@ -191,3 +191,17 @@ Unpacked 6 Grok VOs into shorts/incoming-vo/. #01 matches finished Skylab Short;
 ## 2026-09-30T20:55+10:00 — s24 Burke & Wills (Atlas VO held)
 - Held Atlas en-AU `audio/vo.mp3` (**39.168 s**) from `/home/box/Downloads/s24_burke_wills_atlas_fast.mp3` (also `/workspace/deliverables/s24-burke-wills/vo-raw/vo-atlas.mp3`)
 - Ready for Claude Whisper / seam retune; incomplete loop on `…story of how`
+
+## 2026-10-04T22:40+11:00 — s31 Douglas Mawson (scaffold)
+- Episode: `shorts/s31-mawson/`
+- Branch: `scaffold/s31-mawson` off `origin/main` (highest prior short folder: **s30**; this is **s31**)
+- **Mode: MAP ANIMATION (locked)** — kinetic cartography is the picture, not a photo-underlay. Impossible Journeys **episode 6** (Mary Bryant ep.1, Bert Hinkler ep.2, no ep.3 folder, Robyn Davidson ep.4, Rabbit-Proof Fence ep.5; s29 is not this series)
+- Atlas VO **not in this commit** — seated at `audio/vo.mp3` before paste. Pull the branch. Do not re-record
+- Scaffold only: script, vo_script (204 spoken words), plan, PASTE_BRIEF, MAP_EXPLAINER_MODE, SOURCES, FACT_NOTES, three PD name-card portraits, Skyline bed (Eugenio Mininni / Mixkit id 601, copied from s30), Mixkit SFX, render README
+- **No `scenes.js`** — Claude owns design / animation / mix
+- One gag before the crevasse (flag pins, woolly hats). None after. Snow-camel hidden in the ice early. Suspense on the map: distance counter, sledge snaps in half, ship leaves as Mawson arrives
+- Place labels: Cape Denison, Commonwealth Bay (confirmed). Glacier names as spoken. Ship unnamed
+- Hook: `A FEW HOURS`; incomplete loop `Because once,` → `Three men set out`
+- Mix: two-pass loudnorm ~−14 LUFS; AAC true peak ≤ −1.5 dBTP (s30 AAC peaked at −1.32 — leave headroom)
+- Master map: do not invent routes; if prior polylines cannot be loaded, pull back over Antarctica and hold
+- Unrelated dirty files on the other checkout were not staged
