@@ -42,7 +42,11 @@ def bybit(path, **params):
 
 
 def main() -> int:
-    cfg = load_config(ROOT / "config.yaml", require_telegram=False)
+    import argparse
+    ap = argparse.ArgumentParser(description="Live endpoint verification (public GET requests only)")
+    ap.add_argument("--config", default=str(ROOT / "config.yaml"))
+    args = ap.parse_args()
+    cfg = load_config(args.config, require_telegram=False)
     now = int(time.time() * 1000)
     sym = "BTCUSDT"
     fi: dict = {}
@@ -185,33 +189,60 @@ def main() -> int:
     except Exception as e:
         check("Bybit announcements", False, str(e))
 
-    # ---- Binance announcements ---------------------------------------------
+    # ---- Binance announcements (JSON only; HTML pages are WAF-protected and never fetched) ----
     b = cfg.announcements.binance
-    for cid in b.catalog_ids:
-        try:
-            r = requests.get(b.base_url + b.list_path, params={"catalogId": cid, "pageNo": 1, "pageSize": 20},
-                             headers={"User-Agent": cfg.announcements.user_agent, "Accept": "application/json",
-                                      "clienttype": "web"}, timeout=20)
-            check(f"Binance catalog {cid}: HTTP 200 JSON", r.status_code == 200 and r.headers.get(
-                "content-type", "").startswith("application/json"), f"HTTP {r.status_code} {r.headers.get('content-type')}")
-            j = r.json()
-            arts = (j.get("data") or {}).get("articles")
-            check(f"Binance catalog {cid}: code 000000 + data.articles", j.get("code") == "000000" and isinstance(arts, list),
-                  f"code={j.get('code')} keys={sorted((j.get('data') or {}).keys())}")
-            if arts:
-                a0 = arts[0]
-                check(f"Binance catalog {cid}: article has id/code/title", all(k in a0 for k in ("id", "code", "title")),
-                      f"keys {sorted(a0)}")
-                check(f"Binance catalog {cid}: article has releaseDate (ms)", isinstance(a0.get("releaseDate"), int),
-                      f"releaseDate={a0.get('releaseDate')}", warn=True)
-                mt = [a["title"] for a in arts if "monitoring tag" in a["title"].lower()]
-                print(f"       monitoring-tag titles on page 1: {mt[:3] or 'none'}")
-        except Exception as e:
-            check(f"Binance catalog {cid}", False, str(e))
+    hdrs = {"User-Agent": cfg.announcements.user_agent, "Accept": "application/json", "clienttype": "web"}
+
+    def bget(**params):
+        r = requests.get(b.base_url + b.list_path, params={"type": 1, "pageNo": 1, "pageSize": b.page_size, **params},
+                         headers=hdrs, timeout=20)
+        ok_json = r.status_code == 200 and r.headers.get("content-type", "").startswith("application/json")
+        if not ok_json:
+            raise RuntimeError(f"HTTP {r.status_code} {r.headers.get('content-type')} "
+                               f"waf={'x-amzn-waf-action' in {k.lower() for k in r.headers}}")
+        return r.json()
+
+    def walk(cats, out):
+        for c in cats:
+            out.append(c)
+            walk(c.get("catalogs") or [], out)
+        return out
+
+    mon_kw = [k.lower() for k in b.title_keywords]
+    del_kw = [k.lower() for k in b.delisting_keywords]
+    try:
+        j = bget()
+        check("Binance list/query (all catalogs): code 000000 + data.catalogs",
+              j.get("code") == "000000" and isinstance((j.get("data") or {}).get("catalogs"), list),
+              f"code={j.get('code')} data keys={sorted((j.get('data') or {}).keys())}")
+        cats = walk(j["data"]["catalogs"], [])
+        print("       catalogs (id | name | articles | monitoring-tag titles | delisting titles):")
+        for c in cats:
+            arts = c.get("articles") or []
+            nm = sum(any(k in a["title"].lower() for k in mon_kw) for a in arts)
+            nd = sum(any(k in a["title"].lower() for k in del_kw) for a in arts)
+            print(f"         {c.get('catalogId'):>4} | {c.get('catalogName')} | {len(arts)} | {nm} | {nd}")
+        targets = [c["catalogId"] for c in cats
+                   if any(k.lower() in str(c.get("catalogName", "")).lower() for k in b.catalog_name_keywords)]
+        check(f"a catalog name contains {b.catalog_name_keywords}", bool(targets), f"selected {targets}")
+        for cid in targets or b.fallback_catalog_ids:
+            jj = bget(catalogId=cid)
+            arts = [a for c in walk(jj["data"]["catalogs"], []) for a in (c.get("articles") or [])]
+            check(f"Binance catalog {cid}: articles with id/code/title/releaseDate",
+                  bool(arts) and all(k in arts[0] for k in ("id", "code", "title", "releaseDate")),
+                  f"{len(arts)} articles, keys {sorted(arts[0]) if arts else []}")
+            mt = [a["title"] for a in arts if any(k in a["title"].lower() for k in mon_kw)]
+            dl = [a["title"] for a in arts if any(k in a["title"].lower() for k in del_kw)]
+            check(f"Binance catalog {cid}: contains Monitoring Tag or delisting titles", bool(mt or dl),
+                  f"{len(mt)} monitoring-tag, {len(dl)} delisting on page 1", warn=True)
+            for t in (mt[:3] + dl[:3]):
+                print(f"         - {t}")
+    except Exception as e:
+        check("Binance announcements JSON", False, str(e))
 
     # ---- Telegram (optional, read-only getMe) ------------------------------
     try:
-        c2 = load_config(ROOT / "config.yaml", require_telegram=True)
+        c2 = load_config(args.config, require_telegram=True)
         r = requests.get(f"https://api.telegram.org/bot{c2.telegram_bot_token}/getMe", timeout=20).json()
         check("Telegram bot token valid (getMe)", r.get("ok") is True, f"bot @{(r.get('result') or {}).get('username')}")
     except Exception as e:

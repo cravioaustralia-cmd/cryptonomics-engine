@@ -115,10 +115,12 @@ class BinanceAnn(_Strict):
     base_url: str
     list_path: str
     detail_path: str
-    catalog_ids: list[int] = Field(min_length=1)
+    catalog_name_keywords: list[str] = Field(min_length=1)
+    fallback_catalog_ids: list[int] = Field(min_length=1)
     page_size: int = Field(ge=1, le=50)
     title_keywords: list[str] = Field(min_length=1)
     removal_keywords: list[str] = Field(min_length=1)
+    delisting_keywords: list[str]
     token_prefixes: list[str]
 
 

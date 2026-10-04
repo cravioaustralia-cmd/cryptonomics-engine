@@ -104,16 +104,25 @@ announcements:
   binance:
     enabled: true
     base_url: https://www.binance.com
-    # Public JSON behind https://www.binance.com/en/support/announcement
-    list_path: /bapi/composite/v1/public/cms/article/catalog/list/query
+    # Public JSON behind https://www.binance.com/en/support/announcement (verified
+    # live on the Oracle server). The HTML announcement pages sit behind an AWS WAF
+    # challenge and are NEVER fetched or scraped.
+    list_path: /bapi/composite/v1/public/cms/article/list/query
+    # JSON article body, used only when a title names no token (best-effort).
     detail_path: /bapi/composite/v1/public/cms/article/detail/query
-    # 161 = "Delisting" catalog (Monitoring Tag notices are published here).
-    # 49  = "Latest Binance News". Both are scanned; only titles that mention
-    # the Monitoring Tag are used.
-    catalog_ids: [161, 49]
+    # Each run first lists ALL catalogs (no catalogId), then fetches the full first
+    # page of every catalog whose name contains one of these words. Binance files
+    # Monitoring Tag notices and delisting notices under "Delisting" (catalogId 161).
+    catalog_name_keywords: ["delist"]
+    # Used, with a Telegram warning, if no catalog name matches the keywords above.
+    fallback_catalog_ids: [161]
     page_size: 20
+    # Titles that are Monitoring Tag notices (any catalog is checked).
     title_keywords: ["monitoring tag"]
     removal_keywords: ["remove", "removal", "removing"]
+    # Titles that are Binance delisting notices (spot or futures). These tokens are
+    # tracked too, as tag type "Binance delisting notice". Set [] to ignore them.
+    delisting_keywords: ["will delist", "delisting of", "to delist"]
     # Binance sometimes writes scaled tokens with a prefix, e.g. 1MBABYDOGE.
     token_prefixes: ["1000000", "1000", "1M"]
   bybit:

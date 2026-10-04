@@ -75,7 +75,7 @@ and the Binance announcement JSON still has the expected shape.
 | Job | Default interval | What it does |
 |---|---|---|
 | universe | 60 min | All Bybit `linear` instruments (cursor pagination). Keeps USDT, `Trading`, `LinearPerpetual`. Stores funding interval and launch time. Marks symbols younger than 7 days "too new". Detects new and removed symbols, scheduled perpetual delistings and Bybit risk tags such as `ST`. |
-| announcements | 10 min | Binance Monitoring Tag additions and removals, plus Bybit delisting and risk notices. De-duplicated by ID and URL. |
+| announcements | 10 min | Binance Monitoring Tag additions and removals and Binance delisting notices, from the public JSON endpoint only, with the delisting catalog found by name. Also Bybit delisting and risk notices. De-duplicated by ID and URL. |
 | collect | 15 min | Market data for every liquid symbol and every tagged one, then scoring, stage updates and instant alerts. |
 | hourly_summary | 60 min | Top 10 scored pairs, one line each. |
 | outcomes | 30 min | Fills in what happened after each alert, using 5-minute candles. |
@@ -157,7 +157,7 @@ Each data source reports `ok`, `ok_empty` (a legitimate "no results"), `empty` (
 expected) or `error`. After 3 failures in a row (`health.failures_before_warning`) you get a Telegram
 warning that says it is a fetch failure, not "no results". It repeats every 6h while the problem lasts,
 and you get a recovery notice when the source works again. Binance 403, 429, captcha pages and changes
-to the JSON format are reported explicitly. One bad symbol is logged and skipped. A whole scan only
+to the JSON format, AWS WAF challenges included, are reported explicitly. One bad symbol is logged and skipped. A whole scan only
 counts as failed if more than 20% of symbols fail.
 
 ### Outcome tracking
@@ -288,10 +288,17 @@ with a live call from the build environment, which had no network access to the 
 - `instruments-info` gives `fundingInterval` in **minutes**, and `tickers` gives `fundingIntervalHour`.
 - `deliveryTime` on a perpetual is `"0"` unless a delisting is scheduled.
 - Instrument `tags` (e.g. `ST`) mark Bybit risk contracts. Which tags count is configurable.
-- Binance announcement JSON: `/bapi/composite/v1/public/cms/article/catalog/list/query` returns
-  `data.articles[]` with `id`, `code`, `title` and `releaseDate`. This endpoint is undocumented and can
-  change, and the scanner warns if it does. Catalog 161 ("Delisting") is assumed to carry the Monitoring
-  Tag notices, and catalog 49 is scanned too.
+- Binance announcements come only from the public JSON endpoint
+  `/bapi/composite/v1/public/cms/article/list/query?type=1`. You verified it live from Oracle Australia
+  East. The HTML announcement pages sit behind an AWS WAF challenge and are never fetched. Every run
+  lists all catalogs and picks the ones whose name contains "delist", which is "Delisting", catalogId 161,
+  at the time of writing. If no name matches, it falls back to 161 and sends a warning. Monitoring Tag
+  titles found in any other catalog are still used and logged. `verify_endpoints.py` prints every catalog
+  with its count of Monitoring Tag and delisting titles, so you can confirm the choice on your server.
+- Binance delisting notices, spot and futures, are tracked as tag type "Binance delisting notice".
+  Futures titles such as "USDⓈ-M ALPACAUSDT" are mapped by their base token.
+- The JSON article-detail endpoint is used only when a title names no token. It has not been verified
+  live, and if it fails you get the raw title instead.
 - Token extraction from announcement titles is heuristic. Tokens that cannot be matched confidently are
   sent to you as raw text, never guessed.
 - Delisting dates in Bybit announcement text are parsed best-effort. The structured `deliveryTime` from

@@ -1,10 +1,13 @@
 """Fetch and parse Binance + Bybit announcements.
 
 Binance: public JSON behind https://www.binance.com/en/support/announcement
-  GET /bapi/composite/v1/public/cms/article/catalog/list/query?catalogId=..&pageNo=..&pageSize=..
-  -> {"code": "000000", "success": true, "data": {"articles": [{"id", "code", "title", ...}], "total"}}
-  (Binance's official announcement API is a signed WebSocket stream that needs an
-  API key, which this project never uses.)
+  (verified live on the user's server). The HTML pages are behind an AWS WAF
+  challenge and are NEVER fetched.
+  GET /bapi/composite/v1/public/cms/article/list/query?type=1&pageNo=1&pageSize=20[&catalogId=N]
+  -> {"code": "000000", "success": true, "data": {"catalogs": [{"catalogId", "catalogName",
+      "articles": [{"id", "code", "title", "releaseDate"}]}]}}
+  Without catalogId it lists every catalog; the delisting catalog(s) are found
+  by name at runtime, so a renumbering on Binance's side does not break us.
 Bybit: official V5 endpoint GET /v5/announcements/index (no id field: the id is
   taken from the 'blt...' slug at the end of the article URL).
 """
@@ -127,34 +130,69 @@ def _ms(y, mo, d, h=0, mi=0) -> int | None:
 
 # ---------------------------------------------------------------- Binance --
 
+@dataclass
+class BinanceCatalog:
+    catalog_id: int
+    name: str
+    articles: list[Announcement] = field(default_factory=list)
+
+
 def _looks_blocked(text: str) -> bool:
     low = text[:3000].lower()
     return any(k in low for k in ("captcha", "challenge", "access denied", "cf-chl", "awswaf", "<html"))
 
 
-def parse_binance_list(payload, base_url: str) -> list[Announcement]:
+def _article(a: dict, base_url: str, catalog_name: str) -> Announcement:
+    if not isinstance(a, dict) or "title" not in a or ("id" not in a and "code" not in a):
+        raise FormatError(f"binance: article without id/code/title: {str(a)[:200]}")
+    code = str(a.get("code") or "")
+    aid = str(a.get("id") or code)
+    # Link for a human to open in a browser. The code never fetches HTML pages.
+    url = f"{base_url}/en/support/announcement/detail/{code}" if code else f"{base_url}/en/support/announcement"
+    pub = None
+    for k in ("releaseDate", "publishDate", "publishTime"):
+        if isinstance(a.get(k), (int, float)) and a[k] > 0:
+            pub = int(a[k])
+            break
+    return Announcement("binance", aid, url, str(a["title"]), pub, category=catalog_name, raw=a)
+
+
+def parse_binance_catalogs(payload, base_url: str) -> list[BinanceCatalog]:
+    """Parse GET /bapi/composite/v1/public/cms/article/list/query?type=1...
+
+    Shape: {"code": "000000", "success": true, "data": {"catalogs": [
+              {"catalogId": 161, "catalogName": "Delisting", "articles": [{"id", "code", "title", "releaseDate"}],
+               "catalogs": [ ...optional sub-catalogs... ]}]}}
+    """
     if not isinstance(payload, dict):
         raise FormatError("binance: response is not a JSON object")
-    if payload.get("success") is not True or str(payload.get("code")) != "000000":
+    if payload.get("success") is False or ("code" in payload and str(payload.get("code")) != "000000"):
         raise FormatError(f"binance: unexpected status code={payload.get('code')!r} "
                           f"success={payload.get('success')!r} message={payload.get('message')!r}")
     data = payload.get("data")
-    if not isinstance(data, dict) or not isinstance(data.get("articles"), list):
-        raise FormatError("binance: data.articles missing (response format changed?)")
-    out = []
-    for a in data["articles"]:
-        if not isinstance(a, dict) or "title" not in a or ("id" not in a and "code" not in a):
-            raise FormatError(f"binance: article without id/code/title: {str(a)[:200]}")
-        code = str(a.get("code") or "")
-        aid = str(a.get("id") or code)
-        url = f"{base_url}/en/support/announcement/detail/{code}" if code else f"{base_url}/en/support/announcement"
-        pub = None
-        for k in ("releaseDate", "publishDate", "publishTime"):
-            if isinstance(a.get(k), (int, float)) and a[k] > 0:
-                pub = int(a[k])
-                break
-        out.append(Announcement("binance", aid, url, str(a["title"]), pub, raw=a))
+    if not isinstance(data, dict) or not isinstance(data.get("catalogs"), list):
+        raise FormatError("binance: data.catalogs missing (response format changed?)")
+    out: list[BinanceCatalog] = []
+
+    def walk(cats):
+        for c in cats:
+            if not isinstance(c, dict) or "catalogId" not in c:
+                raise FormatError(f"binance: catalog without catalogId: {str(c)[:200]}")
+            name = str(c.get("catalogName") or "")
+            arts = c.get("articles") or []
+            if not isinstance(arts, list):
+                raise FormatError("binance: catalog articles is not a list")
+            out.append(BinanceCatalog(int(c["catalogId"]), name, [_article(a, base_url, name) for a in arts]))
+            if isinstance(c.get("catalogs"), list):
+                walk(c["catalogs"])
+    walk(data["catalogs"])
     return out
+
+
+def select_catalogs(catalogs: list[BinanceCatalog], name_keywords: list[str]) -> list[BinanceCatalog]:
+    """Catalogs whose name contains one of the keywords (e.g. 'delist')."""
+    kws = [k.lower() for k in name_keywords]
+    return [c for c in catalogs if any(k in c.name.lower() for k in kws)]
 
 
 class BinanceAnnouncements:
@@ -163,35 +201,46 @@ class BinanceAnnouncements:
         self.timeout = timeout
         self.session = session or requests.Session()
         self.headers = {"User-Agent": user_agent, "Accept": "application/json, text/plain, */*",
-                        "Accept-Language": "en-US,en;q=0.9", "clienttype": "web",
-                        "Referer": f"{cfg.base_url}/en/support/announcement"}
+                        "Accept-Language": "en-US,en;q=0.9", "clienttype": "web"}
 
-    def fetch_catalog(self, catalog_id: int, page: int = 1) -> list[Announcement]:
+    def _get_json(self, params: dict):
         url = self.cfg.base_url + self.cfg.list_path
         try:
-            r = get_with_retries(self.session, url, {"catalogId": catalog_id, "pageNo": page,
-                                                     "pageSize": self.cfg.page_size},
-                                 timeout=self.timeout, max_retries=2, backoff_base=2.0, backoff_max=20.0,
-                                 headers=self.headers)
+            r = get_with_retries(self.session, url, params, timeout=self.timeout, max_retries=2,
+                                 backoff_base=2.0, backoff_max=20.0, headers=self.headers)
         except BlockedError as e:
-            raise BlockedError(f"Binance blocked the request (HTTP 403{', captcha/WAF page' if e.body and _looks_blocked(e.body) else ''})",
-                               403, e.body) from None
+            waf = " (WAF/captcha page)" if e.body and _looks_blocked(e.body) else ""
+            raise BlockedError(f"Binance blocked the request: HTTP 403{waf}", 403, e.body) from None
         except FetchError as e:
             if e.status == 429:
                 raise BlockedError("Binance rate-limited the request (HTTP 429)", 429, e.body) from None
+            if e.status == 202 or (e.body and _looks_blocked(e.body)):
+                raise BlockedError(f"Binance returned an AWS WAF/captcha challenge (HTTP {e.status})",
+                                   e.status, e.body) from None
             raise
         if r.status_code == 202 or "x-amzn-waf-action" in {k.lower() for k in r.headers}:
-            raise BlockedError(f"Binance returned a WAF/captcha challenge (HTTP {r.status_code})", r.status_code)
+            raise BlockedError(f"Binance returned an AWS WAF challenge (HTTP {r.status_code})", r.status_code)
         try:
-            payload = r.json()
+            return r.json()
         except ValueError:
             if _looks_blocked(r.text):
-                raise BlockedError("Binance returned an HTML/captcha page instead of JSON", r.status_code, r.text[:300]) from None
+                raise BlockedError("Binance returned an HTML/captcha page instead of JSON", r.status_code,
+                                   r.text[:300]) from None
             raise FormatError(f"Binance response is not JSON: {r.text[:200]!r}") from None
-        return parse_binance_list(payload, self.cfg.base_url)
+
+    def fetch_overview(self) -> list[BinanceCatalog]:
+        """All catalogs with their latest articles (no catalogId)."""
+        return parse_binance_catalogs(self._get_json({"type": 1, "pageNo": 1, "pageSize": self.cfg.page_size}),
+                                      self.cfg.base_url)
+
+    def fetch_catalog(self, catalog_id: int) -> list[Announcement]:
+        cats = parse_binance_catalogs(self._get_json({"type": 1, "catalogId": catalog_id, "pageNo": 1,
+                                                      "pageSize": self.cfg.page_size}), self.cfg.base_url)
+        return [a for c in cats for a in c.articles]
 
     def fetch_detail_text(self, code: str) -> str:
-        """Best-effort article body (used only when the title names no token)."""
+        """Best-effort JSON article body (used only when the title names no token).
+        This JSON endpoint is not verified live; failures are logged and the raw title is alerted."""
         url = self.cfg.base_url + self.cfg.detail_path
         r = get_with_retries(self.session, url, {"articleCode": code}, timeout=self.timeout,
                              max_retries=1, backoff_base=2.0, backoff_max=10.0, headers=self.headers)
@@ -200,7 +249,6 @@ class BinanceAnnouncements:
         except ValueError:
             raise FormatError("Binance article detail is not JSON") from None
         body = data.get("body") or data.get("content") or ""
-        # Body is a JSON-encoded rich-text tree. Collect every text leaf.
         texts = re.findall(r'"text"\s*:\s*"((?:[^"\\]|\\.)*)"', body) if isinstance(body, str) else []
         return " ".join(texts) if texts else (body if isinstance(body, str) else "")
 

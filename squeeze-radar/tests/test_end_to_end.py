@@ -1,3 +1,4 @@
+import json
 """Full pipeline against the local fake exchange (real HTTP code, real SQLite, dry-run Telegram)."""
 import subprocess
 import sys
@@ -201,3 +202,52 @@ def test_urgent_delisting_of_watchlist_perp(app_factory):
         assert len(app.printed) == n
     finally:
         fake_exchange.WORLD.extra_bybit = []
+
+
+def test_binance_catalog_discovery_and_delisting_notice(app_factory):
+    make, _ = app_factory
+    w = fake_exchange.WORLD
+    w.binance_mode = "ok"
+    app = make()
+    app.run_once(["universe", "announcements"])
+    db = app.db
+    cats = json.loads(db.get_meta("binance_catalogs"))
+    assert {"id": 161, "name": "Delisting", "articles": 3} in cats
+    # Futures delisting notice "USDⓈ-M MOVRUSDT" is mapped to MOVRUSDT and stored with its tag type
+    row = db.one("SELECT * FROM announcements WHERE source='binance' AND ann_id='9002'")
+    assert "MOVRUSDT" in row["matched_json"]
+    # Listing announcements are ignored, only the HTML link is stored (never fetched)
+    assert db.one("SELECT action FROM announcements WHERE ann_id='8000'")["action"] == "ignored"
+    paths = {p for p, _ in w.requests}
+    assert "/bapi/composite/v1/public/cms/article/list/query" in paths
+    assert not any("/support/announcement" in p for p in paths)
+
+
+def test_binance_catalog_renumbered_is_found_by_name(app_factory):
+    make, _ = app_factory
+    w = fake_exchange.WORLD
+    w.binance_mode = "ok"
+    w.delist_catalog_id = 777
+    try:
+        app = make()
+        app.run_once(["universe", "announcements"])
+        assert app.db.one("SELECT 1 FROM watchlist WHERE symbol='MOVRUSDT'") is not None
+        h = app.db.one("SELECT last_status FROM source_health WHERE source='binance_catalog_discovery'")
+        assert h["last_status"] == "ok"
+        assert any(q.get("catalogId") == "777" for _, q in w.requests)
+    finally:
+        w.delist_catalog_id = 161
+
+
+def test_binance_waf_challenge_is_reported(app_factory):
+    make, _ = app_factory
+    app = make()
+    app.run_once(["universe"])
+    fake_exchange.WORLD.binance_mode = "waf"
+    try:
+        for _ in range(3):
+            app.run_once(["announcements"])
+        out = "\n".join(app.printed)
+        assert "Data source problem" in out and "WAF" in out
+    finally:
+        fake_exchange.WORLD.binance_mode = "ok"

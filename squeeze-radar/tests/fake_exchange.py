@@ -28,8 +28,9 @@ class World:
 
     def __init__(self):
         self.t0 = now_ms()
-        self.binance_mode = "ok"      # ok | blocked | changed
+        self.binance_mode = "ok"      # ok | blocked | waf | changed
         self.extra_bybit = []         # extra announcement rows to serve
+        self.delist_catalog_id = 161  # change to test catalog discovery by name
         self.requests = []
         self.instruments = [
             dict(symbol="BTCUSDT", base="BTC", launch=self.t0 - 2000 * DAY, price=60000.0),
@@ -163,22 +164,39 @@ class Handler(BaseHTTPRequestHandler):
                     "url": "https://announcements.bybit.com/en-US/article/delisting-of-xyzusdt-perpetual-contract-blt0001/",
                     "dateTimestamp": now_ms() - HOUR, "publishTime": now_ms() - HOUR}] + w.extra_bybit
             return self._send(200, ok({"total": 1, "list": lst}))
-        if u.path == "/bapi/composite/v1/public/cms/article/catalog/list/query":
+        if u.path == "/bapi/composite/v1/public/cms/article/list/query":
             if w.binance_mode == "blocked":
                 return self._send(403, b"<html>captcha challenge</html>", "text/html")
+            if w.binance_mode == "waf":
+                return self._send(202, b"<html><script>awsWafCookieDomainList</script></html>", "text/html")
             if w.binance_mode == "changed":
-                return self._send(200, {"code": "000000", "success": True, "data": {"catalogs": []}})
-            arts = []
-            if q.get("catalogId") == "161":
-                arts = [{"id": 9001, "code": "monitor9001",
-                         "title": "Binance Will Extend the Monitoring Tag to Include MOVR, PEPE and ZZZQ",
-                         "releaseDate": w.t0 - 2 * HOUR},
-                        {"id": 9000, "code": "old9000", "title": "Binance Will Extend the Monitoring Tag to Include OLD",
-                         "releaseDate": w.t0 - 90 * DAY}]
+                # old/different shape: articles at top level, no catalogs
+                return self._send(200, {"code": "000000", "success": True, "data": {"articles": []}})
+            delist_id = w.delist_catalog_id
+            delist = {"catalogId": delist_id, "parentCatalogId": None, "catalogName": "Delisting", "articles": [
+                {"id": 9001, "code": "monitor9001", "type": 1,
+                 "title": "Binance Will Extend the Monitoring Tag to Include MOVR, PEPE and ZZZQ",
+                 "releaseDate": w.t0 - 2 * HOUR},
+                {"id": 9002, "code": "delist9002", "type": 1,
+                 "title": "Binance Futures Will Delist USDⓈ-M MOVRUSDT Perpetual Contract",
+                 "releaseDate": w.t0 - 3 * HOUR},
+                {"id": 9000, "code": "old9000", "type": 1,
+                 "title": "Binance Will Extend the Monitoring Tag to Include OLD", "releaseDate": w.t0 - 90 * DAY}]}
+            listing = {"catalogId": 48, "parentCatalogId": None, "catalogName": "New Cryptocurrency Listing",
+                       "articles": [{"id": 8000, "code": "list8000", "type": 1,
+                                     "title": "Binance Will List Something (SMTH)", "releaseDate": w.t0}]}
+            news = {"catalogId": 49, "parentCatalogId": None, "catalogName": "Latest Binance News", "articles": []}
+            cid = q.get("catalogId")
+            if cid is None:
+                cats = [listing, news, delist]
+            elif cid == str(delist_id):
+                cats = [delist]
+            elif cid == "48":
+                cats = [listing]
             else:
-                arts = [{"id": 8000, "code": "news8000", "title": "Binance Launches Something", "releaseDate": w.t0}]
-            return self._send(200, {"code": "000000", "message": None, "success": True,
-                                    "data": {"total": len(arts), "articles": arts}})
+                cats = []
+            return self._send(200, {"code": "000000", "message": None, "messageDetail": None, "success": True,
+                                    "data": {"catalogs": cats}})
         self._send(404, {"error": "not found"})
 
 

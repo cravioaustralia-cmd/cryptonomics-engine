@@ -5,7 +5,7 @@ import logging
 
 from . import watchlist as wl
 from .alerts import record_alert
-from .announcements import (Announcement, BinanceAnnouncements, classify_bybit, extract_tokens,
+from .announcements import (Announcement, BinanceAnnouncements, classify_bybit, extract_tokens, select_catalogs,
                             extract_usdt_symbols, parse_bybit_announcements, parse_delisting_time,
                             split_monitoring_title)
 from .db import DB, dumps
@@ -60,20 +60,57 @@ class AnnouncementJob:
         return stats
 
     # ---------------------------------------------------------------- binance --
+    def _discover_catalogs(self) -> tuple[list[Announcement], list[int]]:
+        """List every catalog, pick the delisting one(s) by name. Returns
+        (articles from the overview, catalog ids to fetch in full)."""
+        b = self.cfg.announcements.binance
+        overview = self.binance.fetch_overview()
+        self.db.set_meta("binance_catalogs", dumps([{"id": c.catalog_id, "name": c.name,
+                                                     "articles": len(c.articles)} for c in overview]))
+        targets = [c.catalog_id for c in select_catalogs(overview, b.catalog_name_keywords)]
+        if targets:
+            self.health.report("binance_catalog_discovery", OK)
+        else:
+            names = ", ".join(f"{c.catalog_id}={c.name}" for c in overview) or "none"
+            self.health.report("binance_catalog_discovery", ERROR,
+                               f"no catalog name contains {b.catalog_name_keywords}; using fallback "
+                               f"{b.fallback_catalog_ids}. Catalogs seen: {names}")
+            targets = list(b.fallback_catalog_ids)
+        return [a for c in overview for a in c.articles], targets
+
     def _run_binance(self, mapper: SymbolMapper) -> dict:
         cfg = self.cfg.announcements
         bootstrap = self.db.get_meta("binance_bootstrapped") is None
         articles: list[Announcement] = []
-        errors = []
-        for cid in cfg.binance.catalog_ids:
+        errors: list[str] = []
+        targets: list[int] = []
+
+        def guard(label, fn):
             try:
-                articles.extend(self.binance.fetch_catalog(cid))
+                return fn()
             except BlockedError as e:
-                errors.append(f"catalog {cid}: BLOCKED: {e}")
+                errors.append(f"{label}: BLOCKED: {e}")
             except FormatError as e:
-                errors.append(f"catalog {cid}: FORMAT CHANGED: {e}")
+                errors.append(f"{label}: FORMAT CHANGED: {e}")
             except FetchError as e:
-                errors.append(f"catalog {cid}: {e}")
+                errors.append(f"{label}: {e}")
+            return None
+
+        r = guard("catalog list", self._discover_catalogs)
+        if r:
+            articles.extend(r[0])
+            targets = r[1]
+        else:
+            targets = list(cfg.binance.fallback_catalog_ids)
+        for cid in targets:
+            arts = guard(f"catalog {cid}", lambda cid=cid: self.binance.fetch_catalog(cid))
+            if arts:
+                articles.extend(arts)
+        uniq: dict[str, Announcement] = {}
+        for a in articles:
+            uniq.setdefault(a.ann_id, a)
+        articles = list(uniq.values())
+
         if errors:
             self.health.report("binance_announcements", ERROR, " | ".join(errors))
             if not articles:
@@ -98,15 +135,29 @@ class AnnouncementJob:
                 self.db.log_event("ERROR", "binance_announcements", f"processing failed: {a.title}")
         if bootstrap and not errors:
             self.db.set_meta("binance_bootstrapped", iso(t))
-        return {"status": "ok", "articles": len(articles), "new": new}
+        return {"status": "ok", "articles": len(articles), "new": new, "catalogs": targets}
+
+    def _classify_binance(self, title: str) -> str | None:
+        b = self.cfg.announcements.binance
+        low = title.lower()
+        if any(k.lower() in low for k in b.title_keywords):
+            return "monitoring"
+        if any(k.lower() in low for k in b.delisting_keywords):
+            return "delisting"
+        return None
 
     def _process_binance(self, a: Announcement, mapper: SymbolMapper, t: int, bootstrap: bool) -> None:
         cfg = self.cfg.announcements
         low = a.title.lower()
-        if not any(k.lower() in low for k in cfg.binance.title_keywords):
+        kind = self._classify_binance(a.title)
+        if kind is None:
             with self.db.tx():
                 self._store(a, "ignored", [], [], [], t)
             return
+        b_targets = {c.lower() for c in cfg.binance.catalog_name_keywords}
+        if not any(k in a.category.lower() for k in b_targets):
+            log.warning("Binance %s notice found in catalog %r (not a delisting catalog): %s",
+                        kind, a.category, a.title)
         pub = a.published_ms
         if pub is None:
             if bootstrap:
@@ -120,18 +171,25 @@ class AnnouncementJob:
                 self._store(a, "too-old", [], [], [], t)
             return
 
-        added, removed = split_monitoring_title(a.title, cfg.stopwords, cfg.binance.removal_keywords)
+        if kind == "monitoring":
+            added, removed = split_monitoring_title(a.title, cfg.stopwords, cfg.binance.removal_keywords)
+        else:
+            added, removed = extract_tokens(a.title, cfg.stopwords), []
         if not added and not removed:
             try:
                 body = self.binance.fetch_detail_text(a.raw.get("code", ""))
                 toks = extract_tokens(body, cfg.stopwords)
-                if any(k in low for k in cfg.binance.removal_keywords):
+                if kind == "monitoring" and any(k in low for k in cfg.binance.removal_keywords):
                     removed = toks
                 else:
                     added = toks
             except (FetchError, FormatError) as e:
                 log.warning("Binance detail fetch failed for %s: %s", a.url, e)
-        self._apply_tags(a, added, removed, mapper, t, pub, source="binance", tag_type="Binance Monitoring Tag")
+        # Futures notices name contracts ("ALPACAUSDT"): map them by their base token.
+        strip = lambda ts: list(dict.fromkeys(x[:-4] if x.endswith("USDT") and len(x) > 4 else x for x in ts))
+        added, removed = strip(added), strip(removed)
+        self._apply_tags(a, added, removed, mapper, t, pub, source="binance",
+                         tag_type="Binance Monitoring Tag" if kind == "monitoring" else "Binance delisting notice")
 
     def _apply_tags(self, a: Announcement, added, removed, mapper, t, pub, *, source, tag_type,
                     direct_symbols=()) -> None:

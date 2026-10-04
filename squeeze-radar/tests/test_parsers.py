@@ -4,7 +4,7 @@ import pytest
 
 from squeeze_radar import bybit as B
 from squeeze_radar.announcements import (bybit_ann_id, classify_bybit, extract_tokens, extract_usdt_symbols,
-                                         parse_binance_list, parse_bybit_announcements, parse_delisting_time,
+                                         parse_binance_catalogs, parse_bybit_announcements, select_catalogs, parse_delisting_time,
                                          split_monitoring_title)
 from squeeze_radar.http import FormatError
 
@@ -75,16 +75,32 @@ def test_tickers_parse():
 
 
 # ----------------------------------------------------------- announcements --
-def test_binance_list_parse_and_format_change():
-    payload = {"code": "000000", "success": True, "data": {"total": 2, "articles": [
+LIST_QUERY = {"code": "000000", "message": None, "messageDetail": None, "success": True, "data": {"catalogs": [
+    {"catalogId": 48, "parentCatalogId": None, "catalogName": "New Cryptocurrency Listing", "articles": [
+        {"id": 1, "code": "c1", "title": "Binance Will List X (X)", "type": 1, "releaseDate": 1759000000000}]},
+    {"catalogId": 161, "parentCatalogId": None, "catalogName": "Delisting", "articles": [
         {"id": 123, "code": "abc123", "title": "Binance Will Extend the Monitoring Tag to Include ALPACA, PDA and WING",
-         "releaseDate": 1759000000000}]}}
-    a = parse_binance_list(payload, "https://www.binance.com")[0]
+         "type": 1, "releaseDate": 1759000000000}],
+     "catalogs": [{"catalogId": 999, "catalogName": "Futures Delisting", "articles": []}]}]}}
+
+
+def test_binance_list_query_parse():
+    cats = parse_binance_catalogs(LIST_QUERY, "https://www.binance.com")
+    assert [(c.catalog_id, c.name) for c in cats] == [(48, "New Cryptocurrency Listing"), (161, "Delisting"),
+                                                     (999, "Futures Delisting")]
+    a = cats[1].articles[0]
     assert a.ann_id == "123" and a.url.endswith("/detail/abc123") and a.published_ms == 1759000000000
+    assert a.category == "Delisting"
+    assert [c.catalog_id for c in select_catalogs(cats, ["delist"])] == [161, 999]
+
+
+def test_binance_format_change_is_an_error():
+    with pytest.raises(FormatError):  # old shape without catalogs
+        parse_binance_catalogs({"code": "000000", "success": True, "data": {"articles": []}}, "x")
     with pytest.raises(FormatError):
-        parse_binance_list({"code": "000000", "success": True, "data": {"catalogs": []}}, "x")
+        parse_binance_catalogs({"code": "100001", "success": False, "message": "blocked"}, "x")
     with pytest.raises(FormatError):
-        parse_binance_list({"code": "100001", "success": False, "message": "blocked"}, "x")
+        parse_binance_catalogs({"code": "000000", "success": True, "data": {"catalogs": [{"catalogName": "x"}]}}, "x")
 
 
 def test_monitoring_title_add_remove_mixed():
