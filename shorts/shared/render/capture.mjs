@@ -8,9 +8,16 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { pathToFileURL } from 'node:url';
 
-export async function captureVideo({ episodeDir, outVideo, fps = 30, duration }) {
+// Optional overrides (defaults keep every Short vertical 1080x1920, unchanged):
+//   width/height  viewport (long-form 16:9 passes 1920x1080)
+//   frameHtml     episode's own page instead of the shared 1080x1920 frame.html
+//   startFrame/endFrame  render a slice (parallel workers); /ep/* serves <episode>/render/*
+export async function captureVideo({
+  episodeDir, outVideo, fps = 30, duration,
+  width = 1080, height = 1920, frameHtml: frameOverride, startFrame = 0, endFrame,
+}) {
   const renderDir = path.resolve(path.dirname(new URL(import.meta.url).pathname));
-  const frameHtml = path.join(renderDir, 'frame.html');
+  const frameHtml = frameOverride || path.join(renderDir, 'frame.html');
   const scenesUrl = pathToFileURL(path.join(episodeDir, 'render', 'scenes.js')).href;
   const transcriptUrl = pathToFileURL(path.join(episodeDir, 'transcript.json')).href;
 
@@ -32,6 +39,11 @@ export async function captureVideo({ episodeDir, outVideo, fps = 30, duration })
     if (!file && u.pathname.startsWith('/img/')) {
       file = path.join(imgRoot, decodeURIComponent(u.pathname.slice(5)));
     }
+    if (!file && u.pathname.startsWith('/ep/')) {
+      const base = path.join(episodeDir, 'render');
+      const f = path.normalize(path.join(base, decodeURIComponent(u.pathname.slice(4))));
+      if (f.startsWith(base + path.sep)) file = f;
+    }
     if (!file || !fs.existsSync(file)) {
       res.writeHead(404);
       res.end('missing');
@@ -46,6 +58,8 @@ export async function captureVideo({ episodeDir, outVideo, fps = 30, duration })
       '.jpeg': 'image/jpeg',
       '.png': 'image/png',
       '.webp': 'image/webp',
+      '.svg': 'image/svg+xml',
+      '.woff2': 'font/woff2',
     };
     res.writeHead(200, { 'Content-Type': types[ext] || 'application/octet-stream' });
     fs.createReadStream(file).pipe(res);
@@ -55,7 +69,7 @@ export async function captureVideo({ episodeDir, outVideo, fps = 30, duration })
   const { port } = server.address();
   const pageUrl = `http://127.0.0.1:${port}/frame.html?scenes=/scenes.js&transcript=/transcript.json`;
 
-  const totalFrames = Math.ceil(duration * fps);
+  const totalFrames = endFrame != null ? endFrame : Math.ceil(duration * fps);
   fs.mkdirSync(path.dirname(outVideo), { recursive: true });
 
   const ff = spawn(
@@ -87,17 +101,21 @@ export async function captureVideo({ episodeDir, outVideo, fps = 30, duration })
 
   const browser = await chromium.launch({
     headless: true,
+    executablePath: process.env.PLAYWRIGHT_CHROMIUM || undefined,
     args: ['--disable-dev-shm-usage', '--no-sandbox'],
   });
   const page = await browser.newPage({
-    viewport: { width: 1080, height: 1920 },
+    viewport: { width, height },
     deviceScaleFactor: 1,
   });
   await page.goto(pageUrl, { waitUntil: 'networkidle' });
   await page.waitForFunction(() => window.__ready && window.EPISODE);
+  await page.evaluate(async () => {
+    if (window.EPISODE_READY) await window.EPISODE_READY;
+  });
 
   const t0 = Date.now();
-  for (let i = 0; i < totalFrames; i++) {
+  for (let i = startFrame; i < totalFrames; i++) {
     const t = i / fps;
     await page.evaluate((time) => window.renderFrame(time), t);
     const buf = await page.screenshot({ type: 'jpeg', quality: 88, animations: 'disabled' });

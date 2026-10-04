@@ -1,0 +1,425 @@
+[
+ {
+  "kind": "pin",
+  "t": 10.34,
+  "label": "cove pin"
+ },
+ {
+  "kind": "tick",
+  "t": 10.94,
+  "label": "Counter: 8 months"
+ },
+ {
+  "kind": "tick",
+  "t": 12.44,
+  "label": "Counter: 8,700+ Australians killed"
+ },
+ {
+  "kind": "click",
+  "t": 12.74,
+  "label": "card IMG01"
+ },
+ {
+  "kind": "pin",
+  "t": 13.63,
+  "label": "zoom-through pin B02"
+ },
+ {
+  "kind": "draw",
+  "t": 21.768,
+  "label": "gold arrow through the strait",
+  "t1": 25.608
+ },
+ {
+  "kind": "click",
+  "t": 31.076,
+  "label": "Empire collapses?"
+ },
+ {
+  "kind": "click",
+  "t": 33.056,
+  "label": "Russia saved?"
+ },
+ {
+  "kind": "pin",
+  "t": 35.306,
+  "label": "zoom-through pin B03"
+ },
+ {
+  "kind": "click",
+  "t": 35.636,
+  "label": "War ends early?"
+ },
+ {
+  "kind": "draw",
+  "t": 59.216,
+  "label": "trench line North Sea to Switzerland",
+  "t1": 62.256
+ },
+ {
+  "kind": "pin",
+  "t": 61.566,
+  "label": "zoom-through pin B04"
+ },
+ {
+  "kind": "click",
+  "t": 66.788,
+  "label": "card IMG02"
+ },
+ {
+  "kind": "click",
+  "t": 71.848,
+  "label": "FRONT DOOR"
+ },
+ {
+  "kind": "draw",
+  "t": 72.588,
+  "label": "BACK DOOR arrow",
+  "t1": 74.78
+ },
+ {
+  "kind": "click",
+  "t": 80.34,
+  "label": "Türkiye"
+ },
+ {
+  "kind": "draw",
+  "t": 82.7,
+  "label": "arrow to Constantinople",
+  "t1": 85.62
+ },
+ {
+  "kind": "click",
+  "t": 85.32,
+  "label": "CONSTANTINOPLE"
+ },
+ {
+  "kind": "pin",
+  "t": 86.73,
+  "label": "zoom-through pin B05"
+ },
+ {
+  "kind": "draw",
+  "t": 98.4,
+  "label": "sea route to Russia",
+  "t1": 100.7
+ },
+ {
+  "kind": "pin",
+  "t": 109.242,
+  "label": "zoom-through pin B06"
+ },
+ {
+  "kind": "tick",
+  "t": 117.642,
+  "label": "Date: 18 MARCH 1915"
+ },
+ {
+  "kind": "pin",
+  "t": 118.83,
+  "label": "zoom-through pin B07"
+ },
+ {
+  "kind": "pin",
+  "t": 131.234,
+  "label": "zoom-through pin B08"
+ },
+ {
+  "kind": "pin",
+  "t": 143.754,
+  "label": "zoom-through pin B09"
+ },
+ {
+  "kind": "click",
+  "t": 152.154,
+  "label": "Almost out of shells?"
+ },
+ {
+  "kind": "click",
+  "t": 152.604,
+  "label": "card IMG02 back"
+ },
+ {
+  "kind": "click",
+  "t": 162.984,
+  "label": "Send the army"
+ },
+ {
+  "kind": "draw",
+  "t": 167.028,
+  "label": "landing arrow",
+  "t1": 171.088
+ },
+ {
+  "kind": "pin",
+  "t": 172.278,
+  "label": "zoom-through pin B10"
+ },
+ {
+  "kind": "tick",
+  "t": 172.348,
+  "label": "Counter: ~16,000"
+ },
+ {
+  "kind": "pin",
+  "t": 186.338,
+  "label": "pin Planned?"
+ },
+ {
+  "kind": "pin",
+  "t": 186.638,
+  "label": "pin Landed"
+ },
+ {
+  "kind": "draw",
+  "t": 189.052,
+  "label": "arrows up the ridges",
+  "t1": 191.552
+ },
+ {
+  "kind": "draw",
+  "t": 192.112,
+  "label": "gold line to the strait",
+  "t1": 193.692
+ },
+ {
+  "kind": "click",
+  "t": 200.032,
+  "label": "card IMG06"
+ },
+ {
+  "kind": "pin",
+  "t": 201.882,
+  "label": "zoom-through pin B12"
+ },
+ {
+  "kind": "click",
+  "t": 220.624,
+  "label": "card IMG07"
+ },
+ {
+  "kind": "draw",
+  "t": 220.764,
+  "label": "AE2 through the mine lines",
+  "t1": 224.934
+ },
+ {
+  "kind": "click",
+  "t": 223.064,
+  "label": "AE2 label"
+ },
+ {
+  "kind": "pin",
+  "t": 224.134,
+  "label": "zoom-through pin B12b"
+ },
+ {
+  "kind": "pin",
+  "t": 233.134,
+  "label": "beach pin"
+ },
+ {
+  "kind": "pin",
+  "t": 253.846,
+  "label": "zoom-through pin B13"
+ },
+ {
+  "kind": "tick",
+  "t": 263.436,
+  "label": "Counter: +35°"
+ },
+ {
+  "kind": "pin",
+  "t": 264.446,
+  "label": "zoom-through pin B14"
+ },
+ {
+  "kind": "tick",
+  "t": 265.136,
+  "label": "Counter flips: −10°"
+ },
+ {
+  "kind": "pin",
+  "t": 271.604,
+  "label": "pin Lone Pine"
+ },
+ {
+  "kind": "pin",
+  "t": 272.684,
+  "label": "pin The Nek"
+ },
+ {
+  "kind": "pin",
+  "t": 273.644,
+  "label": "pin Chunuk Bair"
+ },
+ {
+  "kind": "pin",
+  "t": 273.654,
+  "label": "zoom-through pin B15"
+ },
+ {
+  "kind": "pin",
+  "t": 287.114,
+  "label": "zoom-through pin B16"
+ },
+ {
+  "kind": "draw",
+  "t": 307.46,
+  "label": "evacuation arrows",
+  "t1": 308.86
+ },
+ {
+  "kind": "click",
+  "t": 307.76,
+  "label": "card IMG11"
+ },
+ {
+  "kind": "tick",
+  "t": 308.18,
+  "label": "Counter: casualties in the escape"
+ },
+ {
+  "kind": "pin",
+  "t": 309.242,
+  "label": "zoom-through pin B19"
+ },
+ {
+  "kind": "pin",
+  "t": 332.198,
+  "label": "zoom-through pin B20"
+ },
+ {
+  "kind": "click",
+  "t": 342.998,
+  "label": "Surrender?"
+ },
+ {
+  "kind": "click",
+  "t": 345.804,
+  "label": "Fight on from Asia?"
+ },
+ {
+  "kind": "click",
+  "t": 351.544,
+  "label": "card IMG21"
+ },
+ {
+  "kind": "click",
+  "t": 351.944,
+  "label": "Joined Germany's side"
+ },
+ {
+  "kind": "draw",
+  "t": 359.516,
+  "label": "gold route to Russia",
+  "t1": 361.396
+ },
+ {
+  "kind": "pin",
+  "t": 361.246,
+  "label": "zoom-through pin B22"
+ },
+ {
+  "kind": "click",
+  "t": 381.664,
+  "label": "argument line 1"
+ },
+ {
+  "kind": "click",
+  "t": 386.244,
+  "label": "argument line 2"
+ },
+ {
+  "kind": "pin",
+  "t": 386.254,
+  "label": "zoom-through pin B23"
+ },
+ {
+  "kind": "draw",
+  "t": 393.892,
+  "label": "post-war borders",
+  "t1": 396.292
+ },
+ {
+  "kind": "pin",
+  "t": 400.698,
+  "label": "zoom-through pin B25"
+ },
+ {
+  "kind": "tick",
+  "t": 411.724,
+  "label": "Counter: Nation since 1901"
+ },
+ {
+  "kind": "click",
+  "t": 414.604,
+  "label": "card IMG14"
+ },
+ {
+  "kind": "pin",
+  "t": 418.114,
+  "label": "zoom-through pin B26"
+ },
+ {
+  "kind": "tick",
+  "t": 436.812,
+  "label": "Calendar flips: 25 APRIL"
+ },
+ {
+  "kind": "pin",
+  "t": 444.85,
+  "label": "zoom-through pin B28"
+ },
+ {
+  "kind": "click",
+  "t": 456.628,
+  "label": "card IMG16"
+ },
+ {
+  "kind": "click",
+  "t": 460.348,
+  "label": "1923 label"
+ },
+ {
+  "kind": "pin",
+  "t": 463.578,
+  "label": "zoom-through pin B29"
+ },
+ {
+  "kind": "click",
+  "t": 478.848,
+  "label": "Anzac Koyu label"
+ },
+ {
+  "kind": "click",
+  "t": 481.308,
+  "label": "split card"
+ },
+ {
+  "kind": "pin",
+  "t": 485.678,
+  "label": "zoom-through pin B30"
+ },
+ {
+  "kind": "pin",
+  "t": 505.888,
+  "label": "pin Australia"
+ },
+ {
+  "kind": "pin",
+  "t": 506.288,
+  "label": "pin Türkiye"
+ },
+ {
+  "kind": "draw",
+  "t": 509.528,
+  "label": "gold line Australia–Türkiye",
+  "t1": 511.528
+ },
+ {
+  "kind": "pin",
+  "t": 521.878,
+  "label": "zoom-through pin B32"
+ }
+]

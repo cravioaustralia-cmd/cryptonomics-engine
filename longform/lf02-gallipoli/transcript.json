@@ -1,0 +1,7313 @@
+{
+ "duration": 557.444,
+ "words": [
+  {
+   "word": "In",
+   "start": 0.8,
+   "end": 1.04,
+   "chunk": "V01"
+  },
+  {
+   "word": "1915,",
+   "start": 1.04,
+   "end": 1.92,
+   "chunk": "V01"
+  },
+  {
+   "word": "Australia",
+   "start": 2.2,
+   "end": 2.8,
+   "chunk": "V01"
+  },
+  {
+   "word": "fought",
+   "start": 2.8,
+   "end": 3.1,
+   "chunk": "V01"
+  },
+  {
+   "word": "its",
+   "start": 3.1,
+   "end": 3.28,
+   "chunk": "V01"
+  },
+  {
+   "word": "first",
+   "start": 3.28,
+   "end": 3.58,
+   "chunk": "V01"
+  },
+  {
+   "word": "great",
+   "start": 3.58,
+   "end": 3.92,
+   "chunk": "V01"
+  },
+  {
+   "word": "battle",
+   "start": 3.92,
+   "end": 4.28,
+   "chunk": "V01"
+  },
+  {
+   "word": "as",
+   "start": 4.28,
+   "end": 4.5,
+   "chunk": "V01"
+  },
+  {
+   "word": "a",
+   "start": 4.5,
+   "end": 4.66,
+   "chunk": "V01"
+  },
+  {
+   "word": "nation",
+   "start": 4.66,
+   "end": 5.08,
+   "chunk": "V01"
+  },
+  {
+   "word": "and",
+   "start": 5.08,
+   "end": 6.76,
+   "chunk": "V01"
+  },
+  {
+   "word": "lost.",
+   "start": 6.76,
+   "end": 7.44,
+   "chunk": "V01"
+  },
+  {
+   "word": "Gallipoli.",
+   "start": 8.88,
+   "end": 9.8,
+   "chunk": "V02"
+  },
+  {
+   "word": "Eight",
+   "start": 10.94,
+   "end": 11.08,
+   "chunk": "V02"
+  },
+  {
+   "word": "months.",
+   "start": 11.08,
+   "end": 11.56,
+   "chunk": "V02"
+  },
+  {
+   "word": "More",
+   "start": 12.08,
+   "end": 12.18,
+   "chunk": "V02"
+  },
+  {
+   "word": "than",
+   "start": 12.18,
+   "end": 12.44,
+   "chunk": "V02"
+  },
+  {
+   "word": "8",
+   "start": 12.44,
+   "end": 12.76,
+   "chunk": "V02"
+  },
+  {
+   "word": ",700",
+   "start": 12.76,
+   "end": 13.78,
+   "chunk": "V02"
+  },
+  {
+   "word": "Australians",
+   "start": 13.78,
+   "end": 14.42,
+   "chunk": "V02"
+  },
+  {
+   "word": "dead.",
+   "start": 14.42,
+   "end": 14.86,
+   "chunk": "V02"
+  },
+  {
+   "word": "And",
+   "start": 15.74,
+   "end": 15.9,
+   "chunk": "V02"
+  },
+  {
+   "word": "yet,",
+   "start": 15.9,
+   "end": 16.14,
+   "chunk": "V02"
+  },
+  {
+   "word": "it",
+   "start": 16.5,
+   "end": 16.58,
+   "chunk": "V02"
+  },
+  {
+   "word": "became",
+   "start": 16.58,
+   "end": 16.9,
+   "chunk": "V02"
+  },
+  {
+   "word": "the",
+   "start": 16.9,
+   "end": 17.1,
+   "chunk": "V02"
+  },
+  {
+   "word": "most",
+   "start": 17.1,
+   "end": 17.32,
+   "chunk": "V02"
+  },
+  {
+   "word": "famous",
+   "start": 17.32,
+   "end": 17.76,
+   "chunk": "V02"
+  },
+  {
+   "word": "story",
+   "start": 17.76,
+   "end": 18.16,
+   "chunk": "V02"
+  },
+  {
+   "word": "Australia",
+   "start": 18.16,
+   "end": 18.78,
+   "chunk": "V02"
+  },
+  {
+   "word": "has.",
+   "start": 18.78,
+   "end": 19.2,
+   "chunk": "V02"
+  },
+  {
+   "word": "But",
+   "start": 19.888,
+   "end": 20.148,
+   "chunk": "V03"
+  },
+  {
+   "word": "what",
+   "start": 20.148,
+   "end": 20.348,
+   "chunk": "V03"
+  },
+  {
+   "word": "if",
+   "start": 20.348,
+   "end": 20.488,
+   "chunk": "V03"
+  },
+  {
+   "word": "they",
+   "start": 20.488,
+   "end": 20.628,
+   "chunk": "V03"
+  },
+  {
+   "word": "had",
+   "start": 20.628,
+   "end": 20.808,
+   "chunk": "V03"
+  },
+  {
+   "word": "won?",
+   "start": 20.808,
+   "end": 21.088,
+   "chunk": "V03"
+  },
+  {
+   "word": "What",
+   "start": 21.868,
+   "end": 21.968,
+   "chunk": "V03"
+  },
+  {
+   "word": "if",
+   "start": 21.968,
+   "end": 22.148,
+   "chunk": "V03"
+  },
+  {
+   "word": "the",
+   "start": 22.148,
+   "end": 22.368,
+   "chunk": "V03"
+  },
+  {
+   "word": "Anzacs",
+   "start": 22.368,
+   "end": 22.888,
+   "chunk": "V03"
+  },
+  {
+   "word": "had",
+   "start": 22.888,
+   "end": 23.088,
+   "chunk": "V03"
+  },
+  {
+   "word": "broken",
+   "start": 23.088,
+   "end": 23.428,
+   "chunk": "V03"
+  },
+  {
+   "word": "through",
+   "start": 23.428,
+   "end": 23.848,
+   "chunk": "V03"
+  },
+  {
+   "word": "and",
+   "start": 23.848,
+   "end": 24.328,
+   "chunk": "V03"
+  },
+  {
+   "word": "the",
+   "start": 24.328,
+   "end": 24.468,
+   "chunk": "V03"
+  },
+  {
+   "word": "plan",
+   "start": 24.468,
+   "end": 24.728,
+   "chunk": "V03"
+  },
+  {
+   "word": "had",
+   "start": 24.728,
+   "end": 24.908,
+   "chunk": "V03"
+  },
+  {
+   "word": "worked?",
+   "start": 24.908,
+   "end": 25.248,
+   "chunk": "V03"
+  },
+  {
+   "word": "Because",
+   "start": 25.856,
+   "end": 26.156,
+   "chunk": "V04"
+  },
+  {
+   "word": "the",
+   "start": 26.156,
+   "end": 26.376,
+   "chunk": "V04"
+  },
+  {
+   "word": "plan",
+   "start": 26.376,
+   "end": 26.656,
+   "chunk": "V04"
+  },
+  {
+   "word": "was",
+   "start": 26.656,
+   "end": 26.916,
+   "chunk": "V04"
+  },
+  {
+   "word": "huge.",
+   "start": 26.916,
+   "end": 27.396,
+   "chunk": "V04"
+  },
+  {
+   "word": "Win",
+   "start": 27.956,
+   "end": 28.056,
+   "chunk": "V04"
+  },
+  {
+   "word": "here",
+   "start": 28.056,
+   "end": 28.456,
+   "chunk": "V04"
+  },
+  {
+   "word": "and",
+   "start": 28.456,
+   "end": 28.756,
+   "chunk": "V04"
+  },
+  {
+   "word": "the",
+   "start": 28.756,
+   "end": 28.976,
+   "chunk": "V04"
+  },
+  {
+   "word": "allies",
+   "start": 28.976,
+   "end": 29.316,
+   "chunk": "V04"
+  },
+  {
+   "word": "could",
+   "start": 29.316,
+   "end": 29.596,
+   "chunk": "V04"
+  },
+  {
+   "word": "knock",
+   "start": 29.596,
+   "end": 29.836,
+   "chunk": "V04"
+  },
+  {
+   "word": "an",
+   "start": 29.836,
+   "end": 30.016,
+   "chunk": "V04"
+  },
+  {
+   "word": "entire",
+   "start": 30.016,
+   "end": 30.476,
+   "chunk": "V04"
+  },
+  {
+   "word": "empire",
+   "start": 30.476,
+   "end": 30.936,
+   "chunk": "V04"
+  },
+  {
+   "word": "out",
+   "start": 30.936,
+   "end": 31.256,
+   "chunk": "V04"
+  },
+  {
+   "word": "of",
+   "start": 31.256,
+   "end": 31.376,
+   "chunk": "V04"
+  },
+  {
+   "word": "the",
+   "start": 31.376,
+   "end": 31.496,
+   "chunk": "V04"
+  },
+  {
+   "word": "war,",
+   "start": 31.496,
+   "end": 31.816,
+   "chunk": "V04"
+  },
+  {
+   "word": "reach",
+   "start": 32.156,
+   "end": 32.356,
+   "chunk": "V04"
+  },
+  {
+   "word": "Russia,",
+   "start": 32.356,
+   "end": 32.836,
+   "chunk": "V04"
+  },
+  {
+   "word": "and",
+   "start": 33.116,
+   "end": 33.376,
+   "chunk": "V04"
+  },
+  {
+   "word": "maybe",
+   "start": 33.376,
+   "end": 33.676,
+   "chunk": "V04"
+  },
+  {
+   "word": "end",
+   "start": 33.676,
+   "end": 33.996,
+   "chunk": "V04"
+  },
+  {
+   "word": "the",
+   "start": 33.996,
+   "end": 34.176,
+   "chunk": "V04"
+  },
+  {
+   "word": "First",
+   "start": 34.176,
+   "end": 34.376,
+   "chunk": "V04"
+  },
+  {
+   "word": "World",
+   "start": 34.376,
+   "end": 34.676,
+   "chunk": "V04"
+  },
+  {
+   "word": "War",
+   "start": 34.676,
+   "end": 34.896,
+   "chunk": "V04"
+  },
+  {
+   "word": "years",
+   "start": 34.896,
+   "end": 35.236,
+   "chunk": "V04"
+  },
+  {
+   "word": "early.",
+   "start": 35.236,
+   "end": 35.676,
+   "chunk": "V04"
+  },
+  {
+   "word": "Today,",
+   "start": 36.536,
+   "end": 36.876,
+   "chunk": "V04"
+  },
+  {
+   "word": "we",
+   "start": 37.296,
+   "end": 37.416,
+   "chunk": "V04"
+  },
+  {
+   "word": "play",
+   "start": 37.416,
+   "end": 37.636,
+   "chunk": "V04"
+  },
+  {
+   "word": "it",
+   "start": 37.636,
+   "end": 37.776,
+   "chunk": "V04"
+  },
+  {
+   "word": "out",
+   "start": 37.776,
+   "end": 38.016,
+   "chunk": "V04"
+  },
+  {
+   "word": "using",
+   "start": 38.016,
+   "end": 38.396,
+   "chunk": "V04"
+  },
+  {
+   "word": "real",
+   "start": 38.396,
+   "end": 38.716,
+   "chunk": "V04"
+  },
+  {
+   "word": "plans,",
+   "start": 38.716,
+   "end": 39.216,
+   "chunk": "V04"
+  },
+  {
+   "word": "real",
+   "start": 39.576,
+   "end": 39.676,
+   "chunk": "V04"
+  },
+  {
+   "word": "maps,",
+   "start": 39.676,
+   "end": 40.096,
+   "chunk": "V04"
+  },
+  {
+   "word": "and",
+   "start": 40.436,
+   "end": 40.596,
+   "chunk": "V04"
+  },
+  {
+   "word": "what",
+   "start": 40.596,
+   "end": 40.736,
+   "chunk": "V04"
+  },
+  {
+   "word": "historians",
+   "start": 40.736,
+   "end": 41.256,
+   "chunk": "V04"
+  },
+  {
+   "word": "actually",
+   "start": 41.256,
+   "end": 41.856,
+   "chunk": "V04"
+  },
+  {
+   "word": "think,",
+   "start": 41.856,
+   "end": 42.236,
+   "chunk": "V04"
+  },
+  {
+   "word": "and",
+   "start": 42.776,
+   "end": 42.996,
+   "chunk": "V04"
+  },
+  {
+   "word": "stay",
+   "start": 42.996,
+   "end": 43.276,
+   "chunk": "V04"
+  },
+  {
+   "word": "for",
+   "start": 43.276,
+   "end": 43.476,
+   "chunk": "V04"
+  },
+  {
+   "word": "the",
+   "start": 43.476,
+   "end": 43.656,
+   "chunk": "V04"
+  },
+  {
+   "word": "twist",
+   "start": 43.656,
+   "end": 43.856,
+   "chunk": "V04"
+  },
+  {
+   "word": "at",
+   "start": 43.856,
+   "end": 44.056,
+   "chunk": "V04"
+  },
+  {
+   "word": "the",
+   "start": 44.056,
+   "end": 44.196,
+   "chunk": "V04"
+  },
+  {
+   "word": "end",
+   "start": 44.196,
+   "end": 44.536,
+   "chunk": "V04"
+  },
+  {
+   "word": "because",
+   "start": 44.536,
+   "end": 45.176,
+   "chunk": "V04"
+  },
+  {
+   "word": "winning",
+   "start": 45.176,
+   "end": 45.516,
+   "chunk": "V04"
+  },
+  {
+   "word": "might",
+   "start": 45.516,
+   "end": 45.836,
+   "chunk": "V04"
+  },
+  {
+   "word": "have",
+   "start": 45.836,
+   "end": 45.996,
+   "chunk": "V04"
+  },
+  {
+   "word": "cost",
+   "start": 45.996,
+   "end": 46.276,
+   "chunk": "V04"
+  },
+  {
+   "word": "Australia",
+   "start": 46.276,
+   "end": 46.816,
+   "chunk": "V04"
+  },
+  {
+   "word": "something",
+   "start": 46.816,
+   "end": 47.236,
+   "chunk": "V04"
+  },
+  {
+   "word": "you",
+   "start": 47.236,
+   "end": 47.476,
+   "chunk": "V04"
+  },
+  {
+   "word": "can't",
+   "start": 47.476,
+   "end": 47.836,
+   "chunk": "V04"
+  },
+  {
+   "word": "imagine",
+   "start": 47.836,
+   "end": 48.156,
+   "chunk": "V04"
+  },
+  {
+   "word": "living",
+   "start": 48.156,
+   "end": 48.456,
+   "chunk": "V04"
+  },
+  {
+   "word": "without.",
+   "start": 48.456,
+   "end": 48.836,
+   "chunk": "V04"
+  },
+  {
+   "word": "First,",
+   "start": 51.516,
+   "end": 51.996,
+   "chunk": "V05"
+  },
+  {
+   "word": "the",
+   "start": 52.356,
+   "end": 52.416,
+   "chunk": "V05"
+  },
+  {
+   "word": "map.",
+   "start": 52.416,
+   "end": 52.776,
+   "chunk": "V05"
+  },
+  {
+   "word": "It's",
+   "start": 53.976,
+   "end": 54.176,
+   "chunk": "V05"
+  },
+  {
+   "word": "1915,",
+   "start": 54.176,
+   "end": 54.736,
+   "chunk": "V05"
+  },
+  {
+   "word": "and",
+   "start": 55.356,
+   "end": 55.436,
+   "chunk": "V05"
+  },
+  {
+   "word": "the",
+   "start": 55.436,
+   "end": 55.576,
+   "chunk": "V05"
+  },
+  {
+   "word": "First",
+   "start": 55.576,
+   "end": 55.816,
+   "chunk": "V05"
+  },
+  {
+   "word": "World",
+   "start": 55.816,
+   "end": 56.116,
+   "chunk": "V05"
+  },
+  {
+   "word": "War",
+   "start": 56.116,
+   "end": 56.356,
+   "chunk": "V05"
+  },
+  {
+   "word": "is",
+   "start": 56.356,
+   "end": 56.556,
+   "chunk": "V05"
+  },
+  {
+   "word": "a",
+   "start": 56.556,
+   "end": 56.736,
+   "chunk": "V05"
+  },
+  {
+   "word": "nightmare.",
+   "start": 56.736,
+   "end": 57.116,
+   "chunk": "V05"
+  },
+  {
+   "word": "In",
+   "start": 57.676,
+   "end": 57.796,
+   "chunk": "V05"
+  },
+  {
+   "word": "France,",
+   "start": 57.796,
+   "end": 58.196,
+   "chunk": "V05"
+  },
+  {
+   "word": "the",
+   "start": 58.436,
+   "end": 58.556,
+   "chunk": "V05"
+  },
+  {
+   "word": "armies",
+   "start": 58.556,
+   "end": 58.816,
+   "chunk": "V05"
+  },
+  {
+   "word": "are",
+   "start": 58.816,
+   "end": 58.996,
+   "chunk": "V05"
+  },
+  {
+   "word": "stuck",
+   "start": 58.996,
+   "end": 59.296,
+   "chunk": "V05"
+  },
+  {
+   "word": "in",
+   "start": 59.296,
+   "end": 59.496,
+   "chunk": "V05"
+  },
+  {
+   "word": "trenches",
+   "start": 59.496,
+   "end": 59.856,
+   "chunk": "V05"
+  },
+  {
+   "word": "that",
+   "start": 59.856,
+   "end": 60.116,
+   "chunk": "V05"
+  },
+  {
+   "word": "stretch",
+   "start": 60.116,
+   "end": 60.476,
+   "chunk": "V05"
+  },
+  {
+   "word": "from",
+   "start": 60.476,
+   "end": 60.716,
+   "chunk": "V05"
+  },
+  {
+   "word": "the",
+   "start": 60.716,
+   "end": 60.876,
+   "chunk": "V05"
+  },
+  {
+   "word": "sea",
+   "start": 60.876,
+   "end": 61.176,
+   "chunk": "V05"
+  },
+  {
+   "word": "all",
+   "start": 61.176,
+   "end": 61.516,
+   "chunk": "V05"
+  },
+  {
+   "word": "the",
+   "start": 61.516,
+   "end": 61.676,
+   "chunk": "V05"
+  },
+  {
+   "word": "way",
+   "start": 61.676,
+   "end": 61.796,
+   "chunk": "V05"
+  },
+  {
+   "word": "to",
+   "start": 61.796,
+   "end": 61.956,
+   "chunk": "V05"
+  },
+  {
+   "word": "Switzerland.",
+   "start": 61.956,
+   "end": 62.356,
+   "chunk": "V05"
+  },
+  {
+   "word": "Britain's",
+   "start": 63.148,
+   "end": 63.928,
+   "chunk": "V06"
+  },
+  {
+   "word": "first",
+   "start": 63.928,
+   "end": 64.188,
+   "chunk": "V06"
+  },
+  {
+   "word": "Lord",
+   "start": 64.188,
+   "end": 64.528,
+   "chunk": "V06"
+  },
+  {
+   "word": "of",
+   "start": 64.528,
+   "end": 64.688,
+   "chunk": "V06"
+  },
+  {
+   "word": "the",
+   "start": 64.688,
+   "end": 64.908,
+   "chunk": "V06"
+  },
+  {
+   "word": "Admiralty,",
+   "start": 64.908,
+   "end": 65.528,
+   "chunk": "V06"
+  },
+  {
+   "word": "a",
+   "start": 65.868,
+   "end": 65.948,
+   "chunk": "V06"
+  },
+  {
+   "word": "young",
+   "start": 65.948,
+   "end": 66.248,
+   "chunk": "V06"
+  },
+  {
+   "word": "Winston",
+   "start": 66.248,
+   "end": 66.788,
+   "chunk": "V06"
+  },
+  {
+   "word": "Churchill,",
+   "start": 66.788,
+   "end": 67.408,
+   "chunk": "V06"
+  },
+  {
+   "word": "backs",
+   "start": 67.888,
+   "end": 68.188,
+   "chunk": "V06"
+  },
+  {
+   "word": "a",
+   "start": 68.188,
+   "end": 68.528,
+   "chunk": "V06"
+  },
+  {
+   "word": "bold",
+   "start": 68.528,
+   "end": 68.728,
+   "chunk": "V06"
+  },
+  {
+   "word": "idea.",
+   "start": 68.728,
+   "end": 69.268,
+   "chunk": "V06"
+  },
+  {
+   "word": "Stop",
+   "start": 70.468,
+   "end": 70.988,
+   "chunk": "V06"
+  },
+  {
+   "word": "banging",
+   "start": 70.988,
+   "end": 71.408,
+   "chunk": "V06"
+  },
+  {
+   "word": "on",
+   "start": 71.408,
+   "end": 71.688,
+   "chunk": "V06"
+  },
+  {
+   "word": "the",
+   "start": 71.688,
+   "end": 71.848,
+   "chunk": "V06"
+  },
+  {
+   "word": "front",
+   "start": 71.848,
+   "end": 72.068,
+   "chunk": "V06"
+  },
+  {
+   "word": "door,",
+   "start": 72.068,
+   "end": 72.448,
+   "chunk": "V06"
+  },
+  {
+   "word": "go",
+   "start": 72.688,
+   "end": 72.768,
+   "chunk": "V06"
+  },
+  {
+   "word": "around",
+   "start": 72.768,
+   "end": 73.108,
+   "chunk": "V06"
+  },
+  {
+   "word": "the",
+   "start": 73.108,
+   "end": 73.248,
+   "chunk": "V06"
+  },
+  {
+   "word": "back.",
+   "start": 73.248,
+   "end": 73.588,
+   "chunk": "V06"
+  },
+  {
+   "word": "The",
+   "start": 74.18,
+   "end": 74.4,
+   "chunk": "V07"
+  },
+  {
+   "word": "back",
+   "start": 74.4,
+   "end": 74.74,
+   "chunk": "V07"
+  },
+  {
+   "word": "door",
+   "start": 74.74,
+   "end": 74.96,
+   "chunk": "V07"
+  },
+  {
+   "word": "is",
+   "start": 74.96,
+   "end": 75.16,
+   "chunk": "V07"
+  },
+  {
+   "word": "here,",
+   "start": 75.16,
+   "end": 75.6,
+   "chunk": "V07"
+  },
+  {
+   "word": "the",
+   "start": 76.06,
+   "end": 76.16,
+   "chunk": "V07"
+  },
+  {
+   "word": "Dardanelles,",
+   "start": 76.16,
+   "end": 76.98,
+   "chunk": "V07"
+  },
+  {
+   "word": "a",
+   "start": 77.34,
+   "end": 77.52,
+   "chunk": "V07"
+  },
+  {
+   "word": "narrow",
+   "start": 77.52,
+   "end": 77.82,
+   "chunk": "V07"
+  },
+  {
+   "word": "strait",
+   "start": 77.82,
+   "end": 78.24,
+   "chunk": "V07"
+  },
+  {
+   "word": "in",
+   "start": 78.24,
+   "end": 78.4,
+   "chunk": "V07"
+  },
+  {
+   "word": "the",
+   "start": 78.4,
+   "end": 78.58,
+   "chunk": "V07"
+  },
+  {
+   "word": "Ottoman",
+   "start": 78.58,
+   "end": 78.82,
+   "chunk": "V07"
+  },
+  {
+   "word": "Empire,",
+   "start": 78.82,
+   "end": 79.34,
+   "chunk": "V07"
+  },
+  {
+   "word": "today's",
+   "start": 79.88,
+   "end": 80.34,
+   "chunk": "V07"
+  },
+  {
+   "word": "Turkey.",
+   "start": 80.34,
+   "end": 80.64,
+   "chunk": "V07"
+  },
+  {
+   "word": "Push",
+   "start": 82.7,
+   "end": 83.44,
+   "chunk": "V07"
+  },
+  {
+   "word": "warships",
+   "start": 83.44,
+   "end": 83.88,
+   "chunk": "V07"
+  },
+  {
+   "word": "through",
+   "start": 83.88,
+   "end": 84.28,
+   "chunk": "V07"
+  },
+  {
+   "word": "it",
+   "start": 84.28,
+   "end": 84.56,
+   "chunk": "V07"
+  },
+  {
+   "word": "and",
+   "start": 84.56,
+   "end": 84.92,
+   "chunk": "V07"
+  },
+  {
+   "word": "you",
+   "start": 84.92,
+   "end": 85.06,
+   "chunk": "V07"
+  },
+  {
+   "word": "reach",
+   "start": 85.06,
+   "end": 85.32,
+   "chunk": "V07"
+  },
+  {
+   "word": "Constantinople,",
+   "start": 85.32,
+   "end": 86.08,
+   "chunk": "V07"
+  },
+  {
+   "word": "today's",
+   "start": 86.82,
+   "end": 87.22,
+   "chunk": "V07"
+  },
+  {
+   "word": "Istanbul,",
+   "start": 87.22,
+   "end": 87.7,
+   "chunk": "V07"
+  },
+  {
+   "word": "the",
+   "start": 88.22,
+   "end": 88.3,
+   "chunk": "V07"
+  },
+  {
+   "word": "Ottoman",
+   "start": 88.3,
+   "end": 88.7,
+   "chunk": "V07"
+  },
+  {
+   "word": "capital.",
+   "start": 88.7,
+   "end": 89.08,
+   "chunk": "V07"
+  },
+  {
+   "word": "Take",
+   "start": 89.7,
+   "end": 90.0,
+   "chunk": "V08"
+  },
+  {
+   "word": "that,",
+   "start": 90.0,
+   "end": 90.42,
+   "chunk": "V08"
+  },
+  {
+   "word": "and",
+   "start": 90.68,
+   "end": 90.76,
+   "chunk": "V08"
+  },
+  {
+   "word": "three",
+   "start": 90.76,
+   "end": 91.06,
+   "chunk": "V08"
+  },
+  {
+   "word": "things",
+   "start": 91.06,
+   "end": 91.4,
+   "chunk": "V08"
+  },
+  {
+   "word": "happen",
+   "start": 91.4,
+   "end": 91.74,
+   "chunk": "V08"
+  },
+  {
+   "word": "at",
+   "start": 91.74,
+   "end": 91.88,
+   "chunk": "V08"
+  },
+  {
+   "word": "once.",
+   "start": 91.88,
+   "end": 92.36,
+   "chunk": "V08"
+  },
+  {
+   "word": "The",
+   "start": 93.42,
+   "end": 93.5,
+   "chunk": "V08"
+  },
+  {
+   "word": "Ottoman",
+   "start": 93.5,
+   "end": 93.94,
+   "chunk": "V08"
+  },
+  {
+   "word": "Empire,",
+   "start": 93.94,
+   "end": 94.54,
+   "chunk": "V08"
+  },
+  {
+   "word": "Germany's",
+   "start": 94.84,
+   "end": 95.44,
+   "chunk": "V08"
+  },
+  {
+   "word": "ally,",
+   "start": 95.44,
+   "end": 95.84,
+   "chunk": "V08"
+  },
+  {
+   "word": "could",
+   "start": 96.24,
+   "end": 96.38,
+   "chunk": "V08"
+  },
+  {
+   "word": "collapse.",
+   "start": 96.38,
+   "end": 97.04,
+   "chunk": "V08"
+  },
+  {
+   "word": "The",
+   "start": 98.3,
+   "end": 98.4,
+   "chunk": "V08"
+  },
+  {
+   "word": "sea",
+   "start": 98.4,
+   "end": 98.9,
+   "chunk": "V08"
+  },
+  {
+   "word": "route",
+   "start": 98.9,
+   "end": 99.3,
+   "chunk": "V08"
+  },
+  {
+   "word": "to",
+   "start": 99.3,
+   "end": 99.72,
+   "chunk": "V08"
+  },
+  {
+   "word": "Russia",
+   "start": 99.72,
+   "end": 100.2,
+   "chunk": "V08"
+  },
+  {
+   "word": "opens,",
+   "start": 100.2,
+   "end": 100.88,
+   "chunk": "V08"
+  },
+  {
+   "word": "so",
+   "start": 101.5,
+   "end": 101.54,
+   "chunk": "V08"
+  },
+  {
+   "word": "Britain",
+   "start": 101.54,
+   "end": 101.98,
+   "chunk": "V08"
+  },
+  {
+   "word": "and",
+   "start": 101.98,
+   "end": 102.3,
+   "chunk": "V08"
+  },
+  {
+   "word": "France",
+   "start": 102.3,
+   "end": 102.66,
+   "chunk": "V08"
+  },
+  {
+   "word": "can",
+   "start": 102.66,
+   "end": 102.96,
+   "chunk": "V08"
+  },
+  {
+   "word": "ship",
+   "start": 102.96,
+   "end": 103.26,
+   "chunk": "V08"
+  },
+  {
+   "word": "weapons",
+   "start": 103.26,
+   "end": 103.68,
+   "chunk": "V08"
+  },
+  {
+   "word": "to",
+   "start": 103.68,
+   "end": 103.98,
+   "chunk": "V08"
+  },
+  {
+   "word": "their",
+   "start": 103.98,
+   "end": 104.16,
+   "chunk": "V08"
+  },
+  {
+   "word": "struggling",
+   "start": 104.16,
+   "end": 104.68,
+   "chunk": "V08"
+  },
+  {
+   "word": "ally,",
+   "start": 104.68,
+   "end": 105.24,
+   "chunk": "V08"
+  },
+  {
+   "word": "and",
+   "start": 105.98,
+   "end": 106.12,
+   "chunk": "V08"
+  },
+  {
+   "word": "Russia's",
+   "start": 106.12,
+   "end": 106.78,
+   "chunk": "V08"
+  },
+  {
+   "word": "wheat",
+   "start": 106.78,
+   "end": 107.02,
+   "chunk": "V08"
+  },
+  {
+   "word": "can",
+   "start": 107.02,
+   "end": 107.32,
+   "chunk": "V08"
+  },
+  {
+   "word": "flow",
+   "start": 107.32,
+   "end": 107.7,
+   "chunk": "V08"
+  },
+  {
+   "word": "out",
+   "start": 107.7,
+   "end": 108.04,
+   "chunk": "V08"
+  },
+  {
+   "word": "to",
+   "start": 108.04,
+   "end": 108.28,
+   "chunk": "V08"
+  },
+  {
+   "word": "the",
+   "start": 108.28,
+   "end": 108.46,
+   "chunk": "V08"
+  },
+  {
+   "word": "world.",
+   "start": 108.46,
+   "end": 108.84,
+   "chunk": "V08"
+  },
+  {
+   "word": "On",
+   "start": 109.492,
+   "end": 109.752,
+   "chunk": "V09"
+  },
+  {
+   "word": "paper,",
+   "start": 109.752,
+   "end": 110.152,
+   "chunk": "V09"
+  },
+  {
+   "word": "it's",
+   "start": 110.392,
+   "end": 110.672,
+   "chunk": "V09"
+  },
+  {
+   "word": "brilliant.",
+   "start": 110.672,
+   "end": 111.012,
+   "chunk": "V09"
+  },
+  {
+   "word": "On",
+   "start": 111.732,
+   "end": 111.812,
+   "chunk": "V09"
+  },
+  {
+   "word": "the",
+   "start": 111.812,
+   "end": 111.972,
+   "chunk": "V09"
+  },
+  {
+   "word": "18th",
+   "start": 111.972,
+   "end": 112.552,
+   "chunk": "V09"
+  },
+  {
+   "word": "of",
+   "start": 112.552,
+   "end": 112.552,
+   "chunk": "V09"
+  },
+  {
+   "word": "March,",
+   "start": 112.552,
+   "end": 112.952,
+   "chunk": "V09"
+  },
+  {
+   "word": "1915,",
+   "start": 113.232,
+   "end": 113.932,
+   "chunk": "V09"
+  },
+  {
+   "word": "a",
+   "start": 114.352,
+   "end": 114.512,
+   "chunk": "V09"
+  },
+  {
+   "word": "huge",
+   "start": 114.512,
+   "end": 114.792,
+   "chunk": "V09"
+  },
+  {
+   "word": "Allied",
+   "start": 114.792,
+   "end": 115.272,
+   "chunk": "V09"
+  },
+  {
+   "word": "fleet",
+   "start": 115.272,
+   "end": 115.592,
+   "chunk": "V09"
+  },
+  {
+   "word": "sails",
+   "start": 115.592,
+   "end": 116.032,
+   "chunk": "V09"
+  },
+  {
+   "word": "into",
+   "start": 116.032,
+   "end": 116.312,
+   "chunk": "V09"
+  },
+  {
+   "word": "the",
+   "start": 116.312,
+   "end": 116.492,
+   "chunk": "V09"
+  },
+  {
+   "word": "strait.",
+   "start": 116.492,
+   "end": 116.772,
+   "chunk": "V09"
+  },
+  {
+   "word": "But",
+   "start": 117.38,
+   "end": 117.66,
+   "chunk": "V10"
+  },
+  {
+   "word": "10",
+   "start": 117.66,
+   "end": 118.0,
+   "chunk": "V10"
+  },
+  {
+   "word": "days",
+   "start": 118.0,
+   "end": 118.3,
+   "chunk": "V10"
+  },
+  {
+   "word": "earlier,",
+   "start": 118.3,
+   "end": 118.84,
+   "chunk": "V10"
+  },
+  {
+   "word": "at",
+   "start": 119.12,
+   "end": 119.2,
+   "chunk": "V10"
+  },
+  {
+   "word": "night,",
+   "start": 119.2,
+   "end": 119.6,
+   "chunk": "V10"
+  },
+  {
+   "word": "a",
+   "start": 120.06,
+   "end": 120.16,
+   "chunk": "V10"
+  },
+  {
+   "word": "small",
+   "start": 120.16,
+   "end": 120.52,
+   "chunk": "V10"
+  },
+  {
+   "word": "Ottoman",
+   "start": 120.52,
+   "end": 120.96,
+   "chunk": "V10"
+  },
+  {
+   "word": "mine",
+   "start": 120.96,
+   "end": 121.36,
+   "chunk": "V10"
+  },
+  {
+   "word": "layer",
+   "start": 121.36,
+   "end": 121.7,
+   "chunk": "V10"
+  },
+  {
+   "word": "called",
+   "start": 121.7,
+   "end": 122.02,
+   "chunk": "V10"
+  },
+  {
+   "word": "the",
+   "start": 122.02,
+   "end": 122.24,
+   "chunk": "V10"
+  },
+  {
+   "word": "Nusret",
+   "start": 122.24,
+   "end": 122.68,
+   "chunk": "V10"
+  },
+  {
+   "word": "had",
+   "start": 122.68,
+   "end": 123.18,
+   "chunk": "V10"
+  },
+  {
+   "word": "slipped",
+   "start": 123.18,
+   "end": 123.54,
+   "chunk": "V10"
+  },
+  {
+   "word": "out",
+   "start": 123.54,
+   "end": 123.9,
+   "chunk": "V10"
+  },
+  {
+   "word": "and",
+   "start": 123.9,
+   "end": 124.12,
+   "chunk": "V10"
+  },
+  {
+   "word": "laid",
+   "start": 124.12,
+   "end": 124.34,
+   "chunk": "V10"
+  },
+  {
+   "word": "a",
+   "start": 124.34,
+   "end": 124.52,
+   "chunk": "V10"
+  },
+  {
+   "word": "line",
+   "start": 124.52,
+   "end": 124.78,
+   "chunk": "V10"
+  },
+  {
+   "word": "of",
+   "start": 124.78,
+   "end": 124.94,
+   "chunk": "V10"
+  },
+  {
+   "word": "about",
+   "start": 124.94,
+   "end": 125.2,
+   "chunk": "V10"
+  },
+  {
+   "word": "20",
+   "start": 125.2,
+   "end": 125.74,
+   "chunk": "V10"
+  },
+  {
+   "word": "mines.",
+   "start": 125.74,
+   "end": 126.6,
+   "chunk": "V10"
+  },
+  {
+   "word": "Exactly",
+   "start": 129.14,
+   "end": 129.78,
+   "chunk": "V10"
+  },
+  {
+   "word": "where",
+   "start": 129.78,
+   "end": 130.08,
+   "chunk": "V10"
+  },
+  {
+   "word": "the",
+   "start": 130.08,
+   "end": 130.24,
+   "chunk": "V10"
+  },
+  {
+   "word": "big",
+   "start": 130.24,
+   "end": 130.52,
+   "chunk": "V10"
+  },
+  {
+   "word": "ships",
+   "start": 130.52,
+   "end": 130.86,
+   "chunk": "V10"
+  },
+  {
+   "word": "would",
+   "start": 130.86,
+   "end": 131.1,
+   "chunk": "V10"
+  },
+  {
+   "word": "turn.",
+   "start": 131.1,
+   "end": 131.42,
+   "chunk": "V10"
+  },
+  {
+   "word": "In",
+   "start": 132.084,
+   "end": 132.264,
+   "chunk": "V11"
+  },
+  {
+   "word": "a",
+   "start": 132.264,
+   "end": 132.424,
+   "chunk": "V11"
+  },
+  {
+   "word": "few",
+   "start": 132.424,
+   "end": 132.584,
+   "chunk": "V11"
+  },
+  {
+   "word": "hours,",
+   "start": 132.584,
+   "end": 133.064,
+   "chunk": "V11"
+  },
+  {
+   "word": "three",
+   "start": 133.464,
+   "end": 133.604,
+   "chunk": "V11"
+  },
+  {
+   "word": "battleships",
+   "start": 133.604,
+   "end": 134.184,
+   "chunk": "V11"
+  },
+  {
+   "word": "are",
+   "start": 134.184,
+   "end": 134.364,
+   "chunk": "V11"
+  },
+  {
+   "word": "sunk.",
+   "start": 134.364,
+   "end": 134.684,
+   "chunk": "V11"
+  },
+  {
+   "word": "Three",
+   "start": 135.284,
+   "end": 135.404,
+   "chunk": "V11"
+  },
+  {
+   "word": "more",
+   "start": 135.404,
+   "end": 135.704,
+   "chunk": "V11"
+  },
+  {
+   "word": "are",
+   "start": 135.704,
+   "end": 135.944,
+   "chunk": "V11"
+  },
+  {
+   "word": "badly",
+   "start": 135.944,
+   "end": 136.364,
+   "chunk": "V11"
+  },
+  {
+   "word": "damaged.",
+   "start": 136.364,
+   "end": 136.904,
+   "chunk": "V11"
+  },
+  {
+   "word": "The",
+   "start": 137.884,
+   "end": 138.044,
+   "chunk": "V11"
+  },
+  {
+   "word": "fleet",
+   "start": 138.044,
+   "end": 138.324,
+   "chunk": "V11"
+  },
+  {
+   "word": "pulls",
+   "start": 138.324,
+   "end": 138.664,
+   "chunk": "V11"
+  },
+  {
+   "word": "back,",
+   "start": 138.664,
+   "end": 139.144,
+   "chunk": "V11"
+  },
+  {
+   "word": "and",
+   "start": 140.404,
+   "end": 141.764,
+   "chunk": "V11"
+  },
+  {
+   "word": "it",
+   "start": 141.764,
+   "end": 141.884,
+   "chunk": "V11"
+  },
+  {
+   "word": "never",
+   "start": 141.884,
+   "end": 142.184,
+   "chunk": "V11"
+  },
+  {
+   "word": "tries",
+   "start": 142.184,
+   "end": 142.524,
+   "chunk": "V11"
+  },
+  {
+   "word": "again.",
+   "start": 142.524,
+   "end": 142.884,
+   "chunk": "V11"
+  },
+  {
+   "word": "Here's",
+   "start": 144.504,
+   "end": 145.004,
+   "chunk": "V12"
+  },
+  {
+   "word": "where",
+   "start": 145.004,
+   "end": 145.144,
+   "chunk": "V12"
+  },
+  {
+   "word": "the",
+   "start": 145.144,
+   "end": 145.284,
+   "chunk": "V12"
+  },
+  {
+   "word": "first",
+   "start": 145.284,
+   "end": 145.704,
+   "chunk": "V12"
+  },
+  {
+   "word": "what",
+   "start": 145.704,
+   "end": 146.044,
+   "chunk": "V12"
+  },
+  {
+   "word": "-if",
+   "start": 146.044,
+   "end": 146.364,
+   "chunk": "V12"
+  },
+  {
+   "word": "hides.",
+   "start": 146.364,
+   "end": 146.924,
+   "chunk": "V12"
+  },
+  {
+   "word": "Some",
+   "start": 148.144,
+   "end": 148.264,
+   "chunk": "V12"
+  },
+  {
+   "word": "people,",
+   "start": 148.264,
+   "end": 148.664,
+   "chunk": "V12"
+  },
+  {
+   "word": "including",
+   "start": 148.824,
+   "end": 149.184,
+   "chunk": "V12"
+  },
+  {
+   "word": "Churchill,",
+   "start": 149.184,
+   "end": 149.744,
+   "chunk": "V12"
+  },
+  {
+   "word": "believe",
+   "start": 150.224,
+   "end": 150.424,
+   "chunk": "V12"
+  },
+  {
+   "word": "the",
+   "start": 150.424,
+   "end": 150.664,
+   "chunk": "V12"
+  },
+  {
+   "word": "Ottoman",
+   "start": 150.664,
+   "end": 151.004,
+   "chunk": "V12"
+  },
+  {
+   "word": "forts",
+   "start": 151.004,
+   "end": 151.464,
+   "chunk": "V12"
+  },
+  {
+   "word": "were",
+   "start": 151.464,
+   "end": 151.604,
+   "chunk": "V12"
+  },
+  {
+   "word": "almost",
+   "start": 151.604,
+   "end": 152.004,
+   "chunk": "V12"
+  },
+  {
+   "word": "out",
+   "start": 152.004,
+   "end": 152.264,
+   "chunk": "V12"
+  },
+  {
+   "word": "of",
+   "start": 152.264,
+   "end": 152.404,
+   "chunk": "V12"
+  },
+  {
+   "word": "ammunition",
+   "start": 152.404,
+   "end": 152.864,
+   "chunk": "V12"
+  },
+  {
+   "word": "and",
+   "start": 152.864,
+   "end": 153.464,
+   "chunk": "V12"
+  },
+  {
+   "word": "that",
+   "start": 153.464,
+   "end": 153.624,
+   "chunk": "V12"
+  },
+  {
+   "word": "one",
+   "start": 153.624,
+   "end": 153.924,
+   "chunk": "V12"
+  },
+  {
+   "word": "more",
+   "start": 153.924,
+   "end": 154.124,
+   "chunk": "V12"
+  },
+  {
+   "word": "push",
+   "start": 154.124,
+   "end": 154.464,
+   "chunk": "V12"
+  },
+  {
+   "word": "would",
+   "start": 154.464,
+   "end": 154.684,
+   "chunk": "V12"
+  },
+  {
+   "word": "have",
+   "start": 154.684,
+   "end": 154.804,
+   "chunk": "V12"
+  },
+  {
+   "word": "broken",
+   "start": 154.804,
+   "end": 155.064,
+   "chunk": "V12"
+  },
+  {
+   "word": "through.",
+   "start": 155.064,
+   "end": 155.544,
+   "chunk": "V12"
+  },
+  {
+   "word": "Historians",
+   "start": 156.624,
+   "end": 157.164,
+   "chunk": "V12"
+  },
+  {
+   "word": "still",
+   "start": 157.164,
+   "end": 157.584,
+   "chunk": "V12"
+  },
+  {
+   "word": "argue",
+   "start": 157.584,
+   "end": 157.964,
+   "chunk": "V12"
+  },
+  {
+   "word": "about",
+   "start": 157.964,
+   "end": 158.284,
+   "chunk": "V12"
+  },
+  {
+   "word": "it.",
+   "start": 158.284,
+   "end": 158.804,
+   "chunk": "V12"
+  },
+  {
+   "word": "But",
+   "start": 159.404,
+   "end": 159.664,
+   "chunk": "V12"
+  },
+  {
+   "word": "the",
+   "start": 159.664,
+   "end": 159.844,
+   "chunk": "V12"
+  },
+  {
+   "word": "admirals",
+   "start": 159.844,
+   "end": 160.244,
+   "chunk": "V12"
+  },
+  {
+   "word": "didn't",
+   "start": 160.244,
+   "end": 160.604,
+   "chunk": "V12"
+  },
+  {
+   "word": "push,",
+   "start": 160.604,
+   "end": 160.944,
+   "chunk": "V12"
+  },
+  {
+   "word": "so",
+   "start": 161.224,
+   "end": 161.484,
+   "chunk": "V12"
+  },
+  {
+   "word": "the",
+   "start": 161.484,
+   "end": 161.644,
+   "chunk": "V12"
+  },
+  {
+   "word": "job",
+   "start": 161.644,
+   "end": 161.924,
+   "chunk": "V12"
+  },
+  {
+   "word": "went",
+   "start": 161.924,
+   "end": 162.124,
+   "chunk": "V12"
+  },
+  {
+   "word": "to",
+   "start": 162.124,
+   "end": 162.304,
+   "chunk": "V12"
+  },
+  {
+   "word": "the",
+   "start": 162.304,
+   "end": 162.484,
+   "chunk": "V12"
+  },
+  {
+   "word": "army,",
+   "start": 162.484,
+   "end": 162.784,
+   "chunk": "V12"
+  },
+  {
+   "word": "including",
+   "start": 163.724,
+   "end": 164.244,
+   "chunk": "V12"
+  },
+  {
+   "word": "the",
+   "start": 164.244,
+   "end": 164.544,
+   "chunk": "V12"
+  },
+  {
+   "word": "Australians.",
+   "start": 164.544,
+   "end": 165.184,
+   "chunk": "V12"
+  },
+  {
+   "word": "The",
+   "start": 166.428,
+   "end": 166.608,
+   "chunk": "V13"
+  },
+  {
+   "word": "25th",
+   "start": 166.608,
+   "end": 167.268,
+   "chunk": "V13"
+  },
+  {
+   "word": "of",
+   "start": 167.268,
+   "end": 167.328,
+   "chunk": "V13"
+  },
+  {
+   "word": "April,",
+   "start": 167.328,
+   "end": 167.708,
+   "chunk": "V13"
+  },
+  {
+   "word": "1915.",
+   "start": 168.028,
+   "end": 168.848,
+   "chunk": "V13"
+  },
+  {
+   "word": "Before",
+   "start": 170.148,
+   "end": 170.488,
+   "chunk": "V13"
+  },
+  {
+   "word": "dawn",
+   "start": 170.488,
+   "end": 170.928,
+   "chunk": "V13"
+  },
+  {
+   "word": "in",
+   "start": 170.928,
+   "end": 171.228,
+   "chunk": "V13"
+  },
+  {
+   "word": "rowing",
+   "start": 171.228,
+   "end": 171.608,
+   "chunk": "V13"
+  },
+  {
+   "word": "boats,",
+   "start": 171.608,
+   "end": 172.028,
+   "chunk": "V13"
+  },
+  {
+   "word": "about",
+   "start": 172.328,
+   "end": 172.448,
+   "chunk": "V13"
+  },
+  {
+   "word": "16",
+   "start": 172.448,
+   "end": 173.028,
+   "chunk": "V13"
+  },
+  {
+   "word": ",000",
+   "start": 173.028,
+   "end": 173.688,
+   "chunk": "V13"
+  },
+  {
+   "word": "Australians",
+   "start": 173.688,
+   "end": 174.308,
+   "chunk": "V13"
+  },
+  {
+   "word": "and",
+   "start": 174.308,
+   "end": 174.568,
+   "chunk": "V13"
+  },
+  {
+   "word": "New",
+   "start": 174.568,
+   "end": 174.708,
+   "chunk": "V13"
+  },
+  {
+   "word": "Zealanders",
+   "start": 174.708,
+   "end": 175.228,
+   "chunk": "V13"
+  },
+  {
+   "word": "head",
+   "start": 175.228,
+   "end": 175.428,
+   "chunk": "V13"
+  },
+  {
+   "word": "for",
+   "start": 175.428,
+   "end": 175.648,
+   "chunk": "V13"
+  },
+  {
+   "word": "the",
+   "start": 175.648,
+   "end": 175.788,
+   "chunk": "V13"
+  },
+  {
+   "word": "beach.",
+   "start": 175.788,
+   "end": 176.048,
+   "chunk": "V13"
+  },
+  {
+   "word": "They",
+   "start": 176.788,
+   "end": 177.048,
+   "chunk": "V14"
+  },
+  {
+   "word": "land",
+   "start": 177.048,
+   "end": 177.408,
+   "chunk": "V14"
+  },
+  {
+   "word": "at",
+   "start": 177.408,
+   "end": 177.628,
+   "chunk": "V14"
+  },
+  {
+   "word": "a",
+   "start": 177.628,
+   "end": 177.828,
+   "chunk": "V14"
+  },
+  {
+   "word": "narrow",
+   "start": 177.828,
+   "end": 178.128,
+   "chunk": "V14"
+  },
+  {
+   "word": "cove",
+   "start": 178.128,
+   "end": 178.688,
+   "chunk": "V14"
+  },
+  {
+   "word": "under",
+   "start": 178.688,
+   "end": 179.028,
+   "chunk": "V14"
+  },
+  {
+   "word": "steep,",
+   "start": 179.028,
+   "end": 179.528,
+   "chunk": "V14"
+  },
+  {
+   "word": "scrubby",
+   "start": 179.788,
+   "end": 180.268,
+   "chunk": "V14"
+  },
+  {
+   "word": "cliffs.",
+   "start": 180.268,
+   "end": 180.688,
+   "chunk": "V14"
+  },
+  {
+   "word": "Whether",
+   "start": 183.248,
+   "end": 183.508,
+   "chunk": "V14"
+  },
+  {
+   "word": "it",
+   "start": 183.508,
+   "end": 183.728,
+   "chunk": "V14"
+  },
+  {
+   "word": "was",
+   "start": 183.728,
+   "end": 183.928,
+   "chunk": "V14"
+  },
+  {
+   "word": "the",
+   "start": 183.928,
+   "end": 184.148,
+   "chunk": "V14"
+  },
+  {
+   "word": "beach",
+   "start": 184.148,
+   "end": 184.468,
+   "chunk": "V14"
+  },
+  {
+   "word": "anyone",
+   "start": 184.468,
+   "end": 184.888,
+   "chunk": "V14"
+  },
+  {
+   "word": "had",
+   "start": 184.888,
+   "end": 185.128,
+   "chunk": "V14"
+  },
+  {
+   "word": "planned,",
+   "start": 185.128,
+   "end": 185.668,
+   "chunk": "V14"
+  },
+  {
+   "word": "historians",
+   "start": 186.328,
+   "end": 186.788,
+   "chunk": "V14"
+  },
+  {
+   "word": "still",
+   "start": 186.788,
+   "end": 187.268,
+   "chunk": "V14"
+  },
+  {
+   "word": "argue.",
+   "start": 187.268,
+   "end": 187.668,
+   "chunk": "V14"
+  },
+  {
+   "word": "The",
+   "start": 188.372,
+   "end": 188.592,
+   "chunk": "V15"
+  },
+  {
+   "word": "plan",
+   "start": 188.592,
+   "end": 188.912,
+   "chunk": "V15"
+  },
+  {
+   "word": "is",
+   "start": 188.912,
+   "end": 189.092,
+   "chunk": "V15"
+  },
+  {
+   "word": "to",
+   "start": 189.092,
+   "end": 189.252,
+   "chunk": "V15"
+  },
+  {
+   "word": "race",
+   "start": 189.252,
+   "end": 189.512,
+   "chunk": "V15"
+  },
+  {
+   "word": "up",
+   "start": 189.512,
+   "end": 189.732,
+   "chunk": "V15"
+  },
+  {
+   "word": "the",
+   "start": 189.732,
+   "end": 189.892,
+   "chunk": "V15"
+  },
+  {
+   "word": "hills,",
+   "start": 189.892,
+   "end": 190.252,
+   "chunk": "V15"
+  },
+  {
+   "word": "reach",
+   "start": 190.632,
+   "end": 190.812,
+   "chunk": "V15"
+  },
+  {
+   "word": "the",
+   "start": 190.812,
+   "end": 191.052,
+   "chunk": "V15"
+  },
+  {
+   "word": "high",
+   "start": 191.052,
+   "end": 191.212,
+   "chunk": "V15"
+  },
+  {
+   "word": "ground,",
+   "start": 191.212,
+   "end": 191.652,
+   "chunk": "V15"
+  },
+  {
+   "word": "and",
+   "start": 192.072,
+   "end": 192.112,
+   "chunk": "V15"
+  },
+  {
+   "word": "cut",
+   "start": 192.112,
+   "end": 192.372,
+   "chunk": "V15"
+  },
+  {
+   "word": "across",
+   "start": 192.372,
+   "end": 192.732,
+   "chunk": "V15"
+  },
+  {
+   "word": "the",
+   "start": 192.732,
+   "end": 192.992,
+   "chunk": "V15"
+  },
+  {
+   "word": "peninsula.",
+   "start": 192.992,
+   "end": 193.432,
+   "chunk": "V15"
+  },
+  {
+   "word": "On",
+   "start": 194.732,
+   "end": 194.912,
+   "chunk": "V15"
+  },
+  {
+   "word": "that",
+   "start": 194.912,
+   "end": 195.132,
+   "chunk": "V15"
+  },
+  {
+   "word": "first",
+   "start": 195.132,
+   "end": 195.452,
+   "chunk": "V15"
+  },
+  {
+   "word": "morning,",
+   "start": 195.452,
+   "end": 195.912,
+   "chunk": "V15"
+  },
+  {
+   "word": "some",
+   "start": 196.372,
+   "end": 196.472,
+   "chunk": "V15"
+  },
+  {
+   "word": "of",
+   "start": 196.472,
+   "end": 196.612,
+   "chunk": "V15"
+  },
+  {
+   "word": "them",
+   "start": 196.612,
+   "end": 196.752,
+   "chunk": "V15"
+  },
+  {
+   "word": "get",
+   "start": 196.752,
+   "end": 196.952,
+   "chunk": "V15"
+  },
+  {
+   "word": "close.",
+   "start": 196.952,
+   "end": 197.392,
+   "chunk": "V15"
+  },
+  {
+   "word": "But",
+   "start": 198.132,
+   "end": 198.392,
+   "chunk": "V16"
+  },
+  {
+   "word": "an",
+   "start": 198.392,
+   "end": 198.612,
+   "chunk": "V16"
+  },
+  {
+   "word": "Ottoman",
+   "start": 198.612,
+   "end": 198.992,
+   "chunk": "V16"
+  },
+  {
+   "word": "officer",
+   "start": 198.992,
+   "end": 199.632,
+   "chunk": "V16"
+  },
+  {
+   "word": "named",
+   "start": 199.632,
+   "end": 200.032,
+   "chunk": "V16"
+  },
+  {
+   "word": "Mustafa",
+   "start": 200.032,
+   "end": 200.672,
+   "chunk": "V16"
+  },
+  {
+   "word": "Kamal",
+   "start": 200.672,
+   "end": 201.252,
+   "chunk": "V16"
+  },
+  {
+   "word": "rushes",
+   "start": 201.252,
+   "end": 201.932,
+   "chunk": "V16"
+  },
+  {
+   "word": "his",
+   "start": 201.932,
+   "end": 202.192,
+   "chunk": "V16"
+  },
+  {
+   "word": "men",
+   "start": 202.192,
+   "end": 202.432,
+   "chunk": "V16"
+  },
+  {
+   "word": "to",
+   "start": 202.432,
+   "end": 202.632,
+   "chunk": "V16"
+  },
+  {
+   "word": "the",
+   "start": 202.632,
+   "end": 202.772,
+   "chunk": "V16"
+  },
+  {
+   "word": "heights.",
+   "start": 202.772,
+   "end": 203.112,
+   "chunk": "V16"
+  },
+  {
+   "word": "He",
+   "start": 204.352,
+   "end": 204.552,
+   "chunk": "V16"
+  },
+  {
+   "word": "later",
+   "start": 204.552,
+   "end": 204.812,
+   "chunk": "V16"
+  },
+  {
+   "word": "recalled",
+   "start": 204.812,
+   "end": 205.252,
+   "chunk": "V16"
+  },
+  {
+   "word": "telling",
+   "start": 205.252,
+   "end": 205.612,
+   "chunk": "V16"
+  },
+  {
+   "word": "them",
+   "start": 205.612,
+   "end": 205.872,
+   "chunk": "V16"
+  },
+  {
+   "word": "he",
+   "start": 205.872,
+   "end": 206.092,
+   "chunk": "V16"
+  },
+  {
+   "word": "wasn't",
+   "start": 206.092,
+   "end": 206.492,
+   "chunk": "V16"
+  },
+  {
+   "word": "ordering",
+   "start": 206.492,
+   "end": 206.832,
+   "chunk": "V16"
+  },
+  {
+   "word": "them",
+   "start": 206.832,
+   "end": 207.072,
+   "chunk": "V16"
+  },
+  {
+   "word": "to",
+   "start": 207.072,
+   "end": 207.292,
+   "chunk": "V16"
+  },
+  {
+   "word": "attack,",
+   "start": 207.292,
+   "end": 207.792,
+   "chunk": "V16"
+  },
+  {
+   "word": "he",
+   "start": 207.992,
+   "end": 208.492,
+   "chunk": "V16"
+  },
+  {
+   "word": "was",
+   "start": 208.492,
+   "end": 208.672,
+   "chunk": "V16"
+  },
+  {
+   "word": "ordering",
+   "start": 208.672,
+   "end": 209.032,
+   "chunk": "V16"
+  },
+  {
+   "word": "them",
+   "start": 209.032,
+   "end": 209.272,
+   "chunk": "V16"
+  },
+  {
+   "word": "to",
+   "start": 209.272,
+   "end": 209.512,
+   "chunk": "V16"
+  },
+  {
+   "word": "die.",
+   "start": 209.512,
+   "end": 209.912,
+   "chunk": "V16"
+  },
+  {
+   "word": "They",
+   "start": 212.092,
+   "end": 212.332,
+   "chunk": "V16"
+  },
+  {
+   "word": "hold",
+   "start": 212.332,
+   "end": 212.692,
+   "chunk": "V16"
+  },
+  {
+   "word": "the",
+   "start": 212.692,
+   "end": 212.952,
+   "chunk": "V16"
+  },
+  {
+   "word": "hills.",
+   "start": 212.952,
+   "end": 213.332,
+   "chunk": "V16"
+  },
+  {
+   "word": "Meanwhile,",
+   "start": 214.084,
+   "end": 214.604,
+   "chunk": "V16b"
+  },
+  {
+   "word": "under",
+   "start": 214.844,
+   "end": 215.124,
+   "chunk": "V16b"
+  },
+  {
+   "word": "the",
+   "start": 215.124,
+   "end": 215.404,
+   "chunk": "V16b"
+  },
+  {
+   "word": "water,",
+   "start": 215.404,
+   "end": 215.644,
+   "chunk": "V16b"
+  },
+  {
+   "word": "something",
+   "start": 215.884,
+   "end": 216.084,
+   "chunk": "V16b"
+  },
+  {
+   "word": "incredible",
+   "start": 216.084,
+   "end": 216.764,
+   "chunk": "V16b"
+  },
+  {
+   "word": "happens.",
+   "start": 216.764,
+   "end": 217.344,
+   "chunk": "V16b"
+  },
+  {
+   "word": "An",
+   "start": 218.524,
+   "end": 218.684,
+   "chunk": "V16b"
+  },
+  {
+   "word": "Australian",
+   "start": 218.684,
+   "end": 219.264,
+   "chunk": "V16b"
+  },
+  {
+   "word": "submarine,",
+   "start": 219.264,
+   "end": 219.944,
+   "chunk": "V16b"
+  },
+  {
+   "word": "the",
+   "start": 220.524,
+   "end": 220.624,
+   "chunk": "V16b"
+  },
+  {
+   "word": "AE",
+   "start": 220.624,
+   "end": 221.144,
+   "chunk": "V16b"
+  },
+  {
+   "word": "-2",
+   "start": 221.144,
+   "end": 221.564,
+   "chunk": "V16b"
+  },
+  {
+   "word": "sneaks",
+   "start": 221.564,
+   "end": 222.384,
+   "chunk": "V16b"
+  },
+  {
+   "word": "through",
+   "start": 222.384,
+   "end": 222.624,
+   "chunk": "V16b"
+  },
+  {
+   "word": "the",
+   "start": 222.624,
+   "end": 222.864,
+   "chunk": "V16b"
+  },
+  {
+   "word": "minefields",
+   "start": 222.864,
+   "end": 223.344,
+   "chunk": "V16b"
+  },
+  {
+   "word": "of",
+   "start": 223.344,
+   "end": 223.584,
+   "chunk": "V16b"
+  },
+  {
+   "word": "the",
+   "start": 223.584,
+   "end": 223.804,
+   "chunk": "V16b"
+  },
+  {
+   "word": "Dardanelles,",
+   "start": 223.804,
+   "end": 224.444,
+   "chunk": "V16b"
+  },
+  {
+   "word": "the",
+   "start": 224.884,
+   "end": 225.184,
+   "chunk": "V16b"
+  },
+  {
+   "word": "first",
+   "start": 225.184,
+   "end": 225.644,
+   "chunk": "V16b"
+  },
+  {
+   "word": "allied",
+   "start": 225.644,
+   "end": 226.164,
+   "chunk": "V16b"
+  },
+  {
+   "word": "submarine",
+   "start": 226.164,
+   "end": 226.744,
+   "chunk": "V16b"
+  },
+  {
+   "word": "to",
+   "start": 226.744,
+   "end": 227.064,
+   "chunk": "V16b"
+  },
+  {
+   "word": "make",
+   "start": 227.064,
+   "end": 227.304,
+   "chunk": "V16b"
+  },
+  {
+   "word": "it",
+   "start": 227.304,
+   "end": 227.484,
+   "chunk": "V16b"
+  },
+  {
+   "word": "all",
+   "start": 227.484,
+   "end": 227.824,
+   "chunk": "V16b"
+  },
+  {
+   "word": "the",
+   "start": 227.824,
+   "end": 228.044,
+   "chunk": "V16b"
+  },
+  {
+   "word": "way",
+   "start": 228.044,
+   "end": 228.204,
+   "chunk": "V16b"
+  },
+  {
+   "word": "through.",
+   "start": 228.204,
+   "end": 228.684,
+   "chunk": "V16b"
+  },
+  {
+   "word": "On",
+   "start": 229.084,
+   "end": 229.304,
+   "chunk": "V16b"
+  },
+  {
+   "word": "that",
+   "start": 229.304,
+   "end": 229.544,
+   "chunk": "V16b"
+  },
+  {
+   "word": "chaotic",
+   "start": 229.544,
+   "end": 229.964,
+   "chunk": "V16b"
+  },
+  {
+   "word": "first",
+   "start": 229.964,
+   "end": 230.324,
+   "chunk": "V16b"
+  },
+  {
+   "word": "night,",
+   "start": 230.324,
+   "end": 230.664,
+   "chunk": "V16b"
+  },
+  {
+   "word": "the",
+   "start": 230.944,
+   "end": 231.064,
+   "chunk": "V16b"
+  },
+  {
+   "word": "news",
+   "start": 231.064,
+   "end": 231.344,
+   "chunk": "V16b"
+  },
+  {
+   "word": "reaches",
+   "start": 231.344,
+   "end": 231.724,
+   "chunk": "V16b"
+  },
+  {
+   "word": "the",
+   "start": 231.724,
+   "end": 231.984,
+   "chunk": "V16b"
+  },
+  {
+   "word": "commanders,",
+   "start": 231.984,
+   "end": 232.424,
+   "chunk": "V16b"
+  },
+  {
+   "word": "just",
+   "start": 232.424,
+   "end": 233.144,
+   "chunk": "V16b"
+  },
+  {
+   "word": "as",
+   "start": 233.144,
+   "end": 233.324,
+   "chunk": "V16b"
+  },
+  {
+   "word": "they",
+   "start": 233.324,
+   "end": 233.484,
+   "chunk": "V16b"
+  },
+  {
+   "word": "debate",
+   "start": 233.484,
+   "end": 233.844,
+   "chunk": "V16b"
+  },
+  {
+   "word": "pulling",
+   "start": 233.844,
+   "end": 234.204,
+   "chunk": "V16b"
+  },
+  {
+   "word": "everyone",
+   "start": 234.204,
+   "end": 234.684,
+   "chunk": "V16b"
+  },
+  {
+   "word": "off",
+   "start": 234.684,
+   "end": 234.924,
+   "chunk": "V16b"
+  },
+  {
+   "word": "the",
+   "start": 234.924,
+   "end": 235.124,
+   "chunk": "V16b"
+  },
+  {
+   "word": "beach.",
+   "start": 235.124,
+   "end": 235.404,
+   "chunk": "V16b"
+  },
+  {
+   "word": "It's",
+   "start": 236.384,
+   "end": 236.884,
+   "chunk": "V16b"
+  },
+  {
+   "word": "said",
+   "start": 236.884,
+   "end": 237.024,
+   "chunk": "V16b"
+  },
+  {
+   "word": "to",
+   "start": 237.024,
+   "end": 237.184,
+   "chunk": "V16b"
+  },
+  {
+   "word": "be",
+   "start": 237.184,
+   "end": 237.344,
+   "chunk": "V16b"
+  },
+  {
+   "word": "one",
+   "start": 237.344,
+   "end": 237.604,
+   "chunk": "V16b"
+  },
+  {
+   "word": "reason",
+   "start": 237.604,
+   "end": 237.924,
+   "chunk": "V16b"
+  },
+  {
+   "word": "they",
+   "start": 237.924,
+   "end": 238.144,
+   "chunk": "V16b"
+  },
+  {
+   "word": "decide",
+   "start": 238.144,
+   "end": 238.504,
+   "chunk": "V16b"
+  },
+  {
+   "word": "to",
+   "start": 238.504,
+   "end": 238.724,
+   "chunk": "V16b"
+  },
+  {
+   "word": "stay",
+   "start": 238.724,
+   "end": 239.004,
+   "chunk": "V16b"
+  },
+  {
+   "word": "and",
+   "start": 239.004,
+   "end": 239.364,
+   "chunk": "V16b"
+  },
+  {
+   "word": "dig",
+   "start": 239.364,
+   "end": 239.524,
+   "chunk": "V16b"
+  },
+  {
+   "word": "in.",
+   "start": 239.524,
+   "end": 239.864,
+   "chunk": "V16b"
+  },
+  {
+   "word": "Five",
+   "start": 239.864,
+   "end": 240.624,
+   "chunk": "V16b"
+  },
+  {
+   "word": "days",
+   "start": 240.624,
+   "end": 240.924,
+   "chunk": "V16b"
+  },
+  {
+   "word": "later,",
+   "start": 240.924,
+   "end": 241.404,
+   "chunk": "V16b"
+  },
+  {
+   "word": "the",
+   "start": 241.744,
+   "end": 241.784,
+   "chunk": "V16b"
+  },
+  {
+   "word": "AE",
+   "start": 241.784,
+   "end": 242.184,
+   "chunk": "V16b"
+  },
+  {
+   "word": "-2",
+   "start": 242.184,
+   "end": 242.504,
+   "chunk": "V16b"
+  },
+  {
+   "word": "is",
+   "start": 242.504,
+   "end": 242.724,
+   "chunk": "V16b"
+  },
+  {
+   "word": "caught",
+   "start": 242.724,
+   "end": 243.064,
+   "chunk": "V16b"
+  },
+  {
+   "word": "and",
+   "start": 243.064,
+   "end": 243.564,
+   "chunk": "V16b"
+  },
+  {
+   "word": "her",
+   "start": 243.564,
+   "end": 243.784,
+   "chunk": "V16b"
+  },
+  {
+   "word": "crew",
+   "start": 243.784,
+   "end": 244.084,
+   "chunk": "V16b"
+  },
+  {
+   "word": "sinker",
+   "start": 244.084,
+   "end": 244.644,
+   "chunk": "V16b"
+  },
+  {
+   "word": "themselves",
+   "start": 244.644,
+   "end": 245.124,
+   "chunk": "V16b"
+  },
+  {
+   "word": "and",
+   "start": 245.124,
+   "end": 245.544,
+   "chunk": "V16b"
+  },
+  {
+   "word": "become",
+   "start": 245.544,
+   "end": 245.784,
+   "chunk": "V16b"
+  },
+  {
+   "word": "prisoners",
+   "start": 245.784,
+   "end": 246.244,
+   "chunk": "V16b"
+  },
+  {
+   "word": "of",
+   "start": 246.244,
+   "end": 246.524,
+   "chunk": "V16b"
+  },
+  {
+   "word": "war.",
+   "start": 246.524,
+   "end": 246.804,
+   "chunk": "V16b"
+  },
+  {
+   "word": "But",
+   "start": 248.744,
+   "end": 249.144,
+   "chunk": "V16b"
+  },
+  {
+   "word": "for",
+   "start": 249.144,
+   "end": 249.404,
+   "chunk": "V16b"
+  },
+  {
+   "word": "a",
+   "start": 249.404,
+   "end": 249.604,
+   "chunk": "V16b"
+  },
+  {
+   "word": "moment,",
+   "start": 249.604,
+   "end": 250.044,
+   "chunk": "V16b"
+  },
+  {
+   "word": "an",
+   "start": 250.324,
+   "end": 250.444,
+   "chunk": "V16b"
+  },
+  {
+   "word": "Australian",
+   "start": 250.444,
+   "end": 251.024,
+   "chunk": "V16b"
+  },
+  {
+   "word": "crew",
+   "start": 251.024,
+   "end": 251.384,
+   "chunk": "V16b"
+  },
+  {
+   "word": "had",
+   "start": 251.384,
+   "end": 251.604,
+   "chunk": "V16b"
+  },
+  {
+   "word": "done",
+   "start": 251.604,
+   "end": 251.764,
+   "chunk": "V16b"
+  },
+  {
+   "word": "exactly",
+   "start": 251.764,
+   "end": 252.404,
+   "chunk": "V16b"
+  },
+  {
+   "word": "what",
+   "start": 252.404,
+   "end": 252.644,
+   "chunk": "V16b"
+  },
+  {
+   "word": "the",
+   "start": 252.644,
+   "end": 252.804,
+   "chunk": "V16b"
+  },
+  {
+   "word": "whole",
+   "start": 252.804,
+   "end": 253.084,
+   "chunk": "V16b"
+  },
+  {
+   "word": "fleet",
+   "start": 253.084,
+   "end": 253.404,
+   "chunk": "V16b"
+  },
+  {
+   "word": "couldn't.",
+   "start": 253.404,
+   "end": 253.864,
+   "chunk": "V16b"
+  },
+  {
+   "word": "And",
+   "start": 254.996,
+   "end": 255.236,
+   "chunk": "V17"
+  },
+  {
+   "word": "that's",
+   "start": 255.236,
+   "end": 255.596,
+   "chunk": "V17"
+  },
+  {
+   "word": "how",
+   "start": 255.596,
+   "end": 255.756,
+   "chunk": "V17"
+  },
+  {
+   "word": "the",
+   "start": 255.756,
+   "end": 255.896,
+   "chunk": "V17"
+  },
+  {
+   "word": "next",
+   "start": 255.896,
+   "end": 256.136,
+   "chunk": "V17"
+  },
+  {
+   "word": "eight",
+   "start": 256.136,
+   "end": 256.456,
+   "chunk": "V17"
+  },
+  {
+   "word": "months",
+   "start": 256.456,
+   "end": 256.836,
+   "chunk": "V17"
+  },
+  {
+   "word": "go.",
+   "start": 256.836,
+   "end": 257.236,
+   "chunk": "V17"
+  },
+  {
+   "word": "Trenches",
+   "start": 257.756,
+   "end": 258.056,
+   "chunk": "V17"
+  },
+  {
+   "word": "dug",
+   "start": 258.056,
+   "end": 258.356,
+   "chunk": "V17"
+  },
+  {
+   "word": "into",
+   "start": 258.356,
+   "end": 258.596,
+   "chunk": "V17"
+  },
+  {
+   "word": "cliffs,",
+   "start": 258.596,
+   "end": 259.036,
+   "chunk": "V17"
+  },
+  {
+   "word": "sometimes",
+   "start": 259.556,
+   "end": 259.736,
+   "chunk": "V17"
+  },
+  {
+   "word": "just",
+   "start": 259.736,
+   "end": 260.096,
+   "chunk": "V17"
+  },
+  {
+   "word": "meters",
+   "start": 260.096,
+   "end": 260.456,
+   "chunk": "V17"
+  },
+  {
+   "word": "apart.",
+   "start": 260.456,
+   "end": 260.936,
+   "chunk": "V17"
+  },
+  {
+   "word": "Flies,",
+   "start": 261.736,
+   "end": 262.256,
+   "chunk": "V17"
+  },
+  {
+   "word": "disease,",
+   "start": 262.516,
+   "end": 263.036,
+   "chunk": "V17"
+  },
+  {
+   "word": "scorching",
+   "start": 263.636,
+   "end": 263.936,
+   "chunk": "V17"
+  },
+  {
+   "word": "summer",
+   "start": 263.936,
+   "end": 264.256,
+   "chunk": "V17"
+  },
+  {
+   "word": "heat,",
+   "start": 264.256,
+   "end": 264.616,
+   "chunk": "V17"
+  },
+  {
+   "word": "then",
+   "start": 265.056,
+   "end": 265.136,
+   "chunk": "V17"
+  },
+  {
+   "word": "freezing",
+   "start": 265.136,
+   "end": 265.636,
+   "chunk": "V17"
+  },
+  {
+   "word": "winter",
+   "start": 265.636,
+   "end": 266.016,
+   "chunk": "V17"
+  },
+  {
+   "word": "storms.",
+   "start": 266.016,
+   "end": 266.536,
+   "chunk": "V17"
+  },
+  {
+   "word": "In",
+   "start": 267.204,
+   "end": 267.504,
+   "chunk": "V18"
+  },
+  {
+   "word": "August,",
+   "start": 267.504,
+   "end": 268.104,
+   "chunk": "V18"
+  },
+  {
+   "word": "a",
+   "start": 268.544,
+   "end": 268.604,
+   "chunk": "V18"
+  },
+  {
+   "word": "giant",
+   "start": 268.604,
+   "end": 269.204,
+   "chunk": "V18"
+  },
+  {
+   "word": "breakout",
+   "start": 269.204,
+   "end": 269.784,
+   "chunk": "V18"
+  },
+  {
+   "word": "is",
+   "start": 269.784,
+   "end": 270.184,
+   "chunk": "V18"
+  },
+  {
+   "word": "tried.",
+   "start": 270.184,
+   "end": 270.824,
+   "chunk": "V18"
+  },
+  {
+   "word": "Lone",
+   "start": 271.604,
+   "end": 271.784,
+   "chunk": "V18"
+  },
+  {
+   "word": "Pine,",
+   "start": 271.784,
+   "end": 272.184,
+   "chunk": "V18"
+  },
+  {
+   "word": "The",
+   "start": 272.624,
+   "end": 272.684,
+   "chunk": "V18"
+  },
+  {
+   "word": "Neck,",
+   "start": 272.684,
+   "end": 273.064,
+   "chunk": "V18"
+  },
+  {
+   "word": "Choonukbaya.",
+   "start": 273.644,
+   "end": 274.244,
+   "chunk": "V18"
+  },
+  {
+   "word": "For",
+   "start": 275.084,
+   "end": 275.624,
+   "chunk": "V18"
+  },
+  {
+   "word": "a",
+   "start": 275.624,
+   "end": 275.804,
+   "chunk": "V18"
+  },
+  {
+   "word": "moment,",
+   "start": 275.804,
+   "end": 276.184,
+   "chunk": "V18"
+  },
+  {
+   "word": "New",
+   "start": 276.684,
+   "end": 276.784,
+   "chunk": "V18"
+  },
+  {
+   "word": "Zealand",
+   "start": 276.784,
+   "end": 277.164,
+   "chunk": "V18"
+  },
+  {
+   "word": "troops",
+   "start": 277.164,
+   "end": 277.604,
+   "chunk": "V18"
+  },
+  {
+   "word": "actually",
+   "start": 277.604,
+   "end": 278.204,
+   "chunk": "V18"
+  },
+  {
+   "word": "stand",
+   "start": 278.204,
+   "end": 278.664,
+   "chunk": "V18"
+  },
+  {
+   "word": "on",
+   "start": 278.664,
+   "end": 278.864,
+   "chunk": "V18"
+  },
+  {
+   "word": "the",
+   "start": 278.864,
+   "end": 279.024,
+   "chunk": "V18"
+  },
+  {
+   "word": "summit",
+   "start": 279.024,
+   "end": 279.304,
+   "chunk": "V18"
+  },
+  {
+   "word": "of",
+   "start": 279.304,
+   "end": 279.544,
+   "chunk": "V18"
+  },
+  {
+   "word": "Choonukbaya",
+   "start": 279.544,
+   "end": 280.384,
+   "chunk": "V18"
+  },
+  {
+   "word": "within",
+   "start": 280.384,
+   "end": 281.064,
+   "chunk": "V18"
+  },
+  {
+   "word": "sight",
+   "start": 281.064,
+   "end": 281.524,
+   "chunk": "V18"
+  },
+  {
+   "word": "of",
+   "start": 281.524,
+   "end": 281.724,
+   "chunk": "V18"
+  },
+  {
+   "word": "the",
+   "start": 281.724,
+   "end": 281.944,
+   "chunk": "V18"
+  },
+  {
+   "word": "strait.",
+   "start": 281.944,
+   "end": 282.724,
+   "chunk": "V18"
+  },
+  {
+   "word": "Then",
+   "start": 283.404,
+   "end": 283.724,
+   "chunk": "V18"
+  },
+  {
+   "word": "they're",
+   "start": 283.724,
+   "end": 284.184,
+   "chunk": "V18"
+  },
+  {
+   "word": "pushed",
+   "start": 284.184,
+   "end": 284.424,
+   "chunk": "V18"
+  },
+  {
+   "word": "off.",
+   "start": 284.424,
+   "end": 284.824,
+   "chunk": "V18"
+  },
+  {
+   "word": "By",
+   "start": 285.964,
+   "end": 286.244,
+   "chunk": "V19"
+  },
+  {
+   "word": "December,",
+   "start": 286.244,
+   "end": 286.724,
+   "chunk": "V19"
+  },
+  {
+   "word": "it's",
+   "start": 286.724,
+   "end": 287.264,
+   "chunk": "V19"
+  },
+  {
+   "word": "over",
+   "start": 287.264,
+   "end": 287.624,
+   "chunk": "V19"
+  },
+  {
+   "word": "and",
+   "start": 287.624,
+   "end": 288.684,
+   "chunk": "V19"
+  },
+  {
+   "word": "in",
+   "start": 288.684,
+   "end": 288.884,
+   "chunk": "V19"
+  },
+  {
+   "word": "the",
+   "start": 288.884,
+   "end": 289.104,
+   "chunk": "V19"
+  },
+  {
+   "word": "strangest",
+   "start": 289.104,
+   "end": 289.664,
+   "chunk": "V19"
+  },
+  {
+   "word": "twist",
+   "start": 289.664,
+   "end": 289.884,
+   "chunk": "V19"
+  },
+  {
+   "word": "of",
+   "start": 289.884,
+   "end": 290.104,
+   "chunk": "V19"
+  },
+  {
+   "word": "the",
+   "start": 290.104,
+   "end": 290.224,
+   "chunk": "V19"
+  },
+  {
+   "word": "whole",
+   "start": 290.224,
+   "end": 290.424,
+   "chunk": "V19"
+  },
+  {
+   "word": "campaign,",
+   "start": 290.424,
+   "end": 291.044,
+   "chunk": "V19"
+  },
+  {
+   "word": "the",
+   "start": 291.544,
+   "end": 291.604,
+   "chunk": "V19"
+  },
+  {
+   "word": "best",
+   "start": 291.604,
+   "end": 291.904,
+   "chunk": "V19"
+  },
+  {
+   "word": "planned",
+   "start": 291.904,
+   "end": 292.264,
+   "chunk": "V19"
+  },
+  {
+   "word": "part",
+   "start": 292.264,
+   "end": 292.684,
+   "chunk": "V19"
+  },
+  {
+   "word": "is",
+   "start": 292.684,
+   "end": 293.124,
+   "chunk": "V19"
+  },
+  {
+   "word": "the",
+   "start": 293.124,
+   "end": 293.284,
+   "chunk": "V19"
+  },
+  {
+   "word": "escape.",
+   "start": 293.284,
+   "end": 293.644,
+   "chunk": "V19"
+  },
+  {
+   "word": "To",
+   "start": 294.26,
+   "end": 294.48,
+   "chunk": "V20"
+  },
+  {
+   "word": "fool",
+   "start": 294.48,
+   "end": 294.72,
+   "chunk": "V20"
+  },
+  {
+   "word": "the",
+   "start": 294.72,
+   "end": 294.94,
+   "chunk": "V20"
+  },
+  {
+   "word": "enemy,",
+   "start": 294.94,
+   "end": 295.26,
+   "chunk": "V20"
+  },
+  {
+   "word": "soldiers",
+   "start": 295.54,
+   "end": 295.84,
+   "chunk": "V20"
+  },
+  {
+   "word": "rig",
+   "start": 295.84,
+   "end": 296.16,
+   "chunk": "V20"
+  },
+  {
+   "word": "rifles",
+   "start": 296.16,
+   "end": 296.62,
+   "chunk": "V20"
+  },
+  {
+   "word": "to",
+   "start": 296.62,
+   "end": 296.82,
+   "chunk": "V20"
+  },
+  {
+   "word": "fire",
+   "start": 296.82,
+   "end": 297.12,
+   "chunk": "V20"
+  },
+  {
+   "word": "by",
+   "start": 297.12,
+   "end": 297.38,
+   "chunk": "V20"
+  },
+  {
+   "word": "themselves,",
+   "start": 297.38,
+   "end": 297.96,
+   "chunk": "V20"
+  },
+  {
+   "word": "using",
+   "start": 298.32,
+   "end": 298.54,
+   "chunk": "V20"
+  },
+  {
+   "word": "water",
+   "start": 298.54,
+   "end": 298.92,
+   "chunk": "V20"
+  },
+  {
+   "word": "dripping",
+   "start": 298.92,
+   "end": 299.32,
+   "chunk": "V20"
+  },
+  {
+   "word": "from",
+   "start": 299.32,
+   "end": 299.58,
+   "chunk": "V20"
+  },
+  {
+   "word": "one",
+   "start": 299.58,
+   "end": 299.86,
+   "chunk": "V20"
+  },
+  {
+   "word": "tin",
+   "start": 299.86,
+   "end": 300.18,
+   "chunk": "V20"
+  },
+  {
+   "word": "into",
+   "start": 300.18,
+   "end": 300.54,
+   "chunk": "V20"
+  },
+  {
+   "word": "another.",
+   "start": 300.54,
+   "end": 300.9,
+   "chunk": "V20"
+  },
+  {
+   "word": "Over",
+   "start": 301.52,
+   "end": 302.0,
+   "chunk": "V20"
+  },
+  {
+   "word": "two",
+   "start": 302.0,
+   "end": 302.24,
+   "chunk": "V20"
+  },
+  {
+   "word": "nights,",
+   "start": 302.24,
+   "end": 302.62,
+   "chunk": "V20"
+  },
+  {
+   "word": "tens",
+   "start": 303.2,
+   "end": 303.5,
+   "chunk": "V20"
+  },
+  {
+   "word": "of",
+   "start": 303.5,
+   "end": 303.98,
+   "chunk": "V20"
+  },
+  {
+   "word": "thousands",
+   "start": 303.98,
+   "end": 304.64,
+   "chunk": "V20"
+  },
+  {
+   "word": "of",
+   "start": 304.64,
+   "end": 305.1,
+   "chunk": "V20"
+  },
+  {
+   "word": "men",
+   "start": 305.1,
+   "end": 305.4,
+   "chunk": "V20"
+  },
+  {
+   "word": "slip",
+   "start": 305.4,
+   "end": 305.72,
+   "chunk": "V20"
+  },
+  {
+   "word": "away",
+   "start": 305.72,
+   "end": 306.0,
+   "chunk": "V20"
+  },
+  {
+   "word": "in",
+   "start": 306.0,
+   "end": 306.2,
+   "chunk": "V20"
+  },
+  {
+   "word": "silence.",
+   "start": 306.2,
+   "end": 306.78,
+   "chunk": "V20"
+  },
+  {
+   "word": "Almost",
+   "start": 308.18,
+   "end": 308.48,
+   "chunk": "V20"
+  },
+  {
+   "word": "no",
+   "start": 308.48,
+   "end": 308.86,
+   "chunk": "V20"
+  },
+  {
+   "word": "one",
+   "start": 308.86,
+   "end": 309.02,
+   "chunk": "V20"
+  },
+  {
+   "word": "is",
+   "start": 309.02,
+   "end": 309.2,
+   "chunk": "V20"
+  },
+  {
+   "word": "killed.",
+   "start": 309.2,
+   "end": 309.52,
+   "chunk": "V20"
+  },
+  {
+   "word": "Gallipoli",
+   "start": 310.092,
+   "end": 310.712,
+   "chunk": "V21"
+  },
+  {
+   "word": "is",
+   "start": 310.712,
+   "end": 310.932,
+   "chunk": "V21"
+  },
+  {
+   "word": "a",
+   "start": 310.932,
+   "end": 311.072,
+   "chunk": "V21"
+  },
+  {
+   "word": "defeat.",
+   "start": 311.072,
+   "end": 311.512,
+   "chunk": "V21"
+  },
+  {
+   "word": "About",
+   "start": 312.092,
+   "end": 312.272,
+   "chunk": "V21"
+  },
+  {
+   "word": "8",
+   "start": 312.272,
+   "end": 312.632,
+   "chunk": "V21"
+  },
+  {
+   "word": ",700",
+   "start": 312.632,
+   "end": 313.612,
+   "chunk": "V21"
+  },
+  {
+   "word": "Australians,",
+   "start": 313.612,
+   "end": 314.292,
+   "chunk": "V21"
+  },
+  {
+   "word": "nearly",
+   "start": 314.732,
+   "end": 314.892,
+   "chunk": "V21"
+  },
+  {
+   "word": "3",
+   "start": 314.892,
+   "end": 315.272,
+   "chunk": "V21"
+  },
+  {
+   "word": ",000",
+   "start": 315.272,
+   "end": 315.752,
+   "chunk": "V21"
+  },
+  {
+   "word": "New",
+   "start": 315.752,
+   "end": 315.912,
+   "chunk": "V21"
+  },
+  {
+   "word": "Zealanders,",
+   "start": 315.912,
+   "end": 316.552,
+   "chunk": "V21"
+  },
+  {
+   "word": "and",
+   "start": 316.892,
+   "end": 317.152,
+   "chunk": "V21"
+  },
+  {
+   "word": "tens",
+   "start": 317.152,
+   "end": 317.372,
+   "chunk": "V21"
+  },
+  {
+   "word": "of",
+   "start": 317.372,
+   "end": 317.632,
+   "chunk": "V21"
+  },
+  {
+   "word": "thousands",
+   "start": 317.632,
+   "end": 317.932,
+   "chunk": "V21"
+  },
+  {
+   "word": "of",
+   "start": 317.932,
+   "end": 318.272,
+   "chunk": "V21"
+  },
+  {
+   "word": "British,",
+   "start": 318.272,
+   "end": 318.492,
+   "chunk": "V21"
+  },
+  {
+   "word": "French,",
+   "start": 318.932,
+   "end": 319.312,
+   "chunk": "V21"
+  },
+  {
+   "word": "Indian,",
+   "start": 319.772,
+   "end": 320.192,
+   "chunk": "V21"
+  },
+  {
+   "word": "and",
+   "start": 320.452,
+   "end": 320.492,
+   "chunk": "V21"
+  },
+  {
+   "word": "Ottoman",
+   "start": 320.492,
+   "end": 320.872,
+   "chunk": "V21"
+  },
+  {
+   "word": "soldiers",
+   "start": 320.872,
+   "end": 321.392,
+   "chunk": "V21"
+  },
+  {
+   "word": "lose",
+   "start": 321.392,
+   "end": 321.652,
+   "chunk": "V21"
+  },
+  {
+   "word": "their",
+   "start": 321.652,
+   "end": 321.872,
+   "chunk": "V21"
+  },
+  {
+   "word": "lives.",
+   "start": 321.872,
+   "end": 322.272,
+   "chunk": "V21"
+  },
+  {
+   "word": "So",
+   "start": 324.548,
+   "end": 324.948,
+   "chunk": "V22"
+  },
+  {
+   "word": "let's",
+   "start": 324.948,
+   "end": 325.668,
+   "chunk": "V22"
+  },
+  {
+   "word": "play",
+   "start": 325.668,
+   "end": 325.828,
+   "chunk": "V22"
+  },
+  {
+   "word": "it",
+   "start": 325.828,
+   "end": 325.948,
+   "chunk": "V22"
+  },
+  {
+   "word": "out.",
+   "start": 325.948,
+   "end": 326.348,
+   "chunk": "V22"
+  },
+  {
+   "word": "Imagine",
+   "start": 327.148,
+   "end": 327.448,
+   "chunk": "V22"
+  },
+  {
+   "word": "the",
+   "start": 327.448,
+   "end": 327.848,
+   "chunk": "V22"
+  },
+  {
+   "word": "August",
+   "start": 327.848,
+   "end": 328.328,
+   "chunk": "V22"
+  },
+  {
+   "word": "breakout",
+   "start": 328.328,
+   "end": 328.768,
+   "chunk": "V22"
+  },
+  {
+   "word": "works,",
+   "start": 328.768,
+   "end": 329.368,
+   "chunk": "V22"
+  },
+  {
+   "word": "the",
+   "start": 329.928,
+   "end": 330.028,
+   "chunk": "V22"
+  },
+  {
+   "word": "Anzacs",
+   "start": 330.028,
+   "end": 330.488,
+   "chunk": "V22"
+  },
+  {
+   "word": "hold",
+   "start": 330.488,
+   "end": 330.868,
+   "chunk": "V22"
+  },
+  {
+   "word": "the",
+   "start": 330.868,
+   "end": 331.048,
+   "chunk": "V22"
+  },
+  {
+   "word": "heights,",
+   "start": 331.048,
+   "end": 331.408,
+   "chunk": "V22"
+  },
+  {
+   "word": "the",
+   "start": 331.968,
+   "end": 331.968,
+   "chunk": "V22"
+  },
+  {
+   "word": "forts",
+   "start": 331.968,
+   "end": 332.388,
+   "chunk": "V22"
+  },
+  {
+   "word": "fall,",
+   "start": 332.388,
+   "end": 332.748,
+   "chunk": "V22"
+  },
+  {
+   "word": "and",
+   "start": 333.608,
+   "end": 333.768,
+   "chunk": "V22"
+  },
+  {
+   "word": "the",
+   "start": 333.768,
+   "end": 333.908,
+   "chunk": "V22"
+  },
+  {
+   "word": "fleet",
+   "start": 333.908,
+   "end": 334.188,
+   "chunk": "V22"
+  },
+  {
+   "word": "sails",
+   "start": 334.188,
+   "end": 334.568,
+   "chunk": "V22"
+  },
+  {
+   "word": "through.",
+   "start": 334.568,
+   "end": 334.888,
+   "chunk": "V22"
+  },
+  {
+   "word": "Within",
+   "start": 335.484,
+   "end": 335.784,
+   "chunk": "V23"
+  },
+  {
+   "word": "days,",
+   "start": 335.784,
+   "end": 336.324,
+   "chunk": "V23"
+  },
+  {
+   "word": "British",
+   "start": 336.624,
+   "end": 336.804,
+   "chunk": "V23"
+  },
+  {
+   "word": "and",
+   "start": 336.804,
+   "end": 337.024,
+   "chunk": "V23"
+  },
+  {
+   "word": "French",
+   "start": 337.024,
+   "end": 337.324,
+   "chunk": "V23"
+  },
+  {
+   "word": "warships",
+   "start": 337.324,
+   "end": 337.844,
+   "chunk": "V23"
+  },
+  {
+   "word": "could",
+   "start": 337.844,
+   "end": 338.164,
+   "chunk": "V23"
+  },
+  {
+   "word": "be",
+   "start": 338.164,
+   "end": 338.324,
+   "chunk": "V23"
+  },
+  {
+   "word": "off",
+   "start": 338.324,
+   "end": 338.624,
+   "chunk": "V23"
+  },
+  {
+   "word": "Constantinople.",
+   "start": 338.624,
+   "end": 339.404,
+   "chunk": "V23"
+  },
+  {
+   "word": "Could",
+   "start": 340.364,
+   "end": 340.504,
+   "chunk": "V23"
+  },
+  {
+   "word": "the",
+   "start": 340.504,
+   "end": 340.704,
+   "chunk": "V23"
+  },
+  {
+   "word": "Ottoman",
+   "start": 340.704,
+   "end": 341.024,
+   "chunk": "V23"
+  },
+  {
+   "word": "Empire",
+   "start": 341.024,
+   "end": 341.444,
+   "chunk": "V23"
+  },
+  {
+   "word": "have",
+   "start": 341.444,
+   "end": 341.684,
+   "chunk": "V23"
+  },
+  {
+   "word": "surrendered?",
+   "start": 341.684,
+   "end": 342.184,
+   "chunk": "V23"
+  },
+  {
+   "word": "Some",
+   "start": 342.904,
+   "end": 343.044,
+   "chunk": "V23"
+  },
+  {
+   "word": "historians",
+   "start": 343.044,
+   "end": 343.524,
+   "chunk": "V23"
+  },
+  {
+   "word": "think",
+   "start": 343.524,
+   "end": 343.804,
+   "chunk": "V23"
+  },
+  {
+   "word": "it",
+   "start": 343.804,
+   "end": 343.964,
+   "chunk": "V23"
+  },
+  {
+   "word": "might",
+   "start": 343.964,
+   "end": 344.164,
+   "chunk": "V23"
+  },
+  {
+   "word": "have.",
+   "start": 344.164,
+   "end": 344.524,
+   "chunk": "V23"
+  },
+  {
+   "word": "Others",
+   "start": 344.904,
+   "end": 345.144,
+   "chunk": "V23"
+  },
+  {
+   "word": "think",
+   "start": 345.144,
+   "end": 345.404,
+   "chunk": "V23"
+  },
+  {
+   "word": "it",
+   "start": 345.404,
+   "end": 345.544,
+   "chunk": "V23"
+  },
+  {
+   "word": "would",
+   "start": 345.544,
+   "end": 345.664,
+   "chunk": "V23"
+  },
+  {
+   "word": "have",
+   "start": 345.664,
+   "end": 345.804,
+   "chunk": "V23"
+  },
+  {
+   "word": "kept",
+   "start": 345.804,
+   "end": 346.044,
+   "chunk": "V23"
+  },
+  {
+   "word": "fighting",
+   "start": 346.044,
+   "end": 346.444,
+   "chunk": "V23"
+  },
+  {
+   "word": "from",
+   "start": 346.444,
+   "end": 346.724,
+   "chunk": "V23"
+  },
+  {
+   "word": "Asia.",
+   "start": 346.724,
+   "end": 347.064,
+   "chunk": "V23"
+  },
+  {
+   "word": "Either",
+   "start": 347.764,
+   "end": 348.084,
+   "chunk": "V24"
+  },
+  {
+   "word": "way,",
+   "start": 348.084,
+   "end": 348.404,
+   "chunk": "V24"
+  },
+  {
+   "word": "the",
+   "start": 348.704,
+   "end": 348.724,
+   "chunk": "V24"
+  },
+  {
+   "word": "map",
+   "start": 348.724,
+   "end": 349.084,
+   "chunk": "V24"
+  },
+  {
+   "word": "of",
+   "start": 349.084,
+   "end": 349.264,
+   "chunk": "V24"
+  },
+  {
+   "word": "the",
+   "start": 349.264,
+   "end": 349.424,
+   "chunk": "V24"
+  },
+  {
+   "word": "war",
+   "start": 349.424,
+   "end": 349.584,
+   "chunk": "V24"
+  },
+  {
+   "word": "shifts.",
+   "start": 349.584,
+   "end": 350.104,
+   "chunk": "V24"
+  },
+  {
+   "word": "Bulgaria,",
+   "start": 351.244,
+   "end": 351.784,
+   "chunk": "V24"
+  },
+  {
+   "word": "which",
+   "start": 351.964,
+   "end": 352.244,
+   "chunk": "V24"
+  },
+  {
+   "word": "joined",
+   "start": 352.244,
+   "end": 352.584,
+   "chunk": "V24"
+  },
+  {
+   "word": "Germany's",
+   "start": 352.584,
+   "end": 353.224,
+   "chunk": "V24"
+  },
+  {
+   "word": "side",
+   "start": 353.224,
+   "end": 353.404,
+   "chunk": "V24"
+  },
+  {
+   "word": "in",
+   "start": 353.404,
+   "end": 353.584,
+   "chunk": "V24"
+  },
+  {
+   "word": "October",
+   "start": 353.584,
+   "end": 353.984,
+   "chunk": "V24"
+  },
+  {
+   "word": "1915,",
+   "start": 353.984,
+   "end": 354.884,
+   "chunk": "V24"
+  },
+  {
+   "word": "might",
+   "start": 355.584,
+   "end": 355.684,
+   "chunk": "V24"
+  },
+  {
+   "word": "have",
+   "start": 355.684,
+   "end": 355.884,
+   "chunk": "V24"
+  },
+  {
+   "word": "stayed",
+   "start": 355.884,
+   "end": 356.104,
+   "chunk": "V24"
+  },
+  {
+   "word": "out",
+   "start": 356.104,
+   "end": 356.324,
+   "chunk": "V24"
+  },
+  {
+   "word": "of",
+   "start": 356.324,
+   "end": 356.464,
+   "chunk": "V24"
+  },
+  {
+   "word": "the",
+   "start": 356.464,
+   "end": 356.584,
+   "chunk": "V24"
+  },
+  {
+   "word": "war",
+   "start": 356.584,
+   "end": 356.924,
+   "chunk": "V24"
+  },
+  {
+   "word": "or",
+   "start": 356.924,
+   "end": 357.404,
+   "chunk": "V24"
+  },
+  {
+   "word": "even",
+   "start": 357.404,
+   "end": 357.724,
+   "chunk": "V24"
+  },
+  {
+   "word": "joined",
+   "start": 357.724,
+   "end": 358.024,
+   "chunk": "V24"
+  },
+  {
+   "word": "the",
+   "start": 358.024,
+   "end": 358.224,
+   "chunk": "V24"
+  },
+  {
+   "word": "Allies.",
+   "start": 358.224,
+   "end": 358.604,
+   "chunk": "V24"
+  },
+  {
+   "word": "And",
+   "start": 359.396,
+   "end": 359.616,
+   "chunk": "V25"
+  },
+  {
+   "word": "the",
+   "start": 359.616,
+   "end": 359.816,
+   "chunk": "V25"
+  },
+  {
+   "word": "sea",
+   "start": 359.816,
+   "end": 360.036,
+   "chunk": "V25"
+  },
+  {
+   "word": "road",
+   "start": 360.036,
+   "end": 360.256,
+   "chunk": "V25"
+  },
+  {
+   "word": "to",
+   "start": 360.256,
+   "end": 360.456,
+   "chunk": "V25"
+  },
+  {
+   "word": "Russia",
+   "start": 360.456,
+   "end": 360.796,
+   "chunk": "V25"
+  },
+  {
+   "word": "opens.",
+   "start": 360.796,
+   "end": 361.336,
+   "chunk": "V25"
+  },
+  {
+   "word": "This",
+   "start": 361.976,
+   "end": 362.076,
+   "chunk": "V25"
+  },
+  {
+   "word": "is",
+   "start": 362.076,
+   "end": 362.236,
+   "chunk": "V25"
+  },
+  {
+   "word": "the",
+   "start": 362.236,
+   "end": 362.376,
+   "chunk": "V25"
+  },
+  {
+   "word": "big",
+   "start": 362.376,
+   "end": 362.536,
+   "chunk": "V25"
+  },
+  {
+   "word": "one.",
+   "start": 362.536,
+   "end": 362.816,
+   "chunk": "V25"
+  },
+  {
+   "word": "Russia's",
+   "start": 363.256,
+   "end": 363.656,
+   "chunk": "V25"
+  },
+  {
+   "word": "army",
+   "start": 363.656,
+   "end": 363.916,
+   "chunk": "V25"
+  },
+  {
+   "word": "is",
+   "start": 363.916,
+   "end": 364.136,
+   "chunk": "V25"
+  },
+  {
+   "word": "running",
+   "start": 364.136,
+   "end": 364.316,
+   "chunk": "V25"
+  },
+  {
+   "word": "short",
+   "start": 364.316,
+   "end": 364.636,
+   "chunk": "V25"
+  },
+  {
+   "word": "of",
+   "start": 364.636,
+   "end": 364.876,
+   "chunk": "V25"
+  },
+  {
+   "word": "rifles",
+   "start": 364.876,
+   "end": 365.216,
+   "chunk": "V25"
+  },
+  {
+   "word": "and",
+   "start": 365.216,
+   "end": 365.436,
+   "chunk": "V25"
+  },
+  {
+   "word": "shells.",
+   "start": 365.436,
+   "end": 365.856,
+   "chunk": "V25"
+  },
+  {
+   "word": "Its",
+   "start": 366.236,
+   "end": 366.356,
+   "chunk": "V25"
+  },
+  {
+   "word": "people",
+   "start": 366.356,
+   "end": 366.696,
+   "chunk": "V25"
+  },
+  {
+   "word": "are",
+   "start": 366.696,
+   "end": 366.916,
+   "chunk": "V25"
+  },
+  {
+   "word": "running",
+   "start": 366.916,
+   "end": 367.096,
+   "chunk": "V25"
+  },
+  {
+   "word": "short",
+   "start": 367.096,
+   "end": 367.356,
+   "chunk": "V25"
+  },
+  {
+   "word": "of",
+   "start": 367.356,
+   "end": 367.596,
+   "chunk": "V25"
+  },
+  {
+   "word": "food.",
+   "start": 367.596,
+   "end": 367.856,
+   "chunk": "V25"
+  },
+  {
+   "word": "Some",
+   "start": 368.456,
+   "end": 368.596,
+   "chunk": "V25"
+  },
+  {
+   "word": "historians",
+   "start": 368.596,
+   "end": 369.096,
+   "chunk": "V25"
+  },
+  {
+   "word": "argue",
+   "start": 369.096,
+   "end": 369.476,
+   "chunk": "V25"
+  },
+  {
+   "word": "that",
+   "start": 369.476,
+   "end": 369.696,
+   "chunk": "V25"
+  },
+  {
+   "word": "a",
+   "start": 369.696,
+   "end": 369.856,
+   "chunk": "V25"
+  },
+  {
+   "word": "well",
+   "start": 369.856,
+   "end": 370.036,
+   "chunk": "V25"
+  },
+  {
+   "word": "-supplied",
+   "start": 370.036,
+   "end": 370.536,
+   "chunk": "V25"
+  },
+  {
+   "word": "Russia",
+   "start": 370.536,
+   "end": 370.936,
+   "chunk": "V25"
+  },
+  {
+   "word": "might",
+   "start": 370.936,
+   "end": 371.256,
+   "chunk": "V25"
+  },
+  {
+   "word": "have",
+   "start": 371.256,
+   "end": 371.416,
+   "chunk": "V25"
+  },
+  {
+   "word": "held",
+   "start": 371.416,
+   "end": 371.596,
+   "chunk": "V25"
+  },
+  {
+   "word": "together",
+   "start": 371.596,
+   "end": 371.936,
+   "chunk": "V25"
+  },
+  {
+   "word": "longer.",
+   "start": 371.936,
+   "end": 372.436,
+   "chunk": "V25"
+  },
+  {
+   "word": "That",
+   "start": 372.996,
+   "end": 373.136,
+   "chunk": "V25"
+  },
+  {
+   "word": "maybe,",
+   "start": 373.136,
+   "end": 373.556,
+   "chunk": "V25"
+  },
+  {
+   "word": "just",
+   "start": 373.876,
+   "end": 374.056,
+   "chunk": "V25"
+  },
+  {
+   "word": "maybe,",
+   "start": 374.056,
+   "end": 374.476,
+   "chunk": "V25"
+  },
+  {
+   "word": "there's",
+   "start": 374.856,
+   "end": 375.076,
+   "chunk": "V25"
+  },
+  {
+   "word": "no",
+   "start": 375.076,
+   "end": 375.256,
+   "chunk": "V25"
+  },
+  {
+   "word": "revolution",
+   "start": 375.256,
+   "end": 375.816,
+   "chunk": "V25"
+  },
+  {
+   "word": "in",
+   "start": 375.816,
+   "end": 376.076,
+   "chunk": "V25"
+  },
+  {
+   "word": "1917.",
+   "start": 376.076,
+   "end": 376.596,
+   "chunk": "V25"
+  },
+  {
+   "word": "Others",
+   "start": 377.604,
+   "end": 378.044,
+   "chunk": "V26"
+  },
+  {
+   "word": "say",
+   "start": 378.044,
+   "end": 378.464,
+   "chunk": "V26"
+  },
+  {
+   "word": "that's",
+   "start": 378.464,
+   "end": 378.764,
+   "chunk": "V26"
+  },
+  {
+   "word": "a",
+   "start": 378.764,
+   "end": 378.904,
+   "chunk": "V26"
+  },
+  {
+   "word": "fantasy.",
+   "start": 378.904,
+   "end": 379.384,
+   "chunk": "V26"
+  },
+  {
+   "word": "Britain",
+   "start": 380.484,
+   "end": 380.744,
+   "chunk": "V26"
+  },
+  {
+   "word": "and",
+   "start": 380.744,
+   "end": 381.104,
+   "chunk": "V26"
+  },
+  {
+   "word": "France",
+   "start": 381.104,
+   "end": 381.664,
+   "chunk": "V26"
+  },
+  {
+   "word": "barely",
+   "start": 381.664,
+   "end": 382.284,
+   "chunk": "V26"
+  },
+  {
+   "word": "had",
+   "start": 382.284,
+   "end": 382.744,
+   "chunk": "V26"
+  },
+  {
+   "word": "enough",
+   "start": 382.744,
+   "end": 383.164,
+   "chunk": "V26"
+  },
+  {
+   "word": "weapons",
+   "start": 383.164,
+   "end": 383.644,
+   "chunk": "V26"
+  },
+  {
+   "word": "for",
+   "start": 383.644,
+   "end": 384.044,
+   "chunk": "V26"
+  },
+  {
+   "word": "themselves,",
+   "start": 384.044,
+   "end": 384.744,
+   "chunk": "V26"
+  },
+  {
+   "word": "and",
+   "start": 385.604,
+   "end": 385.624,
+   "chunk": "V26"
+  },
+  {
+   "word": "Russia's",
+   "start": 385.624,
+   "end": 386.244,
+   "chunk": "V26"
+  },
+  {
+   "word": "problems",
+   "start": 386.244,
+   "end": 386.584,
+   "chunk": "V26"
+  },
+  {
+   "word": "ran",
+   "start": 386.584,
+   "end": 386.944,
+   "chunk": "V26"
+  },
+  {
+   "word": "much",
+   "start": 386.944,
+   "end": 387.304,
+   "chunk": "V26"
+  },
+  {
+   "word": "deeper",
+   "start": 387.304,
+   "end": 387.724,
+   "chunk": "V26"
+  },
+  {
+   "word": "than",
+   "start": 387.724,
+   "end": 387.964,
+   "chunk": "V26"
+  },
+  {
+   "word": "one",
+   "start": 387.964,
+   "end": 388.324,
+   "chunk": "V26"
+  },
+  {
+   "word": "supply",
+   "start": 388.324,
+   "end": 388.744,
+   "chunk": "V26"
+  },
+  {
+   "word": "route.",
+   "start": 388.744,
+   "end": 389.104,
+   "chunk": "V26"
+  },
+  {
+   "word": "What's",
+   "start": 389.692,
+   "end": 390.072,
+   "chunk": "V27"
+  },
+  {
+   "word": "more",
+   "start": 390.072,
+   "end": 390.212,
+   "chunk": "V27"
+  },
+  {
+   "word": "likely,",
+   "start": 390.212,
+   "end": 390.632,
+   "chunk": "V27"
+  },
+  {
+   "word": "the",
+   "start": 390.932,
+   "end": 391.032,
+   "chunk": "V27"
+  },
+  {
+   "word": "war",
+   "start": 391.032,
+   "end": 391.172,
+   "chunk": "V27"
+  },
+  {
+   "word": "in",
+   "start": 391.172,
+   "end": 391.312,
+   "chunk": "V27"
+  },
+  {
+   "word": "the",
+   "start": 391.312,
+   "end": 391.452,
+   "chunk": "V27"
+  },
+  {
+   "word": "Middle",
+   "start": 391.452,
+   "end": 391.592,
+   "chunk": "V27"
+  },
+  {
+   "word": "East",
+   "start": 391.592,
+   "end": 391.932,
+   "chunk": "V27"
+  },
+  {
+   "word": "ends",
+   "start": 391.932,
+   "end": 392.232,
+   "chunk": "V27"
+  },
+  {
+   "word": "sooner.",
+   "start": 392.232,
+   "end": 392.632,
+   "chunk": "V27"
+  },
+  {
+   "word": "and",
+   "start": 393.772,
+   "end": 394.012,
+   "chunk": "V27"
+  },
+  {
+   "word": "the",
+   "start": 394.012,
+   "end": 394.192,
+   "chunk": "V27"
+  },
+  {
+   "word": "borders",
+   "start": 394.192,
+   "end": 394.532,
+   "chunk": "V27"
+  },
+  {
+   "word": "drawn",
+   "start": 394.532,
+   "end": 394.872,
+   "chunk": "V27"
+  },
+  {
+   "word": "across",
+   "start": 394.872,
+   "end": 395.272,
+   "chunk": "V27"
+  },
+  {
+   "word": "that",
+   "start": 395.272,
+   "end": 395.592,
+   "chunk": "V27"
+  },
+  {
+   "word": "region",
+   "start": 395.592,
+   "end": 395.892,
+   "chunk": "V27"
+  },
+  {
+   "word": "after",
+   "start": 395.892,
+   "end": 396.312,
+   "chunk": "V27"
+  },
+  {
+   "word": "the",
+   "start": 396.312,
+   "end": 396.552,
+   "chunk": "V27"
+  },
+  {
+   "word": "war",
+   "start": 396.552,
+   "end": 396.852,
+   "chunk": "V27"
+  },
+  {
+   "word": "could",
+   "start": 396.852,
+   "end": 397.792,
+   "chunk": "V27"
+  },
+  {
+   "word": "have",
+   "start": 397.792,
+   "end": 398.172,
+   "chunk": "V27"
+  },
+  {
+   "word": "looked",
+   "start": 398.172,
+   "end": 398.592,
+   "chunk": "V27"
+  },
+  {
+   "word": "very",
+   "start": 398.592,
+   "end": 399.172,
+   "chunk": "V27"
+  },
+  {
+   "word": "different.",
+   "start": 399.172,
+   "end": 399.652,
+   "chunk": "V27"
+  },
+  {
+   "word": "But",
+   "start": 401.548,
+   "end": 401.808,
+   "chunk": "V28"
+  },
+  {
+   "word": "here's",
+   "start": 401.808,
+   "end": 402.628,
+   "chunk": "V28"
+  },
+  {
+   "word": "the",
+   "start": 402.628,
+   "end": 402.768,
+   "chunk": "V28"
+  },
+  {
+   "word": "twist.",
+   "start": 402.768,
+   "end": 403.388,
+   "chunk": "V28"
+  },
+  {
+   "word": "Think",
+   "start": 404.468,
+   "end": 404.708,
+   "chunk": "V28"
+  },
+  {
+   "word": "about",
+   "start": 404.708,
+   "end": 405.428,
+   "chunk": "V28"
+  },
+  {
+   "word": "what",
+   "start": 405.428,
+   "end": 405.768,
+   "chunk": "V28"
+  },
+  {
+   "word": "a",
+   "start": 405.768,
+   "end": 405.988,
+   "chunk": "V28"
+  },
+  {
+   "word": "victory",
+   "start": 405.988,
+   "end": 406.388,
+   "chunk": "V28"
+  },
+  {
+   "word": "would",
+   "start": 406.388,
+   "end": 406.768,
+   "chunk": "V28"
+  },
+  {
+   "word": "have",
+   "start": 406.768,
+   "end": 406.908,
+   "chunk": "V28"
+  },
+  {
+   "word": "meant",
+   "start": 406.908,
+   "end": 407.208,
+   "chunk": "V28"
+  },
+  {
+   "word": "for",
+   "start": 407.208,
+   "end": 407.508,
+   "chunk": "V28"
+  },
+  {
+   "word": "Australia",
+   "start": 407.508,
+   "end": 408.108,
+   "chunk": "V28"
+  },
+  {
+   "word": "itself.",
+   "start": 408.108,
+   "end": 408.648,
+   "chunk": "V28"
+  },
+  {
+   "word": "In",
+   "start": 409.364,
+   "end": 409.644,
+   "chunk": "V29"
+  },
+  {
+   "word": "1915,",
+   "start": 409.644,
+   "end": 410.604,
+   "chunk": "V29"
+  },
+  {
+   "word": "Australia",
+   "start": 410.604,
+   "end": 411.424,
+   "chunk": "V29"
+  },
+  {
+   "word": "was",
+   "start": 411.424,
+   "end": 411.644,
+   "chunk": "V29"
+  },
+  {
+   "word": "only",
+   "start": 411.644,
+   "end": 412.024,
+   "chunk": "V29"
+  },
+  {
+   "word": "14",
+   "start": 412.024,
+   "end": 412.624,
+   "chunk": "V29"
+  },
+  {
+   "word": "years",
+   "start": 412.624,
+   "end": 412.924,
+   "chunk": "V29"
+  },
+  {
+   "word": "old",
+   "start": 412.924,
+   "end": 413.164,
+   "chunk": "V29"
+  },
+  {
+   "word": "as",
+   "start": 413.164,
+   "end": 413.304,
+   "chunk": "V29"
+  },
+  {
+   "word": "a",
+   "start": 413.304,
+   "end": 413.484,
+   "chunk": "V29"
+  },
+  {
+   "word": "country.",
+   "start": 413.484,
+   "end": 413.904,
+   "chunk": "V29"
+  },
+  {
+   "word": "Gallipoli",
+   "start": 414.604,
+   "end": 414.884,
+   "chunk": "V29"
+  },
+  {
+   "word": "was",
+   "start": 414.884,
+   "end": 415.124,
+   "chunk": "V29"
+  },
+  {
+   "word": "the",
+   "start": 415.124,
+   "end": 415.304,
+   "chunk": "V29"
+  },
+  {
+   "word": "moment",
+   "start": 415.304,
+   "end": 415.604,
+   "chunk": "V29"
+  },
+  {
+   "word": "many",
+   "start": 415.604,
+   "end": 416.044,
+   "chunk": "V29"
+  },
+  {
+   "word": "Australians",
+   "start": 416.044,
+   "end": 416.644,
+   "chunk": "V29"
+  },
+  {
+   "word": "felt",
+   "start": 416.644,
+   "end": 417.024,
+   "chunk": "V29"
+  },
+  {
+   "word": "they",
+   "start": 417.024,
+   "end": 417.264,
+   "chunk": "V29"
+  },
+  {
+   "word": "had",
+   "start": 417.264,
+   "end": 417.404,
+   "chunk": "V29"
+  },
+  {
+   "word": "become",
+   "start": 417.404,
+   "end": 417.744,
+   "chunk": "V29"
+  },
+  {
+   "word": "a",
+   "start": 417.744,
+   "end": 417.984,
+   "chunk": "V29"
+  },
+  {
+   "word": "nation.",
+   "start": 417.984,
+   "end": 418.324,
+   "chunk": "V29"
+  },
+  {
+   "word": "And",
+   "start": 419.604,
+   "end": 419.904,
+   "chunk": "V29"
+  },
+  {
+   "word": "it",
+   "start": 419.904,
+   "end": 420.124,
+   "chunk": "V29"
+  },
+  {
+   "word": "happened",
+   "start": 420.124,
+   "end": 420.424,
+   "chunk": "V29"
+  },
+  {
+   "word": "through",
+   "start": 420.424,
+   "end": 420.724,
+   "chunk": "V29"
+  },
+  {
+   "word": "a",
+   "start": 420.724,
+   "end": 420.864,
+   "chunk": "V29"
+  },
+  {
+   "word": "defeat.",
+   "start": 420.864,
+   "end": 421.324,
+   "chunk": "V29"
+  },
+  {
+   "word": "Through",
+   "start": 423.644,
+   "end": 423.944,
+   "chunk": "V29"
+  },
+  {
+   "word": "courage,",
+   "start": 423.944,
+   "end": 424.624,
+   "chunk": "V29"
+  },
+  {
+   "word": "mateship,",
+   "start": 425.204,
+   "end": 425.684,
+   "chunk": "V29"
+  },
+  {
+   "word": "and",
+   "start": 425.844,
+   "end": 426.024,
+   "chunk": "V29"
+  },
+  {
+   "word": "loss.",
+   "start": 426.024,
+   "end": 426.524,
+   "chunk": "V29"
+  },
+  {
+   "word": "The",
+   "start": 427.212,
+   "end": 427.412,
+   "chunk": "V30"
+  },
+  {
+   "word": "day",
+   "start": 427.412,
+   "end": 427.612,
+   "chunk": "V30"
+  },
+  {
+   "word": "of",
+   "start": 427.612,
+   "end": 427.772,
+   "chunk": "V30"
+  },
+  {
+   "word": "the",
+   "start": 427.772,
+   "end": 427.932,
+   "chunk": "V30"
+  },
+  {
+   "word": "landing,",
+   "start": 427.932,
+   "end": 428.332,
+   "chunk": "V30"
+  },
+  {
+   "word": "the",
+   "start": 428.812,
+   "end": 428.872,
+   "chunk": "V30"
+  },
+  {
+   "word": "25th",
+   "start": 428.872,
+   "end": 429.512,
+   "chunk": "V30"
+  },
+  {
+   "word": "of",
+   "start": 429.512,
+   "end": 429.572,
+   "chunk": "V30"
+  },
+  {
+   "word": "April,",
+   "start": 429.572,
+   "end": 429.892,
+   "chunk": "V30"
+  },
+  {
+   "word": "became",
+   "start": 430.152,
+   "end": 430.412,
+   "chunk": "V30"
+  },
+  {
+   "word": "Anzac",
+   "start": 430.412,
+   "end": 430.972,
+   "chunk": "V30"
+  },
+  {
+   "word": "Day,",
+   "start": 430.972,
+   "end": 431.352,
+   "chunk": "V30"
+  },
+  {
+   "word": "one",
+   "start": 431.872,
+   "end": 431.952,
+   "chunk": "V30"
+  },
+  {
+   "word": "of",
+   "start": 431.952,
+   "end": 432.052,
+   "chunk": "V30"
+  },
+  {
+   "word": "the",
+   "start": 432.052,
+   "end": 432.192,
+   "chunk": "V30"
+  },
+  {
+   "word": "most",
+   "start": 432.192,
+   "end": 432.432,
+   "chunk": "V30"
+  },
+  {
+   "word": "important",
+   "start": 432.432,
+   "end": 432.912,
+   "chunk": "V30"
+  },
+  {
+   "word": "days",
+   "start": 432.912,
+   "end": 433.252,
+   "chunk": "V30"
+  },
+  {
+   "word": "in",
+   "start": 433.252,
+   "end": 433.432,
+   "chunk": "V30"
+  },
+  {
+   "word": "Australia's",
+   "start": 433.432,
+   "end": 434.092,
+   "chunk": "V30"
+  },
+  {
+   "word": "calendar,",
+   "start": 434.092,
+   "end": 434.452,
+   "chunk": "V30"
+  },
+  {
+   "word": "a",
+   "start": 435.172,
+   "end": 435.272,
+   "chunk": "V30"
+  },
+  {
+   "word": "story",
+   "start": 435.272,
+   "end": 435.592,
+   "chunk": "V30"
+  },
+  {
+   "word": "of",
+   "start": 435.592,
+   "end": 435.772,
+   "chunk": "V30"
+  },
+  {
+   "word": "ordinary",
+   "start": 435.772,
+   "end": 436.352,
+   "chunk": "V30"
+  },
+  {
+   "word": "people",
+   "start": 436.352,
+   "end": 436.772,
+   "chunk": "V30"
+  },
+  {
+   "word": "enduring",
+   "start": 436.772,
+   "end": 437.272,
+   "chunk": "V30"
+  },
+  {
+   "word": "the",
+   "start": 437.272,
+   "end": 437.532,
+   "chunk": "V30"
+  },
+  {
+   "word": "impossible.",
+   "start": 437.532,
+   "end": 438.072,
+   "chunk": "V30"
+  },
+  {
+   "word": "If",
+   "start": 438.96,
+   "end": 439.16,
+   "chunk": "V31"
+  },
+  {
+   "word": "they'd",
+   "start": 439.16,
+   "end": 439.78,
+   "chunk": "V31"
+  },
+  {
+   "word": "won,",
+   "start": 439.78,
+   "end": 440.1,
+   "chunk": "V31"
+  },
+  {
+   "word": "Gallipoli",
+   "start": 440.96,
+   "end": 441.4,
+   "chunk": "V31"
+  },
+  {
+   "word": "might",
+   "start": 441.4,
+   "end": 441.7,
+   "chunk": "V31"
+  },
+  {
+   "word": "be",
+   "start": 441.7,
+   "end": 441.98,
+   "chunk": "V31"
+  },
+  {
+   "word": "remembered",
+   "start": 441.98,
+   "end": 442.48,
+   "chunk": "V31"
+  },
+  {
+   "word": "like",
+   "start": 442.48,
+   "end": 442.78,
+   "chunk": "V31"
+  },
+  {
+   "word": "any",
+   "start": 442.78,
+   "end": 443.26,
+   "chunk": "V31"
+  },
+  {
+   "word": "other",
+   "start": 443.26,
+   "end": 443.56,
+   "chunk": "V31"
+  },
+  {
+   "word": "victory.",
+   "start": 443.56,
+   "end": 444.1,
+   "chunk": "V31"
+  },
+  {
+   "word": "A",
+   "start": 444.76,
+   "end": 444.84,
+   "chunk": "V31"
+  },
+  {
+   "word": "date",
+   "start": 444.84,
+   "end": 445.18,
+   "chunk": "V31"
+  },
+  {
+   "word": "in",
+   "start": 445.18,
+   "end": 445.36,
+   "chunk": "V31"
+  },
+  {
+   "word": "a",
+   "start": 445.36,
+   "end": 445.54,
+   "chunk": "V31"
+  },
+  {
+   "word": "textbook.",
+   "start": 445.54,
+   "end": 446.0,
+   "chunk": "V31"
+  },
+  {
+   "word": "Australia's",
+   "start": 447.04,
+   "end": 447.74,
+   "chunk": "V31"
+  },
+  {
+   "word": "story",
+   "start": 447.74,
+   "end": 448.06,
+   "chunk": "V31"
+  },
+  {
+   "word": "of",
+   "start": 448.06,
+   "end": 448.22,
+   "chunk": "V31"
+  },
+  {
+   "word": "itself",
+   "start": 448.22,
+   "end": 448.68,
+   "chunk": "V31"
+  },
+  {
+   "word": "could",
+   "start": 448.68,
+   "end": 448.96,
+   "chunk": "V31"
+  },
+  {
+   "word": "have",
+   "start": 448.96,
+   "end": 449.1,
+   "chunk": "V31"
+  },
+  {
+   "word": "been",
+   "start": 449.1,
+   "end": 449.32,
+   "chunk": "V31"
+  },
+  {
+   "word": "built",
+   "start": 449.32,
+   "end": 449.56,
+   "chunk": "V31"
+  },
+  {
+   "word": "on",
+   "start": 449.56,
+   "end": 449.84,
+   "chunk": "V31"
+  },
+  {
+   "word": "something",
+   "start": 449.84,
+   "end": 450.2,
+   "chunk": "V31"
+  },
+  {
+   "word": "else",
+   "start": 450.2,
+   "end": 450.58,
+   "chunk": "V31"
+  },
+  {
+   "word": "entirely.",
+   "start": 450.58,
+   "end": 451.22,
+   "chunk": "V31"
+  },
+  {
+   "word": "And",
+   "start": 451.928,
+   "end": 452.128,
+   "chunk": "V32"
+  },
+  {
+   "word": "it's",
+   "start": 452.128,
+   "end": 452.388,
+   "chunk": "V32"
+  },
+  {
+   "word": "not",
+   "start": 452.388,
+   "end": 452.568,
+   "chunk": "V32"
+  },
+  {
+   "word": "just",
+   "start": 452.568,
+   "end": 452.828,
+   "chunk": "V32"
+  },
+  {
+   "word": "Australia.",
+   "start": 452.828,
+   "end": 453.448,
+   "chunk": "V32"
+  },
+  {
+   "word": "On",
+   "start": 453.988,
+   "end": 454.088,
+   "chunk": "V32"
+  },
+  {
+   "word": "the",
+   "start": 454.088,
+   "end": 454.228,
+   "chunk": "V32"
+  },
+  {
+   "word": "other",
+   "start": 454.228,
+   "end": 454.468,
+   "chunk": "V32"
+  },
+  {
+   "word": "side",
+   "start": 454.468,
+   "end": 454.768,
+   "chunk": "V32"
+  },
+  {
+   "word": "of",
+   "start": 454.768,
+   "end": 454.928,
+   "chunk": "V32"
+  },
+  {
+   "word": "those",
+   "start": 454.928,
+   "end": 455.108,
+   "chunk": "V32"
+  },
+  {
+   "word": "trenches,",
+   "start": 455.108,
+   "end": 455.648,
+   "chunk": "V32"
+  },
+  {
+   "word": "Gallipoli",
+   "start": 456.028,
+   "end": 456.308,
+   "chunk": "V32"
+  },
+  {
+   "word": "made",
+   "start": 456.308,
+   "end": 456.628,
+   "chunk": "V32"
+  },
+  {
+   "word": "Mustafa",
+   "start": 456.628,
+   "end": 457.208,
+   "chunk": "V32"
+  },
+  {
+   "word": "Kemal",
+   "start": 457.208,
+   "end": 457.608,
+   "chunk": "V32"
+  },
+  {
+   "word": "a",
+   "start": 457.608,
+   "end": 457.848,
+   "chunk": "V32"
+  },
+  {
+   "word": "national",
+   "start": 457.848,
+   "end": 458.268,
+   "chunk": "V32"
+  },
+  {
+   "word": "hero.",
+   "start": 458.268,
+   "end": 458.668,
+   "chunk": "V32"
+  },
+  {
+   "word": "Eight",
+   "start": 459.288,
+   "end": 459.428,
+   "chunk": "V32"
+  },
+  {
+   "word": "years",
+   "start": 459.428,
+   "end": 459.748,
+   "chunk": "V32"
+  },
+  {
+   "word": "later,",
+   "start": 459.748,
+   "end": 460.108,
+   "chunk": "V32"
+  },
+  {
+   "word": "he",
+   "start": 460.308,
+   "end": 460.348,
+   "chunk": "V32"
+  },
+  {
+   "word": "founded",
+   "start": 460.348,
+   "end": 460.728,
+   "chunk": "V32"
+  },
+  {
+   "word": "the",
+   "start": 460.728,
+   "end": 460.988,
+   "chunk": "V32"
+  },
+  {
+   "word": "modern",
+   "start": 460.988,
+   "end": 461.288,
+   "chunk": "V32"
+  },
+  {
+   "word": "Republic",
+   "start": 461.288,
+   "end": 461.688,
+   "chunk": "V32"
+  },
+  {
+   "word": "of",
+   "start": 461.688,
+   "end": 461.928,
+   "chunk": "V32"
+  },
+  {
+   "word": "Turkey",
+   "start": 461.928,
+   "end": 462.308,
+   "chunk": "V32"
+  },
+  {
+   "word": "and",
+   "start": 462.308,
+   "end": 462.848,
+   "chunk": "V32"
+  },
+  {
+   "word": "became",
+   "start": 462.848,
+   "end": 463.148,
+   "chunk": "V32"
+  },
+  {
+   "word": "known",
+   "start": 463.148,
+   "end": 463.468,
+   "chunk": "V32"
+  },
+  {
+   "word": "as",
+   "start": 463.468,
+   "end": 463.628,
+   "chunk": "V32"
+  },
+  {
+   "word": "Ataturk.",
+   "start": 463.628,
+   "end": 464.408,
+   "chunk": "V32"
+  },
+  {
+   "word": "Without",
+   "start": 464.908,
+   "end": 465.148,
+   "chunk": "V32"
+  },
+  {
+   "word": "his",
+   "start": 465.148,
+   "end": 465.408,
+   "chunk": "V32"
+  },
+  {
+   "word": "stand",
+   "start": 465.408,
+   "end": 465.728,
+   "chunk": "V32"
+  },
+  {
+   "word": "at",
+   "start": 465.728,
+   "end": 465.888,
+   "chunk": "V32"
+  },
+  {
+   "word": "Gallipoli,",
+   "start": 465.888,
+   "end": 466.408,
+   "chunk": "V32"
+  },
+  {
+   "word": "would",
+   "start": 466.648,
+   "end": 466.748,
+   "chunk": "V32"
+  },
+  {
+   "word": "modern",
+   "start": 466.748,
+   "end": 467.168,
+   "chunk": "V32"
+  },
+  {
+   "word": "Turkey",
+   "start": 467.168,
+   "end": 467.508,
+   "chunk": "V32"
+  },
+  {
+   "word": "look",
+   "start": 467.508,
+   "end": 467.728,
+   "chunk": "V32"
+  },
+  {
+   "word": "the",
+   "start": 467.728,
+   "end": 467.928,
+   "chunk": "V32"
+  },
+  {
+   "word": "same?",
+   "start": 467.928,
+   "end": 468.268,
+   "chunk": "V32"
+  },
+  {
+   "word": "Historians",
+   "start": 468.768,
+   "end": 469.268,
+   "chunk": "V32"
+  },
+  {
+   "word": "can",
+   "start": 469.268,
+   "end": 469.508,
+   "chunk": "V32"
+  },
+  {
+   "word": "only",
+   "start": 469.508,
+   "end": 469.928,
+   "chunk": "V32"
+  },
+  {
+   "word": "guess.",
+   "start": 469.928,
+   "end": 470.248,
+   "chunk": "V32"
+  },
+  {
+   "word": "And",
+   "start": 470.928,
+   "end": 471.268,
+   "chunk": "V33"
+  },
+  {
+   "word": "then",
+   "start": 471.268,
+   "end": 471.708,
+   "chunk": "V33"
+  },
+  {
+   "word": "there's",
+   "start": 471.708,
+   "end": 472.288,
+   "chunk": "V33"
+  },
+  {
+   "word": "the",
+   "start": 472.288,
+   "end": 472.468,
+   "chunk": "V33"
+  },
+  {
+   "word": "strangest",
+   "start": 472.468,
+   "end": 473.328,
+   "chunk": "V33"
+  },
+  {
+   "word": "ending",
+   "start": 473.328,
+   "end": 473.788,
+   "chunk": "V33"
+  },
+  {
+   "word": "of",
+   "start": 473.788,
+   "end": 474.028,
+   "chunk": "V33"
+  },
+  {
+   "word": "all.",
+   "start": 474.028,
+   "end": 474.528,
+   "chunk": "V33"
+  },
+  {
+   "word": "In",
+   "start": 476.108,
+   "end": 476.388,
+   "chunk": "V33"
+  },
+  {
+   "word": "1985,",
+   "start": 476.388,
+   "end": 477.428,
+   "chunk": "V33"
+  },
+  {
+   "word": "Turkey",
+   "start": 477.928,
+   "end": 478.248,
+   "chunk": "V33"
+  },
+  {
+   "word": "officially",
+   "start": 478.248,
+   "end": 478.848,
+   "chunk": "V33"
+  },
+  {
+   "word": "named",
+   "start": 478.848,
+   "end": 479.268,
+   "chunk": "V33"
+  },
+  {
+   "word": "that",
+   "start": 479.268,
+   "end": 479.548,
+   "chunk": "V33"
+  },
+  {
+   "word": "little",
+   "start": 479.548,
+   "end": 479.908,
+   "chunk": "V33"
+  },
+  {
+   "word": "beach",
+   "start": 479.908,
+   "end": 480.288,
+   "chunk": "V33"
+  },
+  {
+   "word": "Anzac",
+   "start": 480.288,
+   "end": 481.008,
+   "chunk": "V33"
+  },
+  {
+   "word": "Cove.",
+   "start": 481.008,
+   "end": 481.468,
+   "chunk": "V33"
+  },
+  {
+   "word": "Today,",
+   "start": 482.988,
+   "end": 483.388,
+   "chunk": "V33"
+  },
+  {
+   "word": "every",
+   "start": 484.028,
+   "end": 484.128,
+   "chunk": "V33"
+  },
+  {
+   "word": "25th",
+   "start": 484.128,
+   "end": 484.988,
+   "chunk": "V33"
+  },
+  {
+   "word": "of",
+   "start": 484.988,
+   "end": 484.988,
+   "chunk": "V33"
+  },
+  {
+   "word": "April,",
+   "start": 484.988,
+   "end": 485.388,
+   "chunk": "V33"
+  },
+  {
+   "word": "thousands",
+   "start": 486.068,
+   "end": 486.348,
+   "chunk": "V33"
+  },
+  {
+   "word": "of",
+   "start": 486.348,
+   "end": 486.648,
+   "chunk": "V33"
+  },
+  {
+   "word": "Australians",
+   "start": 486.648,
+   "end": 487.268,
+   "chunk": "V33"
+  },
+  {
+   "word": "and",
+   "start": 487.268,
+   "end": 487.508,
+   "chunk": "V33"
+  },
+  {
+   "word": "New",
+   "start": 487.508,
+   "end": 487.708,
+   "chunk": "V33"
+  },
+  {
+   "word": "Zealanders",
+   "start": 487.708,
+   "end": 488.288,
+   "chunk": "V33"
+  },
+  {
+   "word": "travel",
+   "start": 488.288,
+   "end": 488.688,
+   "chunk": "V33"
+  },
+  {
+   "word": "there",
+   "start": 488.688,
+   "end": 488.968,
+   "chunk": "V33"
+  },
+  {
+   "word": "for",
+   "start": 488.968,
+   "end": 489.208,
+   "chunk": "V33"
+  },
+  {
+   "word": "a",
+   "start": 489.208,
+   "end": 489.448,
+   "chunk": "V33"
+  },
+  {
+   "word": "dawn",
+   "start": 489.448,
+   "end": 489.628,
+   "chunk": "V33"
+  },
+  {
+   "word": "service,",
+   "start": 489.628,
+   "end": 490.228,
+   "chunk": "V33"
+  },
+  {
+   "word": "welcomed",
+   "start": 490.828,
+   "end": 491.128,
+   "chunk": "V33"
+  },
+  {
+   "word": "by",
+   "start": 491.128,
+   "end": 491.408,
+   "chunk": "V33"
+  },
+  {
+   "word": "the",
+   "start": 491.408,
+   "end": 491.628,
+   "chunk": "V33"
+  },
+  {
+   "word": "country",
+   "start": 491.628,
+   "end": 491.968,
+   "chunk": "V33"
+  },
+  {
+   "word": "their",
+   "start": 491.968,
+   "end": 492.228,
+   "chunk": "V33"
+  },
+  {
+   "word": "great",
+   "start": 492.228,
+   "end": 492.548,
+   "chunk": "V33"
+  },
+  {
+   "word": "-grandparents",
+   "start": 492.548,
+   "end": 493.228,
+   "chunk": "V33"
+  },
+  {
+   "word": "invaded.",
+   "start": 493.228,
+   "end": 493.728,
+   "chunk": "V33"
+  },
+  {
+   "word": "At",
+   "start": 494.488,
+   "end": 494.768,
+   "chunk": "V34"
+  },
+  {
+   "word": "the",
+   "start": 494.768,
+   "end": 495.028,
+   "chunk": "V34"
+  },
+  {
+   "word": "cove",
+   "start": 495.028,
+   "end": 495.308,
+   "chunk": "V34"
+  },
+  {
+   "word": "stands",
+   "start": 495.308,
+   "end": 495.708,
+   "chunk": "V34"
+  },
+  {
+   "word": "a",
+   "start": 495.708,
+   "end": 495.888,
+   "chunk": "V34"
+  },
+  {
+   "word": "memorial",
+   "start": 495.888,
+   "end": 496.388,
+   "chunk": "V34"
+  },
+  {
+   "word": "with",
+   "start": 496.388,
+   "end": 497.008,
+   "chunk": "V34"
+  },
+  {
+   "word": "words",
+   "start": 497.008,
+   "end": 497.428,
+   "chunk": "V34"
+  },
+  {
+   "word": "attributed",
+   "start": 497.428,
+   "end": 497.908,
+   "chunk": "V34"
+  },
+  {
+   "word": "to",
+   "start": 497.908,
+   "end": 498.268,
+   "chunk": "V34"
+  },
+  {
+   "word": "Atat\u00fcrk",
+   "start": 498.268,
+   "end": 498.888,
+   "chunk": "V34"
+  },
+  {
+   "word": "telling",
+   "start": 498.888,
+   "end": 499.508,
+   "chunk": "V34"
+  },
+  {
+   "word": "the",
+   "start": 499.508,
+   "end": 499.768,
+   "chunk": "V34"
+  },
+  {
+   "word": "mothers",
+   "start": 499.768,
+   "end": 500.008,
+   "chunk": "V34"
+  },
+  {
+   "word": "of",
+   "start": 500.008,
+   "end": 500.188,
+   "chunk": "V34"
+  },
+  {
+   "word": "the",
+   "start": 500.188,
+   "end": 500.328,
+   "chunk": "V34"
+  },
+  {
+   "word": "fallen",
+   "start": 500.328,
+   "end": 500.688,
+   "chunk": "V34"
+  },
+  {
+   "word": "that",
+   "start": 500.688,
+   "end": 500.948,
+   "chunk": "V34"
+  },
+  {
+   "word": "their",
+   "start": 500.948,
+   "end": 501.088,
+   "chunk": "V34"
+  },
+  {
+   "word": "sons",
+   "start": 501.088,
+   "end": 501.468,
+   "chunk": "V34"
+  },
+  {
+   "word": "now",
+   "start": 501.468,
+   "end": 501.788,
+   "chunk": "V34"
+  },
+  {
+   "word": "lie",
+   "start": 501.788,
+   "end": 502.048,
+   "chunk": "V34"
+  },
+  {
+   "word": "in",
+   "start": 502.048,
+   "end": 502.308,
+   "chunk": "V34"
+  },
+  {
+   "word": "Turkish",
+   "start": 502.308,
+   "end": 502.628,
+   "chunk": "V34"
+  },
+  {
+   "word": "soil",
+   "start": 502.628,
+   "end": 503.088,
+   "chunk": "V34"
+  },
+  {
+   "word": "as",
+   "start": 503.088,
+   "end": 503.728,
+   "chunk": "V34"
+  },
+  {
+   "word": "Turkey's",
+   "start": 503.728,
+   "end": 504.348,
+   "chunk": "V34"
+  },
+  {
+   "word": "own",
+   "start": 504.348,
+   "end": 504.568,
+   "chunk": "V34"
+  },
+  {
+   "word": "sons.",
+   "start": 504.568,
+   "end": 505.168,
+   "chunk": "V34"
+  },
+  {
+   "word": "Historians",
+   "start": 505.808,
+   "end": 506.308,
+   "chunk": "V34"
+  },
+  {
+   "word": "debate",
+   "start": 506.308,
+   "end": 506.668,
+   "chunk": "V34"
+  },
+  {
+   "word": "whether",
+   "start": 506.668,
+   "end": 506.928,
+   "chunk": "V34"
+  },
+  {
+   "word": "he",
+   "start": 506.928,
+   "end": 507.128,
+   "chunk": "V34"
+  },
+  {
+   "word": "really",
+   "start": 507.128,
+   "end": 507.488,
+   "chunk": "V34"
+  },
+  {
+   "word": "wrote",
+   "start": 507.488,
+   "end": 507.768,
+   "chunk": "V34"
+  },
+  {
+   "word": "them",
+   "start": 507.768,
+   "end": 508.088,
+   "chunk": "V34"
+  },
+  {
+   "word": "but",
+   "start": 508.088,
+   "end": 508.528,
+   "chunk": "V34"
+  },
+  {
+   "word": "they're",
+   "start": 508.528,
+   "end": 508.848,
+   "chunk": "V34"
+  },
+  {
+   "word": "carved",
+   "start": 508.848,
+   "end": 509.108,
+   "chunk": "V34"
+  },
+  {
+   "word": "in",
+   "start": 509.108,
+   "end": 509.288,
+   "chunk": "V34"
+  },
+  {
+   "word": "stone",
+   "start": 509.288,
+   "end": 509.728,
+   "chunk": "V34"
+  },
+  {
+   "word": "and",
+   "start": 509.728,
+   "end": 510.228,
+   "chunk": "V34"
+  },
+  {
+   "word": "both",
+   "start": 510.228,
+   "end": 510.488,
+   "chunk": "V34"
+  },
+  {
+   "word": "nations",
+   "start": 510.488,
+   "end": 510.948,
+   "chunk": "V34"
+  },
+  {
+   "word": "hold",
+   "start": 510.948,
+   "end": 511.228,
+   "chunk": "V34"
+  },
+  {
+   "word": "them",
+   "start": 511.228,
+   "end": 511.408,
+   "chunk": "V34"
+  },
+  {
+   "word": "close.",
+   "start": 511.408,
+   "end": 511.828,
+   "chunk": "V34"
+  },
+  {
+   "word": "So",
+   "start": 513.628,
+   "end": 513.968,
+   "chunk": "V35"
+  },
+  {
+   "word": "what",
+   "start": 513.968,
+   "end": 514.508,
+   "chunk": "V35"
+  },
+  {
+   "word": "if",
+   "start": 514.508,
+   "end": 514.668,
+   "chunk": "V35"
+  },
+  {
+   "word": "Australia",
+   "start": 514.668,
+   "end": 515.188,
+   "chunk": "V35"
+  },
+  {
+   "word": "had",
+   "start": 515.188,
+   "end": 515.448,
+   "chunk": "V35"
+  },
+  {
+   "word": "won",
+   "start": 515.448,
+   "end": 515.648,
+   "chunk": "V35"
+  },
+  {
+   "word": "at",
+   "start": 515.648,
+   "end": 515.808,
+   "chunk": "V35"
+  },
+  {
+   "word": "Gallipoli?",
+   "start": 515.808,
+   "end": 516.268,
+   "chunk": "V35"
+  },
+  {
+   "word": "The",
+   "start": 516.928,
+   "end": 517.008,
+   "chunk": "V35"
+  },
+  {
+   "word": "war",
+   "start": 517.008,
+   "end": 517.208,
+   "chunk": "V35"
+  },
+  {
+   "word": "might",
+   "start": 517.208,
+   "end": 517.408,
+   "chunk": "V35"
+  },
+  {
+   "word": "have",
+   "start": 517.408,
+   "end": 517.548,
+   "chunk": "V35"
+  },
+  {
+   "word": "ended",
+   "start": 517.548,
+   "end": 517.788,
+   "chunk": "V35"
+  },
+  {
+   "word": "sooner.",
+   "start": 517.788,
+   "end": 518.168,
+   "chunk": "V35"
+  },
+  {
+   "word": "The",
+   "start": 518.588,
+   "end": 518.648,
+   "chunk": "V35"
+  },
+  {
+   "word": "map",
+   "start": 518.648,
+   "end": 518.868,
+   "chunk": "V35"
+  },
+  {
+   "word": "of",
+   "start": 518.868,
+   "end": 519.068,
+   "chunk": "V35"
+  },
+  {
+   "word": "Europe",
+   "start": 519.068,
+   "end": 519.308,
+   "chunk": "V35"
+  },
+  {
+   "word": "and",
+   "start": 519.308,
+   "end": 519.508,
+   "chunk": "V35"
+  },
+  {
+   "word": "the",
+   "start": 519.508,
+   "end": 519.628,
+   "chunk": "V35"
+  },
+  {
+   "word": "Middle",
+   "start": 519.628,
+   "end": 519.788,
+   "chunk": "V35"
+  },
+  {
+   "word": "East",
+   "start": 519.788,
+   "end": 520.108,
+   "chunk": "V35"
+  },
+  {
+   "word": "might",
+   "start": 520.108,
+   "end": 520.388,
+   "chunk": "V35"
+  },
+  {
+   "word": "look",
+   "start": 520.388,
+   "end": 520.648,
+   "chunk": "V35"
+  },
+  {
+   "word": "very",
+   "start": 520.648,
+   "end": 520.988,
+   "chunk": "V35"
+  },
+  {
+   "word": "different.",
+   "start": 520.988,
+   "end": 521.408,
+   "chunk": "V35"
+  },
+  {
+   "word": "But",
+   "start": 521.988,
+   "end": 522.148,
+   "chunk": "V35"
+  },
+  {
+   "word": "Australia",
+   "start": 522.148,
+   "end": 523.028,
+   "chunk": "V35"
+  },
+  {
+   "word": "might",
+   "start": 523.028,
+   "end": 523.288,
+   "chunk": "V35"
+  },
+  {
+   "word": "never",
+   "start": 523.288,
+   "end": 523.628,
+   "chunk": "V35"
+  },
+  {
+   "word": "have",
+   "start": 523.628,
+   "end": 523.828,
+   "chunk": "V35"
+  },
+  {
+   "word": "found",
+   "start": 523.828,
+   "end": 524.048,
+   "chunk": "V35"
+  },
+  {
+   "word": "the",
+   "start": 524.048,
+   "end": 524.208,
+   "chunk": "V35"
+  },
+  {
+   "word": "story",
+   "start": 524.208,
+   "end": 524.548,
+   "chunk": "V35"
+  },
+  {
+   "word": "that",
+   "start": 524.548,
+   "end": 524.868,
+   "chunk": "V35"
+  },
+  {
+   "word": "more",
+   "start": 524.868,
+   "end": 525.348,
+   "chunk": "V35"
+  },
+  {
+   "word": "than",
+   "start": 525.348,
+   "end": 525.528,
+   "chunk": "V35"
+  },
+  {
+   "word": "a",
+   "start": 525.528,
+   "end": 525.688,
+   "chunk": "V35"
+  },
+  {
+   "word": "century",
+   "start": 525.688,
+   "end": 526.008,
+   "chunk": "V35"
+  },
+  {
+   "word": "later",
+   "start": 526.008,
+   "end": 526.428,
+   "chunk": "V35"
+  },
+  {
+   "word": "still",
+   "start": 526.428,
+   "end": 527.168,
+   "chunk": "V35"
+  },
+  {
+   "word": "brings",
+   "start": 527.168,
+   "end": 527.508,
+   "chunk": "V35"
+  },
+  {
+   "word": "former",
+   "start": 527.508,
+   "end": 527.928,
+   "chunk": "V35"
+  },
+  {
+   "word": "enemies",
+   "start": 527.928,
+   "end": 528.308,
+   "chunk": "V35"
+  },
+  {
+   "word": "together",
+   "start": 528.308,
+   "end": 528.688,
+   "chunk": "V35"
+  },
+  {
+   "word": "on",
+   "start": 528.688,
+   "end": 528.948,
+   "chunk": "V35"
+  },
+  {
+   "word": "the",
+   "start": 528.948,
+   "end": 529.068,
+   "chunk": "V35"
+  },
+  {
+   "word": "same",
+   "start": 529.068,
+   "end": 529.308,
+   "chunk": "V35"
+  },
+  {
+   "word": "beach.",
+   "start": 529.308,
+   "end": 529.688,
+   "chunk": "V35"
+  },
+  {
+   "word": "Which",
+   "start": 531.996,
+   "end": 532.316,
+   "chunk": "V36"
+  },
+  {
+   "word": "what",
+   "start": 532.316,
+   "end": 532.596,
+   "chunk": "V36"
+  },
+  {
+   "word": "if",
+   "start": 532.596,
+   "end": 532.816,
+   "chunk": "V36"
+  },
+  {
+   "word": "should",
+   "start": 532.816,
+   "end": 533.076,
+   "chunk": "V36"
+  },
+  {
+   "word": "we",
+   "start": 533.076,
+   "end": 533.276,
+   "chunk": "V36"
+  },
+  {
+   "word": "map",
+   "start": 533.276,
+   "end": 533.576,
+   "chunk": "V36"
+  },
+  {
+   "word": "next?",
+   "start": 533.576,
+   "end": 534.156,
+   "chunk": "V36"
+  },
+  {
+   "word": "Tell",
+   "start": 534.756,
+   "end": 534.796,
+   "chunk": "V36"
+  },
+  {
+   "word": "me",
+   "start": 534.796,
+   "end": 534.956,
+   "chunk": "V36"
+  },
+  {
+   "word": "in",
+   "start": 534.956,
+   "end": 535.056,
+   "chunk": "V36"
+  },
+  {
+   "word": "the",
+   "start": 535.056,
+   "end": 535.216,
+   "chunk": "V36"
+  },
+  {
+   "word": "comments.",
+   "start": 535.216,
+   "end": 535.616,
+   "chunk": "V36"
+  },
+  {
+   "word": "And",
+   "start": 536.116,
+   "end": 536.156,
+   "chunk": "V36"
+  },
+  {
+   "word": "if",
+   "start": 536.156,
+   "end": 536.336,
+   "chunk": "V36"
+  },
+  {
+   "word": "this",
+   "start": 536.336,
+   "end": 536.596,
+   "chunk": "V36"
+  },
+  {
+   "word": "one",
+   "start": 536.596,
+   "end": 536.796,
+   "chunk": "V36"
+  },
+  {
+   "word": "made",
+   "start": 536.796,
+   "end": 536.996,
+   "chunk": "V36"
+  },
+  {
+   "word": "you",
+   "start": 536.996,
+   "end": 537.176,
+   "chunk": "V36"
+  },
+  {
+   "word": "think,",
+   "start": 537.176,
+   "end": 537.576,
+   "chunk": "V36"
+  },
+  {
+   "word": "a",
+   "start": 537.896,
+   "end": 538.056,
+   "chunk": "V36"
+  },
+  {
+   "word": "like",
+   "start": 538.056,
+   "end": 538.236,
+   "chunk": "V36"
+  },
+  {
+   "word": "helps",
+   "start": 538.236,
+   "end": 538.616,
+   "chunk": "V36"
+  },
+  {
+   "word": "this",
+   "start": 538.616,
+   "end": 538.876,
+   "chunk": "V36"
+  },
+  {
+   "word": "series",
+   "start": 538.876,
+   "end": 539.256,
+   "chunk": "V36"
+  },
+  {
+   "word": "reach",
+   "start": 539.256,
+   "end": 539.576,
+   "chunk": "V36"
+  },
+  {
+   "word": "more",
+   "start": 539.576,
+   "end": 539.816,
+   "chunk": "V36"
+  },
+  {
+   "word": "people.",
+   "start": 539.816,
+   "end": 540.276,
+   "chunk": "V36"
+  },
+  {
+   "word": "Follow",
+   "start": 541.276,
+   "end": 541.556,
+   "chunk": "V36"
+  },
+  {
+   "word": "along,",
+   "start": 541.556,
+   "end": 542.156,
+   "chunk": "V36"
+  },
+  {
+   "word": "because",
+   "start": 542.636,
+   "end": 543.036,
+   "chunk": "V36"
+  },
+  {
+   "word": "history",
+   "start": 543.036,
+   "end": 543.596,
+   "chunk": "V36"
+  },
+  {
+   "word": "is",
+   "start": 543.596,
+   "end": 544.116,
+   "chunk": "V36"
+  },
+  {
+   "word": "full",
+   "start": 544.116,
+   "end": 544.436,
+   "chunk": "V36"
+  },
+  {
+   "word": "of",
+   "start": 544.436,
+   "end": 544.676,
+   "chunk": "V36"
+  },
+  {
+   "word": "moments",
+   "start": 544.676,
+   "end": 545.056,
+   "chunk": "V36"
+  },
+  {
+   "word": "that",
+   "start": 545.056,
+   "end": 545.356,
+   "chunk": "V36"
+  },
+  {
+   "word": "almost",
+   "start": 545.356,
+   "end": 545.816,
+   "chunk": "V36"
+  },
+  {
+   "word": "went",
+   "start": 545.816,
+   "end": 546.156,
+   "chunk": "V36"
+  },
+  {
+   "word": "the",
+   "start": 546.156,
+   "end": 546.376,
+   "chunk": "V36"
+  },
+  {
+   "word": "other",
+   "start": 546.376,
+   "end": 546.576,
+   "chunk": "V36"
+  },
+  {
+   "word": "way.",
+   "start": 546.576,
+   "end": 546.896,
+   "chunk": "V36"
+  }
+ ]
+}
