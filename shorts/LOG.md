@@ -205,3 +205,8 @@ Unpacked 6 Grok VOs into shorts/incoming-vo/. #01 matches finished Skylab Short;
 - Mix: two-pass loudnorm ~−14 LUFS; AAC true peak ≤ −1.5 dBTP (s30 AAC peaked at −1.32 — leave headroom)
 - Master map: do not invent routes; if prior polylines cannot be loaded, pull back over Antarctica and hold
 - Unrelated dirty files on the other checkout were not staged
+
+## 2026-10-04 — s31 Douglas Mawson (Claude build)
+- Map-animation build, mix and final render in `shorts/s31-mawson/`. See its `LOG.md` and `render/README.md`.
+- −14 LUFS master. AAC true peak −2.3 dBTP, measured in the MP4.
+- Shared `capture.mjs` gains the `/ep/` asset route, `openEpisodePage` and the `PLAYWRIGHT_CHROMIUM` override, the same as on the s30 branch.

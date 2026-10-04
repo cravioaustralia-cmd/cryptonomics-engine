@@ -38,3 +38,7 @@ The Flickr/NLA “No known copyright restrictions” uniform portrait of Ninnis 
 ## Script lock
 
 Do not rewrite spoken words. On-screen names: Mawson, Ninnis, Mertz, Ninnis Glacier, Mertz Glacier. Australian English. About 500 kilometres, about 160 kilometres, January 1913, a few hours — as spoken.
+
+## Build (Claude, 4 Oct 2026)
+
+The build data sources are listed in `images/SOURCES.md` under "Basemap and map data used in the build". Fonts are Anton and Montserrat under the SIL Open Font Licence, with licence texts in `render/fonts/`. The film grain is `render/assets/grain.png`, reused from the s30 render.

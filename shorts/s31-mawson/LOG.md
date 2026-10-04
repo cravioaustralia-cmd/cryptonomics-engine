@@ -21,3 +21,11 @@
 - Dirty unrelated paths on the other checkout were not in this worktree and were not staged
 - Handoff next: parent seats Atlas `audio/vo.mp3` → user pulls this branch → user pastes `PASTE_BRIEF.md` into Claude Code. Do not @claude, do not PR from this scaffold, do not upload
 - Atlas VO seated at `audio/vo.mp3` (79.6s); do not overwrite.
+
+## 2026-10-04 — Claude build (map animation, final render)
+- Pulled `scaffold/s31-mawson`. Held Atlas VO `audio/vo.mp3` used as is (79.584 s, md5 e0337d21…7581). Not re-recorded, not overwritten.
+- `transcript.json`: faster-whisper medium.en on the held VO. All 204 words matched; "kilometers" → "kilometres", "6" → "six".
+- `render/scenes.js`: continuous kinetic map on an orthographic globe plane, from an open-data ice basemap with no blown white relief. It has the self-drawing route, the always-moving camera, ~500 KM and ~160 KM dimension lines, the DISTANCE TO BASE counter, the sledge snapping in two, Mawson's rope crevasse and the ship leaving as he arrives. The only gag is the hats and flag pins before the crevasse, and the snow-camel shows early only. PD portraits are small name cards.
+- Master map: real polylines loaded from the repo for ep.1, ep.2, ep.4 and ep.5 (the s30 render's walk line, `origin/claude/model-opus-v3027k`). There is no ep.3 and no s29.
+- Mix: VO −23.0 LUFS +5.0 dB static, Skyline bed at −36.2 LUFS, 8 SFX events, linear two-pass master loudnorm −14 LUFS. **AAC true peak −2.3 dBTP** in `final-mix.m4a` and inside the master MP4. WAV −2.5 dBTP.
+- Final: `final/s31-mawson.mp4` (1080×1920, 30 fps, 2388 frames, 79.6 s, 56 MB), `final/contact-sheet.jpg` (reviewed), `final/loudnorm-report.txt`. Not uploaded, not merged.
