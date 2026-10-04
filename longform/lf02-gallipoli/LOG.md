@@ -4,3 +4,4 @@
 
 2026-10-04 — voice V01–V36 including V16b seated (Atlas), 20 real photos seated (see images/CREDITS.md), Imagine B01–B08 seated, B09+ still generating.
 2026-10-04 — Imagine B09–B20 seated. B12b and B21–B32 still generating.
+2026-10-04 — Imagine B12b and B21–B32 seated. All 33 B-roll clips are in.
