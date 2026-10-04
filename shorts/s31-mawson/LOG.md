@@ -20,3 +20,4 @@
 - Master map: prior polylines live on other commits, not this branch. Episode 5 fence only if a real polyline exists (s30 scaffold has none). If Claude cannot load them: pull back over Antarctica and hold. Do not invent episode 3. Do not draw s29
 - Dirty unrelated paths on the other checkout were not in this worktree and were not staged
 - Handoff next: parent seats Atlas `audio/vo.mp3` → user pulls this branch → user pastes `PASTE_BRIEF.md` into Claude Code. Do not @claude, do not PR from this scaffold, do not upload
+- Atlas VO seated at `audio/vo.mp3` (79.6s); do not overwrite.
