@@ -1,0 +1,30 @@
+# systemd unit for squeeze-radar (read-only scanner).
+# Install:
+#   sudo cp deploy/squeeze-radar.service /etc/systemd/system/
+#   sudo systemctl daemon-reload
+#   sudo systemctl enable --now squeeze-radar
+# Adjust User and paths below if your user or folder differ.
+
+[Unit]
+Description=squeeze-radar read-only crypto squeeze scanner
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+Type=simple
+User=ubuntu
+WorkingDirectory=/home/ubuntu/cryptonomics-engine/squeeze-radar
+ExecStart=/home/ubuntu/cryptonomics-engine/squeeze-radar/.venv/bin/python main.py --loop
+Restart=always
+RestartSec=30
+# SIGTERM lets the current job finish, then the process exits cleanly.
+KillSignal=SIGTERM
+TimeoutStopSec=180
+Environment=PYTHONUNBUFFERED=1
+# Hardening: the scanner only needs to write inside its own folder.
+NoNewPrivileges=true
+ProtectSystem=full
+PrivateTmp=true
+
+[Install]
+WantedBy=multi-user.target

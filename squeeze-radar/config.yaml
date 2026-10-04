@@ -1,0 +1,229 @@
+# =============================================================================
+# squeeze-radar configuration
+# -----------------------------------------------------------------------------
+# Every threshold, weight, interval and limit lives here.
+# Secrets (Telegram bot token, chat id) do NOT go here: they live in .env only.
+# The file is validated at startup. A missing or invalid value stops the
+# program with a clear error message instead of running with a bad setup.
+# All times are UTC.
+# =============================================================================
+
+# ---------------------------------------------------------------------------
+# General paths
+# ---------------------------------------------------------------------------
+paths:
+  database: data/squeeze_radar.db      # SQLite file (WAL mode). All state lives here.
+  lock_file: data/squeeze_radar.lock   # Only one instance may hold this lock.
+  log_dir: logs                        # Rotating log files are written here.
+
+logging:
+  level: INFO                          # DEBUG, INFO, WARNING, ERROR
+  max_bytes: 5000000                   # Rotate a log file when it reaches ~5 MB
+  backup_count: 10                     # Keep this many old log files
+
+# ---------------------------------------------------------------------------
+# Job schedule (used by --loop). Jobs never overlap: they run one after another
+# in a single process. Intervals are aligned to the UTC clock, so a 15-minute
+# job runs at :00/:15/:30/:45 plus the offset.
+# ---------------------------------------------------------------------------
+schedule:
+  universe_minutes: 60          # Refresh the list of Bybit perpetuals
+  collect_minutes: 15           # Collect market data, score, update stages, alert
+  collect_offset_seconds: 45    # Wait this long after a candle boundary so the candle is closed on Bybit
+  announcements_minutes: 10     # Poll Binance and Bybit announcements
+  hourly_summary_minutes: 60    # Top-10 summary message
+  hourly_summary_offset_seconds: 300   # Send summary 5 min past the hour (after the :00 collect)
+  outcomes_minutes: 30          # Fill in outcome windows for past alerts
+  heartbeat_utc: "08:00"        # Daily "alive" message at this UTC time (HH:MM)
+  loop_tick_seconds: 20         # How often the loop checks whether a job is due
+
+# ---------------------------------------------------------------------------
+# Bybit public REST API (V5). No API keys are used, ever.
+# ---------------------------------------------------------------------------
+bybit:
+  base_url: https://api.bybit.com
+  # Bybit allows 600 requests per 5 seconds per IP (= 120/s). We stay far below.
+  max_requests_per_second: 10
+  request_timeout_seconds: 15
+  max_retries: 4                # Retries per request on network errors / 429 / 5xx / retCode 10006
+  backoff_base_seconds: 1.0     # Exponential backoff: base * 2^attempt + random jitter
+  backoff_max_seconds: 30
+  worker_threads: 6             # Parallel fetch threads (all share the global rate limiter)
+
+# ---------------------------------------------------------------------------
+# 1. Universe
+# ---------------------------------------------------------------------------
+universe:
+  quote_coin: USDT
+  contract_type: LinearPerpetual
+  status: Trading
+  min_history_days: 7                 # Younger symbols are stored but marked "too new" and not scored
+  min_turnover_24h_usd: 2000000       # Below this 24h turnover a symbol is not scored (unless tagged)
+  # Bybit also lists TradFi perps (stocks, forex, commodities). They are not
+  # part of this crypto strategy. Remove an entry to include that type.
+  exclude_symbol_types: [stock, forex, commodity, ETF]
+  # Bybit marks risky contracts with instrument tags (e.g. "ST"). A symbol that
+  # gains one of these tags is added to the tagged watchlist as a Bybit risk tag.
+  bybit_risk_tags: [ST]
+  benchmark_symbol: BTCUSDT
+
+# ---------------------------------------------------------------------------
+# 2. Data collection
+# ---------------------------------------------------------------------------
+collection:
+  kline_interval_minutes: 60     # 1h candles for price, range, floor, turnover
+  kline_limit: 200               # 200 x 1h = 8.3 days: 24h window + 7 full previous days
+  volume_ratio_baseline_days: 7  # Average daily turnover of the previous 7 FULL days
+  range_hours: 24                # Range tightness window
+  floor_days: 3                  # Floor = lowest low of the last 3 days of closed candles
+  oi_interval: 1h                # Bybit intervalTime value
+  oi_limit: 30                   # Enough 1h points to measure 24h change
+  funding_history_limit: 200     # Settlements fetched (max 200). Used for the "own average".
+  funding_avg_settlements: 3     # Average of the last N settlements (shown in alerts)
+  funding_own_avg_days: 7        # "Below its own average" compares with this many days of settlements
+  ls_period: 1h                  # Long/short account ratio period
+  ls_avg_days: 7                 # Compare the ratio with its own 7-day average
+  # A per-symbol fetch error is logged and skipped. If more than this share of
+  # symbols fails in one run, the whole run counts as a data-source failure.
+  max_symbol_failure_ratio: 0.2
+
+# ---------------------------------------------------------------------------
+# Data-source health. A failure is never silent.
+# ---------------------------------------------------------------------------
+health:
+  failures_before_warning: 3     # Consecutive errors/empty results before a Telegram warning
+  rewarn_hours: 6                # Repeat the warning this often while the source stays broken
+  send_recovery_notice: true     # Tell me when a broken source works again
+
+# ---------------------------------------------------------------------------
+# 3. Announcement watcher
+# ---------------------------------------------------------------------------
+announcements:
+  user_agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36"
+  request_timeout_seconds: 20
+  binance:
+    enabled: true
+    base_url: https://www.binance.com
+    # Public JSON behind https://www.binance.com/en/support/announcement
+    list_path: /bapi/composite/v1/public/cms/article/catalog/list/query
+    detail_path: /bapi/composite/v1/public/cms/article/detail/query
+    # 161 = "Delisting" catalog (Monitoring Tag notices are published here).
+    # 49  = "Latest Binance News". Both are scanned; only titles that mention
+    # the Monitoring Tag are used.
+    catalog_ids: [161, 49]
+    page_size: 20
+    title_keywords: ["monitoring tag"]
+    removal_keywords: ["remove", "removal", "removing"]
+    # Binance sometimes writes scaled tokens with a prefix, e.g. 1MBABYDOGE.
+    token_prefixes: ["1000000", "1000", "1M"]
+  bybit:
+    enabled: true
+    locale: en-US
+    page_size: 20
+    # Announcement types (Bybit enum) to scan.
+    types: [delistings]
+    # Titles in other types that contain these words are scanned too.
+    risk_keywords: ["risk warning", "risk alert", "delist", "monitoring", "special treatment", " st "]
+  watchlist_days: 30              # Track a tagged token this many days
+  stop_tracking_on_tag_removal: false   # true = stop tracking as soon as the tag is removed
+  # Words that look like tickers in titles but are not tokens.
+  stopwords: [BINANCE, BYBIT, USDT, USDC, USD, UTC, AND, THE, TAG, TAGS, NFT,
+              SPOT, MARGIN, FUTURES, PERPETUAL, PERP, CONTRACT, CONTRACTS, ST,
+              FAQ, API, KYC, ETF, AM, PM, II, III, IV, VIP, NEW, BTC, ETH]
+
+# ---------------------------------------------------------------------------
+# Symbol mapping
+# ---------------------------------------------------------------------------
+symbols:
+  # Bybit scales tiny-price coins: 1000PEPEUSDT = PEPE. Longest prefix wins.
+  multiplier_prefixes: ["1000000", "100000", "10000", "1000", "100"]
+  # Manual overrides for renamed or ambiguous tokens: TOKEN -> Bybit symbol.
+  # Example: Binance writes RNDR, Bybit trades RENDERUSDT.
+  overrides:
+    # RNDR: RENDERUSDT
+    # MATIC: POLUSDT
+
+# ---------------------------------------------------------------------------
+# 4. Stage system for tagged tokens
+# ---------------------------------------------------------------------------
+stages:
+  # LOADING requires ALL of these:
+  loading_require_negative_funding: true     # Normalized (8h) funding < 0
+  loading_min_oi_change_24h_pct: 0.0         # Coin OI 24h change must be above this
+  loading_require_above_floor: true          # Last close above the floor
+  loading_ls_below_avg_factor: 1.0           # L/S ratio < factor x its own 7-day average
+  # TRIGGER: a closed 1h candle closes above the recent range high...
+  trigger_range_hours: 24                    # ...of the previous N closed candles
+  trigger_turnover_multiple: 2.0             # ...with turnover >= 2x average hourly turnover
+  trigger_turnover_avg_hours: 168            # Average hourly turnover over the previous 7 days
+  trigger_require_negative_funding: true     # ...while funding is still negative
+  trigger_hold_hours: 24                     # Stay in TRIGGER this long, then re-evaluate
+  # INVALIDATED: a closed 1h candle below the floor.
+  invalidation_price: close                  # "close" or "low": which candle price must be below the floor
+  invalidated_rearm_hours: 24                # After this, the token can return to WATCH with a fresh floor
+
+# ---------------------------------------------------------------------------
+# 5. Scoring for all pairs (0-100). Points are added, penalties subtracted,
+# and the result is clamped to 0..100.
+# ---------------------------------------------------------------------------
+scoring:
+  volume_ratio:
+    full_at: 3.0          # Volume ratio >= 3x
+    full_points: 20
+    partial_at: 2.0       # Volume ratio >= 2x
+    partial_points: 10
+  oi_up_price_flat:
+    min_oi_change_24h_pct: 10.0     # Coin OI up >= 10% in 24h...
+    max_abs_price_change_24h_pct: 3.0   # ...while price moved less than 3%
+    points: 25
+    partial_min_oi_change_24h_pct: 5.0  # Half points for OI >= 5% with flat price
+    partial_points: 10
+  funding:
+    negative_points: 15             # Normalized funding < 0
+    below_own_avg_points: 7         # Not negative but below its own 7-day average
+  long_short:
+    below_avg_factor: 0.95          # L/S ratio <= 95% of its own 7-day average = more short
+    points: 10
+  floor_or_outperform:
+    max_distance_above_floor_pct: 8.0   # Price within 8% above the floor = "holding the floor"
+    min_outperformance_vs_btc_pct: 2.0  # Or 24h change beats BTC by >= 2 points
+    points: 10
+  tagged_bonus: 20
+  penalties:
+    late_price_change_24h_pct: 15.0   # Already up >= 15% in 24h
+    late_points: 25
+    thin_turnover_24h_usd: 5000000    # Turnover below this = thin liquidity
+    thin_points: 10
+    too_new_points: 15                # Applies to tagged symbols younger than min_history_days
+
+# ---------------------------------------------------------------------------
+# 6. Alerts
+# ---------------------------------------------------------------------------
+alerts:
+  instant_score_threshold: 80
+  hourly_top_n: 10
+  rescore_delta: 10                 # Re-alert a symbol only if score moved by >= 10 points...
+  cooldown_minutes: 120             # ...and at least this long after its last alert
+  stage_change_bypasses_cooldown: true   # Stage changes alert immediately (still never twice for the same transition)
+  telegram:
+    max_retries: 5
+    min_seconds_between_messages: 1.1   # Telegram allows about 1 message per second per chat
+    timeout_seconds: 20
+
+# ---------------------------------------------------------------------------
+# 7. Outcome tracking
+# ---------------------------------------------------------------------------
+outcomes:
+  windows_hours: [4, 24, 72, 168]
+  target_gain_pct: 10.0            # "Hit" = +10% reached before the floor
+  giveback_fraction: 0.5           # Exit when 50% of the gain from the high is given back
+  track_kinds: [score, stage, new_tag, hourly_top]
+  hourly_top_dedupe_hours: 24      # Track a symbol from the hourly top list at most once per 24h
+  candle_minutes: 5
+
+# ---------------------------------------------------------------------------
+# Optional X/Twitter sentiment hook (Grok). Disabled by default.
+# ---------------------------------------------------------------------------
+sentiment:
+  enabled: false
+  min_score: 70                    # Only run the check for coins at or above this score
