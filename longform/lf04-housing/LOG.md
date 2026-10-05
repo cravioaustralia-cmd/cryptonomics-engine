@@ -40,3 +40,11 @@
 - The dip follows the voice timing: the music is halfway down about 0.2 to 0.27 s before the first word on the master and comes back up just after the last word.
 - Master: -14.0 LUFS, -1.7 dBTP, linear second pass. `final/lf04-housing.mp4` and `final/loudnorm-report.md` were overwritten.
 - Not uploaded. No PR, no merge, no @.
+
+## 2026-10-05 (AEDT) — music dip under the voice set to about 85% quieter
+
+- Audio-only change, with no rebuild. The video stream was stream-copied and is byte-identical.
+- The music under the voice now sits about 27.5 dB below the steady hold level, so it is about 85% quieter while he talks. Holds and pauses are unchanged.
+- The dip still follows the voice timing, with the music halfway down about 0.2 s before the first word on the master.
+- Master: -14.0 LUFS, -1.7 dBTP, linear second pass. `final/lf04-housing.mp4` and `final/loudnorm-report.md` were overwritten.
+- Not uploaded. No PR, no merge, no @.

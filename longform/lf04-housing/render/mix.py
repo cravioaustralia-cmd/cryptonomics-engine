@@ -23,7 +23,7 @@ SFX_TRIM_DB = 0.0
 # Music leveller (short fix, 5 Oct 2026): hold the music at two steady levels instead of riding
 # each track's own dynamics. Targets are music-bus RMS in dBFS on the 1x mix.
 LEVEL_MUSIC = True
-BED_RMS_DB = -40.6      # under the voice: ~17.4 dB below holds = music about 70% quieter (perceived) while he talks
+BED_RMS_DB = -50.6      # under the voice: 27.4 dB below holds = music about 85% quieter (perceived) while he talks
 HOLD_RMS_DB = -23.2     # every no-VO stretch: matches the louder holds of the first delivery (H3, H4, H7, H8, H9)
 LEVEL_WIN = 2.0         # seconds, centred RMS window (offline, so no lag)
 LEVEL_SMOOTH = 0.8      # seconds, gain smoothing so nothing pumps
@@ -53,7 +53,7 @@ def level_music(mus, lvl, cr, dur, c):
     k = int(LEVEL_SMOOTH * cr)
     corr = -raw_db
     corr = np.convolve(np.pad(corr, (k, k), mode="edge"), np.ones(k) / k, mode="same")[k:-k]
-    gain_db = np.clip(target + corr, -36.0, LEVEL_MAX_BOOST)
+    gain_db = np.clip(target + corr, -45.0, LEVEL_MAX_BOOST)
     fixed_db = lvl
     # keep the designed open-titles and end-tail fades: blend to the fixed duck outside S01..S40
     t = np.arange(n) / cr
