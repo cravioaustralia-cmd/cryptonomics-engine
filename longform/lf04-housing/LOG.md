@@ -32,3 +32,11 @@
 - Re-ran the 1.28x pitch-held master chain and two-pass loudnorm: -14.0 LUFS, -1.6 dBTP, linear second pass.
 - Remuxed the new audio onto the existing HEVC stream with a stream copy. The video bitstream is byte-identical (same stream MD5). `final/lf04-housing.mp4` and `final/loudnorm-report.md` were overwritten.
 - Not uploaded. No PR, no merge, no @.
+
+## 2026-10-05 (AEDT) — music dip under the voice set to about 70% quieter
+
+- Audio-only change, with no rebuild. The video stream was stream-copied and is byte-identical.
+- The music under the voice now sits about 17.5 dB below the steady hold level, so it is about 70% quieter while he talks. Holds and pauses are unchanged.
+- The dip follows the voice timing: the music is halfway down about 0.2 to 0.27 s before the first word on the master and comes back up just after the last word.
+- Master: -14.0 LUFS, -1.6 dBTP, linear second pass. `final/lf04-housing.mp4` and `final/loudnorm-report.md` were overwritten.
+- Not uploaded. No PR, no merge, no @.

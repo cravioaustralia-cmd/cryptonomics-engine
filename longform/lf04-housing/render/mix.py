@@ -23,7 +23,7 @@ SFX_TRIM_DB = 0.0
 # Music leveller (short fix, 5 Oct 2026): hold the music at two steady levels instead of riding
 # each track's own dynamics. Targets are music-bus RMS in dBFS on the 1x mix.
 LEVEL_MUSIC = True
-BED_RMS_DB = -36.3      # under the voice: about 3 dB quieter than the first delivery
+BED_RMS_DB = -40.6      # under the voice: ~17.4 dB below holds = music about 70% quieter (perceived) while he talks
 HOLD_RMS_DB = -23.2     # every no-VO stretch: matches the louder holds of the first delivery (H3, H4, H7, H8, H9)
 LEVEL_WIN = 2.0         # seconds, centred RMS window (offline, so no lag)
 LEVEL_SMOOTH = 0.8      # seconds, gain smoothing so nothing pumps
@@ -48,10 +48,13 @@ def level_music(mus, lvl, cr, dur, c):
     raw_db = 10 * np.log10(p + 1e-12)
     frac = (lvl - BED_DB) / (HOLD_DB - BED_DB)
     target = BED_RMS_DB + frac * (HOLD_RMS_DB - BED_RMS_DB)
-    gain_db = np.clip(target - raw_db, -30.0, LEVEL_MAX_BOOST)
-    fixed_db = lvl
+    # Smooth only the slow track-level correction; the duck itself follows lvl (voice timing) unsmeared,
+    # so the music dips just before the first word and comes back just after the last one.
     k = int(LEVEL_SMOOTH * cr)
-    gain_db = np.convolve(np.pad(gain_db, (k, k), mode="edge"), np.ones(k) / k, mode="same")[k:-k]
+    corr = -raw_db
+    corr = np.convolve(np.pad(corr, (k, k), mode="edge"), np.ones(k) / k, mode="same")[k:-k]
+    gain_db = np.clip(target + corr, -36.0, LEVEL_MAX_BOOST)
+    fixed_db = lvl
     # keep the designed open-titles and end-tail fades: blend to the fixed duck outside S01..S40
     t = np.arange(n) / cr
     a0 = c.blk("H0")["t1"]
@@ -137,8 +140,8 @@ def main():
     M = int(dur * cr) + 1
     lvl = np.full(M, HOLD_DB, np.float32)
     for a, b in merged:
-        lvl[max(0, int((a - 0.45) * cr)):min(M, int((b + 0.30) * cr))] = BED_DB
-    k = int(0.45 * cr)
+        lvl[max(0, int((a - 0.30) * cr)):min(M, int((b + 0.30) * cr))] = BED_DB
+    k = int(0.35 * cr)
     lvl = np.convolve(np.pad(lvl, (k, k), mode="edge"), np.ones(k) / k, mode="same")[k:-k]
     g = db(lvl)
     if LEVEL_MUSIC:
