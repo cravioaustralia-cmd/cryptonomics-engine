@@ -12,7 +12,7 @@ Series: **Impossible Journeys — episode 7**. Confirmed from prior PASTE_BRIEFs
 
 **Handoff:** the user pastes this file into Claude Code. Do **not** post a GitHub comment that summons Claude. Do **not** `@claude`. The user pastes this file into Claude Code themselves.
 
-**VO:** Atlas en-AU will be seated at `shorts/s32-phar-lap/audio/vo.mp3` before paste. **Claude must not re-record it.** Do not overwrite `vo.mp3`. Do not record a new VO. Whisper-retune seams to that recording. Do not invent a duration — measure the seated file.
+**VO:** Atlas en-AU **is** seated at `shorts/s32-phar-lap/audio/vo.mp3` (measured **~74.76 s**, 1,196,160 bytes). **Claude must not re-record it.** Do not overwrite `vo.mp3`. Do not record a new VO. Whisper-retune seams to that recording. Use the measured duration.
 
 ---
 
@@ -176,7 +176,7 @@ If you cannot load those polylines: **pull back over the Tasman / Pacific route 
 
 ## Style locks (verbatim)
 
-- **Atlas VO:** fast amazed → storytelling → amused → fast → tense → triumphant → fast → dark → twist → twist → warm → warm → loop; start instantly; Australian English; never speak `()` cues; never speak the hook; **VO will be at `shorts/s32-phar-lap/audio/vo.mp3`; Claude must not re-record it**; do not overwrite; Whisper-retune seams to it
+- **Atlas VO:** fast amazed → storytelling → amused → fast → tense → triumphant → fast → dark → twist → twist → warm → warm → loop; start instantly; Australian English; never speak `()` cues; never speak the hook; **VO is seated at `shorts/s32-phar-lap/audio/vo.mp3` (~74.76 s); Claude must not re-record it**; do not overwrite; Whisper-retune seams to it
 - **Captions** ~70% from the top; clear of graphics; no VO-echo big titles; labels for names/places/distances/dates only
 - **Sparse SFX** under the voice (~6–10); not dense whooshes; VO-only stretches
 - **Music:** Skyline (Mixkit 601), already copied in; credit Eugenio Mininni / Mixkit; seat ~4 dB quieter than the s18 Silent Descent bed

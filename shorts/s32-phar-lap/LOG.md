@@ -19,3 +19,7 @@
 - Master map: prior polylines live on other commits, not this branch. Ep5 fence / ep6 Mawson only if real polylines exist. If Claude cannot load them: pull back over Tasman/Pacific and hold. Do not invent episode 3. Do not draw s29
 - Dirty unrelated paths on the other checkout were not in this worktree and were not staged
 - Handoff next: parent seats Atlas `audio/vo.mp3` → user pulls this branch → user pastes `PASTE_BRIEF.md` into Claude Code. Do not @claude, do not PR from this scaffold, do not upload
+
+## 2026-10-06T08:39+11:00 AEDT — Atlas VO seated
+
+- Atlas VO seated at `audio/vo.mp3` — duration **74.76 s**, **1,196,160** bytes, mp3 24 kHz mono 128 kbps. Do not overwrite. Date: 6 Oct 2026 (Sydney / AEDT).
