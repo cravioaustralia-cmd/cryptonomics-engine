@@ -37,3 +37,16 @@ Searched Wikimedia Commons 6 Oct 2026. Both below are marked **public domain** o
 ## Script lock
 
 Do not rewrite spoken words. Australian English. Thirty-seven races out of fifty-one, 1926, 1930 Melbourne Cup, 1932 Mexico, California, Melbourne / Wellington / Canberra — as spoken.
+
+## Build sources (render, added with the map-animation build)
+
+| Use | Source | Licence |
+|---|---|---|
+| Land colour | NASA Blue Marble Next Generation, 5400×2700 copy in the PyPI package `basemap-data` (`mpl_toolkits/basemap_data/bmng.jpg`) | Public domain (NASA) |
+| Relief + bathymetry | AWS Open Data Terrain Tiles, Terrarium PNG (SRTM / GMTED / ETOPO1), `s3.amazonaws.com/elevation-tiles-prod` | Open data (see the registry: https://registry.opendata.aws/terrain-tiles/) |
+| Coast, lakes, country and state outlines | Natural Earth 10m land, minor islands, lakes, admin-0, admin-1 (github.com/nvkelso/natural-earth-vector) | Public domain |
+| Prior Impossible Journeys routes (master map) | Loaded from the repo by `render/tools/make_ij_routes.py` (`git show`; nothing retyped) | Repo content |
+| Fonts | Anton, Montserrat (`render/fonts/`, OFL texts included) | SIL Open Font Licence |
+| "Boing" (gag 1) | Synthesised in `render/mix.mjs` with ffmpeg `aevalsrc` (a rising sine with a damped wobble) | Generated, no download |
+
+Km callouts are great-circle distances measured on the map (Timaru to Sydney, Sydney to Agua Caliente), rounded to the nearest 100 km and marked `~`. They are map measurements, not historical claims.

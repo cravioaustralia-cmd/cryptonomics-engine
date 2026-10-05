@@ -23,3 +23,15 @@
 ## 2026-10-06T08:39+11:00 AEDT — Atlas VO seated
 
 - Atlas VO seated at `audio/vo.mp3` — duration **74.76 s**, **1,196,160** bytes, mp3 24 kHz mono 128 kbps. Do not overwrite. Date: 6 Oct 2026 (Sydney / AEDT).
+
+## 2026-10-06 AEDT — map-animation build, mix and final render (Claude Code)
+
+- Pulled `scaffold/s32-phar-lap` (`e505a46`). Held Atlas VO `audio/vo.mp3` untouched (74.76 s, md5 `2d666eedc427e6e7193268044850f713`). Not re-recorded, not overwritten.
+- Whisper: faster-whisper medium.en word timings → `transcript.json` (192 words, snapped to `script.md`). "1926" span set from silencedetect (Whisper gave it zero length).
+- Picture: SVG + `renderFrame(t)` + Playwright + ffmpeg via `shorts/shared/render/` (no Remotion). One continuous camera over three orthographic planes (Tasman, California/Baja, whole Pacific) with per-frame **globe spins** between them. Basemap built from open data (BMNG, Terrarium DEM, Natural Earth): rich land colour, deep navy ocean with bathymetry, snow toned to soft grey (no blown white relief).
+- Gags staged on the map: warts magnifier + boing; catalogue page flip with one entry circled; near-miss streak + duck; HIDE / SKELETON / HEART pins + Tasman tug-of-war rope (flash-forward on "three cities split him up", full on the split beat); tiny unlabelled camel in the Flemington crowd.
+- PD stills: two small name cards only (Phar Lap c.1930; 1930 Melbourne Cup).
+- Master map: loaded polylines only via `render/tools/make_ij_routes.py` — EP.1 Mary Bryant, EP.2 Hinkler, EP.4 Robyn Davidson, EP.5 the 1931 walk (s30 WALKP), EP.6 Mawson (s31 OUTP+RETP from the s31 build branch). No ep.3, no s29.
+- Shared render: `shorts/shared/render/capture.mjs` brought in line with the s31 build branch (`openEpisodePage`, `/ep/*` assets, `PLAYWRIGHT_CHROMIUM`, `EPISODE_READY`); backwards compatible.
+- Mix: locked two-pass path (see `render/README.md`, `final/loudnorm-report.txt`).
+- Not uploaded. PR left open, not merged.
