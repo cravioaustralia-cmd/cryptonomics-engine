@@ -38,5 +38,5 @@
 - Audio-only change, with no rebuild. The video stream was stream-copied and is byte-identical.
 - The music under the voice now sits about 17.5 dB below the steady hold level, so it is about 70% quieter while he talks. Holds and pauses are unchanged.
 - The dip follows the voice timing: the music is halfway down about 0.2 to 0.27 s before the first word on the master and comes back up just after the last word.
-- Master: -14.0 LUFS, -1.6 dBTP, linear second pass. `final/lf04-housing.mp4` and `final/loudnorm-report.md` were overwritten.
+- Master: -14.0 LUFS, -1.7 dBTP, linear second pass. `final/lf04-housing.mp4` and `final/loudnorm-report.md` were overwritten.
 - Not uploaded. No PR, no merge, no @.
