@@ -92,11 +92,11 @@ with open(os.path.join(FIN, 'loudnorm-report.md'), 'w') as f:
 
 Target: **−14 LUFS integrated**, true peak **at or under −1.5 dBTP**.
 
-The cut and the mix were built at 1×. The delivered master is the whole film at **1.28×**: the finished 1× mix was time-stretched with {LN['stretch']}. The master chain and the two-pass loudnorm ran on that 1.28× file only. The voice files were not sped up, normalised, compressed or ducked. The only change to the voice is the bleep in S22.
+The cut and the mix were built at 1×. The delivered master is the whole film at **1.28×**: the finished 1× mix was time-stretched with {LN['stretch']}. The master chain and the two-pass loudnorm ran on that 1.28× file only. The narration is the even-pace set in `audio/vo-even/` (the originals in `audio/vo/` are untouched and unused). Those voice files were not sped up, normalised, compressed or ducked by the mix. The only change to the voice is the bleep in S22.
 
 | Stage | Integrated | True peak | LRA |
 |---|---|---|---|
-| Atlas voice, 37 takes assembled, untouched | {LN['vo_lufs_untouched']:.1f} LUFS | — | — |
+| Atlas voice, 37 even-pace takes (`audio/vo-even/`) assembled, untouched | {LN['vo_lufs_untouched']:.1f} LUFS | — | — |
 | 1× pre-master mix (voice, music, effects) | {LN['premaster_1x_lufs']:.1f} LUFS | — | — |
 | 1.28× pre-master mix | {LN['premaster_speed_lufs']:.1f} LUFS | — | — |
 | Pass 1 measurement (after make-up gain and limiter) | {float(p1['input_i']):.2f} LUFS | {float(p1['input_tp']):.2f} dBTP | {float(p1['input_lra']):.2f} LU |

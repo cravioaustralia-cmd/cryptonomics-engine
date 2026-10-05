@@ -334,3 +334,36 @@ PEO “About Parliament” chamber explainers on Wikimedia Commons (CC BY 3.0) w
 - **F22, F26, F27:** Non-public-figure people visible. Keep phone screens unreadable (S22 rule).
 - **F26:** Portrait 720×1280 — letterbox/scale into 1920×1080.
 - No party logos as subject. No footage of Hanson’s family. No ethnic/religious icons. No AAP/Getty/news-network / YouTube rips.
+
+
+## Used in the master (description credits)
+
+These ten clips are in `final/lf03-hanson.mp4`, muted and scaled to 1920×1080. Each one carries its credit on screen while it plays. Every other clip above was inspected and left out; the reasons are in `final/DELIVERY_NOTES.md`.
+
+| Clip | Under | Title | Author | Licence | Source |
+|---|---|---|---|---|---|
+| F01 | S02, S26, S31 | Timelapse of the facade of Parliament House Canberra Australia | Jared Drennan | CC BY 3.0 | https://commons.wikimedia.org/wiki/File:Timelapse_of_the_facade_of_Parliament_House_Canberra_Australia.webm |
+| F03 | S05 | Time lapse of the Brisbane skyline | Mixkit | Mixkit License (free stock video) | https://mixkit.co/free-stock-video/time-lapse-of-the-brisbane-skyline-10984/ |
+| F04 | S27 | Dean Street timelapse Albury NSW | Thennicke | CC0 | https://commons.wikimedia.org/wiki/File:Dean_Street_timelapse_Albury_NSW.webm |
+| F05 | S27 | Wodonga Place timelapse Albury NSW | Thennicke | CC0 | https://commons.wikimedia.org/wiki/File:Wodonga_Place_timelapse_Albury_NSW.webm |
+| F07 | S03, S09 | The 910 ton printing presses at the Las Vegas Review-Journal | Harrison Keely | CC BY 4.0 | https://commons.wikimedia.org/wiki/File:The_910_ton_printing_presses_at_the_Las_Vegas_Review-Journal_were_the_largest_in_the_world_when_installed_in_2000.webm |
+| F16 | S32 | Natural landscape with a road at sunset | Mixkit | Mixkit License (free stock video) | https://mixkit.co/free-stock-video/natural-landscape-with-a-road-at-sunset-50267/ |
+| F19 | S37 | Mountain range landscape time lapse | Mixkit | Mixkit License (free stock video) | https://mixkit.co/free-stock-video/mountain-range-landscape-time-lapse-11126/ |
+| F30 | S03, S14, S29, S36 | Canberra sunset sky | shootnedit (Pixabay) | Pixabay Content License | https://pixabay.com/videos/canberra-sunset-australia-sky-15524/ |
+| F31 | S11, S34 | Canberra sunset sky (alt) | shootnedit (Pixabay) | Pixabay Content License | https://pixabay.com/videos/canberra-sunset-australia-sky-15525/ |
+| F33 | S04, S33 | Boats lake summer Canberra water | NickyPe (Pixabay) | Pixabay Content License | https://pixabay.com/videos/boats-lake-summer-canberra-water-14374/ |
+
+Paste-ready lines:
+
+```
+Timelapse of the facade of Parliament House Canberra Australia — Jared Drennan — CC BY 3.0 — https://commons.wikimedia.org/wiki/File:Timelapse_of_the_facade_of_Parliament_House_Canberra_Australia.webm
+Time lapse of the Brisbane skyline — Mixkit — Mixkit License (free stock video) — https://mixkit.co/free-stock-video/time-lapse-of-the-brisbane-skyline-10984/
+Dean Street timelapse Albury NSW — Thennicke — CC0 — https://commons.wikimedia.org/wiki/File:Dean_Street_timelapse_Albury_NSW.webm
+Wodonga Place timelapse Albury NSW — Thennicke — CC0 — https://commons.wikimedia.org/wiki/File:Wodonga_Place_timelapse_Albury_NSW.webm
+The 910 ton printing presses at the Las Vegas Review-Journal — Harrison Keely — CC BY 4.0 — https://commons.wikimedia.org/wiki/File:The_910_ton_printing_presses_at_the_Las_Vegas_Review-Journal_were_the_largest_in_the_world_when_installed_in_2000.webm
+Natural landscape with a road at sunset — Mixkit — Mixkit License (free stock video) — https://mixkit.co/free-stock-video/natural-landscape-with-a-road-at-sunset-50267/
+Mountain range landscape time lapse — Mixkit — Mixkit License (free stock video) — https://mixkit.co/free-stock-video/mountain-range-landscape-time-lapse-11126/
+Canberra sunset sky — shootnedit (Pixabay) — Pixabay Content License — https://pixabay.com/videos/canberra-sunset-australia-sky-15524/
+Canberra sunset sky (alt) — shootnedit (Pixabay) — Pixabay Content License — https://pixabay.com/videos/canberra-sunset-australia-sky-15525/
+Boats lake summer Canberra water — NickyPe (Pixabay) — Pixabay Content License — https://pixabay.com/videos/boats-lake-summer-canberra-water-14374/
+```

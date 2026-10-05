@@ -4,6 +4,28 @@ import json, os
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 W = json.load(open(os.path.join(HERE, 'whisper-raw.json')))
+
+
+def _n(x):
+    import re
+    return re.sub(r'[^a-z0-9]', '', x.lower())
+
+
+def clean(k, ws):
+    """Drop Whisper hallucinations: a tail that restarts the take's opening words, and words piled on one timestamp at the end."""
+    head = [_n(x['w']) for x in ws[:3]]
+    for i in range(5, len(ws) - 2):
+        if [_n(x['w']) for x in ws[i:i + 3]] == head:
+            print(f'{k}: dropped {len(ws) - i} repeated words from {ws[i]["s"]:.2f} s')
+            ws = ws[:i]
+            break
+    while len(ws) > 3 and ws[-1]['s'] == ws[-2]['s'] == ws[-3]['s']:
+        ws = ws[:-1]
+    return ws
+
+
+for _k in W:
+    W[_k]['words'] = clean(_k, W[_k]['words'])
 INTRO = 6.6           # series sting + title before S01
 TAIL = 5.0            # end card hold after S37
 DEFAULT_GAP = 0.9

@@ -59,6 +59,24 @@ OVR = []        # {'t0', 't1', 'make', 'pos', 'anim', 'dyn'}
 SFX = []        # (time, name, gain_db, label)  -- hits land on picture events, never on a word
 B_USED = set()
 
+# real footage (footage/CREDITS.md): (on-screen credit, usable seconds of source)
+FOOT = {
+    'F01': ('Video: Jared Drennan · CC BY 3.0', 8.3),        # photographer's watermark after 8.4 s: never used
+    'F03': ('Video: Mixkit', 40.0),
+    'F04': ('Video: Thennicke · CC0', 13.7),
+    'F05': ('Video: Thennicke · CC0', 21.3),
+    'F07': ('Video: Harrison Keely · CC BY 4.0', 16.3),
+    'F16': ('Video: Mixkit', 18.9),
+    'F19': ('Video: Mixkit', 12.0),
+    'F30': ('Video: shootnedit · Pixabay', 12.0),
+    'F31': ('Video: shootnedit · Pixabay', 16.0),
+    'F33': ('Video: NickyPe · Pixabay', 6.4),
+}
+# inspected and not used: F02 (stranger, signage), F06 (only a daytime duplicate of F04/F05), F08 (office printer, not ballot printing),
+# F09 (readable Spanish headlines), F10/F11 (strangers reading), F12/F13 (US flag, voters), F14 (staged judge with a gavel),
+# F15/F17/F18/F20/F21/F34/F35 (no line needs them), F22 (New York), F23 (Tokyo Tower), F24 (unknown city), F25 (modern kitchen, wrong era),
+# F26/F27 (strangers on phones would read as Hanson typing), F28 (a suited man would read as a lawyer in the case), F29 (welding), F32 (carnival)
+
 
 def shot(t0, kind, **kw):
     SHOTS.append(dict(t0=t0, kind=kind, **kw))
@@ -72,10 +90,15 @@ def portrait(t0, img, caption, side='right', xf=0.35):
     shot(t0, 'portrait', img=img, caption=caption, side=side, xf=xf)
 
 
-def broll(t0, bid, src=0.0, rate=0.78, scrim='left', xf=0.3, srcmax=None):
+def broll(t0, bid, src=0.0, rate=0.78, scrim='left', xf=0.3, srcmax=None, dim=1.0):
     assert bid != 'B06', 'B06 shows figures on its monitors: not used'
+    assert bid[0] == 'B' or bid in FOOT, bid
     B_USED.add(bid)
-    shot(t0, 'broll', bid=bid, src=src, rate=rate, scrim=scrim, xf=xf, srcmax=srcmax)
+    shot(t0, 'broll', bid=bid, src=src, rate=rate, scrim=scrim, xf=xf, srcmax=srcmax or (FOOT[bid][1] if bid in FOOT else None), dim=dim)
+
+
+def real(t0, fid, src=0.0, rate=0.78, scrim='left', xf=0.35, dim=1.0):
+    broll(t0, fid, src=src, rate=rate, scrim=scrim, xf=xf, dim=dim)
 
 
 def bg(t0, xf=0.3, img=None, dim=0.3, kb=(1.0, .5, .5, 1.05, .5, .5)):
@@ -135,7 +158,7 @@ photo(END('S01') + 0.35, 'hanson-2016', kb=(1.0, .5, .5, 1.22, .55, .38), scrim=
 SFX.append((END('S01') + 0.35, 'camera_shutter', -10, 'Shutter as the first photo of Pauline Hanson lands'))
 LT(A('S02', 'pauline') - 0.1, A('S02', 'to') - 0.3, 'Pauline Hanson', 'Photographed in 2016')
 C(A('S02', 'to') - 0.15, A('S02', 'but') - 0.4, 'To be clear', 'Pauline Hanson’s jail conviction was overturned on appeal.', pos=('lb', 960), accent=G.GOLD, width=720)
-photo(A('S02', 'but') - 0.4, 'parliament-house-canberra', kb=(1.15, .45, .5, 1.25, .5, .5))
+real(A('S02', 'but') - 0.4, 'F01', rate=0.6)
 C(A('S02', 'but') - 0.2, A('S02', 'so') - 0.4, 'On the public record', 'Every other event you just heard about is on the public record.')
 bg(A('S02', 'so') - 0.4)
 C(A('S02', 'so') - 0.3, END('S02') + 0.3, 'The question', 'How did Pauline Hanson, a politician who has been written off again and again, end up leading One Nation to thirty per cent in Newspoll?',
@@ -147,16 +170,16 @@ photo(S('S03') - 0.3, 'law-courts-sydney', kb=(1.0, .5, .42, 1.08, .5, .38))
 LT(A('S03', 'courts') - 0.1, A('S03', 'what', 1) - 0.1, 'What the courts found', 'Law Courts Building, Sydney')
 photo(A('S03', 'what', 1) - 0.1, 'house-of-reps-chamber', kb=(1.05, .5, .5, 1.12, .5, .5), xf=0.25)
 LT(A('S03', 'what', 1), A('S03', 'what', 2) - 0.1, 'What Parliament recorded', 'House of Representatives, Canberra')
-broll(A('S03', 'what', 2) - 0.1, 'B04', src=0.0, rate=0.45, xf=0.25, srcmax=3.0)
+real(A('S03', 'what', 2) - 0.1, 'F07', src=0.5, xf=0.25)
 LT(A('S03', 'what', 2), A('S03', 'and', 0) - 0.1, 'What the newspapers reported')
 bg(A('S03', 'and', 0) - 0.1, xf=0.25)
 ov(A('S03', 'and', 0), A('S03', 'and', 1) - 0.3, lambda lt: (G.grid4([('Courts', 'What the courts found'), ('Parliament', 'What Parliament recorded'),
                                                                       ('Newspapers', 'What the newspapers reported'), ('Numbers', 'What the numbers show')], 4), 0), ('abs', 0, 0), anim='fade')
-photo(A('S03', 'and', 1) - 0.3, 'parliament-house-canberra', kb=(1.0, .5, .5, 1.12, .52, .45), scrim='left', dim=0.8)
+real(A('S03', 'and', 1) - 0.3, 'F30', dim=0.8)
 C(A('S03', 'pattern') - 0.2, END('S03') + 0.3, 'By the end of this video', 'A pattern in Pauline Hanson’s career that both her supporters and her critics may find uncomfortable.')
 
 # S04: independence note
-bg(S('S04') - 0.4)
+real(S('S04') - 0.4, 'F33', rate=0.25, scrim='none', dim=0.32)
 _s4 = [A('S04', 'this'), A('S04', "we're"), A('S04', 'every'), A('S04', 'wherever')]
 _i4 = ['This video is an independent documentary.', 'We’re not affiliated with Pauline Hanson, One Nation, or any political party.',
        'Every source is shown on screen and listed in the description.', 'Wherever we give our own analysis, we’ll label it as analysis.']
@@ -170,7 +193,7 @@ t = END('S04') + 0.35
 CH.append((t, 'Early life in Ipswich'))
 bg(t)
 TLN(t, A('S05', 'she') - 0.2, 1954, 1954, 'Born in Brisbane', 'Chapter 1 · Early life')
-bg(A('S05', 'she') - 0.2)
+real(A('S05', 'she') - 0.2, 'F03', src=2.0, dim=0.7)
 C(A('S05', 'she') - 0.1, A('S05', 'and', 0) - 0.3, 'Born', 'Pauline Lee Seccombe, into a working-class family.', pos=('l', 540))
 broll(A('S05', 'and', 0) - 0.3, 'B01', src=0.0)
 C(A('S05', 'grew'), A('S05', 'at') - 0.3, 'Growing up', 'Working in her parents’ fish-and-chip shop in Ipswich.', pos=('lb', 960))
@@ -199,7 +222,7 @@ TLN(t, A('S09', 'that') - 0.3, 1954, 1996, 'Political breakthrough', 'Chapter 2 
 bg(A('S09', 'that') - 0.3, img='house-of-reps-chamber', dim=0.35)
 C2(A('S09', 'that') - 0.2, A('S09', 'which') - 0.1, A('S09', 'before') - 0.3, '1996 · Oxley', 'The Liberal Party chose her to run in the federal seat of Oxley.',
    'One political record describes it as a traditionally safe Labor electorate.')
-broll(A('S09', 'before') - 0.3, 'B04', src=0.0, rate=0.4, srcmax=3.0)
+real(A('S09', 'before') - 0.3, 'F07', src=6.0)
 C(A('S09', 'before') - 0.2, Ae('S09', 'australians') + 0.2, 'Before election day', 'She wrote to a local newspaper attacking government assistance for Aboriginal Australians.')
 bg(Ae('S09', 'australians') + 0.2)
 C(Ae('S09', 'australians') + 0.3, A('S09', 'but') - 0.3, 'Disendorsed', 'The Liberal Party disendorsed her as its candidate.', pos=('tl', 110, 200))
@@ -220,7 +243,7 @@ ov(Ae('S10', 'parliament') + 0.35, END('S10') + 0.5,
                      style='paper', quote=True, width=1300, body_size=60, accent=G.RED,
                      typed=min(1, max(0, (Ae('S10', 'parliament') + 0.35 + lt - _q10a) / (_q10b - _q10a)))), ('c',), dyn=True)
 
-bg(END('S10') + 0.5, img='parliament-house-canberra', dim=0.4)
+real(END('S10') + 0.5, 'F31', dim=0.65)
 C(S('S11') + 0.1, A('S11', 'her') - 0.3, 'Condemned', 'Pauline Hanson’s first speech was condemned across politics as racist.')
 C(A('S11', 'her') - 0.2, A('S11', 'a', 0) - 0.4, 'Her supporters', 'Pauline Hanson was finally saying what they themselves were thinking.')
 portrait(A('S11', 'a', 0) - 0.4, 'hanson-2006', 'Pauline Hanson, 2006')
@@ -249,7 +272,7 @@ ov(A('S13', 'did') - 0.2, END('S13') + 0.4, lambda lt: G.stat('0', 'Lower-house 
 ov(A('S13', 'pauline') - 0.2, END('S13') + 0.4, lambda lt: G.card('Oxley', 'Pauline Hanson lost her own seat as well.', width=820), ('tl', 950, 440))
 
 # S14: Tony Abbott pin goes up on "working against One Nation" and stays to the end of S29
-bg(END('S13') + 0.4, img='parliament-house-canberra', dim=0.35)
+real(END('S13') + 0.4, 'F30', dim=0.6)
 C(A('S14', 'tony') - 0.1, A('S14', 'in') - 0.3, 'At the same time', 'Tony Abbott was working against One Nation behind the scenes.', width=1000)
 PIN = (A('S14', 'working'), END('S29') + 0.05)
 ov(PIN[0], PIN[1], lambda lt: G.abbott_pin(), ('tl', 1460, 50), anim='slide', fout=0.3)
@@ -373,7 +396,7 @@ _t26 = A('S26', 'the', 0) - 0.2
 _c26, _o26 = A('S26', 'coalition') - 0.1, A('S26', 'one', 2) - 0.1
 ov(_t26, A('S26', 'in', 1) - 0.3, lambda lt: G.bars('Poll numbers in the ABC report', [('Coalition', 18, False), ('One Nation', 27, True)], 'ABC, February 2026',
                                                   ps=[(_t26 + lt - _c26) / 0.8, (_t26 + lt - _o26) / 0.8], maxv=32), ('c',), dyn=True)
-bg(A('S26', 'in', 1) - 0.3, img='parliament-house-canberra', dim=0.3)
+real(A('S26', 'in', 1) - 0.3, 'F01', dim=0.35)
 C(A('S26', 'in', 1) - 0.2, A('S26', 'senate') - 0.3, 'In the same month', 'Pauline Hanson said in an interview that there are no good Muslims, then partly walked the comment back.')
 photo(A('S26', 'senate') - 0.3, 'senate-chamber', kb=(1.1, .45, .5, 1.2, .5, .5))
 C2(A('S26', 'senate') - 0.2, A('S26', 'and', 1) - 0.1, END('S26') + 0.5, 'Censured again', 'The Senate censured Pauline Hanson again.',
@@ -382,11 +405,11 @@ C2(A('S26', 'senate') - 0.2, A('S26', 'and', 1) - 0.1, END('S26') + 0.5, 'Censur
 photo(END('S26') + 0.5, 'adelaide-skyline', kb=(1.0, .5, .5, 1.1, .45, .5), scrim='bottom')
 LT(S('S27') + 0.1, A('S27', 'in', 2) - 0.3, 'Adelaide, South Australia', 'Photographed in 2022')
 C(A('S27', 'one') - 0.2, A('S27', 'in', 2) - 0.3, 'March 2026 · South Australia', 'One Nation won four lower-house seats in the state election.', pos=('tl', 110, 140))
-photo(A('S27', 'in', 2) - 0.3, 'albury-nsw', kb=(1.0, .5, .5, 1.12, .5, .45))
-LT(A('S27', 'in', 2) - 0.2, A('S27', 'one', 1) - 0.2, 'Albury, NSW', 'Photographed in 2017')
+real(A('S27', 'in', 2) - 0.3, 'F04')
+LT(A('S27', 'in', 2) - 0.2, A('S27', 'one', 1) - 0.2, 'Albury, NSW', 'Dean Street')
 C2(A('S27', 'one', 1) - 0.2, A('S27', 'a', 0) - 0.1, A('S27', 'abc') - 0.3, 'May 2026 · Farrer', 'One Nation won the federal seat of Farrer.',
    'A seat the Coalition had held for nearly eighty years.')
-bg(A('S27', 'abc') - 0.3, img='albury-nsw', dim=0.3, kb=(1.12, .5, .45, 1.2, .5, .45))
+real(A('S27', 'abc') - 0.3, 'F05', scrim='none', dim=0.75)
 C2(A('S27', 'abc') - 0.2, A('S27', 'because') - 0.1, END('S27') + 0.5, 'ABC', 'The ABC called the Farrer result historic.',
    'It was One Nation’s first ever win in the federal lower house.', style='paper', width=1100, pos=('c',))
 
@@ -397,7 +420,7 @@ ov(_t28, END('S28') + 1.0, lambda lt: G.bars('Newspoll · primary vote', [('One 
                                            ps=[(_t28 + lt - A('S28', 'one', 1)) / 0.9, (_t28 + lt - A('S28', 'labor')) / 0.9, (_t28 + lt - A('S28', 'coalition')) / 0.9], maxv=34),
    ('tl', 110, 380), dyn=True)
 
-bg(END('S28') + 1.0, img='parliament-house-canberra', dim=0.3)
+real(END('S28') + 1.0, 'F30', rate=0.5, dim=0.55)
 C(S('S29') + 0.05, A('S29', 'in') - 0.3, 'Tony Abbott', 'The Liberal MP who once funded legal action against One Nation has now changed his tune.')
 C(A('S29', 'in') - 0.2, END('S29') + 0.05, 'ABC · June 2026', 'Tony Abbott now says that, as a general rule, parties of the right should preference each other.', style='paper', width=1150,
   pos=('tl', 110, 300))
@@ -412,13 +435,13 @@ bg(t)
 C2(S('S30') + 0.05, A('S30', "here's") - 0.1, END('S30') + 0.4, 'Analysis', 'How did Pauline Hanson and One Nation rise to the top of the polls?',
    'Our analysis, in three parts, based on the evidence.', pos=('c',), width=1150, body_size=52)
 SFX.append((t + 0.05, 'whoosh', -8, 'Whoosh into the ANALYSIS chapter (in the gap)'))
-photo(END('S30') + 0.4, 'parliament-house-canberra', kb=(1.1, .5, .5, 1.2, .5, .5))
+real(END('S30') + 0.4, 'F01')
 C(S('S31') + 0.05, A('S31', 'according') - 0.3, 'Analysis · reason 1', 'Australia’s two major parties have shrunk.', body_size=56)
 bg(A('S31', 'according') - 0.3)
 ov(A('S31', 'according') - 0.2, END('S31') + 0.4, lambda lt: G.stat('46%', 'Labor and the Coalition together', sub='Their share of the primary vote, according to Newspoll.', source='Newspoll', width=1000),
    ('tl', 110, 120))
 C(A('S31', 'and', 1) - 0.2, END('S31') + 0.4, 'And', 'The Coalition itself has split up and changed leaders.', pos=('tl', 1120, 330), width=700)
-broll(END('S31') + 0.4, 'B12', src=0.0, rate=0.7)
+real(END('S31') + 0.4, 'F16')
 C(S('S32') + 0.05, A('S32', 'coverage') - 0.3, 'Analysis · reason 2', 'Anger about the cost of living.', body_size=56)
 C(A('S32', 'coverage') - 0.2, A('S32', 'and', 1) - 0.3, 'Coverage of the September Newspoll pointed to', 'Petrol prices\nInflation\nFears over interest rates')
 bg(A('S32', 'and', 1) - 0.3)
@@ -428,7 +451,7 @@ C(S('S33') + 0.05, A('S33', 'the', 1) - 0.3, 'Analysis · reason 3', 'Familiar p
 bg(A('S33', 'the', 1) - 0.3)
 C2(A('S33', 'the', 1) - 0.2, A('S33', 'and', 0) - 0.1, A('S33', 'and', 1) - 0.3, 'ABC', 'One Nation’s rise in the polls coincided with high-profile defections to the party.',
    'The ABC has called it the fastest polling rise in modern Australian politics.', style='paper', width=1150, pos=('c',))
-photo(A('S33', 'and', 1) - 0.3, 'parliament-house-canberra', kb=(1.0, .5, .5, 1.1, .45, .55))
+real(A('S33', 'and', 1) - 0.3, 'F33', rate=0.6)
 C(A('S33', 'and', 1) - 0.2, END('S33') + 0.4, 'Immigration', 'Pauline Hanson’s central issue is right at the top of the national debate.')
 bg(END('S33') + 0.4)
 C2(S('S34') + 0.05, A('S34', 'the', 0) - 0.1, A('S34', 'roy') - 0.3, 'But', 'Is One Nation’s rise really that simple?',
@@ -437,7 +460,7 @@ _t34 = A('S34', 'roy') - 0.2
 ov(_t34, A('S34', 'news') - 0.3, lambda lt: G.bars('Roy Morgan estimate · after preferences', [('Labor', 54, False), ('One Nation', 46, True)], 'Roy Morgan', p=lt / 1.6, unit='', maxv=60,
                                                    note='Labor would still beat One Nation 54 to 46.'), ('c',), dyn=True)
 ov(A('S34', 'news') - 0.2, A('S34', 'and', 0) - 0.3, lambda lt: G.stat('51%', 'of voters disapprove', sub='of Pauline Hanson herself.', source='Newspoll', width=900), ('c',))
-bg(A('S34', 'and', 0) - 0.3, img='parliament-house-canberra', dim=0.25)
+real(A('S34', 'and', 0) - 0.3, 'F31', src=2.0, scrim='none', dim=0.5)
 C2(A('S34', 'and', 0) - 0.2, A('S34', 'then') - 0.1, END('S34') + 0.5, 'Back in 1998 · Queensland', 'One Nation also reached 23 per cent of the vote.',
    'Then it fell apart within a few years.', pos=('c',), width=1050, body_size=52)
 
@@ -465,13 +488,13 @@ C(A('S36', 'and', 0) - 0.2, A('S36', 'put', 1) - 0.3, 'Her message', 'Almost exa
 ov(A('S36', 'put', 1) - 0.2, A('S36', 'so', 1) - 0.3, lambda lt: G.split(('One Nation polls · 1998', 'Almost 23 per cent in Queensland', (170, 176, 186)), ('One Nation polls · 2026', '30 per cent in Newspoll', G.GOLD)),
    ('tl', 140, 150))
 C(A('S36', 'and', 1) - 0.2, A('S36', 'so', 1) - 0.3, 'The country around Pauline Hanson', 'Looks very different.', pos=('tl', 110, 620), body_size=52)
-photo(A('S36', 'so', 1) - 0.3, 'parliament-house-canberra', kb=(1.0, .5, .5, 1.14, .5, .45), dim=0.7)
+real(A('S36', 'so', 1) - 0.3, 'F30', dim=0.75)
 C2(A('S36', 'so', 1) - 0.2, A('S36', 'her', 2) - 0.15, END('S36') + 0.5, 'The question', 'Did Pauline Hanson change Australia, or did Australia change around Pauline Hanson?',
    'Her supporters and her critics will answer that question very differently.', width=1150, body_size=52)
 bg(END('S36') + 0.5)
 C(S('S37') + 0.05, A('S37', 'every') - 0.3, 'Your turn', 'Tell us in the comments which answer you think is right.', pos=('c',), width=1100, body_size=52)
 C(A('S37', 'every') - 0.2, A('S37', 'and') - 0.3, 'Sources', 'Every source used in this video is listed in the description, so you can check every fact yourself.', pos=('c',), width=1150)
-broll(A('S37', 'and') - 0.3, 'B12', src=2.0, rate=0.7, xf=0.6)
+real(A('S37', 'and') - 0.3, 'F19', rate=0.7, xf=0.6)
 C(A('S37', 'and') - 0.2, DUR - 0.6, 'Follow along', 'More evidence-based deep dives into Australian politics.', pos=('l', 540), width=900)
 ov(E('S37') + 0.6, DUR - 0.6, lambda lt: G.credit('Jailed. Censured. Now #1.  ·  An independent documentary'), ('br', 1896, 1056), anim='fade')
 
@@ -481,9 +504,10 @@ for i, s in enumerate(SHOTS):
     s['t1'] = SHOTS[i + 1]['t0'] if i + 1 < len(SHOTS) else DUR
     assert s['t1'] > s['t0'] + 0.2, ('shot too short', s)
     if s['kind'] == 'broll':
-        assert s['src'] + (s['t1'] - s['t0']) * s['rate'] <= 10.0, ('B-roll runs past its end', s['bid'], s['t0'], s['src'] + (s['t1'] - s['t0']) * s['rate'])
-        if s.get('srcmax'):
-            assert s['src'] + (s['t1'] - s['t0']) * s['rate'] <= s['srcmax'], ('B04 runs into the pinned page', s['t0'])
+        end = s['src'] + (s['t1'] - s['t0']) * s['rate']
+        assert end <= (s.get('srcmax') or 10.0), ('clip runs past its usable end', s['bid'], round(s['t0'], 2), round(end, 2))
+        if s['bid'] in FOOT:   # real footage carries its credit on screen, like the photos
+            ov(s['t0'] + 0.3, s['t1'], lambda lt, c=FOOT[s['bid']][0]: G.credit(c), ('br', 1896, 1056), anim='fade')
     if s['kind'] in ('photo', 'portrait'):
         ov(s['t0'] + 0.3, s['t1'], lambda lt, c=CR[s['img']]: G.credit(c), ('br', 1896, 1056), anim='fade')
 

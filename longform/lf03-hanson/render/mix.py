@@ -31,14 +31,16 @@ def lufs(x):
 # ------------------------------------------------------------------ voice: placed as recorded, one bleep
 vo = np.zeros((N, 2), np.float32)
 for k, c in SC.T.items():
-    x = load(os.path.join(EP, 'audio', 'vo', k + '.mp3'))
+    x = load(os.path.join(EP, 'audio', 'vo-even', k + '.mp3'))   # even-pace takes; audio/vo/ originals untouched
     i = int(round(c['start'] * SR))
     vo[i:i + len(x)] += x[: N - i]
 VO_LUFS = lufs(vo)
 print(f'voice assembled, untouched: {VO_LUFS:.1f} LUFS')
 
-# S22 bleep. Edges measured on the waveform: the "p" release at 26.27 s, the "ss" ends at 26.53 s, "off" starts at 26.54 s.
-B0, B1 = SC.S('S22') + 26.24, SC.S('S22') + 26.545
+# S22 bleep (audio/vo-even/S22.mp3). Edges measured on the waveform: closure after "and" ends 25.96 s, the "p" releases at 25.97 s,
+# the "ss" ends at 26.23 s, "off" starts at 26.24 s.
+BL = (25.95, 26.235)
+B0, B1 = SC.S('S22') + BL[0], SC.S('S22') + BL[1]
 i0, i1 = int(B0 * SR), int(B1 * SR)
 ctx = vo[int((B0 - 2.0) * SR):i0, 0]
 speech_rms = np.sqrt((ctx[np.abs(ctx) > 0.01] ** 2).mean())
@@ -46,7 +48,7 @@ tt = np.arange(i1 - i0) / SR
 ramp = np.minimum(1, np.minimum(tt, tt[-1] - tt) / 0.006)
 tone = (np.sin(2 * np.pi * 1000 * tt) * np.sqrt(2) * speech_rms * db(-3) * ramp).astype(np.float32)
 vo[i0:i1] = tone[:, None]
-BLEEP = {'take': 'S22', 'word': 'piss', 'start_1x': round(B0, 3), 'end_1x': round(B1, 3), 'in_take': [26.24, 26.545], 'tone': '1 kHz sine, 3 dB under the surrounding speech RMS'}
+BLEEP = {'take': 'S22', 'word': 'piss', 'start_1x': round(B0, 3), 'end_1x': round(B1, 3), 'in_take': list(BL), 'tone': '1 kHz sine, 3 dB under the surrounding speech RMS'}
 print('bleep', BLEEP)
 
 # speech activity with 150 ms look-ahead (beds are already down before a word starts)

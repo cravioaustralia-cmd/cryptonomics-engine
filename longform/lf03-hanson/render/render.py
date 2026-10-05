@@ -82,7 +82,8 @@ def portrait_plate(name, caption, side):
 
 class Clip:
     def __init__(self, bid):
-        self.cap = cv2.VideoCapture(os.path.join(EP, 'broll', bid + '.mp4'))
+        self.cap = cv2.VideoCapture(os.path.join(EP, 'footage' if bid[0] == 'F' else 'broll', bid + '.mp4'))
+        self.w, self.h = int(self.cap.get(cv2.CAP_PROP_FRAME_WIDTH)), int(self.cap.get(cv2.CAP_PROP_FRAME_HEIGHT))
         self.n = int(self.cap.get(cv2.CAP_PROP_FRAME_COUNT))
         self.fps = self.cap.get(cv2.CAP_PROP_FPS) or 24
         self.pos, self.frame = -1, None
@@ -141,8 +142,8 @@ def base(s, t):
         st = s['src'] + (t - s['t0']) * s['rate']
         f = c.get(int(st * c.fps))
         f = cv2.cvtColor(f, cv2.COLOR_BGR2RGB).astype(np.float32)
-        z = 1.5 * (1.0 + 0.045 * u)          # 1280x720 -> 1920x1080, with a slow push
-        out = warp(f, z, 640, 360) * VIG
+        z = max(W / c.w, H / c.h) * (1.0 + 0.045 * u)   # any source size -> 1920x1080 (cover), with a slow push
+        out = warp(f, z, c.w / 2, c.h / 2) * VIG * s.get('dim', 1.0)
     sm = SCRIM.get(s.get('scrim', 'none'))
     if sm is not None:
         out = out * (1 - sm)
