@@ -51,3 +51,7 @@ Full prompts: `broll/PROMPTS.md`. First AI clip in the edit gets a **Dramatised 
 ## Not yet
 
 - Do **not** write `PASTE_BRIEF.md` until assets are seated.
+
+## Chapter holds (locked 5 Oct 2026)
+
+Before each new chapter, suspect, or major topic change, leave a deliberate music-and-visuals pause with **no voiceover**. That hold is not empty black: Claude builds a proper documentary beat there using seated real free clips, photos, cards, and motion, with music rising to set the mood, then resumes narration. Mid-rolls stay after S13, S25, and S34; a chapter hold is not an ad break.
