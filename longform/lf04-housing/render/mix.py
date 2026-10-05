@@ -20,6 +20,46 @@ BED_DB = -13.0          # music under the voice
 HOLD_DB = -3.5          # music in holds / pauses: up, not full
 SFX_TRIM_DB = 0.0
 
+# Music leveller (short fix, 5 Oct 2026): hold the music at two steady levels instead of riding
+# each track's own dynamics. Targets are music-bus RMS in dBFS on the 1x mix.
+LEVEL_MUSIC = True
+BED_RMS_DB = -36.3      # under the voice: about 3 dB quieter than the first delivery
+HOLD_RMS_DB = -23.2     # every no-VO stretch: matches the louder holds of the first delivery (H3, H4, H7, H8, H9)
+LEVEL_WIN = 2.0         # seconds, centred RMS window (offline, so no lag)
+LEVEL_SMOOTH = 0.8      # seconds, gain smoothing so nothing pumps
+LEVEL_MAX_BOOST = 9.0   # dB, never lift fades/near-silence more than this
+
+
+def level_music(mus, lvl, cr, dur, c):
+    """Gain curve (linear, at control rate cr) that sets the music bus to steady target levels.
+
+    lvl is the smoothed duck curve (BED_DB..HOLD_DB); it is mapped to BED_RMS_DB..HOLD_RMS_DB targets.
+    The open titles (H0) and the END tail keep the original fixed duck so their designed fades stay.
+    """
+    hop = SR // cr
+    mono = mus.mean(axis=1)
+    n = len(lvl)
+    p = np.zeros(n, np.float64)
+    sq = np.concatenate([[0.0], np.cumsum(mono.astype(np.float64) ** 2)])
+    w = int(LEVEL_WIN * SR / 2)
+    idx = np.clip(np.arange(n) * hop, 0, len(mono))
+    lo, hi = np.clip(idx - w, 0, len(mono)), np.clip(idx + w, 0, len(mono))
+    p = (sq[hi] - sq[lo]) / np.maximum(hi - lo, 1)
+    raw_db = 10 * np.log10(p + 1e-12)
+    frac = (lvl - BED_DB) / (HOLD_DB - BED_DB)
+    target = BED_RMS_DB + frac * (HOLD_RMS_DB - BED_RMS_DB)
+    gain_db = np.clip(target - raw_db, -30.0, LEVEL_MAX_BOOST)
+    fixed_db = lvl
+    k = int(LEVEL_SMOOTH * cr)
+    gain_db = np.convolve(np.pad(gain_db, (k, k), mode="edge"), np.ones(k) / k, mode="same")[k:-k]
+    # keep the designed open-titles and end-tail fades: blend to the fixed duck outside S01..S40
+    t = np.arange(n) / cr
+    a0 = c.blk("H0")["t1"]
+    a1 = c.blk("END")["t0"]
+    wgt = np.clip((t - (a0 - 0.5)) / 0.5, 0, 1) * np.clip(((a1 + 0.5) - t) / 0.5, 0, 1)
+    out_db = wgt * gain_db + (1 - wgt) * fixed_db
+    return (10 ** (out_db / 20)).astype(np.float32)
+
 
 def decode(path, mono_to_stereo=True):
     raw = subprocess.check_output(["ffmpeg", "-v", "error", "-i", path, "-f", "f32le", "-ac", "2", "-ar", str(SR),
@@ -101,6 +141,8 @@ def main():
     k = int(0.45 * cr)
     lvl = np.convolve(np.pad(lvl, (k, k), mode="edge"), np.ones(k) / k, mode="same")[k:-k]
     g = db(lvl)
+    if LEVEL_MUSIC:
+        g = level_music(mus, lvl, cr, dur, c)
     gs = np.interp(np.arange(N) / SR, np.arange(len(g)) / cr, g).astype(np.float32)
     mus *= gs[:, None]
 
