@@ -26,7 +26,7 @@ Also read, in order:
 1. `script/SCRIPT_NOTE.md`
 2. `script/PUBLISH_CHECKS.md`
 3. `footage/CREDITS.md` + `footage/SKIPPED.md`
-4. `images/CREDITS.md` (inventory of IMG-01..25; some may still be PENDING)
+4. `images/CREDITS.md` (inventory of IMG-01..25; all seated as of this brief)
 5. `broll/MANIFEST.md` + `broll/PROMPTS.md`
 6. `audio/MUSIC_CREDITS.md`
 7. `LOG.md`
@@ -51,7 +51,7 @@ Master: **1920×1080, 30 fps**.
 Five layers, in the order the narration needs them. **Not a map.**
 
 1. **Real free video** — `footage/F01.mp4`–`F35.mp4` (~581 MB). Mute every clip. Prefer these over photos and AI.
-2. **Ken Burns free photos** — any `images/IMG-*.jpg` / `.png` that exists when you cut. Inventory and beats: `images/CREDITS.md`.
+2. **Ken Burns free photos** — any `images/IMG-*.jpg` / `.png` that exists when you cut. All **IMG-01..IMG-25** are seated. Inventory and beats: `images/CREDITS.md`.
 3. **Evidence cards** — short, sourced, same wording as the voice. If a source and the voice disagree, follow the voice file.
 4. **Timeline / data** — RBA rate path, Housing Accord completions, NOM series, lock icons (Deposit / Loan / Home). Digits on screen must match the spoken numbers.
 5. **AI B-roll** — only `broll/B01.mp4`–`B05.mp4`, and only on the beats mapped below. Scale 1280×720 → 1920×1080. Mute. Keep all five (VideoReview PASSED: no faces, no readable text/logos/flags).
