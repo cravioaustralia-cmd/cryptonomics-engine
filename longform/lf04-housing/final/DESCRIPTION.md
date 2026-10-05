@@ -23,17 +23,17 @@ CHAPTERS
 12:10 The verdict: you’ll be the jury
 
 SOURCES (checked 5 October 2026, Australia/Sydney)
-- RBA MR 2026-27 (29 Sep 2026): https://www.rba.gov.au/media-releases/2026/mr-26-27.html  
-- RBA Media Conference transcript (29 Sep 2026): https://www.rba.gov.au/speeches/2026/mc-gov-2026-09-29.html  
-- RBA Board meeting schedules: https://www.rba.gov.au/schedules-events/board-meeting-schedules.html  
-- ABS Building Activity Mar 2026: https://www.abs.gov.au/statistics/industry/building-and-construction/building-activity-australia/latest-release  
-- NHSAC Quarterly Report Mar 2026: https://nhsac.gov.au/index.php/reports-and-submissions/quarterly-report-march-2026  
-- ABS National, state and territory population Mar 2026: https://www.abs.gov.au/statistics/people/population/national-state-and-territory-population/latest-release  
-- ABS Overseas Migration 2024–25: https://www.abs.gov.au/statistics/people/population/overseas-migration/latest-release  
-- Budget 2026–27 Appendix A (NOM table): https://budget.gov.au/content/bp3/download/bp3_14_appendix_a.pdf  
-- ABS Census 2021 tenure (media / QuickStats): https://www.abs.gov.au/media-centre/media-releases/2021-census-count-includes-australians-living-wheels-and-water-most-us-still-firmly-land — https://www.abs.gov.au/census/find-census-data/quickstats/2021/AUS  
-- ATO negative gearing / CGT reform: https://www.ato.gov.au/about-ato/new-legislation/in-detail/individuals/tax-reform-boosting-home-ownership-reforming-negative-gearing-and-capital-gains-tax  
-- ABS Lending Indicators Dec Q 2025: https://www.abs.gov.au/statistics/economy/finance/lending-indicators/dec-quarter-2025  
+- RBA MR 2026-27 (29 Sep 2026): https://www.rba.gov.au/media-releases/2026/mr-26-27.html
+- RBA Media Conference transcript (29 Sep 2026): https://www.rba.gov.au/speeches/2026/mc-gov-2026-09-29.html
+- RBA Board meeting schedules: https://www.rba.gov.au/schedules-events/board-meeting-schedules.html
+- ABS Building Activity Mar 2026: https://www.abs.gov.au/statistics/industry/building-and-construction/building-activity-australia/latest-release
+- NHSAC Quarterly Report Mar 2026: https://nhsac.gov.au/index.php/reports-and-submissions/quarterly-report-march-2026
+- ABS National, state and territory population Mar 2026: https://www.abs.gov.au/statistics/people/population/national-state-and-territory-population/latest-release
+- ABS Overseas Migration 2024–25: https://www.abs.gov.au/statistics/people/population/overseas-migration/latest-release
+- Budget 2026–27 Appendix A (NOM table): https://budget.gov.au/content/bp3/download/bp3_14_appendix_a.pdf
+- ABS Census 2021 tenure (media / QuickStats): https://www.abs.gov.au/media-centre/media-releases/2021-census-count-includes-australians-living-wheels-and-water-most-us-still-firmly-land — https://www.abs.gov.au/census/find-census-data/quickstats/2021/AUS
+- ATO negative gearing / CGT reform: https://www.ato.gov.au/about-ato/new-legislation/in-detail/individuals/tax-reform-boosting-home-ownership-reforming-negative-gearing-and-capital-gains-tax
+- ABS Lending Indicators Dec Q 2025: https://www.abs.gov.au/statistics/economy/finance/lending-indicators/dec-quarter-2025
 
 DRAMATISED RECONSTRUCTION
 - AI-generated B-roll (B01, B02, B03, B04, B05) is labelled on screen as a dramatised reconstruction. It shows no real people, faces, logos or readable text.
