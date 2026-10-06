@@ -25,3 +25,10 @@
 - **render:** `render/gfx.py` + fonts copied from lf03.
 - **VO paste pack:** `/workspace/lf05-albanese-hanson/vo-paste/` S01–S41.txt (Atlas, Australian English, per-segment delivery mode/pace + pronunciation hints), BATCH_A–D for 4 parallel recorders, README. **Voice not recorded.**
 - PASTE_BRIEF **not written** (voice missing).
+
+## 2026-10-06 (AEDT) — AI B-roll B04–B09 seated
+
+- Confirmed `broll/B01–B09.mp4` present (B01–B03 REUSE lf03; B04–B09 copied from `/workspace/lf05-albanese-hanson/broll/` after VideoReview PASS).
+- Rewrote `broll/MANIFEST.md` for all nine clips + beats; first AI appearance → Dramatised reconstruction label in edit.
+- `broll/PROMPTS.md` generation status → **generated**.
+- PASTE_BRIEF still not written (voice missing). No merge/PR.

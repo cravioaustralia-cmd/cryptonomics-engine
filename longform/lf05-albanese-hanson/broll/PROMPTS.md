@@ -1,6 +1,6 @@
 # lf05 AI B-roll — prompts (Grok Imagine, Video mode, 16:9)
 
-**Generation status (6 Oct 2026): NOT generated in this pass.** This executor had no Grok Imagine access (no browser/Imagine tool). The parent should generate B04–B09 below (one clip each, 6 s, 720p, 16:9) and save as `broll/B04.mp4`… with a MANIFEST row each. B01–B03 already exist (REUSE from lf03, see `MANIFEST.md`).
+**Generation status (6 Oct 2026): generated.** B04–B09 seated as `broll/B04.mp4`…`B09.mp4` (6 s, 720p, 16:9), VideoReview PASS. B01–B03 REUSE from lf03. See `MANIFEST.md`.
 
 AI B-roll is the **last** picture layer (script Part 4.1 ≈10%, and real footage first). Only use where no real clip in `footage/` fits.
 
@@ -15,7 +15,7 @@ AI B-roll is the **last** picture layer (script Part 4.1 ≈10%, and real footag
 **Style anchor (prepend to every prompt):**
 `Cinematic documentary B-roll, 16:9 widescreen, natural colour, gentle film grain, shallow depth of field, slow camera movement, realistic Australian setting, no text, no logos, no flags, no recognisable people, faces not visible:`
 
-## To generate (parent)
+## Generated (B04–B09)
 
 | ID | Script asset | Seg | Prompt (after style anchor) |
 |---|---|---|---|
