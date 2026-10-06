@@ -165,12 +165,34 @@ Not available in lf03: **John Howard** portrait (lf03 skipped it — licence unc
 
 ### From the Albanese film *From Council Flat to The Lodge*
 
-**Path not present on the repo.** Searched every remote branch on `cravioaustralia-cmd/cryptonomics-engine` (6 Oct 2026): no `longform/*albanese*` / `*lodge*` folder. Ask Abhishek where its assets live before pulling. Assets the script marks REUSE from that film: IMG_Albanese_DFAT (CC BY 4.0), IMG_Howard_portrait, GFX_75_lock, GFX_PM_ladder, GFX_rate_staircase, GFX_approval_dial, gold thread. Until located, rebuild the GFX in the lf05 render pipeline and source the DFAT Albanese portrait fresh from Commons. (Only Albanese image on the repo: `shorts/s08-nobody-told-it-to-hack/images/s08_07_albanese_portrait.jpg` on `main` — check its licence before any reuse.)
+**Not found (re-searched 6 Oct 2026):** all 56 remote branches of `cravioaustralia-cmd/cryptonomics-engine` (no `longform/*albanese*` / `*lodge*` / `*council*` path, no `GFX_75_lock`), every local worktree under `/workspace`, and Google Drive title search ("Albanese", "Council Flat", "Lodge", "GFX_75") — nothing. Proceeding without blocking:
+
+- `IMG_Albanese_DFAT` → **downloaded fresh**: `images/IMG-albanese-dfat.jpg` (Commons `File:Anthony_Albanese_Official_Portrait.jpg`, David Foote / AUSPIC via DFAT, **CC BY 4.0**).
+- `IMG_Howard_portrait` → **skipped** (licence unclear, same as lf03). S06 SPLIT becomes a text card "2004 → 2025" + Albanese portrait.
+- Gold thread → rebuild in the lf05 render pipeline (#D4A017), same stroke style as the lf03 red thread in `render/gfx.py`.
+- **Claude-rebuild cards** (build new in our design; they were REUSE from the Albanese film):
+
+| Card | Seg | Build as |
+|---|---|---|
+| GFX_75_lock | S08–S09 (75% caucus rule) | padlock icon + "75%" counter on the gold thread; FACT label |
+| GFX_PM_ladder | S06–S07 (Keating milestone / PM ladder) | vertical ladder of rungs with year tiles; Albanese tile climbs; no portraits other than DFAT Albanese |
+| GFX_rate_staircase | S10, S24 (RBA rate rises; cash rate 4.60% eff. 30 Sep 2026) | staircase steps with % tiles; numbers must match VO only |
+| GFX_approval_dial | S11–S12 (net approval) | semicircle dial, needle to the spoken figure; pollster + dates caption |
+
+### lf05 asset seat map (copied 6 Oct 2026)
+
+- `images/`: 26 files (15 REUSE lf03, 8 REUSE lf04, 3 new: Albanese DFAT, Taylor, Ley). See `images/CREDITS.md`.
+- `footage/`: F01–F20 = REUSE lf03 (F01 lf03 F01 … see Origin column), F21–F34 = REUSE lf04, F35–F46 = new free downloads. See `footage/CREDITS.md`, `footage/SKIPPED.md`. lf03 paths in the REUSE table above map: lf03 F01–F07 → lf05 F01–F07; lf03 F09 → F08; F12 → F09; F13 → F10; F14 → F11; F22 → F12; F23 → F13; F26–F28 → F14–F16; F30–F33 → F17–F20.
+- `broll/`: B01 (lf03 B05 ballot), B02 (lf03 B10 Senate seats), B03 (lf03 B11 phone). B04–B09 = prompts only (`broll/PROMPTS.md`). lf03 B06 tally room not used (people on monitors).
+- `audio/music/` (4 Mixkit beds) + `audio/sfx/` (9 effects incl. series sting) — `audio/MUSIC_CREDITS.md`.
+- `render/gfx.py` + `render/fonts/` copied from lf03 (cards, stamp GUILTY→QUASHED, lower_third, timeline, split, bars, recon_label, abbott_pin).
 
 ### From lf04 (pipeline only)
 
 `longform/lf04-housing/render/` (render.py, cut.py, mix.py with music leveller, master.py, deliver.py) on `origin/scaffold/lf04-housing` — reuse the pipeline when we reach render. Not copied yet.
 
-## Not yet (per brief, 6 Oct 2026)
+## Not yet (6 Oct 2026, after asset pass)
 
-- No voice recorded. No B-roll generated. No footage/images downloaded. No `PASTE_BRIEF.md`. No merge, no PR.
+- **Voice NOT recorded.** Paste pack ready at `/workspace/lf05-albanese-hanson/vo-paste/` (S01–S41 + BATCH_A–D + README). `audio/vo/` is empty.
+- **AI B-roll B04–B09 not generated** (prompts in `broll/PROMPTS.md`).
+- No `PASTE_BRIEF.md` (blocked on voice). No merge, no PR.

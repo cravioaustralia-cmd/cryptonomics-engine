@@ -14,3 +14,14 @@
 ## 2026-10-06 (AEDT) — S31 VO edit (approved)
 
 - Abhishek approved the S31 migration update. Applied in **both** `audio/vo-text/S31.txt` and `audio/vo-grok/S31.txt`: "On policy, One Nation has promised what it calls net-negative migration for three years, followed by a ceiling of one hundred and thirty thousand a year." Rest of S31 unchanged. PUBLISH_CHECKS row 8 → VO edited. S12 / S40 optional tweaks **not** applied.
+
+## 2026-10-06 (AEDT) — asset pass (REUSE + free downloads + VO paste pack)
+
+- **Albanese film assets:** not found on any remote branch, local worktree, or Google Drive. Downloaded `IMG-albanese-dfat.jpg` fresh (Commons, CC BY 4.0, DFAT/AUSPIC). GFX_75_lock / GFX_PM_ladder / GFX_rate_staircase / GFX_approval_dial listed as Claude-rebuild cards in SCRIPT_NOTE. Howard portrait skipped (licence unclear).
+- **Images (26):** 15 REUSE from lf03 (Hanson ×3 incl. CC0 2016, Abbott, Joyce, Faruqi, Parliament House, both chambers, two courts, Albury ×2, Adelaide, Ipswich); 8 REUSE from lf04 (Chalmers, Parliament exterior, Treasury, housing ×3, Melbourne Box Hill aerial, Sydney skyline); new Taylor (CC BY 4.0) and Ley (CC BY 3.0 AU). Farley skipped (family in frame / news material). `images/CREDITS.md`.
+- **Footage (46):** F01–F20 REUSE lf03, F21–F34 REUSE lf04, F35–F46 new (Pixabay ×9, Mixkit ×2, Commons ×2; re-encoded ≤1080p, ≤20 s, audio stripped): light plane, supermarket trolleys, piggy bank, Melbourne tram + aerial, Sydney Harbour timelapse, Sydney landing, screens abstract, TV static, AUD $50 notes, Sydney CBD, Brisbane. No ParlView. `footage/CREDITS.md` + `footage/SKIPPED.md` (US pump/US dollars/Tokyo crowd/Russian supermarket etc. rejected).
+- **Music/SFX:** lf03/lf04 pack (4 Mixkit beds + 9 sfx incl. series sting, SHA-256 verified) → `audio/music`, `audio/sfx`, `audio/MUSIC_CREDITS.md` with lf05 bed/cue map and gaps (no chess/pluck bed, no stamp/propeller/TV-click sfx).
+- **B-roll:** B01–B03 REUSE lf03 (ballot, Senate seats, phone). B04–B09 prompts written in `broll/PROMPTS.md` — **not generated** (no Grok Imagine access in this pass).
+- **render:** `render/gfx.py` + fonts copied from lf03.
+- **VO paste pack:** `/workspace/lf05-albanese-hanson/vo-paste/` S01–S41.txt (Atlas, Australian English, per-segment delivery mode/pace + pronunciation hints), BATCH_A–D for 4 parallel recorders, README. **Voice not recorded.**
+- PASTE_BRIEF **not written** (voice missing).
