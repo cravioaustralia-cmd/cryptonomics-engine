@@ -19,7 +19,7 @@ Scaffolded 6 Oct 2026 (Australia/Sydney, AEDT).
 
 - **S33 edited** (High Court): "Hanson says she wants to take the case to the High Court." → "Hanson has applied to the High Court for special leave, and that application has not yet been decided."
 - S32 "seven.thirty" → "seven thirty" (extraction artefact; ABC *7.30*).
-- **S31 migration line: update recommended, NOT applied — needs Abhishek before S31 is recorded.** Optional S12 and S40 tweaks also listed. See `PUBLISH_CHECKS.md`.
+- **S31 edited (approved by Abhishek 6 Oct 2026):** migration line → "On policy, One Nation has promised what it calls net-negative migration for three years, followed by a ceiling of one hundred and thirty thousand a year." Optional S12 and S40 tweaks NOT applied. See `PUBLISH_CHECKS.md`.
 
 ## Segment map, delivery and edit gaps
 
@@ -55,7 +55,7 @@ Scaffolded 6 Oct 2026 (Australia/Sydney, AEDT).
 | S28 | | EVIDENCE 140 | 47 | |
 | S29 | (ANALYSIS beat) | EXPLAIN→WEIGHT 135 | 77 | 1 s |
 | S30 | PART FIVE: Hanson's moves | STORY 150 | 67 | |
-| S31 | | STORY 150 | 83 | |
+| S31 | | STORY 150 | 90 | |
 | S32 | | STORY→EVIDENCE 145 | 83 | |
 | S33 | | EVIDENCE→WEIGHT 135 | 97 | 1.5 s → **MID-ROLL 3** |
 | S34 | POLLS, SEATS AND GOVERNMENT | EXPLAIN 140 | 77 | |

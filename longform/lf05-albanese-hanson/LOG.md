@@ -10,3 +10,7 @@
 - S32 "seven.thirty" → "seven thirty" (extraction artefact).
 - Documented: mid-rolls after S13/S25/S33; chapter holds H1–H9 (music + documentary visuals, no VO); FACT/CLAIM/ANALYSIS/SPECULATION labels; 2003 conviction always with "overturned on appeal"; ParlView FREE SWAP; REUSE list from lf03 (Albanese film folder not found on repo).
 - Not done (per brief): VO recording, B-roll, downloads, PASTE_BRIEF, PR/merge.
+
+## 2026-10-06 (AEDT) — S31 VO edit (approved)
+
+- Abhishek approved the S31 migration update. Applied in **both** `audio/vo-text/S31.txt` and `audio/vo-grok/S31.txt`: "On policy, One Nation has promised what it calls net-negative migration for three years, followed by a ceiling of one hundred and thirty thousand a year." Rest of S31 unchanged. PUBLISH_CHECKS row 8 → VO edited. S12 / S40 optional tweaks **not** applied.

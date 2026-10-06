@@ -21,14 +21,14 @@ Rule (same as lf03/lf04): do not invent numbers; edit VO only where a line is cl
 | 5 | Faruqi v Hanson — High Court special leave | S33 | **FAIL → VO edited** | Script line "Hanson says she wants to take the case to the High Court" is stale. Hanson **lodged a special leave application on 21 Aug 2026** (One News, 22 Aug 2026; The Australia Today; news.com.au 22 Aug 2026; AFR 22 Aug 2026). No grant or refusal found as of 6 Oct 2026. Edit applied (matches the wording already approved for lf03 S23/S35). |
 | 6 | Ages: Albanese 63, Hanson 72 | S40 | **PASS** | Albanese b. 2 Mar 1963 → 63; Hanson b. 27 May 1954 → 72. Albanese turns 64 on 2 Mar 2027. |
 | 7 | Senate censures "twice since November 2025" | S28 | **PASS** | Nov 2025 (burqa) and 2 Mar 2026 ("no good Muslims", 36–17, Coalition voted against — ABC/Reuters 2 Mar 2026). A third censure over Hanson's Indigenous remarks was *discussed* by crossbenchers in Sep 2026 but none moved/passed as of 15 Sep (Guardian/ABC 15 Sep 2026); none found since. Recheck before upload. |
-| 8 | One Nation net migration "130,000 a year" | S31 | **UPDATE RECOMMENDED** (not applied) | On **14 Sep 2026** One Nation released a bigger plan: "net-negative migration" for the first three years (cut ~750,000 temporary visa places), **then** a NOM "ceiling" of 130,000 reviewed yearly (ABC, 14 Sep 2026; onenation.org.au). The VO line is not false, but it omits the headline policy now being debated. Proposed S31 sentence for Abhishek: "On policy, One Nation has promised what it calls net-negative migration for three years, followed by a ceiling of one hundred and thirty thousand a year." Card/tile must be updated either way ("Net migration: net-negative 3 yrs → 130,000 ceiling"; source ABC 14 Sep 2026). **Needs Abhishek's OK before recording S31.** |
+| 8 | One Nation net migration "130,000 a year" | S31 | **UPDATE → VO EDITED** (approved by Abhishek 6 Oct 2026, applied) | On **14 Sep 2026** One Nation released a bigger plan: "net-negative migration" for the first three years (cut ~750,000 temporary visa places), **then** a NOM "ceiling" of 130,000 reviewed yearly (ABC, 14 Sep 2026; onenation.org.au). The VO line is not false, but it omits the headline policy now being debated. Proposed S31 sentence for Abhishek: "On policy, One Nation has promised what it calls net-negative migration for three years, followed by a ceiling of one hundred and thirty thousand a year." Card/tile must be updated either way ("Net migration: net-negative 3 yrs → 130,000 ceiling"; source ABC 14 Sep 2026). **Approved by Abhishek 6 Oct 2026 and applied to S31 (both files).** |
 | 9 | ParlView | S01, S14, S16, S27, S28 | **HOLD** | No ParlView downloaded. FREE SWAP until Abhishek has written confirmation (see SCRIPT_NOTE.md). |
 
 ## Summary counts
 
 - **PASS:** 1a, 1b, 1c, 1d, 1e, 1f, 2, 3, 4, 6, 7 (11 — of which 1a, 2, 3, 7 carry recheck/date flags; 1d and 3 carry optional wording advisories)
 - **FAIL → VO edited:** 5 (S33)
-- **UPDATE RECOMMENDED, awaiting Abhishek:** 8 (S31)
+- **UPDATE → VO edited (approved 6 Oct 2026):** 8 (S31)
 - **INFO:** 1g · **HOLD:** 9 (ParlView)
 
 ## VO edits applied (6 Oct 2026)
@@ -39,9 +39,13 @@ Rule (same as lf03/lf04): do not invent numbers; edit VO only where a line is cl
    - Card change: CARD_ABC_2026-07-27_appeal stays; add a FACT card "Special leave application lodged, 21 Aug 2026 — not yet decided" (source: news.com.au / AFR 22 Aug 2026). Staircase-with-"?" icon stays.
 2. Text normalisation only (no content change): S32 "seven.thirty" (PDF extraction) → "seven thirty", so TTS reads the ABC program name *7.30* correctly.
 
+3. `audio/vo-text/S31.txt` and `audio/vo-grok/S31.txt` (approved by Abhishek, 6 Oct 2026)
+   - was: "On policy, Hanson has said One Nation would cut net migration to one hundred and thirty thousand a year."
+   - now: "On policy, One Nation has promised what it calls net-negative migration for three years, followed by a ceiling of one hundred and thirty thousand a year."
+   - Rest of S31 unchanged. Label CLAIM (One Nation policy). Card/tile: "Net migration: net-negative 3 yrs → 130,000 ceiling" (source ABC 14 Sep 2026; onenation.org.au). S31 grows 83 → 90 words (wc).
+
 ## Proposed, NOT applied (need Abhishek)
 
-- **S31** (recommended): migration sentence — see row 8.
 - **S12** (optional): Roy Morgan 2PP 54–46 → 53.5–46.5 (newer release).
 - **S40** (optional): "where One Nation polls weakest" → "where Newspoll has One Nation weakest".
 
