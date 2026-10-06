@@ -1,0 +1,2887 @@
+Long-form — Production Script (FINAL)
+
+Can Albanese Stop Pauline Hanson?
+Format: long-form, 16:9, 1920×1080, 30 fps Runtime: about 17½–18 minutes as approved
+(2,470 narrated words at the varied paces in Part 3, plus pauses and end screen). This is
+above the brief’s 10–15 minute target; the optional trim pack in Part 13 brings it to about 16
+minutes without removing anything the brief requires. Mid-roll ad breaks: 3 (after S13, S25
+and S33) Voice: Grok TTS, voice Atlas. Delivery direction is in every segment; paste-ready
+text is in Part 7. Media budget: $0. Every clip, photo, sound and track comes from a free
+source. No news-network or agency footage. Continuity: this is the third film in the series,
+after The Pauline Hanson Story and From Council Flat to The Lodge (Albanese). It reuses
+their visual language, their two threads, and several of their assets (marked REUSE below).
+Research cut-off: 5 October 2026. Re-check polls, interest rates, the Victorian election
+and any leadership news on publish day (Part 11).
+
+
+
+
+PART 1: Packaging
+Title options
+
+1. Can Albanese Stop Pauline Hanson?
+
+2. Albanese Has the Power. Hanson Has the Polls. What Happens Next?
+
+3. 94 Seats vs 30%: Can Albanese Stop Pauline Hanson?
+
+Thumbnail: split frame. Left: a freely licensed Albanese photo (DFAT CC BY 4.0, unaltered)
+with a gold “94 SEATS” tag. Right: the CC0 Hanson portrait (REUSE) with an orange “30%”
+tag. A jagged line divides them. Big text in the middle: “CAN HE STOP HER?” Background
+#121212.
+
+Chapters (adjust to the final render) 0:00 The question 1:16 Part One: How strong is
+Anthony Albanese? 3:56 Part Two: The rise of Pauline Hanson 6:15 Part Three: What has
+actually changed? 8:47 Part Four: Albanese’s moves 10:56 Part Five: Hanson’s moves 13:09
+Polls, seats and government 14:47 The big comparison 15:59 Can Albanese stop Pauline
+Hanson?
+
+Description (top): the disclaimer (Part 12), chapters, the full source list (Part 8), media
+credits (Part 9 as collected), and: “Some background scenes are AI-generated
+reconstructions. No real person has been AI-generated or altered.”
+
+
+
+
+PART 2: Rules (apply to every frame)
+
+Evidence, balance and law
+ 1. Every factual claim appears on screen with its source and date as it’s spoken.
+
+ 2. The four labels. Every evidence card and key line carries one corner label:
+
+        FACT (white): verified events, official results and records.
+
+        CLAIM (orange outline): something a person or party says, e.g. One Nation’s
+        fundraising figures.
+
+        ANALYSIS (blue): an attributed interpretation by a named analyst or outlet.
+
+        SPECULATION (grey, dashed): what could happen. Used only in the ending.
+
+ 3. Every poll card shows pollster, fieldwork dates, sample size (where known), and the
+    line “One poll is a snapshot, not a verdict.”
+
+ 4. No winner is declared. The comparison shows both sides’ strengths and limits.
+
+ 5. No motives are invented. Where a motive isn’t documented, the script describes the
+    action and attributes any interpretation.
+
+ 6. Hanson’s 2003 conviction is always paired with “overturned on appeal”.
+
+ 7. ParlView footage in fair, in-context excerpts, credited “Parliament of Australia”, under
+    Parliament’s conditions for broadcast material. Written confirmation from ParlView is
+    held before publishing.
+
+ 8. Not election material. No paid promotion close to an election without advice.
+
+ 9. A final review of the cut by an Australian media lawyer.
+
+
+People and respect
+10. No AI-generated, drawn, animated or altered likeness of any real person. People in
+    animations are faceless figure icons.
+
+11. The burqa protest appears only as plain ParlView footage with a date lower-third.
+    Nothing is animated on top of it, and no icons represent any religious or ethnic group.
+12. The Faruqi quote is shown as on-screen text with the bleeped word (“go back to
+    Pakistan” is spoken; the expletive is not used).
+
+13. A small “Dramatised reconstruction” label the first time AI B-roll appears.
+
+
+
+
+PART 3: Voice direction system
+The aim is a narrator who sounds like a person thinking through evidence, not a voice
+reading a page. The pace and tone change with what’s being said.
+
+
+3.1 Five delivery modes
+
+  Mode          When                    Pace                    How it should sound
+
+                Opening facts, big      160–170 wpm, then a     Confident, punchy, slight
+  HOOK
+                reveals                 sudden stop             lean forward
+
+                Narrative, history,
+  STORY                                 145–155 wpm             Warm, conversational, clear
+                events
+
+                Numbers, polls,                                 Deliberate; every number
+  EVIDENCE                              130–140 wpm
+                results                                         given space
+
+                Turning points,                                 Slow, quieter, with pauses
+  WEIGHT                                115–125 wpm
+                quotes, questions                               before and after
+
+                                                                Patient, like explaining to a
+  EXPLAIN       Electoral mechanics     140 wpm
+                                                                friend; small smile
+
+
+
+3.2 How the modes are produced in Grok
+    Each segment is generated separately with the same Atlas voice settings.
+
+    Pauses are written into the Grok text: [pause] (short) and [long-pause] (longer).
+     <slow>…</slow> is used for WEIGHT lines and <soft>…</soft> for quiet lines.
+
+    Speed: every segment lists a target pace. After generating, check the duration. If it’s
+    more than about 5% off the target, adjust the clip speed by up to ±6% (pitch-
+    preserving) or regenerate. Never speed up a WEIGHT line.
+
+    Retakes: if a segment sounds flat or reads a number wrongly, regenerate it before
+    adjusting speed.
+
+    Breathing room: leave 0.3–0.6 seconds of room tone between segments, and longer
+   where an edit gap (         ) is listed.
+
+
+3.3 Emphasis rules
+   Numbers that carry the story (94, 30, 27, 2, 36) get a tiny beat before them.
+
+   Contrasts (“power and popularity are not the same thing”) are read slower on the
+   second half.
+
+   Questions that end a section are read in WEIGHT mode, then followed by a             1–1.5s
+   edit gap with music only.
+
+   Quotes from real people are read neutrally, never in an impression of the speaker.
+
+
+
+
+PART 4: Visual and animation system
+
+4.1 Layers
+
+ Layer                           Job                                                     Share
+
+       Animation and             The backbone: threads, scoreboard, maps, charts,        about
+ data                            chamber, ballot explainer                               40%
+
+       Real footage                                                                      about
+                                 Proof: the Senate, Question Time, censure votes
+ (ParlView)                                                                              15%
+
+       Evidence cards            Headlines, budget papers, judgments, poll cards with    about
+ and documents                   FACT/CLAIM/ANALYSIS labels                              20%
+
+       Animated free                                                                     about
+                                 Portraits, places, objects, always moving
+ images                                                                                  15%
+
+       B-roll (free stock or                                                             about
+                                 Atmosphere: fuel prices, suburbs, Canberra
+ AI)                                                                                     10%
+
+
+The golden rule: something reacts to the voice every 1–2 seconds, except in WEIGHT
+moments, where motion slows on purpose.
+
+
+4.2 The two threads (continuity from the previous films)
+   The gold thread belongs to Albanese (from From Council Flat to The Lodge).
+
+   The red thread belongs to Hanson (from The Pauline Hanson Story). In this film it runs
+   in One Nation orange-red (#E8552A), so it never clashes with Labor’s red in the
+   charts.
+
+   The opening shows both threads starting from opposite ends of the screen.
+
+   Each time the story switches between the two leaders, the camera follows that
+   leader’s thread. When they clash (the fundraising war, censures, the polls crossing),
+   the two threads cross and knot.
+
+   In the big comparison, the two threads run side by side, one labelled POWER and
+   one labelled PRESSURE.
+
+   In the final shot, the threads stretch off toward an unfinished 2028 node, tied to
+   nothing yet.
+
+
+4.3 The scoreboard (the device that holds the story together)
+A slim HUD bar at the top of the screen appears whenever numbers are discussed and
+updates as the story moves:
+
+ALBANESE · Seats 94/150 · Newspoll 27% · Net approval −27 │ HANSON · Seats 2/150 ·
+Senators 4 · Newspoll 30%
+
+   The left half (gold) tracks power; the right half (orange-red) tracks pressure.
+
+   Numbers tick when the narration changes them; the label flashes FACT or CLAIM as
+   appropriate.
+
+   It reappears in every chapter, so viewers always know “where the score is”.
+
+
+4.4 Recurring visual devices
+   The poll Polaroid: every poll appears as a Polaroid photo that drops onto the desk with
+   a shutter click. The caption reads: pollster, dates, sample, and “A snapshot, not a
+   verdict”. Multiple polls stack, showing that they disagree.
+
+   The chamber: a 150-seat House of Representatives hemicycle (Labor red, Coalition
+   blue, One Nation orange, Greens green, independents teal, others grey), with a glowing
+   “76” majority line.
+
+   The state heat map: a simplified Australia map where states fill with colour intensity as
+   polls are read.
+
+   The ballot explainer: an animated green House ballot paper and white Senate ballot
+   paper for the mechanics chapter.
+
+   The split-flap year board, stamps and evidence cards carry over from the previous
+   films.
+4.5 Design tokens
+   Colours: background #121212 · paper #F4EFE6 · Labor red #D62828 · Coalition blue
+   #1F4E9E · One Nation orange #F28C28 · Hanson thread #E8552A · Albanese gold
+   thread #D4A017 · Greens green #2E9E4F · independents teal #2BB3A3 · neutral grey
+   #8A8A8A
+
+   Label colours: FACT white, CLAIM orange outline, ANALYSIS blue #3A7BD5,
+   SPECULATION grey dashed.
+
+   Fonts (free, OFL): Inter for kinetic type, labels and numbers; Source Serif 4 for quotes
+   and headlines.
+
+   Evidence cards: off-white paper card on dark background; outlet and date in small
+   caps; serif headline; a yellow highlighter swipe synced to the narration; a
+   FACT/CLAIM/ANALYSIS label in the corner. Recreated in this design, never screenshots
+   of news pages.
+
+   Photo grade: slight warmth, light grain, soft vignette. Motion: ease-out entrances of
+   200–350 ms.
+
+
+4.6 Image animation moves
+DROP (photo falls in, shutter click) · STACK (photos pile up) · PAN (slow parallax push) ·
+CIRCLE (marker circle) · CALLOUT (label pop) · ZOOM (document dive and highlighter) · PIN
+(photo snaps to map or thread) · SPLIT (two photos lock together) · WALL (rapid grid) ·
+TORN (paper-rip reveal). Every image is on screen 1.5–3 seconds and always moving.
+
+
+4.7 AI B-roll
+Style anchor: Cinematic documentary B-roll, 16:9, natural colour, gentle film grain, shallow
+depth of field, slow camera movement, realistic, no text, no logos, no recognisable real
+people, faces not visible. Never generate: real people, party logos, campaign material,
+religious dress, or Parliament interiors posing as real events.
+
+
+4.8 Sound
+   Mix: narration −14 LUFS; sound effects about 12 dB under narration; music about 20 dB
+   under, ducking under speech.
+
+   Music beds: tense pulse for the opening; measured investigative underscore for Parts
+   One, Three and the comparison; momentum build for Part Two; a two-tone “chess” motif
+   for Parts Four and Five; light, curious plucks for the mechanics chapter; a reflective,
+   unresolved piano for the ending.
+     Signature sounds: a thread “zip” when a thread pulls something in; a soft knot “tick”
+     when threads cross; a shutter click for each poll Polaroid; a stamp thud for FACT
+     stamps.
+
+     Mid-rolls: a clean 0.5-second beat after S13, S25 and S33.
+
+
+
+
+PART 5: Asset naming and reuse
+Assets are named by type and content so they can be found and organised easily:
+
+       FTG_ real footage (e.g. FTG_ParlView_Senate_2025-11-25_censure_vote )
+
+       IMG_ photos (e.g. IMG_Hanson_2016_CC0 )
+
+       DOC_ documents (e.g. DOC_Budget2026_overview )
+
+       CARD_ evidence cards (generated from the text in Part 8)
+
+       BR_ B-roll (e.g. BR_STOCK_petrol_price_board , BR_AI_vote_count_room )
+
+       GFX_ animation elements (e.g. GFX_scoreboard , GFX_chamber_150 )
+
+REUSE = already used in a previous film in this series; pull from that film’s assets.
+
+
+
+
+PART 6: Shot-by-shot script
+Key:         voice direction ·       footage ·   evidence card ·   image ·   B-roll ·
+animation/graphics ·             edit gap
+
+
+OPENING: The question
+S01
+
+     In May 2025, Anthony Albanese won the biggest election victory in Australian history.
+     Labor took 94 seats in the House of Representatives. Pauline Hanson’s One Nation won
+     none.
+
+     HOOK, 160 wpm. Confident, almost matter-of-fact. A tiny beat before “94”. “Won none”
+is short and flat, with a stop after it.
+
+Visual track
+
+1.        GFX_chamber_150 : frame 1 is an empty hemicycle in darkness. The gold thread
+     enters from the left edge.
+2.        FTG_ParlView_House_2025_Albanese_QT : Albanese at the despatch box, 2025
+     (ParlView, “Albanese Question Time 2025”).
+
+3.        IMG_Hanson_2016_CC0 (REUSE): a small portrait slides in from the right on the
+     orange-red thread.
+
+     Animation cues
+
+
+ VO cue                   Animation                                              Sound
+
+ “In May 2025”            Split-flap to “2025”                                   Clatter
+
+ “the biggest
+                          The gold thread lights the chamber                     Rising swell
+ election victory”
+
+                                                                                 Tick cascade
+ “94 seats”               94 seats fill red in a fast sweep; “94” stamps above
+                                                                                 + stamp
+
+ “One Nation won          The orange-red thread reaches the chamber; zero        Single soft
+ none”                    seats light. A “0” drops quietly                       tick
+
+
+S02
+
+     Sixteen months later, Newspoll, the country’s best-known opinion poll, put One Nation on
+     30% of the primary vote, and Labor on 27%.
+
+     HOOK → EVIDENCE, 145 wpm. Lean into “Sixteen months later”. Give “30%” and “27%”
+each a beat.
+
+Visual track
+
+1.        The chamber fades; the poll Polaroid device appears.
+
+2.        CARD_Newspoll_Sep2026 : Polaroid: “Newspoll · 14–17 Sep 2026 · 1,244 voters · A
+     snapshot, not a verdict”. FACT.
+
+3.        GFX_scoreboard appears for the first time.
+
+     Animation cues
+
+
+ VO cue                   Animation                                                     Sound
+
+ “Sixteen months
+                          A calendar flips 16 pages                                     Flutter
+ later”
+
+                                                                                        Shutter
+ “Newspoll”               The Polaroid drops onto the desk
+                                                                                        click
+  “One Nation on                                                                          Rising
+                           An orange bar rises to 30
+  30%”                                                                                    tone
+
+                           A red bar stops at 27, just short; the two threads cross for
+  “Labor on 27%”                                                                          Knot tick
+                           the first time
+
+  (end)                    The scoreboard slides down from the top and locks              Click
+
+
+S03
+
+     So in little more than a year, something in Australian politics has shifted. The real
+     question is how much, where, and whether it will last. Can Albanese stop Pauline
+     Hanson?
+
+     STORY → WEIGHT, 140 then 120 wpm. “How much, where, and whether it will last” is
+three clear beats. The title question is slow and quiet, with a pause before it.
+
+Visual track
+
+1.        The two threads pull apart to opposite sides of a dark screen.
+
+2.        Title: “CAN ALBANESE STOP PAULINE HANSON?” builds word by word.
+
+          1.5s (music hit, title holds).
+
+     Animation cues
+
+
+  VO cue                             Animation                                            Sound
+
+                                                                                          Low
+  “something … has shifted”          The screen tilts 2 degrees, then settles
+                                                                                          rumble
+
+                                                                                          Three
+  “how much” / “where” /             Three words appear, one per beat: “HOW
+                                                                                          soft
+  “whether it will last”             MUCH?”, “WHERE?”, “HOW LONG?”
+                                                                                          pops
+
+  “Can Albanese stop
+                                     The title builds; the threads tighten                Bass hit
+  Pauline Hanson?”
+
+
+S04
+
+     To answer that, this documentary looks at five things: how strong Anthony Albanese’s
+     position really is; how Pauline Hanson’s One Nation rose; what has actually changed in
+     the numbers, and what hasn’t; what each side is doing about it; and what could happen
+     next. Along the way, we’ll show you the polls, the results and the sources, and we’ll tell
+     you clearly when something is a fact, when it’s a claim, and when it’s someone’s analysis.
+
+     STORY, 155 wpm. A brisk, energetic roadmap. Slow slightly on “a fact … a claim …
+someone’s analysis”.
+
+Visual track
+
+1.       A roadmap: five numbered cards slide in, joined by the two threads.
+
+2.       The four label stamps demonstrate themselves: FACT, CLAIM, ANALYSIS (and
+     SPECULATION faintly).
+
+     Animation cues
+
+
+ VO cue            Animation                                                               Sound
+
+ “five
+                   “5” pops; five cards stack in a row                                     Pop
+ things”
+
+                                                                                           Five
+                   Each card flips face-up in sync: “ALBANESE”, “HANSON’S RISE”,
+ each item                                                                                 card
+                   “WHAT CHANGED”, “THE MOVES”, “WHAT’S NEXT”
+                                                                                           flips
+
+ “a fact”          A white FACT stamp                                                      Stamp
+
+ “a claim”         An orange CLAIM stamp                                                   Stamp
+
+ “someone’s
+                   A blue ANALYSIS stamp                                                   Stamp
+ analysis”
+
+
+S05 (disclaimer)
+
+     A quick note: this is an independent documentary. We’re not affiliated with any political
+     party, and every source is shown on screen and listed in the description.
+
+     STORY, 150 wpm. Plain and calm.
+
+Visual track
+
+1.       The disclaimer card (Part 12) over        BR_STOCK_parliament_house_dawn (Pexels /
+     Pixabay). Hold 8 seconds.
+
+     Animation cues
+
+
+ VO cue              Animation                                                     Sound
+
+ Whole               The disclaimer types on; a small shield icon draws in the     Soft
+ segment             corner                                                           typewriter
+
+
+
+PART ONE: How strong is Anthony Albanese?
+S06
+
+     Start with the evidence of Anthony Albanese’s strength, because there’s a lot of it.
+     Albanese became Prime Minister in 2022 with 77 seats, a majority of two. At the 2025
+     election, Labor won 94 of the 150 seats in the House of Representatives, the most seats
+     any party has ever won in an Australian federal election. Labor held every seat it already
+     had. And Albanese became the first Australian prime minister to be re-elected since John
+     Howard in 2004.
+
+     STORY → EVIDENCE, 145 wpm. A slight lift on “because there’s a lot of it”. Steady
+through the record; give “the most seats any party has ever won” a touch of weight.
+
+Visual track
+
+1.       Chapter title: “PART ONE · HOW STRONG IS ANTHONY ALBANESE?” The camera
+     follows the gold thread.
+
+2.        GFX_chamber_150 : 2022 result (77) morphs into the 2025 result (94).
+
+3.        CARD_Wiki_2025_election_record : “the highest number of seats ever won by a
+     single political party”. FACT.
+
+4.       SPLIT: IMG_Howard_portrait (Commons; check licence) and IMG_Albanese_DFAT
+     with “2004 → 2025”. (REUSE from the Albanese film.)
+
+     Animation cues
+
+
+ VO cue                                 Animation                                       Sound
+
+                                                                                        Paper
+ “a lot of it”                          Three evidence tabs slide out of a folder
+                                                                                        slide
+
+                                        Split-flap to “2022”; 77 seats fill; the 76     Ticks +
+ “in 2022 with 77 seats”
+                                        line glows                                      ding
+
+ “a majority of two”                    “+2” tag pops above the 76 line                 Pop
+
+                                                                                        Tick
+ “94 of the 150”                        Seats sweep up to 94
+                                                                                        cascade
+
+ “the most seats any party has
+                                        A gold “RECORD” stamp                           Stamp
+ ever won”
+                                        A padlock clicks over the original 77
+ “held every seat it already had”                                                    Lock click
+                                        seats
+
+                                        The gold thread draws a long arc back to
+ “since John Howard in 2004”                                                         String pull
+                                        “2004”
+
+
+S07
+
+     That majority hasn’t gone anywhere. Labor still holds 94 seats, and the next federal
+     election isn’t due until 2028. Under Labor’s own rules, removing a sitting Labor prime
+     minister requires the support of 75% of the party’s MPs and senators. And in August
+     2026, Albanese passed Paul Keating’s time in office, making him the longest-serving
+     prime minister since John Howard.
+
+     EVIDENCE, 140 wpm. Firm and settled. A beat before “75%”.
+
+Visual track
+
+1.       Scoreboard (left half): “Seats 94/150”.
+
+2.        GFX_75_lock : a caucus graphic with a bar that must climb to 75% (REUSE from the
+     Albanese film).
+
+3.        CARD_Wiki_ALP_leaders_75pc : the 75% rule. FACT.
+
+4.        GFX_PM_ladder : Albanese’s card passes Keating’s rung (REUSE).
+
+     Animation cues
+
+
+ VO cue                          Animation                                            Sound
+
+ “hasn’t gone anywhere”          The 94 seats pulse once                              Pulse
+
+                                 A dotted node at “2028” appears far right on the     Soft
+ “isn’t due until 2028”
+                                 gold thread                                          ping
+
+                                 The bar climbs to a high line; a lock icon clicks    Climb +
+ “75%”
+                                 onto the leader’s chair                              lock
+
+ “passed Paul Keating’s
+                                 His card climbs a rung on the ladder                 Step
+ time in office”
+
+ “since John Howard”             The ladder glows above him                           Shimmer
+
+
+S08
+
+     So on paper, Anthony Albanese holds more power than any Australian leader in years. But
+     power and popularity are not the same thing.
+
+     WEIGHT, 125 wpm. The first sentence is confident; then a pause; the second sentence
+is slow and quieter, with “not the same thing” landing softly.
+
+Visual track
+
+1.       The chamber glows red, then a thin crack runs across the image.
+
+         1s.
+
+     Animation cues
+
+
+  VO cue                          Animation                                      Sound
+
+  “more power than any
+                                  The scoreboard’s left half glows gold          Swell
+  Australian leader in years”
+
+                                  Two words split apart on screen: “POWER”
+  “But power and popularity”                                                     Whoosh
+                                  (gold) and “POPULARITY” (grey)
+
+                                                                                 Glass
+  “not the same thing”            A crack runs through the chamber graphic       hairline
+                                                                                 crack
+
+
+S09
+
+     In May 2026, the Albanese government’s budget restricted negative gearing to newly
+     built homes and changed the capital gains tax discount. At the 2025 election, Labor had
+     ruled out both changes. The ABC reported that Treasurer Jim Chalmers conceded the
+     government had broken its promise.
+
+     EVIDENCE, 140 wpm. Neutral and precise; no dramatic tone. “Ruled out both changes”
+is clear and even.
+
+Visual track
+
+1.        DOC_Budget2026_overview (budget.gov.au; check licence): ZOOM to the housing tax
+     measures.
+
+2.        CARD_ABC_2026-05-12_broken_promise : “Government breaks promise with
+     restrictions to negative gearing and capital gains tax discount in federal budget” FACT
+     (reported).
+
+3.        IMG_Chalmers_portrait (Commons; check licence).
+
+4.        BR_STOCK_new_housing_construction (Pexels / Pixabay).
+     Animation cues
+
+
+ VO cue                            Animation                                       Sound
+
+ “In May 2026”                     Split-flap to “2026”                            Clatter
+
+ “negative gearing to newly        A house icon splits: “NEW” (tick) and
+                                                                                   Two clicks
+ built homes”                      “EXISTING” (cross)
+
+ “capital gains tax discount”      A “50%” discount tag flips                      Flip
+
+ “had ruled out both               A 2025 campaign-quote card slides in, then a    Marker
+ changes”                          red line crosses it                             strike
+
+                                   The ABC card’s highlighter swipes “broken its   Highlighter
+ “conceded”
+                                   promise”                                        swipe
+
+
+S10
+
+     Then came the cost-of-living pressure. A war involving the United States and Iran pushed
+     up global oil prices, and Australian fuel prices with them. The Reserve Bank raised
+     interest rates four times in 2026, to 4.6%, the highest level since 2011.
+
+     STORY → EVIDENCE, 145 wpm. A darker tone. A beat before “four times”, and the
+“4.6%” stated cleanly.
+
+Visual track
+
+1.        BR_STOCK_petrol_price_board_night (Pexels / Pixabay).
+
+2.        GFX_rate_staircase (REUSE): four steps up to 4.6%.
+
+3.        CARD_ABC_2026-09-29_RBA : “RBA lifts interest rates to highest level in 15 years”.
+     FACT.
+
+     Animation cues
+
+
+ VO cue                     Animation                                              Sound
+
+ “cost-of-living            The palette cools; a pressure gauge creeps up in
+                                                                                   Low drone
+ pressure”                  the corner
+
+ “global oil prices”        An oil-barrel icon with a climbing price tag           Rising tone
+
+                                                                                   Digital
+ “fuel prices”              Petrol-pump digits spin up
+                                                                                   beeps
+                                                                                      Four
+ “four times”               The staircase climbs four steps, one per beat
+                                                                                      footsteps
+
+                                                                                      Odometer
+ “4.6%”                     Number roll to “4.6%”
+                                                                                      tick
+
+ “since 2011”               A “HIGHEST SINCE 2011” stamp                              Stamp
+
+
+S11
+
+     The polls followed. In Newspoll’s September survey of 1,244 voters, Labor’s primary vote
+     fell to 27%, its lowest in Newspoll since 2012, and down from 37% a year earlier.
+     Albanese’s net approval fell to minus 27, the worst of his prime ministership.
+
+      EVIDENCE, 135 wpm. “The polls followed” is short, with a pause after. Each number
+gets space; “minus 27” lands heavier.
+
+Visual track
+
+1.        CARD_Newspoll_Sep2026 Polaroid (from S02).
+
+2.        GFX_poll_lines : Labor’s line from 37 (Sep 2025) to 27 (Sep 2026).
+
+3.        GFX_approval_dial (REUSE): the needle swings to −27.
+
+4.        CARD_Conversation_2026-09-20 : “Labor and Albanese slump to new lows in
+      Newspoll, but Labor improves in a DemosAU poll”. FACT.
+
+      Animation cues
+
+
+ VO cue                 Animation                                                Sound
+
+ “The polls
+                        The scoreboard flickers                                  Glitch tick
+ followed.”
+
+ “1,244 voters”         Sample-size caption highlights on the Polaroid           Highlighter
+
+                        Labor’s line drops to 27; the scoreboard updates         Falling tone +
+ “27%”
+                        “Newspoll 27%”                                           tick
+
+ “since 2012”           A “LOWEST SINCE 2012” pin                                Pin
+
+ “down from
+                        A ghost line at 37 appears, then fades                   Soft whoosh
+ 37%”
+
+ “minus 27”             The approval needle swings hard left                     Needle swing
+S12
+
+     But a single poll is a snapshot, not a verdict. In the same month, a DemosAU poll had
+     Labor rising two points, to 28%. And Roy Morgan estimated that, after preferences,
+     Labor would still beat One Nation 54 to 46.
+
+     EVIDENCE → WEIGHT, 135 wpm. “A snapshot, not a verdict” is a slower, deliberate
+phrase. Then brisker on the two counter-polls.
+
+Visual track
+
+1.          CARD_DemosAU_Sep2026 Polaroid: “DemosAU · 10–14 Sep 2026 · 1,583 voters”. FACT.
+
+2.          CARD_RoyMorgan_Sep2026_2PP Polaroid: “Roy Morgan · Sep 2026 · two-party
+     estimate ALP 54 / ON 46”. FACT.
+
+3.       Three Polaroids stack slightly fanned out, showing different numbers.
+
+     Animation cues
+
+
+ VO cue                  Animation                                               Sound
+
+ “a snapshot, not        The Newspoll Polaroid gets a little “SNAPSHOT” label;   Shutter +
+ a verdict”              a gavel icon is crossed out                             soft cross
+
+ “DemosAU”               A second Polaroid drops                                 Shutter click
+
+ “rising two                                                                     Small rising
+                         A small “+2” arrow on Labor’s bar
+ points, to 28%”                                                                 tone
+
+ “Roy Morgan”            A third Polaroid drops                                  Shutter click
+
+                         A tug-of-war rope: the red side pulls past the centre
+ “54 to 46”                                                                      Rope creak
+                         line
+
+
+S13
+
+     So Albanese holds the power, but he is losing popularity. Which raises the next question:
+     if voters are leaving Labor, where are they going?
+
+     WEIGHT, 120 wpm. A summary tone, then the question slow, with a pause before
+“where are they going?”
+
+Visual track
+
+1.       The scoreboard’s left half: seats stay at 94 (solid gold) while the poll number pulses
+     red.
+2.       Small faceless voter icons drift away from a red Labor block and off-screen right,
+     toward the orange-red thread.
+
+         1.5s.
+
+     Animation cues
+
+
+ VO cue                    Animation                                               Sound
+
+ “holds the power”         “94” glows steady                                       Hum
+
+ “losing popularity”       “27%” pulses                                            Low pulse
+
+ “where are they           The voter icons drift right; the camera starts to pan   Soft
+ going?”                   with them                                               footsteps
+
+
+▶ MID-ROLL AD BREAK
+
+
+PART TWO: The rise of Pauline Hanson
+S14
+
+     If you’ve seen our previous documentary on Pauline Hanson, you’ll know her story is one
+     of rises and falls. Pauline Hanson entered Federal Parliament in 1996. She founded One
+     Nation in 1997, and the next year the party won almost 23% of the vote and 11 seats in
+     the Queensland state election. Then it fell apart. Hanson lost her federal seat, was jailed
+     for electoral fraud, and had the conviction overturned on appeal. She spent more than a
+     decade losing elections, before returning to the Senate in 2016.
+
+     STORY, 150 wpm, warm and brisk; this is a recap. A slight drop on “Then it fell apart.”
+Clear and neutral on “jailed… overturned on appeal”.
+
+Visual track
+
+1.       Chapter title: “PART TWO · THE RISE OF PAULINE HANSON”. The camera follows the
+     orange-red thread.
+
+2.        GFX_hanson_timeline_recap (REUSE): a fast flyover of the Hanson film’s timeline
+     nodes, 1996 → 2016.
+
+3.        FTG_ParlView_House_1996-09-10_maiden_speech (REUSE), 2 seconds, silent under
+     narration.
+
+4.        IMG_Hanson_2006_CCBY and IMG_Hanson_2007_CCBYSA (REUSE) as wilderness-years
+     Polaroids.
+     Animation cues
+
+
+ VO cue                      Animation                                              Sound
+
+ “our previous               The red-thread evidence board from the first film
+                                                                                    Thread zip
+ documentary”                flashes for a moment
+
+ “1996” / “1997”             Split-flap flips                                       Clatter ×2
+
+ “almost 23% … 11
+                             A Queensland map; 11 seats light orange                Ticks
+ seats”
+
+ “Then it fell apart.”       The 11 seats crumble                                   Crumble
+
+ “jailed … overturned on     Red “GUILTY” stamp shatters into gold “QUASHED”        Shatter +
+ appeal”                     (REUSE)                                                stamp
+
+ “more than a decade                                                                Quick
+                             A run of small “LOST” nodes thuds in
+ losing”                                                                            thuds
+
+ “returning to the
+                             A single orange Senate seat lights                     Ding
+ Senate in 2016”
+
+
+S15
+
+     At the 2025 election, while Labor was winning its landslide, One Nation quietly grew from
+     two senators to four.
+
+     STORY, 140 wpm, almost conspiratorial. “Quietly” is said quietly.
+
+Visual track
+
+1.       A split screen: Labor’s 94-seat chamber on the left, a small Senate graphic on the
+     right where 2 orange seats become 4.
+
+     Animation cues
+
+
+ VO cue                                         Animation                        Sound
+
+ “while Labor was winning its
+                                                The left side blazes red         Swell
+ landslide”
+
+ “quietly”                                      The right side stays dim         Music dips
+
+                                                Two more orange seats light      Two soft
+ “two senators to four”
+                                                softly                           dings
+S16
+
+     What happened next was much faster. In late 2025, former deputy prime minister
+     Barnaby Joyce left the Nationals and joined One Nation. In early 2026, Newspoll
+     recorded One Nation ahead of the Coalition for the first time. In March, One Nation won
+     four lower-house seats in the South Australian state election. In May, One Nation’s David
+     Farley won the federal seat of Farrer, the party’s first ever win in the federal lower house.
+     And by September, Newspoll had One Nation in first place, on 30%.
+
+     HOOK, 160 wpm. Momentum: each sentence slightly faster, building to “first place, on
+30%”, then stop.
+
+Visual track
+
+1.       A fast-cut montage on the orange-red thread, one node per sentence.
+
+2.        IMG_Joyce_portrait (Commons; check licence): the card flies from a blue bench to
+     an orange bench.
+
+3.        GFX_poll_lines : the orange line crosses blue.
+
+4.       SA map: 4 seats light orange.
+
+5.        FTG_ParlView_House_2026-06_Farley_first_speech (ParlView).
+
+6.        CARD_ABC_2026-05-09_Farrer : “One Nation scores historic win in Farrer by-
+     election”. FACT.
+
+     Animation cues
+
+
+ VO cue                        Animation                                              Sound
+
+                                                                                      Tempo
+ “much faster”                 The music tempo doubles; the thread speeds up
+                                                                                      kick
+
+                                                                                      Thread
+                               His card is yanked along the thread from blue to
+ “Barnaby Joyce”                                                                      yank +
+                               orange
+                                                                                      thud
+
+ “ahead of the Coalition
+                               Orange line crosses blue with a spark                  Spark
+ for the first time”
+
+ “four lower-house
+                               SA map seats pop orange                                Four pops
+ seats”
+
+ “Farrer … first ever                                                                 Flip +
+                               Farrer map outline flips orange; “FIRST” stamp
+ win”                                                                                 stamp
+                               A podium rises under the orange bar; the
+ “first place, on 30%”                                                            Rise + bell
+                               scoreboard right half updates “Newspoll 30%”
+
+
+S17
+
+     But not every pollster agrees on how high One Nation has climbed. Newspoll has One
+     Nation on 30%. DemosAU, in September, had it on 26%. A Roy Morgan survey in mid-
+     September had it on 25.5%. And Newspoll’s own figures show 51% of voters disapprove
+     of Pauline Hanson herself.
+
+     EVIDENCE, 130 wpm. A careful “fair-minded” tone. Space between the three numbers.
+
+Visual track
+
+1.       Three Polaroids side by side: Newspoll 30 / DemosAU 26 / Roy Morgan 25.5, each
+     with dates and samples.
+
+2.       A “range” bracket draws across them: “25.5–30%”.
+
+3.       Hanson approval bar: 44 approve / 51 disapprove (Newspoll, Sep 2026).
+
+     Animation cues
+
+
+ VO cue                           Animation                                    Sound
+
+ “not every pollster agrees”      Polaroids fan out                            Paper shuffle
+
+ “30%” / “26%” / “25.5%”          Each Polaroid’s number highlights in turn    Three clicks
+
+ (after the third number)         A bracket draws across: “RANGE 25.5–30%”     Pen draw
+
+ “51% … disapprove”               A disapproval bar fills to 51                Meter tick
+
+
+S18
+
+     And there’s a gap between polling and power. One Nation holds two seats in the 150-seat
+     House of Representatives: Farrer, and Barnaby Joyce’s seat of New England. It has four
+     senators.
+
+     EVIDENCE → WEIGHT, 130 wpm. “Two seats” lands with a beat before it.
+
+Visual track
+
+1.        GFX_chamber_150 : zoom out to all 150 seats; only 2 glow orange (Farrer, New
+     England), with map callouts.
+
+2.       The scoreboard right half: “Seats 2/150 · Senators 4”.
+     Animation cues
+
+
+ VO cue                        Animation                                              Sound
+
+ “a gap between polling        The orange 30% bar casts a long shadow; the
+                                                                                      Whoosh
+ and power”                    chamber appears inside it
+
+                                                                                      Two soft
+ “two seats”                   Two orange seats glow in a sea of other colours
+                                                                                      dings
+
+ “Farrer” / “New                                                                      Two
+                               Small map callouts pop
+ England”                                                                             pops
+
+ “four senators”               A small Senate inset with 4 orange seats               Click
+
+
+S19
+
+     So it’s a fact that One Nation’s polling has risen sharply. It’s a claim, made by One Nation
+     and some commentators, that the party is on track to govern. And the ABC has
+     described the rise as the fastest polling surge in modern Australian politics. But is One
+     Nation rising everywhere, or only in some places?
+
+     EXPLAIN → WEIGHT, 135 then 120 wpm. Emphasise the words “fact” and “claim”. Slow,
+curious question at the end.
+
+Visual track
+
+1.       Three label cards: FACT “Polling has risen sharply”, CLAIM “On track to govern”
+     (orange outline), and ANALYSIS (ABC) “fastest polling rise in modern Australian politics”.
+
+2.       A blank Australia map appears with a question mark over it.
+
+         1s.
+
+     Animation cues
+
+
+ VO cue                                  Animation                                  Sound
+
+ “it’s a fact”                           White FACT stamp                           Stamp
+
+                                                                                    Hollow
+ “It’s a claim”                          Orange CLAIM stamp (outline only)
+                                                                                    stamp
+
+ “the ABC has described”                 Blue ANALYSIS stamp                        Stamp
+
+ “everywhere, or only in some            The Australia map fades up with a “?”
+                                                                                    Soft chime
+ places?”                                over it
+PART THREE: What has actually changed?
+S20
+
+     To find out what has actually changed, look beyond the national number. Newspoll’s
+     quarterly breakdown, which surveyed 4,967 voters between July and September, shows
+     One Nation’s support varies sharply by state. In Queensland, Pauline Hanson’s home
+     state, One Nation was on 36%, eleven points ahead of Labor. In New South Wales, One
+     Nation edged Labor 31 to 30. In Western Australia, Labor led One Nation by a single
+     point. But in Victoria, Labor led 29 to 25. Queensland voters even preferred Hanson to
+     Albanese as prime minister, 52 to 48.
+
+     EVIDENCE, 140 wpm. A travelling feel, state by state, with a lift on “But in Victoria”. A
+slight smile of surprise on “even preferred Hanson”.
+
+Visual track
+
+1.       Chapter title: “PART THREE · WHAT HAS ACTUALLY CHANGED?” Both threads
+     appear.
+
+2.        GFX_state_heatmap : the camera flies state to state. Each state fills orange in
+     proportion to One Nation’s vote, with a mini bar chart (One Nation vs Labor).
+
+3.        CARD_Newspoll_quarterly_JulSep2026 Polaroid: “Newspoll quarterly · 13 Jul–18 Sep
+     2026 · 4,967 voters”. FACT.
+
+4.        CARD_NewDaily_2026-09-28 : “Pauline Hanson surges to preferred PM in Qld”. FACT
+     (reported).
+
+     Animation cues
+
+
+ VO cue                          Animation                                           Sound
+
+ “beyond the national            The national 30% bar shatters into five state       Glass
+ number”                         pieces                                              break
+
+ “4,967 voters”                  Sample caption highlights                           Highlighter
+
+ “Queensland … 36%”              Queensland fills deep orange; “36 vs 25” bars       Deep tone
+
+ “New South Wales … 31
+                                 NSW fills; bars almost level                        Tick-tick
+ to 30”
+
+ “Western Australia …
+                                 WA fills; Labor’s bar edges ahead by 1              Single tick
+ single point”
+                                                                                Music
+  “But in Victoria”             Victoria stays pale; the camera pauses
+                                                                                drop
+
+                                A head-to-head card for Queensland: Hanson
+  “52 to 48”                                                                    Two thuds
+                                52 / Albanese 48
+
+
+S21
+
+     Roy Morgan’s late-September survey shows the same pattern, with One Nation strongest
+     in Queensland, at 32.5%. But it also shows a disagreement: Roy Morgan had One Nation
+     weakest in South Australia, at 18.5%, the same state where One Nation won four seats in
+     March. Roy Morgan’s South Australian sample was just 228 people, which is a reminder
+     that small samples can swing.
+
+     EVIDENCE → EXPLAIN, 135 wpm. “But it also shows a disagreement” is a curious lean-
+in. Explain the sample-size point gently.
+
+Visual track
+
+1.        CARD_RoyMorgan_2026-09-29_states Polaroid: “Roy Morgan · 14–27 Sep 2026 ·
+     2,569 electors”. FACT.
+
+2.       The SA map shows two conflicting overlays: “Mar 2026 election: 4 seats” and “Roy
+     Morgan: 18.5%”.
+
+3.       A sample-size graphic: 228 dots (SA) beside 2,569 dots (national).
+
+     Animation cues
+
+
+  VO cue                  Animation                                             Sound
+
+  “same pattern”          Queensland re-glows; “32.5%”                          Echo tone
+
+  “a disagreement”        Two SA overlays clash and flicker                     Glitch
+
+  “18.5%”                 SA’s fill drains to pale                              Drain
+
+  “won four seats in                                                            Four soft
+                          Four seat icons pop back on, faintly
+  March”                                                                        pops
+
+                          228 dots appear, then 2,569 beside them; the small
+  “just 228 people”                                                             Wobble
+                          cluster wobbles
+
+  “small samples can                                                            Swing
+                          A small Polaroid swings like a pendulum
+  swing”                                                                        whoosh
+S22
+
+     The second big change isn’t about One Nation at all. It’s about the Coalition. After the
+     2025 defeat, the Liberal Party recorded its worst federal vote share since its founding.
+     The Nationals walked out of the Coalition twice, in May 2025 and again in January 2026,
+     before reuniting. The Liberals replaced Sussan Ley with Angus Taylor as leader in
+     February 2026. And in Newspoll’s latest quarterly breakdown, One Nation was ahead of
+     the Coalition in all five mainland states.
+
+     STORY → HOOK, 150 wpm. A reveal: “isn’t about One Nation at all” with a beat before
+“It’s about the Coalition.” Brisk through the turmoil.
+
+Visual track
+
+1.       A blue Coalition block cracks in two, rejoins, cracks again, rejoins (the two walkouts).
+
+2.       SPLIT: IMG_Ley_portrait slides out, IMG_Taylor_portrait slides in (Commons;
+     check licences).
+
+3.        CARD_Wiki_2026_Liberal_spill : Taylor elected 13 Feb 2026. FACT.
+
+4.       The state heat map: all five states show the orange bar above the blue bar.
+
+     Animation cues
+
+
+  VO cue                                  Animation                                 Sound
+
+                                          The camera swings away from the
+  “isn’t about One Nation at all”                                                   Whip pan
+                                          orange thread
+
+  “It’s about the Coalition.”             A blue block centres                      Thud
+
+  “worst federal vote share since its     A blue bar drops to “LOWEST SINCE
+                                                                                    Drop
+  founding”                               1944”
+
+                                                                                    Crack ×2 +
+  “walked out … twice”                    The block cracks and rejoins, twice
+                                                                                    snap ×2
+
+  “Sussan Ley with Angus Taylor”          Portraits swap                            Swap whoosh
+
+                                          Five states flip, orange over blue, one
+  “all five mainland states”                                                        Five ticks
+                                          per beat
+
+
+S23
+
+     So both major parties have lost ground. Labor is ten points down on a year ago. The
+     Coalition is polling around 19%. In September’s Newspoll, Labor and the Coalition
+     together held just 46% of the primary vote.
+
+     EVIDENCE, 135 wpm. A sober summary. “Just 46%” lands slowly.
+
+Visual track
+
+1.       Two shrinking circles, red and blue, deflate; a combined counter reads “46%”.
+
+2.        CARD_AustraliaToday_Newspoll_Sep2026 : “Labor and the Coalition together now
+     command just 46 per cent”. FACT (reported).
+
+     Animation cues
+
+
+ VO cue                              Animation                                      Sound
+
+ “both major parties have lost
+                                     The red and blue circles deflate together      Deflate
+ ground”
+
+ “ten points down”                   “−10” pops beside the red circle               Pop
+
+ “around 19%”                        “19%” on the blue circle                       Tick
+
+                                     The two circles merge into a half-empty ring   Hollow
+ “just 46%”
+                                     labelled “46%”                                 tone
+
+
+S24
+
+     What’s driving the movement? The evidence points to cost of living, fuel prices and
+     interest rates. A Roy Morgan survey found 95% of One Nation supporters believe
+     Australia is heading in the wrong direction. And the ABC has reported that immigration
+     dominates One Nation’s message.
+
+     STORY → EVIDENCE, 140 wpm. A genuine question at the start; “95%” gets a beat.
+
+Visual track
+
+1.       WALL: free stock photos of a petrol price board, supermarket trolley, mortgage
+     paperwork, a “for lease” sign, an electricity bill (Pexels / Pixabay).
+
+2.       A 100-figure grid with 95 highlighted and a “WRONG DIRECTION” signpost (Roy
+     Morgan). FACT.
+
+3.        CARD_ABC_2026-02-10_more_people : “immigration reform dominates its message”.
+     ANALYSIS (ABC).
+
+     Animation cues
+  VO cue                         Animation                                          Sound
+
+  “What’s driving the
+                                 A large “?” spins                                  Whoosh
+  movement?”
+
+                                                                                    Three
+  “cost of living, fuel prices
+                                 Three photos drop in sync with the three words     shutter
+  and interest rates”
+                                                                                    clicks
+
+                                 95 of 100 figures turn orange; signposts point     Wave of
+  “95%”
+                                 “WRONG WAY”                                        pops
+
+                                 A microphone icon with an “IMMIGRATION” tag        Rising
+  “immigration dominates”
+                                 rises to the top of a topic stack                  tone
+
+
+S25
+
+     And here’s what hasn’t changed: Labor still has 94 seats, the next election isn’t due until
+     2028, and polls don’t elect anyone. So what is Anthony Albanese doing about it?
+
+     WEIGHT, 125 wpm. “Polls don’t elect anyone” is slower and plain. The question to close
+is curious, not dramatic.
+
+Visual track
+
+1.       The scoreboard: the seat numbers glow steady (94 and 2) while the poll numbers
+     flicker.
+
+2.       The gold thread pulls the camera back toward Albanese.
+
+         1.5s.
+
+     Animation cues
+
+
+  VO cue                                     Animation                               Sound
+
+  “what hasn’t changed”                      A “STILL TRUE” stamp                    Stamp
+
+  “94 seats”                                 The 94 seats glow                       Hum
+
+  “2028”                                     The dotted 2028 node pulses             Ping
+
+                                             A ballot box icon; poll Polaroids       Soft
+  “polls don’t elect anyone”
+                                             bounce off it                           bounce
+
+  “what is Anthony Albanese doing                                                    Thread
+                                             The gold thread tightens and pulls
+  about it?”                                                                         zip
+▶ MID-ROLL AD BREAK
+
+
+PART FOUR: Albanese’s moves
+S26
+
+     Start with what Anthony Albanese and Labor have actually done. In June 2026, Labor
+     began asking supporters online for donations to help stop One Nation, including requests
+     for $27. By August, according to ABC analysis, Labor’s ads had a clear strategy: rather
+     than simply attacking Pauline Hanson, they tried to tie One Nation and the Coalition
+     together in voters’ minds, and warned that the Coalition couldn’t govern without One
+     Nation. One series of ads targeted Hanson’s suggestion that people be allowed to access
+     their superannuation when struggling with the cost of living. Another targeted her
+     comments about paid parental leave.
+
+     STORY, 150 wpm. Investigative, like a strategist explaining tactics. A slight lean on “a
+clear strategy”.
+
+Visual track
+
+1.        Chapter title: “PART FOUR · ALBANESE’S MOVES”. The two-tone “chess” music
+     motif begins.
+
+2.        A recreated phone screen showing a generic donation-ad layout (your own design,
+     with no real ad creative), with “$27”.
+
+3.        CARD_ABC_2026-08-22_Labor_ads : “One Nation’s fickleness goes unpunished but
+     Labor is figuring out how to fight it”. ANALYSIS.
+
+4.        A chess board: a red piece ties a rope between an orange piece and a blue piece.
+
+5.        BR_STOCK_superannuation_documents (Pexels: “retirement savings documents”).
+
+     Animation cues
+
+
+  VO cue                                 Animation                                   Sound
+
+                                         A “DOCUMENTED ACTIONS” folder               Folder
+  “actually done”
+                                         opens                                       slide
+
+                                                                                     Coin
+  “$27”                                  A coin counter rolls to $27 on the phone
+                                                                                     clink
+
+                                                                                     Wood
+  “a clear strategy”                     The chess board appears
+                                                                                     clack
+
+  “tie One Nation and the Coalition      A rope loops the orange and blue pieces     Rope
+  together”                                together                                  tighten
+
+  “couldn’t govern without One             The blue piece can’t move without the     Stuck
+  Nation”                                  orange piece                              clunk
+
+  “superannuation”                         A piggy-bank icon labelled “SUPER”        Pop
+
+
+  “paid parental leave”                    A pram icon                               Pop
+
+
+S27
+
+     Albanese has also attacked Hanson directly. When One Nation launched a rival
+     fundraising campaign, Albanese questioned One Nation’s figures, and said One Nation
+     had the same policies as the Coalition. He also pointed to a light plane, reported to be
+     worth about $2.1 million, that Hanson accepted from a company linked to mining
+     billionaire Gina Rinehart. In his words: “This is someone who got a plane worth more than
+     that given to her by Australia’s richest person.”
+
+     STORY → quote, 145 wpm. The quote is read neutrally at 130 wpm, with no impression.
+A tiny pause before “In his words”.
+
+Visual track
+
+1.        FTG_ParlView_2026-06_Albanese_QT_OneNation : Question Time exchanges about
+     One Nation, June 2026 (if available).
+
+2.        CARD_NewDaily_2026-06-11 : “PM’s blast after One Nation’s $2m ‘fire the liar’ cash
+     boost”. FACT (reported).
+
+3.       A quote card: Albanese, 11 June 2026, with the quote. CLAIM (his statement).
+
+4.        BR_STOCK_small_plane_airstrip (Pexels / Pixabay: “light aircraft runway”).
+
+     Animation cues
+
+
+  VO cue                            Animation                                      Sound
+
+                                    The gold and orange-red threads cross and
+  “attacked Hanson directly”                                                       Knot tick
+                                    knot
+
+  “questioned One Nation’s
+                                    A “?” stamps on a One Nation dollar counter    Stamp
+  figures”
+
+  “same policies as the
+                                    An “=” sign between orange and blue blocks     Click
+  Coalition”
+ “a light plane”                    A small plane icon taxis across the screen    Propeller
+                                                                                  hum
+
+ “$2.1 million”                     Price tag “~$2.1M (reported)”                 Tick
+
+                                    The quote card slides up; the words type on
+ “In his words”                                                                   Typewriter
+                                    as spoken
+
+
+S28
+
+     In Parliament, the Senate has censured Pauline Hanson twice since November 2025:
+     once over her second burqa protest, and again over her comment that there are no good
+     Muslims. And on the economy, ministers say the government’s focus is relieving cost-of-
+     living pressure, rather than the polls.
+
+     EVIDENCE, 140 wpm. Neutral and factual; no emotion on the censure detail.
+
+Visual track
+
+1.        FTG_ParlView_Senate_2025-11-24_burqa (REUSE): plain footage with lower-third
+     “Senate, 24 November 2025”. No animation on top.
+
+2.        FTG_ParlView_Senate_2026-03_censure_vote (REUSE).
+
+3.        CARD_Nightly_2026-09-21_Plibersek : Labor minister “focus on relieving pressure”.
+     CLAIM (government statement).
+
+     Animation cues
+
+
+ VO cue                    Animation                                               Sound
+
+                           Two small “CENSURED” stamps on the orange thread        Two
+ “censured … twice”
+                           (shown before the footage, not over it)                 stamps
+
+ (during burqa                                                                     Footage
+                           No animation. Lower-third only.
+ footage)                                                                          audio low
+
+ “relieving cost-of-                                                               Soft
+                           A pressure gauge needle eases down slightly
+ living pressure”                                                                  release
+
+ “rather than the
+                           A poll Polaroid slides off the desk                     Slide
+ polls”
+
+
+S29
+
+     Now, the analysis. There’s no public evidence that the 2026 budget was designed to beat
+     One Nation, and the government says it was about housing and fairness between
+     generations. But ABC analysis argued that the broken promise on negative gearing and
+     capital gains tax helped One Nation by feeding distrust. And Labor’s “stop One Nation”
+     fundraising appeal prompted One Nation’s counter-campaign, which went on to raise
+     millions. So what has Pauline Hanson been doing in return?
+
+     EXPLAIN → WEIGHT, 135 wpm. Careful and fair. “No public evidence” is clear and even.
+The question to close is slower.
+
+Visual track
+
+1.       The ANALYSIS label comes up in the corner.
+
+2.        CARD_ABC_2026-06-12_Grattan : ”‘Broken promise’ or not, Anthony Albanese’s tax
+     decision has helped One Nation”. ANALYSIS.
+
+3.       A cause-and-effect chain: “$27 appeal” → arrow → “‘Fire the Liar’” (CLAIM: millions
+     raised).
+
+         1s.
+
+     Animation cues
+
+
+  VO cue                              Animation                                     Sound
+
+                                      Blue ANALYSIS stamp; the screen tone shifts
+  “Now, the analysis.”                                                              Stamp
+                                      cooler
+
+                                                                                    Hollow
+  “no public evidence”                An empty evidence folder
+                                                                                    tap
+
+                                      Two faceless figures, young and old, on a
+  “fairness between generations”                                                    Chime
+                                      level scale
+
+                                      Small sparks travel from the budget doc to
+  “feeding distrust”                                                                Crackle
+                                      the orange thread
+
+  “prompted One Nation’s                                                            Pen
+                                      Arrow from “$27” to “Fire the Liar” draws
+  counter-campaign”                                                                 draw
+
+                                      The camera hands over to the orange-red       Thread
+  “doing in return?”
+                                      thread                                        zip
+
+
+
+PART FIVE: Hanson’s moves
+S30
+     On 10 June 2026, in direct response to Labor’s appeal, Pauline Hanson’s One Nation
+     launched a fundraising campaign called “Fire the Liar”. One Nation says it raised $4
+     million from more than 65,000 donors in five days, and published what it described as an
+     independent audit. Albanese questioned those figures. Hanson later said the money
+     would be kept until the next election.
+
+     STORY, 150 wpm, a lift in energy. Make “One Nation says” clearly attributive. The
+numbers are steady, not hyped.
+
+Visual track
+
+1.       Chapter title: “PART FIVE · HANSON’S MOVES”. The camera follows the orange-red
+     thread.
+
+2.       A fundraising counter rolls to “$4,000,000 (One Nation’s figure)”, with a CLAIM label.
+
+3.        CARD_AustraliaToday_2026-06-16 : “One Nation raises $4 million, dares Albanese to
+     show his fundraising figures”. CLAIM (reported).
+
+4.        CARD_Wiki_FireTheLiar : the money “quarantined” until the next election (Hanson,
+     Aug 2026). CLAIM.
+
+     Animation cues
+
+
+ VO cue                                Animation                                Sound
+
+ “10 June 2026”                        A calendar tears to the date             Paper tear
+
+                                       The arrow from S29 completes; the
+ “in direct response”                                                           Knot tick
+                                       threads knot
+
+                                       The words stamp in plain type (no
+ “Fire the Liar”                                                                Stamp
+                                       party graphics)
+
+ “$4 million … 65,000 donors …         Counters roll in sequence; a CLAIM       Coin cascade
+ five days”                            label pins on                            + pin
+
+ “Albanese questioned”                 A gold “?” flicks onto the counter       Flick
+
+ “kept until the next election”        A vault icon closes with “2028?” on it   Vault thud
+
+
+S31
+
+     Pauline Hanson has also changed One Nation’s target. After the Farrer win, she posted
+     that One Nation had proven it could win lower-house seats, and that it was time to target
+     Labor-held seats. On policy, Hanson has said One Nation would cut net migration to
+     130,000 a year. She has floated letting people access their superannuation during cost-
+     of-living pressure. And One Nation has relaunched its animated series, “Please Explain”,
+     released on its YouTube channel and rebroadcast on Sky News.
+
+     STORY, 150 wpm. Brisk; “time to target Labor-held seats” read as her words (neutral).
+
+Visual track
+
+1.       A map of Sydney and Brisbane with Labor-held seats pulsing red, and target rings
+     appearing (a generic illustration; no specific seats claimed).
+
+2.        CARD_NewDaily_2026-06-11 (the Hanson post quote, reported). CLAIM.
+
+3.       A policy board with three tiles: “Net migration: 130,000”, “Super access”, and
+     “‘Please Explain’ relaunched (Apr 2026)”.
+
+4.       A generic retro TV graphic with the title card “Please Explain” (text only; no clips
+     from the series).
+
+     Animation cues
+
+
+ VO cue                            Animation                                       Sound
+
+ “changed One Nation’s             A crosshair icon swings from blue seats to      Swing
+ target”                           red seats                                       whoosh
+
+ “time to target Labor-held
+                                   Rings pulse around red seats                    Sonar ping
+ seats”
+
+ “130,000”                         Number roll to 130,000                          Odometer
+
+ “access their                     The piggy-bank “SUPER” icon from S26
+                                                                                   Pop
+ superannuation”                   returns
+
+ “Please Explain”                  The retro TV switches on with the title         TV click
+
+
+S32
+
+     Then there’s One Nation’s relationship with the Coalition. Opposition Leader Angus Taylor
+     has ruled out forming a coalition with One Nation, telling the ABC’s 7.30 that a One
+     Nation government would bring “an eternity of pain”. But Taylor has not ruled out
+     preference deals. The Coalition voted against censuring Hanson in March. And former
+     Liberal prime minister Tony Abbott, who once funded legal action against One Nation,
+     now says that, as a general rule, parties on the right should preference each other.
+
+     STORY → EVIDENCE, 145 wpm. A subtle “twist” lean on “But Taylor has not ruled out
+preference deals.” The Abbott line carries quiet irony, not mockery.
+
+Visual track
+
+1.        IMG_Taylor_portrait and IMG_Abbott_portrait (REUSE; check licences).
+
+2.        CARD_ABC_2026-07-14_Taylor : “Angus Taylor rules out One Nation coalition once
+     and for all”. FACT (his statement).
+
+3.        CARD_News24_2026-07_preferences : Taylor “refuses to shut the door on One Nation
+     preferences”. FACT (reported).
+
+4.       The red-thread loop from the Hanson film: “1998: Abbott trust fund → 2026:
+     ‘preference each other’” (REUSE).
+
+     Animation cues
+
+
+  VO cue                        Animation                                              Sound
+
+  “relationship with the        Blue and orange blocks sit apart on the chess          Wood
+  Coalition”                    board                                                  clack
+
+  “ruled out forming a
+                                A “NO COALITION” barrier drops between them            Gate drop
+  coalition”
+
+  “an eternity of pain”         The quote types on in serif                            Typewriter
+
+  “has not ruled out            A small door in the barrier opens slightly, labelled   Door
+  preference deals”             “PREFERENCES?”                                         creak
+
+  “voted against censuring
+                                A blue tick appears on the orange side                 Click
+  Hanson”
+
+                                The 1998 → 2026 thread loop from the first film
+  “Tony Abbott”                                                                        Thread zip
+                                replays quickly
+
+
+S33
+
+     Pauline Hanson has also faced setbacks. In July 2026, the full Federal Court upheld a
+     finding that her post telling Greens senator Mehreen Faruqi to go back to Pakistan
+     breached the Racial Discrimination Act. Hanson says she wants to take the case to the
+     High Court. Why is Hanson making these moves? One Nation says its goal is to remove
+     the Labor government. Beyond what Hanson and her party have said publicly, any deeper
+     motive is interpretation, not fact. So, with both sides moving, what do the numbers
+     actually mean?
+     EVIDENCE → WEIGHT, 135 wpm. Neutral on the court finding. “Interpretation, not fact”
+is slow and clear. The closing question has a curious, “let’s figure it out” tone.
+
+Visual track
+
+1.        CARD_ABC_2026-07-27_appeal (REUSE): “Pauline Hanson fails in appeal bid against
+     racial discrimination of Mehreen Faruqi”. FACT.
+
+2.        DOC_FCAFC_2026_Faruqi_v_Hanson (REUSE): judgment cover page, ZOOM.
+
+3.       A “MOTIVE?” card with empty space, then the label “UNKNOWN: interpretation, not
+     fact”.
+
+         1.5s.
+
+     Animation cues
+
+
+  VO cue                            Animation                                         Sound
+
+                                                                                      Snag
+  “setbacks”                        The orange-red thread snags
+                                                                                      twang
+
+  “the full Federal Court                                                             Triple
+                                    Three gavel icons slam in unison
+  upheld”                                                                             gavel
+
+  “the High Court”                  Staircase-with-”?” icon (REUSE)                   Footsteps
+
+  “Why is Hanson making                                                               Soft
+                                    The “MOTIVE?” card
+  these moves?”                                                                       chime
+
+                                    A grey SPECULATION label hovers, then is
+  “interpretation, not fact”                                                          Whoosh
+                                    pushed off-screen
+
+  “what do the numbers              Both threads pull toward a ballot paper in the    Thread
+  actually mean?”                   centre                                            zips
+
+
+▶ MID-ROLL AD BREAK
+
+
+THE IMPORTANT DISTINCTION: Polls, seats and government
+S34
+
+     To understand whether Pauline Hanson’s poll numbers threaten Anthony Albanese’s
+     government, you need to know how Australian elections actually work. Popularity, polling,
+     seats and government are four different things. A party’s primary vote is just the first
+     number on the ballot. The House of Representatives has 150 seats, each won by the
+     candidate who gets more than half the vote after preferences are counted. To form
+     government, a party needs 76 of those seats.
+
+     EXPLAIN, 140 wpm. Friendly and patient, with a small smile in the voice. Pause slightly
+after “four different things”.
+
+Visual track
+
+1.       Chapter title: “POLLS, SEATS AND GOVERNMENT”. Light, curious plucked music.
+
+2.        GFX_four_things : four stepping stones: POPULARITY → POLLING → SEATS →
+     GOVERNMENT.
+
+3.        GFX_ballot_green : an animated House ballot; a “1” is written, then preferences
+     number down the page.
+
+4.       The chamber, with the 76 line glowing.
+
+     Animation cues
+
+
+  VO cue                           Animation                                      Sound
+
+                                                                                  Four soft
+  “four different things”          Four stones appear one at a time
+                                                                                  clicks
+
+  “the first number on the
+                                   A pen writes “1” in a box                      Pen scratch
+  ballot”
+
+  “after preferences are           Numbers 2, 3, 4… fill in; votes flow between
+                                                                                  Paper shuffle
+  counted”                         piles
+
+  “more than half”                 A “50% + 1” tag                                Pop
+
+  “76 of those seats”              The 76 line glows across the chamber           Ding
+
+
+S35
+
+     That means where votes are matters as much as how many there are. A party on 30%
+     nationally can win very few seats if its votes are spread evenly, or many seats if they’re
+     concentrated. In 1998, One Nation won almost 23% of the Queensland vote and took 11
+     of 89 state seats. In the federal election four months later, with around 8 to 9%
+     nationally, One Nation won no House seats at all.
+
+     EXPLAIN → EVIDENCE, 140 wpm. “Where votes are” gets emphasis. The 1998 example
+reads as a reveal.
+
+Visual track
+1.        GFX_spread_vs_concentrated : two maps. Left, orange dots evenly spread → few
+     seats light. Right, dots clustered → several seats light.
+
+2.       The 1998 comparison: Queensland 22.7% → 11 seats lit; federal ~8–9% → 0 House
+     seats.
+
+     Animation cues
+
+
+ VO cue                      Animation                                    Sound
+
+ “where votes are”           A map with a magnifying glass                Swoosh
+
+ “spread evenly”             Dots scatter thinly; seats stay dark         Scatter tinkle
+
+                                                                          Cluster thump +
+ “concentrated”              Dots cluster; seats light up
+                                                                          dings
+
+                             Queensland 1998 mini-chamber, 11
+ “11 of 89”                                                               Ticks
+                             orange
+
+ “no House seats at          The federal 1998 chamber stays dark; a
+                                                                          Hollow tone
+ all”                        “0”
+
+
+S36
+
+     The Senate works differently. Each state elects senators by proportional representation,
+     so at a normal half-Senate election, a party needs about one-seventh of a state’s vote,
+     roughly 14%, to win a seat. That’s why minor parties like One Nation have usually done
+     far better in the Senate. And preferences decide close contests. If Coalition voters
+     preference One Nation above Labor, One Nation’s chances rise. If they don’t, they fall.
+     That’s why the preference question matters so much.
+
+     EXPLAIN → WEIGHT, 140 then 125 wpm. Rhythm on “rise… fall”. Slow on the last
+sentence.
+
+Visual track
+
+1.        GFX_ballot_senate : a long white Senate ballot unrolls; a pie of a state’s vote splits
+     into 7 slices, each “~14%”.
+
+2.       A preference-flow animation: blue Coalition votes flow either toward orange or
+     toward red, with the outcome flipping.
+
+     Animation cues
+
+
+ VO cue                               Animation                                   Sound
+  “The Senate works differently.”      The long white ballot unrolls                Paper unroll
+
+                                       A pie splits into seven slices; one lights
+  “one-seventh … roughly 14%”                                                       Slice clicks
+                                       orange
+
+  “far better in the Senate”           Senate seats light orange more easily        Dings
+
+  “preference One Nation above         Blue votes flow to orange; the seat flips
+                                                                                    Flow + flip
+  Labor”                               orange
+
+                                                                                    Reverse flow +
+  “If they don’t, they fall.”          The flow reverses; the seat flips red
+                                                                                    flip
+
+                                       The “PREFERENCES?” door from S32
+  “matters so much”                                                                 Glow tone
+                                       glows
+
+
+
+THE BIG COMPARISON
+S37
+
+     So put both sides next to each other, without declaring a winner. Anthony Albanese and
+     Labor hold government, 94 seats, control of the budget and Parliament’s agenda, a
+     strong party organisation, and Labor’s 75% rule, which makes the leader hard to remove.
+     Their pressures are falling polls, a record-low approval rating, rising interest rates, and a
+     broken tax promise. Pauline Hanson and One Nation hold momentum: first place in
+     Newspoll, a commanding lead in Queensland, a first federal lower-house seat, four lower-
+     house seats in South Australia, four senators, a fundraising campaign that One Nation
+     says raised millions, and growing influence over the Coalition’s choices. Their limits are
+     two House seats, majority disapproval of their leader, weaker support in Victoria and
+     South Australia, and a history of collapsing after past peaks.
+
+     EVIDENCE, 145 wpm. Balanced and even-handed: the same energy for both sides. Keep
+the list rhythm steady, not salesy.
+
+Visual track
+
+1.        GFX_comparison_board : a split screen. The left column is gold (ALBANESE ·
+     POWER); the right column is orange-red (HANSON · PRESSURE). Two sub-rows each:
+     “STRENGTHS” and “PRESSURES/LIMITS”.
+
+2.       Albanese (DFAT CC BY) and Hanson (CC0) photos at the top of each column
+     (REUSE).
+
+3.       The two threads run in parallel down each column.
+     Animation cues
+
+
+ VO cue                             Animation                                   Sound
+
+                                    A scale appears perfectly level, then
+ “without declaring a winner”                                                   Soft chime
+                                    fades
+
+                                    A tile slides into the gold column per
+ each Albanese strength                                                         Click per item
+                                    item
+
+                                    Gold sub-row 2 opens; tiles in muted        Low click per
+ “Their pressures”
+                                    red                                         item
+
+ each Hanson strength               Tiles slide into the orange-red column      Click per item
+
+ “One Nation says raised
+                                    That tile carries a CLAIM label             Hollow stamp
+ millions”
+
+                                    Orange sub-row 2 opens; tiles in muted      Low click per
+ “Their limits”
+                                    grey                                        item
+
+
+S38
+
+     In other words, Anthony Albanese has power, and Pauline Hanson has pressure. Those
+     are different kinds of political influence, and the next election will test how much each
+     one is worth.
+
+     WEIGHT, 120 wpm. The key line of the film. Pause after “has power”, then “and Pauline
+Hanson has pressure”. The last clause is slow.
+
+Visual track
+
+1.       The two columns collapse into two words: “POWER” (gold) and “PRESSURE”
+     (orange-red), with the threads attached.
+
+         1.5s.
+
+     Animation cues
+
+
+ VO cue                            Animation                                       Sound
+
+                                                                                   Gold
+ “Albanese has power”              “POWER” forms from the gold tiles
+                                                                                   shimmer
+
+                                                                                   Orange
+ “Hanson has pressure”             “PRESSURE” forms from the orange tiles
+                                                                                   pulse
+  “how much each one is              Both words shrink onto a single 2028 ballot
+                                                                                   Thud
+  worth”                             box
+
+
+
+ENDING: Can Albanese stop Pauline Hanson?
+S39
+
+     So, can Albanese stop Pauline Hanson? Here’s what the evidence establishes. Labor
+     holds government with a record majority until an election due by 2028. One Nation is
+     polling between about 25 and 30%, depending on the pollster, with its strongest support
+     in Queensland. One Nation holds two of 150 House seats. And both major parties have
+     lost support at the same time. Here’s what the evidence can’t tell us yet: whether One
+     Nation’s polling turns into seats, how Coalition voters direct their preferences, whether
+     interest rates and fuel prices ease, and whether the Coalition recovers.
+
+     WEIGHT → EVIDENCE, 125 then 140 wpm. The title question is slow; the “establishes”
+list is firm; the “can’t tell us” list is more open and curious.
+
+Visual track
+
+1.       The title question returns.
+
+2.       Two lists: “ESTABLISHED” (FACT labels) and “UNKNOWN” (SPECULATION labels,
+     grey dashed).
+
+3.       The scoreboard returns for the last time.
+
+     Animation cues
+
+
+  VO cue                                   Animation                               Sound
+
+  “can Albanese stop Pauline
+                                           The title rebuilds                      Bass hit
+  Hanson?”
+
+  “what the evidence establishes”          A FACT column opens                     Stamp
+
+  each established fact                    A tile with a FACT tick                 Click each
+
+  “what the evidence can’t tell us         A dashed SPECULATION column
+                                                                                   Hollow tone
+  yet”                                     opens
+
+                                                                                   Soft ping
+  each unknown                             A dashed tile with “?”
+                                                                                   each
+
+
+S40
+     The first real test comes soon: the Victorian state election in November 2026, in the state
+     where One Nation polls weakest. And behind all of this sit two leaders with very different
+     timelines. Anthony Albanese is 63, with an election due by 2028. Pauline Hanson is 72,
+     leads One Nation until she chooses to step down, and has said in her own words: “I’m at
+     the end of my life.”
+
+     STORY → WEIGHT, 140 then 120 wpm. The Victorian test is brisk; the two timelines
+slow down. The Hanson quote is read softly and neutrally.
+
+Visual track
+
+1.       The Victoria map glows with a date node: “28 Nov 2026: Victorian election”
+     (SPECULATION: what it could show).
+
+2.       Two timelines side by side: gold “Albanese, 63 → 2028” and orange-red “Hanson, 72
+     → ?”.
+
+3.       Quote card: Hanson, SBS (Feb 2026): “I’m at the end of my life.” FACT (her words).
+
+4.        BR_STOCK_melbourne_skyline_dusk (Pexels / Pixabay).
+
+     Animation cues
+
+
+ VO cue                              Animation                                         Sound
+
+ “the Victorian state election”      Victoria pulses; the date node pins               Pin
+
+ “One Nation polls weakest”          A pale fill on Victoria                           Soft tone
+
+ “very different timelines”          Two timeline bars slide in                        Slide
+
+ “Albanese is 63”                    “63” pops on the gold bar                         Pop
+
+ “Pauline Hanson is 72”              “72” pops on the orange-red bar                   Pop
+
+ “I’m at the end of my life”         Quiet: the quote fades in softly; music thins     Silence
+
+
+S41
+
+     We’ll leave you with three questions, and we’d genuinely like to hear from people on
+     every side. Is One Nation’s rise mainly about Pauline Hanson, or about voters’ frustration
+     with both major parties? If a party can poll 30% and still win only a handful of seats, is
+     that our electoral system working as designed, or a problem? And what would actually
+     change your vote between now and the next election? Tell us in the comments. Every
+     source is in the description, so check them for yourself. And if you want more evidence-
+     based deep dives into Australian politics, follow along.
+     STORY → WEIGHT, 135 wpm. Inviting and warm. Each question is read slowly with a
+pause after it. The final call to action is friendly and lighter, at 150 wpm.
+
+Visual track
+
+1.      Each question appears as its own card on a dark screen.
+
+2.      Final shot: the gold and orange-red threads stretch toward the dotted 2028 node,
+     untied. The node reads “?”. Hold.
+
+3. End screen (10–20 seconds).
+
+     Animation cues
+
+
+  VO cue                  Animation                                                Sound
+
+  “three questions”       “3” pops; three blank cards                              Pop
+
+                                                                                   Soft
+  question 1              Card 1 fills
+                                                                                   chime
+
+                                                                                   Soft
+  question 2              Card 2 fills
+                                                                                   chime
+
+                                                                                   Soft
+  question 3              Card 3 fills
+                                                                                   chime
+
+  “Tell us in the                                                                  Bubble
+                          Comment bubbles float up
+  comments”                                                                        pops
+
+  “check them for
+                          A magnifying glass sweeps a “SOURCES” icon               Swoosh
+  yourself”
+
+                          The two threads stretch toward the untied 2028 node; a
+  “follow along”                                                                   Bell
+                          bell rings once
+
+
+
+
+PART 7: Grok voiceover (voice: Atlas)
+Generate one segment at a time, with identical voice settings. After generating, compare
+each clip with its target pace (Part 6) and the mode table (Part 3); adjust speed by no more
+than ±6%, or regenerate. Numbers and dates are written as words so they are read
+correctly. Check the pronunciation of Albanese, Farrer, Faruqi, Rinehart, DemosAU (“DEM-
+oss A-U”) and Grayndler.
+S01 In May twenty twenty-five, Anthony Albanese won the biggest election victory in
+Australian history. Labor took ninety-four seats in the House of Representatives. Pauline
+Hanson’s One Nation won none. [long-pause]
+
+S02 Sixteen months later, [pause] Newspoll, the country’s best-known opinion poll, put One
+Nation on thirty per cent of the primary vote, [pause] and Labor on twenty-seven per cent.
+
+S03 So in little more than a year, something in Australian politics has shifted. The real
+question is how much, [pause] where, [pause] and whether it will last. [long-pause]
+<slow>Can Albanese stop Pauline Hanson?</slow>
+
+S04 To answer that, this documentary looks at five things: how strong Anthony Albanese’s
+position really is; how Pauline Hanson’s One Nation rose; what has actually changed in the
+numbers, and what hasn’t; what each side is doing about it; and what could happen next.
+Along the way, we’ll show you the polls, the results and the sources, and we’ll tell you clearly
+when something is a fact, [pause] when it’s a claim, [pause] and when it’s someone’s
+analysis.
+
+S05 A quick note: this is an independent documentary. We’re not affiliated with any political
+party, and every source is shown on screen and listed in the description.
+
+S06 Start with the evidence of Anthony Albanese’s strength, because there’s a lot of it.
+[pause] Albanese became Prime Minister in twenty twenty-two with seventy-seven seats, a
+majority of two. At the twenty twenty-five election, Labor won ninety-four of the one
+hundred and fifty seats in the House of Representatives, the most seats any party has ever
+won in an Australian federal election. Labor held every seat it already had. And Albanese
+became the first Australian prime minister to be re-elected since John Howard in two
+thousand and four.
+
+S07 That majority hasn’t gone anywhere. Labor still holds ninety-four seats, and the next
+federal election isn’t due until twenty twenty-eight. Under Labor’s own rules, removing a
+sitting Labor prime minister requires the support of [pause] seventy-five per cent of the
+party’s MPs and senators. And in August twenty twenty-six, Albanese passed Paul Keating’s
+time in office, making him the longest-serving prime minister since John Howard.
+
+S08 So on paper, Anthony Albanese holds more power than any Australian leader in years.
+[long-pause] <slow>But power and popularity are not the same thing.</slow>
+
+S09 In May twenty twenty-six, the Albanese government’s budget restricted negative
+gearing to newly built homes and changed the capital gains tax discount. At the twenty
+twenty-five election, Labor had ruled out both changes. The ABC reported that Treasurer
+Jim Chalmers conceded the government had broken its promise.
+
+S10 Then came the cost-of-living pressure. A war involving the United States and Iran
+pushed up global oil prices, and Australian fuel prices with them. The Reserve Bank raised
+interest rates [pause] four times in twenty twenty-six, to four point six per cent, the highest
+level since twenty eleven.
+
+S11 The polls followed. [pause] In Newspoll’s September survey of one thousand two
+hundred and forty-four voters, Labor’s primary vote fell to twenty-seven per cent, its lowest
+in Newspoll since twenty twelve, and down from thirty-seven per cent a year earlier.
+Albanese’s net approval fell to [pause] minus twenty-seven, the worst of his prime
+ministership.
+
+S12 But a single poll is <slow>a snapshot, not a verdict.</slow> [pause] In the same month,
+a DemosAU poll had Labor rising two points, to twenty-eight per cent. And Roy Morgan
+estimated that, after preferences, Labor would still beat One Nation fifty-four to forty-six.
+
+S13 So Albanese holds the power, but he is losing popularity. Which raises the next
+question: if voters are leaving Labor, [pause] <slow>where are they going?</slow>
+
+S14 If you’ve seen our previous documentary on Pauline Hanson, you’ll know her story is
+one of rises and falls. Pauline Hanson entered Federal Parliament in nineteen ninety-six. She
+founded One Nation in nineteen ninety-seven, and the next year the party won almost
+twenty-three per cent of the vote and eleven seats in the Queensland state election.
+[pause] Then it fell apart. [pause] Hanson lost her federal seat, was jailed for electoral fraud,
+and had the conviction overturned on appeal. She spent more than a decade losing
+elections, before returning to the Senate in twenty sixteen.
+
+S15 At the twenty twenty-five election, while Labor was winning its landslide, One Nation
+<soft>quietly</soft> grew from two senators to four.
+
+S16 What happened next was much faster. In late twenty twenty-five, former deputy prime
+minister Barnaby Joyce left the Nationals and joined One Nation. In early twenty twenty-six,
+Newspoll recorded One Nation ahead of the Coalition for the first time. In March, One Nation
+won four lower-house seats in the South Australian state election. In May, One Nation’s
+David Farley won the federal seat of Farrer, the party’s first ever win in the federal lower
+house. [pause] And by September, Newspoll had One Nation in first place, on thirty per
+cent.
+
+S17 But not every pollster agrees on how high One Nation has climbed. Newspoll has One
+Nation on thirty per cent. DemosAU, in September, had it on twenty-six per cent. A Roy
+Morgan survey in mid-September had it on twenty-five point five per cent. And Newspoll’s
+own figures show fifty-one per cent of voters disapprove of Pauline Hanson herself.
+
+S18 And there’s a gap between polling and power. One Nation holds [pause] two seats in the
+one hundred and fifty-seat House of Representatives: Farrer, and Barnaby Joyce’s seat of
+New England. It has four senators.
+
+S19 So it’s a fact that One Nation’s polling has risen sharply. It’s a claim, made by One
+Nation and some commentators, that the party is on track to govern. And the ABC has
+described the rise as the fastest polling surge in modern Australian politics. [pause]
+<slow>But is One Nation rising everywhere, or only in some places?</slow>
+
+S20 To find out what has actually changed, look beyond the national number. Newspoll’s
+quarterly breakdown, which surveyed four thousand nine hundred and sixty-seven voters
+between July and September, shows One Nation’s support varies sharply by state. In
+Queensland, Pauline Hanson’s home state, One Nation was on thirty-six per cent, eleven
+points ahead of Labor. In New South Wales, One Nation edged Labor thirty-one to thirty. In
+Western Australia, Labor led One Nation by a single point. But in Victoria, Labor led twenty-
+nine to twenty-five. Queensland voters even preferred Hanson to Albanese as prime
+minister, fifty-two to forty-eight.
+
+S21 Roy Morgan’s late-September survey shows the same pattern, with One Nation
+strongest in Queensland, at thirty-two point five per cent. [pause] But it also shows a
+disagreement: [pause] Roy Morgan had One Nation weakest in South Australia, at eighteen
+point five per cent, the same state where One Nation won four seats in March. Roy Morgan’s
+South Australian sample was just two hundred and twenty-eight people, which is a reminder
+that small samples can swing.
+
+S22 The second big change isn’t about One Nation at all. [pause] It’s about the Coalition.
+After the twenty twenty-five defeat, the Liberal Party recorded its worst federal vote share
+since its founding. The Nationals walked out of the Coalition twice, in May twenty twenty-
+five and again in January twenty twenty-six, before reuniting. The Liberals replaced Sussan
+Ley with Angus Taylor as leader in February twenty twenty-six. And in Newspoll’s latest
+quarterly breakdown, One Nation was ahead of the Coalition in all five mainland states.
+
+S23 So both major parties have lost ground. Labor is ten points down on a year ago. The
+Coalition is polling around nineteen per cent. In September’s Newspoll, Labor and the
+Coalition together held just [pause] forty-six per cent of the primary vote.
+
+S24 What’s driving the movement? The evidence points to cost of living, fuel prices and
+interest rates. A Roy Morgan survey found ninety-five per cent of One Nation supporters
+believe Australia is heading in the wrong direction. And the ABC has reported that
+immigration dominates One Nation’s message.
+
+S25 And here’s what hasn’t changed: Labor still has ninety-four seats, the next election isn’t
+due until twenty twenty-eight, and <slow>polls don’t elect anyone.</slow> [long-pause] So
+what is Anthony Albanese doing about it?
+
+S26 Start with what Anthony Albanese and Labor have actually done. In June twenty
+twenty-six, Labor began asking supporters online for donations to help stop One Nation,
+including requests for twenty-seven dollars. By August, according to ABC analysis, Labor’s
+ads had a clear strategy: rather than simply attacking Pauline Hanson, they tried to tie One
+Nation and the Coalition together in voters’ minds, and warned that the Coalition couldn’t
+govern without One Nation. One series of ads targeted Hanson’s suggestion that people be
+allowed to access their superannuation when struggling with the cost of living. Another
+targeted her comments about paid parental leave.
+
+S27 Albanese has also attacked Hanson directly. When One Nation launched a rival
+fundraising campaign, Albanese questioned One Nation’s figures, and said One Nation had
+the same policies as the Coalition. He also pointed to a light plane, reported to be worth
+about two point one million dollars, that Hanson accepted from a company linked to mining
+billionaire Gina Rinehart. [pause] In his words: [pause] “This is someone who got a plane
+worth more than that given to her by Australia’s richest person.”
+
+S28 In Parliament, the Senate has censured Pauline Hanson twice since November twenty
+twenty-five: once over her second burqa protest, and again over her comment that there are
+no good Muslims. And on the economy, ministers say the government’s focus is relieving
+cost-of-living pressure, rather than the polls.
+
+S29 Now, the analysis. [pause] There’s no public evidence that the twenty twenty-six
+budget was designed to beat One Nation, and the government says it was about housing
+and fairness between generations. But ABC analysis argued that the broken promise on
+negative gearing and capital gains tax helped One Nation by feeding distrust. And Labor’s
+“stop One Nation” fundraising appeal prompted One Nation’s counter-campaign, which
+went on to raise millions. [pause] <slow>So what has Pauline Hanson been doing in return?
+</slow>
+
+S30 On the tenth of June, twenty twenty-six, in direct response to Labor’s appeal, Pauline
+Hanson’s One Nation launched a fundraising campaign called “Fire the Liar”. [pause] One
+Nation says it raised four million dollars from more than sixty-five thousand donors in five
+days, and published what it described as an independent audit. Albanese questioned those
+figures. Hanson later said the money would be kept until the next election.
+
+S31 Pauline Hanson has also changed One Nation’s target. After the Farrer win, she posted
+that One Nation had proven it could win lower-house seats, and that it was time to target
+Labor-held seats. On policy, Hanson has said One Nation would cut net migration to one
+hundred and thirty thousand a year. She has floated letting people access their
+superannuation during cost-of-living pressure. And One Nation has relaunched its animated
+series, “Please Explain”, released on its YouTube channel and rebroadcast on Sky News.
+
+S32 Then there’s One Nation’s relationship with the Coalition. Opposition Leader Angus
+Taylor has ruled out forming a coalition with One Nation, telling the ABC’s seven.thirty that a
+One Nation government would bring “an eternity of pain”. [pause] But Taylor has not ruled
+out preference deals. [pause] The Coalition voted against censuring Hanson in March. And
+former Liberal prime minister Tony Abbott, who once funded legal action against One
+Nation, now says that, as a general rule, parties on the right should preference each other.
+
+S33 Pauline Hanson has also faced setbacks. In July twenty twenty-six, the full Federal
+Court upheld a finding that her post telling Greens senator Mehreen Faruqi to go back to
+Pakistan breached the Racial Discrimination Act. Hanson says she wants to take the case to
+the High Court. Why is Hanson making these moves? One Nation says its goal is to remove
+the Labor government. Beyond what Hanson and her party have said publicly, any deeper
+motive is <slow>interpretation, not fact.</slow> [long-pause] So, with both sides moving,
+what do the numbers actually mean?
+
+S34 To understand whether Pauline Hanson’s poll numbers threaten Anthony Albanese’s
+government, you need to know how Australian elections actually work. Popularity, polling,
+seats and government are four different things. [pause] A party’s primary vote is just the
+first number on the ballot. The House of Representatives has one hundred and fifty seats,
+each won by the candidate who gets more than half the vote after preferences are counted.
+To form government, a party needs seventy-six of those seats.
+
+S35 That means where votes are matters as much as how many there are. A party on thirty
+per cent nationally can win very few seats if its votes are spread evenly, or many seats if
+they’re concentrated. In nineteen ninety-eight, One Nation won almost twenty-three per
+cent of the Queensland vote and took eleven of eighty-nine state seats. [pause] In the
+federal election four months later, with around eight to nine per cent nationally, One Nation
+won no House seats at all.
+
+S36 The Senate works differently. Each state elects senators by proportional representation,
+so at a normal half-Senate election, a party needs about one-seventh of a state’s vote,
+roughly fourteen per cent, to win a seat. That’s why minor parties like One Nation have
+usually done far better in the Senate. And preferences decide close contests. If Coalition
+voters preference One Nation above Labor, One Nation’s chances rise. [pause] If they don’t,
+they fall. [pause] That’s why the preference question matters so much.
+
+S37 So put both sides next to each other, without declaring a winner. Anthony Albanese and
+Labor hold government, ninety-four seats, control of the budget and Parliament’s agenda, a
+strong party organisation, and Labor’s seventy-five per cent rule, which makes the leader
+hard to remove. Their pressures are falling polls, a record-low approval rating, rising interest
+rates, and a broken tax promise. Pauline Hanson and One Nation hold momentum: first
+place in Newspoll, a commanding lead in Queensland, a first federal lower-house seat, four
+lower-house seats in South Australia, four senators, a fundraising campaign that One Nation
+says raised millions, and growing influence over the Coalition’s choices. Their limits are two
+House seats, majority disapproval of their leader, weaker support in Victoria and South
+Australia, and a history of collapsing after past peaks.
+
+S38 In other words, Anthony Albanese has power, [pause] and Pauline Hanson has
+pressure. Those are different kinds of political influence, <slow>and the next election will
+test how much each one is worth.</slow>
+
+S39 <slow>So, can Albanese stop Pauline Hanson?</slow> [long-pause] Here’s what the
+evidence establishes. Labor holds government with a record majority until an election due
+by twenty twenty-eight. One Nation is polling between about twenty-five and thirty per cent,
+depending on the pollster, with its strongest support in Queensland. One Nation holds two
+of one hundred and fifty House seats. And both major parties have lost support at the same
+time. [pause] Here’s what the evidence can’t tell us yet: [pause] whether One Nation’s
+polling turns into seats, how Coalition voters direct their preferences, whether interest rates
+and fuel prices ease, and whether the Coalition recovers.
+
+S40 The first real test comes soon: the Victorian state election in November twenty twenty-
+six, in the state where One Nation polls weakest. And behind all of this sit two leaders with
+very different timelines. Anthony Albanese is sixty-three, with an election due by twenty
+twenty-eight. Pauline Hanson is seventy-two, leads One Nation until she chooses to step
+down, and has said in her own words: [pause] <soft>“I’m at the end of my life.”</soft>
+
+S41 We’ll leave you with three questions, and we’d genuinely like to hear from people on
+every side. Is One Nation’s rise mainly about Pauline Hanson, or about voters’ frustration
+with both major parties? [long-pause] If a party can poll thirty per cent and still win only a
+handful of seats, is that our electoral system working as designed, or a problem? [long-
+pause] And what would actually change your vote between now and the next election?
+[long-pause] Tell us in the comments. Every source is in the description, so check them for
+yourself. And if you want more evidence-based deep dives into Australian politics, follow
+along.
+
+
+
+
+PART 8: Evidence register and sources
+Every card must match its source word for word. Open each source before export and
+confirm the wording and date; if anything differs, change the card, never the source. The
+label shown on screen is in the last column.
+
+
+  Seg      Source and date                            What’s shown                  Label
+
+  S01,                                                Labor 94 seats; record;
+           Wikipedia, “2025 Australian federal
+  S06,                                                retained every seat; One      FACT
+           election” (citing AEC)
+  S07                                                 Nation 0 House seats
+
+                                                      One Nation 30, Labor 27,
+  S02,     Newspoll (The Australian), 14–17 Sep
+                                                      Coalition 19, Greens 13;
+  S11,     2026, 1,244 voters, via The                                              FACT
+                                                      Albanese satisfied 35 /
+S23    Conversation (20 Sep 2026) and The        dissatisfied 62, net −27;
+       Poll Bludger                              Labor lowest since 2012
+
+
+       Reuters via Free Malaysia Today (21       Labor 27% “compared
+S11                                                                            FACT
+       Sep 2026)                                 with 37% a year earlier”
+
+S06    Wikipedia (2022 election); MoAD           2022: 77 of 151 seats         FACT
+
+       Wikipedia, “Leaders of the Australian     75% caucus threshold to
+S07                                                                            FACT
+       Labor Party”                              spill a sitting Labor PM
+
+       The Nightly (Aug 2026);                   Albanese passes Keating’s
+S07                                                                            FACT
+       AustralianPolitics.com                    time in office
+
+                                                 Negative gearing limited
+       ABC News, 12 May 2026: “Government
+                                                 to new builds; CGT
+       breaks promise with restrictions to                                     FACT
+S09                                              discount changes;
+       negative gearing and capital gains tax                                  (reported)
+                                                 Chalmers conceded the
+       discount in federal budget”
+                                                 broken promise
+
+       ABC News, 29 Sep 2026: “RBA lifts         4.35% → 4.60%; fourth
+S10    interest rates to highest level in 15     rise of 2026; fuel prices     FACT
+       years”; RBA statement                     linked to the US–Iran war
+
+       The Conversation, 20 Sep 2026             Labor 28 (+2), One Nation
+S12    (DemosAU for Capital Brief, 10–14 Sep,    26, Coalition 20, Greens      FACT
+       1,583 voters)                             13
+
+                                                 One Nation 25.5, ALP 25,
+S12,   Roy Morgan (21 Sep 2026; fieldwork        L-NP 21.5; two-party
+                                                                               FACT
+S17    14–20 Sep)                                estimate ALP 54 / One
+                                                 Nation 46
+
+                                                 1996 entry; 1997
+       REUSE: The Pauline Hanson Story
+                                                 founding; 1998 Qld 22.7%
+S14    evidence register (Inside Story;                                        FACT
+                                                 / 11 seats; 2003 conviction
+       Wikipedia; Hansard)
+                                                 overturned; 2016 Senate
+
+                                                 One Nation grows to four
+S15    Reuters (via Malay Mail), May 2025                                      FACT
+                                                 senators
+
+       Capital Brief (Joyce joins One Nation);
+       Wikipedia, “2026 in Australia” (One
+       Nation overtakes the Coalition in         Joyce joins; first Newspoll
+S16    Newspoll, a first); ECSA / Antony Green   lead over the Coalition; 4    FACT
+       (SA, Mar 2026); ABC News, 9 May           SA seats; Farrer win
+      2026: “One Nation scores historic win
+      in Farrer by-election”
+
+      Newspoll Sep 2026 (via The Australia        Hanson approval 44 /
+S17                                                                              FACT
+      Today)                                      disapproval 51
+
+      Wikipedia, “Next Australian federal
+                                                  One Nation 2 House seats
+S18   election” (House standings as of June                                      FACT
+                                                  (Farrer; New England)
+      2026); Wikipedia (David Farley)
+
+                                                  “fastest polling rise in
+S19   ABC News (Feb 2026)                         modern Australian              ANALYSIS
+                                                  politics”
+
+      Newspoll quarterly, 13 Jul–18 Sep           Qld ON 36 / Labor 25;
+      2026, 4,967 voters, via The New Daily       NSW 31/30; WA Labor 30 /
+S20   (28 Sep 2026): “Pauline Hanson              ON 29; Vic Labor 29 / ON       FACT
+      surges to preferred PM in Qld” and The      25; Qld preferred PM
+      Nightly                                     Hanson 52 / Albanese 48
+
+                                                  One Nation highest in Qld
+      Roy Morgan, 29 Sep 2026 (fieldwork
+S21                                               (32.5%), lowest in SA          FACT
+      14–27 Sep, 2,569 electors; SA n=228)
+                                                  (18.5%)
+
+                                                  Liberals’ worst vote share
+                                                  since 1944; Nationals left
+      Wikipedia (2025 election; Ley shadow        May 2025 and Jan 2026,
+      ministry; 2026 Liberal leadership spill);   reunited 8 Feb 2026;
+S22                                                                              FACT
+      One News Australia / Newspoll               Taylor elected 13 Feb
+      quarterly (Jul–Sep)                         2026; One Nation ahead
+                                                  of the Coalition in all five
+                                                  states
+
+                                                  Labor + Coalition
+      The Australia Today (Newspoll, Sep
+S23                                               “together now command          FACT
+      2026)
+                                                  just 46 per cent”
+
+                                                  95% of One Nation
+      Roy Morgan (Sep 2026); ABC News, 10
+                                                  supporters “wrong
+      Feb 2026: “More people say they’ll                                         FACT /
+S24                                               direction”; immigration
+      vote One Nation. What are they voting                                      ANALYSIS
+                                                  dominates One Nation’s
+      for?”
+                                                  message
+
+      ABC News, 22 Aug 2026: “One
+      Nation’s fickleness goes unpunished         Labor’s ad strategy; $27
+      but Labor is figuring out how to fight      donation requests;             ANALYSIS
+S26
+      it”; The Australia Today (Labor’s $27     superannuation and paid-      / FACT
+      appeal)                                   parental-leave ads
+
+
+                                                Albanese’s quote; the
+      The New Daily, 11 Jun 2026: “PM’s         reported $2.1m plane;
+                                                                              FACT
+      blast after One Nation’s $2m ‘fire the    Albanese questions
+S27                                                                           (reported)
+      liar’ cash boost”; Wikipedia, “Fire the   figures and says One
+                                                                              / CLAIM
+      Liar”                                     Nation has the same
+                                                policies as the Coalition
+
+      REUSE: ABC / CBS (Nov 2025
+      censure); ABC (2 Mar 2026 censure);       Two censures;                 FACT /
+S28
+      The Nightly (21 Sep 2026, government      government’s stated focus     CLAIM
+      minister on cost-of-living focus)
+
+      ABC News (Michelle Grattan), 12 Jun
+                                                Analysis that the broken
+      2026: ”‘Broken promise’ or not,
+                                                promise helped One            ANALYSIS
+S29   Anthony Albanese’s tax decision has
+                                                Nation; government’s          / CLAIM
+      helped One Nation”; ABC (budget
+                                                stated rationale
+      framing: generational equity)
+
+                                                Launched 10 Jun 2026;
+                                                $4m / 65,000+ donors /
+      The Australia Today, 16 Jun 2026: “One    five days (One Nation’s
+      Nation raises $4 million, dares           figures); audit published
+S30                                                                           CLAIM
+      Albanese to show his fundraising          by One Nation; money
+      figures”; Wikipedia, “Fire the Liar”      “quarantined” until the
+                                                election (Hanson, Aug
+                                                2026)
+
+      The New Daily, 11 Jun 2026 (Hanson’s
+      post); Wikipedia (David Farley: One
+      Nation policy to cut net migration to
+                                                Target Labor-held seats;
+      130,000); ABC, 22 Aug 2026                                              CLAIM /
+S31                                             130,000; super access;
+      (superannuation suggestion);                                            FACT
+                                                “Please Explain” relaunch
+      Wikipedia, “Pauline Hanson’s Please
+      Explain” (2026 season, YouTube and
+      Sky News)
+
+      ABC News, 14 Jul 2026: “Angus Taylor
+      rules out One Nation coalition once and
+      for all”; News24 / Sky (Jul 2026),        No coalition; preferences
+S32   Taylor not ruling out preferences; ABC    not ruled out; “an eternity   FACT
+      (2 Mar 2026, Coalition votes against      of pain”; Abbott’s            (reported)
+      censure); ABC (13 Jun 2026, Abbott on     comment
+         preferences)
+
+
+         ABC News, 27 Jul 2026: “Pauline
+                                                      Full Federal Court upholds
+         Hanson fails in appeal bid against racial
+ S33                                                  the finding; Hanson seeks         FACT
+         discrimination of Mehreen Faruqi”;
+                                                      the High Court
+         Reuters (27 Jul 2026)
+
+         Australian Electoral Commission (how         Preferential voting; 76-
+ S34–    votes are counted; House and Senate          seat majority; half-Senate
+                                                                                        FACT
+ S36     systems); Wikipedia (1998 Qld and            quota ~14.3%; 1998
+         federal elections; Inside Story)             example
+
+         Victorian Electoral Commission
+         (election date); Wikipedia (Opinion
+         polling, 2026 Victorian election:            28 Nov 2026 election; “I’m
+ S40                                                                                    FACT
+         Warren Pickering became Vic One              at the end of my life.”
+         Nation leader, Aug 2026); SBS (Feb
+         2026, Hanson quote)
+
+
+
+
+PART 9: Asset master list
+
+9.1 Real footage (ParlView, free under Parliament’s conditions)
+
+ Asset                                          What to find                                   Seg
+
+                                                Albanese at the despatch box,
+  FTG_ParlView_House_2025_Albanese_QT                                                          S01
+                                                Question Time 2025
+
+  FTG_ParlView_House_1996-09-
+                                                REUSE: Hanson’s maiden speech                  S14
+ 10_maiden_speech
+
+
+  FTG_ParlView_House_2026-                      David Farley’s first speech, House of
+                                                                                               S16
+ 06_Farley_first_speech                         Representatives (from 2 June 2026)
+
+  FTG_ParlView_2026-                            Question Time exchanges about One
+                                                                                               S27
+ 06_Albanese_QT_OneNation                       Nation, June 2026
+
+  FTG_ParlView_Senate_2025-11-                  REUSE: second burqa protest (plain
+                                                                                               S28
+ 24_burqa                                       footage only)
+
+  FTG_ParlView_Senate_2026-                     REUSE: March 2026 censure motion
+                                                                                               S28
+ 03_censure_vote                                and division
+                                          Barnaby Joyce in the House as a One
+  FTG_ParlView_House_2026_Joyce                                                         S16
+                                          Nation MP (optional B-roll for S16)
+
+
+
+9.2 Photos (free licences; confirm each)
+
+ Asset                             Source                                   Seg
+
+                                   REUSE; Wikimedia Commons                 S01, S37,
+  IMG_Hanson_2016_CC0
+                                   (CC0)                                    thumbnail
+
+  IMG_Hanson_2006_CCBY ,
+                                   REUSE; Wikimedia Commons                 S14
+  IMG_Hanson_2007_CCBYSA
+
+
+                                   REUSE; DFAT (CC BY 4.0) or               S06, S37,
+  IMG_Albanese_DFAT
+                                   Wikimedia Commons                        thumbnail
+
+  IMG_Howard_portrait ,
+                                   REUSE; Wikimedia Commons                 S06, S32
+  IMG_Abbott_portrait
+
+
+  IMG_Chalmers_portrait            Wikimedia Commons                        S09
+
+  IMG_Joyce_portrait               Wikimedia Commons                        S16
+
+  IMG_Ley_portrait ,
+                                   Wikimedia Commons                        S22, S32
+  IMG_Taylor_portrait
+
+
+                                   Wikimedia Commons (only if freely
+  IMG_Farley_portrait                                                       S16
+                                   licensed)
+
+  IMG_Faruqi_portrait              REUSE; Wikimedia Commons                 S33
+
+
+
+9.3 Documents
+
+ Asset                             Source                                          Seg
+
+                                   budget.gov.au (check licence;
+  DOC_Budget2026_overview          Commonwealth material is usually CC BY          S09
+                                   4.0)
+
+  DOC_FCAFC_2026_Faruqi_v_Hanson   REUSE; Federal Court of Australia               S33
+
+                                   aec.gov.au explainer pages (for accuracy;       S34–
+  DOC_AEC_how_votes_counted
+                                   recreate as graphics)                           S36
+9.4 B-roll
+
+ Asset                                                   Type                          Seg
+
+  BR_STOCK_parliament_house_dawn                         Pexels / Pixabay              S05
+
+  BR_STOCK_new_housing_construction                      Pexels / Pixabay              S09
+
+                                                                                       S10,
+  BR_STOCK_petrol_price_board_night                      Pexels / Pixabay
+                                                                                       S24
+
+  BR_STOCK_supermarket_trolley ,
+                                                         Pexels / Pixabay              S24
+  BR_STOCK_for_lease_sign , BR_STOCK_bills
+
+
+  BR_STOCK_superannuation_documents                      Pexels / Pixabay              S26
+
+  BR_STOCK_small_plane_airstrip                          Pexels / Pixabay              S27
+
+  BR_STOCK_melbourne_skyline_dusk                        Pexels / Pixabay              S40
+
+                                                         AI (style anchor), optional
+  BR_AI_vote_count_room                                                                S35
+                                                         under S34–S35
+
+
+
+9.5 Graphics to build (and reuse)
+GFX_scoreboard (new) · GFX_chamber_150 (new; REUSE seat-dot style) ·
+GFX_poll_polaroid (new) · GFX_state_heatmap (new) · GFX_ballot_green ,
+GFX_ballot_senate (new) · GFX_spread_vs_concentrated (new) · GFX_four_things (new) ·
+GFX_comparison_board (new) · GFX_chess_board (new) · gold thread and red thread
+(REUSE) · GFX_75_lock , GFX_PM_ladder , GFX_rate_staircase , GFX_approval_dial
+(REUSE, Albanese film) · GFX_hanson_timeline_recap , GUILTY/QUASHED stamp, staircase-
+with-”?” (REUSE, Hanson film) · split-flap year board, evidence card,
+FACT/CLAIM/ANALYSIS/SPECULATION labels.
+
+
+9.6 Sound and music
+Pixabay sound effects, Freesound (CC0), YouTube Audio Library for all effects in the cue
+tables. YouTube Audio Library or Pixabay Music for the beds in Part 4.8.
+
+
+
+
+PART 10: On-screen numbers (single source of truth)
+
+ Item                 Value                                                 Source
+2022 election        Labor 77 of 151                                  Wikipedia / AEC
+
+                     Labor 94 of 150; Coalition 43; One Nation 0
+2025 election                                                         Wikipedia / AEC
+                     House seats
+
+One Nation
+                     4 after 2025 (up from 2)                         Reuters
+senators
+
+One Nation
+                     2 (Farrer, New England)                          Wikipedia
+House seats now
+
+Labor spill
+                     75% of caucus                                    Wikipedia
+threshold
+
+                     4.60% (29 Sep 2026), fourth rise of 2026,
+Cash rate                                                             RBA; ABC
+                     highest since 2011
+
+Newspoll, 14–17                                                       The Conversation;
+                     ON 30, ALP 27, L-NP 19, GRN 13, OTH 11;
+Sep 2026                                                              Poll Bludger; The
+                     Albanese net −27 (35/62); Hanson 44/51
+(n=1,244)                                                             Australia Today
+
+Labor a year
+                     37 (Newspoll)                                    Reuters via FMT
+earlier
+
+DemosAU, 10–14
+Sep 2026             ALP 28, ON 26, L-NP 20, GRN 13                   The Conversation
+(n=1,583)
+
+Roy Morgan, 14–
+                     ON 25.5, ALP 25, L-NP 21.5; 2PP ALP 54 / ON 46   Roy Morgan
+20 Sep 2026
+
+Roy Morgan, 14–
+                     ON Qld 32.5 (highest), SA 18.5 (lowest; SA
+27 Sep 2026                                                           Roy Morgan
+                     n=228)
+(n=2,569)
+
+Newspoll
+                     Qld ON 36 / ALP 25; NSW ON 31 / ALP 30; WA
+quarterly, 13 Jul–                                                    The New Daily;
+                     ALP 30 / ON 29; Vic ALP 29 / ON 25; Qld
+18 Sep 2026                                                           The Nightly
+                     preferred PM Hanson 52 / Albanese 48
+(n=4,967)
+
+Labor + Coalition                                                     The Australia
+                     46%
+primary                                                               Today (Newspoll)
+
+Roy Morgan
+                     95% of One Nation supporters                     Roy Morgan
+“wrong direction”
+ “Fire the Liar”        Launched 10 Jun 2026; $4m, 65,000+ donors,        The Australia
+                        five days (One Nation’s claim)                    Today; Wikipedia
+
+                        ~$2.1m light plane from a Rinehart-linked
+ Hanson’s plane                                                           The New Daily
+                        company (reported)
+
+ One Nation net                                                           Wikipedia (David
+                        130,000 a year (Hanson’s stated policy)
+ migration policy                                                         Farley article)
+
+                        Qld: ~22.7%, 11 of 89 seats; federal: ~8–9%, 0    Wikipedia; Inside
+ 1998 examples
+                        House seats                                       Story
+
+ Half-Senate
+                        1/7 + 1, about 14.3%                              AEC
+ quota
+
+                        Albanese 63 (born 2 Mar 1963); Hanson 72 (born
+ Ages                                                                     Wikipedia
+                        27 May 1954)
+
+ Victorian election     28 Nov 2026                                       VEC
+
+
+
+
+PART 11: Publish-day checks
+1. Polls: if a newer Newspoll, DemosAU or Roy Morgan poll is out, update S02, S11, S12,
+   S17, S20, S21, S23 and Part 10. Keep showing more than one pollster.
+
+2. Interest rates: check the November RBA decision; update S10 if it moved.
+
+3. Victorian election (28 Nov 2026): if publishing after it, replace S40’s “the first real test
+   comes soon” with the result.
+
+4. Leadership: check for any change in the Labor, Liberal or One Nation leadership.
+
+5. The High Court: check whether Hanson has sought or received special leave in the
+   Faruqi case (S33).
+
+6. Ages: Albanese turns 64 on 2 Mar 2027; update S40 after that date.
+
+7. ParlView: confirm the exact sitting days for every clip, and hold written confirmation for
+   use.
+
+8. Licences: confirm and record every photo, document, stock clip, sound and music
+   track.
+
+9. Lawyer review of the final cut, and comment moderation on.
+PART 12: Disclaimer (S05 on-screen card and the top of the
+description)
+  This is an independent documentary made for educational and informational purposes. It
+  is not affiliated with, endorsed by, or paid for by Anthony Albanese, Pauline Hanson, the
+  Australian Labor Party, One Nation, or any political party or candidate. Statements of fact
+  come from official election results, parliamentary records, court judgments, Reserve
+  Bank decisions, published polls and reputable news reports, shown on screen and listed
+  in the description. Claims by politicians and parties, and analysis by commentators, are
+  labelled as such. Polls are snapshots, not predictions. Pauline Hanson’s 2003 conviction
+  was overturned on appeal. If you believe anything is inaccurate, contact [your email] and
+  we will review it promptly.
+
+
+
+
+PART 13: Optional trim pack (if you want a shorter cut)
+The approved script runs about 17½–18 minutes. These cuts save about 230 words (about
+1½–2 minutes) without removing anything the brief requires (polling disagreements,
+sources, mechanics, both sides’ moves). Apply all, some or none. If you cut, also remove
+the matching animation cues.
+
+
+ Seg     Cut                                                                           Saves
+
+         “Along the way, we’ll show you the polls, the results and the sources, and”   ~13
+ S04
+         → start the sentence with “We’ll tell you clearly…”                           words
+
+ S06     “Labor held every seat it already had.”                                       ~7
+
+         “And in August 2026, Albanese passed Paul Keating’s time in office, making
+ S07                                                                                   ~22
+         him the longest-serving prime minister since John Howard.”
+
+         “In early 2026, Newspoll recorded One Nation ahead of the Coalition for the
+ S16                                                                                   ~14
+         first time.”
+
+ S20     “In Western Australia, Labor led One Nation by a single point.”               ~11
+
+         “The Liberals replaced Sussan Ley with Angus Taylor as leader in February
+ S22                                                                                   ~13
+         2026.”
+
+ S26     The last two sentences (superannuation and paid parental leave ads)           ~31
+
+         “And on the economy, ministers say the government’s focus is relieving
+ S28                                                                                   ~18
+         cost-of-living pressure, rather than the polls.”
+  S30     “Hanson later said the money would be kept until the next election.”        ~12
+
+          “And One Nation has relaunched its animated series, ‘Please Explain’,
+  S31                                                                                 ~18
+          released on its YouTube channel and rebroadcast on Sky News.”
+
+          “That’s why minor parties like One Nation have usually done far better in
+  S36                                                                                 ~15
+          the Senate.”
+
+  S37     Shorten each list to its first three items                                  ~55
+
+
+Reaching the brief’s 15-minute ceiling exactly would mean cutting required material (the
+polling disagreements in S17 and S21, or the mechanics in S34–S36), so this pack stops
+short of that.
+
