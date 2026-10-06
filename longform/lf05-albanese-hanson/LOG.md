@@ -32,3 +32,11 @@
 - Rewrote `broll/MANIFEST.md` for all nine clips + beats; first AI appearance → Dramatised reconstruction label in edit.
 - `broll/PROMPTS.md` generation status → **generated**.
 - PASTE_BRIEF still not written (voice missing). No merge/PR.
+
+## 2026-10-06 (AEDT) — VO evened + PASTE_BRIEF seated
+
+- Ran `even_vo_pace.py` (rubberband pitch-held + silenceremove, ±6% ceiling). Evened `audio/vo/S01.mp3`–`S41.mp3` (41 files). Raw untouched in `audio/vo-raw/`.
+- Median raw WPS **2.5836**. Pace table saved to `audio/vo/PACE_REPORT.md`.
+- Ceiling outliers still far from median: S01 (2.365), S09 (2.400), S20 (2.409), S39 (2.465) still slow; S35 (2.751), S41 (2.685) still fast. Do not retime further.
+- Wrote complete `PASTE_BRIEF.md` for Claude Code (documentary style locked; mid-rolls S13/S25/S33; ParlView FREE SWAP; music ~85% quieter under VO; 1× build → 1.28× pitch-held + loudnorm −14 LUFS / ≤−1.5 dBTP; asset inventory F01–F46, images, B01–B09, music/sfx).
+- No merge, no PR, no @claude, no YouTube/Drive upload.
