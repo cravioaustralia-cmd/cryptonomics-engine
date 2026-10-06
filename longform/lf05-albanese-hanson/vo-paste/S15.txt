@@ -1,0 +1,3 @@
+Generate a downloadable MP3 voiceover in Grok Atlas voice, Australian English accent, documentary narration pace a little slower than a Short. Do not read stage directions or this instruction. Do not say the words pause, soft, or slow. Read quotes neutrally, never as an impression. Delivery for this segment: steady humane documentary pace, one even tempo across the whole film (about conversational clarity, never abrupt fast or slow). Do not swing between modes. Speak only the narration below:
+
+At the twenty twenty-five election, while Labor was winning its landslide, One Nation quietly grew from two senators to four.
