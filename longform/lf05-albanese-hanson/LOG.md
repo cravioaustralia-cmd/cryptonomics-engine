@@ -40,3 +40,12 @@
 - Ceiling outliers still far from median: S01 (2.365), S09 (2.400), S20 (2.409), S39 (2.465) still slow; S35 (2.751), S41 (2.685) still fast. Do not retime further.
 - Wrote complete `PASTE_BRIEF.md` for Claude Code (documentary style locked; mid-rolls S13/S25/S33; ParlView FREE SWAP; music ~85% quieter under VO; 1× build → 1.28× pitch-held + loudnorm −14 LUFS / ≤−1.5 dBTP; asset inventory F01–F46, images, B01–B09, music/sfx).
 - No merge, no PR, no @claude, no YouTube/Drive upload.
+
+## 2026-10-06 (AEDT) — edit, mix and master delivered
+
+- Built `render/` pipeline from the lf04 one (design, timing, cut, media, render, mix, musicdip, master, deliver). Documentary picture only: real free footage first, Ken Burns photos, evidence cards and data graphics, AI B-roll last. No map film.
+- 1x edit 18:30.6 (holds H0–H9, mid-roll beats after S13 / S25 / S33, end screen). VO files placed untouched at one fixed gain.
+- Master `final/lf05-albanese-hanson.mp4`: whole film at 1.28x, pitch held, 14:27.7, 95.4 MB, HEVC 1080p30 + AAC. Two-pass loudnorm on the master only: **−14.0 LUFS, −1.8 dBTP**. Music under the voice 27.5 dB below hold level (about 85% quieter).
+- Delivered: `final/chapters.md` (YouTube chapters, mid-roll times, cue sheet), `final/contact-sheet.jpg`, `final/contact-sheet-shots.jpg`, `final/loudnorm-report.md`, `final/DESCRIPTION.md` (draft), `final/DELIVERY_NOTES.md`.
+- QC holds (seated but not used): B04 (readable price digits), F09/F10 (US flag), F12 (New York cabs), F13 (Tokyo), F30 (close face), F14 (private person close-up). S28 card omits "36–17" (not spoken).
+- No merge, no PR, no @, no YouTube upload.
