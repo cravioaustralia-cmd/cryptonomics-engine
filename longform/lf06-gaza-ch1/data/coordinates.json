@@ -1,0 +1,10 @@
+{
+  "_note": "WGS84 decimal degrees, city-centre / site points for map pins. Approximate (±0.01°). Facts, not copyrightable; cross-checked against Natural Earth populated places where present.",
+  "Sydney":     {"lat": -33.8688, "lon": 151.2093, "ne_110m": [-33.918065, 151.183234]},
+  "Melbourne":  {"lat": -37.8136, "lon": 144.9631, "ne_110m": [-37.818086, 144.97307], "station_pier": [-37.8441, 144.9327]},
+  "Gaza":       {"lat": 31.5017,  "lon": 34.4668, "label": "Gaza City"},
+  "Beersheba":  {"lat": 31.2518,  "lon": 34.7913},
+  "Jerusalem":  {"lat": 31.7683,  "lon": 35.2137, "ne_110m": [31.778408, 35.206626]},
+  "Tel Aviv":   {"lat": 32.0853,  "lon": 34.7818},
+  "New York (Flushing Meadows, UN GA hall 1946-50 — today's Queens Museum)": {"lat": 40.7458, "lon": -73.8467, "ne_110m_new_york_city": [40.751925, -73.981963]}
+}

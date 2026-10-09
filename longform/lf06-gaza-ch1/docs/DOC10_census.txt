@@ -1,0 +1,23 @@
+DOC10 — ABS Census 2021, religious affiliation (Australia, count of persons, place of usual residence)
+
+  Judaism  99,956
+  Islam    813,392
+
+Sources:
+  - ABS, Census of Population and Housing: Cultural diversity data summary, 2021 (released 28 June 2022),
+    Table 7 "Religious affiliation by country of birth of person", Total column: Judaism 99956; Islam 813392.
+    https://www.abs.gov.au/statistics/people/people-and-communities/cultural-diversity-census/2021/Cultural%20diversity%20data%20summary.xlsx
+    (saved as DOC10_ABS_Cultural_diversity_data_summary_2021.xlsx)
+  - ABS QuickStats 2021, Australia (AUS): "Islam 813,392 3.2%"  https://abs.gov.au/census/find-census-data/quickstats/2021/AUS
+    (Judaism is not in the QuickStats top-5 table, hence the data summary above.)
+  - Context only (not on screen): JCA "The Jewish Population of Australia" (2024) adjusted estimate 116,967
+    https://www.jca.org.au/wp-content/uploads/2024/06/The-Jewish-Population-of-Australia-Report_2021-Census-1.pdf
+
+Is 2021 still the latest? YES. ABS "2026 Census topics and data release plan":
+  "Data from the 2026 Census will be released in three phases starting from June 2027 ...
+   First release – June 2027 ... Second release – October 2027 ... Third release – Early to mid-2028"
+  https://www.abs.gov.au/statistics/research/2026-census-topics-and-data-release-plan
+
+Card text: "About 100,000 Jewish Australians · 800,000+ Muslim Australians"
+Source tag: "ABS Census 2021: 99,956 and 813,392"
+Licence: ABS material © Commonwealth of Australia, CC BY 4.0 (abs.gov.au copyright page) — attribute "Source: Australian Bureau of Statistics".
