@@ -1,0 +1,8 @@
+===== S08 (ATLAS) =====
+Generate a downloadable MP3 voiceover in Grok Atlas voice, Australian English accent, documentary narration pace a little slower than a Short. Do not read stage directions or this instruction. Do not say the words pause, soft, or slow. Read quotes neutrally, never as an impression. Delivery for this segment: warm, storytelling; steady humane documentary pace, one even tempo across the whole film, never abrupt fast or slow. A blank line in the text means a short natural beat of silence, not a spoken word. Pronunciation: Beersheba = beer-SHEE-buh. Speak only the narration below:
+
+It wasn't Australia's first link to this land.
+
+Thirty years earlier, on the thirty-first of October, nineteen seventeen, Australian Light Horsemen charged Ottoman trenches at Beersheba, in one of the last great cavalry charges in history.
+
+It helped open the road to Jerusalem, and to the British rule over Palestine that followed.

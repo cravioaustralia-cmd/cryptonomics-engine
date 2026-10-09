@@ -1,0 +1,6 @@
+===== S05 (ARA) =====
+Generate a downloadable MP3 voiceover in Grok Ara voice (calm, neutral, even female voice; the film's neutral 'Record' voice, backup Eve), Australian English accent, documentary narration pace a little slower than a Short. Do not read stage directions or this instruction. Do not say the words pause, soft, or slow. Read quotes neutrally, never as an impression. Delivery for this segment: clear, formal, like reading the record; steady humane documentary pace, one even tempo across the whole film, never abrupt fast or slow. A blank line in the text means a short natural beat of silence, not a spoken word.  Speak only the narration below:
+
+November, nineteen forty-seven.
+
+The United Nations General Assembly, New York.

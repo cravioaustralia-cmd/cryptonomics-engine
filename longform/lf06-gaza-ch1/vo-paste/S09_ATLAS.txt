@@ -1,0 +1,8 @@
+===== S09 (ATLAS) =====
+Generate a downloadable MP3 voiceover in Grok Atlas voice, Australian English accent, documentary narration pace a little slower than a Short. Do not read stage directions or this instruction. Do not say the words pause, soft, or slow. Read quotes neutrally, never as an impression. Delivery for this segment: reflective; steady humane documentary pace, one even tempo across the whole film, never abrupt fast or slow. A blank line in the text means a short natural beat of silence, not a spoken word.  Speak only the narration below:
+
+So Australians helped shape this land twice.
+
+Once on horseback.
+
+And once at a ballot.

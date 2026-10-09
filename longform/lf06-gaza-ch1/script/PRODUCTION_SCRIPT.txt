@@ -1,0 +1,811 @@
+                     GAZA
+
+
+
+
+                                                                SYDNEY
+
+
+
+
+      14,000 KILOMETRES
+                      Why Gaza Matters in Australia
+
+PRODUCTION SCRIPT — CHAPTER 1: THE VOTE AUSTRALIA CAST FIRST
+ Segments S05–S13 · about 2 min 10 s · Voices: Grok TTS Atlas + Ara · Media budget: $0
+
+
+
+
+        Independent, non-partisan documentary · Research cut-off 9 October 2026
+14,000 KILOMETRES · Chapter 1 Production Script                                        Non-partisan · Evidence-led · $0 media
+
+
+
+
+ Editorial stance: we do not take a side
+ This documentary does not take a side in the Israeli–Palestinian conflict. Its question
+ is narrower: how has this conflict affected Australia and Australians? It reports what happened,
+ shows the evidence on screen as each claim is spoken, and gives every side's position in its
+ own terms, at equal weight. It does not tell viewers what to conclude.
+
+
+
+ How neutrality is built into every frame
+ • Equal treatment. Whenever one community's experience or position is shown, the other's is shown
+    at the same size, for the same time, in the same design, with the same music level. In this chapter:
+    S10 (two memories of 1948) and S12 (two population figures).
+ • One neutral voice for both sides. Ara ("the Record") reads every official position and every "case
+    for" and "case against" in an identical tone, so neither side sounds favoured.
+ • Attributed, not asserted. Contested facts are attributed to their source on screen ("according
+    to…", "supporters say…", "critics argue…"). The narrator never states a contested claim as fact.
+ • Neutral language. Narration uses "Israel", "Palestinians", "Hamas", "the war in Gaza". Loaded
+    labels from either side are not used in the narrator's voice.
+ • Neutral design. No national flag colours are used as design colours. Flags appear only where
+    they're part of a real photograph.
+ • No generated likenesses or symbols. No AI-generated, drawn or altered image of any real
+    person, and no AI-generated religious dress, symbols or flags.
+ • No graphic content. No images of violence or casualties from any side.
+
+ Disclaimer — on-screen card (after the title in S04) and the top of
+ the video description
+ This is an independent documentary made for educational and informational purposes. It does
+ not take a side in the Israeli–Palestinian conflict, and it is not affiliated with, endorsed by, or paid
+ for by any government, political party, advocacy group or community organisation. Statements of
+ fact come from parliamentary records, court judgments, government statements, United Nations
+ documents and official reports, shown on screen and listed in the description. The positions of
+ different sides are summarised and attributed to them, and given equal weight. Casualty figures
+ are attributed to their sources. Some scenes are AI-generated reconstructions, and the narration
+ voices are AI-generated. No real person has been AI-generated or altered. If you believe anything
+ is inaccurate or unfair to any side, contact [your email] and we will review it promptly.
+
+ On screen: show the card for 4 seconds over a dark background, no narration, with the MUS12 motif tail. Text in Source
+ Serif 4, 28 pt, off-white #F2EEE6. If it feels long on screen, use the short version below and keep the full version in the
+ description.
+
+ Short on-screen version: An independent, non-partisan documentary. We don't take sides.
+ Facts are sourced on screen; each side's view is attributed and given equal weight. Some scenes
+ and the narration voices are AI-generated.
+
+
+
+
+                                                            Page 2
+14,000 KILOMETRES · Chapter 1 Production Script                                  Non-partisan · Evidence-led · $0 media
+
+
+
+
+ Chapter 1 at a glance
+Item                       Detail
+Segments                   S05–S13 (9 segments)
+
+Runtime                    About 2 min 10 s (1:17–3:27 in the full film)
+
+Voices                     Grok TTS. Atlas (storyteller): S06–S11, S13. Ara ("the Record"): S05, S12
+
+Mood arc                   Wonder → gravity → empathy (quiet moment, S10) → warmth → a forward hook into
+                           Chapter 2
+
+Retention job              Surprise viewers with a fact almost nobody knows (Australia voted first in 1947), plant the
+                           "two memories" idea the whole film relies on, and end on a hook ("wired into the war…")
+
+Budget                     $0. Every asset is free (see the asset section)
+
+Format                     16:9, 1920×1080, 30 fps
+
+
+ Rules for this chapter
+ • Golden rule: something on screen reacts to the voice every 1–2 seconds. The only exception is S10,
+   a quiet moment: slow motion only, no shakes, no comic effects.
+ • Balance: S10 shows both 1948 memories at equal size, for equal time, with labels fading in at the
+   same moment. S12 shows both population figures in identical design.
+ • No AI likeness of real people. Evatt appears only in his real photo (crop, scale, grade and position
+   only).
+ • AI B-roll style anchor (add to every AI prompt): Cinematic documentary B-roll, 16:9, natural colour,
+   gentle film grain, shallow depth of field, slow camera movement, realistic, no text, no logos, no
+   recognisable real people, faces not visible.
+ • Never generate: real people, religious dress or symbols, flags, weapons, violence, injured people,
+   or military insignia.
+ • Captions and credits: every real photo has a small caption (place, year) and a credit in the corner.
+
+ Design tokens
+Swatch      Token                      Use
+            Navy #0E1A2B               Background, chapter card
+
+            Paper #F2EEE6              Evidence cards, text on dark
+
+            Amber #E8A33D              The Thread, highlights, circles
+
+            Grey #8A8A8A               Secondary labels
+
+            Map land #22324A           All maps
+
+            Map sea #0A1422            All maps
+
+ • Fonts (free, OFL): Source Serif 4 for the chapter card, quotes and evidence cards; Inter for labels
+   and numbers; IBM Plex Mono for the split-flap date board.
+ • Archival grade: warm sepia, light grain, soft vignette. Modern images slightly desaturated and cool.
+ • Motion: ease-out entrances of 200–350 ms; map lines draw over 1.5–2 s with ease-in-out.
+ • Never use national flag colours as design colours.
+
+ Sound
+ • Narration −14 LUFS integrated.
+ • Sound effects about 12 dB under the narration.
+ • Music about 20 dB under the narration, ducking under speech.
+ • Crossfade music over 2–4 seconds, on emotion changes rather than on cuts.
+
+
+
+                                                          Page 3
+14,000 KILOMETRES · Chapter 1 Production Script                                   Non-partisan · Evidence-led · $0 media
+
+
+
+
+ • Leave 0.4 s of air at every handover between Atlas and Ara.
+
+ Image moves used in this chapter
+Code           Move                                                                        Sound
+DROP           White-bordered photo falls onto the dark desk with a slight tilt and        Shutter click (SFX12)
+               shadow
+
+PAN            Slow push or pan, foreground separated for 2.5D depth                       Low whoosh (SFX05)
+
+STACK          2–4 photos land on top of each other, each slightly rotated                 A click per photo
+
+ZOOM           Camera dives into a document to one line; a highlighter swipes across it    Page turn (SFX18)
+
+CIRCLE         A hand-drawn amber circle draws around a word                               Marker squeak (SFX20)
+
+CALLOUT        A label or arrow pops out                                                   Pop
+
+SPLIT          Two images slide in from opposite sides and lock together at equal size     Whoosh + click
+
+PIN            Image or card snaps onto the map or the evidence board                      Thunk (SFX21)
+
+
+ The recurring devices (introduced here, used all film)
+ • Split-flap date board (lower-left, IBM Plex Mono) announces every date jump: NOV 1947 (S05),
+      OCT 1917 (S08).
+ • The evidence board: a dark board where each chapter pins a card tied to the previous one with
+      amber string. Its first two cards are pinned in this chapter: TWO MEMORIES (S10) and 1947 VOTE
+      (S13).
+ • The amber Thread (MAP01): a dark globe with a glowing line from Sydney to Gaza. Node 1, "1947
+      VOTE", lights in S13.
+
+
+
+
+                                                         Page 4
+14,000 KILOMETRES · Chapter 1 Production Script                                     Non-partisan · Evidence-led · $0 media
+
+
+
+
+ Shot-by-shot script
+ Each segment shows the narration, the visual track in play order (HOLD = picture holds with no narration), the image
+ sequence, and the animation cues. Each cue starts on the first word of its trigger.
+
+ S05         Ara · clear, formal, like reading the record                                                         ≈ 1:17
+
+
+ “November, nineteen forty-seven. The United Nations General Assembly, New York.”
+
+
+ Visual track
+ 1. Chapter card (navy, film grain): CHAPTER 1 — THE VOTE AUSTRALIA CAST FIRST. MUS12 short motif
+    → MUS02 strings. SFX07 projector starts.
+ 2. FT05 (UN 1947 footage) if cleared; otherwise PH26 with PAN and projector flicker overlay.
+ 3. HOLD 1.0s.
+
+ Image sequence
+  • PH26 — PAN with film-flicker overlay. Caption: UN General Assembly, 1947. Credit.
+
+ Animation cues
+Trigger word            Animation                                                               Sound
+“November”              Split-flap board flips to NOV 1947                                      SFX06
+
+“New York”              Small locator dot on a world inset                                      SFX05
+
+ Assets: FT05 (permission/terms), PH26, MUS12, MUS02, SFX07, SFX06
+
+
+ S06         Atlas · curious, building                                                                            ≈ 1:25
+
+
+ “The new United Nations is deciding the future of Palestine. And chairing the committee
+ at the centre of it is an Australian. · Foreign Minister H.V. Evatt, known as Doc.”
+
+
+ Visual track
+ 1. PH01 Evatt portrait — DROP, then PAN with parallax. Lower third: H.V. "Doc" Evatt — Australian
+    Foreign Minister.
+ 2. HOLD 0.5s.
+
+ Image sequence
+  • PH01 — DROP onto the desk, then PAN. CALLOUT label 'Chair, UN Ad Hoc Committee on Palestine'.
+
+ Animation cues
+Trigger word            Animation                                                               Sound
+“an Australian”         Kinetic word 'AUSTRALIAN' in amber                                      SFX06
+
+“Doc”                   Label pops onto the portrait                                            Pop
+
+ Assets: PH01, MUS02, SFX12
+
+
+ S07         Atlas · quiet surprise                                                                               ≈ 1:37
+
+
+ “When the vote is called on a plan to divide the land into a Jewish state and an Arab
+ state, · the first country to vote yes · is Australia.”
+
+
+ Visual track
+ 1. DOC02 voting record — ZOOM to the roll call; highlighter swipes 'Australia' in sync with the word.
+
+
+
+                                                          Page 5
+14,000 KILOMETRES · Chapter 1 Production Script                              Non-partisan · Evidence-led · $0 media
+
+
+
+
+ 2. MAP03: the 1947 partition plan draws in neutral sand and slate, Jerusalem marked as an
+   international zone.
+ 3. HOLD 1.5s after "Australia" — MUS02 swells slightly.
+
+ Image sequence
+  • DOC01 — ZOOM to the title line of Resolution 181 (II). DOC02 — ZOOM + CIRCLE on 'Australia'.
+
+ Animation cues
+Trigger word           Animation                                                        Sound
+“divide the land”      Map splits into two zones, Jerusalem ring appears                SFX05
+
+“first country”        Roll-call list scrolls fast, then stops                          SFX06 ticks
+
+“Australia”            Marker circle draws around the word                              SFX20 marker
+
+ Assets: DOC01, DOC02, MAP03, SFX18, SFX20, MUS02
+
+
+ S08          Atlas · warm, storytelling                                                                  ≈ 1:51
+
+
+ “It wasn't Australia's first link to this land. · Thirty years earlier, on the thirty-first of
+ October, nineteen seventeen, Australian Light Horsemen charged Ottoman trenches at
+ Beersheba, in one of the last great cavalry charges in history. · It helped open the road
+ to Jerusalem, and to the British rule over Palestine that followed.”
+
+
+ Visual track
+ 1. ST06 desert wind, then AI03 cavalry silhouettes. Pilot build: show the 'Dramatised reconstruction'
+   label here (in the full film it first appears in S01).
+ 2. FT02 real Light Horse film / PH02 photo with PAN.
+ 3. MAP02: Beersheba locator, dotted charge arrow, then a line toward Jerusalem.
+ 4. HOLD 1.0s on the map.
+
+ Image sequence
+  • PH02 — PAN with parallax (riders separated from background). STACK 2 more AWM photos. Caption:
+   Palestine, 1917. Credit: AWM.
+
+ Animation cues
+Trigger word           Animation                                                        Sound
+“Beersheba”            Split-flap flips to OCT 1917; map locator pin drops              SFX21 thunk
+
+“charged”              Arrow sweeps across the map                                      SFX16 hooves
+
+“road to Jerusalem”    Line extends to Jerusalem                                        SFX05
+
+ Assets: ST06, AI03, FT02, PH02, MAP02, SFX16, SFX21, MUS02
+
+
+ S09          Atlas · reflective                                                                          ≈ 2:14
+
+
+ “So Australians helped shape this land twice. · Once on horseback. · And once at a
+ ballot.”
+
+
+ Visual track
+ 1. SPLIT: PH02 (left) and DOC02 (right) slide in and lock together. Years 1917 | 1947 above each.
+ 2. HOLD 1.5s.
+
+ Image sequence
+  • PH02 + DOC02 — SPLIT.
+
+
+                                                           Page 6
+14,000 KILOMETRES · Chapter 1 Production Script                                Non-partisan · Evidence-led · $0 media
+
+
+
+
+ Animation cues
+Trigger word          Animation                                                           Sound
+“horseback”           Left image brightens                                                —
+
+“ballot”              Right image brightens                                               SFX19 soft stamp
+
+ Assets: PH02, DOC02, MUS02
+
+
+ S10          Atlas · soft, even, equal weight to both halves — QUIET MOMENT                                ≈ 2:23
+
+
+ “For many Jewish people, the nineteen forty-seven vote is remembered as a rescue, after
+ the Holocaust. · For Palestinians, what followed in nineteen forty-eight is remembered as
+ the Nakba. The catastrophe. When more than seven hundred thousand people fled or
+ were expelled from their homes. · The same event. Remembered in two opposite ways. ·
+ Remember that idea. It explains almost everything in this film.”
+
+
+ Visual track
+ 1. QUIET MOMENT: slow motion only, no shakes, no comic effects. MUS02 crossfades to MUS06 soft
+   piano over 3s.
+ 2. SPLIT: PH03 (1948 celebrations) left, PH04 (1948 refugees) right. Equal size, equal time, labels fade
+   in at the same moment.
+ 3. On "The same event": the split line glows amber. HOLD 2.0s.
+ 4. On "Remember that idea": kinetic text TWO MEMORIES writes on and PINs to the evidence board
+   (first card).
+
+ Image sequence
+  • PH03 + PH04 — SPLIT, both PAN slowly at identical speed.
+
+ Animation cues
+Trigger word          Animation                                                           Sound
+“rescue”              Left label: 1948 — INDEPENDENCE                                     —
+
+“Nakba”               Right label: 1948 — THE NAKBA                                       —
+
+“seven hundred        Number rolls on the right half, small, with source tag              SFX06 soft
+thousand”
+
+“Remember that        Card 'TWO MEMORIES' pins to the evidence board                      SFX21 thunk
+idea”
+
+ Assets: MUS02 (crossfade out), PH03, PH04, MUS06, SFX21
+
+
+ S11          Atlas · warm                                                                                  ≈ 2:52
+
+
+ “Both memories later sailed to Australia. · Melbourne became home to one of the largest
+ communities of Holocaust survivors, per person, anywhere outside Israel. Palestinian,
+ Lebanese and other Arab families settled in Sydney's south-west.”
+
+
+ Visual track
+ 1. MUS06 crossfades back to MUS02 (warm variation) over 3s.
+ 2. AI05 suitcases on a ship deck → PH05 Station Pier migrants → PH06 1970s arrivals.
+ 3. MAP04: two soft flow lines land in Melbourne and Sydney.
+
+ Image sequence
+
+
+
+
+                                                      Page 7
+14,000 KILOMETRES · Chapter 1 Production Script                         Non-partisan · Evidence-led · $0 media
+
+
+
+
+ • PH05 — DROP + PAN. Caption: Station Pier, Melbourne, 1950s. PH06 — DROP + PAN. Caption:
+   Sydney, 1970s. Credits: NAA.
+
+ Animation cues
+Trigger word          Animation                                                    Sound
+“sailed”              Flow line 1 draws Europe→Melbourne                           SFX05
+
+“Holocaust            Melbourne pin glows                                          —
+survivors”
+
+“south-west”          Flow line 2 draws Middle East→Sydney                         SFX05
+
+ Assets: AI05, PH05, PH06, MAP04, SFX05, MUS02, MUS06 (crossfade out)
+
+
+ S12         Ara · clear, factual                                                                    ≈ 3:05
+
+
+ “Today, Australia is home to more than one hundred thousand Jewish Australians, and
+ more than eight hundred thousand Muslim Australians.”
+
+
+ Visual track
+ 1. Population graphic: two identical number rolls side by side, same size and design. Source tag: ABS
+   Census (DOC10).
+
+ Animation cues
+Trigger word          Animation                                                    Sound
+“one hundred          Left number rolls 0 → 100,000+                               SFX06 ticks
+thousand”
+
+“eight hundred        Right number rolls 0 → 800,000+                              SFX06 ticks
+thousand”
+
+ Assets: DOC10, MUS02
+
+
+ S13         Atlas · closing a chapter, hinting forward                                              ≈ 3:13
+
+
+ “For many of them, this isn't a foreign conflict. It's family. · Australia didn't just watch
+ this conflict begin. It helped start the clock. · And decades later, it would be wired into
+ the war in a way most Australians have never heard of.”
+
+
+ Visual track
+ 1. MAP01 globe: node 1 '1947 VOTE' lights on the Thread.
+ 2. Evidence board: card 2 '1947 VOTE' pins and the string ties it to 'TWO MEMORIES'.
+ 3. On "wired into the war": sound bridge — SFX10 factory hum rises; MUS02 out, MUS03 pulse in.
+
+ Animation cues
+Trigger word          Animation                                                    Sound
+“start the clock”     A clock hand ticks once over the globe                       SFX06
+
+“never heard of”      Node 1 glows; card pins                                      SFX21 thunk + SFX10
+                                                                                   hum rising
+
+ Assets: MAP01, SFX10, MUS03, SFX21
+
+
+
+
+                                                       Page 8
+14,000 KILOMETRES · Chapter 1 Production Script                        Non-partisan · Evidence-led · $0 media
+
+
+
+
+ Grok voiceover — paste-ready
+ • Atlas: keep your channel's usual settings. Ara: recommended female voice (backup: Eve). Use the
+   same settings for every file of the same voice.
+ • One file per segment, named exactly as shown. Paste only the text in the box, not the delivery note.
+ • Tags: [pause] = short natural pause · <soft>…</soft> = softer, quieter delivery.
+ • Pronunciation to check: Evatt (EV-at) · Beersheba (beer-SHEE-buh) · Nakba (NAHK-bah).
+
+ S05_ARA.mp3 · clear, formal, like reading the record
+
+ November, nineteen forty-seven. The United Nations General Assembly, New York.
+
+
+ S06_ATLAS.mp3 · curious, building
+
+ The new United Nations is deciding the future of Palestine. And chairing the committee at the
+ centre of it is an Australian. [pause] Foreign Minister H. V. Evatt, known as Doc.
+
+
+ S07_ATLAS.mp3 · quiet surprise
+
+ When the vote is called on a plan to divide the land into a Jewish state and an Arab state,
+ [pause] the first country to vote yes [pause] is Australia.
+
+
+ S08_ATLAS.mp3 · warm, storytelling
+
+ It wasn't Australia's first link to this land. [pause] Thirty years earlier, on the
+ thirty-first of October, nineteen seventeen, Australian Light Horsemen charged Ottoman
+ trenches at Beersheba, in one of the last great cavalry charges in history. [pause] It helped
+ open the road to Jerusalem, and to the British rule over Palestine that followed.
+
+
+ S09_ATLAS.mp3 · reflective
+
+ So Australians helped shape this land twice. [pause] Once on horseback. [pause] And once at a
+ ballot.
+
+
+ S10_ATLAS.mp3 · soft, even, equal weight to both halves — QUIET MOMENT
+
+ <soft>For many Jewish people, the nineteen forty-seven vote is remembered as a rescue, after
+ the Holocaust. [pause] For Palestinians, what followed in nineteen forty-eight is remembered
+ as the Nakba. The catastrophe. When more than seven hundred thousand people fled or were
+ expelled from their homes.</soft> [pause] The same event. Remembered in two opposite ways.
+ [pause] Remember that idea. It explains almost everything in this film.
+
+
+ S11_ATLAS.mp3 · warm
+
+ Both memories later sailed to Australia. [pause] Melbourne became home to one of the largest
+ communities of Holocaust survivors, per person, anywhere outside Israel. Palestinian, Lebanese
+ and other Arab families settled in Sydney's south-west.
+
+
+ S12_ARA.mp3 · clear, factual
+
+ Today, Australia is home to more than one hundred thousand Jewish Australians, and more than
+ eight hundred thousand Muslim Australians.
+
+
+
+
+                                                     Page 9
+14,000 KILOMETRES · Chapter 1 Production Script                  Non-partisan · Evidence-led · $0 media
+
+
+
+
+ S13_ATLAS.mp3 · closing a chapter, hinting forward
+
+ For many of them, this isn't a foreign conflict. It's family. [pause] Australia didn't just
+ watch this conflict begin. It helped start the clock. [pause] And decades later, it would be
+ wired into the war in a way most Australians have never heard of.
+
+
+
+
+                                                  Page 10
+14,000 KILOMETRES · Chapter 1 Production Script                                      Non-partisan · Evidence-led · $0 media
+
+
+
+
+ Assets for Chapter 1 (all free, $0)
+ Save every file with the exact file name shown. FREE (real) = public domain, Creative Commons or free under the owner's
+ conditions. PERMISSION / TERMS = free only after confirming the owner's terms; use the fallback otherwise. FREE SWAP =
+ free stock, AI B-roll, or built by the pipeline.
+
+
+ Real footage and photos
+ID       Asset / file name           Free source                Search terms or AI              Status      Fallback
+                                                                prompt
+FT05     UN General Assembly,        UN Audiovisual             general assembly 1947           PERMISSI    PH26 + DOC
+         1947                        Library (un.org/av) —      partition vote                  ON /        01/DOC02
+         FT05_unga_1947.mp4          search archive                                             TERMS       with ZOOM
+                                                                                                            + MAP03
+
+PH26     UN General Assembly         Wikimedia Commons (        UN General Assembly 1947        FREE        DOC02 with
+         1947 vote                   commons.wikimedia.o        partition vote                  (real)      ZOOM
+         PH26_un_1947.jpg            rg) / UN Photo
+
+PH01     H.V. Evatt portrait         Wikimedia Commons (        Herbert Vere Evatt              FREE        Name card
+         PH01_evatt.jpg              commons.wikimedia.o                                        (real)      only
+                                     rg) / National Archives
+                                     of Australia
+
+FT02     Light Horse in Palestine, Australian War               light horse palestine 1917      FREE        PH02 with
+         1917                      Memorial collection (a       film                            (real)      PAN + AI03
+         FT02_light_horse_1917.mp4 wm.gov.au/collection)
+                                   — film
+
+PH02     Light Horse at Beersheba Australian War                beersheba 1917 light horse      FREE        AI03
+         PH02_beersheba_light_hors Memorial collection                                          (real)
+         e.jpg
+
+PH03     Israeli independence      Israel GPO National          1948 independence               FREE        MAP03 +
+         celebrations, 1948        Photo Collection /           celebration Tel Aviv            (real)      kinetic text
+         PH03_israel_1948_celebrat Wikimedia Commons (
+         ion.jpg                   commons.wikimedia.o
+                                   rg)
+
+PH04     Palestinian refugees,     Wikimedia Commons (          Palestinian refugees 1948       FREE        MAP03 +
+         1948                      commons.wikimedia.o                                          (real)      kinetic text
+         PH04_palestinian_refugees rg)
+         _1948.jpg
+
+PH05     Post-war migrants at      National Archives of         Station Pier migrants 1950      FREE        AI05
+         Station Pier, Melbourne   Australia                                                    (real)
+         PH05_station_pier_migrant (PhotoSearch) /
+         s.jpg                     Wikimedia Commons (
+                                   commons.wikimedia.o
+                                   rg)
+
+PH06     1970s Lebanese/Arab         National Archives of       Lebanese migrants 1976          FREE        AI05
+         migrant families arriving   Australia                  arrival Sydney                  (real)
+         PH06_1970s_arrivals.jpg     (PhotoSearch)
+
+
+ Free stock and AI B-roll
+ID       Asset / file name           Free source                Search terms or AI              Status      Fallback
+                                                                prompt
+ST06     Desert dunes with wind      Pexels / Pixabay /         desert sand wind dunes          FREE        AI03
+         ST06_desert_wind.mp4        Mixkit (free stock)                                        SWAP
+
+
+
+
+                                                           Page 11
+14,000 KILOMETRES · Chapter 1 Production Script                                  Non-partisan · Evidence-led · $0 media
+
+
+
+
+ID      Asset / file name         Free source               Search terms or AI              Status      Fallback
+                                                            prompt
+AI03    Cavalry silhouettes at    Grok Imagine (your        Silhouettes of First World      FREE        PH02 PAN
+        sunset                    Grok account).            War cavalry riders galloping    SWAP
+        AI03_cavalry_silhouettes. Backup free tiers:        across desert dunes at
+        mp4                       Kling, Hailuo, Pika       sunset, backlit dust clouds,
+                                                            wide shot, warm sepia
+                                                            grade, no faces visible — +
+                                                            style anchor
+
+AI05    Two suitcases on a ship   Grok Imagine (your        Two worn vintage leather        FREE        PH05 PAN
+        deck at dawn              Grok account).            suitcases on the wooden         SWAP
+        AI05_suitcases_ship.mp4   Backup free tiers:        deck of an old passenger
+                                  Kling, Hailuo, Pika       ship at dawn, sea mist,
+                                                            warm light, slow dolly,
+                                                            1950s film look — + style
+                                                            anchor
+
+
+ Evidence cards (built by the pipeline; copy wording from the
+ source)
+ID      Asset / file name         Free source               Search terms or AI              Status      Fallback
+                                                            prompt
+DOC0    UN Resolution 181 (II),   UN Digital Library        A/RES/181(II)                   FREE        —
+1       29 Nov 1947               (digitallibrary.un.org)                                   (real)
+        DOC01_res181.png
+
+DOC0    UNGA voting record, 29    UN Digital Library —      UNGA 128th plenary              FREE        —
+2       Nov 1947                  128th plenary             meeting 29 November 1947        (real)
+        DOC02_vote_record.png     meeting records
+
+DOC1    ABS Census — religious    abs.gov.au                Census 2021 religious           FREE        —
+0       affiliation                                         affiliation Judaism Islam       (real)
+        DOC10_census.png
+
+
+
+ Maps (built by the pipeline)
+ID      Asset / file name         Free source               Search terms or AI              Status      Fallback
+                                                            prompt
+MAP0    1947 UN partition plan    Built by the animation    Neutral sand/slate fills,       FREE        —
+3       (built)                   pipeline (no              Jerusalem zone                  SWAP
+                                  download); reference:
+                                  UN map of the plan
+
+MAP0    Beersheba 1917 locator    Built by the animation    Natural Earth + AWM             FREE        —
+2       + charge arrow            pipeline (no              descriptions                    SWAP
+        (built)                   download)
+
+MAP0    Migration flows to        Built by the animation    Europe→Melbourne; Middle        FREE        —
+4       Australia                 pipeline (no              East→Sydney                     SWAP
+        (built)                   download)
+
+MAP0    THE THREAD — master       Built by the animation    Nodes: 1947 VOTE · JET          FREE        —
+1       globe, Sydney → Gaza      pipeline (no              PARTS · THE FIRE · WORDS ·      SWAP
+        14,000 km                 download); data:          LIVES · RECOGNITION · THE
+        (built)                   Natural Earth (public     SKEPTICS · OCT 7 · BONDI
+                                  domain)
+
+
+
+
+                                                      Page 12
+14,000 KILOMETRES · Chapter 1 Production Script                                     Non-partisan · Evidence-led · $0 media
+
+
+
+
+ Music
+ID      Asset / file name           Free source             Search terms or AI                 Status      Fallback
+                                                            prompt
+MUS1    Signature motif (title +    YouTube Audio Library short piano motif                    FREE        —
+2       chapter cards)              (studio.youtube.com   documentary intro;                   SWAP
+        MUS12_motif.mp3             → Audio Library) or   cinematic logo piano
+                                    Pixabay Music
+
+MUS0    Historical strings — Ch 1   YouTube Audio Library solemn strings                       FREE        —
+2       MUS02_history_strings.mp3   (studio.youtube.com   documentary; cinematic               SWAP
+                                    → Audio Library) or   history
+                                    Pixabay Music
+
+MUS0    Soft sombre piano — Ch      YouTube Audio Library sad piano minimal;                   FREE        —
+6       5 and quiet moments         (studio.youtube.com   emotional piano slow                 SWAP
+        MUS06_sombre_piano.mp3      → Audio Library) or
+                                    Pixabay Music
+
+MUS0    Cold minimal electronic     YouTube Audio Library minimal electronic pulse;            FREE        —
+3       — Ch 2                      (studio.youtube.com   technology documentary               SWAP
+        MUS03_minimal_pulse.mp3     → Audio Library) or
+                                    Pixabay Music
+
+
+ Sound effects
+ID      Asset / file name           Free source             Search terms or AI                 Status      Fallback
+                                                            prompt
+SFX0    Film projector rattle       Pixabay Sound Effects   film projector loop                FREE        —
+7       SFX07_projector.mp3         / Freesound (CC0                                           SWAP
+                                    filter) / Mixkit
+
+SFX0    Digital tick                Pixabay Sound Effects   ui tick click digital              FREE        —
+6       SFX06_tick.mp3              / Freesound (CC0                                           SWAP
+                                    filter) / Mixkit
+
+SFX1    Camera shutter click        Pixabay Sound Effects   camera shutter click               FREE        —
+2       SFX12_shutter.mp3           / Freesound (CC0                                           SWAP
+                                    filter) / Mixkit
+
+SFX1    Paper slide / page turn     Pixabay Sound Effects   paper slide page turn              FREE        —
+8       SFX18_paper.mp3             / Freesound (CC0                                           SWAP
+                                    filter) / Mixkit
+
+SFX2    Marker squeak               Pixabay Sound Effects   marker pen squeak                  FREE        —
+0       SFX20_marker.mp3            / Freesound (CC0                                           SWAP
+                                    filter) / Mixkit
+
+SFX1    Horse hooves galloping      Pixabay Sound Effects   horses galloping                   FREE        —
+6       SFX16_hooves.mp3            / Freesound (CC0                                           SWAP
+                                    filter) / Mixkit
+
+SFX2    Pin thunk                   Pixabay Sound Effects   pin board thunk; soft thud         FREE        —
+1       SFX21_thunk.mp3             / Freesound (CC0                                           SWAP
+                                    filter) / Mixkit
+
+SFX0    Soft whoosh (map lines,     Pixabay Sound Effects   soft whoosh swoosh                 FREE        —
+5       thread)                     / Freesound (CC0                                           SWAP
+        SFX05_whoosh.mp3            filter) / Mixkit
+
+SFX1    Factory machining           Pixabay Sound Effects   cnc machining factory              FREE        —
+0       SFX10_machining.mp3         / Freesound (CC0                                           SWAP
+                                    filter) / Mixkit
+
+
+
+
+                                                     Page 13
+14,000 KILOMETRES · Chapter 1 Production Script                                      Non-partisan · Evidence-led · $0 media
+
+
+
+
+ Evidence register — Chapter 1
+ Every card must match its source word for word. If anything differs, change the card, never the source.
+Card        Segment      On-screen wording (verify against source)                       Source
+DOC01       S07          UN General Assembly Resolution 181 (II), 29 November            UN Digital Library
+                         1947: Future Government of Palestine
+
+DOC02       S07, S09     Roll-call vote, 29 November 1947 — Australia: Yes               UN official records, 128th
+                         (highlighted)                                                   plenary meeting
+
+DOC10       S12          100,000+ Jewish Australians · 800,000+ Muslim                   ABS Census (latest)
+                         Australians
+
+Label       S06          Chair, UN Ad Hoc Committee on Palestine                         UN records; standard histories
+
+Label       S10          1948 — INDEPENDENCE · 1948 — THE NAKBA · 700,000+               UN / standard histories
+                         displaced
+
+
+ On-screen numbers
+Item                                       Value                               Source
+Beersheba charge                           31 October 1917                     Australian War Memorial
+
+Partition vote                             29 November 1947                    UN records
+
+Palestinians displaced, 1948               more than 700,000                   UN / standard histories
+
+Jewish Australians                         100,000+                            ABS Census
+
+Muslim Australians                         800,000+                            ABS Census
+
+
+ Check before export
+ • DOC02: confirm in the UN record that Australia was the first country to vote yes in the roll call. This
+    is the chapter's central claim; if the record shows otherwise, change S07 and the chapter title before
+    you build.
+ • DOC01: confirm the resolution date and exact title.
+ • S08: confirm the Beersheba date against the Australian War Memorial.
+ • DOC10: confirm both population figures against the latest ABS census.
+ • Credits: copy the licence and credit line for every photo from its source page.
+ • FT05: confirm the UN Audiovisual Library's terms for online channels, or use the fallback.
+ • Balance check: in S10, time both halves of the split. They must be on screen for the same duration
+    with labels appearing together.
+
+ Pilot review questions (answer honestly before building the rest)
+ • Does S05–S07 make you want to know what comes next?
+ • Do Atlas and Ara sound like they belong in the same film?
+ • Do the free archival photos look rich enough, or thin?
+ • Does anything on screen stay still for longer than 2 seconds outside S10?
+ • Would a viewer from either community feel S10 treated their history fairly?
+
+
+
+
+                                                          Page 14
+
