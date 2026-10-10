@@ -5,3 +5,6 @@ footage/_replaced/
 **/__pycache__/
 *.pyc
 # any single file over 95 MB (GitHub limit is 100 MB); none exist at commit time, list new ones here
+build/
+render/__pycache__/
+render/*/__pycache__/

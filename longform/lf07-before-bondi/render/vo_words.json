@@ -1,0 +1,13156 @@
+{
+ "S01": {
+  "text": "Bondi Beach. On the fourteenth of December, twenty twenty-five, the first night of Hanukkah, it became the scene of the deadliest terror attack ever carried out on Australian soil. Fifteen people were killed.",
+  "words": [
+   {
+    "w": "Bondi",
+    "n": "bondi",
+    "s": 0.0,
+    "e": 0.62,
+    "p": 0.887
+   },
+   {
+    "w": "Beach.",
+    "n": "beach",
+    "s": 0.62,
+    "e": 0.9,
+    "p": 0.891
+   },
+   {
+    "w": "On",
+    "n": "on",
+    "s": 1.62,
+    "e": 1.66,
+    "p": 0.968
+   },
+   {
+    "w": "the",
+    "n": "the",
+    "s": 1.66,
+    "e": 1.76,
+    "p": 0.921
+   },
+   {
+    "w": "fourteenth",
+    "n": "fourteenth",
+    "s": 1.76,
+    "e": 2.24,
+    "p": 0.502
+   },
+   {
+    "w": "of",
+    "n": "of",
+    "s": 2.24,
+    "e": 2.44,
+    "p": 0.956
+   },
+   {
+    "w": "December,",
+    "n": "december",
+    "s": 2.44,
+    "e": 2.8,
+    "p": 0.924
+   },
+   {
+    "w": "twenty",
+    "n": "twenty",
+    "s": 3.1,
+    "e": 3.3,
+    "p": 0.041
+   },
+   {
+    "w": "twenty",
+    "n": "twenty",
+    "s": 3.3,
+    "e": 3.6,
+    "p": 0.606
+   },
+   {
+    "w": "-five,",
+    "n": "five",
+    "s": 3.6,
+    "e": 4.0,
+    "p": 0.763
+   },
+   {
+    "w": "the",
+    "n": "the",
+    "s": 4.34,
+    "e": 4.44,
+    "p": 0.987
+   },
+   {
+    "w": "first",
+    "n": "first",
+    "s": 4.44,
+    "e": 4.7,
+    "p": 0.995
+   },
+   {
+    "w": "night",
+    "n": "night",
+    "s": 4.7,
+    "e": 4.92,
+    "p": 0.995
+   },
+   {
+    "w": "of",
+    "n": "of",
+    "s": 4.92,
+    "e": 5.06,
+    "p": 0.998
+   },
+   {
+    "w": "Hanukkah,",
+    "n": "hanukkah",
+    "s": 5.06,
+    "e": 5.6,
+    "p": 0.978
+   },
+   {
+    "w": "it",
+    "n": "it",
+    "s": 5.88,
+    "e": 6.04,
+    "p": 0.984
+   },
+   {
+    "w": "became",
+    "n": "became",
+    "s": 6.04,
+    "e": 6.32,
+    "p": 0.996
+   },
+   {
+    "w": "the",
+    "n": "the",
+    "s": 6.32,
+    "e": 6.54,
+    "p": 0.994
+   },
+   {
+    "w": "scene",
+    "n": "scene",
+    "s": 6.54,
+    "e": 6.74,
+    "p": 0.986
+   },
+   {
+    "w": "of",
+    "n": "of",
+    "s": 6.74,
+    "e": 6.9,
+    "p": 0.996
+   },
+   {
+    "w": "the",
+    "n": "the",
+    "s": 6.9,
+    "e": 7.04,
+    "p": 0.993
+   },
+   {
+    "w": "deadliest",
+    "n": "deadliest",
+    "s": 7.04,
+    "e": 7.4,
+    "p": 0.985
+   },
+   {
+    "w": "terror",
+    "n": "terror",
+    "s": 7.4,
+    "e": 7.78,
+    "p": 0.995
+   },
+   {
+    "w": "attack",
+    "n": "attack",
+    "s": 7.78,
+    "e": 8.16,
+    "p": 0.995
+   },
+   {
+    "w": "ever",
+    "n": "ever",
+    "s": 8.16,
+    "e": 8.5,
+    "p": 0.987
+   },
+   {
+    "w": "carried",
+    "n": "carried",
+    "s": 8.5,
+    "e": 8.84,
+    "p": 0.998
+   },
+   {
+    "w": "out",
+    "n": "out",
+    "s": 8.84,
+    "e": 9.1,
+    "p": 0.993
+   },
+   {
+    "w": "on",
+    "n": "on",
+    "s": 9.1,
+    "e": 9.28,
+    "p": 0.994
+   },
+   {
+    "w": "Australian",
+    "n": "australian",
+    "s": 9.28,
+    "e": 9.66,
+    "p": 0.964
+   },
+   {
+    "w": "soil.",
+    "n": "soil",
+    "s": 9.66,
+    "e": 10.1,
+    "p": 0.991
+   },
+   {
+    "w": "Fifteen",
+    "n": "fifteen",
+    "s": 10.86,
+    "e": 11.16,
+    "p": 0.946
+   },
+   {
+    "w": "people",
+    "n": "people",
+    "s": 11.16,
+    "e": 11.46,
+    "p": 0.997
+   },
+   {
+    "w": "were",
+    "n": "were",
+    "s": 11.46,
+    "e": 11.68,
+    "p": 0.997
+   },
+   {
+    "w": "killed.",
+    "n": "killed",
+    "s": 11.68,
+    "e": 11.92,
+    "p": 0.998
+   }
+  ],
+  "diff": [
+   {
+    "op": "replace",
+    "ref": "twentyfive",
+    "hyp": "twenty five"
+   }
+  ]
+ },
+ "S02": {
+  "text": "Afterwards, the whole country asked the same question. How did this happen here? Police say the gunmen were inspired by Islamic State. But the Australia they struck had been under strain for two years, ever since the war in Gaza began in October twenty twenty-three.",
+  "words": [
+   {
+    "w": "Afterwards,",
+    "n": "afterwards",
+    "s": 0.0,
+    "e": 0.62,
+    "p": 0.949
+   },
+   {
+    "w": "the",
+    "n": "the",
+    "s": 1.02,
+    "e": 1.18,
+    "p": 0.997
+   },
+   {
+    "w": "whole",
+    "n": "whole",
+    "s": 1.18,
+    "e": 1.38,
+    "p": 0.999
+   },
+   {
+    "w": "country",
+    "n": "country",
+    "s": 1.38,
+    "e": 1.7,
+    "p": 0.999
+   },
+   {
+    "w": "asked",
+    "n": "asked",
+    "s": 1.7,
+    "e": 2.0,
+    "p": 0.97
+   },
+   {
+    "w": "the",
+    "n": "the",
+    "s": 2.0,
+    "e": 2.2,
+    "p": 0.999
+   },
+   {
+    "w": "same",
+    "n": "same",
+    "s": 2.2,
+    "e": 2.4,
+    "p": 1.0
+   },
+   {
+    "w": "question.",
+    "n": "question",
+    "s": 2.4,
+    "e": 2.82,
+    "p": 0.999
+   },
+   {
+    "w": "How",
+    "n": "how",
+    "s": 3.46,
+    "e": 3.56,
+    "p": 0.811
+   },
+   {
+    "w": "did",
+    "n": "did",
+    "s": 3.56,
+    "e": 3.7,
+    "p": 0.999
+   },
+   {
+    "w": "this",
+    "n": "this",
+    "s": 3.7,
+    "e": 3.84,
+    "p": 0.999
+   },
+   {
+    "w": "happen",
+    "n": "happen",
+    "s": 3.84,
+    "e": 4.1,
+    "p": 0.996
+   },
+   {
+    "w": "here?",
+    "n": "here",
+    "s": 4.1,
+    "e": 4.42,
+    "p": 0.997
+   },
+   {
+    "w": "Police",
+    "n": "police",
+    "s": 5.08,
+    "e": 5.28,
+    "p": 0.987
+   },
+   {
+    "w": "say",
+    "n": "say",
+    "s": 5.28,
+    "e": 5.5,
+    "p": 0.996
+   },
+   {
+    "w": "the",
+    "n": "the",
+    "s": 5.5,
+    "e": 5.66,
+    "p": 0.998
+   },
+   {
+    "w": "gunmen",
+    "n": "gunmen",
+    "s": 5.66,
+    "e": 5.88,
+    "p": 0.538
+   },
+   {
+    "w": "were",
+    "n": "were",
+    "s": 5.88,
+    "e": 6.14,
+    "p": 0.999
+   },
+   {
+    "w": "inspired",
+    "n": "inspired",
+    "s": 6.14,
+    "e": 6.56,
+    "p": 0.999
+   },
+   {
+    "w": "by",
+    "n": "by",
+    "s": 6.56,
+    "e": 6.82,
+    "p": 1.0
+   },
+   {
+    "w": "Islamic",
+    "n": "islamic",
+    "s": 6.82,
+    "e": 7.18,
+    "p": 0.993
+   },
+   {
+    "w": "State.",
+    "n": "state",
+    "s": 7.18,
+    "e": 7.62,
+    "p": 0.842
+   },
+   {
+    "w": "But",
+    "n": "but",
+    "s": 8.06,
+    "e": 8.2,
+    "p": 0.991
+   },
+   {
+    "w": "the",
+    "n": "the",
+    "s": 8.2,
+    "e": 8.32,
+    "p": 0.991
+   },
+   {
+    "w": "Australia",
+    "n": "australia",
+    "s": 8.32,
+    "e": 8.74,
+    "p": 0.985
+   },
+   {
+    "w": "they",
+    "n": "they",
+    "s": 8.74,
+    "e": 9.02,
+    "p": 0.999
+   },
+   {
+    "w": "struck",
+    "n": "struck",
+    "s": 9.02,
+    "e": 9.28,
+    "p": 0.997
+   },
+   {
+    "w": "had",
+    "n": "had",
+    "s": 9.28,
+    "e": 9.48,
+    "p": 0.995
+   },
+   {
+    "w": "been",
+    "n": "been",
+    "s": 9.48,
+    "e": 9.64,
+    "p": 1.0
+   },
+   {
+    "w": "under",
+    "n": "under",
+    "s": 9.64,
+    "e": 9.9,
+    "p": 0.995
+   },
+   {
+    "w": "strain",
+    "n": "strain",
+    "s": 9.9,
+    "e": 10.2,
+    "p": 0.918
+   },
+   {
+    "w": "for",
+    "n": "for",
+    "s": 10.2,
+    "e": 10.4,
+    "p": 0.999
+   },
+   {
+    "w": "two",
+    "n": "two",
+    "s": 10.4,
+    "e": 10.64,
+    "p": 0.955
+   },
+   {
+    "w": "years,",
+    "n": "years",
+    "s": 10.64,
+    "e": 11.06,
+    "p": 0.999
+   },
+   {
+    "w": "ever",
+    "n": "ever",
+    "s": 11.4,
+    "e": 11.64,
+    "p": 0.996
+   },
+   {
+    "w": "since",
+    "n": "since",
+    "s": 11.64,
+    "e": 11.88,
+    "p": 0.999
+   },
+   {
+    "w": "the",
+    "n": "the",
+    "s": 11.88,
+    "e": 12.08,
+    "p": 0.999
+   },
+   {
+    "w": "war",
+    "n": "war",
+    "s": 12.08,
+    "e": 12.24,
+    "p": 0.97
+   },
+   {
+    "w": "in",
+    "n": "in",
+    "s": 12.24,
+    "e": 12.4,
+    "p": 0.998
+   },
+   {
+    "w": "Gaza",
+    "n": "gaza",
+    "s": 12.4,
+    "e": 12.64,
+    "p": 0.999
+   },
+   {
+    "w": "began",
+    "n": "began",
+    "s": 12.64,
+    "e": 13.02,
+    "p": 0.999
+   },
+   {
+    "w": "in",
+    "n": "in",
+    "s": 13.02,
+    "e": 13.24,
+    "p": 0.996
+   },
+   {
+    "w": "October",
+    "n": "october",
+    "s": 13.24,
+    "e": 13.6,
+    "p": 0.998
+   },
+   {
+    "w": "twenty",
+    "n": "twenty",
+    "s": 13.6,
+    "e": 13.96,
+    "p": 0.003
+   },
+   {
+    "w": "twenty",
+    "n": "twenty",
+    "s": 13.96,
+    "e": 14.18,
+    "p": 0.903
+   },
+   {
+    "w": "-three.",
+    "n": "three",
+    "s": 14.18,
+    "e": 14.5,
+    "p": 0.605
+   }
+  ],
+  "diff": [
+   {
+    "op": "replace",
+    "ref": "twentythree",
+    "hyp": "twenty three"
+   }
+  ]
+ },
+ "S03": {
+  "text": "This film follows the threads of that strain. Some go back seventy-eight years. One goes back just fourteen months, to a fire in Bondi.",
+  "words": [
+   {
+    "w": "This",
+    "n": "this",
+    "s": 0.0,
+    "e": 0.32,
+    "p": 0.908
+   },
+   {
+    "w": "film",
+    "n": "film",
+    "s": 0.32,
+    "e": 0.54,
+    "p": 0.992
+   },
+   {
+    "w": "follows",
+    "n": "follows",
+    "s": 0.54,
+    "e": 0.88,
+    "p": 0.995
+   },
+   {
+    "w": "the",
+    "n": "the",
+    "s": 0.88,
+    "e": 1.12,
+    "p": 0.997
+   },
+   {
+    "w": "threads",
+    "n": "threads",
+    "s": 1.12,
+    "e": 1.34,
+    "p": 0.972
+   },
+   {
+    "w": "of",
+    "n": "of",
+    "s": 1.34,
+    "e": 1.54,
+    "p": 0.997
+   },
+   {
+    "w": "that",
+    "n": "that",
+    "s": 1.54,
+    "e": 1.7,
+    "p": 0.974
+   },
+   {
+    "w": "strain.",
+    "n": "strain",
+    "s": 1.7,
+    "e": 2.1,
+    "p": 0.94
+   },
+   {
+    "w": "Some",
+    "n": "some",
+    "s": 2.66,
+    "e": 2.76,
+    "p": 0.99
+   },
+   {
+    "w": "go",
+    "n": "go",
+    "s": 2.76,
+    "e": 2.92,
+    "p": 0.995
+   },
+   {
+    "w": "back",
+    "n": "back",
+    "s": 2.92,
+    "e": 3.12,
+    "p": 0.999
+   },
+   {
+    "w": "seventy",
+    "n": "seventy",
+    "s": 3.12,
+    "e": 3.4,
+    "p": 0.048
+   },
+   {
+    "w": "-eight",
+    "n": "eight",
+    "s": 3.4,
+    "e": 3.72,
+    "p": 0.819
+   },
+   {
+    "w": "years.",
+    "n": "years",
+    "s": 3.72,
+    "e": 4.04,
+    "p": 0.999
+   },
+   {
+    "w": "One",
+    "n": "one",
+    "s": 4.42,
+    "e": 4.64,
+    "p": 0.992
+   },
+   {
+    "w": "goes",
+    "n": "goes",
+    "s": 4.64,
+    "e": 4.84,
+    "p": 0.996
+   },
+   {
+    "w": "back",
+    "n": "back",
+    "s": 4.84,
+    "e": 5.04,
+    "p": 0.998
+   },
+   {
+    "w": "just",
+    "n": "just",
+    "s": 5.04,
+    "e": 5.24,
+    "p": 0.989
+   },
+   {
+    "w": "fourteen",
+    "n": "fourteen",
+    "s": 5.24,
+    "e": 5.6,
+    "p": 0.872
+   },
+   {
+    "w": "months,",
+    "n": "months",
+    "s": 5.6,
+    "e": 5.94,
+    "p": 0.997
+   },
+   {
+    "w": "to",
+    "n": "to",
+    "s": 6.22,
+    "e": 6.42,
+    "p": 0.992
+   },
+   {
+    "w": "a",
+    "n": "a",
+    "s": 6.42,
+    "e": 6.54,
+    "p": 0.994
+   },
+   {
+    "w": "fire",
+    "n": "fire",
+    "s": 6.54,
+    "e": 6.76,
+    "p": 0.974
+   },
+   {
+    "w": "in",
+    "n": "in",
+    "s": 6.76,
+    "e": 6.94,
+    "p": 0.863
+   },
+   {
+    "w": "Bondi.",
+    "n": "bondi",
+    "s": 6.94,
+    "e": 7.36,
+    "p": 0.869
+   }
+  ],
+  "diff": [
+   {
+    "op": "replace",
+    "ref": "seventyeight",
+    "hyp": "seventy eight"
+   }
+  ]
+ },
+ "S04": {
+  "text": "October, twenty twenty-four. In the early hours, a small kosher restaurant in Bondi goes up in flames. Nobody is hurt. Police treat it as a local crime. Seven weeks later, about seven hundred kilometres south-west, a synagogue in Melbourne is firebombed before dawn.",
+  "words": [
+   {
+    "w": "October,",
+    "n": "october",
+    "s": 0.0,
+    "e": 0.54,
+    "p": 0.735
+   },
+   {
+    "w": "twenty",
+    "n": "twenty",
+    "s": 0.74,
+    "e": 1.0,
+    "p": 0.0
+   },
+   {
+    "w": "twenty",
+    "n": "twenty",
+    "s": 1.0,
+    "e": 1.26,
+    "p": 0.29
+   },
+   {
+    "w": "-four.",
+    "n": "four",
+    "s": 1.26,
+    "e": 1.66,
+    "p": 0.755
+   },
+   {
+    "w": "In",
+    "n": "in",
+    "s": 2.04,
+    "e": 2.16,
+    "p": 0.979
+   },
+   {
+    "w": "the",
+    "n": "the",
+    "s": 2.16,
+    "e": 2.28,
+    "p": 0.999
+   },
+   {
+    "w": "early",
+    "n": "early",
+    "s": 2.28,
+    "e": 2.52,
+    "p": 0.999
+   },
+   {
+    "w": "hours,",
+    "n": "hours",
+    "s": 2.52,
+    "e": 2.9,
+    "p": 0.998
+   },
+   {
+    "w": "a",
+    "n": "a",
+    "s": 3.08,
+    "e": 3.18,
+    "p": 0.997
+   },
+   {
+    "w": "small",
+    "n": "small",
+    "s": 3.18,
+    "e": 3.46,
+    "p": 0.998
+   },
+   {
+    "w": "kosher",
+    "n": "kosher",
+    "s": 3.46,
+    "e": 3.76,
+    "p": 0.982
+   },
+   {
+    "w": "restaurant",
+    "n": "restaurant",
+    "s": 3.76,
+    "e": 4.2,
+    "p": 0.999
+   },
+   {
+    "w": "in",
+    "n": "in",
+    "s": 4.2,
+    "e": 4.42,
+    "p": 0.99
+   },
+   {
+    "w": "Bondi",
+    "n": "bondi",
+    "s": 4.42,
+    "e": 4.82,
+    "p": 0.726
+   },
+   {
+    "w": "goes",
+    "n": "goes",
+    "s": 4.82,
+    "e": 5.02,
+    "p": 0.998
+   },
+   {
+    "w": "up",
+    "n": "up",
+    "s": 5.02,
+    "e": 5.2,
+    "p": 1.0
+   },
+   {
+    "w": "in",
+    "n": "in",
+    "s": 5.2,
+    "e": 5.36,
+    "p": 0.997
+   },
+   {
+    "w": "flames.",
+    "n": "flames",
+    "s": 5.36,
+    "e": 5.62,
+    "p": 0.995
+   },
+   {
+    "w": "Nobody",
+    "n": "nobody",
+    "s": 6.28,
+    "e": 6.44,
+    "p": 0.985
+   },
+   {
+    "w": "is",
+    "n": "is",
+    "s": 6.44,
+    "e": 6.7,
+    "p": 0.999
+   },
+   {
+    "w": "hurt.",
+    "n": "hurt",
+    "s": 6.7,
+    "e": 6.92,
+    "p": 1.0
+   },
+   {
+    "w": "Police",
+    "n": "police",
+    "s": 7.44,
+    "e": 7.62,
+    "p": 0.998
+   },
+   {
+    "w": "treat",
+    "n": "treat",
+    "s": 7.62,
+    "e": 7.92,
+    "p": 0.96
+   },
+   {
+    "w": "it",
+    "n": "it",
+    "s": 7.92,
+    "e": 8.06,
+    "p": 0.996
+   },
+   {
+    "w": "as",
+    "n": "as",
+    "s": 8.06,
+    "e": 8.2,
+    "p": 0.999
+   },
+   {
+    "w": "a",
+    "n": "a",
+    "s": 8.2,
+    "e": 8.32,
+    "p": 0.996
+   },
+   {
+    "w": "local",
+    "n": "local",
+    "s": 8.32,
+    "e": 8.54,
+    "p": 0.999
+   },
+   {
+    "w": "crime.",
+    "n": "crime",
+    "s": 8.54,
+    "e": 8.92,
+    "p": 0.999
+   },
+   {
+    "w": "Seven",
+    "n": "seven",
+    "s": 9.44,
+    "e": 9.68,
+    "p": 0.979
+   },
+   {
+    "w": "weeks",
+    "n": "weeks",
+    "s": 9.68,
+    "e": 9.9,
+    "p": 0.999
+   },
+   {
+    "w": "later,",
+    "n": "later",
+    "s": 9.9,
+    "e": 10.28,
+    "p": 0.999
+   },
+   {
+    "w": "about",
+    "n": "about",
+    "s": 10.5,
+    "e": 10.66,
+    "p": 0.994
+   },
+   {
+    "w": "seven",
+    "n": "seven",
+    "s": 10.66,
+    "e": 10.98,
+    "p": 0.317
+   },
+   {
+    "w": "hundred",
+    "n": "hundred",
+    "s": 10.98,
+    "e": 11.28,
+    "p": 0.975
+   },
+   {
+    "w": "kilometres",
+    "n": "kilometres",
+    "s": 11.28,
+    "e": 11.74,
+    "p": 0.051
+   },
+   {
+    "w": "south",
+    "n": "south",
+    "s": 11.74,
+    "e": 12.04,
+    "p": 0.101
+   },
+   {
+    "w": "-west,",
+    "n": "west",
+    "s": 12.04,
+    "e": 12.38,
+    "p": 0.782
+   },
+   {
+    "w": "a",
+    "n": "a",
+    "s": 12.84,
+    "e": 12.92,
+    "p": 0.997
+   },
+   {
+    "w": "synagogue",
+    "n": "synagogue",
+    "s": 12.92,
+    "e": 13.2,
+    "p": 0.995
+   },
+   {
+    "w": "in",
+    "n": "in",
+    "s": 13.2,
+    "e": 13.54,
+    "p": 0.999
+   },
+   {
+    "w": "Melbourne",
+    "n": "melbourne",
+    "s": 13.54,
+    "e": 13.8,
+    "p": 0.994
+   },
+   {
+    "w": "is",
+    "n": "is",
+    "s": 13.8,
+    "e": 14.12,
+    "p": 0.996
+   },
+   {
+    "w": "firebombed",
+    "n": "firebombed",
+    "s": 14.12,
+    "e": 14.82,
+    "p": 0.9
+   },
+   {
+    "w": "before",
+    "n": "before",
+    "s": 14.82,
+    "e": 15.06,
+    "p": 0.999
+   },
+   {
+    "w": "dawn.",
+    "n": "dawn",
+    "s": 15.06,
+    "e": 15.36,
+    "p": 0.999
+   }
+  ],
+  "diff": [
+   {
+    "op": "replace",
+    "ref": "twentyfour",
+    "hyp": "twenty four"
+   },
+   {
+    "op": "replace",
+    "ref": "southwest",
+    "hyp": "south west"
+   }
+  ]
+ },
+ "S05": {
+  "text": "What almost nobody knew then was that some of the people who lit these fires were allegedly paid. And, according to ASIO, the trail led to a government on the other side of the world.",
+  "words": [
+   {
+    "w": "What",
+    "n": "what",
+    "s": 0.0,
+    "e": 0.28,
+    "p": 0.928
+   },
+   {
+    "w": "almost",
+    "n": "almost",
+    "s": 0.28,
+    "e": 0.58,
+    "p": 0.989
+   },
+   {
+    "w": "nobody",
+    "n": "nobody",
+    "s": 0.58,
+    "e": 1.0,
+    "p": 0.992
+   },
+   {
+    "w": "knew",
+    "n": "knew",
+    "s": 1.0,
+    "e": 1.3,
+    "p": 0.986
+   },
+   {
+    "w": "then",
+    "n": "then",
+    "s": 1.3,
+    "e": 1.56,
+    "p": 0.956
+   },
+   {
+    "w": "was",
+    "n": "was",
+    "s": 1.56,
+    "e": 1.76,
+    "p": 0.866
+   },
+   {
+    "w": "that",
+    "n": "that",
+    "s": 1.76,
+    "e": 1.94,
+    "p": 0.979
+   },
+   {
+    "w": "some",
+    "n": "some",
+    "s": 1.94,
+    "e": 2.18,
+    "p": 0.992
+   },
+   {
+    "w": "of",
+    "n": "of",
+    "s": 2.18,
+    "e": 2.3,
+    "p": 0.978
+   },
+   {
+    "w": "the",
+    "n": "the",
+    "s": 2.3,
+    "e": 2.42,
+    "p": 0.99
+   },
+   {
+    "w": "people",
+    "n": "people",
+    "s": 2.42,
+    "e": 2.7,
+    "p": 0.998
+   },
+   {
+    "w": "who",
+    "n": "who",
+    "s": 2.7,
+    "e": 2.92,
+    "p": 0.98
+   },
+   {
+    "w": "lit",
+    "n": "lit",
+    "s": 2.92,
+    "e": 3.1,
+    "p": 0.997
+   },
+   {
+    "w": "these",
+    "n": "these",
+    "s": 3.1,
+    "e": 3.34,
+    "p": 0.986
+   },
+   {
+    "w": "fires",
+    "n": "fires",
+    "s": 3.34,
+    "e": 3.68,
+    "p": 0.995
+   },
+   {
+    "w": "were",
+    "n": "were",
+    "s": 3.68,
+    "e": 3.98,
+    "p": 0.994
+   },
+   {
+    "w": "allegedly",
+    "n": "allegedly",
+    "s": 3.98,
+    "e": 4.4,
+    "p": 0.978
+   },
+   {
+    "w": "paid.",
+    "n": "paid",
+    "s": 4.4,
+    "e": 4.96,
+    "p": 0.996
+   },
+   {
+    "w": "And,",
+    "n": "and",
+    "s": 5.68,
+    "e": 5.76,
+    "p": 0.904
+   },
+   {
+    "w": "according",
+    "n": "according",
+    "s": 5.82,
+    "e": 6.18,
+    "p": 0.978
+   },
+   {
+    "w": "to",
+    "n": "to",
+    "s": 6.18,
+    "e": 6.44,
+    "p": 0.999
+   },
+   {
+    "w": "ASIO,",
+    "n": "asio",
+    "s": 6.44,
+    "e": 7.12,
+    "p": 0.35
+   },
+   {
+    "w": "the",
+    "n": "the",
+    "s": 7.68,
+    "e": 7.74,
+    "p": 0.977
+   },
+   {
+    "w": "trail",
+    "n": "trail",
+    "s": 7.74,
+    "e": 8.0,
+    "p": 0.983
+   },
+   {
+    "w": "led",
+    "n": "led",
+    "s": 8.0,
+    "e": 8.24,
+    "p": 0.948
+   },
+   {
+    "w": "to",
+    "n": "to",
+    "s": 8.24,
+    "e": 8.44,
+    "p": 0.996
+   },
+   {
+    "w": "a",
+    "n": "a",
+    "s": 8.44,
+    "e": 8.56,
+    "p": 0.959
+   },
+   {
+    "w": "government",
+    "n": "government",
+    "s": 8.56,
+    "e": 8.86,
+    "p": 0.991
+   },
+   {
+    "w": "on",
+    "n": "on",
+    "s": 8.86,
+    "e": 9.14,
+    "p": 0.993
+   },
+   {
+    "w": "the",
+    "n": "the",
+    "s": 9.14,
+    "e": 9.28,
+    "p": 0.997
+   },
+   {
+    "w": "other",
+    "n": "other",
+    "s": 9.28,
+    "e": 9.46,
+    "p": 0.996
+   },
+   {
+    "w": "side",
+    "n": "side",
+    "s": 9.46,
+    "e": 9.7,
+    "p": 0.999
+   },
+   {
+    "w": "of",
+    "n": "of",
+    "s": 9.7,
+    "e": 9.84,
+    "p": 0.999
+   },
+   {
+    "w": "the",
+    "n": "the",
+    "s": 9.84,
+    "e": 9.9,
+    "p": 0.998
+   },
+   {
+    "w": "world.",
+    "n": "world",
+    "s": 9.9,
+    "e": 10.14,
+    "p": 0.998
+   }
+  ],
+  "diff": []
+ },
+ "S06": {
+  "text": "And on the night of the attack, one man ran toward the gunfire. His story became one of the most shared in the country. We'll come back to him.",
+  "words": [
+   {
+    "w": "And",
+    "n": "and",
+    "s": 0.0,
+    "e": 0.24,
+    "p": 0.706
+   },
+   {
+    "w": "on",
+    "n": "on",
+    "s": 0.24,
+    "e": 0.38,
+    "p": 0.976
+   },
+   {
+    "w": "the",
+    "n": "the",
+    "s": 0.38,
+    "e": 0.5,
+    "p": 0.998
+   },
+   {
+    "w": "night",
+    "n": "night",
+    "s": 0.5,
+    "e": 0.68,
+    "p": 0.995
+   },
+   {
+    "w": "of",
+    "n": "of",
+    "s": 0.68,
+    "e": 0.84,
+    "p": 0.999
+   },
+   {
+    "w": "the",
+    "n": "the",
+    "s": 0.84,
+    "e": 0.96,
+    "p": 0.996
+   },
+   {
+    "w": "attack,",
+    "n": "attack",
+    "s": 0.96,
+    "e": 1.36,
+    "p": 0.998
+   },
+   {
+    "w": "one",
+    "n": "one",
+    "s": 1.78,
+    "e": 2.0,
+    "p": 0.997
+   },
+   {
+    "w": "man",
+    "n": "man",
+    "s": 2.0,
+    "e": 2.24,
+    "p": 0.999
+   },
+   {
+    "w": "ran",
+    "n": "ran",
+    "s": 2.24,
+    "e": 2.54,
+    "p": 0.998
+   },
+   {
+    "w": "toward",
+    "n": "toward",
+    "s": 2.54,
+    "e": 2.8,
+    "p": 0.975
+   },
+   {
+    "w": "the",
+    "n": "the",
+    "s": 2.8,
+    "e": 2.98,
+    "p": 0.997
+   },
+   {
+    "w": "gunfire.",
+    "n": "gunfire",
+    "s": 2.98,
+    "e": 3.38,
+    "p": 0.992
+   },
+   {
+    "w": "His",
+    "n": "his",
+    "s": 4.24,
+    "e": 4.34,
+    "p": 0.995
+   },
+   {
+    "w": "story",
+    "n": "story",
+    "s": 4.34,
+    "e": 4.66,
+    "p": 0.999
+   },
+   {
+    "w": "became",
+    "n": "became",
+    "s": 4.66,
+    "e": 5.0,
+    "p": 0.995
+   },
+   {
+    "w": "one",
+    "n": "one",
+    "s": 5.0,
+    "e": 5.22,
+    "p": 0.997
+   },
+   {
+    "w": "of",
+    "n": "of",
+    "s": 5.22,
+    "e": 5.34,
+    "p": 0.997
+   },
+   {
+    "w": "the",
+    "n": "the",
+    "s": 5.34,
+    "e": 5.44,
+    "p": 0.998
+   },
+   {
+    "w": "most",
+    "n": "most",
+    "s": 5.44,
+    "e": 5.62,
+    "p": 0.997
+   },
+   {
+    "w": "shared",
+    "n": "shared",
+    "s": 5.62,
+    "e": 5.96,
+    "p": 0.999
+   },
+   {
+    "w": "in",
+    "n": "in",
+    "s": 5.96,
+    "e": 6.18,
+    "p": 0.999
+   },
+   {
+    "w": "the",
+    "n": "the",
+    "s": 6.18,
+    "e": 6.3,
+    "p": 0.999
+   },
+   {
+    "w": "country.",
+    "n": "country",
+    "s": 6.3,
+    "e": 6.64,
+    "p": 0.997
+   },
+   {
+    "w": "We'll",
+    "n": "we'll",
+    "s": 7.38,
+    "e": 7.52,
+    "p": 0.959
+   },
+   {
+    "w": "come",
+    "n": "come",
+    "s": 7.52,
+    "e": 7.66,
+    "p": 0.999
+   },
+   {
+    "w": "back",
+    "n": "back",
+    "s": 7.66,
+    "e": 7.9,
+    "p": 0.999
+   },
+   {
+    "w": "to",
+    "n": "to",
+    "s": 7.9,
+    "e": 8.08,
+    "p": 0.999
+   },
+   {
+    "w": "him.",
+    "n": "him",
+    "s": 8.08,
+    "e": 8.26,
+    "p": 0.999
+   }
+  ],
+  "diff": []
+ },
+ "S07": {
+  "text": "None of these threads explains Bondi on its own. But together, they show the country it happened in. And to understand that country, we have to follow the money first.",
+  "words": [
+   {
+    "w": "None",
+    "n": "none",
+    "s": 0.0,
+    "e": 0.32,
+    "p": 0.891
+   },
+   {
+    "w": "of",
+    "n": "of",
+    "s": 0.32,
+    "e": 0.46,
+    "p": 0.998
+   },
+   {
+    "w": "these",
+    "n": "these",
+    "s": 0.46,
+    "e": 0.66,
+    "p": 0.986
+   },
+   {
+    "w": "threads",
+    "n": "threads",
+    "s": 0.66,
+    "e": 0.96,
+    "p": 0.968
+   },
+   {
+    "w": "explains",
+    "n": "explains",
+    "s": 0.96,
+    "e": 1.52,
+    "p": 0.959
+   },
+   {
+    "w": "Bondi",
+    "n": "bondi",
+    "s": 1.52,
+    "e": 2.14,
+    "p": 0.896
+   },
+   {
+    "w": "on",
+    "n": "on",
+    "s": 2.14,
+    "e": 2.34,
+    "p": 0.992
+   },
+   {
+    "w": "its",
+    "n": "its",
+    "s": 2.34,
+    "e": 2.5,
+    "p": 0.939
+   },
+   {
+    "w": "own.",
+    "n": "own",
+    "s": 2.5,
+    "e": 2.82,
+    "p": 0.999
+   },
+   {
+    "w": "But",
+    "n": "but",
+    "s": 3.36,
+    "e": 3.44,
+    "p": 0.977
+   },
+   {
+    "w": "together,",
+    "n": "together",
+    "s": 3.44,
+    "e": 3.86,
+    "p": 0.966
+   },
+   {
+    "w": "they",
+    "n": "they",
+    "s": 4.16,
+    "e": 4.3,
+    "p": 0.994
+   },
+   {
+    "w": "show",
+    "n": "show",
+    "s": 4.3,
+    "e": 4.48,
+    "p": 0.989
+   },
+   {
+    "w": "the",
+    "n": "the",
+    "s": 4.48,
+    "e": 4.64,
+    "p": 0.988
+   },
+   {
+    "w": "country",
+    "n": "country",
+    "s": 4.64,
+    "e": 4.98,
+    "p": 0.992
+   },
+   {
+    "w": "it",
+    "n": "it",
+    "s": 4.98,
+    "e": 5.14,
+    "p": 0.99
+   },
+   {
+    "w": "happened",
+    "n": "happened",
+    "s": 5.14,
+    "e": 5.48,
+    "p": 0.995
+   },
+   {
+    "w": "in.",
+    "n": "in",
+    "s": 5.48,
+    "e": 5.82,
+    "p": 0.994
+   },
+   {
+    "w": "And",
+    "n": "and",
+    "s": 6.28,
+    "e": 6.38,
+    "p": 0.974
+   },
+   {
+    "w": "to",
+    "n": "to",
+    "s": 6.38,
+    "e": 6.48,
+    "p": 0.985
+   },
+   {
+    "w": "understand",
+    "n": "understand",
+    "s": 6.48,
+    "e": 6.96,
+    "p": 0.999
+   },
+   {
+    "w": "that",
+    "n": "that",
+    "s": 6.96,
+    "e": 7.2,
+    "p": 0.992
+   },
+   {
+    "w": "country,",
+    "n": "country",
+    "s": 7.2,
+    "e": 7.66,
+    "p": 0.974
+   },
+   {
+    "w": "we",
+    "n": "we",
+    "s": 8.04,
+    "e": 8.22,
+    "p": 0.988
+   },
+   {
+    "w": "have",
+    "n": "have",
+    "s": 8.22,
+    "e": 8.36,
+    "p": 0.994
+   },
+   {
+    "w": "to",
+    "n": "to",
+    "s": 8.36,
+    "e": 8.52,
+    "p": 0.999
+   },
+   {
+    "w": "follow",
+    "n": "follow",
+    "s": 8.52,
+    "e": 8.76,
+    "p": 0.999
+   },
+   {
+    "w": "the",
+    "n": "the",
+    "s": 8.76,
+    "e": 8.94,
+    "p": 0.989
+   },
+   {
+    "w": "money",
+    "n": "money",
+    "s": 8.94,
+    "e": 9.16,
+    "p": 0.999
+   },
+   {
+    "w": "first.",
+    "n": "first",
+    "s": 9.16,
+    "e": 9.5,
+    "p": 0.995
+   }
+  ],
+  "diff": []
+ },
+ "S08": {
+  "text": "For months, the fires looked like local crime. But Australia's domestic spy agency, ASIO, kept investigating. What its investigators found, ASIO's chief described as a layer cake of cut-outs.",
+  "words": [
+   {
+    "w": "For",
+    "n": "for",
+    "s": 0.0,
+    "e": 0.22,
+    "p": 0.962
+   },
+   {
+    "w": "months,",
+    "n": "months",
+    "s": 0.22,
+    "e": 0.62,
+    "p": 1.0
+   },
+   {
+    "w": "the",
+    "n": "the",
+    "s": 0.9,
+    "e": 1.04,
+    "p": 0.998
+   },
+   {
+    "w": "fires",
+    "n": "fires",
+    "s": 1.04,
+    "e": 1.32,
+    "p": 0.996
+   },
+   {
+    "w": "looked",
+    "n": "looked",
+    "s": 1.32,
+    "e": 1.58,
+    "p": 0.998
+   },
+   {
+    "w": "like",
+    "n": "like",
+    "s": 1.58,
+    "e": 1.82,
+    "p": 1.0
+   },
+   {
+    "w": "local",
+    "n": "local",
+    "s": 1.82,
+    "e": 2.08,
+    "p": 0.999
+   },
+   {
+    "w": "crime.",
+    "n": "crime",
+    "s": 2.08,
+    "e": 2.46,
+    "p": 1.0
+   },
+   {
+    "w": "But",
+    "n": "but",
+    "s": 2.96,
+    "e": 3.06,
+    "p": 0.992
+   },
+   {
+    "w": "Australia's",
+    "n": "australia's",
+    "s": 3.06,
+    "e": 3.66,
+    "p": 0.998
+   },
+   {
+    "w": "domestic",
+    "n": "domestic",
+    "s": 3.66,
+    "e": 4.0,
+    "p": 0.944
+   },
+   {
+    "w": "spy",
+    "n": "spy",
+    "s": 4.0,
+    "e": 4.32,
+    "p": 0.996
+   },
+   {
+    "w": "agency,",
+    "n": "agency",
+    "s": 4.32,
+    "e": 4.82,
+    "p": 0.999
+   },
+   {
+    "w": "ASIO,",
+    "n": "asio",
+    "s": 5.3,
+    "e": 5.74,
+    "p": 0.377
+   },
+   {
+    "w": "kept",
+    "n": "kept",
+    "s": 6.14,
+    "e": 6.28,
+    "p": 0.999
+   },
+   {
+    "w": "investigating.",
+    "n": "investigating",
+    "s": 6.28,
+    "e": 6.9,
+    "p": 0.999
+   },
+   {
+    "w": "What",
+    "n": "what",
+    "s": 7.5,
+    "e": 7.6,
+    "p": 0.953
+   },
+   {
+    "w": "its",
+    "n": "its",
+    "s": 7.6,
+    "e": 7.74,
+    "p": 0.997
+   },
+   {
+    "w": "investigators",
+    "n": "investigators",
+    "s": 7.74,
+    "e": 8.24,
+    "p": 1.0
+   },
+   {
+    "w": "found,",
+    "n": "found",
+    "s": 8.24,
+    "e": 8.7,
+    "p": 1.0
+   },
+   {
+    "w": "ASIO's",
+    "n": "asio's",
+    "s": 9.18,
+    "e": 9.7,
+    "p": 0.964
+   },
+   {
+    "w": "chief",
+    "n": "chief",
+    "s": 9.7,
+    "e": 9.9,
+    "p": 0.973
+   },
+   {
+    "w": "described",
+    "n": "described",
+    "s": 9.9,
+    "e": 10.34,
+    "p": 1.0
+   },
+   {
+    "w": "as",
+    "n": "as",
+    "s": 10.34,
+    "e": 10.56,
+    "p": 0.998
+   },
+   {
+    "w": "a",
+    "n": "a",
+    "s": 10.56,
+    "e": 10.7,
+    "p": 0.827
+   },
+   {
+    "w": "layer",
+    "n": "layer",
+    "s": 10.7,
+    "e": 10.88,
+    "p": 0.537
+   },
+   {
+    "w": "cake",
+    "n": "cake",
+    "s": 10.88,
+    "e": 11.14,
+    "p": 0.957
+   },
+   {
+    "w": "of",
+    "n": "of",
+    "s": 11.14,
+    "e": 11.32,
+    "p": 0.999
+   },
+   {
+    "w": "cut",
+    "n": "cut",
+    "s": 11.32,
+    "e": 11.5,
+    "p": 0.997
+   },
+   {
+    "w": "-outs.",
+    "n": "outs",
+    "s": 11.5,
+    "e": 11.66,
+    "p": 0.52
+   }
+  ],
+  "diff": [
+   {
+    "op": "replace",
+    "ref": "cutouts",
+    "hyp": "cut outs"
+   }
+  ]
+ },
+ "S09": {
+  "text": "Middlemen overseas. Coordinators. And at the bottom, people in Australia, allegedly paid to do a job, not to make a point. Analysts call it crime as a service. It's deniable. And it's very hard to detect.",
+  "words": [
+   {
+    "w": "Middlemen",
+    "n": "middlemen",
+    "s": 0.0,
+    "e": 0.64,
+    "p": 0.637
+   },
+   {
+    "w": "overseas.",
+    "n": "overseas",
+    "s": 0.64,
+    "e": 1.32,
+    "p": 0.955
+   },
+   {
+    "w": "Coordinators.",
+    "n": "coordinators",
+    "s": 2.04,
+    "e": 2.56,
+    "p": 0.993
+   },
+   {
+    "w": "And",
+    "n": "and",
+    "s": 3.14,
+    "e": 3.16,
+    "p": 0.93
+   },
+   {
+    "w": "at",
+    "n": "at",
+    "s": 3.16,
+    "e": 3.26,
+    "p": 0.928
+   },
+   {
+    "w": "the",
+    "n": "the",
+    "s": 3.26,
+    "e": 3.4,
+    "p": 0.998
+   },
+   {
+    "w": "bottom,",
+    "n": "bottom",
+    "s": 3.4,
+    "e": 3.74,
+    "p": 0.999
+   },
+   {
+    "w": "people",
+    "n": "people",
+    "s": 4.2,
+    "e": 4.34,
+    "p": 0.986
+   },
+   {
+    "w": "in",
+    "n": "in",
+    "s": 4.34,
+    "e": 4.54,
+    "p": 0.999
+   },
+   {
+    "w": "Australia,",
+    "n": "australia",
+    "s": 4.54,
+    "e": 5.06,
+    "p": 0.996
+   },
+   {
+    "w": "allegedly",
+    "n": "allegedly",
+    "s": 5.7,
+    "e": 5.98,
+    "p": 0.986
+   },
+   {
+    "w": "paid",
+    "n": "paid",
+    "s": 5.98,
+    "e": 6.44,
+    "p": 0.993
+   },
+   {
+    "w": "to",
+    "n": "to",
+    "s": 6.44,
+    "e": 6.66,
+    "p": 0.998
+   },
+   {
+    "w": "do",
+    "n": "do",
+    "s": 6.66,
+    "e": 6.8,
+    "p": 0.994
+   },
+   {
+    "w": "a",
+    "n": "a",
+    "s": 6.8,
+    "e": 6.96,
+    "p": 0.997
+   },
+   {
+    "w": "job,",
+    "n": "job",
+    "s": 6.96,
+    "e": 7.26,
+    "p": 0.999
+   },
+   {
+    "w": "not",
+    "n": "not",
+    "s": 7.62,
+    "e": 7.84,
+    "p": 0.99
+   },
+   {
+    "w": "to",
+    "n": "to",
+    "s": 7.84,
+    "e": 8.02,
+    "p": 0.99
+   },
+   {
+    "w": "make",
+    "n": "make",
+    "s": 8.02,
+    "e": 8.16,
+    "p": 0.999
+   },
+   {
+    "w": "a",
+    "n": "a",
+    "s": 8.16,
+    "e": 8.34,
+    "p": 0.999
+   },
+   {
+    "w": "point.",
+    "n": "point",
+    "s": 8.34,
+    "e": 8.6,
+    "p": 0.999
+   },
+   {
+    "w": "Analysts",
+    "n": "analysts",
+    "s": 9.3,
+    "e": 9.7,
+    "p": 0.99
+   },
+   {
+    "w": "call",
+    "n": "call",
+    "s": 9.7,
+    "e": 9.92,
+    "p": 0.997
+   },
+   {
+    "w": "it",
+    "n": "it",
+    "s": 9.92,
+    "e": 10.1,
+    "p": 0.996
+   },
+   {
+    "w": "crime",
+    "n": "crime",
+    "s": 10.1,
+    "e": 10.42,
+    "p": 0.371
+   },
+   {
+    "w": "as",
+    "n": "as",
+    "s": 10.42,
+    "e": 10.62,
+    "p": 0.921
+   },
+   {
+    "w": "a",
+    "n": "a",
+    "s": 10.62,
+    "e": 10.82,
+    "p": 0.994
+   },
+   {
+    "w": "service.",
+    "n": "service",
+    "s": 10.82,
+    "e": 11.12,
+    "p": 0.997
+   },
+   {
+    "w": "It's",
+    "n": "it's",
+    "s": 11.68,
+    "e": 11.84,
+    "p": 0.986
+   },
+   {
+    "w": "deniable.",
+    "n": "deniable",
+    "s": 11.84,
+    "e": 12.42,
+    "p": 0.926
+   },
+   {
+    "w": "And",
+    "n": "and",
+    "s": 12.88,
+    "e": 12.94,
+    "p": 0.97
+   },
+   {
+    "w": "it's",
+    "n": "it's",
+    "s": 12.94,
+    "e": 13.12,
+    "p": 0.991
+   },
+   {
+    "w": "very",
+    "n": "very",
+    "s": 13.12,
+    "e": 13.4,
+    "p": 0.994
+   },
+   {
+    "w": "hard",
+    "n": "hard",
+    "s": 13.4,
+    "e": 13.64,
+    "p": 0.999
+   },
+   {
+    "w": "to",
+    "n": "to",
+    "s": 13.64,
+    "e": 13.84,
+    "p": 0.999
+   },
+   {
+    "w": "detect.",
+    "n": "detect",
+    "s": 13.84,
+    "e": 14.16,
+    "p": 0.998
+   }
+  ],
+  "diff": []
+ },
+ "S10": {
+  "text": "August, twenty twenty-five. The Prime Minister announces ASIO's assessment. According to ASIO, Iran's Islamic Revolutionary Guard Corps directed at least two of the attacks. The Bondi restaurant fire, and the Melbourne synagogue. He called them, quote, extraordinary and dangerous acts of aggression orchestrated by a foreign nation on Australian soil.",
+  "words": [
+   {
+    "w": "August,",
+    "n": "august",
+    "s": 0.0,
+    "e": 0.5,
+    "p": 0.864
+   },
+   {
+    "w": "twenty",
+    "n": "twenty",
+    "s": 0.8,
+    "e": 1.08,
+    "p": 0.001
+   },
+   {
+    "w": "twenty",
+    "n": "twenty",
+    "s": 1.08,
+    "e": 1.34,
+    "p": 0.672
+   },
+   {
+    "w": "-five.",
+    "n": "five",
+    "s": 1.34,
+    "e": 1.76,
+    "p": 0.831
+   },
+   {
+    "w": "The",
+    "n": "the",
+    "s": 2.24,
+    "e": 2.3,
+    "p": 0.984
+   },
+   {
+    "w": "Prime",
+    "n": "prime",
+    "s": 2.3,
+    "e": 2.48,
+    "p": 0.423
+   },
+   {
+    "w": "Minister",
+    "n": "minister",
+    "s": 2.48,
+    "e": 2.9,
+    "p": 0.992
+   },
+   {
+    "w": "announces",
+    "n": "announces",
+    "s": 2.9,
+    "e": 3.44,
+    "p": 0.995
+   },
+   {
+    "w": "ASIO's",
+    "n": "asio's",
+    "s": 3.44,
+    "e": 4.2,
+    "p": 0.592
+   },
+   {
+    "w": "assessment.",
+    "n": "assessment",
+    "s": 4.2,
+    "e": 4.6,
+    "p": 0.989
+   },
+   {
+    "w": "According",
+    "n": "according",
+    "s": 5.3,
+    "e": 5.4,
+    "p": 0.997
+   },
+   {
+    "w": "to",
+    "n": "to",
+    "s": 5.4,
+    "e": 5.66,
+    "p": 1.0
+   },
+   {
+    "w": "ASIO,",
+    "n": "asio",
+    "s": 5.66,
+    "e": 6.16,
+    "p": 0.988
+   },
+   {
+    "w": "Iran's",
+    "n": "iran's",
+    "s": 6.6,
+    "e": 6.98,
+    "p": 0.998
+   },
+   {
+    "w": "Islamic",
+    "n": "islamic",
+    "s": 6.98,
+    "e": 7.36,
+    "p": 0.996
+   },
+   {
+    "w": "Revolutionary",
+    "n": "revolutionary",
+    "s": 7.36,
+    "e": 8.02,
+    "p": 0.995
+   },
+   {
+    "w": "Guard",
+    "n": "guard",
+    "s": 8.02,
+    "e": 8.4,
+    "p": 0.996
+   },
+   {
+    "w": "Corps",
+    "n": "corps",
+    "s": 8.4,
+    "e": 8.72,
+    "p": 0.925
+   },
+   {
+    "w": "directed",
+    "n": "directed",
+    "s": 8.72,
+    "e": 9.34,
+    "p": 0.99
+   },
+   {
+    "w": "at",
+    "n": "at",
+    "s": 9.34,
+    "e": 9.58,
+    "p": 0.998
+   },
+   {
+    "w": "least",
+    "n": "least",
+    "s": 9.58,
+    "e": 9.74,
+    "p": 0.999
+   },
+   {
+    "w": "two",
+    "n": "two",
+    "s": 9.74,
+    "e": 10.06,
+    "p": 0.993
+   },
+   {
+    "w": "of",
+    "n": "of",
+    "s": 10.06,
+    "e": 10.16,
+    "p": 0.999
+   },
+   {
+    "w": "the",
+    "n": "the",
+    "s": 10.16,
+    "e": 10.28,
+    "p": 1.0
+   },
+   {
+    "w": "attacks.",
+    "n": "attacks",
+    "s": 10.28,
+    "e": 10.66,
+    "p": 0.999
+   },
+   {
+    "w": "The",
+    "n": "the",
+    "s": 11.18,
+    "e": 11.28,
+    "p": 0.937
+   },
+   {
+    "w": "Bondi",
+    "n": "bondi",
+    "s": 11.28,
+    "e": 11.72,
+    "p": 0.8
+   },
+   {
+    "w": "restaurant",
+    "n": "restaurant",
+    "s": 11.72,
+    "e": 12.06,
+    "p": 0.307
+   },
+   {
+    "w": "fire,",
+    "n": "fire",
+    "s": 12.06,
+    "e": 12.52,
+    "p": 0.995
+   },
+   {
+    "w": "and",
+    "n": "and",
+    "s": 12.88,
+    "e": 12.98,
+    "p": 0.996
+   },
+   {
+    "w": "the",
+    "n": "the",
+    "s": 12.98,
+    "e": 13.08,
+    "p": 0.993
+   },
+   {
+    "w": "Melbourne",
+    "n": "melbourne",
+    "s": 13.08,
+    "e": 13.38,
+    "p": 0.995
+   },
+   {
+    "w": "synagogue.",
+    "n": "synagogue",
+    "s": 13.38,
+    "e": 13.78,
+    "p": 0.848
+   },
+   {
+    "w": "He",
+    "n": "he",
+    "s": 14.44,
+    "e": 14.52,
+    "p": 0.995
+   },
+   {
+    "w": "called",
+    "n": "called",
+    "s": 14.52,
+    "e": 14.74,
+    "p": 0.998
+   },
+   {
+    "w": "them,",
+    "n": "them",
+    "s": 14.74,
+    "e": 15.04,
+    "p": 0.999
+   },
+   {
+    "w": "quote,",
+    "n": "quote",
+    "s": 15.12,
+    "e": 15.24,
+    "p": 0.616
+   },
+   {
+    "w": "extraordinary",
+    "n": "extraordinary",
+    "s": 15.64,
+    "e": 15.96,
+    "p": 0.197
+   },
+   {
+    "w": "and",
+    "n": "and",
+    "s": 15.96,
+    "e": 16.38,
+    "p": 0.951
+   },
+   {
+    "w": "dangerous",
+    "n": "dangerous",
+    "s": 16.38,
+    "e": 16.72,
+    "p": 0.998
+   },
+   {
+    "w": "acts",
+    "n": "acts",
+    "s": 16.72,
+    "e": 17.08,
+    "p": 0.999
+   },
+   {
+    "w": "of",
+    "n": "of",
+    "s": 17.08,
+    "e": 17.24,
+    "p": 0.999
+   },
+   {
+    "w": "aggression",
+    "n": "aggression",
+    "s": 17.24,
+    "e": 17.68,
+    "p": 0.998
+   },
+   {
+    "w": "orchestrated",
+    "n": "orchestrated",
+    "s": 17.68,
+    "e": 18.22,
+    "p": 0.98
+   },
+   {
+    "w": "by",
+    "n": "by",
+    "s": 18.22,
+    "e": 18.6,
+    "p": 0.999
+   },
+   {
+    "w": "a",
+    "n": "a",
+    "s": 18.6,
+    "e": 18.74,
+    "p": 0.999
+   },
+   {
+    "w": "foreign",
+    "n": "foreign",
+    "s": 18.74,
+    "e": 18.98,
+    "p": 0.999
+   },
+   {
+    "w": "nation",
+    "n": "nation",
+    "s": 18.98,
+    "e": 19.36,
+    "p": 0.999
+   },
+   {
+    "w": "on",
+    "n": "on",
+    "s": 19.36,
+    "e": 19.62,
+    "p": 0.998
+   },
+   {
+    "w": "Australian",
+    "n": "australian",
+    "s": 19.62,
+    "e": 20.04,
+    "p": 0.998
+   },
+   {
+    "w": "soil.",
+    "n": "soil",
+    "s": 20.04,
+    "e": 20.42,
+    "p": 0.999
+   }
+  ],
+  "diff": [
+   {
+    "op": "replace",
+    "ref": "twentyfive",
+    "hyp": "twenty five"
+   }
+  ]
+ },
+ "S11": {
+  "text": "Australia expelled Iran's ambassador. The first since the Second World War, the government said. Iran denied any involvement. In Parliament, then Opposition Leader Sussan Ley said the attacks aimed to, quote, turn neighbour against neighbour and Australian against Australian. Remember those words.",
+  "words": [
+   {
+    "w": "Australia",
+    "n": "australia",
+    "s": 0.0,
+    "e": 0.66,
+    "p": 0.794
+   },
+   {
+    "w": "expelled",
+    "n": "expelled",
+    "s": 0.66,
+    "e": 1.14,
+    "p": 0.988
+   },
+   {
+    "w": "Iran's",
+    "n": "iran's",
+    "s": 1.14,
+    "e": 1.74,
+    "p": 0.99
+   },
+   {
+    "w": "ambassador.",
+    "n": "ambassador",
+    "s": 1.74,
+    "e": 2.22,
+    "p": 0.859
+   },
+   {
+    "w": "The",
+    "n": "the",
+    "s": 2.76,
+    "e": 2.86,
+    "p": 0.979
+   },
+   {
+    "w": "first",
+    "n": "first",
+    "s": 2.86,
+    "e": 3.08,
+    "p": 0.987
+   },
+   {
+    "w": "since",
+    "n": "since",
+    "s": 3.08,
+    "e": 3.34,
+    "p": 0.943
+   },
+   {
+    "w": "the",
+    "n": "the",
+    "s": 3.34,
+    "e": 3.54,
+    "p": 0.992
+   },
+   {
+    "w": "Second",
+    "n": "second",
+    "s": 3.54,
+    "e": 3.74,
+    "p": 0.61
+   },
+   {
+    "w": "World",
+    "n": "world",
+    "s": 3.74,
+    "e": 4.02,
+    "p": 0.996
+   },
+   {
+    "w": "War,",
+    "n": "war",
+    "s": 4.02,
+    "e": 4.42,
+    "p": 0.997
+   },
+   {
+    "w": "the",
+    "n": "the",
+    "s": 4.84,
+    "e": 4.92,
+    "p": 0.987
+   },
+   {
+    "w": "government",
+    "n": "government",
+    "s": 4.92,
+    "e": 5.2,
+    "p": 0.982
+   },
+   {
+    "w": "said.",
+    "n": "said",
+    "s": 5.2,
+    "e": 5.66,
+    "p": 0.992
+   },
+   {
+    "w": "Iran",
+    "n": "iran",
+    "s": 6.24,
+    "e": 6.54,
+    "p": 0.971
+   },
+   {
+    "w": "denied",
+    "n": "denied",
+    "s": 6.54,
+    "e": 6.88,
+    "p": 0.994
+   },
+   {
+    "w": "any",
+    "n": "any",
+    "s": 6.88,
+    "e": 7.2,
+    "p": 0.995
+   },
+   {
+    "w": "involvement.",
+    "n": "involvement",
+    "s": 7.2,
+    "e": 7.66,
+    "p": 0.995
+   },
+   {
+    "w": "In",
+    "n": "in",
+    "s": 8.3,
+    "e": 8.38,
+    "p": 0.987
+   },
+   {
+    "w": "Parliament,",
+    "n": "parliament",
+    "s": 8.38,
+    "e": 8.82,
+    "p": 0.465
+   },
+   {
+    "w": "then",
+    "n": "then",
+    "s": 9.18,
+    "e": 9.28,
+    "p": 0.991
+   },
+   {
+    "w": "Opposition",
+    "n": "opposition",
+    "s": 9.28,
+    "e": 9.74,
+    "p": 0.126
+   },
+   {
+    "w": "Leader",
+    "n": "leader",
+    "s": 9.74,
+    "e": 10.12,
+    "p": 0.681
+   },
+   {
+    "w": "Sussan",
+    "n": "sussan",
+    "s": 10.12,
+    "e": 10.64,
+    "p": 0.421
+   },
+   {
+    "w": "Ley",
+    "n": "ley",
+    "s": 10.64,
+    "e": 10.88,
+    "p": 0.361
+   },
+   {
+    "w": "said",
+    "n": "said",
+    "s": 10.88,
+    "e": 11.16,
+    "p": 0.981
+   },
+   {
+    "w": "the",
+    "n": "the",
+    "s": 11.16,
+    "e": 11.32,
+    "p": 0.972
+   },
+   {
+    "w": "attacks",
+    "n": "attacks",
+    "s": 11.32,
+    "e": 11.68,
+    "p": 0.972
+   },
+   {
+    "w": "aimed",
+    "n": "aimed",
+    "s": 11.68,
+    "e": 12.04,
+    "p": 0.927
+   },
+   {
+    "w": "to,",
+    "n": "to",
+    "s": 12.04,
+    "e": 12.36,
+    "p": 0.992
+   },
+   {
+    "w": "quote,",
+    "n": "quote",
+    "s": 12.58,
+    "e": 12.58,
+    "p": 0.522
+   },
+   {
+    "w": "turn",
+    "n": "turn",
+    "s": 13.3,
+    "e": 13.3,
+    "p": 0.162
+   },
+   {
+    "w": "neighbour",
+    "n": "neighbour",
+    "s": 13.3,
+    "e": 13.62,
+    "p": 0.072
+   },
+   {
+    "w": "against",
+    "n": "against",
+    "s": 13.62,
+    "e": 13.96,
+    "p": 0.987
+   },
+   {
+    "w": "neighbour",
+    "n": "neighbour",
+    "s": 13.96,
+    "e": 14.36,
+    "p": 0.884
+   },
+   {
+    "w": "and",
+    "n": "and",
+    "s": 14.36,
+    "e": 14.7,
+    "p": 0.83
+   },
+   {
+    "w": "Australian",
+    "n": "australian",
+    "s": 14.7,
+    "e": 15.12,
+    "p": 0.951
+   },
+   {
+    "w": "against",
+    "n": "against",
+    "s": 15.12,
+    "e": 15.54,
+    "p": 0.997
+   },
+   {
+    "w": "Australian.",
+    "n": "australian",
+    "s": 15.54,
+    "e": 16.02,
+    "p": 0.981
+   },
+   {
+    "w": "Remember",
+    "n": "remember",
+    "s": 16.64,
+    "e": 16.86,
+    "p": 0.996
+   },
+   {
+    "w": "those",
+    "n": "those",
+    "s": 16.86,
+    "e": 17.16,
+    "p": 0.996
+   },
+   {
+    "w": "words.",
+    "n": "words",
+    "s": 17.16,
+    "e": 17.44,
+    "p": 0.999
+   }
+  ],
+  "diff": []
+ },
+ "S12": {
+  "text": "That was one hundred and ten days before Bondi. But why would anyone use a fire in Bondi as a weapon at all? To answer that, we have to go back to a vote Australia cast first.",
+  "words": [
+   {
+    "w": "That",
+    "n": "that",
+    "s": 0.0,
+    "e": 0.34,
+    "p": 0.92
+   },
+   {
+    "w": "was",
+    "n": "was",
+    "s": 0.34,
+    "e": 0.5,
+    "p": 0.999
+   },
+   {
+    "w": "one",
+    "n": "one",
+    "s": 0.5,
+    "e": 0.74,
+    "p": 0.031
+   },
+   {
+    "w": "hundred",
+    "n": "hundred",
+    "s": 0.74,
+    "e": 1.02,
+    "p": 0.973
+   },
+   {
+    "w": "and",
+    "n": "and",
+    "s": 1.02,
+    "e": 1.22,
+    "p": 0.977
+   },
+   {
+    "w": "ten",
+    "n": "ten",
+    "s": 1.22,
+    "e": 1.44,
+    "p": 0.992
+   },
+   {
+    "w": "days",
+    "n": "days",
+    "s": 1.44,
+    "e": 1.72,
+    "p": 0.996
+   },
+   {
+    "w": "before",
+    "n": "before",
+    "s": 1.72,
+    "e": 2.08,
+    "p": 0.999
+   },
+   {
+    "w": "Bondi.",
+    "n": "bondi",
+    "s": 2.08,
+    "e": 2.64,
+    "p": 0.952
+   },
+   {
+    "w": "But",
+    "n": "but",
+    "s": 3.2,
+    "e": 3.3,
+    "p": 0.992
+   },
+   {
+    "w": "why",
+    "n": "why",
+    "s": 3.3,
+    "e": 3.48,
+    "p": 0.981
+   },
+   {
+    "w": "would",
+    "n": "would",
+    "s": 3.48,
+    "e": 3.62,
+    "p": 0.999
+   },
+   {
+    "w": "anyone",
+    "n": "anyone",
+    "s": 3.62,
+    "e": 3.88,
+    "p": 0.998
+   },
+   {
+    "w": "use",
+    "n": "use",
+    "s": 3.88,
+    "e": 4.14,
+    "p": 0.998
+   },
+   {
+    "w": "a",
+    "n": "a",
+    "s": 4.14,
+    "e": 4.28,
+    "p": 0.999
+   },
+   {
+    "w": "fire",
+    "n": "fire",
+    "s": 4.28,
+    "e": 4.52,
+    "p": 0.991
+   },
+   {
+    "w": "in",
+    "n": "in",
+    "s": 4.52,
+    "e": 4.74,
+    "p": 0.97
+   },
+   {
+    "w": "Bondi",
+    "n": "bondi",
+    "s": 4.74,
+    "e": 5.18,
+    "p": 0.997
+   },
+   {
+    "w": "as",
+    "n": "as",
+    "s": 5.18,
+    "e": 5.32,
+    "p": 0.997
+   },
+   {
+    "w": "a",
+    "n": "a",
+    "s": 5.32,
+    "e": 5.46,
+    "p": 0.999
+   },
+   {
+    "w": "weapon",
+    "n": "weapon",
+    "s": 5.46,
+    "e": 5.64,
+    "p": 0.999
+   },
+   {
+    "w": "at",
+    "n": "at",
+    "s": 5.64,
+    "e": 5.84,
+    "p": 0.995
+   },
+   {
+    "w": "all?",
+    "n": "all",
+    "s": 5.84,
+    "e": 6.1,
+    "p": 1.0
+   },
+   {
+    "w": "To",
+    "n": "to",
+    "s": 6.66,
+    "e": 6.74,
+    "p": 0.995
+   },
+   {
+    "w": "answer",
+    "n": "answer",
+    "s": 6.74,
+    "e": 7.02,
+    "p": 1.0
+   },
+   {
+    "w": "that,",
+    "n": "that",
+    "s": 7.02,
+    "e": 7.32,
+    "p": 0.999
+   },
+   {
+    "w": "we",
+    "n": "we",
+    "s": 7.52,
+    "e": 7.6,
+    "p": 0.993
+   },
+   {
+    "w": "have",
+    "n": "have",
+    "s": 7.6,
+    "e": 7.74,
+    "p": 0.999
+   },
+   {
+    "w": "to",
+    "n": "to",
+    "s": 7.74,
+    "e": 7.88,
+    "p": 0.999
+   },
+   {
+    "w": "go",
+    "n": "go",
+    "s": 7.88,
+    "e": 7.98,
+    "p": 0.998
+   },
+   {
+    "w": "back",
+    "n": "back",
+    "s": 7.98,
+    "e": 8.18,
+    "p": 0.999
+   },
+   {
+    "w": "to",
+    "n": "to",
+    "s": 8.18,
+    "e": 8.36,
+    "p": 0.999
+   },
+   {
+    "w": "a",
+    "n": "a",
+    "s": 8.36,
+    "e": 8.48,
+    "p": 0.991
+   },
+   {
+    "w": "vote",
+    "n": "vote",
+    "s": 8.48,
+    "e": 8.66,
+    "p": 0.924
+   },
+   {
+    "w": "Australia",
+    "n": "australia",
+    "s": 8.66,
+    "e": 9.18,
+    "p": 0.99
+   },
+   {
+    "w": "cast",
+    "n": "cast",
+    "s": 9.18,
+    "e": 9.5,
+    "p": 0.997
+   },
+   {
+    "w": "first.",
+    "n": "first",
+    "s": 9.5,
+    "e": 9.86,
+    "p": 0.988
+   }
+  ],
+  "diff": []
+ },
+ "S13": {
+  "text": "November, nineteen forty-seven. The new United Nations votes on a plan to divide Palestine into a Jewish state and an Arab state. The committee behind it is chaired by Australia's foreign minister. And the first country to vote yes is Australia.",
+  "words": [
+   {
+    "w": "November,",
+    "n": "november",
+    "s": 0.0,
+    "e": 0.6,
+    "p": 0.903
+   },
+   {
+    "w": "nineteen",
+    "n": "nineteen",
+    "s": 0.86,
+    "e": 1.1,
+    "p": 0.001
+   },
+   {
+    "w": "forty",
+    "n": "forty",
+    "s": 1.1,
+    "e": 1.64,
+    "p": 0.878
+   },
+   {
+    "w": "-seven.",
+    "n": "seven",
+    "s": 1.64,
+    "e": 2.08,
+    "p": 0.699
+   },
+   {
+    "w": "The",
+    "n": "the",
+    "s": 2.78,
+    "e": 2.86,
+    "p": 0.973
+   },
+   {
+    "w": "new",
+    "n": "new",
+    "s": 2.86,
+    "e": 3.06,
+    "p": 0.94
+   },
+   {
+    "w": "United",
+    "n": "united",
+    "s": 3.06,
+    "e": 3.36,
+    "p": 0.954
+   },
+   {
+    "w": "Nations",
+    "n": "nations",
+    "s": 3.36,
+    "e": 3.92,
+    "p": 0.993
+   },
+   {
+    "w": "votes",
+    "n": "votes",
+    "s": 3.92,
+    "e": 4.2,
+    "p": 0.987
+   },
+   {
+    "w": "on",
+    "n": "on",
+    "s": 4.2,
+    "e": 4.44,
+    "p": 0.995
+   },
+   {
+    "w": "a",
+    "n": "a",
+    "s": 4.44,
+    "e": 4.56,
+    "p": 0.997
+   },
+   {
+    "w": "plan",
+    "n": "plan",
+    "s": 4.56,
+    "e": 4.8,
+    "p": 0.997
+   },
+   {
+    "w": "to",
+    "n": "to",
+    "s": 4.8,
+    "e": 5.0,
+    "p": 0.997
+   },
+   {
+    "w": "divide",
+    "n": "divide",
+    "s": 5.0,
+    "e": 5.42,
+    "p": 0.997
+   },
+   {
+    "w": "Palestine",
+    "n": "palestine",
+    "s": 5.42,
+    "e": 6.04,
+    "p": 0.994
+   },
+   {
+    "w": "into",
+    "n": "into",
+    "s": 6.04,
+    "e": 6.42,
+    "p": 0.993
+   },
+   {
+    "w": "a",
+    "n": "a",
+    "s": 6.42,
+    "e": 6.66,
+    "p": 0.998
+   },
+   {
+    "w": "Jewish",
+    "n": "jewish",
+    "s": 6.66,
+    "e": 6.82,
+    "p": 0.998
+   },
+   {
+    "w": "state",
+    "n": "state",
+    "s": 6.82,
+    "e": 7.22,
+    "p": 0.956
+   },
+   {
+    "w": "and",
+    "n": "and",
+    "s": 7.22,
+    "e": 7.52,
+    "p": 0.967
+   },
+   {
+    "w": "an",
+    "n": "an",
+    "s": 7.52,
+    "e": 7.64,
+    "p": 0.984
+   },
+   {
+    "w": "Arab",
+    "n": "arab",
+    "s": 7.64,
+    "e": 7.9,
+    "p": 0.996
+   },
+   {
+    "w": "state.",
+    "n": "state",
+    "s": 7.9,
+    "e": 8.28,
+    "p": 0.99
+   },
+   {
+    "w": "The",
+    "n": "the",
+    "s": 9.04,
+    "e": 9.14,
+    "p": 0.996
+   },
+   {
+    "w": "committee",
+    "n": "committee",
+    "s": 9.14,
+    "e": 9.36,
+    "p": 0.947
+   },
+   {
+    "w": "behind",
+    "n": "behind",
+    "s": 9.36,
+    "e": 9.78,
+    "p": 0.999
+   },
+   {
+    "w": "it",
+    "n": "it",
+    "s": 9.78,
+    "e": 9.96,
+    "p": 0.995
+   },
+   {
+    "w": "is",
+    "n": "is",
+    "s": 9.96,
+    "e": 10.1,
+    "p": 0.996
+   },
+   {
+    "w": "chaired",
+    "n": "chaired",
+    "s": 10.1,
+    "e": 10.36,
+    "p": 0.998
+   },
+   {
+    "w": "by",
+    "n": "by",
+    "s": 10.36,
+    "e": 10.58,
+    "p": 0.999
+   },
+   {
+    "w": "Australia's",
+    "n": "australia's",
+    "s": 10.58,
+    "e": 11.3,
+    "p": 0.994
+   },
+   {
+    "w": "foreign",
+    "n": "foreign",
+    "s": 11.3,
+    "e": 11.5,
+    "p": 0.877
+   },
+   {
+    "w": "minister.",
+    "n": "minister",
+    "s": 11.5,
+    "e": 11.96,
+    "p": 0.994
+   },
+   {
+    "w": "And",
+    "n": "and",
+    "s": 12.6,
+    "e": 12.68,
+    "p": 0.973
+   },
+   {
+    "w": "the",
+    "n": "the",
+    "s": 12.68,
+    "e": 12.82,
+    "p": 0.994
+   },
+   {
+    "w": "first",
+    "n": "first",
+    "s": 12.82,
+    "e": 13.04,
+    "p": 0.999
+   },
+   {
+    "w": "country",
+    "n": "country",
+    "s": 13.04,
+    "e": 13.26,
+    "p": 0.999
+   },
+   {
+    "w": "to",
+    "n": "to",
+    "s": 13.26,
+    "e": 13.52,
+    "p": 0.997
+   },
+   {
+    "w": "vote",
+    "n": "vote",
+    "s": 13.52,
+    "e": 13.72,
+    "p": 0.999
+   },
+   {
+    "w": "yes",
+    "n": "yes",
+    "s": 13.72,
+    "e": 13.96,
+    "p": 0.739
+   },
+   {
+    "w": "is",
+    "n": "is",
+    "s": 13.96,
+    "e": 14.36,
+    "p": 0.838
+   },
+   {
+    "w": "Australia.",
+    "n": "australia",
+    "s": 14.36,
+    "e": 14.74,
+    "p": 0.994
+   }
+  ],
+  "diff": [
+   {
+    "op": "replace",
+    "ref": "fortyseven",
+    "hyp": "forty seven"
+   }
+  ]
+ },
+ "S14": {
+  "text": "Thirty years earlier, Australian Light Horsemen had charged at Beersheba, helping open the road to Jerusalem. So Australians shaped this land twice. Once on horseback. And once at a ballot.",
+  "words": [
+   {
+    "w": "Thirty",
+    "n": "thirty",
+    "s": 0.0,
+    "e": 0.32,
+    "p": 0.579
+   },
+   {
+    "w": "years",
+    "n": "years",
+    "s": 0.32,
+    "e": 0.62,
+    "p": 0.996
+   },
+   {
+    "w": "earlier,",
+    "n": "earlier",
+    "s": 0.62,
+    "e": 1.14,
+    "p": 0.998
+   },
+   {
+    "w": "Australian",
+    "n": "australian",
+    "s": 1.54,
+    "e": 1.96,
+    "p": 0.988
+   },
+   {
+    "w": "Light",
+    "n": "light",
+    "s": 1.96,
+    "e": 2.28,
+    "p": 0.048
+   },
+   {
+    "w": "Horsemen",
+    "n": "horsemen",
+    "s": 2.28,
+    "e": 2.78,
+    "p": 0.907
+   },
+   {
+    "w": "had",
+    "n": "had",
+    "s": 2.78,
+    "e": 3.0,
+    "p": 0.998
+   },
+   {
+    "w": "charged",
+    "n": "charged",
+    "s": 3.0,
+    "e": 3.38,
+    "p": 0.999
+   },
+   {
+    "w": "at",
+    "n": "at",
+    "s": 3.38,
+    "e": 3.6,
+    "p": 0.977
+   },
+   {
+    "w": "Beersheba,",
+    "n": "beersheba",
+    "s": 3.6,
+    "e": 4.18,
+    "p": 0.899
+   },
+   {
+    "w": "helping",
+    "n": "helping",
+    "s": 4.56,
+    "e": 4.9,
+    "p": 0.993
+   },
+   {
+    "w": "open",
+    "n": "open",
+    "s": 4.9,
+    "e": 5.22,
+    "p": 0.988
+   },
+   {
+    "w": "the",
+    "n": "the",
+    "s": 5.22,
+    "e": 5.38,
+    "p": 0.999
+   },
+   {
+    "w": "road",
+    "n": "road",
+    "s": 5.38,
+    "e": 5.56,
+    "p": 0.991
+   },
+   {
+    "w": "to",
+    "n": "to",
+    "s": 5.56,
+    "e": 5.76,
+    "p": 0.999
+   },
+   {
+    "w": "Jerusalem.",
+    "n": "jerusalem",
+    "s": 5.76,
+    "e": 6.2,
+    "p": 0.997
+   },
+   {
+    "w": "So",
+    "n": "so",
+    "s": 6.88,
+    "e": 7.0,
+    "p": 0.994
+   },
+   {
+    "w": "Australians",
+    "n": "australians",
+    "s": 7.0,
+    "e": 7.5,
+    "p": 0.865
+   },
+   {
+    "w": "shaped",
+    "n": "shaped",
+    "s": 7.5,
+    "e": 7.86,
+    "p": 0.975
+   },
+   {
+    "w": "this",
+    "n": "this",
+    "s": 7.86,
+    "e": 8.1,
+    "p": 0.998
+   },
+   {
+    "w": "land",
+    "n": "land",
+    "s": 8.1,
+    "e": 8.36,
+    "p": 0.998
+   },
+   {
+    "w": "twice.",
+    "n": "twice",
+    "s": 8.36,
+    "e": 8.72,
+    "p": 0.998
+   },
+   {
+    "w": "Once",
+    "n": "once",
+    "s": 9.34,
+    "e": 9.48,
+    "p": 0.981
+   },
+   {
+    "w": "on",
+    "n": "on",
+    "s": 9.48,
+    "e": 9.68,
+    "p": 0.998
+   },
+   {
+    "w": "horseback.",
+    "n": "horseback",
+    "s": 9.68,
+    "e": 10.2,
+    "p": 0.997
+   },
+   {
+    "w": "And",
+    "n": "and",
+    "s": 10.64,
+    "e": 10.72,
+    "p": 0.966
+   },
+   {
+    "w": "once",
+    "n": "once",
+    "s": 10.72,
+    "e": 10.96,
+    "p": 0.996
+   },
+   {
+    "w": "at",
+    "n": "at",
+    "s": 10.96,
+    "e": 11.14,
+    "p": 0.994
+   },
+   {
+    "w": "a",
+    "n": "a",
+    "s": 11.14,
+    "e": 11.24,
+    "p": 0.999
+   },
+   {
+    "w": "ballot.",
+    "n": "ballot",
+    "s": 11.24,
+    "e": 11.44,
+    "p": 0.923
+   }
+  ],
+  "diff": []
+ },
+ "S15": {
+  "text": "For many Jewish people, that vote is remembered as a rescue, after the Holocaust. For Palestinians, what followed in nineteen forty-eight is remembered as the Nakba. The catastrophe. When more than seven hundred thousand people fled or were expelled from their homes. The same event. Remembered in two opposite ways.",
+  "words": [
+   {
+    "w": "For",
+    "n": "for",
+    "s": 0.0,
+    "e": 0.24,
+    "p": 0.924
+   },
+   {
+    "w": "many",
+    "n": "many",
+    "s": 0.24,
+    "e": 0.44,
+    "p": 0.997
+   },
+   {
+    "w": "Jewish",
+    "n": "jewish",
+    "s": 0.44,
+    "e": 0.72,
+    "p": 0.978
+   },
+   {
+    "w": "people,",
+    "n": "people",
+    "s": 0.72,
+    "e": 1.2,
+    "p": 0.988
+   },
+   {
+    "w": "that",
+    "n": "that",
+    "s": 1.44,
+    "e": 1.62,
+    "p": 0.99
+   },
+   {
+    "w": "vote",
+    "n": "vote",
+    "s": 1.62,
+    "e": 1.82,
+    "p": 0.997
+   },
+   {
+    "w": "is",
+    "n": "is",
+    "s": 1.82,
+    "e": 1.96,
+    "p": 0.996
+   },
+   {
+    "w": "remembered",
+    "n": "remembered",
+    "s": 1.96,
+    "e": 2.3,
+    "p": 0.994
+   },
+   {
+    "w": "as",
+    "n": "as",
+    "s": 2.3,
+    "e": 2.58,
+    "p": 0.997
+   },
+   {
+    "w": "a",
+    "n": "a",
+    "s": 2.58,
+    "e": 2.72,
+    "p": 0.993
+   },
+   {
+    "w": "rescue,",
+    "n": "rescue",
+    "s": 2.72,
+    "e": 3.14,
+    "p": 0.934
+   },
+   {
+    "w": "after",
+    "n": "after",
+    "s": 3.46,
+    "e": 3.72,
+    "p": 0.997
+   },
+   {
+    "w": "the",
+    "n": "the",
+    "s": 3.72,
+    "e": 3.9,
+    "p": 0.996
+   },
+   {
+    "w": "Holocaust.",
+    "n": "holocaust",
+    "s": 3.9,
+    "e": 4.32,
+    "p": 0.862
+   },
+   {
+    "w": "For",
+    "n": "for",
+    "s": 5.08,
+    "e": 5.16,
+    "p": 0.996
+   },
+   {
+    "w": "Palestinians,",
+    "n": "palestinians",
+    "s": 5.16,
+    "e": 5.66,
+    "p": 0.991
+   },
+   {
+    "w": "what",
+    "n": "what",
+    "s": 6.3,
+    "e": 6.4,
+    "p": 0.994
+   },
+   {
+    "w": "followed",
+    "n": "followed",
+    "s": 6.4,
+    "e": 6.72,
+    "p": 0.999
+   },
+   {
+    "w": "in",
+    "n": "in",
+    "s": 6.72,
+    "e": 6.94,
+    "p": 0.992
+   },
+   {
+    "w": "nineteen",
+    "n": "nineteen",
+    "s": 6.94,
+    "e": 7.26,
+    "p": 0.001
+   },
+   {
+    "w": "forty",
+    "n": "forty",
+    "s": 7.26,
+    "e": 7.54,
+    "p": 0.803
+   },
+   {
+    "w": "-eight",
+    "n": "eight",
+    "s": 7.54,
+    "e": 7.86,
+    "p": 0.721
+   },
+   {
+    "w": "is",
+    "n": "is",
+    "s": 7.86,
+    "e": 8.1,
+    "p": 0.782
+   },
+   {
+    "w": "remembered",
+    "n": "remembered",
+    "s": 8.1,
+    "e": 8.44,
+    "p": 0.989
+   },
+   {
+    "w": "as",
+    "n": "as",
+    "s": 8.44,
+    "e": 8.72,
+    "p": 0.996
+   },
+   {
+    "w": "the",
+    "n": "the",
+    "s": 8.72,
+    "e": 8.9,
+    "p": 0.965
+   },
+   {
+    "w": "Nakba.",
+    "n": "nakba",
+    "s": 8.9,
+    "e": 9.4,
+    "p": 0.633
+   },
+   {
+    "w": "The",
+    "n": "the",
+    "s": 9.82,
+    "e": 10.0,
+    "p": 0.937
+   },
+   {
+    "w": "catastrophe.",
+    "n": "catastrophe",
+    "s": 10.0,
+    "e": 10.54,
+    "p": 0.878
+   },
+   {
+    "w": "When",
+    "n": "when",
+    "s": 11.2,
+    "e": 11.34,
+    "p": 0.988
+   },
+   {
+    "w": "more",
+    "n": "more",
+    "s": 11.34,
+    "e": 11.52,
+    "p": 0.997
+   },
+   {
+    "w": "than",
+    "n": "than",
+    "s": 11.52,
+    "e": 11.76,
+    "p": 0.971
+   },
+   {
+    "w": "seven",
+    "n": "seven",
+    "s": 11.76,
+    "e": 12.02,
+    "p": 0.734
+   },
+   {
+    "w": "hundred",
+    "n": "hundred",
+    "s": 12.02,
+    "e": 12.38,
+    "p": 0.938
+   },
+   {
+    "w": "thousand",
+    "n": "thousand",
+    "s": 12.38,
+    "e": 12.74,
+    "p": 0.982
+   },
+   {
+    "w": "people",
+    "n": "people",
+    "s": 12.74,
+    "e": 13.14,
+    "p": 0.997
+   },
+   {
+    "w": "fled",
+    "n": "fled",
+    "s": 13.14,
+    "e": 13.52,
+    "p": 0.998
+   },
+   {
+    "w": "or",
+    "n": "or",
+    "s": 13.52,
+    "e": 13.8,
+    "p": 0.876
+   },
+   {
+    "w": "were",
+    "n": "were",
+    "s": 13.8,
+    "e": 13.94,
+    "p": 0.981
+   },
+   {
+    "w": "expelled",
+    "n": "expelled",
+    "s": 13.94,
+    "e": 14.3,
+    "p": 0.996
+   },
+   {
+    "w": "from",
+    "n": "from",
+    "s": 14.3,
+    "e": 14.58,
+    "p": 0.996
+   },
+   {
+    "w": "their",
+    "n": "their",
+    "s": 14.58,
+    "e": 14.72,
+    "p": 0.994
+   },
+   {
+    "w": "homes.",
+    "n": "homes",
+    "s": 14.72,
+    "e": 15.04,
+    "p": 0.995
+   },
+   {
+    "w": "The",
+    "n": "the",
+    "s": 15.58,
+    "e": 15.72,
+    "p": 0.989
+   },
+   {
+    "w": "same",
+    "n": "same",
+    "s": 15.72,
+    "e": 15.92,
+    "p": 0.999
+   },
+   {
+    "w": "event.",
+    "n": "event",
+    "s": 15.92,
+    "e": 16.28,
+    "p": 0.994
+   },
+   {
+    "w": "Remembered",
+    "n": "remembered",
+    "s": 16.72,
+    "e": 17.0,
+    "p": 0.974
+   },
+   {
+    "w": "in",
+    "n": "in",
+    "s": 17.0,
+    "e": 17.14,
+    "p": 0.998
+   },
+   {
+    "w": "two",
+    "n": "two",
+    "s": 17.14,
+    "e": 17.42,
+    "p": 0.987
+   },
+   {
+    "w": "opposite",
+    "n": "opposite",
+    "s": 17.42,
+    "e": 17.78,
+    "p": 0.982
+   },
+   {
+    "w": "ways.",
+    "n": "ways",
+    "s": 17.78,
+    "e": 18.2,
+    "p": 0.997
+   },
+   {
+    "w": "Please.",
+    "n": "please",
+    "s": 18.2,
+    "e": 18.34,
+    "p": 0.024
+   }
+  ],
+  "diff": [
+   {
+    "op": "replace",
+    "ref": "fortyeight",
+    "hyp": "forty eight"
+   },
+   {
+    "op": "insert",
+    "ref": "",
+    "hyp": "please"
+   }
+  ]
+ },
+ "S16": {
+  "text": "Both memories sailed to Australia. Melbourne became home to one of the largest communities of Holocaust survivors outside Israel. Palestinian, Lebanese and other Arab families settled in Sydney's south-west. Today, about one hundred thousand Jewish Australians, and more than eight hundred thousand Muslim Australians, call this country home.",
+  "words": [
+   {
+    "w": "Both",
+    "n": "both",
+    "s": 0.0,
+    "e": 0.32,
+    "p": 0.923
+   },
+   {
+    "w": "memories",
+    "n": "memories",
+    "s": 0.32,
+    "e": 0.74,
+    "p": 0.998
+   },
+   {
+    "w": "sailed",
+    "n": "sailed",
+    "s": 0.74,
+    "e": 1.04,
+    "p": 0.455
+   },
+   {
+    "w": "to",
+    "n": "to",
+    "s": 1.04,
+    "e": 1.26,
+    "p": 1.0
+   },
+   {
+    "w": "Australia.",
+    "n": "australia",
+    "s": 1.26,
+    "e": 1.78,
+    "p": 0.997
+   },
+   {
+    "w": "Melbourne",
+    "n": "melbourne",
+    "s": 2.56,
+    "e": 2.72,
+    "p": 0.835
+   },
+   {
+    "w": "became",
+    "n": "became",
+    "s": 2.72,
+    "e": 3.08,
+    "p": 0.998
+   },
+   {
+    "w": "home",
+    "n": "home",
+    "s": 3.08,
+    "e": 3.36,
+    "p": 1.0
+   },
+   {
+    "w": "to",
+    "n": "to",
+    "s": 3.36,
+    "e": 3.56,
+    "p": 1.0
+   },
+   {
+    "w": "one",
+    "n": "one",
+    "s": 3.56,
+    "e": 3.68,
+    "p": 0.999
+   },
+   {
+    "w": "of",
+    "n": "of",
+    "s": 3.68,
+    "e": 3.78,
+    "p": 0.999
+   },
+   {
+    "w": "the",
+    "n": "the",
+    "s": 3.78,
+    "e": 3.92,
+    "p": 1.0
+   },
+   {
+    "w": "largest",
+    "n": "largest",
+    "s": 3.92,
+    "e": 4.24,
+    "p": 1.0
+   },
+   {
+    "w": "communities",
+    "n": "communities",
+    "s": 4.24,
+    "e": 4.66,
+    "p": 0.999
+   },
+   {
+    "w": "of",
+    "n": "of",
+    "s": 4.66,
+    "e": 5.04,
+    "p": 1.0
+   },
+   {
+    "w": "Holocaust",
+    "n": "holocaust",
+    "s": 5.04,
+    "e": 5.42,
+    "p": 0.971
+   },
+   {
+    "w": "survivors",
+    "n": "survivors",
+    "s": 5.42,
+    "e": 5.92,
+    "p": 0.987
+   },
+   {
+    "w": "outside",
+    "n": "outside",
+    "s": 5.92,
+    "e": 6.42,
+    "p": 0.999
+   },
+   {
+    "w": "Israel.",
+    "n": "israel",
+    "s": 6.42,
+    "e": 6.88,
+    "p": 0.996
+   },
+   {
+    "w": "Palestinian,",
+    "n": "palestinian",
+    "s": 7.6,
+    "e": 7.96,
+    "p": 0.967
+   },
+   {
+    "w": "Lebanese",
+    "n": "lebanese",
+    "s": 8.5,
+    "e": 8.82,
+    "p": 0.999
+   },
+   {
+    "w": "and",
+    "n": "and",
+    "s": 8.82,
+    "e": 9.14,
+    "p": 0.742
+   },
+   {
+    "w": "other",
+    "n": "other",
+    "s": 9.14,
+    "e": 9.38,
+    "p": 1.0
+   },
+   {
+    "w": "Arab",
+    "n": "arab",
+    "s": 9.38,
+    "e": 9.66,
+    "p": 0.997
+   },
+   {
+    "w": "families",
+    "n": "families",
+    "s": 9.66,
+    "e": 10.04,
+    "p": 0.989
+   },
+   {
+    "w": "settled",
+    "n": "settled",
+    "s": 10.04,
+    "e": 10.34,
+    "p": 0.999
+   },
+   {
+    "w": "in",
+    "n": "in",
+    "s": 10.34,
+    "e": 10.6,
+    "p": 1.0
+   },
+   {
+    "w": "Sydney's",
+    "n": "sydney's",
+    "s": 10.6,
+    "e": 11.12,
+    "p": 0.798
+   },
+   {
+    "w": "south",
+    "n": "south",
+    "s": 11.12,
+    "e": 11.2,
+    "p": 0.056
+   },
+   {
+    "w": "-west.",
+    "n": "west",
+    "s": 11.2,
+    "e": 11.52,
+    "p": 0.789
+   },
+   {
+    "w": "Today,",
+    "n": "today",
+    "s": 12.22,
+    "e": 12.46,
+    "p": 0.999
+   },
+   {
+    "w": "about",
+    "n": "about",
+    "s": 12.72,
+    "e": 12.86,
+    "p": 0.997
+   },
+   {
+    "w": "one",
+    "n": "one",
+    "s": 12.86,
+    "e": 13.1,
+    "p": 0.036
+   },
+   {
+    "w": "hundred",
+    "n": "hundred",
+    "s": 13.1,
+    "e": 13.36,
+    "p": 0.893
+   },
+   {
+    "w": "thousand",
+    "n": "thousand",
+    "s": 13.36,
+    "e": 13.74,
+    "p": 0.982
+   },
+   {
+    "w": "Jewish",
+    "n": "jewish",
+    "s": 13.74,
+    "e": 14.04,
+    "p": 0.994
+   },
+   {
+    "w": "Australians,",
+    "n": "australians",
+    "s": 14.04,
+    "e": 14.68,
+    "p": 0.964
+   },
+   {
+    "w": "and",
+    "n": "and",
+    "s": 15.18,
+    "e": 15.26,
+    "p": 0.996
+   },
+   {
+    "w": "more",
+    "n": "more",
+    "s": 15.26,
+    "e": 15.4,
+    "p": 0.999
+   },
+   {
+    "w": "than",
+    "n": "than",
+    "s": 15.4,
+    "e": 15.56,
+    "p": 0.997
+   },
+   {
+    "w": "eight",
+    "n": "eight",
+    "s": 15.56,
+    "e": 15.78,
+    "p": 0.834
+   },
+   {
+    "w": "hundred",
+    "n": "hundred",
+    "s": 15.78,
+    "e": 16.08,
+    "p": 0.955
+   },
+   {
+    "w": "thousand",
+    "n": "thousand",
+    "s": 16.08,
+    "e": 16.48,
+    "p": 0.995
+   },
+   {
+    "w": "Muslim",
+    "n": "muslim",
+    "s": 16.48,
+    "e": 16.78,
+    "p": 0.995
+   },
+   {
+    "w": "Australians,",
+    "n": "australians",
+    "s": 16.78,
+    "e": 17.22,
+    "p": 0.986
+   },
+   {
+    "w": "call",
+    "n": "call",
+    "s": 17.52,
+    "e": 17.7,
+    "p": 0.995
+   },
+   {
+    "w": "this",
+    "n": "this",
+    "s": 17.7,
+    "e": 17.9,
+    "p": 0.999
+   },
+   {
+    "w": "country",
+    "n": "country",
+    "s": 17.9,
+    "e": 18.2,
+    "p": 0.999
+   },
+   {
+    "w": "home.",
+    "n": "home",
+    "s": 18.2,
+    "e": 18.5,
+    "p": 0.985
+   }
+  ],
+  "diff": [
+   {
+    "op": "replace",
+    "ref": "southwest",
+    "hyp": "south west"
+   }
+  ]
+ },
+ "S17": {
+  "text": "So when war comes to the Middle East, it doesn't stay there. It arrives in Australian homes, as family. And in the two years before Bondi, it arrived in Canberra too.",
+  "words": [
+   {
+    "w": "So",
+    "n": "so",
+    "s": 0.0,
+    "e": 0.34,
+    "p": 0.932
+   },
+   {
+    "w": "when",
+    "n": "when",
+    "s": 0.34,
+    "e": 0.5,
+    "p": 0.843
+   },
+   {
+    "w": "war",
+    "n": "war",
+    "s": 0.5,
+    "e": 0.72,
+    "p": 0.975
+   },
+   {
+    "w": "comes",
+    "n": "comes",
+    "s": 0.72,
+    "e": 0.98,
+    "p": 0.995
+   },
+   {
+    "w": "to",
+    "n": "to",
+    "s": 0.98,
+    "e": 1.18,
+    "p": 0.994
+   },
+   {
+    "w": "the",
+    "n": "the",
+    "s": 1.18,
+    "e": 1.28,
+    "p": 0.997
+   },
+   {
+    "w": "Middle",
+    "n": "middle",
+    "s": 1.28,
+    "e": 1.38,
+    "p": 0.656
+   },
+   {
+    "w": "East,",
+    "n": "east",
+    "s": 1.38,
+    "e": 1.68,
+    "p": 0.971
+   },
+   {
+    "w": "it",
+    "n": "it",
+    "s": 1.86,
+    "e": 1.94,
+    "p": 0.989
+   },
+   {
+    "w": "doesn't",
+    "n": "doesn't",
+    "s": 1.94,
+    "e": 2.22,
+    "p": 0.991
+   },
+   {
+    "w": "stay",
+    "n": "stay",
+    "s": 2.22,
+    "e": 2.48,
+    "p": 0.996
+   },
+   {
+    "w": "there.",
+    "n": "there",
+    "s": 2.48,
+    "e": 2.74,
+    "p": 0.998
+   },
+   {
+    "w": "It",
+    "n": "it",
+    "s": 2.98,
+    "e": 3.04,
+    "p": 0.99
+   },
+   {
+    "w": "arrives",
+    "n": "arrives",
+    "s": 3.04,
+    "e": 3.4,
+    "p": 0.996
+   },
+   {
+    "w": "in",
+    "n": "in",
+    "s": 3.4,
+    "e": 3.6,
+    "p": 0.996
+   },
+   {
+    "w": "Australian",
+    "n": "australian",
+    "s": 3.6,
+    "e": 3.96,
+    "p": 0.948
+   },
+   {
+    "w": "homes,",
+    "n": "homes",
+    "s": 3.96,
+    "e": 4.5,
+    "p": 0.994
+   },
+   {
+    "w": "as",
+    "n": "as",
+    "s": 4.78,
+    "e": 4.94,
+    "p": 0.997
+   },
+   {
+    "w": "family.",
+    "n": "family",
+    "s": 4.94,
+    "e": 5.34,
+    "p": 0.976
+   },
+   {
+    "w": "And",
+    "n": "and",
+    "s": 6.08,
+    "e": 6.18,
+    "p": 0.971
+   },
+   {
+    "w": "in",
+    "n": "in",
+    "s": 6.18,
+    "e": 6.26,
+    "p": 0.976
+   },
+   {
+    "w": "the",
+    "n": "the",
+    "s": 6.26,
+    "e": 6.38,
+    "p": 0.995
+   },
+   {
+    "w": "two",
+    "n": "two",
+    "s": 6.38,
+    "e": 6.6,
+    "p": 0.89
+   },
+   {
+    "w": "years",
+    "n": "years",
+    "s": 6.6,
+    "e": 6.82,
+    "p": 0.994
+   },
+   {
+    "w": "before",
+    "n": "before",
+    "s": 6.82,
+    "e": 7.2,
+    "p": 0.998
+   },
+   {
+    "w": "Bondi,",
+    "n": "bondi",
+    "s": 7.2,
+    "e": 7.8,
+    "p": 0.758
+   },
+   {
+    "w": "it",
+    "n": "it",
+    "s": 7.96,
+    "e": 8.06,
+    "p": 0.988
+   },
+   {
+    "w": "arrived",
+    "n": "arrived",
+    "s": 8.06,
+    "e": 8.38,
+    "p": 0.994
+   },
+   {
+    "w": "in",
+    "n": "in",
+    "s": 8.38,
+    "e": 8.6,
+    "p": 0.999
+   },
+   {
+    "w": "Canberra",
+    "n": "canberra",
+    "s": 8.6,
+    "e": 9.0,
+    "p": 0.955
+   },
+   {
+    "w": "too.",
+    "n": "too",
+    "s": 9.0,
+    "e": 9.38,
+    "p": 0.765
+   }
+  ],
+  "diff": []
+ },
+ "S18": {
+  "text": "First, a choice almost nobody noticed. Dozens of Australian companies make parts for the F thirty-five fighter jet, and those parts go into a shared global pool. Australia's air force flies the F thirty-five. So does Israel's.",
+  "words": [
+   {
+    "w": "First,",
+    "n": "first",
+    "s": 0.0,
+    "e": 0.44,
+    "p": 0.983
+   },
+   {
+    "w": "a",
+    "n": "a",
+    "s": 0.74,
+    "e": 0.8,
+    "p": 0.993
+   },
+   {
+    "w": "choice",
+    "n": "choice",
+    "s": 0.8,
+    "e": 1.08,
+    "p": 1.0
+   },
+   {
+    "w": "almost",
+    "n": "almost",
+    "s": 1.08,
+    "e": 1.38,
+    "p": 0.994
+   },
+   {
+    "w": "nobody",
+    "n": "nobody",
+    "s": 1.38,
+    "e": 1.82,
+    "p": 0.998
+   },
+   {
+    "w": "noticed.",
+    "n": "noticed",
+    "s": 1.82,
+    "e": 2.34,
+    "p": 0.998
+   },
+   {
+    "w": "Dozens",
+    "n": "dozens",
+    "s": 3.12,
+    "e": 3.12,
+    "p": 0.993
+   },
+   {
+    "w": "of",
+    "n": "of",
+    "s": 3.12,
+    "e": 3.34,
+    "p": 1.0
+   },
+   {
+    "w": "Australian",
+    "n": "australian",
+    "s": 3.34,
+    "e": 3.74,
+    "p": 0.994
+   },
+   {
+    "w": "companies",
+    "n": "companies",
+    "s": 3.74,
+    "e": 4.22,
+    "p": 0.998
+   },
+   {
+    "w": "make",
+    "n": "make",
+    "s": 4.22,
+    "e": 4.52,
+    "p": 0.998
+   },
+   {
+    "w": "parts",
+    "n": "parts",
+    "s": 4.52,
+    "e": 4.8,
+    "p": 0.997
+   },
+   {
+    "w": "for",
+    "n": "for",
+    "s": 4.8,
+    "e": 5.0,
+    "p": 0.999
+   },
+   {
+    "w": "the",
+    "n": "the",
+    "s": 5.0,
+    "e": 5.1,
+    "p": 0.999
+   },
+   {
+    "w": "F",
+    "n": "f",
+    "s": 5.1,
+    "e": 5.3,
+    "p": 0.997
+   },
+   {
+    "w": "thirty",
+    "n": "thirty",
+    "s": 5.3,
+    "e": 5.52,
+    "p": 0.0
+   },
+   {
+    "w": "-five",
+    "n": "five",
+    "s": 5.52,
+    "e": 5.86,
+    "p": 0.857
+   },
+   {
+    "w": "fighter",
+    "n": "fighter",
+    "s": 5.86,
+    "e": 6.12,
+    "p": 0.997
+   },
+   {
+    "w": "jet,",
+    "n": "jet",
+    "s": 6.12,
+    "e": 6.4,
+    "p": 0.983
+   },
+   {
+    "w": "and",
+    "n": "and",
+    "s": 6.72,
+    "e": 6.94,
+    "p": 0.995
+   },
+   {
+    "w": "those",
+    "n": "those",
+    "s": 6.94,
+    "e": 7.14,
+    "p": 0.999
+   },
+   {
+    "w": "parts",
+    "n": "parts",
+    "s": 7.14,
+    "e": 7.4,
+    "p": 0.999
+   },
+   {
+    "w": "go",
+    "n": "go",
+    "s": 7.4,
+    "e": 7.62,
+    "p": 0.998
+   },
+   {
+    "w": "into",
+    "n": "into",
+    "s": 7.62,
+    "e": 7.8,
+    "p": 0.997
+   },
+   {
+    "w": "a",
+    "n": "a",
+    "s": 7.8,
+    "e": 7.98,
+    "p": 0.999
+   },
+   {
+    "w": "shared",
+    "n": "shared",
+    "s": 7.98,
+    "e": 8.22,
+    "p": 0.999
+   },
+   {
+    "w": "global",
+    "n": "global",
+    "s": 8.22,
+    "e": 8.54,
+    "p": 0.984
+   },
+   {
+    "w": "pool.",
+    "n": "pool",
+    "s": 8.54,
+    "e": 8.96,
+    "p": 0.994
+   },
+   {
+    "w": "Australia's",
+    "n": "australia's",
+    "s": 9.64,
+    "e": 10.1,
+    "p": 0.991
+   },
+   {
+    "w": "air",
+    "n": "air",
+    "s": 10.1,
+    "e": 10.26,
+    "p": 0.38
+   },
+   {
+    "w": "force",
+    "n": "force",
+    "s": 10.26,
+    "e": 10.54,
+    "p": 0.973
+   },
+   {
+    "w": "flies",
+    "n": "flies",
+    "s": 10.54,
+    "e": 10.84,
+    "p": 0.991
+   },
+   {
+    "w": "the",
+    "n": "the",
+    "s": 10.84,
+    "e": 11.06,
+    "p": 0.998
+   },
+   {
+    "w": "F",
+    "n": "f",
+    "s": 11.06,
+    "e": 11.26,
+    "p": 0.988
+   },
+   {
+    "w": "thirty",
+    "n": "thirty",
+    "s": 11.26,
+    "e": 11.46,
+    "p": 0.586
+   },
+   {
+    "w": "-five.",
+    "n": "five",
+    "s": 11.46,
+    "e": 11.94,
+    "p": 0.969
+   },
+   {
+    "w": "So",
+    "n": "so",
+    "s": 12.36,
+    "e": 12.44,
+    "p": 0.991
+   },
+   {
+    "w": "does",
+    "n": "does",
+    "s": 12.44,
+    "e": 12.6,
+    "p": 0.989
+   },
+   {
+    "w": "Israel's.",
+    "n": "israel's",
+    "s": 12.6,
+    "e": 13.24,
+    "p": 0.988
+   }
+  ],
+  "diff": [
+   {
+    "op": "replace",
+    "ref": "thirtyfive",
+    "hyp": "thirty five"
+   },
+   {
+    "op": "replace",
+    "ref": "thirtyfive",
+    "hyp": "thirty five"
+   }
+  ]
+ },
+ "S19": {
+  "text": "Critics, including human rights groups and the Greens, say that makes Australia part of the war. The government says Australia has not supplied weapons to Israel since the war began, and that the parts are a separate matter that would not change what Israel can do.",
+  "words": [
+   {
+    "w": "Critics,",
+    "n": "critics",
+    "s": 0.0,
+    "e": 0.44,
+    "p": 0.984
+   },
+   {
+    "w": "including",
+    "n": "including",
+    "s": 1.08,
+    "e": 1.08,
+    "p": 0.997
+   },
+   {
+    "w": "human",
+    "n": "human",
+    "s": 1.08,
+    "e": 1.34,
+    "p": 0.958
+   },
+   {
+    "w": "rights",
+    "n": "rights",
+    "s": 1.34,
+    "e": 1.68,
+    "p": 0.992
+   },
+   {
+    "w": "groups",
+    "n": "groups",
+    "s": 1.68,
+    "e": 1.94,
+    "p": 0.995
+   },
+   {
+    "w": "and",
+    "n": "and",
+    "s": 1.94,
+    "e": 2.16,
+    "p": 0.276
+   },
+   {
+    "w": "the",
+    "n": "the",
+    "s": 2.16,
+    "e": 2.3,
+    "p": 0.984
+   },
+   {
+    "w": "Greens,",
+    "n": "greens",
+    "s": 2.3,
+    "e": 2.58,
+    "p": 0.665
+   },
+   {
+    "w": "say",
+    "n": "say",
+    "s": 3.0,
+    "e": 3.28,
+    "p": 0.993
+   },
+   {
+    "w": "that",
+    "n": "that",
+    "s": 3.28,
+    "e": 3.48,
+    "p": 0.995
+   },
+   {
+    "w": "makes",
+    "n": "makes",
+    "s": 3.48,
+    "e": 3.74,
+    "p": 0.974
+   },
+   {
+    "w": "Australia",
+    "n": "australia",
+    "s": 3.74,
+    "e": 4.2,
+    "p": 0.993
+   },
+   {
+    "w": "part",
+    "n": "part",
+    "s": 4.2,
+    "e": 4.56,
+    "p": 0.887
+   },
+   {
+    "w": "of",
+    "n": "of",
+    "s": 4.56,
+    "e": 4.68,
+    "p": 0.999
+   },
+   {
+    "w": "the",
+    "n": "the",
+    "s": 4.68,
+    "e": 4.78,
+    "p": 0.996
+   },
+   {
+    "w": "war.",
+    "n": "war",
+    "s": 4.78,
+    "e": 5.06,
+    "p": 0.984
+   },
+   {
+    "w": "The",
+    "n": "the",
+    "s": 5.66,
+    "e": 5.74,
+    "p": 0.991
+   },
+   {
+    "w": "government",
+    "n": "government",
+    "s": 5.74,
+    "e": 5.96,
+    "p": 0.974
+   },
+   {
+    "w": "says",
+    "n": "says",
+    "s": 5.96,
+    "e": 6.34,
+    "p": 0.993
+   },
+   {
+    "w": "Australia",
+    "n": "australia",
+    "s": 6.34,
+    "e": 6.84,
+    "p": 0.981
+   },
+   {
+    "w": "has",
+    "n": "has",
+    "s": 6.84,
+    "e": 7.1,
+    "p": 0.987
+   },
+   {
+    "w": "not",
+    "n": "not",
+    "s": 7.1,
+    "e": 7.38,
+    "p": 0.991
+   },
+   {
+    "w": "supplied",
+    "n": "supplied",
+    "s": 7.38,
+    "e": 7.78,
+    "p": 0.998
+   },
+   {
+    "w": "weapons",
+    "n": "weapons",
+    "s": 7.78,
+    "e": 8.12,
+    "p": 0.999
+   },
+   {
+    "w": "to",
+    "n": "to",
+    "s": 8.12,
+    "e": 8.36,
+    "p": 0.998
+   },
+   {
+    "w": "Israel",
+    "n": "israel",
+    "s": 8.36,
+    "e": 8.7,
+    "p": 0.998
+   },
+   {
+    "w": "since",
+    "n": "since",
+    "s": 8.7,
+    "e": 8.94,
+    "p": 0.997
+   },
+   {
+    "w": "the",
+    "n": "the",
+    "s": 8.94,
+    "e": 9.14,
+    "p": 0.999
+   },
+   {
+    "w": "war",
+    "n": "war",
+    "s": 9.14,
+    "e": 9.3,
+    "p": 0.99
+   },
+   {
+    "w": "began,",
+    "n": "began",
+    "s": 9.3,
+    "e": 9.74,
+    "p": 0.993
+   },
+   {
+    "w": "and",
+    "n": "and",
+    "s": 10.0,
+    "e": 10.32,
+    "p": 0.993
+   },
+   {
+    "w": "that",
+    "n": "that",
+    "s": 10.32,
+    "e": 10.42,
+    "p": 0.994
+   },
+   {
+    "w": "the",
+    "n": "the",
+    "s": 10.42,
+    "e": 10.56,
+    "p": 0.98
+   },
+   {
+    "w": "parts",
+    "n": "parts",
+    "s": 10.56,
+    "e": 10.82,
+    "p": 0.987
+   },
+   {
+    "w": "are",
+    "n": "are",
+    "s": 10.82,
+    "e": 11.02,
+    "p": 0.997
+   },
+   {
+    "w": "a",
+    "n": "a",
+    "s": 11.02,
+    "e": 11.16,
+    "p": 0.974
+   },
+   {
+    "w": "separate",
+    "n": "separate",
+    "s": 11.16,
+    "e": 11.42,
+    "p": 0.989
+   },
+   {
+    "w": "matter",
+    "n": "matter",
+    "s": 11.42,
+    "e": 11.76,
+    "p": 0.999
+   },
+   {
+    "w": "that",
+    "n": "that",
+    "s": 11.76,
+    "e": 12.0,
+    "p": 0.99
+   },
+   {
+    "w": "would",
+    "n": "would",
+    "s": 12.0,
+    "e": 12.16,
+    "p": 0.993
+   },
+   {
+    "w": "not",
+    "n": "not",
+    "s": 12.16,
+    "e": 12.42,
+    "p": 0.995
+   },
+   {
+    "w": "change",
+    "n": "change",
+    "s": 12.42,
+    "e": 12.7,
+    "p": 0.999
+   },
+   {
+    "w": "what",
+    "n": "what",
+    "s": 12.7,
+    "e": 12.94,
+    "p": 0.998
+   },
+   {
+    "w": "Israel",
+    "n": "israel",
+    "s": 12.94,
+    "e": 13.28,
+    "p": 0.994
+   },
+   {
+    "w": "can",
+    "n": "can",
+    "s": 13.28,
+    "e": 13.52,
+    "p": 0.995
+   },
+   {
+    "w": "do.",
+    "n": "do",
+    "s": 13.52,
+    "e": 13.78,
+    "p": 0.999
+   }
+  ],
+  "diff": []
+ },
+ "S20": {
+  "text": "Then, a choice everyone noticed. In August twenty twenty-five, the Prime Minister announced Australia would recognise the State of Palestine. He called a two-state solution, quote, humanity's best hope to break the cycle of violence. And he reminded the country that Australia had been the first to back the U.N. plan, back in nineteen forty-seven.",
+  "words": [
+   {
+    "w": "Then,",
+    "n": "then",
+    "s": 0.0,
+    "e": 0.48,
+    "p": 0.95
+   },
+   {
+    "w": "a",
+    "n": "a",
+    "s": 0.68,
+    "e": 0.78,
+    "p": 0.995
+   },
+   {
+    "w": "choice",
+    "n": "choice",
+    "s": 0.78,
+    "e": 1.1,
+    "p": 0.999
+   },
+   {
+    "w": "everyone",
+    "n": "everyone",
+    "s": 1.1,
+    "e": 1.54,
+    "p": 0.996
+   },
+   {
+    "w": "noticed.",
+    "n": "noticed",
+    "s": 1.54,
+    "e": 1.96,
+    "p": 0.998
+   },
+   {
+    "w": "In",
+    "n": "in",
+    "s": 2.58,
+    "e": 2.7,
+    "p": 0.996
+   },
+   {
+    "w": "August",
+    "n": "august",
+    "s": 2.7,
+    "e": 3.02,
+    "p": 0.991
+   },
+   {
+    "w": "twenty",
+    "n": "twenty",
+    "s": 3.02,
+    "e": 3.38,
+    "p": 0.0
+   },
+   {
+    "w": "twenty",
+    "n": "twenty",
+    "s": 3.38,
+    "e": 3.62,
+    "p": 0.834
+   },
+   {
+    "w": "-five,",
+    "n": "five",
+    "s": 3.62,
+    "e": 4.02,
+    "p": 0.771
+   },
+   {
+    "w": "the",
+    "n": "the",
+    "s": 4.36,
+    "e": 4.46,
+    "p": 0.993
+   },
+   {
+    "w": "Prime",
+    "n": "prime",
+    "s": 4.46,
+    "e": 4.66,
+    "p": 0.569
+   },
+   {
+    "w": "Minister",
+    "n": "minister",
+    "s": 4.66,
+    "e": 5.02,
+    "p": 0.993
+   },
+   {
+    "w": "announced",
+    "n": "announced",
+    "s": 5.02,
+    "e": 5.46,
+    "p": 0.999
+   },
+   {
+    "w": "Australia",
+    "n": "australia",
+    "s": 5.46,
+    "e": 5.98,
+    "p": 0.995
+   },
+   {
+    "w": "would",
+    "n": "would",
+    "s": 5.98,
+    "e": 6.26,
+    "p": 1.0
+   },
+   {
+    "w": "recognise",
+    "n": "recognise",
+    "s": 6.26,
+    "e": 6.74,
+    "p": 0.11
+   },
+   {
+    "w": "the",
+    "n": "the",
+    "s": 6.74,
+    "e": 7.0,
+    "p": 0.998
+   },
+   {
+    "w": "State",
+    "n": "state",
+    "s": 7.0,
+    "e": 7.22,
+    "p": 0.163
+   },
+   {
+    "w": "of",
+    "n": "of",
+    "s": 7.22,
+    "e": 7.38,
+    "p": 0.999
+   },
+   {
+    "w": "Palestine.",
+    "n": "palestine",
+    "s": 7.38,
+    "e": 7.84,
+    "p": 0.998
+   },
+   {
+    "w": "He",
+    "n": "he",
+    "s": 8.44,
+    "e": 8.54,
+    "p": 0.996
+   },
+   {
+    "w": "called",
+    "n": "called",
+    "s": 8.54,
+    "e": 8.72,
+    "p": 0.999
+   },
+   {
+    "w": "a",
+    "n": "a",
+    "s": 8.72,
+    "e": 8.9,
+    "p": 0.984
+   },
+   {
+    "w": "two",
+    "n": "two",
+    "s": 8.9,
+    "e": 9.08,
+    "p": 0.94
+   },
+   {
+    "w": "-state",
+    "n": "state",
+    "s": 9.08,
+    "e": 9.32,
+    "p": 0.931
+   },
+   {
+    "w": "solution,",
+    "n": "solution",
+    "s": 9.32,
+    "e": 9.82,
+    "p": 0.996
+   },
+   {
+    "w": "quote,",
+    "n": "quote",
+    "s": 10.06,
+    "e": 10.18,
+    "p": 0.809
+   },
+   {
+    "w": "humanity's",
+    "n": "humanity's",
+    "s": 10.76,
+    "e": 11.18,
+    "p": 0.572
+   },
+   {
+    "w": "best",
+    "n": "best",
+    "s": 11.18,
+    "e": 11.36,
+    "p": 0.946
+   },
+   {
+    "w": "hope",
+    "n": "hope",
+    "s": 11.36,
+    "e": 11.64,
+    "p": 0.998
+   },
+   {
+    "w": "to",
+    "n": "to",
+    "s": 11.64,
+    "e": 11.88,
+    "p": 0.994
+   },
+   {
+    "w": "break",
+    "n": "break",
+    "s": 11.88,
+    "e": 12.04,
+    "p": 0.982
+   },
+   {
+    "w": "the",
+    "n": "the",
+    "s": 12.04,
+    "e": 12.24,
+    "p": 0.997
+   },
+   {
+    "w": "cycle",
+    "n": "cycle",
+    "s": 12.24,
+    "e": 12.44,
+    "p": 0.998
+   },
+   {
+    "w": "of",
+    "n": "of",
+    "s": 12.44,
+    "e": 12.66,
+    "p": 1.0
+   },
+   {
+    "w": "violence.",
+    "n": "violence",
+    "s": 12.66,
+    "e": 12.96,
+    "p": 0.999
+   },
+   {
+    "w": "And",
+    "n": "and",
+    "s": 13.52,
+    "e": 13.66,
+    "p": 0.994
+   },
+   {
+    "w": "he",
+    "n": "he",
+    "s": 13.66,
+    "e": 13.78,
+    "p": 0.99
+   },
+   {
+    "w": "reminded",
+    "n": "reminded",
+    "s": 13.78,
+    "e": 14.1,
+    "p": 0.999
+   },
+   {
+    "w": "the",
+    "n": "the",
+    "s": 14.1,
+    "e": 14.34,
+    "p": 0.999
+   },
+   {
+    "w": "country",
+    "n": "country",
+    "s": 14.34,
+    "e": 14.6,
+    "p": 0.999
+   },
+   {
+    "w": "that",
+    "n": "that",
+    "s": 14.6,
+    "e": 14.82,
+    "p": 0.998
+   },
+   {
+    "w": "Australia",
+    "n": "australia",
+    "s": 14.82,
+    "e": 15.22,
+    "p": 0.998
+   },
+   {
+    "w": "had",
+    "n": "had",
+    "s": 15.22,
+    "e": 15.56,
+    "p": 0.997
+   },
+   {
+    "w": "been",
+    "n": "been",
+    "s": 15.56,
+    "e": 15.72,
+    "p": 0.999
+   },
+   {
+    "w": "the",
+    "n": "the",
+    "s": 15.72,
+    "e": 15.88,
+    "p": 0.997
+   },
+   {
+    "w": "first",
+    "n": "first",
+    "s": 15.88,
+    "e": 16.1,
+    "p": 0.998
+   },
+   {
+    "w": "to",
+    "n": "to",
+    "s": 16.1,
+    "e": 16.3,
+    "p": 0.998
+   },
+   {
+    "w": "back",
+    "n": "back",
+    "s": 16.3,
+    "e": 16.48,
+    "p": 0.998
+   },
+   {
+    "w": "the",
+    "n": "the",
+    "s": 16.48,
+    "e": 16.68,
+    "p": 0.998
+   },
+   {
+    "w": "U",
+    "n": "u",
+    "s": 16.68,
+    "e": 16.8,
+    "p": 0.086
+   },
+   {
+    "w": ".N.",
+    "n": "n",
+    "s": 16.8,
+    "e": 16.98,
+    "p": 0.988
+   },
+   {
+    "w": "plan,",
+    "n": "plan",
+    "s": 17.2,
+    "e": 17.26,
+    "p": 0.961
+   },
+   {
+    "w": "back",
+    "n": "back",
+    "s": 17.64,
+    "e": 17.88,
+    "p": 0.998
+   },
+   {
+    "w": "in",
+    "n": "in",
+    "s": 17.88,
+    "e": 18.02,
+    "p": 1.0
+   },
+   {
+    "w": "nineteen",
+    "n": "nineteen",
+    "s": 18.02,
+    "e": 18.2,
+    "p": 0.62
+   },
+   {
+    "w": "forty",
+    "n": "forty",
+    "s": 18.2,
+    "e": 18.58,
+    "p": 0.872
+   },
+   {
+    "w": "-seven.",
+    "n": "seven",
+    "s": 18.58,
+    "e": 18.9,
+    "p": 0.94
+   }
+  ],
+  "diff": [
+   {
+    "op": "replace",
+    "ref": "twentyfive",
+    "hyp": "twenty five"
+   },
+   {
+    "op": "replace",
+    "ref": "twostate",
+    "hyp": "two state"
+   },
+   {
+    "op": "replace",
+    "ref": "un",
+    "hyp": "u n"
+   },
+   {
+    "op": "replace",
+    "ref": "fortyseven",
+    "hyp": "forty seven"
+   }
+  ]
+ },
+ "S21": {
+  "text": "It was made official at the United Nations in September, with conditions. No role for Hamas, demilitarisation, and Palestinian elections. And it was attacked from both directions. The Coalition, Israel's government and many Jewish groups said it rewarded Hamas. A pro-Palestinian advocacy group called it, quote, completely meaningless, while Australia still traded with Israel.",
+  "words": [
+   {
+    "w": "It",
+    "n": "it",
+    "s": 0.0,
+    "e": 0.24,
+    "p": 0.882
+   },
+   {
+    "w": "was",
+    "n": "was",
+    "s": 0.24,
+    "e": 0.38,
+    "p": 0.998
+   },
+   {
+    "w": "made",
+    "n": "made",
+    "s": 0.38,
+    "e": 0.62,
+    "p": 0.995
+   },
+   {
+    "w": "official",
+    "n": "official",
+    "s": 0.62,
+    "e": 1.02,
+    "p": 0.998
+   },
+   {
+    "w": "at",
+    "n": "at",
+    "s": 1.02,
+    "e": 1.3,
+    "p": 0.991
+   },
+   {
+    "w": "the",
+    "n": "the",
+    "s": 1.3,
+    "e": 1.42,
+    "p": 0.982
+   },
+   {
+    "w": "United",
+    "n": "united",
+    "s": 1.42,
+    "e": 1.7,
+    "p": 0.981
+   },
+   {
+    "w": "Nations",
+    "n": "nations",
+    "s": 1.7,
+    "e": 2.18,
+    "p": 0.992
+   },
+   {
+    "w": "in",
+    "n": "in",
+    "s": 2.18,
+    "e": 2.46,
+    "p": 0.992
+   },
+   {
+    "w": "September,",
+    "n": "september",
+    "s": 2.46,
+    "e": 3.0,
+    "p": 0.989
+   },
+   {
+    "w": "with",
+    "n": "with",
+    "s": 3.52,
+    "e": 3.64,
+    "p": 0.994
+   },
+   {
+    "w": "conditions.",
+    "n": "conditions",
+    "s": 3.64,
+    "e": 4.16,
+    "p": 0.994
+   },
+   {
+    "w": "No",
+    "n": "no",
+    "s": 4.82,
+    "e": 5.02,
+    "p": 0.983
+   },
+   {
+    "w": "role",
+    "n": "role",
+    "s": 5.02,
+    "e": 5.3,
+    "p": 0.97
+   },
+   {
+    "w": "for",
+    "n": "for",
+    "s": 5.3,
+    "e": 5.62,
+    "p": 0.995
+   },
+   {
+    "w": "Hamas,",
+    "n": "hamas",
+    "s": 5.62,
+    "e": 6.02,
+    "p": 0.997
+   },
+   {
+    "w": "demilitarisation,",
+    "n": "demilitarisation",
+    "s": 7.0,
+    "e": 7.68,
+    "p": 0.727
+   },
+   {
+    "w": "and",
+    "n": "and",
+    "s": 8.2,
+    "e": 8.34,
+    "p": 0.997
+   },
+   {
+    "w": "Palestinian",
+    "n": "palestinian",
+    "s": 8.34,
+    "e": 8.84,
+    "p": 0.968
+   },
+   {
+    "w": "elections.",
+    "n": "elections",
+    "s": 8.84,
+    "e": 9.38,
+    "p": 0.991
+   },
+   {
+    "w": "And",
+    "n": "and",
+    "s": 10.02,
+    "e": 10.1,
+    "p": 0.936
+   },
+   {
+    "w": "it",
+    "n": "it",
+    "s": 10.1,
+    "e": 10.18,
+    "p": 0.971
+   },
+   {
+    "w": "was",
+    "n": "was",
+    "s": 10.18,
+    "e": 10.28,
+    "p": 0.999
+   },
+   {
+    "w": "attacked",
+    "n": "attacked",
+    "s": 10.28,
+    "e": 10.66,
+    "p": 0.995
+   },
+   {
+    "w": "from",
+    "n": "from",
+    "s": 10.66,
+    "e": 10.94,
+    "p": 0.992
+   },
+   {
+    "w": "both",
+    "n": "both",
+    "s": 10.94,
+    "e": 11.18,
+    "p": 0.999
+   },
+   {
+    "w": "directions.",
+    "n": "directions",
+    "s": 11.18,
+    "e": 11.78,
+    "p": 0.998
+   },
+   {
+    "w": "The",
+    "n": "the",
+    "s": 12.34,
+    "e": 12.5,
+    "p": 0.994
+   },
+   {
+    "w": "Coalition,",
+    "n": "coalition",
+    "s": 12.5,
+    "e": 12.92,
+    "p": 0.13
+   },
+   {
+    "w": "Israel's",
+    "n": "israel's",
+    "s": 13.58,
+    "e": 14.0,
+    "p": 0.992
+   },
+   {
+    "w": "government",
+    "n": "government",
+    "s": 14.0,
+    "e": 14.26,
+    "p": 0.968
+   },
+   {
+    "w": "and",
+    "n": "and",
+    "s": 14.26,
+    "e": 14.64,
+    "p": 0.256
+   },
+   {
+    "w": "many",
+    "n": "many",
+    "s": 14.64,
+    "e": 14.98,
+    "p": 0.999
+   },
+   {
+    "w": "Jewish",
+    "n": "jewish",
+    "s": 14.98,
+    "e": 15.26,
+    "p": 0.995
+   },
+   {
+    "w": "groups",
+    "n": "groups",
+    "s": 15.26,
+    "e": 15.64,
+    "p": 0.991
+   },
+   {
+    "w": "said",
+    "n": "said",
+    "s": 15.64,
+    "e": 15.9,
+    "p": 0.975
+   },
+   {
+    "w": "it",
+    "n": "it",
+    "s": 15.9,
+    "e": 16.02,
+    "p": 0.989
+   },
+   {
+    "w": "rewarded",
+    "n": "rewarded",
+    "s": 16.02,
+    "e": 16.4,
+    "p": 0.993
+   },
+   {
+    "w": "Hamas.",
+    "n": "hamas",
+    "s": 16.4,
+    "e": 16.88,
+    "p": 0.999
+   },
+   {
+    "w": "A",
+    "n": "a",
+    "s": 17.46,
+    "e": 17.66,
+    "p": 0.994
+   },
+   {
+    "w": "pro",
+    "n": "pro",
+    "s": 17.66,
+    "e": 17.88,
+    "p": 0.986
+   },
+   {
+    "w": "-Palestinian",
+    "n": "palestinian",
+    "s": 17.88,
+    "e": 18.4,
+    "p": 0.973
+   },
+   {
+    "w": "advocacy",
+    "n": "advocacy",
+    "s": 18.4,
+    "e": 18.94,
+    "p": 0.992
+   },
+   {
+    "w": "group",
+    "n": "group",
+    "s": 18.94,
+    "e": 19.44,
+    "p": 0.998
+   },
+   {
+    "w": "called",
+    "n": "called",
+    "s": 19.44,
+    "e": 19.72,
+    "p": 0.994
+   },
+   {
+    "w": "it,",
+    "n": "it",
+    "s": 19.72,
+    "e": 20.0,
+    "p": 0.997
+   },
+   {
+    "w": "quote,",
+    "n": "quote",
+    "s": 20.16,
+    "e": 20.16,
+    "p": 0.776
+   },
+   {
+    "w": "completely",
+    "n": "completely",
+    "s": 20.8,
+    "e": 20.96,
+    "p": 0.1
+   },
+   {
+    "w": "meaningless,",
+    "n": "meaningless",
+    "s": 20.96,
+    "e": 21.64,
+    "p": 0.963
+   },
+   {
+    "w": "while",
+    "n": "while",
+    "s": 22.04,
+    "e": 22.26,
+    "p": 0.996
+   },
+   {
+    "w": "Australia",
+    "n": "australia",
+    "s": 22.26,
+    "e": 22.68,
+    "p": 0.996
+   },
+   {
+    "w": "still",
+    "n": "still",
+    "s": 22.68,
+    "e": 23.06,
+    "p": 0.823
+   },
+   {
+    "w": "traded",
+    "n": "traded",
+    "s": 23.06,
+    "e": 23.4,
+    "p": 0.996
+   },
+   {
+    "w": "with",
+    "n": "with",
+    "s": 23.4,
+    "e": 23.64,
+    "p": 0.999
+   },
+   {
+    "w": "Israel.",
+    "n": "israel",
+    "s": 23.64,
+    "e": 23.98,
+    "p": 0.999
+   }
+  ],
+  "diff": [
+   {
+    "op": "replace",
+    "ref": "propalestinian",
+    "hyp": "pro palestinian"
+   }
+  ]
+ },
+ "S22": {
+  "text": "Then it turned personal. Israel's prime minister posted that history would remember Albanese as, quote, a weak politician who betrayed Israel and abandoned Australia's Jews. Albanese replied, quote, I don't take these things personally.",
+  "words": [
+   {
+    "w": "Then",
+    "n": "then",
+    "s": 0.0,
+    "e": 0.3,
+    "p": 0.938
+   },
+   {
+    "w": "it",
+    "n": "it",
+    "s": 0.3,
+    "e": 0.44,
+    "p": 0.97
+   },
+   {
+    "w": "turned",
+    "n": "turned",
+    "s": 0.44,
+    "e": 0.66,
+    "p": 0.999
+   },
+   {
+    "w": "personal.",
+    "n": "personal",
+    "s": 0.66,
+    "e": 1.24,
+    "p": 0.994
+   },
+   {
+    "w": "Israel's",
+    "n": "israel's",
+    "s": 1.96,
+    "e": 2.26,
+    "p": 0.99
+   },
+   {
+    "w": "prime",
+    "n": "prime",
+    "s": 2.26,
+    "e": 2.38,
+    "p": 0.712
+   },
+   {
+    "w": "minister",
+    "n": "minister",
+    "s": 2.38,
+    "e": 2.78,
+    "p": 0.995
+   },
+   {
+    "w": "posted",
+    "n": "posted",
+    "s": 2.78,
+    "e": 3.18,
+    "p": 0.996
+   },
+   {
+    "w": "that",
+    "n": "that",
+    "s": 3.18,
+    "e": 3.46,
+    "p": 0.999
+   },
+   {
+    "w": "history",
+    "n": "history",
+    "s": 3.46,
+    "e": 3.74,
+    "p": 0.986
+   },
+   {
+    "w": "would",
+    "n": "would",
+    "s": 3.74,
+    "e": 4.06,
+    "p": 0.999
+   },
+   {
+    "w": "remember",
+    "n": "remember",
+    "s": 4.06,
+    "e": 4.46,
+    "p": 0.997
+   },
+   {
+    "w": "Albanese",
+    "n": "albanese",
+    "s": 4.46,
+    "e": 5.02,
+    "p": 0.833
+   },
+   {
+    "w": "as,",
+    "n": "as",
+    "s": 5.02,
+    "e": 5.26,
+    "p": 0.997
+   },
+   {
+    "w": "quote,",
+    "n": "quote",
+    "s": 5.44,
+    "e": 5.52,
+    "p": 0.726
+   },
+   {
+    "w": "a",
+    "n": "a",
+    "s": 5.98,
+    "e": 6.06,
+    "p": 0.105
+   },
+   {
+    "w": "weak",
+    "n": "weak",
+    "s": 6.06,
+    "e": 6.28,
+    "p": 0.773
+   },
+   {
+    "w": "politician",
+    "n": "politician",
+    "s": 6.28,
+    "e": 6.78,
+    "p": 0.999
+   },
+   {
+    "w": "who",
+    "n": "who",
+    "s": 6.78,
+    "e": 7.1,
+    "p": 0.994
+   },
+   {
+    "w": "betrayed",
+    "n": "betrayed",
+    "s": 7.1,
+    "e": 7.46,
+    "p": 0.998
+   },
+   {
+    "w": "Israel",
+    "n": "israel",
+    "s": 7.46,
+    "e": 7.94,
+    "p": 0.997
+   },
+   {
+    "w": "and",
+    "n": "and",
+    "s": 7.94,
+    "e": 8.2,
+    "p": 0.987
+   },
+   {
+    "w": "abandoned",
+    "n": "abandoned",
+    "s": 8.2,
+    "e": 8.56,
+    "p": 0.962
+   },
+   {
+    "w": "Australia's",
+    "n": "australia's",
+    "s": 8.56,
+    "e": 9.32,
+    "p": 0.993
+   },
+   {
+    "w": "Jews.",
+    "n": "jews",
+    "s": 9.32,
+    "e": 9.56,
+    "p": 0.996
+   },
+   {
+    "w": "Albanese",
+    "n": "albanese",
+    "s": 10.34,
+    "e": 10.7,
+    "p": 0.983
+   },
+   {
+    "w": "replied,",
+    "n": "replied",
+    "s": 10.7,
+    "e": 11.06,
+    "p": 0.998
+   },
+   {
+    "w": "quote,",
+    "n": "quote",
+    "s": 11.3,
+    "e": 11.46,
+    "p": 0.996
+   },
+   {
+    "w": "I",
+    "n": "i",
+    "s": 11.98,
+    "e": 12.06,
+    "p": 0.773
+   },
+   {
+    "w": "don't",
+    "n": "don't",
+    "s": 12.06,
+    "e": 12.26,
+    "p": 0.999
+   },
+   {
+    "w": "take",
+    "n": "take",
+    "s": 12.26,
+    "e": 12.42,
+    "p": 0.999
+   },
+   {
+    "w": "these",
+    "n": "these",
+    "s": 12.42,
+    "e": 12.64,
+    "p": 0.998
+   },
+   {
+    "w": "things",
+    "n": "things",
+    "s": 12.64,
+    "e": 12.9,
+    "p": 0.999
+   },
+   {
+    "w": "personally.",
+    "n": "personally",
+    "s": 12.9,
+    "e": 13.36,
+    "p": 0.998
+   }
+  ],
+  "diff": []
+ },
+ "S23": {
+  "text": "Visas were cancelled on both sides. Relations between two old friends sank to their lowest point in decades. Abroad, Canberra was making choices. But for some Australian families, the war had already come much closer.",
+  "words": [
+   {
+    "w": "Visas",
+    "n": "visas",
+    "s": 0.0,
+    "e": 0.56,
+    "p": 0.933
+   },
+   {
+    "w": "were",
+    "n": "were",
+    "s": 0.56,
+    "e": 0.74,
+    "p": 0.993
+   },
+   {
+    "w": "cancelled",
+    "n": "cancelled",
+    "s": 0.74,
+    "e": 1.04,
+    "p": 0.605
+   },
+   {
+    "w": "on",
+    "n": "on",
+    "s": 1.04,
+    "e": 1.32,
+    "p": 0.996
+   },
+   {
+    "w": "both",
+    "n": "both",
+    "s": 1.32,
+    "e": 1.52,
+    "p": 0.999
+   },
+   {
+    "w": "sides.",
+    "n": "sides",
+    "s": 1.52,
+    "e": 2.06,
+    "p": 0.999
+   },
+   {
+    "w": "Relations",
+    "n": "relations",
+    "s": 2.92,
+    "e": 2.92,
+    "p": 0.987
+   },
+   {
+    "w": "between",
+    "n": "between",
+    "s": 2.92,
+    "e": 3.32,
+    "p": 0.999
+   },
+   {
+    "w": "two",
+    "n": "two",
+    "s": 3.32,
+    "e": 3.58,
+    "p": 0.972
+   },
+   {
+    "w": "old",
+    "n": "old",
+    "s": 3.58,
+    "e": 3.8,
+    "p": 0.991
+   },
+   {
+    "w": "friends",
+    "n": "friends",
+    "s": 3.8,
+    "e": 4.08,
+    "p": 0.995
+   },
+   {
+    "w": "sank",
+    "n": "sank",
+    "s": 4.08,
+    "e": 4.42,
+    "p": 0.999
+   },
+   {
+    "w": "to",
+    "n": "to",
+    "s": 4.42,
+    "e": 4.62,
+    "p": 0.998
+   },
+   {
+    "w": "their",
+    "n": "their",
+    "s": 4.62,
+    "e": 4.76,
+    "p": 0.993
+   },
+   {
+    "w": "lowest",
+    "n": "lowest",
+    "s": 4.76,
+    "e": 5.08,
+    "p": 1.0
+   },
+   {
+    "w": "point",
+    "n": "point",
+    "s": 5.08,
+    "e": 5.4,
+    "p": 0.995
+   },
+   {
+    "w": "in",
+    "n": "in",
+    "s": 5.4,
+    "e": 5.6,
+    "p": 0.997
+   },
+   {
+    "w": "decades.",
+    "n": "decades",
+    "s": 5.6,
+    "e": 6.04,
+    "p": 0.995
+   },
+   {
+    "w": "Abroad,",
+    "n": "abroad",
+    "s": 6.62,
+    "e": 7.18,
+    "p": 0.908
+   },
+   {
+    "w": "Canberra",
+    "n": "canberra",
+    "s": 7.78,
+    "e": 7.94,
+    "p": 0.904
+   },
+   {
+    "w": "was",
+    "n": "was",
+    "s": 7.94,
+    "e": 8.26,
+    "p": 0.998
+   },
+   {
+    "w": "making",
+    "n": "making",
+    "s": 8.26,
+    "e": 8.52,
+    "p": 0.999
+   },
+   {
+    "w": "choices.",
+    "n": "choices",
+    "s": 8.52,
+    "e": 9.02,
+    "p": 0.995
+   },
+   {
+    "w": "But",
+    "n": "but",
+    "s": 9.4,
+    "e": 9.54,
+    "p": 0.981
+   },
+   {
+    "w": "for",
+    "n": "for",
+    "s": 9.54,
+    "e": 9.68,
+    "p": 0.974
+   },
+   {
+    "w": "some",
+    "n": "some",
+    "s": 9.68,
+    "e": 9.86,
+    "p": 0.999
+   },
+   {
+    "w": "Australian",
+    "n": "australian",
+    "s": 9.86,
+    "e": 10.3,
+    "p": 0.993
+   },
+   {
+    "w": "families,",
+    "n": "families",
+    "s": 10.3,
+    "e": 10.84,
+    "p": 0.998
+   },
+   {
+    "w": "the",
+    "n": "the",
+    "s": 11.14,
+    "e": 11.32,
+    "p": 0.995
+   },
+   {
+    "w": "war",
+    "n": "war",
+    "s": 11.32,
+    "e": 11.52,
+    "p": 0.989
+   },
+   {
+    "w": "had",
+    "n": "had",
+    "s": 11.52,
+    "e": 11.7,
+    "p": 0.996
+   },
+   {
+    "w": "already",
+    "n": "already",
+    "s": 11.7,
+    "e": 11.98,
+    "p": 0.991
+   },
+   {
+    "w": "come",
+    "n": "come",
+    "s": 11.98,
+    "e": 12.24,
+    "p": 0.995
+   },
+   {
+    "w": "much",
+    "n": "much",
+    "s": 12.24,
+    "e": 12.46,
+    "p": 0.996
+   },
+   {
+    "w": "closer.",
+    "n": "closer",
+    "s": 12.46,
+    "e": 12.82,
+    "p": 0.998
+   }
+  ],
+  "diff": []
+ },
+ "S24": {
+  "text": "Zomi Frankcom grew up in Sydney. She spent years feeding people in disaster zones. On the first of April, twenty twenty-four, she and six colleagues from World Central Kitchen were killed, when Israeli drone strikes hit what the charity called their clearly marked convoy in Gaza.",
+  "words": [
+   {
+    "w": "Zomi",
+    "n": "zomi",
+    "s": 0.0,
+    "e": 0.5,
+    "p": 0.624
+   },
+   {
+    "w": "Frankcom",
+    "n": "frankcom",
+    "s": 0.5,
+    "e": 1.02,
+    "p": 0.351
+   },
+   {
+    "w": "grew",
+    "n": "grew",
+    "s": 1.02,
+    "e": 1.28,
+    "p": 0.995
+   },
+   {
+    "w": "up",
+    "n": "up",
+    "s": 1.28,
+    "e": 1.48,
+    "p": 0.999
+   },
+   {
+    "w": "in",
+    "n": "in",
+    "s": 1.48,
+    "e": 1.7,
+    "p": 0.999
+   },
+   {
+    "w": "Sydney.",
+    "n": "sydney",
+    "s": 1.7,
+    "e": 1.94,
+    "p": 0.939
+   },
+   {
+    "w": "She",
+    "n": "she",
+    "s": 2.5,
+    "e": 2.58,
+    "p": 0.983
+   },
+   {
+    "w": "spent",
+    "n": "spent",
+    "s": 2.58,
+    "e": 2.8,
+    "p": 0.999
+   },
+   {
+    "w": "years",
+    "n": "years",
+    "s": 2.8,
+    "e": 3.08,
+    "p": 1.0
+   },
+   {
+    "w": "feeding",
+    "n": "feeding",
+    "s": 3.08,
+    "e": 3.4,
+    "p": 0.998
+   },
+   {
+    "w": "people",
+    "n": "people",
+    "s": 3.4,
+    "e": 3.74,
+    "p": 1.0
+   },
+   {
+    "w": "in",
+    "n": "in",
+    "s": 3.74,
+    "e": 3.94,
+    "p": 0.999
+   },
+   {
+    "w": "disaster",
+    "n": "disaster",
+    "s": 3.94,
+    "e": 4.24,
+    "p": 0.989
+   },
+   {
+    "w": "zones.",
+    "n": "zones",
+    "s": 4.24,
+    "e": 4.7,
+    "p": 0.999
+   },
+   {
+    "w": "On",
+    "n": "on",
+    "s": 5.26,
+    "e": 5.34,
+    "p": 0.995
+   },
+   {
+    "w": "the",
+    "n": "the",
+    "s": 5.34,
+    "e": 5.44,
+    "p": 0.385
+   },
+   {
+    "w": "first",
+    "n": "first",
+    "s": 5.44,
+    "e": 5.62,
+    "p": 0.109
+   },
+   {
+    "w": "of",
+    "n": "of",
+    "s": 5.62,
+    "e": 5.88,
+    "p": 0.999
+   },
+   {
+    "w": "April,",
+    "n": "april",
+    "s": 5.88,
+    "e": 6.1,
+    "p": 0.998
+   },
+   {
+    "w": "twenty",
+    "n": "twenty",
+    "s": 6.3,
+    "e": 6.46,
+    "p": 0.001
+   },
+   {
+    "w": "twenty",
+    "n": "twenty",
+    "s": 6.46,
+    "e": 6.74,
+    "p": 0.333
+   },
+   {
+    "w": "-four,",
+    "n": "four",
+    "s": 6.74,
+    "e": 7.04,
+    "p": 0.727
+   },
+   {
+    "w": "she",
+    "n": "she",
+    "s": 7.42,
+    "e": 7.56,
+    "p": 0.995
+   },
+   {
+    "w": "and",
+    "n": "and",
+    "s": 7.56,
+    "e": 7.72,
+    "p": 0.999
+   },
+   {
+    "w": "six",
+    "n": "six",
+    "s": 7.72,
+    "e": 7.92,
+    "p": 0.992
+   },
+   {
+    "w": "colleagues",
+    "n": "colleagues",
+    "s": 7.92,
+    "e": 8.36,
+    "p": 0.999
+   },
+   {
+    "w": "from",
+    "n": "from",
+    "s": 8.36,
+    "e": 8.64,
+    "p": 0.999
+   },
+   {
+    "w": "World",
+    "n": "world",
+    "s": 8.64,
+    "e": 8.88,
+    "p": 0.965
+   },
+   {
+    "w": "Central",
+    "n": "central",
+    "s": 8.88,
+    "e": 9.2,
+    "p": 0.993
+   },
+   {
+    "w": "Kitchen",
+    "n": "kitchen",
+    "s": 9.2,
+    "e": 9.46,
+    "p": 0.994
+   },
+   {
+    "w": "were",
+    "n": "were",
+    "s": 9.46,
+    "e": 9.74,
+    "p": 0.997
+   },
+   {
+    "w": "killed,",
+    "n": "killed",
+    "s": 9.74,
+    "e": 10.06,
+    "p": 0.999
+   },
+   {
+    "w": "when",
+    "n": "when",
+    "s": 10.46,
+    "e": 10.56,
+    "p": 0.996
+   },
+   {
+    "w": "Israeli",
+    "n": "israeli",
+    "s": 10.56,
+    "e": 10.94,
+    "p": 0.995
+   },
+   {
+    "w": "drone",
+    "n": "drone",
+    "s": 10.94,
+    "e": 11.26,
+    "p": 0.994
+   },
+   {
+    "w": "strikes",
+    "n": "strikes",
+    "s": 11.26,
+    "e": 11.6,
+    "p": 0.981
+   },
+   {
+    "w": "hit",
+    "n": "hit",
+    "s": 11.6,
+    "e": 11.88,
+    "p": 0.999
+   },
+   {
+    "w": "what",
+    "n": "what",
+    "s": 11.88,
+    "e": 12.04,
+    "p": 0.956
+   },
+   {
+    "w": "the",
+    "n": "the",
+    "s": 12.04,
+    "e": 12.16,
+    "p": 0.998
+   },
+   {
+    "w": "charity",
+    "n": "charity",
+    "s": 12.16,
+    "e": 12.42,
+    "p": 0.962
+   },
+   {
+    "w": "called",
+    "n": "called",
+    "s": 12.42,
+    "e": 12.8,
+    "p": 0.999
+   },
+   {
+    "w": "their",
+    "n": "their",
+    "s": 12.8,
+    "e": 12.98,
+    "p": 0.927
+   },
+   {
+    "w": "clearly",
+    "n": "clearly",
+    "s": 12.98,
+    "e": 13.32,
+    "p": 0.55
+   },
+   {
+    "w": "marked",
+    "n": "marked",
+    "s": 13.32,
+    "e": 13.68,
+    "p": 0.845
+   },
+   {
+    "w": "convoy",
+    "n": "convoy",
+    "s": 13.68,
+    "e": 14.14,
+    "p": 0.967
+   },
+   {
+    "w": "in",
+    "n": "in",
+    "s": 14.14,
+    "e": 14.4,
+    "p": 0.999
+   },
+   {
+    "w": "Gaza.",
+    "n": "gaza",
+    "s": 14.4,
+    "e": 14.64,
+    "p": 0.999
+   }
+  ],
+  "diff": [
+   {
+    "op": "replace",
+    "ref": "twentyfour",
+    "hyp": "twenty four"
+   }
+  ]
+ },
+ "S25": {
+  "text": "Prime Minister Albanese called it, quote, completely unacceptable. Israel's prime minister said his forces had, quote, unintentionally harmed non-combatants. Her family said she would leave, quote, a legacy of compassion, bravery and love.",
+  "words": [
+   {
+    "w": "Prime",
+    "n": "prime",
+    "s": 0.0,
+    "e": 0.36,
+    "p": 0.95
+   },
+   {
+    "w": "Minister",
+    "n": "minister",
+    "s": 0.36,
+    "e": 0.76,
+    "p": 0.973
+   },
+   {
+    "w": "Albanese",
+    "n": "albanese",
+    "s": 0.76,
+    "e": 1.32,
+    "p": 0.915
+   },
+   {
+    "w": "called",
+    "n": "called",
+    "s": 1.32,
+    "e": 1.66,
+    "p": 0.985
+   },
+   {
+    "w": "it,",
+    "n": "it",
+    "s": 1.66,
+    "e": 1.88,
+    "p": 0.994
+   },
+   {
+    "w": "quote,",
+    "n": "quote",
+    "s": 2.04,
+    "e": 2.16,
+    "p": 0.805
+   },
+   {
+    "w": "completely",
+    "n": "completely",
+    "s": 2.7,
+    "e": 2.8,
+    "p": 0.323
+   },
+   {
+    "w": "unacceptable.",
+    "n": "unacceptable",
+    "s": 2.8,
+    "e": 3.48,
+    "p": 0.989
+   },
+   {
+    "w": "Israel's",
+    "n": "israel's",
+    "s": 4.26,
+    "e": 4.64,
+    "p": 0.99
+   },
+   {
+    "w": "prime",
+    "n": "prime",
+    "s": 4.64,
+    "e": 4.82,
+    "p": 0.761
+   },
+   {
+    "w": "minister",
+    "n": "minister",
+    "s": 4.82,
+    "e": 5.18,
+    "p": 0.995
+   },
+   {
+    "w": "said",
+    "n": "said",
+    "s": 5.18,
+    "e": 5.48,
+    "p": 0.998
+   },
+   {
+    "w": "his",
+    "n": "his",
+    "s": 5.48,
+    "e": 5.66,
+    "p": 0.997
+   },
+   {
+    "w": "forces",
+    "n": "forces",
+    "s": 5.66,
+    "e": 6.04,
+    "p": 0.998
+   },
+   {
+    "w": "had,",
+    "n": "had",
+    "s": 6.04,
+    "e": 6.36,
+    "p": 0.998
+   },
+   {
+    "w": "quote,",
+    "n": "quote",
+    "s": 6.54,
+    "e": 6.62,
+    "p": 0.989
+   },
+   {
+    "w": "unintentionally",
+    "n": "unintentionally",
+    "s": 7.14,
+    "e": 7.54,
+    "p": 0.87
+   },
+   {
+    "w": "harmed",
+    "n": "harmed",
+    "s": 7.54,
+    "e": 8.26,
+    "p": 0.984
+   },
+   {
+    "w": "non",
+    "n": "non",
+    "s": 8.26,
+    "e": 8.56,
+    "p": 0.934
+   },
+   {
+    "w": "-combatants.",
+    "n": "combatants",
+    "s": 8.56,
+    "e": 9.28,
+    "p": 0.784
+   },
+   {
+    "w": "Her",
+    "n": "her",
+    "s": 9.82,
+    "e": 9.88,
+    "p": 0.991
+   },
+   {
+    "w": "family",
+    "n": "family",
+    "s": 9.88,
+    "e": 10.14,
+    "p": 0.999
+   },
+   {
+    "w": "said",
+    "n": "said",
+    "s": 10.14,
+    "e": 10.44,
+    "p": 0.997
+   },
+   {
+    "w": "she",
+    "n": "she",
+    "s": 10.44,
+    "e": 10.64,
+    "p": 0.998
+   },
+   {
+    "w": "would",
+    "n": "would",
+    "s": 10.64,
+    "e": 10.78,
+    "p": 1.0
+   },
+   {
+    "w": "leave,",
+    "n": "leave",
+    "s": 10.78,
+    "e": 11.08,
+    "p": 0.999
+   },
+   {
+    "w": "quote,",
+    "n": "quote",
+    "s": 11.2,
+    "e": 11.32,
+    "p": 0.998
+   },
+   {
+    "w": "a",
+    "n": "a",
+    "s": 11.62,
+    "e": 11.62,
+    "p": 0.865
+   },
+   {
+    "w": "legacy",
+    "n": "legacy",
+    "s": 11.62,
+    "e": 11.88,
+    "p": 0.997
+   },
+   {
+    "w": "of",
+    "n": "of",
+    "s": 11.88,
+    "e": 12.18,
+    "p": 0.999
+   },
+   {
+    "w": "compassion,",
+    "n": "compassion",
+    "s": 12.18,
+    "e": 12.76,
+    "p": 0.999
+   },
+   {
+    "w": "bravery",
+    "n": "bravery",
+    "s": 13.04,
+    "e": 13.22,
+    "p": 1.0
+   },
+   {
+    "w": "and",
+    "n": "and",
+    "s": 13.22,
+    "e": 13.64,
+    "p": 0.775
+   },
+   {
+    "w": "love.",
+    "n": "love",
+    "s": 13.64,
+    "e": 13.9,
+    "p": 0.998
+   }
+  ],
+  "diff": [
+   {
+    "op": "replace",
+    "ref": "noncombatants",
+    "hyp": "non combatants"
+   }
+  ]
+ },
+ "S26": {
+  "text": "A former Defence Force chief reviewed Israel's investigation for Australia. He found serious failures, but no evidence the convoy had been knowingly targeted. In twenty twenty-six, Israel's military decided not to press criminal charges. Her family called it an insult to her memory.",
+  "words": [
+   {
+    "w": "A",
+    "n": "a",
+    "s": 0.0,
+    "e": 0.26,
+    "p": 0.953
+   },
+   {
+    "w": "former",
+    "n": "former",
+    "s": 0.26,
+    "e": 0.54,
+    "p": 0.999
+   },
+   {
+    "w": "Defence",
+    "n": "defence",
+    "s": 0.54,
+    "e": 0.9,
+    "p": 0.017
+   },
+   {
+    "w": "Force",
+    "n": "force",
+    "s": 0.9,
+    "e": 1.26,
+    "p": 0.995
+   },
+   {
+    "w": "chief",
+    "n": "chief",
+    "s": 1.26,
+    "e": 1.58,
+    "p": 0.934
+   },
+   {
+    "w": "reviewed",
+    "n": "reviewed",
+    "s": 1.58,
+    "e": 2.04,
+    "p": 0.997
+   },
+   {
+    "w": "Israel's",
+    "n": "israel's",
+    "s": 2.04,
+    "e": 2.6,
+    "p": 0.996
+   },
+   {
+    "w": "investigation",
+    "n": "investigation",
+    "s": 2.6,
+    "e": 3.18,
+    "p": 0.999
+   },
+   {
+    "w": "for",
+    "n": "for",
+    "s": 3.18,
+    "e": 3.54,
+    "p": 0.999
+   },
+   {
+    "w": "Australia.",
+    "n": "australia",
+    "s": 3.54,
+    "e": 4.06,
+    "p": 0.998
+   },
+   {
+    "w": "He",
+    "n": "he",
+    "s": 4.66,
+    "e": 4.74,
+    "p": 0.995
+   },
+   {
+    "w": "found",
+    "n": "found",
+    "s": 4.74,
+    "e": 4.96,
+    "p": 1.0
+   },
+   {
+    "w": "serious",
+    "n": "serious",
+    "s": 4.96,
+    "e": 5.38,
+    "p": 0.974
+   },
+   {
+    "w": "failures",
+    "n": "failures",
+    "s": 5.38,
+    "e": 5.88,
+    "p": 0.999
+   },
+   {
+    "w": "but",
+    "n": "but",
+    "s": 5.88,
+    "e": 6.18,
+    "p": 0.917
+   },
+   {
+    "w": "no",
+    "n": "no",
+    "s": 6.18,
+    "e": 6.44,
+    "p": 0.999
+   },
+   {
+    "w": "evidence",
+    "n": "evidence",
+    "s": 6.44,
+    "e": 6.84,
+    "p": 1.0
+   },
+   {
+    "w": "the",
+    "n": "the",
+    "s": 6.84,
+    "e": 7.06,
+    "p": 0.998
+   },
+   {
+    "w": "convoy",
+    "n": "convoy",
+    "s": 7.06,
+    "e": 7.46,
+    "p": 0.998
+   },
+   {
+    "w": "had",
+    "n": "had",
+    "s": 7.46,
+    "e": 7.68,
+    "p": 0.998
+   },
+   {
+    "w": "been",
+    "n": "been",
+    "s": 7.68,
+    "e": 7.88,
+    "p": 1.0
+   },
+   {
+    "w": "knowingly",
+    "n": "knowingly",
+    "s": 7.88,
+    "e": 8.22,
+    "p": 0.996
+   },
+   {
+    "w": "targeted.",
+    "n": "targeted",
+    "s": 8.22,
+    "e": 8.74,
+    "p": 0.999
+   },
+   {
+    "w": "In",
+    "n": "in",
+    "s": 9.46,
+    "e": 9.58,
+    "p": 0.995
+   },
+   {
+    "w": "twenty",
+    "n": "twenty",
+    "s": 9.58,
+    "e": 9.86,
+    "p": 0.026
+   },
+   {
+    "w": "twenty",
+    "n": "twenty",
+    "s": 9.86,
+    "e": 10.12,
+    "p": 0.348
+   },
+   {
+    "w": "-six,",
+    "n": "six",
+    "s": 10.12,
+    "e": 10.5,
+    "p": 0.735
+   },
+   {
+    "w": "Israel's",
+    "n": "israel's",
+    "s": 10.72,
+    "e": 11.16,
+    "p": 0.999
+   },
+   {
+    "w": "military",
+    "n": "military",
+    "s": 11.16,
+    "e": 11.52,
+    "p": 0.998
+   },
+   {
+    "w": "decided",
+    "n": "decided",
+    "s": 11.52,
+    "e": 11.98,
+    "p": 0.999
+   },
+   {
+    "w": "not",
+    "n": "not",
+    "s": 11.98,
+    "e": 12.32,
+    "p": 0.997
+   },
+   {
+    "w": "to",
+    "n": "to",
+    "s": 12.32,
+    "e": 12.52,
+    "p": 0.998
+   },
+   {
+    "w": "press",
+    "n": "press",
+    "s": 12.52,
+    "e": 12.72,
+    "p": 0.999
+   },
+   {
+    "w": "criminal",
+    "n": "criminal",
+    "s": 12.72,
+    "e": 13.08,
+    "p": 0.998
+   },
+   {
+    "w": "charges.",
+    "n": "charges",
+    "s": 13.08,
+    "e": 13.54,
+    "p": 1.0
+   },
+   {
+    "w": "Her",
+    "n": "her",
+    "s": 14.2,
+    "e": 14.28,
+    "p": 0.995
+   },
+   {
+    "w": "family",
+    "n": "family",
+    "s": 14.28,
+    "e": 14.54,
+    "p": 1.0
+   },
+   {
+    "w": "called",
+    "n": "called",
+    "s": 14.54,
+    "e": 14.86,
+    "p": 0.999
+   },
+   {
+    "w": "it",
+    "n": "it",
+    "s": 14.86,
+    "e": 15.04,
+    "p": 0.999
+   },
+   {
+    "w": "an",
+    "n": "an",
+    "s": 15.04,
+    "e": 15.2,
+    "p": 0.99
+   },
+   {
+    "w": "insult",
+    "n": "insult",
+    "s": 15.2,
+    "e": 15.56,
+    "p": 0.958
+   },
+   {
+    "w": "to",
+    "n": "to",
+    "s": 15.56,
+    "e": 15.78,
+    "p": 0.999
+   },
+   {
+    "w": "her",
+    "n": "her",
+    "s": 15.78,
+    "e": 15.92,
+    "p": 1.0
+   },
+   {
+    "w": "memory.",
+    "n": "memory",
+    "s": 15.92,
+    "e": 16.18,
+    "p": 0.999
+   }
+  ],
+  "diff": [
+   {
+    "op": "replace",
+    "ref": "twentysix",
+    "hyp": "twenty six"
+   }
+  ]
+ },
+ "S27": {
+  "text": "An Australian grandmother was also among those killed in Israel. And Australian-Palestinians lost relatives in Gaza. Australia granted thousands of visitor visas to people fleeing Gaza. Supporters called it basic humanity. The opposition said vetting was rushed. The government said every applicant was checked.",
+  "words": [
+   {
+    "w": "An",
+    "n": "an",
+    "s": 0.0,
+    "e": 0.24,
+    "p": 0.732
+   },
+   {
+    "w": "Australian",
+    "n": "australian",
+    "s": 0.24,
+    "e": 0.74,
+    "p": 0.969
+   },
+   {
+    "w": "grandmother",
+    "n": "grandmother",
+    "s": 0.74,
+    "e": 1.28,
+    "p": 0.962
+   },
+   {
+    "w": "was",
+    "n": "was",
+    "s": 1.28,
+    "e": 1.6,
+    "p": 0.993
+   },
+   {
+    "w": "also",
+    "n": "also",
+    "s": 1.6,
+    "e": 2.04,
+    "p": 0.992
+   },
+   {
+    "w": "among",
+    "n": "among",
+    "s": 2.04,
+    "e": 2.28,
+    "p": 0.995
+   },
+   {
+    "w": "those",
+    "n": "those",
+    "s": 2.28,
+    "e": 2.58,
+    "p": 0.996
+   },
+   {
+    "w": "killed",
+    "n": "killed",
+    "s": 2.58,
+    "e": 2.86,
+    "p": 0.998
+   },
+   {
+    "w": "in",
+    "n": "in",
+    "s": 2.86,
+    "e": 3.1,
+    "p": 0.998
+   },
+   {
+    "w": "Israel.",
+    "n": "israel",
+    "s": 3.1,
+    "e": 3.46,
+    "p": 0.988
+   },
+   {
+    "w": "And",
+    "n": "and",
+    "s": 4.08,
+    "e": 4.16,
+    "p": 0.768
+   },
+   {
+    "w": "Australian",
+    "n": "australian",
+    "s": 4.16,
+    "e": 4.68,
+    "p": 0.971
+   },
+   {
+    "w": "-Palestinian",
+    "n": "palestinian",
+    "s": 4.68,
+    "e": 5.28,
+    "p": 0.364
+   },
+   {
+    "w": "lost",
+    "n": "lost",
+    "s": 5.28,
+    "e": 5.8,
+    "p": 0.509
+   },
+   {
+    "w": "relatives",
+    "n": "relatives",
+    "s": 5.8,
+    "e": 6.38,
+    "p": 0.994
+   },
+   {
+    "w": "in",
+    "n": "in",
+    "s": 6.38,
+    "e": 6.64,
+    "p": 0.993
+   },
+   {
+    "w": "Gaza.",
+    "n": "gaza",
+    "s": 6.64,
+    "e": 6.86,
+    "p": 0.559
+   },
+   {
+    "w": "Australia",
+    "n": "australia",
+    "s": 7.78,
+    "e": 8.28,
+    "p": 0.971
+   },
+   {
+    "w": "granted",
+    "n": "granted",
+    "s": 8.28,
+    "e": 8.64,
+    "p": 0.987
+   },
+   {
+    "w": "thousands",
+    "n": "thousands",
+    "s": 8.64,
+    "e": 9.04,
+    "p": 0.983
+   },
+   {
+    "w": "of",
+    "n": "of",
+    "s": 9.04,
+    "e": 9.42,
+    "p": 0.984
+   },
+   {
+    "w": "visitor",
+    "n": "visitor",
+    "s": 9.42,
+    "e": 9.74,
+    "p": 0.943
+   },
+   {
+    "w": "visas",
+    "n": "visas",
+    "s": 9.74,
+    "e": 10.06,
+    "p": 0.89
+   },
+   {
+    "w": "to",
+    "n": "to",
+    "s": 10.06,
+    "e": 10.34,
+    "p": 0.992
+   },
+   {
+    "w": "people",
+    "n": "people",
+    "s": 10.34,
+    "e": 10.62,
+    "p": 0.986
+   },
+   {
+    "w": "fleeing",
+    "n": "fleeing",
+    "s": 10.62,
+    "e": 10.96,
+    "p": 0.99
+   },
+   {
+    "w": "Gaza.",
+    "n": "gaza",
+    "s": 10.96,
+    "e": 11.42,
+    "p": 0.983
+   },
+   {
+    "w": "Supporters",
+    "n": "supporters",
+    "s": 12.42,
+    "e": 12.42,
+    "p": 0.98
+   },
+   {
+    "w": "called",
+    "n": "called",
+    "s": 12.42,
+    "e": 12.8,
+    "p": 0.985
+   },
+   {
+    "w": "it",
+    "n": "it",
+    "s": 12.8,
+    "e": 12.98,
+    "p": 0.99
+   },
+   {
+    "w": "basic",
+    "n": "basic",
+    "s": 12.98,
+    "e": 13.24,
+    "p": 0.635
+   },
+   {
+    "w": "humanity.",
+    "n": "humanity",
+    "s": 13.24,
+    "e": 13.94,
+    "p": 0.985
+   },
+   {
+    "w": "The",
+    "n": "the",
+    "s": 14.58,
+    "e": 14.66,
+    "p": 0.991
+   },
+   {
+    "w": "opposition",
+    "n": "opposition",
+    "s": 14.66,
+    "e": 15.02,
+    "p": 0.971
+   },
+   {
+    "w": "said",
+    "n": "said",
+    "s": 15.02,
+    "e": 15.48,
+    "p": 0.991
+   },
+   {
+    "w": "vetting",
+    "n": "vetting",
+    "s": 15.48,
+    "e": 15.76,
+    "p": 0.971
+   },
+   {
+    "w": "was",
+    "n": "was",
+    "s": 15.76,
+    "e": 16.0,
+    "p": 0.996
+   },
+   {
+    "w": "rushed.",
+    "n": "rushed",
+    "s": 16.0,
+    "e": 16.38,
+    "p": 0.997
+   },
+   {
+    "w": "The",
+    "n": "the",
+    "s": 16.94,
+    "e": 17.04,
+    "p": 0.993
+   },
+   {
+    "w": "government",
+    "n": "government",
+    "s": 17.04,
+    "e": 17.24,
+    "p": 0.979
+   },
+   {
+    "w": "said",
+    "n": "said",
+    "s": 17.24,
+    "e": 17.6,
+    "p": 0.979
+   },
+   {
+    "w": "every",
+    "n": "every",
+    "s": 17.6,
+    "e": 18.0,
+    "p": 0.984
+   },
+   {
+    "w": "applicant",
+    "n": "applicant",
+    "s": 18.0,
+    "e": 18.38,
+    "p": 0.99
+   },
+   {
+    "w": "was",
+    "n": "was",
+    "s": 18.38,
+    "e": 18.7,
+    "p": 0.996
+   },
+   {
+    "w": "checked.",
+    "n": "checked",
+    "s": 18.7,
+    "e": 19.0,
+    "p": 0.997
+   }
+  ],
+  "diff": [
+   {
+    "op": "replace",
+    "ref": "australianpalestinians",
+    "hyp": "australian palestinian"
+   }
+  ]
+ },
+ "S28": {
+  "text": "For these families, the war was never far away. And at home, it was pulling the country in two.",
+  "words": [
+   {
+    "w": "For",
+    "n": "for",
+    "s": 0.0,
+    "e": 0.28,
+    "p": 0.953
+   },
+   {
+    "w": "these",
+    "n": "these",
+    "s": 0.28,
+    "e": 0.48,
+    "p": 0.998
+   },
+   {
+    "w": "families,",
+    "n": "families",
+    "s": 0.48,
+    "e": 0.94,
+    "p": 0.999
+   },
+   {
+    "w": "the",
+    "n": "the",
+    "s": 1.38,
+    "e": 1.52,
+    "p": 0.996
+   },
+   {
+    "w": "war",
+    "n": "war",
+    "s": 1.52,
+    "e": 1.76,
+    "p": 0.997
+   },
+   {
+    "w": "was",
+    "n": "was",
+    "s": 1.76,
+    "e": 1.96,
+    "p": 0.999
+   },
+   {
+    "w": "never",
+    "n": "never",
+    "s": 1.96,
+    "e": 2.24,
+    "p": 0.999
+   },
+   {
+    "w": "far",
+    "n": "far",
+    "s": 2.24,
+    "e": 2.5,
+    "p": 0.998
+   },
+   {
+    "w": "away.",
+    "n": "away",
+    "s": 2.5,
+    "e": 2.88,
+    "p": 0.998
+   },
+   {
+    "w": "And",
+    "n": "and",
+    "s": 3.36,
+    "e": 3.48,
+    "p": 0.981
+   },
+   {
+    "w": "at",
+    "n": "at",
+    "s": 3.48,
+    "e": 3.6,
+    "p": 0.99
+   },
+   {
+    "w": "home,",
+    "n": "home",
+    "s": 3.6,
+    "e": 3.94,
+    "p": 0.999
+   },
+   {
+    "w": "it",
+    "n": "it",
+    "s": 4.28,
+    "e": 4.4,
+    "p": 0.996
+   },
+   {
+    "w": "was",
+    "n": "was",
+    "s": 4.4,
+    "e": 4.56,
+    "p": 1.0
+   },
+   {
+    "w": "pulling",
+    "n": "pulling",
+    "s": 4.56,
+    "e": 4.8,
+    "p": 0.997
+   },
+   {
+    "w": "the",
+    "n": "the",
+    "s": 4.8,
+    "e": 5.02,
+    "p": 0.999
+   },
+   {
+    "w": "country",
+    "n": "country",
+    "s": 5.02,
+    "e": 5.34,
+    "p": 0.999
+   },
+   {
+    "w": "in",
+    "n": "in",
+    "s": 5.34,
+    "e": 5.52,
+    "p": 0.999
+   },
+   {
+    "w": "two.",
+    "n": "two",
+    "s": 5.52,
+    "e": 5.76,
+    "p": 0.987
+   }
+  ],
+  "diff": []
+ },
+ "S29": {
+  "text": "It began on the seventh of October, twenty twenty-three. Hamas-led fighters crossed from Gaza into southern Israel. Around twelve hundred people were killed, most of them civilians, and around two hundred and fifty were taken hostage.",
+  "words": [
+   {
+    "w": "It",
+    "n": "it",
+    "s": 0.0,
+    "e": 0.22,
+    "p": 0.95
+   },
+   {
+    "w": "began",
+    "n": "began",
+    "s": 0.22,
+    "e": 0.54,
+    "p": 0.989
+   },
+   {
+    "w": "on",
+    "n": "on",
+    "s": 0.54,
+    "e": 0.74,
+    "p": 0.994
+   },
+   {
+    "w": "the",
+    "n": "the",
+    "s": 0.74,
+    "e": 0.84,
+    "p": 0.964
+   },
+   {
+    "w": "seventh",
+    "n": "seventh",
+    "s": 0.84,
+    "e": 1.2,
+    "p": 0.067
+   },
+   {
+    "w": "of",
+    "n": "of",
+    "s": 1.2,
+    "e": 1.46,
+    "p": 0.989
+   },
+   {
+    "w": "October,",
+    "n": "october",
+    "s": 1.46,
+    "e": 1.92,
+    "p": 0.971
+   },
+   {
+    "w": "twenty",
+    "n": "twenty",
+    "s": 2.22,
+    "e": 2.4,
+    "p": 0.004
+   },
+   {
+    "w": "twenty",
+    "n": "twenty",
+    "s": 2.4,
+    "e": 2.72,
+    "p": 0.779
+   },
+   {
+    "w": "-three.",
+    "n": "three",
+    "s": 2.72,
+    "e": 3.18,
+    "p": 0.668
+   },
+   {
+    "w": "Hamas",
+    "n": "hamas",
+    "s": 3.8,
+    "e": 4.04,
+    "p": 0.988
+   },
+   {
+    "w": "-led",
+    "n": "led",
+    "s": 4.04,
+    "e": 4.36,
+    "p": 0.775
+   },
+   {
+    "w": "fighters",
+    "n": "fighters",
+    "s": 4.36,
+    "e": 4.78,
+    "p": 0.996
+   },
+   {
+    "w": "crossed",
+    "n": "crossed",
+    "s": 4.78,
+    "e": 5.14,
+    "p": 0.985
+   },
+   {
+    "w": "from",
+    "n": "from",
+    "s": 5.14,
+    "e": 5.42,
+    "p": 0.991
+   },
+   {
+    "w": "Gaza",
+    "n": "gaza",
+    "s": 5.42,
+    "e": 5.68,
+    "p": 0.999
+   },
+   {
+    "w": "into",
+    "n": "into",
+    "s": 5.68,
+    "e": 6.08,
+    "p": 0.984
+   },
+   {
+    "w": "southern",
+    "n": "southern",
+    "s": 6.08,
+    "e": 6.36,
+    "p": 0.808
+   },
+   {
+    "w": "Israel.",
+    "n": "israel",
+    "s": 6.36,
+    "e": 6.88,
+    "p": 0.997
+   },
+   {
+    "w": "Around",
+    "n": "around",
+    "s": 7.5,
+    "e": 7.64,
+    "p": 0.986
+   },
+   {
+    "w": "twelve",
+    "n": "twelve",
+    "s": 7.64,
+    "e": 7.94,
+    "p": 0.534
+   },
+   {
+    "w": "hundred",
+    "n": "hundred",
+    "s": 7.94,
+    "e": 8.24,
+    "p": 0.892
+   },
+   {
+    "w": "people",
+    "n": "people",
+    "s": 8.24,
+    "e": 8.6,
+    "p": 0.994
+   },
+   {
+    "w": "were",
+    "n": "were",
+    "s": 8.6,
+    "e": 8.82,
+    "p": 0.996
+   },
+   {
+    "w": "killed,",
+    "n": "killed",
+    "s": 8.82,
+    "e": 9.16,
+    "p": 0.999
+   },
+   {
+    "w": "most",
+    "n": "most",
+    "s": 9.7,
+    "e": 9.8,
+    "p": 0.995
+   },
+   {
+    "w": "of",
+    "n": "of",
+    "s": 9.8,
+    "e": 9.96,
+    "p": 0.995
+   },
+   {
+    "w": "them",
+    "n": "them",
+    "s": 9.96,
+    "e": 10.12,
+    "p": 0.996
+   },
+   {
+    "w": "civilians,",
+    "n": "civilians",
+    "s": 10.12,
+    "e": 10.58,
+    "p": 0.998
+   },
+   {
+    "w": "and",
+    "n": "and",
+    "s": 11.08,
+    "e": 11.2,
+    "p": 0.996
+   },
+   {
+    "w": "around",
+    "n": "around",
+    "s": 11.2,
+    "e": 11.42,
+    "p": 0.991
+   },
+   {
+    "w": "two",
+    "n": "two",
+    "s": 11.42,
+    "e": 11.7,
+    "p": 0.806
+   },
+   {
+    "w": "hundred",
+    "n": "hundred",
+    "s": 11.7,
+    "e": 11.98,
+    "p": 0.918
+   },
+   {
+    "w": "and",
+    "n": "and",
+    "s": 11.98,
+    "e": 12.12,
+    "p": 0.959
+   },
+   {
+    "w": "fifty",
+    "n": "fifty",
+    "s": 12.12,
+    "e": 12.4,
+    "p": 0.994
+   },
+   {
+    "w": "were",
+    "n": "were",
+    "s": 12.4,
+    "e": 12.6,
+    "p": 0.996
+   },
+   {
+    "w": "taken",
+    "n": "taken",
+    "s": 12.6,
+    "e": 12.84,
+    "p": 0.999
+   },
+   {
+    "w": "hostage.",
+    "n": "hostage",
+    "s": 12.84,
+    "e": 13.24,
+    "p": 0.999
+   }
+  ],
+  "diff": [
+   {
+    "op": "replace",
+    "ref": "twentythree hamasled",
+    "hyp": "twenty three hamas led"
+   }
+  ]
+ },
+ "S30": {
+  "text": "It was the deadliest day for Jewish people since the Holocaust. Israel's military campaign in Gaza lasted two years. Gaza's Health Ministry, run by Hamas, reported tens of thousands of Palestinians killed. U.N. agencies broadly treat those figures as reliable, and Israel long disputed them. U.N. backed experts declared famine in parts of the territory.",
+  "words": [
+   {
+    "w": "It",
+    "n": "it",
+    "s": 0.0,
+    "e": 0.24,
+    "p": 0.87
+   },
+   {
+    "w": "was",
+    "n": "was",
+    "s": 0.24,
+    "e": 0.4,
+    "p": 0.999
+   },
+   {
+    "w": "the",
+    "n": "the",
+    "s": 0.4,
+    "e": 0.58,
+    "p": 0.998
+   },
+   {
+    "w": "deadliest",
+    "n": "deadliest",
+    "s": 0.58,
+    "e": 0.96,
+    "p": 0.991
+   },
+   {
+    "w": "day",
+    "n": "day",
+    "s": 0.96,
+    "e": 1.26,
+    "p": 0.995
+   },
+   {
+    "w": "for",
+    "n": "for",
+    "s": 1.26,
+    "e": 1.46,
+    "p": 0.999
+   },
+   {
+    "w": "Jewish",
+    "n": "jewish",
+    "s": 1.46,
+    "e": 1.68,
+    "p": 0.988
+   },
+   {
+    "w": "people",
+    "n": "people",
+    "s": 1.68,
+    "e": 2.06,
+    "p": 0.992
+   },
+   {
+    "w": "since",
+    "n": "since",
+    "s": 2.06,
+    "e": 2.3,
+    "p": 0.999
+   },
+   {
+    "w": "the",
+    "n": "the",
+    "s": 2.3,
+    "e": 2.5,
+    "p": 0.997
+   },
+   {
+    "w": "Holocaust.",
+    "n": "holocaust",
+    "s": 2.5,
+    "e": 2.94,
+    "p": 0.931
+   },
+   {
+    "w": "Israel's",
+    "n": "israel's",
+    "s": 3.76,
+    "e": 4.08,
+    "p": 0.996
+   },
+   {
+    "w": "military",
+    "n": "military",
+    "s": 4.08,
+    "e": 4.44,
+    "p": 0.998
+   },
+   {
+    "w": "campaign",
+    "n": "campaign",
+    "s": 4.44,
+    "e": 4.96,
+    "p": 0.999
+   },
+   {
+    "w": "in",
+    "n": "in",
+    "s": 4.96,
+    "e": 5.18,
+    "p": 0.999
+   },
+   {
+    "w": "Gaza",
+    "n": "gaza",
+    "s": 5.18,
+    "e": 5.48,
+    "p": 1.0
+   },
+   {
+    "w": "lasted",
+    "n": "lasted",
+    "s": 5.48,
+    "e": 5.86,
+    "p": 0.998
+   },
+   {
+    "w": "two",
+    "n": "two",
+    "s": 5.86,
+    "e": 6.22,
+    "p": 0.946
+   },
+   {
+    "w": "years.",
+    "n": "years",
+    "s": 6.22,
+    "e": 6.62,
+    "p": 0.999
+   },
+   {
+    "w": "Gaza's",
+    "n": "gaza's",
+    "s": 7.28,
+    "e": 7.54,
+    "p": 0.999
+   },
+   {
+    "w": "Health",
+    "n": "health",
+    "s": 7.54,
+    "e": 7.7,
+    "p": 0.247
+   },
+   {
+    "w": "Ministry,",
+    "n": "ministry",
+    "s": 7.7,
+    "e": 8.2,
+    "p": 0.985
+   },
+   {
+    "w": "run",
+    "n": "run",
+    "s": 8.58,
+    "e": 8.7,
+    "p": 0.996
+   },
+   {
+    "w": "by",
+    "n": "by",
+    "s": 8.7,
+    "e": 8.88,
+    "p": 1.0
+   },
+   {
+    "w": "Hamas,",
+    "n": "hamas",
+    "s": 8.88,
+    "e": 9.16,
+    "p": 0.998
+   },
+   {
+    "w": "reported",
+    "n": "reported",
+    "s": 9.68,
+    "e": 9.94,
+    "p": 0.997
+   },
+   {
+    "w": "tens",
+    "n": "tens",
+    "s": 9.94,
+    "e": 10.3,
+    "p": 0.983
+   },
+   {
+    "w": "of",
+    "n": "of",
+    "s": 10.3,
+    "e": 10.54,
+    "p": 0.999
+   },
+   {
+    "w": "thousands",
+    "n": "thousands",
+    "s": 10.54,
+    "e": 10.86,
+    "p": 0.999
+   },
+   {
+    "w": "of",
+    "n": "of",
+    "s": 10.86,
+    "e": 11.1,
+    "p": 0.999
+   },
+   {
+    "w": "Palestinians",
+    "n": "palestinians",
+    "s": 11.1,
+    "e": 11.52,
+    "p": 0.998
+   },
+   {
+    "w": "killed.",
+    "n": "killed",
+    "s": 11.52,
+    "e": 12.06,
+    "p": 0.999
+   },
+   {
+    "w": "U",
+    "n": "u",
+    "s": 12.7,
+    "e": 12.78,
+    "p": 0.271
+   },
+   {
+    "w": ".N.",
+    "n": "n",
+    "s": 12.78,
+    "e": 12.92,
+    "p": 0.997
+   },
+   {
+    "w": "agencies",
+    "n": "agencies",
+    "s": 13.34,
+    "e": 13.34,
+    "p": 0.993
+   },
+   {
+    "w": "broadly",
+    "n": "broadly",
+    "s": 13.34,
+    "e": 13.76,
+    "p": 0.995
+   },
+   {
+    "w": "treat",
+    "n": "treat",
+    "s": 13.76,
+    "e": 14.12,
+    "p": 0.996
+   },
+   {
+    "w": "those",
+    "n": "those",
+    "s": 14.12,
+    "e": 14.32,
+    "p": 0.998
+   },
+   {
+    "w": "figures",
+    "n": "figures",
+    "s": 14.32,
+    "e": 14.62,
+    "p": 0.999
+   },
+   {
+    "w": "as",
+    "n": "as",
+    "s": 14.62,
+    "e": 14.9,
+    "p": 1.0
+   },
+   {
+    "w": "reliable,",
+    "n": "reliable",
+    "s": 14.9,
+    "e": 15.34,
+    "p": 0.98
+   },
+   {
+    "w": "and",
+    "n": "and",
+    "s": 15.82,
+    "e": 15.92,
+    "p": 0.999
+   },
+   {
+    "w": "Israel",
+    "n": "israel",
+    "s": 15.92,
+    "e": 16.28,
+    "p": 1.0
+   },
+   {
+    "w": "long",
+    "n": "long",
+    "s": 16.28,
+    "e": 16.52,
+    "p": 1.0
+   },
+   {
+    "w": "disputed",
+    "n": "disputed",
+    "s": 16.52,
+    "e": 16.9,
+    "p": 0.957
+   },
+   {
+    "w": "them.",
+    "n": "them",
+    "s": 16.9,
+    "e": 17.24,
+    "p": 1.0
+   },
+   {
+    "w": "U",
+    "n": "u",
+    "s": 17.8,
+    "e": 17.9,
+    "p": 0.949
+   },
+   {
+    "w": ".N.",
+    "n": "n",
+    "s": 17.9,
+    "e": 18.08,
+    "p": 0.999
+   },
+   {
+    "w": "backed",
+    "n": "backed",
+    "s": 18.28,
+    "e": 18.28,
+    "p": 0.648
+   },
+   {
+    "w": "experts",
+    "n": "experts",
+    "s": 18.28,
+    "e": 18.76,
+    "p": 0.997
+   },
+   {
+    "w": "declared",
+    "n": "declared",
+    "s": 18.76,
+    "e": 19.18,
+    "p": 0.999
+   },
+   {
+    "w": "famine",
+    "n": "famine",
+    "s": 19.18,
+    "e": 19.56,
+    "p": 0.999
+   },
+   {
+    "w": "in",
+    "n": "in",
+    "s": 19.56,
+    "e": 19.82,
+    "p": 0.997
+   },
+   {
+    "w": "parts",
+    "n": "parts",
+    "s": 19.82,
+    "e": 20.02,
+    "p": 0.994
+   },
+   {
+    "w": "of",
+    "n": "of",
+    "s": 20.02,
+    "e": 20.18,
+    "p": 1.0
+   },
+   {
+    "w": "the",
+    "n": "the",
+    "s": 20.18,
+    "e": 20.28,
+    "p": 0.999
+   },
+   {
+    "w": "territory.",
+    "n": "territory",
+    "s": 20.28,
+    "e": 20.72,
+    "p": 0.999
+   }
+  ],
+  "diff": [
+   {
+    "op": "replace",
+    "ref": "un",
+    "hyp": "u n"
+   },
+   {
+    "op": "replace",
+    "ref": "un",
+    "hyp": "u n"
+   }
+  ]
+ },
+ "S31": {
+  "text": "Back home, two days after October the seventh, the Opera House sails were lit in Israel's colours. That night, a pro-Palestinian rally gathered below. Flares were lit, and antisemitic chanting caused national outrage, though a later police review disputed exactly what was said.",
+  "words": [
+   {
+    "w": "Back",
+    "n": "back",
+    "s": 0.0,
+    "e": 0.3,
+    "p": 0.971
+   },
+   {
+    "w": "home,",
+    "n": "home",
+    "s": 0.3,
+    "e": 0.66,
+    "p": 0.977
+   },
+   {
+    "w": "two",
+    "n": "two",
+    "s": 0.9,
+    "e": 1.06,
+    "p": 0.9
+   },
+   {
+    "w": "days",
+    "n": "days",
+    "s": 1.06,
+    "e": 1.28,
+    "p": 0.998
+   },
+   {
+    "w": "after",
+    "n": "after",
+    "s": 1.28,
+    "e": 1.62,
+    "p": 0.999
+   },
+   {
+    "w": "October",
+    "n": "october",
+    "s": 1.62,
+    "e": 1.98,
+    "p": 0.971
+   },
+   {
+    "w": "the",
+    "n": "the",
+    "s": 1.98,
+    "e": 2.24,
+    "p": 0.494
+   },
+   {
+    "w": "seventh,",
+    "n": "seventh",
+    "s": 2.24,
+    "e": 2.54,
+    "p": 0.119
+   },
+   {
+    "w": "the",
+    "n": "the",
+    "s": 3.02,
+    "e": 3.12,
+    "p": 0.984
+   },
+   {
+    "w": "Opera",
+    "n": "opera",
+    "s": 3.12,
+    "e": 3.42,
+    "p": 0.476
+   },
+   {
+    "w": "House",
+    "n": "house",
+    "s": 3.42,
+    "e": 3.68,
+    "p": 0.981
+   },
+   {
+    "w": "sails",
+    "n": "sails",
+    "s": 3.68,
+    "e": 3.96,
+    "p": 0.02
+   },
+   {
+    "w": "were",
+    "n": "were",
+    "s": 3.96,
+    "e": 4.26,
+    "p": 0.997
+   },
+   {
+    "w": "lit",
+    "n": "lit",
+    "s": 4.26,
+    "e": 4.48,
+    "p": 0.997
+   },
+   {
+    "w": "in",
+    "n": "in",
+    "s": 4.48,
+    "e": 4.68,
+    "p": 0.997
+   },
+   {
+    "w": "Israel's",
+    "n": "israel's",
+    "s": 4.68,
+    "e": 5.24,
+    "p": 0.989
+   },
+   {
+    "w": "colours.",
+    "n": "colours",
+    "s": 5.24,
+    "e": 5.48,
+    "p": 0.022
+   },
+   {
+    "w": "That",
+    "n": "that",
+    "s": 6.14,
+    "e": 6.34,
+    "p": 0.992
+   },
+   {
+    "w": "night,",
+    "n": "night",
+    "s": 6.34,
+    "e": 6.6,
+    "p": 0.999
+   },
+   {
+    "w": "a",
+    "n": "a",
+    "s": 6.9,
+    "e": 6.96,
+    "p": 0.997
+   },
+   {
+    "w": "pro",
+    "n": "pro",
+    "s": 6.96,
+    "e": 7.18,
+    "p": 0.979
+   },
+   {
+    "w": "-Palestinian",
+    "n": "palestinian",
+    "s": 7.18,
+    "e": 7.68,
+    "p": 0.969
+   },
+   {
+    "w": "rally",
+    "n": "rally",
+    "s": 7.68,
+    "e": 8.18,
+    "p": 0.994
+   },
+   {
+    "w": "gathered",
+    "n": "gathered",
+    "s": 8.18,
+    "e": 8.54,
+    "p": 0.985
+   },
+   {
+    "w": "below.",
+    "n": "below",
+    "s": 8.54,
+    "e": 9.0,
+    "p": 0.996
+   },
+   {
+    "w": "Flares",
+    "n": "flares",
+    "s": 9.56,
+    "e": 9.84,
+    "p": 0.966
+   },
+   {
+    "w": "were",
+    "n": "were",
+    "s": 9.84,
+    "e": 10.04,
+    "p": 0.998
+   },
+   {
+    "w": "lit,",
+    "n": "lit",
+    "s": 10.04,
+    "e": 10.3,
+    "p": 0.999
+   },
+   {
+    "w": "and",
+    "n": "and",
+    "s": 10.5,
+    "e": 10.56,
+    "p": 0.949
+   },
+   {
+    "w": "antisemitic",
+    "n": "antisemitic",
+    "s": 10.56,
+    "e": 11.24,
+    "p": 0.698
+   },
+   {
+    "w": "chanting",
+    "n": "chanting",
+    "s": 11.24,
+    "e": 11.58,
+    "p": 0.995
+   },
+   {
+    "w": "caused",
+    "n": "caused",
+    "s": 11.58,
+    "e": 12.0,
+    "p": 0.992
+   },
+   {
+    "w": "national",
+    "n": "national",
+    "s": 12.0,
+    "e": 12.54,
+    "p": 0.988
+   },
+   {
+    "w": "outrage,",
+    "n": "outrage",
+    "s": 12.54,
+    "e": 13.04,
+    "p": 0.997
+   },
+   {
+    "w": "though",
+    "n": "though",
+    "s": 13.52,
+    "e": 13.7,
+    "p": 0.993
+   },
+   {
+    "w": "a",
+    "n": "a",
+    "s": 13.7,
+    "e": 13.84,
+    "p": 0.987
+   },
+   {
+    "w": "later",
+    "n": "later",
+    "s": 13.84,
+    "e": 14.06,
+    "p": 0.995
+   },
+   {
+    "w": "police",
+    "n": "police",
+    "s": 14.06,
+    "e": 14.42,
+    "p": 0.985
+   },
+   {
+    "w": "review",
+    "n": "review",
+    "s": 14.42,
+    "e": 14.8,
+    "p": 0.988
+   },
+   {
+    "w": "disputed",
+    "n": "disputed",
+    "s": 14.8,
+    "e": 15.3,
+    "p": 0.971
+   },
+   {
+    "w": "exactly",
+    "n": "exactly",
+    "s": 15.3,
+    "e": 15.76,
+    "p": 0.989
+   },
+   {
+    "w": "what",
+    "n": "what",
+    "s": 15.76,
+    "e": 16.06,
+    "p": 0.998
+   },
+   {
+    "w": "was",
+    "n": "was",
+    "s": 16.06,
+    "e": 16.2,
+    "p": 0.999
+   },
+   {
+    "w": "said.",
+    "n": "said",
+    "s": 16.2,
+    "e": 16.48,
+    "p": 0.999
+   }
+  ],
+  "diff": [
+   {
+    "op": "replace",
+    "ref": "propalestinian",
+    "hyp": "pro palestinian"
+   }
+  ]
+ },
+ "S32": {
+  "text": "The fight moved onto phones and into courtrooms. The private details of hundreds of Jewish writers and artists were published online, and Parliament made malicious doxxing a crime. An ABC presenter was taken off air after sharing a human rights report on Gaza, and the Federal Court later found she'd been unlawfully sacked. Two cases. Opposite sides.",
+  "words": [
+   {
+    "w": "The",
+    "n": "the",
+    "s": 0.0,
+    "e": 0.28,
+    "p": 0.934
+   },
+   {
+    "w": "fight",
+    "n": "fight",
+    "s": 0.28,
+    "e": 0.5,
+    "p": 0.996
+   },
+   {
+    "w": "moved",
+    "n": "moved",
+    "s": 0.5,
+    "e": 0.78,
+    "p": 0.999
+   },
+   {
+    "w": "onto",
+    "n": "onto",
+    "s": 0.78,
+    "e": 1.04,
+    "p": 0.798
+   },
+   {
+    "w": "phones",
+    "n": "phones",
+    "s": 1.04,
+    "e": 1.42,
+    "p": 0.997
+   },
+   {
+    "w": "and",
+    "n": "and",
+    "s": 1.42,
+    "e": 1.72,
+    "p": 0.986
+   },
+   {
+    "w": "into",
+    "n": "into",
+    "s": 1.72,
+    "e": 2.02,
+    "p": 0.996
+   },
+   {
+    "w": "courtrooms.",
+    "n": "courtrooms",
+    "s": 2.02,
+    "e": 2.64,
+    "p": 0.948
+   },
+   {
+    "w": "The",
+    "n": "the",
+    "s": 3.14,
+    "e": 3.18,
+    "p": 0.994
+   },
+   {
+    "w": "private",
+    "n": "private",
+    "s": 3.18,
+    "e": 3.46,
+    "p": 0.999
+   },
+   {
+    "w": "details",
+    "n": "details",
+    "s": 3.46,
+    "e": 3.9,
+    "p": 1.0
+   },
+   {
+    "w": "of",
+    "n": "of",
+    "s": 3.9,
+    "e": 4.14,
+    "p": 0.999
+   },
+   {
+    "w": "hundreds",
+    "n": "hundreds",
+    "s": 4.14,
+    "e": 4.46,
+    "p": 0.996
+   },
+   {
+    "w": "of",
+    "n": "of",
+    "s": 4.46,
+    "e": 4.7,
+    "p": 1.0
+   },
+   {
+    "w": "Jewish",
+    "n": "jewish",
+    "s": 4.7,
+    "e": 4.86,
+    "p": 0.993
+   },
+   {
+    "w": "writers",
+    "n": "writers",
+    "s": 4.86,
+    "e": 5.32,
+    "p": 1.0
+   },
+   {
+    "w": "and",
+    "n": "and",
+    "s": 5.32,
+    "e": 5.52,
+    "p": 0.999
+   },
+   {
+    "w": "artists",
+    "n": "artists",
+    "s": 5.52,
+    "e": 5.92,
+    "p": 0.998
+   },
+   {
+    "w": "were",
+    "n": "were",
+    "s": 5.92,
+    "e": 6.14,
+    "p": 0.998
+   },
+   {
+    "w": "published",
+    "n": "published",
+    "s": 6.14,
+    "e": 6.48,
+    "p": 0.999
+   },
+   {
+    "w": "online,",
+    "n": "online",
+    "s": 6.48,
+    "e": 6.92,
+    "p": 0.993
+   },
+   {
+    "w": "and",
+    "n": "and",
+    "s": 7.42,
+    "e": 7.62,
+    "p": 0.998
+   },
+   {
+    "w": "Parliament",
+    "n": "parliament",
+    "s": 7.62,
+    "e": 7.9,
+    "p": 0.664
+   },
+   {
+    "w": "made",
+    "n": "made",
+    "s": 7.9,
+    "e": 8.24,
+    "p": 0.999
+   },
+   {
+    "w": "malicious",
+    "n": "malicious",
+    "s": 8.24,
+    "e": 8.64,
+    "p": 0.082
+   },
+   {
+    "w": "doxxing",
+    "n": "doxxing",
+    "s": 8.64,
+    "e": 9.18,
+    "p": 0.86
+   },
+   {
+    "w": "a",
+    "n": "a",
+    "s": 9.18,
+    "e": 9.3,
+    "p": 0.999
+   },
+   {
+    "w": "crime.",
+    "n": "crime",
+    "s": 9.3,
+    "e": 9.6,
+    "p": 1.0
+   },
+   {
+    "w": "An",
+    "n": "an",
+    "s": 10.18,
+    "e": 10.28,
+    "p": 0.991
+   },
+   {
+    "w": "ABC",
+    "n": "abc",
+    "s": 10.28,
+    "e": 10.62,
+    "p": 0.989
+   },
+   {
+    "w": "presenter",
+    "n": "presenter",
+    "s": 10.62,
+    "e": 11.1,
+    "p": 0.996
+   },
+   {
+    "w": "was",
+    "n": "was",
+    "s": 11.1,
+    "e": 11.36,
+    "p": 1.0
+   },
+   {
+    "w": "taken",
+    "n": "taken",
+    "s": 11.36,
+    "e": 11.6,
+    "p": 0.999
+   },
+   {
+    "w": "off",
+    "n": "off",
+    "s": 11.6,
+    "e": 11.84,
+    "p": 0.998
+   },
+   {
+    "w": "air",
+    "n": "air",
+    "s": 11.84,
+    "e": 12.08,
+    "p": 0.487
+   },
+   {
+    "w": "after",
+    "n": "after",
+    "s": 12.08,
+    "e": 12.38,
+    "p": 0.999
+   },
+   {
+    "w": "sharing",
+    "n": "sharing",
+    "s": 12.38,
+    "e": 12.66,
+    "p": 0.998
+   },
+   {
+    "w": "a",
+    "n": "a",
+    "s": 12.66,
+    "e": 12.88,
+    "p": 1.0
+   },
+   {
+    "w": "human",
+    "n": "human",
+    "s": 12.88,
+    "e": 13.06,
+    "p": 0.92
+   },
+   {
+    "w": "rights",
+    "n": "rights",
+    "s": 13.06,
+    "e": 13.38,
+    "p": 0.986
+   },
+   {
+    "w": "report",
+    "n": "report",
+    "s": 13.38,
+    "e": 13.72,
+    "p": 0.999
+   },
+   {
+    "w": "on",
+    "n": "on",
+    "s": 13.72,
+    "e": 13.94,
+    "p": 0.999
+   },
+   {
+    "w": "Gaza,",
+    "n": "gaza",
+    "s": 13.94,
+    "e": 14.2,
+    "p": 0.999
+   },
+   {
+    "w": "and",
+    "n": "and",
+    "s": 14.64,
+    "e": 14.84,
+    "p": 0.999
+   },
+   {
+    "w": "the",
+    "n": "the",
+    "s": 14.84,
+    "e": 14.96,
+    "p": 0.998
+   },
+   {
+    "w": "Federal",
+    "n": "federal",
+    "s": 14.96,
+    "e": 15.16,
+    "p": 0.243
+   },
+   {
+    "w": "Court",
+    "n": "court",
+    "s": 15.16,
+    "e": 15.52,
+    "p": 0.843
+   },
+   {
+    "w": "later",
+    "n": "later",
+    "s": 15.52,
+    "e": 15.74,
+    "p": 0.999
+   },
+   {
+    "w": "found",
+    "n": "found",
+    "s": 15.74,
+    "e": 16.08,
+    "p": 1.0
+   },
+   {
+    "w": "she'd",
+    "n": "she'd",
+    "s": 16.08,
+    "e": 16.34,
+    "p": 0.99
+   },
+   {
+    "w": "been",
+    "n": "been",
+    "s": 16.34,
+    "e": 16.48,
+    "p": 0.999
+   },
+   {
+    "w": "unlawfully",
+    "n": "unlawfully",
+    "s": 16.48,
+    "e": 17.0,
+    "p": 0.921
+   },
+   {
+    "w": "sacked.",
+    "n": "sacked",
+    "s": 17.0,
+    "e": 17.4,
+    "p": 0.999
+   },
+   {
+    "w": "Two",
+    "n": "two",
+    "s": 18.06,
+    "e": 18.22,
+    "p": 0.955
+   },
+   {
+    "w": "cases.",
+    "n": "cases",
+    "s": 18.22,
+    "e": 18.58,
+    "p": 0.983
+   },
+   {
+    "w": "Opposite",
+    "n": "opposite",
+    "s": 19.3,
+    "e": 19.52,
+    "p": 0.979
+   },
+   {
+    "w": "sides.",
+    "n": "sides",
+    "s": 19.52,
+    "e": 19.8,
+    "p": 0.993
+   }
+  ],
+  "diff": []
+ },
+ "S33": {
+  "text": "Tens of thousands marched across the Harbour Bridge in the rain. Jewish groups recorded record numbers of antisemitic incidents. Muslim Australians, especially women wearing the hijab, reported record abuse. The government appointed two special envoys, one to combat antisemitism, and one to combat Islamophobia.",
+  "words": [
+   {
+    "w": "Tens",
+    "n": "tens",
+    "s": 0.0,
+    "e": 0.36,
+    "p": 0.881
+   },
+   {
+    "w": "of",
+    "n": "of",
+    "s": 0.36,
+    "e": 0.62,
+    "p": 0.998
+   },
+   {
+    "w": "thousands",
+    "n": "thousands",
+    "s": 0.62,
+    "e": 1.06,
+    "p": 0.995
+   },
+   {
+    "w": "marched",
+    "n": "marched",
+    "s": 1.06,
+    "e": 1.4,
+    "p": 0.994
+   },
+   {
+    "w": "across",
+    "n": "across",
+    "s": 1.4,
+    "e": 1.82,
+    "p": 0.996
+   },
+   {
+    "w": "the",
+    "n": "the",
+    "s": 1.82,
+    "e": 2.04,
+    "p": 0.996
+   },
+   {
+    "w": "Harbour",
+    "n": "harbour",
+    "s": 2.04,
+    "e": 2.24,
+    "p": 0.267
+   },
+   {
+    "w": "Bridge",
+    "n": "bridge",
+    "s": 2.24,
+    "e": 2.58,
+    "p": 0.969
+   },
+   {
+    "w": "in",
+    "n": "in",
+    "s": 2.58,
+    "e": 2.78,
+    "p": 0.979
+   },
+   {
+    "w": "the",
+    "n": "the",
+    "s": 2.78,
+    "e": 2.88,
+    "p": 0.998
+   },
+   {
+    "w": "rain.",
+    "n": "rain",
+    "s": 2.88,
+    "e": 3.16,
+    "p": 0.964
+   },
+   {
+    "w": "Jewish",
+    "n": "jewish",
+    "s": 3.92,
+    "e": 4.0,
+    "p": 0.992
+   },
+   {
+    "w": "groups",
+    "n": "groups",
+    "s": 4.0,
+    "e": 4.36,
+    "p": 0.988
+   },
+   {
+    "w": "recorded",
+    "n": "recorded",
+    "s": 4.36,
+    "e": 4.86,
+    "p": 0.994
+   },
+   {
+    "w": "record",
+    "n": "record",
+    "s": 4.86,
+    "e": 5.22,
+    "p": 0.995
+   },
+   {
+    "w": "numbers",
+    "n": "numbers",
+    "s": 5.22,
+    "e": 5.56,
+    "p": 0.997
+   },
+   {
+    "w": "of",
+    "n": "of",
+    "s": 5.56,
+    "e": 5.84,
+    "p": 0.998
+   },
+   {
+    "w": "antisemitic",
+    "n": "antisemitic",
+    "s": 5.84,
+    "e": 6.52,
+    "p": 0.715
+   },
+   {
+    "w": "incidents.",
+    "n": "incidents",
+    "s": 6.52,
+    "e": 7.02,
+    "p": 0.938
+   },
+   {
+    "w": "Muslim",
+    "n": "muslim",
+    "s": 7.82,
+    "e": 8.04,
+    "p": 0.992
+   },
+   {
+    "w": "Australians,",
+    "n": "australians",
+    "s": 8.04,
+    "e": 8.6,
+    "p": 0.939
+   },
+   {
+    "w": "especially",
+    "n": "especially",
+    "s": 8.96,
+    "e": 9.3,
+    "p": 0.998
+   },
+   {
+    "w": "women",
+    "n": "women",
+    "s": 9.3,
+    "e": 9.7,
+    "p": 0.995
+   },
+   {
+    "w": "wearing",
+    "n": "wearing",
+    "s": 9.7,
+    "e": 10.06,
+    "p": 0.996
+   },
+   {
+    "w": "the",
+    "n": "the",
+    "s": 10.06,
+    "e": 10.22,
+    "p": 0.994
+   },
+   {
+    "w": "hijab,",
+    "n": "hijab",
+    "s": 10.22,
+    "e": 10.56,
+    "p": 0.949
+   },
+   {
+    "w": "reported",
+    "n": "reported",
+    "s": 11.02,
+    "e": 11.4,
+    "p": 0.993
+   },
+   {
+    "w": "record",
+    "n": "record",
+    "s": 11.4,
+    "e": 11.8,
+    "p": 0.996
+   },
+   {
+    "w": "abuse.",
+    "n": "abuse",
+    "s": 11.8,
+    "e": 12.16,
+    "p": 0.999
+   },
+   {
+    "w": "The",
+    "n": "the",
+    "s": 12.8,
+    "e": 12.88,
+    "p": 0.994
+   },
+   {
+    "w": "government",
+    "n": "government",
+    "s": 12.88,
+    "e": 13.12,
+    "p": 0.956
+   },
+   {
+    "w": "appointed",
+    "n": "appointed",
+    "s": 13.12,
+    "e": 13.6,
+    "p": 0.997
+   },
+   {
+    "w": "two",
+    "n": "two",
+    "s": 13.6,
+    "e": 13.92,
+    "p": 0.977
+   },
+   {
+    "w": "special",
+    "n": "special",
+    "s": 13.92,
+    "e": 14.34,
+    "p": 0.971
+   },
+   {
+    "w": "envoys,",
+    "n": "envoys",
+    "s": 14.34,
+    "e": 14.88,
+    "p": 0.988
+   },
+   {
+    "w": "one",
+    "n": "one",
+    "s": 15.38,
+    "e": 15.54,
+    "p": 0.992
+   },
+   {
+    "w": "to",
+    "n": "to",
+    "s": 15.54,
+    "e": 15.74,
+    "p": 0.999
+   },
+   {
+    "w": "combat",
+    "n": "combat",
+    "s": 15.74,
+    "e": 16.08,
+    "p": 0.998
+   },
+   {
+    "w": "antisemitism,",
+    "n": "antisemitism",
+    "s": 16.08,
+    "e": 16.86,
+    "p": 0.971
+   },
+   {
+    "w": "and",
+    "n": "and",
+    "s": 17.32,
+    "e": 17.48,
+    "p": 0.991
+   },
+   {
+    "w": "one",
+    "n": "one",
+    "s": 17.48,
+    "e": 17.7,
+    "p": 0.997
+   },
+   {
+    "w": "to",
+    "n": "to",
+    "s": 17.7,
+    "e": 17.9,
+    "p": 0.999
+   },
+   {
+    "w": "combat",
+    "n": "combat",
+    "s": 17.9,
+    "e": 18.32,
+    "p": 0.996
+   },
+   {
+    "w": "Islamophobia.",
+    "n": "islamophobia",
+    "s": 18.32,
+    "e": 19.04,
+    "p": 0.965
+   }
+  ],
+  "diff": []
+ },
+ "S34": {
+  "text": "Now look back. The fires. The jet parts. The expelled ambassador. The recognition. The court cases. The visas. All of it, in the two years before Bondi.",
+  "words": [
+   {
+    "w": "Now",
+    "n": "now",
+    "s": 0.0,
+    "e": 0.32,
+    "p": 0.865
+   },
+   {
+    "w": "look",
+    "n": "look",
+    "s": 0.32,
+    "e": 0.5,
+    "p": 0.98
+   },
+   {
+    "w": "back.",
+    "n": "back",
+    "s": 0.5,
+    "e": 0.82,
+    "p": 0.999
+   },
+   {
+    "w": "The",
+    "n": "the",
+    "s": 1.32,
+    "e": 1.34,
+    "p": 0.972
+   },
+   {
+    "w": "fires.",
+    "n": "fires",
+    "s": 1.34,
+    "e": 1.7,
+    "p": 0.994
+   },
+   {
+    "w": "The",
+    "n": "the",
+    "s": 2.18,
+    "e": 2.24,
+    "p": 0.997
+   },
+   {
+    "w": "jet",
+    "n": "jet",
+    "s": 2.24,
+    "e": 2.44,
+    "p": 0.99
+   },
+   {
+    "w": "parts.",
+    "n": "parts",
+    "s": 2.44,
+    "e": 2.72,
+    "p": 0.989
+   },
+   {
+    "w": "The",
+    "n": "the",
+    "s": 3.3,
+    "e": 3.4,
+    "p": 0.998
+   },
+   {
+    "w": "expelled",
+    "n": "expelled",
+    "s": 3.4,
+    "e": 3.78,
+    "p": 0.993
+   },
+   {
+    "w": "ambassador.",
+    "n": "ambassador",
+    "s": 3.78,
+    "e": 4.14,
+    "p": 0.966
+   },
+   {
+    "w": "The",
+    "n": "the",
+    "s": 4.8,
+    "e": 4.9,
+    "p": 0.997
+   },
+   {
+    "w": "recognition.",
+    "n": "recognition",
+    "s": 4.9,
+    "e": 5.34,
+    "p": 0.998
+   },
+   {
+    "w": "The",
+    "n": "the",
+    "s": 5.96,
+    "e": 6.04,
+    "p": 0.997
+   },
+   {
+    "w": "court",
+    "n": "court",
+    "s": 6.04,
+    "e": 6.28,
+    "p": 0.999
+   },
+   {
+    "w": "cases.",
+    "n": "cases",
+    "s": 6.28,
+    "e": 6.62,
+    "p": 0.997
+   },
+   {
+    "w": "The",
+    "n": "the",
+    "s": 7.1,
+    "e": 7.18,
+    "p": 0.996
+   },
+   {
+    "w": "visas.",
+    "n": "visas",
+    "s": 7.18,
+    "e": 7.44,
+    "p": 0.982
+   },
+   {
+    "w": "All",
+    "n": "all",
+    "s": 8.12,
+    "e": 8.26,
+    "p": 0.998
+   },
+   {
+    "w": "of",
+    "n": "of",
+    "s": 8.26,
+    "e": 8.4,
+    "p": 0.999
+   },
+   {
+    "w": "it,",
+    "n": "it",
+    "s": 8.4,
+    "e": 8.56,
+    "p": 0.999
+   },
+   {
+    "w": "in",
+    "n": "in",
+    "s": 8.88,
+    "e": 8.98,
+    "p": 0.984
+   },
+   {
+    "w": "the",
+    "n": "the",
+    "s": 8.98,
+    "e": 9.1,
+    "p": 0.997
+   },
+   {
+    "w": "two",
+    "n": "two",
+    "s": 9.1,
+    "e": 9.3,
+    "p": 0.936
+   },
+   {
+    "w": "years",
+    "n": "years",
+    "s": 9.3,
+    "e": 9.56,
+    "p": 0.998
+   },
+   {
+    "w": "before",
+    "n": "before",
+    "s": 9.56,
+    "e": 9.9,
+    "p": 0.999
+   },
+   {
+    "w": "Bondi.",
+    "n": "bondi",
+    "s": 9.9,
+    "e": 10.4,
+    "p": 0.929
+   }
+  ],
+  "diff": []
+ },
+ "S35": {
+  "text": "In October twenty twenty-five, a U.S.-brokered ceasefire brought the surviving hostages home. Many hoped the worst was over. Sixty-five days after the ceasefire, it wasn't.",
+  "words": [
+   {
+    "w": "In",
+    "n": "in",
+    "s": 0.0,
+    "e": 0.24,
+    "p": 0.916
+   },
+   {
+    "w": "October",
+    "n": "october",
+    "s": 0.24,
+    "e": 0.62,
+    "p": 0.991
+   },
+   {
+    "w": "twenty",
+    "n": "twenty",
+    "s": 0.62,
+    "e": 1.04,
+    "p": 0.002
+   },
+   {
+    "w": "twenty",
+    "n": "twenty",
+    "s": 1.04,
+    "e": 1.28,
+    "p": 0.955
+   },
+   {
+    "w": "-five,",
+    "n": "five",
+    "s": 1.28,
+    "e": 1.74,
+    "p": 0.61
+   },
+   {
+    "w": "a",
+    "n": "a",
+    "s": 1.96,
+    "e": 2.0,
+    "p": 0.979
+   },
+   {
+    "w": "U",
+    "n": "u",
+    "s": 2.0,
+    "e": 2.14,
+    "p": 0.573
+   },
+   {
+    "w": ".S.-brokered",
+    "n": "sbrokered",
+    "s": 2.14,
+    "e": 2.76,
+    "p": 0.802
+   },
+   {
+    "w": "ceasefire",
+    "n": "ceasefire",
+    "s": 2.76,
+    "e": 3.22,
+    "p": 0.84
+   },
+   {
+    "w": "brought",
+    "n": "brought",
+    "s": 3.22,
+    "e": 3.66,
+    "p": 0.992
+   },
+   {
+    "w": "the",
+    "n": "the",
+    "s": 3.66,
+    "e": 3.84,
+    "p": 0.995
+   },
+   {
+    "w": "surviving",
+    "n": "surviving",
+    "s": 3.84,
+    "e": 4.32,
+    "p": 0.999
+   },
+   {
+    "w": "hostages",
+    "n": "hostages",
+    "s": 4.32,
+    "e": 4.78,
+    "p": 0.996
+   },
+   {
+    "w": "home.",
+    "n": "home",
+    "s": 4.78,
+    "e": 5.26,
+    "p": 0.997
+   },
+   {
+    "w": "Many",
+    "n": "many",
+    "s": 5.98,
+    "e": 6.1,
+    "p": 0.995
+   },
+   {
+    "w": "hoped",
+    "n": "hoped",
+    "s": 6.1,
+    "e": 6.4,
+    "p": 0.912
+   },
+   {
+    "w": "the",
+    "n": "the",
+    "s": 6.4,
+    "e": 6.6,
+    "p": 0.992
+   },
+   {
+    "w": "worst",
+    "n": "worst",
+    "s": 6.6,
+    "e": 6.8,
+    "p": 0.997
+   },
+   {
+    "w": "was",
+    "n": "was",
+    "s": 6.8,
+    "e": 7.02,
+    "p": 0.998
+   },
+   {
+    "w": "over.",
+    "n": "over",
+    "s": 7.02,
+    "e": 7.34,
+    "p": 0.999
+   },
+   {
+    "w": "Sixty",
+    "n": "sixty",
+    "s": 8.08,
+    "e": 8.26,
+    "p": 0.917
+   },
+   {
+    "w": "-five",
+    "n": "five",
+    "s": 8.26,
+    "e": 8.54,
+    "p": 0.953
+   },
+   {
+    "w": "days",
+    "n": "days",
+    "s": 8.54,
+    "e": 8.74,
+    "p": 0.997
+   },
+   {
+    "w": "after",
+    "n": "after",
+    "s": 8.74,
+    "e": 9.06,
+    "p": 0.998
+   },
+   {
+    "w": "the",
+    "n": "the",
+    "s": 9.06,
+    "e": 9.26,
+    "p": 0.996
+   },
+   {
+    "w": "ceasefire,",
+    "n": "ceasefire",
+    "s": 9.26,
+    "e": 9.68,
+    "p": 0.984
+   },
+   {
+    "w": "it",
+    "n": "it",
+    "s": 9.98,
+    "e": 10.02,
+    "p": 0.996
+   },
+   {
+    "w": "wasn't.",
+    "n": "wasn't",
+    "s": 10.02,
+    "e": 10.34,
+    "p": 0.997
+   }
+  ],
+  "diff": [
+   {
+    "op": "replace",
+    "ref": "twentyfive",
+    "hyp": "twenty five"
+   },
+   {
+    "op": "replace",
+    "ref": "usbrokered",
+    "hyp": "u sbrokered"
+   },
+   {
+    "op": "replace",
+    "ref": "sixtyfive",
+    "hyp": "sixty five"
+   }
+  ]
+ },
+ "S36": {
+  "text": "Remember the fire, fourteen months earlier, in Bondi? Hanukkah is the festival of lights. On its first night, around a thousand people gathered by the beach to celebrate.",
+  "words": [
+   {
+    "w": "Remember",
+    "n": "remember",
+    "s": 0.0,
+    "e": 0.42,
+    "p": 0.915
+   },
+   {
+    "w": "the",
+    "n": "the",
+    "s": 0.42,
+    "e": 0.6,
+    "p": 0.928
+   },
+   {
+    "w": "fire,",
+    "n": "fire",
+    "s": 0.6,
+    "e": 0.98,
+    "p": 0.927
+   },
+   {
+    "w": "fourteen",
+    "n": "fourteen",
+    "s": 1.4,
+    "e": 1.66,
+    "p": 0.123
+   },
+   {
+    "w": "months",
+    "n": "months",
+    "s": 1.66,
+    "e": 2.0,
+    "p": 0.996
+   },
+   {
+    "w": "earlier,",
+    "n": "earlier",
+    "s": 2.0,
+    "e": 2.44,
+    "p": 0.998
+   },
+   {
+    "w": "in",
+    "n": "in",
+    "s": 2.7,
+    "e": 2.84,
+    "p": 0.998
+   },
+   {
+    "w": "Bondi?",
+    "n": "bondi",
+    "s": 2.84,
+    "e": 3.3,
+    "p": 0.65
+   },
+   {
+    "w": "Hanukkah",
+    "n": "hanukkah",
+    "s": 4.04,
+    "e": 4.42,
+    "p": 0.966
+   },
+   {
+    "w": "is",
+    "n": "is",
+    "s": 4.42,
+    "e": 4.56,
+    "p": 0.998
+   },
+   {
+    "w": "the",
+    "n": "the",
+    "s": 4.56,
+    "e": 4.72,
+    "p": 0.982
+   },
+   {
+    "w": "festival",
+    "n": "festival",
+    "s": 4.72,
+    "e": 5.02,
+    "p": 0.702
+   },
+   {
+    "w": "of",
+    "n": "of",
+    "s": 5.02,
+    "e": 5.28,
+    "p": 1.0
+   },
+   {
+    "w": "lights.",
+    "n": "lights",
+    "s": 5.28,
+    "e": 5.54,
+    "p": 0.978
+   },
+   {
+    "w": "On",
+    "n": "on",
+    "s": 6.1,
+    "e": 6.24,
+    "p": 0.993
+   },
+   {
+    "w": "its",
+    "n": "its",
+    "s": 6.24,
+    "e": 6.4,
+    "p": 0.992
+   },
+   {
+    "w": "first",
+    "n": "first",
+    "s": 6.4,
+    "e": 6.62,
+    "p": 0.999
+   },
+   {
+    "w": "night,",
+    "n": "night",
+    "s": 6.62,
+    "e": 7.02,
+    "p": 0.999
+   },
+   {
+    "w": "around",
+    "n": "around",
+    "s": 7.28,
+    "e": 7.38,
+    "p": 0.999
+   },
+   {
+    "w": "a",
+    "n": "a",
+    "s": 7.38,
+    "e": 7.52,
+    "p": 0.878
+   },
+   {
+    "w": "thousand",
+    "n": "thousand",
+    "s": 7.52,
+    "e": 7.8,
+    "p": 0.997
+   },
+   {
+    "w": "people",
+    "n": "people",
+    "s": 7.8,
+    "e": 8.16,
+    "p": 0.999
+   },
+   {
+    "w": "gathered",
+    "n": "gathered",
+    "s": 8.16,
+    "e": 8.44,
+    "p": 0.967
+   },
+   {
+    "w": "by",
+    "n": "by",
+    "s": 8.44,
+    "e": 8.7,
+    "p": 1.0
+   },
+   {
+    "w": "the",
+    "n": "the",
+    "s": 8.7,
+    "e": 8.82,
+    "p": 0.999
+   },
+   {
+    "w": "beach",
+    "n": "beach",
+    "s": 8.82,
+    "e": 9.06,
+    "p": 0.993
+   },
+   {
+    "w": "to",
+    "n": "to",
+    "s": 9.06,
+    "e": 9.46,
+    "p": 0.966
+   },
+   {
+    "w": "celebrate.",
+    "n": "celebrate",
+    "s": 9.46,
+    "e": 9.84,
+    "p": 0.999
+   }
+  ],
+  "diff": []
+ },
+ "S37": {
+  "text": "Two gunmen, a father and son, opened fire. Police shot the father dead. His son was arrested. Fifteen people were killed. Among them, a ten-year-old girl, a retired police officer, a rabbi, and a Holocaust survivor.",
+  "words": [
+   {
+    "w": "Two",
+    "n": "two",
+    "s": 0.0,
+    "e": 0.3,
+    "p": 0.887
+   },
+   {
+    "w": "gunmen,",
+    "n": "gunmen",
+    "s": 0.3,
+    "e": 0.68,
+    "p": 0.673
+   },
+   {
+    "w": "a",
+    "n": "a",
+    "s": 1.04,
+    "e": 1.14,
+    "p": 0.99
+   },
+   {
+    "w": "father",
+    "n": "father",
+    "s": 1.14,
+    "e": 1.46,
+    "p": 0.996
+   },
+   {
+    "w": "and",
+    "n": "and",
+    "s": 1.46,
+    "e": 1.76,
+    "p": 0.986
+   },
+   {
+    "w": "son,",
+    "n": "son",
+    "s": 1.76,
+    "e": 2.1,
+    "p": 0.989
+   },
+   {
+    "w": "opened",
+    "n": "opened",
+    "s": 2.22,
+    "e": 2.48,
+    "p": 0.998
+   },
+   {
+    "w": "fire.",
+    "n": "fire",
+    "s": 2.48,
+    "e": 2.96,
+    "p": 0.994
+   },
+   {
+    "w": "Police",
+    "n": "police",
+    "s": 3.68,
+    "e": 3.76,
+    "p": 0.997
+   },
+   {
+    "w": "shot",
+    "n": "shot",
+    "s": 3.76,
+    "e": 4.02,
+    "p": 0.996
+   },
+   {
+    "w": "the",
+    "n": "the",
+    "s": 4.02,
+    "e": 4.2,
+    "p": 0.997
+   },
+   {
+    "w": "father",
+    "n": "father",
+    "s": 4.2,
+    "e": 4.54,
+    "p": 0.997
+   },
+   {
+    "w": "dead.",
+    "n": "dead",
+    "s": 4.54,
+    "e": 4.92,
+    "p": 0.958
+   },
+   {
+    "w": "His",
+    "n": "his",
+    "s": 5.42,
+    "e": 5.52,
+    "p": 0.995
+   },
+   {
+    "w": "son",
+    "n": "son",
+    "s": 5.52,
+    "e": 5.76,
+    "p": 0.999
+   },
+   {
+    "w": "was",
+    "n": "was",
+    "s": 5.76,
+    "e": 5.96,
+    "p": 0.999
+   },
+   {
+    "w": "arrested.",
+    "n": "arrested",
+    "s": 5.96,
+    "e": 6.46,
+    "p": 0.999
+   },
+   {
+    "w": "Fifteen",
+    "n": "fifteen",
+    "s": 7.02,
+    "e": 7.32,
+    "p": 0.776
+   },
+   {
+    "w": "people",
+    "n": "people",
+    "s": 7.32,
+    "e": 7.6,
+    "p": 0.998
+   },
+   {
+    "w": "were",
+    "n": "were",
+    "s": 7.6,
+    "e": 7.8,
+    "p": 0.998
+   },
+   {
+    "w": "killed.",
+    "n": "killed",
+    "s": 7.8,
+    "e": 8.08,
+    "p": 0.999
+   },
+   {
+    "w": "Among",
+    "n": "among",
+    "s": 8.58,
+    "e": 8.78,
+    "p": 0.996
+   },
+   {
+    "w": "them,",
+    "n": "them",
+    "s": 8.78,
+    "e": 9.06,
+    "p": 0.999
+   },
+   {
+    "w": "a",
+    "n": "a",
+    "s": 9.08,
+    "e": 9.28,
+    "p": 0.995
+   },
+   {
+    "w": "ten",
+    "n": "ten",
+    "s": 9.28,
+    "e": 9.48,
+    "p": 0.571
+   },
+   {
+    "w": "-year",
+    "n": "year",
+    "s": 9.48,
+    "e": 9.62,
+    "p": 0.85
+   },
+   {
+    "w": "-old",
+    "n": "old",
+    "s": 9.62,
+    "e": 9.82,
+    "p": 0.972
+   },
+   {
+    "w": "girl,",
+    "n": "girl",
+    "s": 9.82,
+    "e": 10.1,
+    "p": 0.993
+   },
+   {
+    "w": "a",
+    "n": "a",
+    "s": 10.6,
+    "e": 10.62,
+    "p": 0.996
+   },
+   {
+    "w": "retired",
+    "n": "retired",
+    "s": 10.62,
+    "e": 10.96,
+    "p": 0.998
+   },
+   {
+    "w": "police",
+    "n": "police",
+    "s": 10.96,
+    "e": 11.34,
+    "p": 0.997
+   },
+   {
+    "w": "officer,",
+    "n": "officer",
+    "s": 11.34,
+    "e": 11.86,
+    "p": 0.995
+   },
+   {
+    "w": "a",
+    "n": "a",
+    "s": 12.26,
+    "e": 12.4,
+    "p": 0.997
+   },
+   {
+    "w": "rabbi,",
+    "n": "rabbi",
+    "s": 12.4,
+    "e": 12.68,
+    "p": 0.86
+   },
+   {
+    "w": "and",
+    "n": "and",
+    "s": 13.12,
+    "e": 13.2,
+    "p": 0.998
+   },
+   {
+    "w": "a",
+    "n": "a",
+    "s": 13.2,
+    "e": 13.34,
+    "p": 0.995
+   },
+   {
+    "w": "Holocaust",
+    "n": "holocaust",
+    "s": 13.34,
+    "e": 13.7,
+    "p": 0.866
+   },
+   {
+    "w": "survivor.",
+    "n": "survivor",
+    "s": 13.7,
+    "e": 14.12,
+    "p": 0.996
+   }
+  ],
+  "diff": [
+   {
+    "op": "replace",
+    "ref": "tenyearold",
+    "hyp": "ten year old"
+   }
+  ]
+ },
+ "S38": {
+  "text": "That night, the Prime Minister said, quote, an attack on Jewish Australians is an attack on every Australian.",
+  "words": [
+   {
+    "w": "That",
+    "n": "that",
+    "s": 0.0,
+    "e": 0.36,
+    "p": 0.901
+   },
+   {
+    "w": "night,",
+    "n": "night",
+    "s": 0.36,
+    "e": 0.7,
+    "p": 0.999
+   },
+   {
+    "w": "the",
+    "n": "the",
+    "s": 0.92,
+    "e": 0.98,
+    "p": 0.993
+   },
+   {
+    "w": "Prime",
+    "n": "prime",
+    "s": 0.98,
+    "e": 1.16,
+    "p": 0.412
+   },
+   {
+    "w": "Minister",
+    "n": "minister",
+    "s": 1.16,
+    "e": 1.54,
+    "p": 0.994
+   },
+   {
+    "w": "said,",
+    "n": "said",
+    "s": 1.54,
+    "e": 1.92,
+    "p": 0.998
+   },
+   {
+    "w": "quote,",
+    "n": "quote",
+    "s": 2.26,
+    "e": 2.28,
+    "p": 0.538
+   },
+   {
+    "w": "an",
+    "n": "an",
+    "s": 2.76,
+    "e": 2.84,
+    "p": 0.147
+   },
+   {
+    "w": "attack",
+    "n": "attack",
+    "s": 2.84,
+    "e": 3.16,
+    "p": 0.987
+   },
+   {
+    "w": "on",
+    "n": "on",
+    "s": 3.16,
+    "e": 3.38,
+    "p": 0.999
+   },
+   {
+    "w": "Jewish",
+    "n": "jewish",
+    "s": 3.38,
+    "e": 3.66,
+    "p": 0.998
+   },
+   {
+    "w": "Australians",
+    "n": "australians",
+    "s": 3.66,
+    "e": 4.28,
+    "p": 0.921
+   },
+   {
+    "w": "is",
+    "n": "is",
+    "s": 4.28,
+    "e": 4.58,
+    "p": 0.989
+   },
+   {
+    "w": "an",
+    "n": "an",
+    "s": 4.58,
+    "e": 4.72,
+    "p": 0.992
+   },
+   {
+    "w": "attack",
+    "n": "attack",
+    "s": 4.72,
+    "e": 5.02,
+    "p": 0.994
+   },
+   {
+    "w": "on",
+    "n": "on",
+    "s": 5.02,
+    "e": 5.26,
+    "p": 0.999
+   },
+   {
+    "w": "every",
+    "n": "every",
+    "s": 5.26,
+    "e": 5.6,
+    "p": 0.999
+   },
+   {
+    "w": "Australian.",
+    "n": "australian",
+    "s": 5.6,
+    "e": 6.04,
+    "p": 0.98
+   }
+  ],
+  "diff": []
+ },
+ "S39": {
+  "text": "And in the middle of the horror, one man crouched behind a parked car, waited, and ran at one of the gunmen. He wrestled the gun away. He was shot and wounded.",
+  "words": [
+   {
+    "w": "And",
+    "n": "and",
+    "s": 0.0,
+    "e": 0.24,
+    "p": 0.616
+   },
+   {
+    "w": "in",
+    "n": "in",
+    "s": 0.24,
+    "e": 0.38,
+    "p": 0.954
+   },
+   {
+    "w": "the",
+    "n": "the",
+    "s": 0.38,
+    "e": 0.5,
+    "p": 0.999
+   },
+   {
+    "w": "middle",
+    "n": "middle",
+    "s": 0.5,
+    "e": 0.66,
+    "p": 0.992
+   },
+   {
+    "w": "of",
+    "n": "of",
+    "s": 0.66,
+    "e": 0.84,
+    "p": 0.997
+   },
+   {
+    "w": "the",
+    "n": "the",
+    "s": 0.84,
+    "e": 0.92,
+    "p": 0.985
+   },
+   {
+    "w": "horror,",
+    "n": "horror",
+    "s": 0.92,
+    "e": 1.28,
+    "p": 0.994
+   },
+   {
+    "w": "one",
+    "n": "one",
+    "s": 1.6,
+    "e": 1.72,
+    "p": 0.982
+   },
+   {
+    "w": "man",
+    "n": "man",
+    "s": 1.72,
+    "e": 1.96,
+    "p": 0.996
+   },
+   {
+    "w": "crouched",
+    "n": "crouched",
+    "s": 1.96,
+    "e": 2.44,
+    "p": 0.988
+   },
+   {
+    "w": "behind",
+    "n": "behind",
+    "s": 2.44,
+    "e": 2.7,
+    "p": 0.995
+   },
+   {
+    "w": "a",
+    "n": "a",
+    "s": 2.7,
+    "e": 2.86,
+    "p": 0.978
+   },
+   {
+    "w": "parked",
+    "n": "parked",
+    "s": 2.86,
+    "e": 3.1,
+    "p": 1.0
+   },
+   {
+    "w": "car,",
+    "n": "car",
+    "s": 3.1,
+    "e": 3.56,
+    "p": 0.998
+   },
+   {
+    "w": "waited,",
+    "n": "waited",
+    "s": 3.96,
+    "e": 4.26,
+    "p": 0.95
+   },
+   {
+    "w": "and",
+    "n": "and",
+    "s": 4.68,
+    "e": 4.76,
+    "p": 0.997
+   },
+   {
+    "w": "ran",
+    "n": "ran",
+    "s": 4.76,
+    "e": 4.98,
+    "p": 0.996
+   },
+   {
+    "w": "at",
+    "n": "at",
+    "s": 4.98,
+    "e": 5.16,
+    "p": 0.99
+   },
+   {
+    "w": "one",
+    "n": "one",
+    "s": 5.16,
+    "e": 5.3,
+    "p": 0.993
+   },
+   {
+    "w": "of",
+    "n": "of",
+    "s": 5.3,
+    "e": 5.4,
+    "p": 0.995
+   },
+   {
+    "w": "the",
+    "n": "the",
+    "s": 5.4,
+    "e": 5.5,
+    "p": 0.997
+   },
+   {
+    "w": "gunmen.",
+    "n": "gunmen",
+    "s": 5.5,
+    "e": 5.76,
+    "p": 0.324
+   },
+   {
+    "w": "He",
+    "n": "he",
+    "s": 6.26,
+    "e": 6.36,
+    "p": 0.996
+   },
+   {
+    "w": "wrestled",
+    "n": "wrestled",
+    "s": 6.36,
+    "e": 6.74,
+    "p": 0.996
+   },
+   {
+    "w": "the",
+    "n": "the",
+    "s": 6.74,
+    "e": 6.86,
+    "p": 0.991
+   },
+   {
+    "w": "gun",
+    "n": "gun",
+    "s": 6.86,
+    "e": 7.02,
+    "p": 0.982
+   },
+   {
+    "w": "away.",
+    "n": "away",
+    "s": 7.02,
+    "e": 7.3,
+    "p": 0.999
+   },
+   {
+    "w": "He",
+    "n": "he",
+    "s": 7.84,
+    "e": 7.94,
+    "p": 0.995
+   },
+   {
+    "w": "was",
+    "n": "was",
+    "s": 7.94,
+    "e": 8.04,
+    "p": 1.0
+   },
+   {
+    "w": "shot",
+    "n": "shot",
+    "s": 8.04,
+    "e": 8.34,
+    "p": 0.997
+   },
+   {
+    "w": "and",
+    "n": "and",
+    "s": 8.34,
+    "e": 8.64,
+    "p": 0.897
+   },
+   {
+    "w": "wounded.",
+    "n": "wounded",
+    "s": 8.64,
+    "e": 8.9,
+    "p": 0.999
+   }
+  ],
+  "diff": []
+ },
+ "S40": {
+  "text": "His name is Ahmed al Ahmed. A Syrian-born Muslim. A father of two. The attack was aimed at Jewish Australians. And one of the people who stood in its way was a Muslim Australian.",
+  "words": [
+   {
+    "w": "His",
+    "n": "his",
+    "s": 0.0,
+    "e": 0.3,
+    "p": 0.935
+   },
+   {
+    "w": "name",
+    "n": "name",
+    "s": 0.3,
+    "e": 0.54,
+    "p": 0.997
+   },
+   {
+    "w": "is",
+    "n": "is",
+    "s": 0.54,
+    "e": 0.76,
+    "p": 0.995
+   },
+   {
+    "w": "Ahmed",
+    "n": "ahmed",
+    "s": 0.76,
+    "e": 1.14,
+    "p": 0.729
+   },
+   {
+    "w": "al",
+    "n": "al",
+    "s": 1.14,
+    "e": 1.42,
+    "p": 0.376
+   },
+   {
+    "w": "Ahmed.",
+    "n": "ahmed",
+    "s": 1.42,
+    "e": 1.82,
+    "p": 0.18
+   },
+   {
+    "w": "A",
+    "n": "a",
+    "s": 2.28,
+    "e": 2.38,
+    "p": 0.956
+   },
+   {
+    "w": "Syrian",
+    "n": "syrian",
+    "s": 2.38,
+    "e": 2.7,
+    "p": 0.997
+   },
+   {
+    "w": "-born",
+    "n": "born",
+    "s": 2.7,
+    "e": 3.0,
+    "p": 0.885
+   },
+   {
+    "w": "Muslim.",
+    "n": "muslim",
+    "s": 3.0,
+    "e": 3.4,
+    "p": 0.99
+   },
+   {
+    "w": "A",
+    "n": "a",
+    "s": 3.92,
+    "e": 4.02,
+    "p": 0.991
+   },
+   {
+    "w": "father",
+    "n": "father",
+    "s": 4.02,
+    "e": 4.26,
+    "p": 0.99
+   },
+   {
+    "w": "of",
+    "n": "of",
+    "s": 4.26,
+    "e": 4.52,
+    "p": 0.998
+   },
+   {
+    "w": "two.",
+    "n": "two",
+    "s": 4.52,
+    "e": 4.8,
+    "p": 0.979
+   },
+   {
+    "w": "The",
+    "n": "the",
+    "s": 5.32,
+    "e": 5.44,
+    "p": 0.99
+   },
+   {
+    "w": "attack",
+    "n": "attack",
+    "s": 5.44,
+    "e": 5.74,
+    "p": 0.997
+   },
+   {
+    "w": "was",
+    "n": "was",
+    "s": 5.74,
+    "e": 5.96,
+    "p": 0.999
+   },
+   {
+    "w": "aimed",
+    "n": "aimed",
+    "s": 5.96,
+    "e": 6.2,
+    "p": 0.999
+   },
+   {
+    "w": "at",
+    "n": "at",
+    "s": 6.2,
+    "e": 6.38,
+    "p": 0.999
+   },
+   {
+    "w": "Jewish",
+    "n": "jewish",
+    "s": 6.38,
+    "e": 6.62,
+    "p": 0.996
+   },
+   {
+    "w": "Australians.",
+    "n": "australians",
+    "s": 6.62,
+    "e": 7.28,
+    "p": 0.969
+   },
+   {
+    "w": "And",
+    "n": "and",
+    "s": 7.88,
+    "e": 7.96,
+    "p": 0.951
+   },
+   {
+    "w": "one",
+    "n": "one",
+    "s": 7.96,
+    "e": 8.1,
+    "p": 0.991
+   },
+   {
+    "w": "of",
+    "n": "of",
+    "s": 8.1,
+    "e": 8.22,
+    "p": 0.999
+   },
+   {
+    "w": "the",
+    "n": "the",
+    "s": 8.22,
+    "e": 8.32,
+    "p": 0.998
+   },
+   {
+    "w": "people",
+    "n": "people",
+    "s": 8.32,
+    "e": 8.54,
+    "p": 0.999
+   },
+   {
+    "w": "who",
+    "n": "who",
+    "s": 8.54,
+    "e": 8.74,
+    "p": 0.996
+   },
+   {
+    "w": "stood",
+    "n": "stood",
+    "s": 8.74,
+    "e": 8.94,
+    "p": 1.0
+   },
+   {
+    "w": "in",
+    "n": "in",
+    "s": 8.94,
+    "e": 9.12,
+    "p": 0.998
+   },
+   {
+    "w": "its",
+    "n": "its",
+    "s": 9.12,
+    "e": 9.24,
+    "p": 0.985
+   },
+   {
+    "w": "way",
+    "n": "way",
+    "s": 9.24,
+    "e": 9.46,
+    "p": 0.998
+   },
+   {
+    "w": "was",
+    "n": "was",
+    "s": 9.46,
+    "e": 9.66,
+    "p": 0.99
+   },
+   {
+    "w": "a",
+    "n": "a",
+    "s": 9.66,
+    "e": 9.84,
+    "p": 0.999
+   },
+   {
+    "w": "Muslim",
+    "n": "muslim",
+    "s": 9.84,
+    "e": 10.1,
+    "p": 0.997
+   },
+   {
+    "w": "Australian.",
+    "n": "australian",
+    "s": 10.1,
+    "e": 10.54,
+    "p": 0.767
+   }
+  ],
+  "diff": [
+   {
+    "op": "replace",
+    "ref": "syrianborn",
+    "hyp": "syrian born"
+   }
+  ]
+ },
+ "S41": {
+  "text": "The Prime Minister called his bravery, quote, an inspiration for all Australians. Police say the gunmen were inspired by Islamic State. And some warn that seeing Bondi only through Israel and Gaza risks missing the extremism behind it, or blaming whole communities for the acts of two men.",
+  "words": [
+   {
+    "w": "The",
+    "n": "the",
+    "s": 0.0,
+    "e": 0.28,
+    "p": 0.894
+   },
+   {
+    "w": "Prime",
+    "n": "prime",
+    "s": 0.28,
+    "e": 0.5,
+    "p": 0.684
+   },
+   {
+    "w": "Minister",
+    "n": "minister",
+    "s": 0.5,
+    "e": 0.9,
+    "p": 0.987
+   },
+   {
+    "w": "called",
+    "n": "called",
+    "s": 0.9,
+    "e": 1.24,
+    "p": 0.995
+   },
+   {
+    "w": "his",
+    "n": "his",
+    "s": 1.24,
+    "e": 1.42,
+    "p": 0.996
+   },
+   {
+    "w": "bravery,",
+    "n": "bravery",
+    "s": 1.42,
+    "e": 1.92,
+    "p": 0.972
+   },
+   {
+    "w": "quote,",
+    "n": "quote",
+    "s": 2.26,
+    "e": 2.36,
+    "p": 0.582
+   },
+   {
+    "w": "an",
+    "n": "an",
+    "s": 2.94,
+    "e": 2.94,
+    "p": 0.032
+   },
+   {
+    "w": "inspiration",
+    "n": "inspiration",
+    "s": 2.94,
+    "e": 3.46,
+    "p": 0.857
+   },
+   {
+    "w": "for",
+    "n": "for",
+    "s": 3.46,
+    "e": 3.84,
+    "p": 0.989
+   },
+   {
+    "w": "all",
+    "n": "all",
+    "s": 3.84,
+    "e": 4.12,
+    "p": 0.983
+   },
+   {
+    "w": "Australians.",
+    "n": "australians",
+    "s": 4.12,
+    "e": 4.7,
+    "p": 0.979
+   },
+   {
+    "w": "Police",
+    "n": "police",
+    "s": 5.66,
+    "e": 5.66,
+    "p": 0.989
+   },
+   {
+    "w": "say",
+    "n": "say",
+    "s": 5.66,
+    "e": 5.94,
+    "p": 0.993
+   },
+   {
+    "w": "the",
+    "n": "the",
+    "s": 5.94,
+    "e": 6.1,
+    "p": 0.992
+   },
+   {
+    "w": "gunmen",
+    "n": "gunmen",
+    "s": 6.1,
+    "e": 6.36,
+    "p": 0.394
+   },
+   {
+    "w": "were",
+    "n": "were",
+    "s": 6.36,
+    "e": 6.64,
+    "p": 0.997
+   },
+   {
+    "w": "inspired",
+    "n": "inspired",
+    "s": 6.64,
+    "e": 7.06,
+    "p": 0.997
+   },
+   {
+    "w": "by",
+    "n": "by",
+    "s": 7.06,
+    "e": 7.34,
+    "p": 0.999
+   },
+   {
+    "w": "Islamic",
+    "n": "islamic",
+    "s": 7.34,
+    "e": 7.72,
+    "p": 0.985
+   },
+   {
+    "w": "State.",
+    "n": "state",
+    "s": 7.72,
+    "e": 8.2,
+    "p": 0.848
+   },
+   {
+    "w": "And",
+    "n": "and",
+    "s": 8.68,
+    "e": 8.82,
+    "p": 0.949
+   },
+   {
+    "w": "some",
+    "n": "some",
+    "s": 8.82,
+    "e": 9.04,
+    "p": 0.981
+   },
+   {
+    "w": "warn",
+    "n": "warn",
+    "s": 9.04,
+    "e": 9.3,
+    "p": 0.87
+   },
+   {
+    "w": "that",
+    "n": "that",
+    "s": 9.3,
+    "e": 9.5,
+    "p": 0.993
+   },
+   {
+    "w": "seeing",
+    "n": "seeing",
+    "s": 9.5,
+    "e": 9.82,
+    "p": 0.994
+   },
+   {
+    "w": "Bondi",
+    "n": "bondi",
+    "s": 9.82,
+    "e": 10.32,
+    "p": 0.651
+   },
+   {
+    "w": "only",
+    "n": "only",
+    "s": 10.32,
+    "e": 10.56,
+    "p": 0.986
+   },
+   {
+    "w": "through",
+    "n": "through",
+    "s": 10.56,
+    "e": 10.86,
+    "p": 0.997
+   },
+   {
+    "w": "Israel",
+    "n": "israel",
+    "s": 10.86,
+    "e": 11.26,
+    "p": 0.985
+   },
+   {
+    "w": "and",
+    "n": "and",
+    "s": 11.26,
+    "e": 11.44,
+    "p": 0.956
+   },
+   {
+    "w": "Gaza",
+    "n": "gaza",
+    "s": 11.44,
+    "e": 11.76,
+    "p": 0.49
+   },
+   {
+    "w": "risks",
+    "n": "risks",
+    "s": 11.76,
+    "e": 12.22,
+    "p": 0.794
+   },
+   {
+    "w": "missing",
+    "n": "missing",
+    "s": 12.22,
+    "e": 12.64,
+    "p": 0.994
+   },
+   {
+    "w": "the",
+    "n": "the",
+    "s": 12.64,
+    "e": 12.84,
+    "p": 0.993
+   },
+   {
+    "w": "extremism",
+    "n": "extremism",
+    "s": 12.84,
+    "e": 13.32,
+    "p": 0.989
+   },
+   {
+    "w": "behind",
+    "n": "behind",
+    "s": 13.32,
+    "e": 13.84,
+    "p": 0.999
+   },
+   {
+    "w": "it,",
+    "n": "it",
+    "s": 13.84,
+    "e": 14.14,
+    "p": 0.998
+   },
+   {
+    "w": "or",
+    "n": "or",
+    "s": 14.44,
+    "e": 14.6,
+    "p": 0.992
+   },
+   {
+    "w": "blaming",
+    "n": "blaming",
+    "s": 14.6,
+    "e": 14.9,
+    "p": 0.995
+   },
+   {
+    "w": "whole",
+    "n": "whole",
+    "s": 14.9,
+    "e": 15.24,
+    "p": 0.997
+   },
+   {
+    "w": "communities",
+    "n": "communities",
+    "s": 15.24,
+    "e": 15.66,
+    "p": 0.998
+   },
+   {
+    "w": "for",
+    "n": "for",
+    "s": 15.66,
+    "e": 15.98,
+    "p": 0.996
+   },
+   {
+    "w": "the",
+    "n": "the",
+    "s": 15.98,
+    "e": 16.06,
+    "p": 0.996
+   },
+   {
+    "w": "acts",
+    "n": "acts",
+    "s": 16.06,
+    "e": 16.26,
+    "p": 0.991
+   },
+   {
+    "w": "of",
+    "n": "of",
+    "s": 16.26,
+    "e": 16.42,
+    "p": 0.999
+   },
+   {
+    "w": "two",
+    "n": "two",
+    "s": 16.42,
+    "e": 16.62,
+    "p": 0.985
+   },
+   {
+    "w": "men.",
+    "n": "men",
+    "s": 16.62,
+    "e": 16.82,
+    "p": 0.993
+   }
+  ],
+  "diff": []
+ },
+ "S42": {
+  "text": "Twenty-five days after the attack, the government called a Royal Commission on Antisemitism and Social Cohesion, led by a former High Court judge. In February, Israel's President visited Australia to comfort grieving families. In April, the commission called for tougher national gun laws. Its final report is due on the eighteenth of December, twenty twenty-six. Four days after the anniversary.",
+  "words": [
+   {
+    "w": "Twenty",
+    "n": "twenty",
+    "s": 0.0,
+    "e": 0.34,
+    "p": 0.47
+   },
+   {
+    "w": "-five",
+    "n": "five",
+    "s": 0.34,
+    "e": 0.68,
+    "p": 0.959
+   },
+   {
+    "w": "days",
+    "n": "days",
+    "s": 0.68,
+    "e": 0.88,
+    "p": 0.999
+   },
+   {
+    "w": "after",
+    "n": "after",
+    "s": 0.88,
+    "e": 1.28,
+    "p": 1.0
+   },
+   {
+    "w": "the",
+    "n": "the",
+    "s": 1.28,
+    "e": 1.44,
+    "p": 0.999
+   },
+   {
+    "w": "attack,",
+    "n": "attack",
+    "s": 1.44,
+    "e": 1.82,
+    "p": 0.999
+   },
+   {
+    "w": "the",
+    "n": "the",
+    "s": 2.2,
+    "e": 2.3,
+    "p": 0.998
+   },
+   {
+    "w": "government",
+    "n": "government",
+    "s": 2.3,
+    "e": 2.56,
+    "p": 0.995
+   },
+   {
+    "w": "called",
+    "n": "called",
+    "s": 2.56,
+    "e": 2.92,
+    "p": 1.0
+   },
+   {
+    "w": "a",
+    "n": "a",
+    "s": 2.92,
+    "e": 3.12,
+    "p": 0.999
+   },
+   {
+    "w": "Royal",
+    "n": "royal",
+    "s": 3.12,
+    "e": 3.32,
+    "p": 0.179
+   },
+   {
+    "w": "Commission",
+    "n": "commission",
+    "s": 3.32,
+    "e": 3.72,
+    "p": 0.987
+   },
+   {
+    "w": "on",
+    "n": "on",
+    "s": 3.72,
+    "e": 4.02,
+    "p": 0.999
+   },
+   {
+    "w": "Antisemitism",
+    "n": "antisemitism",
+    "s": 4.02,
+    "e": 4.8,
+    "p": 0.815
+   },
+   {
+    "w": "and",
+    "n": "and",
+    "s": 4.8,
+    "e": 5.2,
+    "p": 0.978
+   },
+   {
+    "w": "Social",
+    "n": "social",
+    "s": 5.2,
+    "e": 5.54,
+    "p": 0.98
+   },
+   {
+    "w": "Cohesion,",
+    "n": "cohesion",
+    "s": 5.54,
+    "e": 6.06,
+    "p": 0.992
+   },
+   {
+    "w": "led",
+    "n": "led",
+    "s": 6.52,
+    "e": 6.72,
+    "p": 0.996
+   },
+   {
+    "w": "by",
+    "n": "by",
+    "s": 6.72,
+    "e": 6.92,
+    "p": 0.999
+   },
+   {
+    "w": "a",
+    "n": "a",
+    "s": 6.92,
+    "e": 7.06,
+    "p": 1.0
+   },
+   {
+    "w": "former",
+    "n": "former",
+    "s": 7.06,
+    "e": 7.32,
+    "p": 0.999
+   },
+   {
+    "w": "High",
+    "n": "high",
+    "s": 7.32,
+    "e": 7.58,
+    "p": 0.589
+   },
+   {
+    "w": "Court",
+    "n": "court",
+    "s": 7.58,
+    "e": 7.82,
+    "p": 0.993
+   },
+   {
+    "w": "judge.",
+    "n": "judge",
+    "s": 7.82,
+    "e": 8.06,
+    "p": 0.891
+   },
+   {
+    "w": "In",
+    "n": "in",
+    "s": 8.76,
+    "e": 8.9,
+    "p": 0.997
+   },
+   {
+    "w": "February,",
+    "n": "february",
+    "s": 8.9,
+    "e": 9.22,
+    "p": 0.999
+   },
+   {
+    "w": "Israel's",
+    "n": "israel's",
+    "s": 9.82,
+    "e": 10.28,
+    "p": 0.998
+   },
+   {
+    "w": "President",
+    "n": "president",
+    "s": 10.28,
+    "e": 10.52,
+    "p": 0.202
+   },
+   {
+    "w": "visited",
+    "n": "visited",
+    "s": 10.52,
+    "e": 11.02,
+    "p": 1.0
+   },
+   {
+    "w": "Australia",
+    "n": "australia",
+    "s": 11.02,
+    "e": 11.5,
+    "p": 0.999
+   },
+   {
+    "w": "to",
+    "n": "to",
+    "s": 11.5,
+    "e": 11.8,
+    "p": 0.998
+   },
+   {
+    "w": "comfort",
+    "n": "comfort",
+    "s": 11.8,
+    "e": 12.14,
+    "p": 0.998
+   },
+   {
+    "w": "grieving",
+    "n": "grieving",
+    "s": 12.14,
+    "e": 12.48,
+    "p": 0.999
+   },
+   {
+    "w": "families.",
+    "n": "families",
+    "s": 12.48,
+    "e": 12.98,
+    "p": 1.0
+   },
+   {
+    "w": "In",
+    "n": "in",
+    "s": 13.58,
+    "e": 13.72,
+    "p": 0.998
+   },
+   {
+    "w": "April,",
+    "n": "april",
+    "s": 13.72,
+    "e": 14.1,
+    "p": 1.0
+   },
+   {
+    "w": "the",
+    "n": "the",
+    "s": 14.46,
+    "e": 14.58,
+    "p": 0.998
+   },
+   {
+    "w": "commission",
+    "n": "commission",
+    "s": 14.58,
+    "e": 14.8,
+    "p": 0.472
+   },
+   {
+    "w": "called",
+    "n": "called",
+    "s": 14.8,
+    "e": 15.18,
+    "p": 1.0
+   },
+   {
+    "w": "for",
+    "n": "for",
+    "s": 15.18,
+    "e": 15.42,
+    "p": 1.0
+   },
+   {
+    "w": "tougher",
+    "n": "tougher",
+    "s": 15.42,
+    "e": 15.68,
+    "p": 0.976
+   },
+   {
+    "w": "national",
+    "n": "national",
+    "s": 15.68,
+    "e": 16.18,
+    "p": 0.967
+   },
+   {
+    "w": "gun",
+    "n": "gun",
+    "s": 16.18,
+    "e": 16.4,
+    "p": 0.997
+   },
+   {
+    "w": "laws.",
+    "n": "laws",
+    "s": 16.4,
+    "e": 16.68,
+    "p": 0.996
+   },
+   {
+    "w": "Its",
+    "n": "its",
+    "s": 17.24,
+    "e": 17.36,
+    "p": 0.965
+   },
+   {
+    "w": "final",
+    "n": "final",
+    "s": 17.36,
+    "e": 17.64,
+    "p": 1.0
+   },
+   {
+    "w": "report",
+    "n": "report",
+    "s": 17.64,
+    "e": 18.04,
+    "p": 1.0
+   },
+   {
+    "w": "is",
+    "n": "is",
+    "s": 18.04,
+    "e": 18.28,
+    "p": 0.999
+   },
+   {
+    "w": "due",
+    "n": "due",
+    "s": 18.28,
+    "e": 18.44,
+    "p": 1.0
+   },
+   {
+    "w": "on",
+    "n": "on",
+    "s": 18.44,
+    "e": 18.62,
+    "p": 0.999
+   },
+   {
+    "w": "the",
+    "n": "the",
+    "s": 18.62,
+    "e": 18.7,
+    "p": 0.075
+   },
+   {
+    "w": "eighteenth",
+    "n": "eighteenth",
+    "s": 18.7,
+    "e": 19.06,
+    "p": 0.002
+   },
+   {
+    "w": "of",
+    "n": "of",
+    "s": 19.06,
+    "e": 19.32,
+    "p": 0.996
+   },
+   {
+    "w": "December,",
+    "n": "december",
+    "s": 19.32,
+    "e": 19.62,
+    "p": 0.982
+   },
+   {
+    "w": "twenty",
+    "n": "twenty",
+    "s": 20.06,
+    "e": 20.32,
+    "p": 0.218
+   },
+   {
+    "w": "twenty",
+    "n": "twenty",
+    "s": 20.32,
+    "e": 20.62,
+    "p": 0.019
+   },
+   {
+    "w": "-six.",
+    "n": "six",
+    "s": 20.62,
+    "e": 20.94,
+    "p": 0.904
+   },
+   {
+    "w": "Four",
+    "n": "four",
+    "s": 21.4,
+    "e": 21.58,
+    "p": 0.98
+   },
+   {
+    "w": "days",
+    "n": "days",
+    "s": 21.58,
+    "e": 21.78,
+    "p": 0.999
+   },
+   {
+    "w": "after",
+    "n": "after",
+    "s": 21.78,
+    "e": 22.14,
+    "p": 1.0
+   },
+   {
+    "w": "the",
+    "n": "the",
+    "s": 22.14,
+    "e": 22.32,
+    "p": 0.999
+   },
+   {
+    "w": "anniversary.",
+    "n": "anniversary",
+    "s": 22.32,
+    "e": 22.7,
+    "p": 0.995
+   }
+  ],
+  "diff": [
+   {
+    "op": "replace",
+    "ref": "twentyfive",
+    "hyp": "twenty five"
+   },
+   {
+    "op": "replace",
+    "ref": "twentysix",
+    "hyp": "twenty six"
+   }
+  ]
+ },
+ "S43": {
+  "text": "So, what does a war fourteen thousand kilometres away have to do with Bondi? It didn't pull the trigger. But for two years, it pulled at the country. A vote Australia cast first. Parts in a fighter jet. Fires, ASIO says, directed from abroad.",
+  "words": [
+   {
+    "w": "So,",
+    "n": "so",
+    "s": 0.0,
+    "e": 0.36,
+    "p": 0.938
+   },
+   {
+    "w": "what",
+    "n": "what",
+    "s": 0.56,
+    "e": 0.68,
+    "p": 0.974
+   },
+   {
+    "w": "does",
+    "n": "does",
+    "s": 0.68,
+    "e": 0.84,
+    "p": 0.993
+   },
+   {
+    "w": "a",
+    "n": "a",
+    "s": 0.84,
+    "e": 0.98,
+    "p": 0.995
+   },
+   {
+    "w": "war",
+    "n": "war",
+    "s": 0.98,
+    "e": 1.16,
+    "p": 0.982
+   },
+   {
+    "w": "fourteen",
+    "n": "fourteen",
+    "s": 1.16,
+    "e": 1.58,
+    "p": 0.046
+   },
+   {
+    "w": "thousand",
+    "n": "thousand",
+    "s": 1.58,
+    "e": 1.96,
+    "p": 0.958
+   },
+   {
+    "w": "kilometres",
+    "n": "kilometres",
+    "s": 1.96,
+    "e": 2.5,
+    "p": 0.067
+   },
+   {
+    "w": "away",
+    "n": "away",
+    "s": 2.5,
+    "e": 2.86,
+    "p": 0.996
+   },
+   {
+    "w": "have",
+    "n": "have",
+    "s": 2.86,
+    "e": 3.12,
+    "p": 0.99
+   },
+   {
+    "w": "to",
+    "n": "to",
+    "s": 3.12,
+    "e": 3.24,
+    "p": 0.998
+   },
+   {
+    "w": "do",
+    "n": "do",
+    "s": 3.24,
+    "e": 3.38,
+    "p": 0.996
+   },
+   {
+    "w": "with",
+    "n": "with",
+    "s": 3.38,
+    "e": 3.54,
+    "p": 0.999
+   },
+   {
+    "w": "Bondi?",
+    "n": "bondi",
+    "s": 3.54,
+    "e": 4.02,
+    "p": 0.972
+   },
+   {
+    "w": "It",
+    "n": "it",
+    "s": 4.5,
+    "e": 4.6,
+    "p": 0.99
+   },
+   {
+    "w": "didn't",
+    "n": "didn't",
+    "s": 4.6,
+    "e": 4.88,
+    "p": 0.997
+   },
+   {
+    "w": "pull",
+    "n": "pull",
+    "s": 4.88,
+    "e": 5.02,
+    "p": 0.998
+   },
+   {
+    "w": "the",
+    "n": "the",
+    "s": 5.02,
+    "e": 5.18,
+    "p": 0.997
+   },
+   {
+    "w": "trigger.",
+    "n": "trigger",
+    "s": 5.18,
+    "e": 5.44,
+    "p": 0.999
+   },
+   {
+    "w": "But",
+    "n": "but",
+    "s": 5.92,
+    "e": 6.08,
+    "p": 0.974
+   },
+   {
+    "w": "for",
+    "n": "for",
+    "s": 6.08,
+    "e": 6.22,
+    "p": 0.932
+   },
+   {
+    "w": "two",
+    "n": "two",
+    "s": 6.22,
+    "e": 6.42,
+    "p": 0.972
+   },
+   {
+    "w": "years,",
+    "n": "years",
+    "s": 6.42,
+    "e": 6.72,
+    "p": 0.998
+   },
+   {
+    "w": "it",
+    "n": "it",
+    "s": 6.72,
+    "e": 6.98,
+    "p": 0.995
+   },
+   {
+    "w": "pulled",
+    "n": "pulled",
+    "s": 6.98,
+    "e": 7.2,
+    "p": 0.998
+   },
+   {
+    "w": "at",
+    "n": "at",
+    "s": 7.2,
+    "e": 7.36,
+    "p": 0.982
+   },
+   {
+    "w": "the",
+    "n": "the",
+    "s": 7.36,
+    "e": 7.48,
+    "p": 0.995
+   },
+   {
+    "w": "country.",
+    "n": "country",
+    "s": 7.48,
+    "e": 7.88,
+    "p": 0.991
+   },
+   {
+    "w": "A",
+    "n": "a",
+    "s": 8.48,
+    "e": 8.52,
+    "p": 0.951
+   },
+   {
+    "w": "vote",
+    "n": "vote",
+    "s": 8.52,
+    "e": 8.7,
+    "p": 0.975
+   },
+   {
+    "w": "Australia",
+    "n": "australia",
+    "s": 8.7,
+    "e": 9.16,
+    "p": 0.991
+   },
+   {
+    "w": "cast",
+    "n": "cast",
+    "s": 9.16,
+    "e": 9.48,
+    "p": 0.954
+   },
+   {
+    "w": "first.",
+    "n": "first",
+    "s": 9.48,
+    "e": 9.92,
+    "p": 0.99
+   },
+   {
+    "w": "Parts",
+    "n": "parts",
+    "s": 10.6,
+    "e": 10.7,
+    "p": 0.982
+   },
+   {
+    "w": "in",
+    "n": "in",
+    "s": 10.7,
+    "e": 10.86,
+    "p": 0.925
+   },
+   {
+    "w": "a",
+    "n": "a",
+    "s": 10.86,
+    "e": 10.98,
+    "p": 0.992
+   },
+   {
+    "w": "fighter",
+    "n": "fighter",
+    "s": 10.98,
+    "e": 11.16,
+    "p": 0.993
+   },
+   {
+    "w": "jet.",
+    "n": "jet",
+    "s": 11.16,
+    "e": 11.48,
+    "p": 0.987
+   },
+   {
+    "w": "Fires,",
+    "n": "fires",
+    "s": 12.5,
+    "e": 12.5,
+    "p": 0.945
+   },
+   {
+    "w": "AYZO",
+    "n": "ayzo",
+    "s": 12.9,
+    "e": 13.52,
+    "p": 0.854
+   },
+   {
+    "w": "says,",
+    "n": "says",
+    "s": 13.52,
+    "e": 13.78,
+    "p": 0.988
+   },
+   {
+    "w": "directed",
+    "n": "directed",
+    "s": 14.16,
+    "e": 14.42,
+    "p": 0.987
+   },
+   {
+    "w": "from",
+    "n": "from",
+    "s": 14.42,
+    "e": 14.72,
+    "p": 0.998
+   },
+   {
+    "w": "abroad.",
+    "n": "abroad",
+    "s": 14.72,
+    "e": 15.02,
+    "p": 0.993
+   }
+  ],
+  "diff": [
+   {
+    "op": "replace",
+    "ref": "asio",
+    "hyp": "ayzo"
+   }
+  ]
+ },
+ "S44": {
+  "text": "An ambassador expelled. A recognition. Australians grieving on both sides. ASIO says a foreign state tried to turn neighbour against neighbour. On a beach in Bondi, one neighbour ran toward the danger, for another.",
+  "words": [
+   {
+    "w": "An",
+    "n": "an",
+    "s": 0.0,
+    "e": 0.22,
+    "p": 0.645
+   },
+   {
+    "w": "ambassador",
+    "n": "ambassador",
+    "s": 0.22,
+    "e": 0.7,
+    "p": 0.979
+   },
+   {
+    "w": "expelled.",
+    "n": "expelled",
+    "s": 0.7,
+    "e": 1.22,
+    "p": 0.998
+   },
+   {
+    "w": "A",
+    "n": "a",
+    "s": 1.84,
+    "e": 1.88,
+    "p": 0.981
+   },
+   {
+    "w": "recognition.",
+    "n": "recognition",
+    "s": 1.88,
+    "e": 2.4,
+    "p": 0.995
+   },
+   {
+    "w": "Australians",
+    "n": "australians",
+    "s": 3.16,
+    "e": 3.64,
+    "p": 0.757
+   },
+   {
+    "w": "grieving",
+    "n": "grieving",
+    "s": 3.64,
+    "e": 3.96,
+    "p": 0.997
+   },
+   {
+    "w": "on",
+    "n": "on",
+    "s": 3.96,
+    "e": 4.24,
+    "p": 0.998
+   },
+   {
+    "w": "both",
+    "n": "both",
+    "s": 4.24,
+    "e": 4.44,
+    "p": 0.999
+   },
+   {
+    "w": "sides.",
+    "n": "sides",
+    "s": 4.44,
+    "e": 4.98,
+    "p": 0.999
+   },
+   {
+    "w": "ASIO",
+    "n": "asio",
+    "s": 5.64,
+    "e": 5.88,
+    "p": 0.703
+   },
+   {
+    "w": "says",
+    "n": "says",
+    "s": 5.88,
+    "e": 6.1,
+    "p": 0.988
+   },
+   {
+    "w": "a",
+    "n": "a",
+    "s": 6.1,
+    "e": 6.3,
+    "p": 0.992
+   },
+   {
+    "w": "foreign",
+    "n": "foreign",
+    "s": 6.3,
+    "e": 6.54,
+    "p": 0.998
+   },
+   {
+    "w": "state",
+    "n": "state",
+    "s": 6.54,
+    "e": 6.88,
+    "p": 0.997
+   },
+   {
+    "w": "tried",
+    "n": "tried",
+    "s": 6.88,
+    "e": 7.1,
+    "p": 0.998
+   },
+   {
+    "w": "to",
+    "n": "to",
+    "s": 7.1,
+    "e": 7.28,
+    "p": 0.998
+   },
+   {
+    "w": "turn",
+    "n": "turn",
+    "s": 7.28,
+    "e": 7.48,
+    "p": 0.996
+   },
+   {
+    "w": "neighbour",
+    "n": "neighbour",
+    "s": 7.48,
+    "e": 7.8,
+    "p": 0.072
+   },
+   {
+    "w": "against",
+    "n": "against",
+    "s": 7.8,
+    "e": 8.12,
+    "p": 0.994
+   },
+   {
+    "w": "neighbour.",
+    "n": "neighbour",
+    "s": 8.12,
+    "e": 8.56,
+    "p": 0.878
+   },
+   {
+    "w": "On",
+    "n": "on",
+    "s": 9.12,
+    "e": 9.22,
+    "p": 0.992
+   },
+   {
+    "w": "a",
+    "n": "a",
+    "s": 9.22,
+    "e": 9.34,
+    "p": 0.998
+   },
+   {
+    "w": "beach",
+    "n": "beach",
+    "s": 9.34,
+    "e": 9.5,
+    "p": 0.999
+   },
+   {
+    "w": "in",
+    "n": "in",
+    "s": 9.5,
+    "e": 9.76,
+    "p": 0.993
+   },
+   {
+    "w": "Bondi,",
+    "n": "bondi",
+    "s": 9.76,
+    "e": 10.2,
+    "p": 0.918
+   },
+   {
+    "w": "one",
+    "n": "one",
+    "s": 10.62,
+    "e": 10.72,
+    "p": 0.997
+   },
+   {
+    "w": "neighbour",
+    "n": "neighbour",
+    "s": 10.72,
+    "e": 10.96,
+    "p": 0.958
+   },
+   {
+    "w": "ran",
+    "n": "ran",
+    "s": 10.96,
+    "e": 11.28,
+    "p": 0.997
+   },
+   {
+    "w": "toward",
+    "n": "toward",
+    "s": 11.28,
+    "e": 11.5,
+    "p": 0.934
+   },
+   {
+    "w": "the",
+    "n": "the",
+    "s": 11.5,
+    "e": 11.68,
+    "p": 0.998
+   },
+   {
+    "w": "danger,",
+    "n": "danger",
+    "s": 11.68,
+    "e": 11.96,
+    "p": 0.999
+   },
+   {
+    "w": "for",
+    "n": "for",
+    "s": 12.28,
+    "e": 12.44,
+    "p": 0.997
+   },
+   {
+    "w": "another.",
+    "n": "another",
+    "s": 12.44,
+    "e": 12.68,
+    "p": 0.999
+   }
+  ],
+  "diff": []
+ },
+ "S45": {
+  "text": "Maybe the real question isn't about the Middle East at all. It's whether a country built by people from everywhere can hold two communities' grief at the same time, without asking either to give up theirs. What Australia does next will say less about Gaza, and more about us.",
+  "words": [
+   {
+    "w": "Maybe",
+    "n": "maybe",
+    "s": 0.0,
+    "e": 0.36,
+    "p": 0.96
+   },
+   {
+    "w": "the",
+    "n": "the",
+    "s": 0.36,
+    "e": 0.58,
+    "p": 0.992
+   },
+   {
+    "w": "real",
+    "n": "real",
+    "s": 0.58,
+    "e": 0.82,
+    "p": 0.997
+   },
+   {
+    "w": "question",
+    "n": "question",
+    "s": 0.82,
+    "e": 1.2,
+    "p": 0.998
+   },
+   {
+    "w": "isn't",
+    "n": "isn't",
+    "s": 1.2,
+    "e": 1.7,
+    "p": 0.998
+   },
+   {
+    "w": "about",
+    "n": "about",
+    "s": 1.7,
+    "e": 1.92,
+    "p": 0.998
+   },
+   {
+    "w": "the",
+    "n": "the",
+    "s": 1.92,
+    "e": 2.08,
+    "p": 0.998
+   },
+   {
+    "w": "Middle",
+    "n": "middle",
+    "s": 2.08,
+    "e": 2.22,
+    "p": 0.833
+   },
+   {
+    "w": "East",
+    "n": "east",
+    "s": 2.22,
+    "e": 2.5,
+    "p": 0.986
+   },
+   {
+    "w": "at",
+    "n": "at",
+    "s": 2.5,
+    "e": 2.64,
+    "p": 0.984
+   },
+   {
+    "w": "all.",
+    "n": "all",
+    "s": 2.64,
+    "e": 2.94,
+    "p": 0.999
+   },
+   {
+    "w": "It's",
+    "n": "it's",
+    "s": 3.44,
+    "e": 3.58,
+    "p": 0.986
+   },
+   {
+    "w": "whether",
+    "n": "whether",
+    "s": 3.58,
+    "e": 3.76,
+    "p": 0.994
+   },
+   {
+    "w": "a",
+    "n": "a",
+    "s": 3.76,
+    "e": 3.98,
+    "p": 0.998
+   },
+   {
+    "w": "country",
+    "n": "country",
+    "s": 3.98,
+    "e": 4.26,
+    "p": 0.998
+   },
+   {
+    "w": "built",
+    "n": "built",
+    "s": 4.26,
+    "e": 4.54,
+    "p": 0.996
+   },
+   {
+    "w": "by",
+    "n": "by",
+    "s": 4.54,
+    "e": 4.78,
+    "p": 0.998
+   },
+   {
+    "w": "people",
+    "n": "people",
+    "s": 4.78,
+    "e": 5.1,
+    "p": 0.998
+   },
+   {
+    "w": "from",
+    "n": "from",
+    "s": 5.1,
+    "e": 5.3,
+    "p": 0.997
+   },
+   {
+    "w": "everywhere",
+    "n": "everywhere",
+    "s": 5.3,
+    "e": 5.78,
+    "p": 0.998
+   },
+   {
+    "w": "can",
+    "n": "can",
+    "s": 5.78,
+    "e": 6.06,
+    "p": 0.99
+   },
+   {
+    "w": "hold",
+    "n": "hold",
+    "s": 6.06,
+    "e": 6.3,
+    "p": 0.999
+   },
+   {
+    "w": "two",
+    "n": "two",
+    "s": 6.3,
+    "e": 6.6,
+    "p": 0.964
+   },
+   {
+    "w": "communities'",
+    "n": "communities'",
+    "s": 6.6,
+    "e": 7.02,
+    "p": 0.994
+   },
+   {
+    "w": "grief",
+    "n": "grief",
+    "s": 7.34,
+    "e": 7.42,
+    "p": 0.998
+   },
+   {
+    "w": "at",
+    "n": "at",
+    "s": 7.42,
+    "e": 7.62,
+    "p": 0.996
+   },
+   {
+    "w": "the",
+    "n": "the",
+    "s": 7.62,
+    "e": 7.76,
+    "p": 0.998
+   },
+   {
+    "w": "same",
+    "n": "same",
+    "s": 7.76,
+    "e": 7.94,
+    "p": 0.999
+   },
+   {
+    "w": "time,",
+    "n": "time",
+    "s": 7.94,
+    "e": 8.46,
+    "p": 0.998
+   },
+   {
+    "w": "without",
+    "n": "without",
+    "s": 8.76,
+    "e": 9.04,
+    "p": 0.999
+   },
+   {
+    "w": "asking",
+    "n": "asking",
+    "s": 9.04,
+    "e": 9.5,
+    "p": 0.993
+   },
+   {
+    "w": "either",
+    "n": "either",
+    "s": 9.5,
+    "e": 9.8,
+    "p": 0.998
+   },
+   {
+    "w": "to",
+    "n": "to",
+    "s": 9.8,
+    "e": 10.02,
+    "p": 0.998
+   },
+   {
+    "w": "give",
+    "n": "give",
+    "s": 10.02,
+    "e": 10.14,
+    "p": 0.999
+   },
+   {
+    "w": "up",
+    "n": "up",
+    "s": 10.14,
+    "e": 10.32,
+    "p": 0.999
+   },
+   {
+    "w": "theirs.",
+    "n": "theirs",
+    "s": 10.32,
+    "e": 10.6,
+    "p": 0.977
+   },
+   {
+    "w": "What",
+    "n": "what",
+    "s": 11.32,
+    "e": 11.46,
+    "p": 0.996
+   },
+   {
+    "w": "Australia",
+    "n": "australia",
+    "s": 11.46,
+    "e": 11.82,
+    "p": 0.998
+   },
+   {
+    "w": "does",
+    "n": "does",
+    "s": 11.82,
+    "e": 12.14,
+    "p": 0.998
+   },
+   {
+    "w": "next",
+    "n": "next",
+    "s": 12.14,
+    "e": 12.5,
+    "p": 0.998
+   },
+   {
+    "w": "will",
+    "n": "will",
+    "s": 12.5,
+    "e": 12.7,
+    "p": 0.982
+   },
+   {
+    "w": "say",
+    "n": "say",
+    "s": 12.7,
+    "e": 12.9,
+    "p": 0.998
+   },
+   {
+    "w": "less",
+    "n": "less",
+    "s": 12.9,
+    "e": 13.14,
+    "p": 0.994
+   },
+   {
+    "w": "about",
+    "n": "about",
+    "s": 13.14,
+    "e": 13.44,
+    "p": 0.999
+   },
+   {
+    "w": "Gaza,",
+    "n": "gaza",
+    "s": 13.44,
+    "e": 13.82,
+    "p": 0.97
+   },
+   {
+    "w": "and",
+    "n": "and",
+    "s": 14.52,
+    "e": 14.56,
+    "p": 0.997
+   },
+   {
+    "w": "more",
+    "n": "more",
+    "s": 14.56,
+    "e": 14.74,
+    "p": 0.999
+   },
+   {
+    "w": "about",
+    "n": "about",
+    "s": 14.74,
+    "e": 14.98,
+    "p": 0.999
+   },
+   {
+    "w": "us.",
+    "n": "us",
+    "s": 14.98,
+    "e": 15.26,
+    "p": 0.997
+   }
+  ],
+  "diff": []
+ },
+ "S46": {
+  "text": "Is this Australia's issue? Tell us what you think. And if any of this has been hard to watch, you're not alone. Support details are in the description.",
+  "words": [
+   {
+    "w": "Is",
+    "n": "is",
+    "s": 0.0,
+    "e": 0.26,
+    "p": 0.942
+   },
+   {
+    "w": "this",
+    "n": "this",
+    "s": 0.26,
+    "e": 0.48,
+    "p": 0.996
+   },
+   {
+    "w": "Australia's",
+    "n": "australia's",
+    "s": 0.48,
+    "e": 1.16,
+    "p": 0.98
+   },
+   {
+    "w": "issue?",
+    "n": "issue",
+    "s": 1.16,
+    "e": 1.38,
+    "p": 0.989
+   },
+   {
+    "w": "Tell",
+    "n": "tell",
+    "s": 2.0,
+    "e": 2.14,
+    "p": 0.985
+   },
+   {
+    "w": "us",
+    "n": "us",
+    "s": 2.14,
+    "e": 2.26,
+    "p": 1.0
+   },
+   {
+    "w": "what",
+    "n": "what",
+    "s": 2.26,
+    "e": 2.4,
+    "p": 0.999
+   },
+   {
+    "w": "you",
+    "n": "you",
+    "s": 2.4,
+    "e": 2.52,
+    "p": 1.0
+   },
+   {
+    "w": "think.",
+    "n": "think",
+    "s": 2.52,
+    "e": 2.82,
+    "p": 1.0
+   },
+   {
+    "w": "And",
+    "n": "and",
+    "s": 3.28,
+    "e": 3.36,
+    "p": 0.982
+   },
+   {
+    "w": "if",
+    "n": "if",
+    "s": 3.36,
+    "e": 3.48,
+    "p": 0.98
+   },
+   {
+    "w": "any",
+    "n": "any",
+    "s": 3.48,
+    "e": 3.7,
+    "p": 0.998
+   },
+   {
+    "w": "of",
+    "n": "of",
+    "s": 3.7,
+    "e": 3.88,
+    "p": 0.999
+   },
+   {
+    "w": "this",
+    "n": "this",
+    "s": 3.88,
+    "e": 4.0,
+    "p": 0.999
+   },
+   {
+    "w": "has",
+    "n": "has",
+    "s": 4.0,
+    "e": 4.14,
+    "p": 0.997
+   },
+   {
+    "w": "been",
+    "n": "been",
+    "s": 4.14,
+    "e": 4.32,
+    "p": 1.0
+   },
+   {
+    "w": "hard",
+    "n": "hard",
+    "s": 4.32,
+    "e": 4.52,
+    "p": 0.999
+   },
+   {
+    "w": "to",
+    "n": "to",
+    "s": 4.52,
+    "e": 4.7,
+    "p": 0.996
+   },
+   {
+    "w": "watch,",
+    "n": "watch",
+    "s": 4.7,
+    "e": 5.0,
+    "p": 1.0
+   },
+   {
+    "w": "you're",
+    "n": "you're",
+    "s": 5.32,
+    "e": 5.44,
+    "p": 0.995
+   },
+   {
+    "w": "not",
+    "n": "not",
+    "s": 5.44,
+    "e": 5.6,
+    "p": 0.999
+   },
+   {
+    "w": "alone.",
+    "n": "alone",
+    "s": 5.6,
+    "e": 5.94,
+    "p": 1.0
+   },
+   {
+    "w": "Support",
+    "n": "support",
+    "s": 6.76,
+    "e": 6.8,
+    "p": 0.997
+   },
+   {
+    "w": "details",
+    "n": "details",
+    "s": 6.8,
+    "e": 7.2,
+    "p": 0.998
+   },
+   {
+    "w": "are",
+    "n": "are",
+    "s": 7.2,
+    "e": 7.4,
+    "p": 0.999
+   },
+   {
+    "w": "in",
+    "n": "in",
+    "s": 7.4,
+    "e": 7.5,
+    "p": 0.999
+   },
+   {
+    "w": "the",
+    "n": "the",
+    "s": 7.5,
+    "e": 7.6,
+    "p": 1.0
+   },
+   {
+    "w": "description.",
+    "n": "description",
+    "s": 7.6,
+    "e": 7.96,
+    "p": 0.994
+   }
+  ],
+  "diff": []
+ }
+}
