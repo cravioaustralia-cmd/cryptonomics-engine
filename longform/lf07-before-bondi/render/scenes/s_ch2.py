@@ -272,7 +272,8 @@ class S15(Scene):
                                                                                  gpaint("archival", 0.85, 0.95)),
                   x, 0, W / 2 - 2, H, k * (1 - 0.55 * out))
         seam(c, W / 2, 0, H, k, glow=smooth(t, self.t_same, self.t_same + 0.6))
-        for side, txt, tt in ((0, "1948 — INDEPENDENCE", self.t_res), (1, "1948 — THE NAKBA", self.t_nak)):
+        # both labels fade in together (equal time); the narration names them in turn
+        for side, txt, tt in ((0, "1948 — INDEPENDENCE", self.t_res), (1, "1948 — THE NAKBA", self.t_res)):
             cx = W / 4 if side == 0 else 3 * W / 4
             a = eo(t, tt, 0.6)
             tw = text_w(txt, SANS, 30, 700, 4)
@@ -342,10 +343,10 @@ class S16(Scene):
             for side, tt, val, lab, sub in ((0, self.t_n1, 99956, "Jewish Australians", "Judaism · about 100,000"),
                                             (1, self.t_n2, 813392, "Muslim Australians", "Islam · more than 800,000")):
                 cx = W / 4 + 20 if side == 0 else 3 * W / 4 - 20
-                k = smooth(t, tt, tt + 1.1)   # identical roll speed
+                k = smooth(t, tt, tt + 1.1)   # identical roll speed, each on its own words
                 v = int(val * k)
-                a = eo(t, tt - 0.4, 0.3)
-                draw_text(c, f"{v:,}", cx - 400, 560, SANS, 120, 700, AMBER, a, 800, "center", anchor="baseline")
+                a = eo(t, self.t_today, 0.3)  # both frames on screen for the same time
+                draw_text(c, f"{v:,}" if t >= tt else "—", cx - 400, 560, SANS, 120, 700, AMBER, a, 800, "center", anchor="baseline")
                 draw_text(c, lab, cx - 400, 640, SERIF, 46, 600, OFFW, a, 800, "center", anchor="baseline")
                 draw_text(c, sub, cx - 400, 690, SANS, 24, 500, "#BFC5CE", a, 800, "center", anchor="baseline")
             draw_text(c, "ABS CENSUS 2021", 0, 300, SANS, 22, 700, GREY, eo(t, self.t_today, 0.3), W, "center", tracking=6,

@@ -142,6 +142,15 @@ class S30(Scene):
                 draw_text(c, (l2a + l2b)[: n - len(l1)], xs, y + 388, SANS, 23, 600, "#2A3242", 1, 2000, anchor="baseline")
             draw_text(c, "Figure: 74,032 (OCHA snapshot, 30 Sep 2026)", x + 54, y + 432, SANS, 19, 500, "#5B6372", 1, w - 100,
                       anchor="baseline")
+            # both attributions as spoken, same chip design
+            for tt, txt, yy in ((self.w("agencies broadly"), "UN agencies broadly treat the figures as reliable", y + h + 24),
+                                (self.w("Israel long disputed"), "Israel long disputed them", y + h + 80)):
+                if t >= tt and k_ipc < 1:
+                    ca = eo(t, tt, 0.3) * (1 - k_ipc)
+                    tw = text_w(txt, SANS, 22, 600)
+                    rect(c, x, yy, tw + 40, 46, NAVY, 0.92 * ca, r=3)
+                    rect(c, x, yy, 3, 46, GREY, ca)
+                    draw_text(c, txt, x + 20, yy + 31, SANS, 22, 600, OFFW, ca, 2000, anchor="baseline")
             c.restore()
             if k_ipc > 0:
                 body = ("The Famine Review Committee (FRC) has determined that Famine (IPC Phase 5) is currently occurring in "
@@ -505,9 +514,11 @@ class S35(Scene):
         else:
             draw_thread(c, t, None, 1.0, 0.0, 0.0, None, glow_warm=1.0, alpha=0.45)
             body = ("Australia welcomes President Trump’s announcement that Israel and Hamas have signed off the first phase "
-                    "of the plan to bring peace to Gaza.")
+                    "of the plan to bring peace to Gaza. After more than two years of conflict, hostages held and a devastating "
+                    "loss of civilian life, this is a much needed step towards peace.")
             evidence_card(c, (W - 1100) / 2, 260, 1100, t, self.t_cf, "Prime Minister and Foreign Minister · Statement",
                           "9 Oct 2025", "Statement on Middle East peace plan", body, "pm.gov.au, 9 Oct 2025", body_size=32,
-                          highlights=[("first phase", self.t_cf + 0.4, 0.5)],
+                          highlights=[("first phase", self.t_cf + 0.4, 0.5), ("hostages held", self.w("hostages"), 0.4),
+                                      ("a much needed step towards peace.", self.w("Many hoped"), 0.7)],
                           alpha=1 - smooth(t, self.t_65 - 0.4, self.t_65))
         grain(c, fi, 0.02)

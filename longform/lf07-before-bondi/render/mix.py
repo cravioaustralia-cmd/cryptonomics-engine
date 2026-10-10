@@ -288,26 +288,27 @@ def loudness(path):
 
 
 def master(src, dst, target=-14.0, tp_ceiling=-1.5):
-    """Linear gain to the target, then a look-ahead limiter on the rare true peaks above the ceiling."""
+    """Linear gain to the target, then a look-ahead limiter (at 192 kHz, so inter-sample peaks are caught) on the
+    peaks above the ceiling. The gain is re-measured and corrected so the limited result lands on the target."""
     I, tp, _ = loudness(src)
     g = target - I
-    lim = 10 ** ((tp_ceiling - 0.4) / 20)
-    subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", str(src), "-af",
-                    f"volume={g:.3f}dB,aresample=192000,alimiter=limit={lim:.5f}:level=disabled:attack=1.5:release=120:asc=1,"
-                    f"aresample=48000", "-c:a", "pcm_f32le", str(dst)], check=True)
-    I2, tp2, lra = loudness(dst)
-    if tp2 > tp_ceiling:
-        extra = tp2 - tp_ceiling + 0.1
-        lim = lim * 10 ** (-extra / 20)
+    lim = 10 ** ((tp_ceiling - 0.5) / 20)
+    for _ in range(4):
         subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", str(src), "-af",
-                        f"volume={g:.3f}dB,aresample=192000,alimiter=limit={lim:.5f}:level=disabled:attack=1.5:release=120:asc=1,aresample=48000",
-                        "-c:a", "pcm_f32le", str(dst)], check=True)
+                        f"volume={g:.3f}dB,aresample=192000,alimiter=limit={lim:.5f}:level=disabled:attack=1.5:release=120:asc=1,"
+                        f"aresample=48000", "-c:a", "pcm_f32le", str(dst)], check=True)
         I2, tp2, lra = loudness(dst)
-    return dict(I_in=I, TP_in=tp, gain=g, I=I2, TP=tp2, LRA=lra)
+        if tp2 > tp_ceiling:
+            lim *= 10 ** (-(tp2 - tp_ceiling + 0.1) / 20)
+            continue
+        if abs(I2 - target) <= 0.1:
+            break
+        g += target - I2
+    return dict(I_in=I, TP_in=tp, gain=round(g, 2), limiter_ceiling_dbfs=round(20 * math.log10(lim), 2), I=I2, TP=tp2, LRA=lra)
 
 
 if __name__ == "__main__":
     te = float(sys.argv[1]) if len(sys.argv) > 1 else None
     build(te)
-    r = master(BUILD / "mix_raw.wav", BUILD / "mix_1x.wav")
+    r = master(BUILD / "mix_raw.wav", BUILD / "mix_1x.wav", tp_ceiling=-2.3)   # AAC adds a few tenths of a dB
     print(json.dumps(r, indent=1))

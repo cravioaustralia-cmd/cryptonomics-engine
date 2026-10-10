@@ -215,7 +215,10 @@ class S10(Scene):
                     "Synagogue in Melbourne on December 6 last year.")
             evidence_card(c, 110, 150, 1000, t, self.t_aug + 0.1, "Prime Minister of Australia · Media statement",
                           "26 Aug 2025", "Response to Iranian attacks", body, "pm.gov.au, 26 Aug 2025",
-                          highlights=[("the Iranian Government has directed at least two of these attacks", self.t_rg, 0.8)],
+                          highlights=[("ASIO assesses it was behind", self.w("According to ASIO"), 0.6),
+                                      ("the Iranian Government has directed at least two of these attacks", self.t_rg, 0.8),
+                                      ("Lewis’ Continental Kitchen in Sydney", self.t_rf, 0.6),
+                                      ("Adass Israel Synagogue in Melbourne", self.t_syn, 0.6)],
                           body_size=29, label="IRGC named by ASIO Director-General Mike Burgess, same day")
             # right: small map with the two fires
             if t >= self.t_rf - 0.6:

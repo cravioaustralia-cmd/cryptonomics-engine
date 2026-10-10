@@ -18,7 +18,11 @@ EP = Path(__file__).resolve().parents[1]
 FIN = EP / "final"
 B = EP / "build"
 SPEED = 1.28
-MAX_MB = 94.0
+# picture_1x.mp4 intermediates rendered before the encoder fix carry R and B swapped (skia BGRA piped as RGBA);
+# this exact channel swap restores them. Set FIX_SWAP = False for intermediates rendered after the fix.
+FIX_SWAP = True
+SWAP = "colorchannelmixer=rr=0:rb=1:br=1:bb=0"
+MAX_MB = 87.0      # MiB, so each file stays under 95 MB (decimal) with two-pass overshoot
 A_KBPS = 128
 
 
@@ -36,7 +40,8 @@ def x264_2pass(src_v, src_a, out, seconds, vf=None, af=None, extra_in=()):
     kbps = int((MAX_MB * 8 * 1024 / seconds) - A_KBPS - 12)
     log = B / f"x264_{out.stem}"
     base = ["ffmpeg", "-v", "error", "-y", "-i", str(src_v)]
-    vfa = ["-vf", vf] if vf else []
+    vfs = ([SWAP] if FIX_SWAP else []) + ([vf] if vf else [])
+    vfa = ["-vf", ",".join(vfs)] if vfs else []
     run(base + vfa + ["-an", "-c:v", "libx264", "-preset", "slow", "-tune", "film", "-b:v", f"{kbps}k", "-pass", "1",
                       "-passlogfile", str(log), "-pix_fmt", "yuv420p", "-r", "30", "-f", "mp4", "/dev/null"])
     run(base + ["-i", str(src_a)] + vfa + ["-map", "0:v", "-map", "1:a", "-c:v", "libx264", "-preset", "slow", "-tune", "film",
@@ -76,9 +81,9 @@ def main():
     rep["1x"] = dict(file=out1.name, wav=r1, mp4=a1, kbps=k1, size_mb=out1.stat().st_size / 2 ** 20, duration=dur(out1))
     # ---------------- 1.28x, pitch held
     rb = B / "mix_128_rb.wav"
-    run(["ffmpeg", "-v", "error", "-y", "-i", str(B / "mix_raw.wav"), "-af",
+    run(["ffmpeg", "-v", "error", "-y", "-i", str(B / "mix_1x.wav"), "-af",
          f"rubberband=tempo={SPEED}:pitch=1:pitchq=quality:transients=smooth:formant=preserved", "-c:a", "pcm_f32le", str(rb)])
-    m = loudnorm_2pass(rb, B / "mix_128.wav")
+    m = loudnorm_2pass(rb, B / "mix_128.wav", TP=-2.4)   # headroom so the AAC file stays at or under -1.5 dBTP
     secs = T.total / SPEED
     out2 = FIN / "lf07-before-bondi.mp4"
     k2 = x264_2pass(pic, B / "mix_128.wav", out2, secs, vf=f"setpts=PTS/{SPEED},fps=30")

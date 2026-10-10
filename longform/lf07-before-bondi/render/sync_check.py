@@ -112,7 +112,7 @@ def main():
     for s in segs:
         text = (EP / "audio/vo-text" / f"{s.sid}.txt").read_text().strip()
         i = T.segs.index(s)
-        w0 = s.vo_start if i == 0 else max(T.segs[i - 1].vo_end + 0.02, s.vo_start - 1.0)
+        w0 = max(0.0, s.vo_start - 1.0) if i == 0 else max(T.segs[i - 1].vo_end + 0.02, s.vo_start - 1.0)
         wm = WV.align(WV.load(mix, w0, s.vo_end + 0.05), text, w0)
         ws = WV.align(WV.load(stem, s.vo_start, s.vo_end + 0.05), text, s.vo_start)
         # forced-alignment correction: whisper clamps the first word to the window start; use the energy onset

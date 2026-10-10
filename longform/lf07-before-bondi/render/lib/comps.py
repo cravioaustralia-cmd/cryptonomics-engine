@@ -127,6 +127,11 @@ def quote_card(c, qid, x, y, t, t_in, w=1240, word_times=None, alpha=1.0, qsize=
     hh = max(hh, min_h)
     dy = (1 - eo(t, t_in, 0.32)) * 18
     yy = y + dy
+    push = 1.0 + 0.03 * smooth(t, t_in, t_in + 12.0)
+    c.save()
+    c.translate(x + w / 2, yy + hh / 2)
+    c.scale(push, push)
+    c.translate(-(x + w / 2), -(yy + hh / 2))
     layer(c, a)
     shadow(c, x, yy, w, hh, 0.55, 28, 14, r=6)
     rect(c, x, yy, w, hh, NAVY, 0.97, r=6)
@@ -153,6 +158,7 @@ def quote_card(c, qid, x, y, t, t_in, w=1240, word_times=None, alpha=1.0, qsize=
     if d.get("note"):
         draw_text(c, d["note"], x + Q_PAD, sy + 76, SANS, 17, 400, GREY, 1, w - Q_PAD * 2)
     c.restore()
+    c.restore()
     return w, hh
 
 
@@ -174,9 +180,11 @@ def evidence_card(c, x, y, w, t, t_in, org, date, title, body, src, highlights=(
     if a <= 0.003:
         return hh
     dy = (1 - eo(t, t_in, 0.32)) * 22
+    push = 1.0 + 0.04 * smooth(t, t_in, t_in + 12.0)
     c.save()
     c.translate(x + w / 2, y + dy + hh / 2)
     c.rotate(tilt)
+    c.scale(push, push)
     c.translate(-w / 2, -hh / 2)
     layer(c, a)
     shadow(c, 0, 0, w, hh, 0.6, 30, 16, r=4)

@@ -122,12 +122,18 @@ class S19(Scene):
         desk(c, fi)
         seam(c, W / 2, 150, 930, eo(t, S.start, 0.3))
         common = dict(body_size=31, title_size=36, min_h=600)
+        # both cards on screen for the same time; each brightens on its own words
         evidence_card(c, 110, 210, 760, t, self.t_cr, "Summary of public positions", "", "THE CRITICS’ CASE",
                       "Critics, including human rights groups and the Greens, say supplying F-35 parts makes Australia part of the war.",
-                      "Greens / aid groups statements", **common)
-        evidence_card(c, W - 110 - 760, 210, 760, t, self.t_gov, "Summary of public positions", "", "THE GOVERNMENT’S CASE",
+                      "Greens / aid groups statements", alpha=mix(0.55, 1.0, eo(t, self.t_cr, 0.3)),
+                      highlights=[("human rights groups and the Greens,", self.w("human rights"), 0.6),
+                                  ("makes Australia part of the war.", self.w("makes Australia"), 0.7)], **common)
+        evidence_card(c, W - 110 - 760, 210, 760, t, self.t_cr, "Summary of public positions", "", "THE GOVERNMENT’S CASE",
                       "The government says Australia has not supplied weapons to Israel since the war began, and that the parts are a separate matter that would not change what Israel can do.",
-                      "DFAT / Hansard", highlights=[("has not supplied weapons to Israel", self.w("not supplied"), 0.7)], **common)
+                      "DFAT / Hansard", highlights=[("has not supplied weapons to Israel", self.w("not supplied"), 0.7),
+                                  ("the parts are a separate matter", self.w("the parts are"), 0.6),
+                                  ("would not change what Israel can do.", self.w("would not change"), 0.7)],
+                      alpha=mix(0.55, 1.0, eo(t, self.t_gov, 0.3)), **common)
 
 
 @scene("S20")
@@ -238,8 +244,8 @@ def balance_scale(c, t, t_in, t_arrows, t_l, t_r):
         line(c, x + cw / 2, beam_y, x + cw / 2, y, "#8796AE", a, 2)
         k = ease_out(lin(t, tt, tt + 0.45))
         yy = y - 40 * (1 - k)
-        if k > 0:
-            layer(c, k)
+        if a > 0:
+            layer(c, a * mix(0.5, 1.0, k))
             shadow(c, x, yy, cw, ch, 0.5, 20, 10, 4)
             rect(c, x, yy, cw, ch, NAVY, 0.97, r=4)
             rect(c, x, yy, 3, ch, AMBER, 1)
@@ -317,9 +323,9 @@ class S22(Scene):
         if t >= self.t_post:
             rect(c, 0, 0, W / 2, H, "#000000", 0.35 * eo(t, self.t_post, 0.3))
             quote_card(c, "QT08", 60, H - hgt - 90, t, self.t_post, w=840, qsize=36, word_times=self.q8, min_h=hgt)
-        if t >= self.t_rep:
-            rect(c, W / 2, 0, W / 2, H, "#000000", 0.35 * eo(t, self.t_rep, 0.3))
-            quote_card(c, "QT09", W / 2 + 60, H - hgt - 90, t, self.t_rep, w=840, qsize=36, word_times=self.q9, min_h=hgt)
+        if t >= self.t_post:
+            rect(c, W / 2, 0, W / 2, H, "#000000", 0.35 * eo(t, self.t_post, 0.3))
+            quote_card(c, "QT09", W / 2 + 60, H - hgt - 90, t, self.t_post, w=840, qsize=36, word_times=self.q9, min_h=hgt)
 
 
 @scene("S23")

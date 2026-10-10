@@ -83,7 +83,8 @@ class S25(Scene):
         self.t3 = self.cue("qt03", "completely unacceptable")
         self.t4 = self.cue("qt04", "unintentionally")
         self.t5 = self.cue("qt05", "compassion, bravery and love")
-        self.tc = [self.w("Prime Minister Albanese"), self.w("Israel's prime minister"), self.w("Her family")]
+        # all three identical cards on screen for the same time; each one's words light as they are read
+        self.tc = [S.start + 0.1] * 3
         self.qw = {}
         for qid, a, b in (("QT03", "completely", "unacceptable"), ("QT04", "unintentionally", "combatants"),
                           ("QT05", "a legacy", "love")):
@@ -130,7 +131,8 @@ class S26(Scene):
         evidence_card(c, mix(380, 90, k), 190, 1100, t, self.t_card, "Special Adviser public report · DFAT", "Aug 2024",
                       "Review of Israel’s response to the strike on World Central Kitchen",
                       body, "Binskin report, DFAT, Aug 2024 (as quoted by DFAT and the Foreign Minister)",
-                      highlights=[("serious failures", self.t_sf, 0.5), ("not knowingly or deliberately directed", self.t_kt, 0.7)],
+                      highlights=[("Review", self.w("reviewed"), 0.3), ("serious failures", self.t_sf, 0.5),
+                                  ("not knowingly or deliberately directed", self.t_kt, 0.7)],
                       body_size=30, label="Air Chief Marshal Mark Binskin AC (ret.)")
         c.restore()
         if t >= self.t_26 - 0.3:
@@ -146,7 +148,8 @@ class S26(Scene):
                      "“an insult to my sister’s memory”.")
             evidence_card(c, 1000, 290, 830, t, self.t_26, "Australian Government response", "Aug 2026",
                           "2026: no criminal charges", body2, "DFAT / PM statement, Aug 2026; family statement",
-                          highlights=[("“an insult to my sister’s memory”.", self.t_fam, 0.8)], body_size=28, title_size=36)
+                          highlights=[("no criminal charges.", self.w("decided not to press"), 0.6),
+                                      ("“an insult to my sister’s memory”.", self.t_fam, 0.8)], body_size=28, title_size=36)
         grain(c, fi, 0.02)
 
 

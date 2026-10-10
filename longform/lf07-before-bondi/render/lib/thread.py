@@ -52,6 +52,11 @@ def draw_thread(c, t, o=None, prog=1.0, branches=0.0, branch_dim=0.0, nodes=None
         hx, hy = vis[min(len(vis) - 1, int(prog * (len(vis) - 1)))]
         if prog < 1:
             circle(c, hx, hy, 6, AMBER, ta, blur=2)
+        else:
+            ph = (t % 3.2) / 3.2
+            px, py = vis[int(ph * (len(vis) - 1))]
+            circle(c, px, py, 16, AMBER, 0.35 * ta, blur=8)
+            circle(c, px, py, 4.5, "#FFE2B0", 0.9 * ta)
     # branches toward dates
     if branches > 0 and len(vis) > 1:
         for k, (f, lab, side) in enumerate(BRANCHES):

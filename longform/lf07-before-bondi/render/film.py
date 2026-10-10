@@ -140,7 +140,7 @@ def render_frames(f0, f1, out):
     BUILD.mkdir(exist_ok=True)
     surf = skia.Surface(W, H)
     c = surf.getCanvas()
-    enc = subprocess.Popen(["ffmpeg", "-v", "error", "-y", "-f", "rawvideo", "-pix_fmt", "rgba", "-s", f"{W}x{H}",
+    enc = subprocess.Popen(["ffmpeg", "-v", "error", "-y", "-f", "rawvideo", "-pix_fmt", "bgra", "-s", f"{W}x{H}",
                             "-r", str(FPS), "-i", "-", "-c:v", "libx264", "-preset", "fast", "-crf", "12",
                             "-pix_fmt", "yuv420p", "-g", "60", str(out)], stdin=subprocess.PIPE)
     t0 = time.time()
