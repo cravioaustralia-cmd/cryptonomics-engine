@@ -122,6 +122,11 @@ def _norm(s):
     return [re.sub(r"[^a-z0-9']", "", x.lower().replace("’", "'")) for x in re.split(r"[\s\-]+", s) if x.strip()]
 
 
+# word-time corrections measured by the sync check (whisper on the final mix and on the VO stem agree,
+# the file-level pass was early): applied to every cue on these trigger words
+OVERRIDES = {("S18", "Australia's air force"): 0.08, ("S23", "Abroad"): 0.1}
+
+
 class Seg:
     def __init__(self, d):
         self.__dict__.update(d)
@@ -143,7 +148,7 @@ class Seg:
 
     def w(self, phrase, occ=1):
         """Global time of the first word of phrase."""
-        return self.toks[self._find(phrase, occ)[0]][1]
+        return self.toks[self._find(phrase, occ)[0]][1] + OVERRIDES.get((self.sid, phrase), 0.0)
 
     def we(self, phrase, occ=1):
         """Global end time of the last word of phrase."""

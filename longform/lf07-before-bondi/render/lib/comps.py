@@ -319,7 +319,7 @@ def caption(c, text, y_base, alpha, x=56):
     if alpha <= 0.003:
         return
     tw = text_w(text, SANS, 21, 500)
-    rect(c, x - 6, y_base - 31, tw + 26, 42, "#000000", 0.5 * alpha, r=3)
+    rect(c, x - 6, y_base - 31, tw + 26, 42, "#000000", 0.72 * alpha, r=3)
     rect(c, x - 6, y_base - 31, 3, 42, AMBER, alpha)
     draw_text(c, text, x + 8, y_base - 2, SANS, 21, 500, OFFW, alpha, 1600, anchor="baseline")
 
