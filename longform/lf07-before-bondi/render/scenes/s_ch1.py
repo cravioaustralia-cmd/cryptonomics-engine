@@ -268,6 +268,7 @@ class S11(Scene):
         CASTW.append((self.w("Sussan Ley") - 0.2, self.w("turn") + 0.8, "LEY"))
         self.t_turn = self.cue("qt02", "turn neighbour against neighbour")
         self.t_rem = self.cue("pin_ley", "Remember those words")
+        self.tag("source", "Source: Hansard, 26 Aug 2025", self.t_turn, self.t_rem, "turn neighbour against neighbour")
         self.sfx(self.t_rem + 0.45, "SFX21_thunk", 0, "Remember those words", name="bright pin")
         t0, t1 = self.w("turn"), self.we("Australian", 2)
         n = len(QUOTES["QT02"]["q"].split())
