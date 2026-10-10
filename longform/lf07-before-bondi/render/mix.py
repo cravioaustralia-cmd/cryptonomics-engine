@@ -122,6 +122,19 @@ def music_plan():
                   loop=(MUS09_LOOP_AT, L) if L > 0 else None))
     P.append(dict(mid="MUS09", t0=step, off=MUS09_STEP, t1=s("S35").silence[0] + 0.08, fin=0.05, fout=0.08,
                   mode="montage", gain=0.0))
+    # CH6: MUS10 begins on the candle hold (after the S35 silence and the waves-only chapter hold)
+    t11 = s("S45").start - 50.0                     # MUS11's lift at file 0:50 lands on the S45 montage start
+    add(mid="MUS10", t0=s("S36").vo_end, t1=t11 + 4.0, fout=4.0)
+    # CLOSING
+    add(mid="MUS11", t0=t11, t1=s("S45").start + 0.5, fin=4.0, fout=0.5)
+    add(mid="MUS11", t0=s("S45").start, off=50.0, t1=s("S45").vo_start + 0.5, fin=0.5, fout=0.5, mode="montage")
+    add(mid="MUS11", t0=s("S45").vo_start, off=50.0 + (s("S45").vo_start - s("S45").start), t1=s("S46").vo_end + 0.5,
+        fin=0.5, fout=2.5)
+    add(mid="MUS11", t0=s("S46").vo_end, off=135.0, t1=s("S46").end, fin=2.0, fout=0.05)   # natural ending fills the end screen
+    ch = s("S43").chapter_hold
+    add(mid="MUS12", t0=ch[0] + 0.1, t1=ch[0] + 10.5, fin=0.02, fout=1.5, mode="motif")
+    add(mid="MUS12", t0=C("S45.sun_flare"), t1=C("S45.sun_flare") + 10.5, fin=0.02, fout=1.5, mode="motif")
+    add(mid="MUS12", t0=s("S46").vo_end + 0.2, t1=s("S46").vo_end + 10.7, fin=0.02, fout=1.5, mode="motif")
     return P
 
 
@@ -218,6 +231,8 @@ def build(t_end=None):
         dur = e.extra.get("dur")
         if dur:
             a = a[: int(dur * SR)]
+        if e.extra.get("short"):      # S35 race: cut each tick short so they do not smear into one rumble
+            a = a[: int(0.14 * SR)] * env(int(0.14 * SR), 0.0, 0.03)[: len(a[: int(0.14 * SR)])]
         long_ = len(a) > 5 * SR
         base = (SFX_AMB if long_ else SFX_ONE) - rms_db(a)
         pk = 20 * math.log10(float(np.abs(a).max()) + 1e-9)
