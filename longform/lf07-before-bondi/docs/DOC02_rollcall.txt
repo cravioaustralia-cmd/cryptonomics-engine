@@ -1,0 +1,44 @@
+DOC02 — Roll-call vote, 29 November 1947 (UN General Assembly, 128th plenary meeting)
+Symbol: A/PV.128
+Official PDF: https://documents.un.org/doc/undoc/gen/nl4/717/10/pdf/nl471710.pdf
+Page URL (symbol resolver): https://docs.un.org/en/A/PV.128   (API: https://documents.un.org/api/symbol/access?s=A/PV.128&l=en&t=pdf)
+Meeting: "Held in the General Assembly Hall at Flushing Meadow, New York, on Saturday, 29 November 1947, at 4 p.m.
+          President: Mr. O. ARANHA (Brazil)."
+
+Roll-call result — printed page 1424-1425 (PDF pp.15-16), English column, exact:
+  "We shall now proceed to vote by roll-call on the report of the Ad Hoc Committee (document A/516).
+   A vote was taken by roll-call. The result of the vote was as follows:
+   In favour: Australia, Belgium, Bolivia, Brazil, Byelorussian Soviet Socialist Republic, Canada,
+   Costa Rica, Czechoslovakia, Denmark, Dominican Republic, Ecuador, France, Guatemala, Haiti, Iceland,
+   Liberia, Luxembourg, Netherlands, New Zealand, Nicaragua, Norway, Panama, Paraguay, Peru, Philippines,
+   Poland, Sweden, Ukrainian Soviet Socialist Republic, Union of South Africa, Union of Soviet Socialist
+   Republics, United States of America, Uruguay, Venezuela.
+   Against: Afghanistan, Cuba, Egypt, Greece, India, Iran, Iraq, Lebanon, Pakistan, Saudi Arabia, Syria,
+   Turkey, Yemen.
+   Abstained: Argentina, Chile, China, Colombia, El Salvador, Ethiopia, Honduras, Mexico, United Kingdom,
+   Yugoslavia.
+   The report was adopted by 33 votes to 13, with 10 abstentions."
+
+Calling order (Afghanistan -> Argentina -> Australia):
+  A/PV.128 prints the RESULT grouped by Yes/No/Abstain, not the calling sequence. The calling sequence
+  (English alphabetical, starting at Afghanistan) is evidenced by:
+   1. The UN voting sheet "UNITED NATIONS GENERAL ASSEMBLY  November 29, 1947  VOTING SHEET"
+      (DOC02b_voting_sheet_29nov1947.jpg; Commons File:Votes-list_Resolution_181-1947.jpg, PD-US-no notice-UN):
+      AFGHANISTAN  No (X) / ARGENTINA  Abstain (*) / AUSTRALIA  Yes (tick); footer "Yes 33  No 13  Abstain 10  Absent 1";
+      SIAM marked in the Absent column.
+   2. Transcript of the original UN audio (IsraCast, https://www.isracast.com/november-29th-israel-palestinians-where-it-all-began/):
+      "Afghanistan? No. Argentina? Argentina? Abstention. Australia? Yes. Belgium? Yes. ..."
+   3. New York Times, 30 Nov 1947 (https://archive.nytimes.com/www.nytimes.com/learning/general/onthisday/big/1129.html):
+      "For (33) - Australia, ... Absent (1) - Siam."
+  => "the first country to vote yes is Australia" = VERIFIED.
+
+Same record, printed p.1413 (PDF p.4), Rapporteur Thors (Iceland): "the Chairman of the Ad Hoc Committee, Mr. Evatt; ...
+  Unfortunately, Mr. Evatt has now left for Australia." (Evatt chaired the committee but was NOT in the hall for the vote.)
+
+Files:
+  DOC02_A-PV-128.pdf                     full 34-page official verbatim record
+  DOC02_A-PV-128_rollcall-15.png         printed p.1424 at 300 dpi (ZOOM target: "In favour: Australia," lower-left column)
+  DOC02_A-PV-128_rollcall-16.png         printed p.1425 at 300 dpi ("adopted by 33 votes to 13, with 10 abstentions")
+  DOC02b_voting_sheet_29nov1947.jpg      1253x1600 voting sheet (shows Afghanistan/Argentina/Australia order + Siam absent).
+     CAUTION: this copy carries later handwritten autographs (souvenir copy)
+     — crop to the typed table if used; prefer the A/PV.128 page as the on-screen primary.

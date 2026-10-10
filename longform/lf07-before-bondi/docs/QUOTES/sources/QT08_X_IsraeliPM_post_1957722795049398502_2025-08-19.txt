@@ -1,0 +1,12 @@
+SOURCE: X (Twitter) post by the official account @IsraeliPM ("Prime Minister of Israel", id 141084952, verified; bio: "The official account of the Office of the Prime Minister of Israel")
+URL: https://x.com/IsraeliPM/status/1957722795049398502
+RETRIEVED: 2026-10-10 via the X API (search_posts_all / post lookup tool), read-only
+created_at (API, UTC): 2025-08-19T08:34:21.000Z  = 19 Aug 2025 18:34 AEST
+post id: 1957722795049398502
+================================================================================
+TEXT (verbatim from the API; \n = line break inside the post):
+
+Prime Minister Benjamin Netanyahu:
+
+History will remember Albanese for what he is: A weak politician
+who betrayed Israel and abandoned Australia's Jews.

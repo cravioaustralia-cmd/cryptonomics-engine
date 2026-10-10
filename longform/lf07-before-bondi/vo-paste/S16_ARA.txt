@@ -1,0 +1,8 @@
+===== S16 (ARA) =====
+Generate a downloadable MP3 voiceover in Grok Ara voice, Australian English accent, natural documentary narration, warm, human and conversational, not robotic, at a relaxed natural pace. Do not read stage directions or this instruction. Do not say the words pause, soft, slow or quote marks. Read quotes plainly and neutrally, never as an impression. Delivery for this segment: warm, grounded. A blank line in the text is a short natural beat, not a spoken word. Pronunciation: Melbourne = MEL-bun. Speak only the narration below:
+
+Both memories sailed to Australia.
+
+Melbourne became home to one of the largest communities of Holocaust survivors outside Israel. Palestinian, Lebanese and other Arab families settled in Sydney's south-west.
+
+Today, about one hundred thousand Jewish Australians, and more than eight hundred thousand Muslim Australians, call this country home.

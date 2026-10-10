@@ -1,0 +1,6 @@
+===== S29 (ATLAS) =====
+Generate a downloadable MP3 voiceover in Grok Atlas voice, Australian English accent, natural documentary narration, warm, human and conversational, not robotic, at a relaxed natural pace. Do not read stage directions or this instruction. Do not say the words pause, soft, slow or quote marks. Read quotes plainly and neutrally, never as an impression. Delivery for this segment: grave, steady. A blank line in the text is a short natural beat, not a spoken word. Pronunciation: Hamas = HAH-mahss; Gaza = GAH-zuh. Speak only the narration below:
+
+It began on the seventh of October, twenty twenty-three.
+
+Hamas-led fighters crossed from Gaza into southern Israel. Around twelve hundred people were killed, most of them civilians, and around two hundred and fifty were taken hostage.

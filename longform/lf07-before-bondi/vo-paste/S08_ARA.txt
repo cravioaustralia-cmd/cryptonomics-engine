@@ -1,0 +1,6 @@
+===== S08 (ARA) =====
+Generate a downloadable MP3 voiceover in Grok Ara voice, Australian English accent, natural documentary narration, warm, human and conversational, not robotic, at a relaxed natural pace. Do not read stage directions or this instruction. Do not say the words pause, soft, slow or quote marks. Read quotes plainly and neutrally, never as an impression. Delivery for this segment: investigative, vivid. A blank line in the text is a short natural beat, not a spoken word. Pronunciation: ASIO = AY-zee-oh. Speak only the narration below:
+
+For months, the fires looked like local crime. But Australia's domestic spy agency, ASIO, kept investigating.
+
+What its investigators found, ASIO's chief described as a layer cake of cut-outs.

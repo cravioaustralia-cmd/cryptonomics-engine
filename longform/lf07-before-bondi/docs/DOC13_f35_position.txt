@@ -1,0 +1,13 @@
+DOC13 — Government position on arms and F-35 parts   (segment S19)
+Retrieved 10 Oct 2026.  PRIMARY HANSARD PAGE NOT FETCHED (parlinfo.aph.gov.au returns HTTP 403 to the box) — wording below is from SBS/AAP report of the Defence Minister's on-record statement; verify against Hansard/Defence transcript before publish.
+
+Source A: SBS News/AAP, 10 Aug 2025, "Australia isn't exporting arms to Israel, weapons components a 'separate issue', Marles says"
+  https://www.sbs.com.au/news/article/australia-isnt-exporting-arms-to-israel-weapons-components-a-separate-issue-marles-says/0sh47r9hi
+  "Marles said Australia did not supply weapons to Israel and there was 'a lot of misinformation' around this issue. When pressed further on the issue of components, he said that Australia was part of the F-35 supply chain and had been for decades."
+  "That is a multi-lateral arrangement with supply chains that are organised by Lockheed Martin in the United States and have multiple supplies in respect of all of those supply chains,"
+  Marles said it was "a very different question" to the issue of being an arms exporter; components were "a separate issue".
+Source B (primary transcript, not reachable from box): https://www.minister.defence.gov.au/transcripts/2025-08-10/television-interview-abc-insiders
+Source C (Hansard, not reachable): https://parlinfo.aph.gov.au/parlInfo/search/display/display.w3p;db=CHAMBER;id=chamber%2Fhansardr%2F28811%2F0112  ("Questions Without Notice: Defence Exports")
+
+Script card wording: "Government: Australia has not supplied weapons or ammunition to Israel since the war began".
+  FLAG: the SBS text confirms "does not supply weapons to Israel"; the exact phrase "weapons or ammunition ... since the war began" is not in what I could read -> confirm in Hansard; if not verbatim, use the verified wording "Australia does not supply weapons to Israel — Defence Minister, 10 Aug 2025" and add the counter-position (F-35 components via Lockheed Martin pool; critics say parts can still be used) so the card stays two-sided.

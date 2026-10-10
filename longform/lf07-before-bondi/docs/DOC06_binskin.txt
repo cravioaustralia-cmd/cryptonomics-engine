@@ -1,0 +1,11 @@
+DOC06 — Binskin report on the WCK strike   (segment S26)
+Retrieved 10 Oct 2026.  PRIMARY PDF NOT FETCHED (dfat.gov.au is unreachable from the box: connection refused / HTTP 500 via WebFetch). Wording below is from the search-index excerpt of the primary URL and from the ABC; the card must be checked against the PDF.
+
+PRIMARY: Special Adviser Public Report on the Government of Israel's Response to the IDF Attack on World Central Kitchen Aid Workers in Gaza on Monday 1 April 2024 (Air Chief Marshal Mark Binskin AC (Retd), Aug 2024)
+  PDF: https://www.dfat.gov.au/sites/default/files/special-advisers-public-report-israels-response-wck-strikes-august-2024.pdf
+  Page: https://www.dfat.gov.au/publications/international-relations/special-adviser-public-report-government-israels-response-idf-attack-world-central-kitchen-aid-workers-gaza-monday-1-april-2024
+  Minister release: https://www.foreignminister.gov.au/minister/penny-wong/media-release/special-adviser-report-israels-response-idf-strikes-against-world-central-kitchen
+Key finding (as quoted in the search index of the report): "the IDF strike on the WCK aid workers was not knowingly or deliberately directed against the WCK."
+Second source (read in full): FM Wong, 19 Aug 2026, via ABC: "...the IDF strikes on Zomi and her colleagues' vehicles were the result of serious failures to follow IDF procedures, mistaken identification and errors in decision-making. This was confirmed by Special Adviser Air Chief Marshal Mark Binskin's report."  https://www.abc.net.au/news/2026-08-19/idf-clears-soldiers-of-criminal-wrongdoing/107056204
+Reuters/ABC headline of 2 Aug 2024: serious IDF failures; Israel did not deliberately kill the aid workers.
+Card text (script): "Binskin review: serious failures; no evidence the convoy was knowingly targeted" -> OK in substance. COPY the exact finding wording from the PDF page (asset sheet says "copy the exact finding wording").

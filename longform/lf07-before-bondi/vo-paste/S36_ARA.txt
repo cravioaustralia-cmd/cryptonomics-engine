@@ -1,0 +1,8 @@
+===== S36 (ARA) =====
+Generate a downloadable MP3 voiceover in Grok Ara voice, Australian English accent, natural documentary narration, warm, human and conversational, not robotic, at a relaxed natural pace. Do not read stage directions or this instruction. Do not say the words pause, soft, slow or quote marks. Read quotes plainly and neutrally, never as an impression. Delivery for this segment: quiet dread. A blank line in the text is a short natural beat, not a spoken word. Pronunciation: Hanukkah = HAH-nuh-kuh. Speak only the narration below:
+
+Remember the fire, fourteen months earlier, in Bondi?
+
+Hanukkah is the festival of lights.
+
+On its first night, around a thousand people gathered by the beach to celebrate.

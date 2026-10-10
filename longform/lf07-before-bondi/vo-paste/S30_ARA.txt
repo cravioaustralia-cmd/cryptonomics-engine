@@ -1,0 +1,10 @@
+===== S30 (ARA) =====
+Generate a downloadable MP3 voiceover in Grok Ara voice, Australian English accent, natural documentary narration, warm, human and conversational, not robotic, at a relaxed natural pace. Do not read stage directions or this instruction. Do not say the words pause, soft, slow or quote marks. Read quotes plainly and neutrally, never as an impression. Delivery for this segment: heavy, careful, then precise and attributed. A blank line in the text is a short natural beat, not a spoken word. Pronunciation: Hamas = HAH-mahss; Gaza = GAH-zuh. Speak only the narration below:
+
+It was the deadliest day for Jewish people since the Holocaust.
+
+Israel's military campaign in Gaza lasted two years.
+
+Gaza's Health Ministry, run by Hamas, reported tens of thousands of Palestinians killed. U.N. agencies broadly treat those figures as reliable, and Israel long disputed them.
+
+U.N. backed experts declared famine in parts of the territory.

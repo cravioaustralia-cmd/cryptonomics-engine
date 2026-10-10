@@ -1,0 +1,3225 @@
+{
+ "film": "BEFORE BONDI",
+ "source": "longform/lf07-before-bondi/script/PRODUCTION_SCRIPT.txt (sections 6, 7, 8)",
+ "notes": [
+  "narration_tagged is the Section 8 paste-ready text with original [pause]/<soft>/<slow> tags; narration_section7_dots is the Section 7 shot-by-shot text where · marks a pause.",
+  "spoken_text: tags removed ([pause] joined with a space); spoken_text_paragraphs: [pause] => paragraph break.",
+  "word_count is len(spoken_text.split()) (whitespace tokens; hyphenated words and U.N. count as one).",
+  "10 Oct 2026: fact-check edits applied to 19 segments (see script/VOICE_EDITS_APPLIED.md). narration_tagged/spoken_text/word_count are the NEW text; *_before_factcheck fields hold the originals. Script-stated totals 891/884 refer to the original script."
+ ],
+ "totals_computed_from_section8_spoken_text": {
+  "ATLAS": 891,
+  "ARA": 886
+ },
+ "totals_computed_from_section7_text": {
+  "ATLAS": 891,
+  "ARA": 884
+ },
+ "discrepancy_note": "Section 8 (paste-ready) spells F-35 as \"F thirty-five\" (S18 x2, +2 words for ARA) and writes \"U.N. backed\" instead of Section 7 \"U.N.-backed\" (S30, +1 word for ARA). Counting Section 7 text gives exactly 891 / 884 as stated; counting the actual spoken Section 8 text gives ATLAS 891 / ARA 887.",
+ "script_totals_stated": {
+  "ATLAS": 891,
+  "ARA": 884
+ },
+ "chapter_totals_computed": {
+  "COLD OPEN: How Did This Happen Here?": {
+   "ATLAS": 122,
+   "ARA": 117
+  },
+  "CHAPTER 1: The Fire": {
+   "ATLAS": 78,
+   "ARA": 116
+  },
+  "CHAPTER 2: Two Memories": {
+   "ATLAS": 122,
+   "ARA": 78
+  },
+  "CHAPTER 3: Canberra's Choices": {
+   "ATLAS": 135,
+   "ARA": 126
+  },
+  "CHAPTER 4: Australian Lives": {
+   "ATLAS": 77,
+   "ARA": 108
+  },
+  "CHAPTER 5: A Country Under Strain": {
+   "ATLAS": 148,
+   "ARA": 139
+  },
+  "CHAPTER 6: Bondi": {
+   "ATLAS": 116,
+   "ARA": 140
+  },
+  "CLOSING": {
+   "ATLAS": 93,
+   "ARA": 62
+  }
+ },
+ "segments": [
+  {
+   "id": "S01",
+   "chapter": "COLD OPEN: How Did This Happen Here?",
+   "speaker": "ATLAS",
+   "speaker_label_in_script": "ATLAS",
+   "approx_start": "0:00",
+   "mood": "quiet, grave, unhurried",
+   "quiet_moment": true,
+   "mood_section7_header": "quiet, grave, unhurried · QUIET",
+   "narration_tagged": "Bondi Beach. [pause] On the fourteenth of December, twenty twenty-five, the first night of Hanukkah, it became the scene of the deadliest terror attack ever carried out on Australian soil. [pause] Fifteen people were killed.",
+   "narration_section7_dots": "Bondi Beach. · On the fourteenth of December, twenty twenty-five, the first night of Hanukkah, it became the scene of the deadliest terror attack ever carried out on Australian soil. · Fifteen people were killed.",
+   "spoken_text": "Bondi Beach. On the fourteenth of December, twenty twenty-five, the first night of Hanukkah, it became the scene of the deadliest terror attack ever carried out on Australian soil. Fifteen people were killed.",
+   "spoken_text_paragraphs": [
+    "Bondi Beach.",
+    "On the fourteenth of December, twenty twenty-five, the first night of Hanukkah, it became the scene of the deadliest terror attack ever carried out on Australian soil.",
+    "Fifteen people were killed."
+   ],
+   "word_count": 33,
+   "word_count_script_method_section7": 33,
+   "visual_track": [
+    "HOLD 3.0s before the first word: ST02 Bondi at dawn, slow aerial, swimmers and walkers, peaceful. SFX13 waves. No music yet.",
+    "On \"fourteenth of December\": the BONDI COUNTDOWN ticker (MG01) appears lower-left for the first time, reading 14 DEC 2025 · BONDI. One low tick (SFX24).",
+    "On \"Fifteen people\": cut to PH22 memorial (flowers, candles, menorahs), very slow PAN. Kinetic text 15 LIVES in serif. MUS10 cello enters softly.",
+    "BREATHE: HOLD 2.0s after the last word."
+   ],
+   "image_moves": [
+    "PH22 — slow PAN only."
+   ],
+   "animation_cues": [
+    {
+     "trigger": "“Bondi Beach”",
+     "animation": "Location label fades in, lower third",
+     "sound": "—"
+    },
+    {
+     "trigger": "“fourteenth of December”",
+     "animation": "Countdown ticker appears: 14 DEC 2025 · BONDI",
+     "sound": "SFX24 tick"
+    },
+    {
+     "trigger": "“Fifteen”",
+     "animation": "15 LIVES fades in",
+     "sound": "—"
+    }
+   ],
+   "motifs": "M9 Bondi Countdown (first appearance)",
+   "assets": [
+    "ST02",
+    "SFX13",
+    "MG01",
+    "SFX24",
+    "PH22",
+    "MUS10"
+   ],
+   "assets_raw": "ST02, SFX13, MG01, SFX24, PH22, MUS10",
+   "timing_moments": [
+    {
+     "type": "BREATHE",
+     "seconds": 2.0,
+     "text": "BREATHE: HOLD 2.0s after the last word.",
+     "source": "breathe_table"
+    },
+    {
+     "type": "HOLD",
+     "seconds": 3.0,
+     "text": "HOLD 3.0s before the first word",
+     "source": "visual_track"
+    }
+   ],
+   "timing_mentions_in_visual_track": [
+    "HOLD 3.0s before the first word",
+    "BREATHE: HOLD 2.0s after the last word."
+   ],
+   "midroll_break_after": false,
+   "decision_for_brief": "SFX24 countdown tick at \"fourteenth of December\" occurs in a QUIET moment (Section 4: no countdown tick during quiet moments). Parent decision: keep the single tick only as the ticker first appears; confirm in the brief."
+  },
+  {
+   "id": "S02",
+   "chapter": "COLD OPEN: How Did This Happen Here?",
+   "speaker": "ARA",
+   "speaker_label_in_script": "ARA",
+   "approx_start": "0:19",
+   "mood": "searching, clear",
+   "quiet_moment": false,
+   "mood_section7_header": "searching, clear",
+   "narration_tagged": "Afterwards, the whole country asked the same question. [pause] How did this happen here? [pause] Police say the gunmen were inspired by Islamic State. But the Australia they struck had been under strain for two years, ever since the war in Gaza began in October twenty twenty-three.",
+   "narration_section7_dots": "Afterwards, the whole country asked the same question. · How did this happen here? · Police say the gunmen were inspired by Islamic State. But the Australia they struck had been under strain for two years, ever since the war in Gaza began in October twenty twenty-three.",
+   "spoken_text": "Afterwards, the whole country asked the same question. How did this happen here? Police say the gunmen were inspired by Islamic State. But the Australia they struck had been under strain for two years, ever since the war in Gaza began in October twenty twenty-three.",
+   "spoken_text_paragraphs": [
+    "Afterwards, the whole country asked the same question.",
+    "How did this happen here?",
+    "Police say the gunmen were inspired by Islamic State. But the Australia they struck had been under strain for two years, ever since the war in Gaza began in October twenty twenty-three."
+   ],
+   "word_count": 45,
+   "word_count_script_method_section7": 45,
+   "visual_track": [
+    "The question HOW DID THIS HAPPEN HERE? builds in serif over the memorial, then PINs top-right as the film's master question (M7).",
+    "On \"under strain\": a fast, quiet WALL of nine real images from later in the film (Opera House lit, Harbour Bridge march, ASIO building, UN hall, Parliament, airport arrivals, court building, the 1947 roll call, a candle). 0.4s each, no sound but a soft whoosh. This is a promise of what's coming.",
+    "Countdown ticker rolls back fast: 14 DEC 2025 → OCT 2023 · BONDI −799 DAYS."
+   ],
+   "image_moves": [
+    "WALL: PH16, PH17, PH24, FT04/MAP08 frame, ST05, ST09, ST12, DOC02, ST13 — 0.4s each."
+   ],
+   "animation_cues": [
+    {
+     "trigger": "“How did this happen here”",
+     "animation": "Question builds, then pins top-right",
+     "sound": "SFX21 thunk"
+    },
+    {
+     "trigger": "“under strain”",
+     "animation": "Nine-image WALL flashes",
+     "sound": "SFX05"
+    },
+    {
+     "trigger": "“October twenty twenty-three”",
+     "animation": "Countdown rolls back to −799 DAYS",
+     "sound": "SFX24 + SFX06 fast ticks"
+    }
+   ],
+   "motifs": "M7 Master question (pinned) · M9 Countdown",
+   "assets": [
+    "PH22",
+    "PH16",
+    "PH17",
+    "PH24",
+    "ST05",
+    "ST09",
+    "ST12",
+    "DOC02",
+    "ST13",
+    "MG01",
+    "SFX21",
+    "SFX05",
+    "SFX24",
+    "SFX06",
+    "MUS10",
+    "FT04",
+    "MAP08"
+   ],
+   "assets_raw": "PH22, PH16, PH17, PH24, ST05, ST09, ST12, DOC02, ST13, MG01, SFX21, SFX05, SFX24, SFX06, MUS10",
+   "timing_moments": [],
+   "timing_mentions_in_visual_track": [],
+   "midroll_break_after": false,
+   "assets_cross_references_added": [
+    "FT04",
+    "MAP08"
+   ],
+   "assets_cross_references_note": "Added 10 Oct 2026: asset is used/triggered in this segment per its visual track/cues but missing from the script Assets line; asset-list \"Used in segments\" column should be updated to match."
+  },
+  {
+   "id": "S03",
+   "chapter": "COLD OPEN: How Did This Happen Here?",
+   "speaker": "ATLAS",
+   "speaker_label_in_script": "ATLAS",
+   "approx_start": "0:38",
+   "mood": "leaning in, conspiratorial",
+   "quiet_moment": false,
+   "mood_section7_header": "leaning in, conspiratorial",
+   "narration_tagged": "This film follows the threads of that strain. [pause] Some go back seventy-eight years. [pause] One goes back just fourteen months, to a fire [pause] in Bondi.",
+   "narration_section7_dots": "This film follows the threads of that strain. · Some go back seventy-eight years. · One goes back just fourteen months, to a fire · in the same suburb.",
+   "spoken_text": "This film follows the threads of that strain. Some go back seventy-eight years. One goes back just fourteen months, to a fire in Bondi.",
+   "spoken_text_paragraphs": [
+    "This film follows the threads of that strain.",
+    "Some go back seventy-eight years.",
+    "One goes back just fourteen months, to a fire",
+    "in Bondi."
+   ],
+   "word_count": 24,
+   "word_count_script_method_section7": 26,
+   "visual_track": [
+    "MAP01 globe: the amber Thread draws from Bondi to Gaza (14,000 KM counter), then several thin threads branch off it toward dates.",
+    "On \"a fire\": hard cut to ST16 flame on black (M2, first appearance)."
+   ],
+   "image_moves": [],
+   "animation_cues": [
+    {
+     "trigger": "“threads”",
+     "animation": "Thread draws Bondi → Gaza; branches split off",
+     "sound": "SFX05 + SFX14 riser"
+    },
+    {
+     "trigger": "“seventy-eight years”",
+     "animation": "Countdown flashes −78 YEARS",
+     "sound": "SFX24"
+    },
+    {
+     "trigger": "“a fire”",
+     "animation": "Cut to flame",
+     "sound": "SFX02"
+    }
+   ],
+   "motifs": "M1 Thread · M2 Flame (first)",
+   "assets": [
+    "MAP01",
+    "ST16",
+    "SFX05",
+    "SFX14",
+    "SFX24",
+    "SFX02",
+    "MUS01"
+   ],
+   "assets_raw": "MAP01, ST16, SFX05, SFX14, SFX24, SFX02, MUS01",
+   "timing_moments": [],
+   "timing_mentions_in_visual_track": [],
+   "midroll_break_after": false,
+   "narration_tagged_before_factcheck": "This film follows the threads of that strain. [pause] Some go back seventy-eight years. [pause] One goes back just fourteen months, to a fire [pause] in the same suburb.",
+   "spoken_text_before_factcheck": "This film follows the threads of that strain. Some go back seventy-eight years. One goes back just fourteen months, to a fire in the same suburb.",
+   "word_count_before_factcheck": 26,
+   "edited_in_factcheck_pass": "10 Oct 2026 — see script/VOICE_EDITS_APPLIED.md",
+   "narration_section7_dots_note": "Original script text; superseded by narration_tagged after the fact-check edits."
+  },
+  {
+   "id": "S04",
+   "chapter": "COLD OPEN: How Did This Happen Here?",
+   "speaker": "ARA",
+   "speaker_label_in_script": "ARA",
+   "approx_start": "0:50",
+   "mood": "quiet, then a chill",
+   "quiet_moment": false,
+   "mood_section7_header": "quiet, then a chill",
+   "narration_tagged": "October, twenty twenty-four. In the early hours, a small kosher restaurant in Bondi goes up in flames. Nobody is hurt. Police treat it as a local crime. [pause] Seven weeks later, about seven hundred kilometres south-west, a synagogue in Melbourne is firebombed before dawn.",
+   "narration_section7_dots": "October, twenty twenty-four. In the early hours, a small kosher restaurant in Bondi goes up in flames. Nobody is hurt. Police treat it as a local crime. · Seven weeks later, eight hundred kilometres south, a synagogue in Melbourne is firebombed before dawn.",
+   "spoken_text": "October, twenty twenty-four. In the early hours, a small kosher restaurant in Bondi goes up in flames. Nobody is hurt. Police treat it as a local crime. Seven weeks later, about seven hundred kilometres south-west, a synagogue in Melbourne is firebombed before dawn.",
+   "spoken_text_paragraphs": [
+    "October, twenty twenty-four. In the early hours, a small kosher restaurant in Bondi goes up in flames. Nobody is hurt. Police treat it as a local crime.",
+    "Seven weeks later, about seven hundred kilometres south-west, a synagogue in Melbourne is firebombed before dawn."
+   ],
+   "word_count": 43,
+   "word_count_script_method_section7": 42,
+   "visual_track": [
+    "MUS01 mystery pulse. ST03 quiet Sydney street at night → AI01 restaurant glow (label: Dramatised reconstruction) → PH21 burnt restaurant (DROP).",
+    "Countdown: OCT 2024 · BONDI −420 DAYS.",
+    "MAP11: amber line Sydney → Melbourne, counter 0 → 800 KM. PH20 synagogue damage, TORN reveal. Countdown: DEC 2024 · BONDI −373 DAYS."
+   ],
+   "image_moves": [
+    "PH21 — DROP + PAN. Caption: Bondi, October 2024.",
+    "PH20 — TORN + PAN. Caption: Melbourne, December 2024."
+   ],
+   "animation_cues": [
+    {
+     "trigger": "“October”",
+     "animation": "Countdown −420 DAYS",
+     "sound": "SFX24"
+    },
+    {
+     "trigger": "“goes up in flames”",
+     "animation": "Glow blooms",
+     "sound": "SFX02"
+    },
+    {
+     "trigger": "“local crime”",
+     "animation": "Police tape slides across",
+     "sound": "SFX03 siren"
+    },
+    {
+     "trigger": "“Seven weeks later”",
+     "animation": "Countdown −373 DAYS; line draws",
+     "sound": "SFX24 + SFX05"
+    },
+    {
+     "trigger": "“firebombed”",
+     "animation": "Photo tears in",
+     "sound": "SFX11 (soft)"
+    }
+   ],
+   "motifs": "M9 Countdown",
+   "assets": [
+    "ST03",
+    "AI01",
+    "PH21",
+    "MAP11",
+    "PH20",
+    "MG01",
+    "SFX24",
+    "SFX02",
+    "SFX03",
+    "SFX05",
+    "SFX11",
+    "MUS01"
+   ],
+   "assets_raw": "ST03, AI01, PH21, MAP11, PH20, MG01, SFX24, SFX02, SFX03, SFX05, SFX11, MUS01",
+   "timing_moments": [],
+   "timing_mentions_in_visual_track": [],
+   "midroll_break_after": false,
+   "narration_tagged_before_factcheck": "October, twenty twenty-four. In the early hours, a small kosher restaurant in Bondi goes up in flames. Nobody is hurt. Police treat it as a local crime. [pause] Seven weeks later, eight hundred kilometres south, a synagogue in Melbourne is firebombed before dawn.",
+   "spoken_text_before_factcheck": "October, twenty twenty-four. In the early hours, a small kosher restaurant in Bondi goes up in flames. Nobody is hurt. Police treat it as a local crime. Seven weeks later, eight hundred kilometres south, a synagogue in Melbourne is firebombed before dawn.",
+   "word_count_before_factcheck": 42,
+   "edited_in_factcheck_pass": "10 Oct 2026 — see script/VOICE_EDITS_APPLIED.md",
+   "narration_section7_dots_note": "Original script text; superseded by narration_tagged after the fact-check edits."
+  },
+  {
+   "id": "S05",
+   "chapter": "COLD OPEN: How Did This Happen Here?",
+   "speaker": "ATLAS",
+   "speaker_label_in_script": "ATLAS",
+   "approx_start": "1:08",
+   "mood": "hushed, ominous",
+   "quiet_moment": false,
+   "mood_section7_header": "hushed, ominous",
+   "narration_tagged": "What almost nobody knew then was that some of the people who lit these fires were allegedly <slow>paid.</slow> [pause] And, according to ASIO, the trail led to a government on the other side of the world.",
+   "narration_section7_dots": "What almost nobody knew then was that the people who lit these fires were allegedly paid. · And the money trail led to a government on the other side of the world.",
+   "spoken_text": "What almost nobody knew then was that some of the people who lit these fires were allegedly paid. And, according to ASIO, the trail led to a government on the other side of the world.",
+   "spoken_text_paragraphs": [
+    "What almost nobody knew then was that some of the people who lit these fires were allegedly paid.",
+    "And, according to ASIO, the trail led to a government on the other side of the world."
+   ],
+   "word_count": 35,
+   "word_count_script_method_section7": 31,
+   "visual_track": [
+    "AI02 hands passing an envelope (faces out of frame). On \"paid\": black, PAID stamps in.",
+    "A second question card WHO PAID FOR THE FIRE? builds and PINs top-right under the master question (M7b)."
+   ],
+   "image_moves": [],
+   "animation_cues": [
+    {
+     "trigger": "“paid”",
+     "animation": "PAID stamps in on black",
+     "sound": "SFX19"
+    },
+    {
+     "trigger": "“other side of the world”",
+     "animation": "Second question pins under the first",
+     "sound": "SFX21"
+    }
+   ],
+   "motifs": "M7 Second question (pinned)",
+   "assets": [
+    "AI02",
+    "SFX19",
+    "SFX21",
+    "MUS01"
+   ],
+   "assets_raw": "AI02, SFX19, SFX21, MUS01",
+   "timing_moments": [],
+   "timing_mentions_in_visual_track": [],
+   "midroll_break_after": false,
+   "narration_tagged_before_factcheck": "What almost nobody knew then was that the people who lit these fires were allegedly <slow>paid.</slow> [pause] And the money trail led to a government on the other side of the world.",
+   "spoken_text_before_factcheck": "What almost nobody knew then was that the people who lit these fires were allegedly paid. And the money trail led to a government on the other side of the world.",
+   "word_count_before_factcheck": 31,
+   "edited_in_factcheck_pass": "10 Oct 2026 — see script/VOICE_EDITS_APPLIED.md",
+   "narration_section7_dots_note": "Original script text; superseded by narration_tagged after the fact-check edits."
+  },
+  {
+   "id": "S06",
+   "chapter": "COLD OPEN: How Did This Happen Here?",
+   "speaker": "ARA",
+   "speaker_label_in_script": "ARA",
+   "approx_start": "1:21",
+   "mood": "warm, intriguing",
+   "quiet_moment": false,
+   "mood_section7_header": "warm, intriguing",
+   "narration_tagged": "And on the night of the attack, one man ran toward the gunfire. [pause] His story became one of the most shared in the country. [pause] We'll come back to him.",
+   "narration_section7_dots": "And on the night of the attack, one man ran toward the gunfire. · His story became one of the most shared in the country. · We'll come back to him.",
+   "spoken_text": "And on the night of the attack, one man ran toward the gunfire. His story became one of the most shared in the country. We'll come back to him.",
+   "spoken_text_paragraphs": [
+    "And on the night of the attack, one man ran toward the gunfire.",
+    "His story became one of the most shared in the country.",
+    "We'll come back to him."
+   ],
+   "word_count": 29,
+   "word_count_script_method_section7": 29,
+   "visual_track": [
+    "Return to ST01 Bondi at dusk. A single silhouette-free shot: an empty stretch of Campbell Parade at dusk (ST01 crop) with a faint amber outline of a parked car.",
+    "A third, smaller card pins: WHO RAN TOWARD THE GUNFIRE? (M7c). Three open questions now sit top-right."
+   ],
+   "image_moves": [],
+   "animation_cues": [
+    {
+     "trigger": "“ran toward”",
+     "animation": "Faint warm light sweeps the frame",
+     "sound": "—"
+    },
+    {
+     "trigger": "“come back to him”",
+     "animation": "Third question pins",
+     "sound": "SFX21"
+    }
+   ],
+   "motifs": "M7 Third question (pinned)",
+   "assets": [
+    "ST01",
+    "SFX21",
+    "MUS01"
+   ],
+   "assets_raw": "ST01, SFX21, MUS01",
+   "timing_moments": [],
+   "timing_mentions_in_visual_track": [],
+   "midroll_break_after": false
+  },
+  {
+   "id": "S07",
+   "chapter": "COLD OPEN: How Did This Happen Here?",
+   "speaker": "ATLAS",
+   "speaker_label_in_script": "ATLAS",
+   "approx_start": "1:34",
+   "mood": "calm, setting the contract with the viewer",
+   "quiet_moment": false,
+   "mood_section7_header": "calm, setting the contract with the viewer",
+   "narration_tagged": "None of these threads explains Bondi on its own. [pause] But together, they show the country it happened in. [pause] And to understand that country, we have to follow the money first.",
+   "narration_section7_dots": "None of these threads explains Bondi on its own. · But together, they show the country it happened in. · And to understand that country, we have to follow the money first.",
+   "spoken_text": "None of these threads explains Bondi on its own. But together, they show the country it happened in. And to understand that country, we have to follow the money first.",
+   "spoken_text_paragraphs": [
+    "None of these threads explains Bondi on its own.",
+    "But together, they show the country it happened in.",
+    "And to understand that country, we have to follow the money first."
+   ],
+   "word_count": 30,
+   "word_count_script_method_section7": 30,
+   "visual_track": [
+    "Camera rises from Bondi into space; MAP01 Thread glows. Title card: BEFORE BONDI, subtitle '799 days · 14,000 kilometres'. MUS12 motif.",
+    "BREATHE: HOLD 3.0s on the title. Then the on-screen disclaimer card for 4s, no VO."
+   ],
+   "image_moves": [],
+   "animation_cues": [
+    {
+     "trigger": "“None of these threads”",
+     "animation": "Branches dim to grey",
+     "sound": "—"
+    },
+    {
+     "trigger": "“together”",
+     "animation": "Branches relight in amber",
+     "sound": "SFX05"
+    },
+    {
+     "trigger": "“follow the money”",
+     "animation": "Title slams in",
+     "sound": "SFX11 + MUS12"
+    }
+   ],
+   "motifs": "M1 Thread",
+   "assets": [
+    "MAP01",
+    "SFX05",
+    "SFX11",
+    "MUS12"
+   ],
+   "assets_raw": "MAP01, SFX05, SFX11, MUS12",
+   "timing_moments": [
+    {
+     "type": "BREATHE",
+     "seconds": 3.0,
+     "text": "BREATHE: HOLD 3.0s on the title. Then the on-screen disclaimer card for 4s, no VO.",
+     "source": "breathe_table"
+    }
+   ],
+   "timing_mentions_in_visual_track": [
+    "BREATHE: HOLD 3.0s on the title."
+   ],
+   "midroll_break_after": false
+  },
+  {
+   "id": "S08",
+   "chapter": "CHAPTER 1: The Fire",
+   "speaker": "ARA",
+   "speaker_label_in_script": "ARA",
+   "approx_start": "1:54",
+   "mood": "investigative, vivid",
+   "quiet_moment": false,
+   "mood_section7_header": "investigative, vivid",
+   "narration_tagged": "For months, the fires looked like local crime. But Australia's domestic spy agency, ASIO, kept investigating. [pause] What its investigators found, ASIO's chief described as a <slow>layer cake of cut-outs.</slow>",
+   "narration_section7_dots": "For months, the fires looked like local crime. But Australia's domestic spy agency, ASIO, kept following the money. · What its investigators found, ASIO's chief later described as a layer cake.",
+   "spoken_text": "For months, the fires looked like local crime. But Australia's domestic spy agency, ASIO, kept investigating. What its investigators found, ASIO's chief described as a layer cake of cut-outs.",
+   "spoken_text_paragraphs": [
+    "For months, the fires looked like local crime. But Australia's domestic spy agency, ASIO, kept investigating.",
+    "What its investigators found, ASIO's chief described as a layer cake of cut-outs."
+   ],
+   "word_count": 29,
+   "word_count_script_method_section7": 30,
+   "visual_track": [
+    "Chapter card: CHAPTER 1 — THE FIRE · BONDI −420 DAYS. MUS12 → MUS04.",
+    "PH24 ASIO building, PAN. Quote tag: ASIO Director-General, 26 Aug 2025: \"layer cake\" (QT12).",
+    "The layer-cake graphic appears empty, a dark cross-section waiting to fill."
+   ],
+   "image_moves": [
+    "PH24 — DROP + PAN. Caption: ASIO, Canberra."
+   ],
+   "animation_cues": [
+    {
+     "trigger": "“ASIO”",
+     "animation": "Label pops on the building",
+     "sound": "Pop"
+    },
+    {
+     "trigger": "“following the money”",
+     "animation": "Dotted line begins",
+     "sound": "SFX06"
+    },
+    {
+     "trigger": "“layer cake”",
+     "animation": "Empty cake graphic appears",
+     "sound": "SFX21"
+    }
+   ],
+   "motifs": "",
+   "assets": [
+    "PH24",
+    "QT12",
+    "MUS12",
+    "MUS04",
+    "SFX06",
+    "SFX21",
+    "MG01"
+   ],
+   "assets_raw": "PH24, QT12, MUS12, MUS04, SFX06, SFX21, MG01",
+   "timing_moments": [],
+   "timing_mentions_in_visual_track": [],
+   "midroll_break_after": false,
+   "narration_tagged_before_factcheck": "For months, the fires looked like local crime. But Australia's domestic spy agency, ASIO, kept following the money. [pause] What its investigators found, ASIO's chief later described as a <slow>layer cake.</slow>",
+   "spoken_text_before_factcheck": "For months, the fires looked like local crime. But Australia's domestic spy agency, ASIO, kept following the money. What its investigators found, ASIO's chief later described as a layer cake.",
+   "word_count_before_factcheck": 30,
+   "edited_in_factcheck_pass": "10 Oct 2026 — see script/VOICE_EDITS_APPLIED.md",
+   "narration_section7_dots_note": "Original script text; superseded by narration_tagged after the fact-check edits."
+  },
+  {
+   "id": "S09",
+   "chapter": "CHAPTER 1: The Fire",
+   "speaker": "ATLAS",
+   "speaker_label_in_script": "ATLAS",
+   "approx_start": "2:09",
+   "mood": "clear, rhythmic",
+   "quiet_moment": false,
+   "mood_section7_header": "clear, rhythmic",
+   "narration_tagged": "Middlemen overseas. Coordinators. And at the bottom, people in Australia, allegedly paid to do a job, not to make a point. [pause] Analysts call it crime as a service. [pause] It's deniable. And it's very hard to detect.",
+   "narration_section7_dots": "Middlemen overseas. Coordinators. And at the bottom, local criminals, paid to do a job, not to make a point. · Security experts call it crime as a service. · It's cheap. It's deniable. And it's very hard to detect.",
+   "spoken_text": "Middlemen overseas. Coordinators. And at the bottom, people in Australia, allegedly paid to do a job, not to make a point. Analysts call it crime as a service. It's deniable. And it's very hard to detect.",
+   "spoken_text_paragraphs": [
+    "Middlemen overseas. Coordinators. And at the bottom, people in Australia, allegedly paid to do a job, not to make a point.",
+    "Analysts call it crime as a service.",
+    "It's deniable. And it's very hard to detect."
+   ],
+   "word_count": 36,
+   "word_count_script_method_section7": 37,
+   "visual_track": [
+    "THE LAYER CAKE fills from the top, one layer per phrase: OVERSEAS MIDDLEMEN · COORDINATORS · LOCAL CRIMINALS (faceless figure icons).",
+    "MAP06 under it: dotted line from Tehran down through the layers to Sydney and Melbourne. Tag: ALLEGED.",
+    "Kinetic type: CHEAP · DENIABLE · HARD TO DETECT."
+   ],
+   "image_moves": [],
+   "animation_cues": [
+    {
+     "trigger": "“Middlemen overseas”",
+     "animation": "Layer 1",
+     "sound": "SFX06"
+    },
+    {
+     "trigger": "“Coordinators”",
+     "animation": "Layer 2",
+     "sound": "SFX06"
+    },
+    {
+     "trigger": "“local criminals”",
+     "animation": "Layer 3; line reaches Sydney",
+     "sound": "SFX06 + SFX05"
+    },
+    {
+     "trigger": "“cheap”",
+     "animation": "Word 1",
+     "sound": "SFX06"
+    },
+    {
+     "trigger": "“deniable”",
+     "animation": "Word 2",
+     "sound": "SFX06"
+    },
+    {
+     "trigger": "“hard to detect”",
+     "animation": "Word 3",
+     "sound": "SFX06"
+    }
+   ],
+   "motifs": "",
+   "assets": [
+    "MAP06",
+    "SFX06",
+    "SFX05",
+    "MUS04"
+   ],
+   "assets_raw": "MAP06, SFX06, SFX05, MUS04",
+   "timing_moments": [],
+   "timing_mentions_in_visual_track": [],
+   "midroll_break_after": false,
+   "narration_tagged_before_factcheck": "Middlemen overseas. Coordinators. And at the bottom, local criminals, paid to do a job, not to make a point. [pause] Security experts call it crime as a service. [pause] It's cheap. It's deniable. And it's very hard to detect.",
+   "spoken_text_before_factcheck": "Middlemen overseas. Coordinators. And at the bottom, local criminals, paid to do a job, not to make a point. Security experts call it crime as a service. It's cheap. It's deniable. And it's very hard to detect.",
+   "word_count_before_factcheck": 37,
+   "edited_in_factcheck_pass": "10 Oct 2026 — see script/VOICE_EDITS_APPLIED.md",
+   "narration_section7_dots_note": "Original script text; superseded by narration_tagged after the fact-check edits."
+  },
+  {
+   "id": "S10",
+   "chapter": "CHAPTER 1: The Fire",
+   "speaker": "ARA",
+   "speaker_label_in_script": "ARA",
+   "approx_start": "2:25",
+   "mood": "formal, then weighty",
+   "quiet_moment": false,
+   "mood_section7_header": "formal, then weighty",
+   "narration_tagged": "August, twenty twenty-five. The Prime Minister announces ASIO's assessment. [pause] According to ASIO, Iran's Islamic Revolutionary Guard Corps directed at least two of the attacks. The Bondi restaurant fire, and the Melbourne synagogue. [pause] He called them, quote, extraordinary and dangerous acts of aggression orchestrated by a foreign nation on Australian soil.",
+   "narration_section7_dots": "August, twenty twenty-five. The Prime Minister announces ASIO's assessment. · According to ASIO, Iran's Islamic Revolutionary Guard Corps directed at least two of the attacks. The Bondi restaurant fire, and the Melbourne synagogue. · He called them, quote, extraordinary and dangerous acts of aggression, orchestrated by a foreign nation on Australian soil.",
+   "spoken_text": "August, twenty twenty-five. The Prime Minister announces ASIO's assessment. According to ASIO, Iran's Islamic Revolutionary Guard Corps directed at least two of the attacks. The Bondi restaurant fire, and the Melbourne synagogue. He called them, quote, extraordinary and dangerous acts of aggression orchestrated by a foreign nation on Australian soil.",
+   "spoken_text_paragraphs": [
+    "August, twenty twenty-five. The Prime Minister announces ASIO's assessment.",
+    "According to ASIO, Iran's Islamic Revolutionary Guard Corps directed at least two of the attacks. The Bondi restaurant fire, and the Melbourne synagogue.",
+    "He called them, quote, extraordinary and dangerous acts of aggression orchestrated by a foreign nation on Australian soil."
+   ],
+   "word_count": 50,
+   "word_count_script_method_section7": 50,
+   "visual_track": [
+    "SILENCE 1.0s before the first word.",
+    "Countdown: AUG 2025 · BONDI −110 DAYS. DOC03 statement card, ZOOM, highlight on 'Islamic Revolutionary Guard Corps'.",
+    "PH21 and PH20 PIN onto Sydney and Melbourne.",
+    "QT01 quote card with PH07 (cast board name card lights: ALBANESE). The second question card WHO PAID FOR THE FIRE? flies to centre and gets stamped: ALLEGED: IRAN'S REVOLUTIONARY GUARD (ASIO ASSESSMENT). PAYOFF of M7b."
+   ],
+   "image_moves": [
+    "PH21 + PH20 — PIN.",
+    "PH07 — DROP beside QT01."
+   ],
+   "animation_cues": [
+    {
+     "trigger": "“August”",
+     "animation": "Countdown −110 DAYS",
+     "sound": "SFX24"
+    },
+    {
+     "trigger": "“Revolutionary Guard”",
+     "animation": "Highlight + low hit",
+     "sound": "SFX11"
+    },
+    {
+     "trigger": "“restaurant fire”",
+     "animation": "PH21 pins",
+     "sound": "SFX21"
+    },
+    {
+     "trigger": "“synagogue”",
+     "animation": "PH20 pins",
+     "sound": "SFX21"
+    },
+    {
+     "trigger": "“extraordinary”",
+     "animation": "QT01 builds in sync",
+     "sound": "—"
+    },
+    {
+     "trigger": "“Australian soil”",
+     "animation": "Answer stamps across the question card",
+     "sound": "SFX19"
+    }
+   ],
+   "motifs": "M7b answered · M9 Countdown",
+   "assets": [
+    "DOC03",
+    "PH21",
+    "PH20",
+    "QT01",
+    "PH07",
+    "MG01",
+    "MG02",
+    "SFX24",
+    "SFX11",
+    "SFX21",
+    "SFX19",
+    "MUS04"
+   ],
+   "assets_raw": "DOC03, PH21, PH20, QT01, PH07, MG01, MG02, SFX24, SFX11, SFX21, SFX19, MUS04",
+   "timing_moments": [
+    {
+     "type": "SILENCE",
+     "seconds": 1.0,
+     "text": "SILENCE 1.0s before the first word.",
+     "source": "breathe_table"
+    }
+   ],
+   "timing_mentions_in_visual_track": [
+    "SILENCE 1.0s before the first word."
+   ],
+   "midroll_break_after": false,
+   "narration_tagged_before_factcheck": "August, twenty twenty-five. The Prime Minister announces ASIO's assessment. [pause] According to ASIO, Iran's Islamic Revolutionary Guard Corps directed at least two of the attacks. The Bondi restaurant fire, and the Melbourne synagogue. [pause] He called them, quote, extraordinary and dangerous acts of aggression, orchestrated by a foreign nation on Australian soil.",
+   "spoken_text_before_factcheck": "August, twenty twenty-five. The Prime Minister announces ASIO's assessment. According to ASIO, Iran's Islamic Revolutionary Guard Corps directed at least two of the attacks. The Bondi restaurant fire, and the Melbourne synagogue. He called them, quote, extraordinary and dangerous acts of aggression, orchestrated by a foreign nation on Australian soil.",
+   "word_count_before_factcheck": 50,
+   "edited_in_factcheck_pass": "10 Oct 2026 — see script/VOICE_EDITS_APPLIED.md",
+   "narration_section7_dots_note": "Original script text; superseded by narration_tagged after the fact-check edits."
+  },
+  {
+   "id": "S11",
+   "chapter": "CHAPTER 1: The Fire",
+   "speaker": "ATLAS",
+   "speaker_label_in_script": "ATLAS",
+   "approx_start": "2:47",
+   "mood": "grave, then pointed",
+   "quiet_moment": false,
+   "mood_section7_header": "grave, then pointed",
+   "narration_tagged": "Australia expelled Iran's ambassador. The first since the Second World War, the government said. Iran denied any involvement. [pause] In Parliament, then Opposition Leader Sussan Ley said the attacks aimed to, quote, turn neighbour against neighbour and Australian against Australian. [pause] Remember those words.",
+   "narration_section7_dots": "Australia expelled Iran's ambassador. The first expulsion of an ambassador since the Second World War. Iran denied any involvement. · In Parliament, Opposition Leader Sussan Ley said the attacks aimed to, quote, turn neighbour against neighbour, and Australian against Australian. · Remember those words.",
+   "spoken_text": "Australia expelled Iran's ambassador. The first since the Second World War, the government said. Iran denied any involvement. In Parliament, then Opposition Leader Sussan Ley said the attacks aimed to, quote, turn neighbour against neighbour and Australian against Australian. Remember those words.",
+   "spoken_text_paragraphs": [
+    "Australia expelled Iran's ambassador. The first since the Second World War, the government said. Iran denied any involvement.",
+    "In Parliament, then Opposition Leader Sussan Ley said the attacks aimed to, quote, turn neighbour against neighbour and Australian against Australian.",
+    "Remember those words."
+   ],
+   "word_count": 42,
+   "word_count_script_method_section7": 42,
+   "visual_track": [
+    "AI07 heavy door closing (M5). Timeline 1945 → 2025: empty years race past; one amber marker stamps at 2025 (DOC19). Grey tag IRAN DENIES.",
+    "FT07 ParlView: Sussan Ley in the House (sound under VO). QT02 builds word by word. Cast board: LEY lights.",
+    "On \"Remember those words\": QT02 PINs to the evidence board with a brighter amber pin (M8 planted)."
+   ],
+   "image_moves": [
+    "PH29 — DROP (fallback if FT07 unavailable)."
+   ],
+   "animation_cues": [
+    {
+     "trigger": "“expelled”",
+     "animation": "Door closes",
+     "sound": "SFX22"
+    },
+    {
+     "trigger": "“Second World War”",
+     "animation": "Timeline races; marker stamps",
+     "sound": "SFX06 fast + SFX19"
+    },
+    {
+     "trigger": "“neighbour against neighbour”",
+     "animation": "QT02 builds",
+     "sound": "—"
+    },
+    {
+     "trigger": "“Remember those words”",
+     "animation": "Pins with bright amber pin",
+     "sound": "SFX21"
+    }
+   ],
+   "motifs": "M5 Doors (closing) · M8 planted",
+   "assets": [
+    "AI07",
+    "DOC19",
+    "FT07",
+    "QT02",
+    "PH29",
+    "MG02",
+    "SFX22",
+    "SFX06",
+    "SFX19",
+    "SFX21",
+    "MUS04"
+   ],
+   "assets_raw": "AI07, DOC19, FT07, QT02, PH29, MG02, SFX22, SFX06, SFX19, SFX21, MUS04",
+   "timing_moments": [],
+   "timing_mentions_in_visual_track": [],
+   "midroll_break_after": false,
+   "narration_tagged_before_factcheck": "Australia expelled Iran's ambassador. The first expulsion of an ambassador since the Second World War. Iran denied any involvement. [pause] In Parliament, Opposition Leader Sussan Ley said the attacks aimed to, quote, turn neighbour against neighbour, and Australian against Australian. [pause] Remember those words.",
+   "spoken_text_before_factcheck": "Australia expelled Iran's ambassador. The first expulsion of an ambassador since the Second World War. Iran denied any involvement. In Parliament, Opposition Leader Sussan Ley said the attacks aimed to, quote, turn neighbour against neighbour, and Australian against Australian. Remember those words.",
+   "word_count_before_factcheck": 42,
+   "edited_in_factcheck_pass": "10 Oct 2026 — see script/VOICE_EDITS_APPLIED.md",
+   "narration_section7_dots_note": "Original script text; superseded by narration_tagged after the fact-check edits."
+  },
+  {
+   "id": "S12",
+   "chapter": "CHAPTER 1: The Fire",
+   "speaker": "ARA",
+   "speaker_label_in_script": "ARA",
+   "approx_start": "3:05",
+   "mood": "turning, building a bridge",
+   "quiet_moment": false,
+   "mood_section7_header": "turning, building a bridge",
+   "narration_tagged": "That was one hundred and ten days before Bondi. [pause] But why would anyone use a fire in Bondi as a weapon at all? [pause] To answer that, we have to go back to a vote Australia cast first.",
+   "narration_section7_dots": "That was one hundred and ten days before Bondi. · But why would anyone use a fire in Bondi as a weapon at all? · To answer that, we have to go back to a vote Australia cast first.",
+   "spoken_text": "That was one hundred and ten days before Bondi. But why would anyone use a fire in Bondi as a weapon at all? To answer that, we have to go back to a vote Australia cast first.",
+   "spoken_text_paragraphs": [
+    "That was one hundred and ten days before Bondi.",
+    "But why would anyone use a fire in Bondi as a weapon at all?",
+    "To answer that, we have to go back to a vote Australia cast first."
+   ],
+   "word_count": 37,
+   "word_count_script_method_section7": 37,
+   "visual_track": [
+    "Countdown pulses −110 DAYS. MAP01 node 1 'THE FIRE' lights; evidence board card pins.",
+    "On \"a vote\": SFX07 projector starts; the image desaturates to sepia."
+   ],
+   "image_moves": [],
+   "animation_cues": [
+    {
+     "trigger": "“one hundred and ten days”",
+     "animation": "Countdown pulses",
+     "sound": "SFX24"
+    },
+    {
+     "trigger": "“as a weapon”",
+     "animation": "Flame (ST16) flickers once",
+     "sound": "SFX02 (soft)"
+    },
+    {
+     "trigger": "“cast first”",
+     "animation": "Sepia wash",
+     "sound": "SFX07"
+    }
+   ],
+   "motifs": "M1 Node: THE FIRE · M9 Countdown",
+   "assets": [
+    "MAP01",
+    "MG01",
+    "ST16",
+    "SFX24",
+    "SFX02",
+    "SFX07",
+    "MUS04"
+   ],
+   "assets_raw": "MAP01, MG01, ST16, SFX24, SFX02, SFX07, MUS04",
+   "timing_moments": [],
+   "timing_mentions_in_visual_track": [],
+   "midroll_break_after": true
+  },
+  {
+   "id": "S13",
+   "chapter": "CHAPTER 2: Two Memories",
+   "speaker": "ATLAS",
+   "speaker_label_in_script": "ATLAS",
+   "approx_start": "3:21",
+   "mood": "storytelling, quiet surprise",
+   "quiet_moment": false,
+   "mood_section7_header": "storytelling, quiet surprise",
+   "narration_tagged": "November, nineteen forty-seven. The new United Nations votes on a plan to divide Palestine into a Jewish state and an Arab state. [pause] The committee behind it is chaired by Australia's foreign minister. [pause] And the first country to vote yes [pause] is Australia.",
+   "narration_section7_dots": "November, nineteen forty-seven. The new United Nations votes on a plan to divide Palestine into a Jewish state and an Arab state. · The committee behind it is chaired by Australia's foreign minister. · And the first country to vote yes · is Australia.",
+   "spoken_text": "November, nineteen forty-seven. The new United Nations votes on a plan to divide Palestine into a Jewish state and an Arab state. The committee behind it is chaired by Australia's foreign minister. And the first country to vote yes is Australia.",
+   "spoken_text_paragraphs": [
+    "November, nineteen forty-seven. The new United Nations votes on a plan to divide Palestine into a Jewish state and an Arab state.",
+    "The committee behind it is chaired by Australia's foreign minister.",
+    "And the first country to vote yes",
+    "is Australia."
+   ],
+   "word_count": 41,
+   "word_count_script_method_section7": 41,
+   "visual_track": [
+    "Chapter card (film grain): CHAPTER 2 — TWO MEMORIES · BONDI −78 YEARS. MUS12 → MUS02 strings.",
+    "PH26 UN 1947 with projector flicker (or FT05 if cleared). DOC01 title ZOOM. MAP03 partition plan in sand and slate, Jerusalem as an international zone.",
+    "DOC02 roll call scrolls, stops; amber CIRCLE around 'Australia' (M4). HOLD 1.5s."
+   ],
+   "image_moves": [
+    "PH26 — PAN with flicker.",
+    "DOC02 — ZOOM + CIRCLE."
+   ],
+   "animation_cues": [
+    {
+     "trigger": "“November”",
+     "animation": "Countdown 29 NOV 1947 · BONDI −78 YEARS",
+     "sound": "SFX24"
+    },
+    {
+     "trigger": "“divide”",
+     "animation": "Map splits into two zones",
+     "sound": "SFX05"
+    },
+    {
+     "trigger": "“foreign minister”",
+     "animation": "Label: Australia's Foreign Minister, H.V. Evatt (on screen only)",
+     "sound": "Pop"
+    },
+    {
+     "trigger": "“Australia”",
+     "animation": "Circle draws",
+     "sound": "SFX20"
+    }
+   ],
+   "motifs": "M4 The Ballot (first)",
+   "assets": [
+    "PH26",
+    "FT05 (permission/terms)",
+    "DOC01",
+    "MAP03",
+    "DOC02",
+    "MG01",
+    "MUS12",
+    "MUS02",
+    "SFX07",
+    "SFX24",
+    "SFX05",
+    "SFX20"
+   ],
+   "assets_raw": "PH26, FT05 (permission/terms), DOC01, MAP03, DOC02, MG01, MUS12, MUS02, SFX07, SFX24, SFX05, SFX20",
+   "timing_moments": [
+    {
+     "type": "HOLD",
+     "seconds": 1.5,
+     "text": "HOLD 1.5s",
+     "source": "visual_track"
+    }
+   ],
+   "timing_mentions_in_visual_track": [
+    "HOLD 1.5s"
+   ],
+   "midroll_break_after": false
+  },
+  {
+   "id": "S14",
+   "chapter": "CHAPTER 2: Two Memories",
+   "speaker": "ARA",
+   "speaker_label_in_script": "ARA",
+   "approx_start": "3:43",
+   "mood": "warm, vivid",
+   "quiet_moment": false,
+   "mood_section7_header": "warm, vivid",
+   "narration_tagged": "Thirty years earlier, Australian Light Horsemen had charged at Beersheba, helping open the road to Jerusalem. [pause] So Australians shaped this land twice. [pause] Once on horseback. And once at a ballot.",
+   "narration_section7_dots": "Thirty years earlier, Australian Light Horsemen had charged at Beersheba, helping open the road to Jerusalem. · So Australians shaped this land twice. · Once on horseback. And once at a ballot.",
+   "spoken_text": "Thirty years earlier, Australian Light Horsemen had charged at Beersheba, helping open the road to Jerusalem. So Australians shaped this land twice. Once on horseback. And once at a ballot.",
+   "spoken_text_paragraphs": [
+    "Thirty years earlier, Australian Light Horsemen had charged at Beersheba, helping open the road to Jerusalem.",
+    "So Australians shaped this land twice.",
+    "Once on horseback. And once at a ballot."
+   ],
+   "word_count": 30,
+   "word_count_script_method_section7": 30,
+   "visual_track": [
+    "ST06 desert wind → AI03 cavalry silhouettes (label) → FT02 / PH02 Light Horse, PAN. MAP02 charge arrow, line to Jerusalem. Countdown flashes −108 YEARS.",
+    "SPLIT with the amber Seam (M3): PH02 left, DOC02 right. BREATHE: HOLD 1.5s."
+   ],
+   "image_moves": [
+    "PH02 — PAN; then SPLIT with DOC02."
+   ],
+   "animation_cues": [
+    {
+     "trigger": "“Beersheba”",
+     "animation": "Pin drops; countdown −108 YEARS",
+     "sound": "SFX21 + SFX24"
+    },
+    {
+     "trigger": "“charged”",
+     "animation": "Arrow sweeps",
+     "sound": "SFX16"
+    },
+    {
+     "trigger": "“horseback”",
+     "animation": "Left half brightens",
+     "sound": "—"
+    },
+    {
+     "trigger": "“ballot”",
+     "animation": "Right half brightens",
+     "sound": "SFX19 (soft)"
+    }
+   ],
+   "motifs": "M3 The Seam (first)",
+   "assets": [
+    "ST06",
+    "AI03",
+    "FT02",
+    "PH02",
+    "MAP02",
+    "DOC02",
+    "SFX21",
+    "SFX24",
+    "SFX16",
+    "SFX19",
+    "MUS02"
+   ],
+   "assets_raw": "ST06, AI03, FT02, PH02, MAP02, DOC02, SFX21, SFX24, SFX16, SFX19, MUS02",
+   "timing_moments": [
+    {
+     "type": "BREATHE",
+     "seconds": 1.5,
+     "text": "BREATHE: HOLD 1.5s.",
+     "source": "breathe_table"
+    }
+   ],
+   "timing_mentions_in_visual_track": [
+    "BREATHE: HOLD 1.5s."
+   ],
+   "midroll_break_after": false
+  },
+  {
+   "id": "S15",
+   "chapter": "CHAPTER 2: Two Memories",
+   "speaker": "ATLAS",
+   "speaker_label_in_script": "ATLAS",
+   "approx_start": "3:58",
+   "mood": "soft, even, equal weight to both halves",
+   "quiet_moment": true,
+   "mood_section7_header": "soft, even, equal weight to both halves · QUIET",
+   "narration_tagged": "<soft>For many Jewish people, that vote is remembered as a rescue, after the Holocaust. [pause] For Palestinians, what followed in nineteen forty-eight is remembered as the Nakba. The catastrophe. When more than seven hundred thousand people fled or were expelled from their homes.</soft> [pause] The same event. [pause] Remembered in two opposite ways.",
+   "narration_section7_dots": "For many Jewish people, that vote is remembered as a rescue, after the Holocaust. · For Palestinians, what followed in nineteen forty-eight is remembered as the Nakba. The catastrophe. When more than seven hundred thousand people fled or were expelled from their homes. · The same event. · Remembered in two opposite ways.",
+   "spoken_text": "For many Jewish people, that vote is remembered as a rescue, after the Holocaust. For Palestinians, what followed in nineteen forty-eight is remembered as the Nakba. The catastrophe. When more than seven hundred thousand people fled or were expelled from their homes. The same event. Remembered in two opposite ways.",
+   "spoken_text_paragraphs": [
+    "For many Jewish people, that vote is remembered as a rescue, after the Holocaust.",
+    "For Palestinians, what followed in nineteen forty-eight is remembered as the Nakba. The catastrophe. When more than seven hundred thousand people fled or were expelled from their homes.",
+    "The same event.",
+    "Remembered in two opposite ways."
+   ],
+   "word_count": 50,
+   "word_count_script_method_section7": 50,
+   "visual_track": [
+    "QUIET MOMENT. MUS02 → MUS06 piano.",
+    "SPLIT with the amber Seam: PH03 (1948 celebrations) left, PH04 (1948 refugees) right; equal size and time, identical slow PAN; labels fade in together.",
+    "On \"The same event\": the Seam glows. BREATHE: HOLD 2.0s. The kinetic text TWO MEMORIES pins to the evidence board."
+   ],
+   "image_moves": [
+    "PH03 + PH04 — SPLIT, identical speed."
+   ],
+   "animation_cues": [
+    {
+     "trigger": "“rescue”",
+     "animation": "Left label: 1948 — INDEPENDENCE",
+     "sound": "—"
+    },
+    {
+     "trigger": "“Nakba”",
+     "animation": "Right label: 1948 — THE NAKBA",
+     "sound": "—"
+    },
+    {
+     "trigger": "“same event”",
+     "animation": "Seam glows",
+     "sound": "—"
+    },
+    {
+     "trigger": "“opposite ways”",
+     "animation": "TWO MEMORIES pins",
+     "sound": "SFX21"
+    }
+   ],
+   "motifs": "M3 The Seam",
+   "assets": [
+    "PH03",
+    "PH04",
+    "MUS06",
+    "SFX21",
+    "MUS02"
+   ],
+   "assets_raw": "PH03, PH04, MUS06, SFX21",
+   "timing_moments": [
+    {
+     "type": "BREATHE",
+     "seconds": 2.0,
+     "text": "BREATHE: HOLD 2.0s. The kinetic text TWO MEMORIES pins to the evidence board.",
+     "source": "breathe_table"
+    }
+   ],
+   "timing_mentions_in_visual_track": [
+    "BREATHE: HOLD 2.0s."
+   ],
+   "midroll_break_after": false,
+   "assets_cross_references_added": [
+    "MUS02"
+   ],
+   "assets_cross_references_note": "Added 10 Oct 2026: asset is used/triggered in this segment per its visual track/cues but missing from the script Assets line; asset-list \"Used in segments\" column should be updated to match."
+  },
+  {
+   "id": "S16",
+   "chapter": "CHAPTER 2: Two Memories",
+   "speaker": "ARA",
+   "speaker_label_in_script": "ARA",
+   "approx_start": "4:22",
+   "mood": "warm, grounded",
+   "quiet_moment": false,
+   "mood_section7_header": "warm, grounded",
+   "narration_tagged": "Both memories sailed to Australia. [pause] Melbourne became home to one of the largest communities of Holocaust survivors outside Israel. Palestinian, Lebanese and other Arab families settled in Sydney's south-west. [pause] Today, about one hundred thousand Jewish Australians, and more than eight hundred thousand Muslim Australians, call this country home.",
+   "narration_section7_dots": "Both memories sailed to Australia. · Melbourne became home to one of the largest communities of Holocaust survivors, per person, outside Israel. Palestinian, Lebanese and other Arab families settled in Sydney's south-west. · Today, more than one hundred thousand Jewish Australians, and more than eight hundred thousand Muslim Australians, call this country home.",
+   "spoken_text": "Both memories sailed to Australia. Melbourne became home to one of the largest communities of Holocaust survivors outside Israel. Palestinian, Lebanese and other Arab families settled in Sydney's south-west. Today, about one hundred thousand Jewish Australians, and more than eight hundred thousand Muslim Australians, call this country home.",
+   "spoken_text_paragraphs": [
+    "Both memories sailed to Australia.",
+    "Melbourne became home to one of the largest communities of Holocaust survivors outside Israel. Palestinian, Lebanese and other Arab families settled in Sydney's south-west.",
+    "Today, about one hundred thousand Jewish Australians, and more than eight hundred thousand Muslim Australians, call this country home."
+   ],
+   "word_count": 48,
+   "word_count_script_method_section7": 51,
+   "visual_track": [
+    "MUS06 → MUS02 warm. AI05 suitcases on a ship deck (M6) → PH05 Station Pier → PH06 1970s arrivals. MAP04 flow lines land in Melbourne and Sydney.",
+    "Population graphic: two identical number rolls joined by the Seam (DOC10)."
+   ],
+   "image_moves": [
+    "PH05 — DROP + PAN. PH06 — DROP + PAN. Credits: NAA."
+   ],
+   "animation_cues": [
+    {
+     "trigger": "“sailed”",
+     "animation": "Flow line 1",
+     "sound": "SFX05"
+    },
+    {
+     "trigger": "“south-west”",
+     "animation": "Flow line 2",
+     "sound": "SFX05"
+    },
+    {
+     "trigger": "“one hundred thousand”",
+     "animation": "Left number rolls",
+     "sound": "SFX06"
+    },
+    {
+     "trigger": "“eight hundred thousand”",
+     "animation": "Right number rolls",
+     "sound": "SFX06"
+    }
+   ],
+   "motifs": "M6 Suitcases (first) · M3 The Seam",
+   "assets": [
+    "AI05",
+    "PH05",
+    "PH06",
+    "MAP04",
+    "DOC10",
+    "SFX05",
+    "SFX06",
+    "MUS02",
+    "MUS06"
+   ],
+   "assets_raw": "AI05, PH05, PH06, MAP04, DOC10, SFX05, SFX06, MUS02",
+   "timing_moments": [],
+   "timing_mentions_in_visual_track": [],
+   "midroll_break_after": false,
+   "narration_tagged_before_factcheck": "Both memories sailed to Australia. [pause] Melbourne became home to one of the largest communities of Holocaust survivors, per person, outside Israel. Palestinian, Lebanese and other Arab families settled in Sydney's south-west. [pause] Today, more than one hundred thousand Jewish Australians, and more than eight hundred thousand Muslim Australians, call this country home.",
+   "spoken_text_before_factcheck": "Both memories sailed to Australia. Melbourne became home to one of the largest communities of Holocaust survivors, per person, outside Israel. Palestinian, Lebanese and other Arab families settled in Sydney's south-west. Today, more than one hundred thousand Jewish Australians, and more than eight hundred thousand Muslim Australians, call this country home.",
+   "word_count_before_factcheck": 51,
+   "edited_in_factcheck_pass": "10 Oct 2026 — see script/VOICE_EDITS_APPLIED.md",
+   "narration_section7_dots_note": "Original script text; superseded by narration_tagged after the fact-check edits.",
+   "assets_cross_references_added": [
+    "MUS06"
+   ],
+   "assets_cross_references_note": "Added 10 Oct 2026: asset is used/triggered in this segment per its visual track/cues but missing from the script Assets line; asset-list \"Used in segments\" column should be updated to match."
+  },
+  {
+   "id": "S17",
+   "chapter": "CHAPTER 2: Two Memories",
+   "speaker": "ATLAS",
+   "speaker_label_in_script": "ATLAS",
+   "approx_start": "4:43",
+   "mood": "connecting, forward hook",
+   "quiet_moment": false,
+   "mood_section7_header": "connecting, forward hook",
+   "narration_tagged": "So when war comes to the Middle East, it doesn't stay there. [pause] It arrives in Australian homes, as family. [pause] And in the two years before Bondi, it arrived in Canberra too.",
+   "narration_section7_dots": "So when war comes to the Middle East, it doesn't stay there. · It arrives in Australian homes, as family. · And in the two years before Bondi, it arrived in Canberra too.",
+   "spoken_text": "So when war comes to the Middle East, it doesn't stay there. It arrives in Australian homes, as family. And in the two years before Bondi, it arrived in Canberra too.",
+   "spoken_text_paragraphs": [
+    "So when war comes to the Middle East, it doesn't stay there.",
+    "It arrives in Australian homes, as family.",
+    "And in the two years before Bondi, it arrived in Canberra too."
+   ],
+   "word_count": 31,
+   "word_count_script_method_section7": 31,
+   "visual_track": [
+    "Two warm-lit suburban windows at dusk (ST03 regraded warm). MAP01 node 2 'TWO MEMORIES' lights.",
+    "Countdown rolls forward: 1947 → OCT 2023 · BONDI −799 DAYS. MUS02 out → MUS07 strings with pulse."
+   ],
+   "image_moves": [],
+   "animation_cues": [
+    {
+     "trigger": "“doesn't stay there”",
+     "animation": "Thread pulses from Gaza back to Bondi",
+     "sound": "SFX05"
+    },
+    {
+     "trigger": "“as family”",
+     "animation": "Windows glow",
+     "sound": "—"
+    },
+    {
+     "trigger": "“Canberra”",
+     "animation": "Countdown rolls to −799 DAYS",
+     "sound": "SFX24 + SFX06 fast"
+    }
+   ],
+   "motifs": "M1 Node: TWO MEMORIES",
+   "assets": [
+    "ST03",
+    "MAP01",
+    "MG01",
+    "SFX05",
+    "SFX24",
+    "SFX06",
+    "MUS07",
+    "MUS02"
+   ],
+   "assets_raw": "ST03, MAP01, MG01, SFX05, SFX24, SFX06, MUS07",
+   "timing_moments": [],
+   "timing_mentions_in_visual_track": [],
+   "midroll_break_after": false,
+   "assets_cross_references_added": [
+    "MUS02"
+   ],
+   "assets_cross_references_note": "Added 10 Oct 2026: asset is used/triggered in this segment per its visual track/cues but missing from the script Assets line; asset-list \"Used in segments\" column should be updated to match."
+  },
+  {
+   "id": "S18",
+   "chapter": "CHAPTER 3: Canberra's Choices",
+   "speaker": "ARA",
+   "speaker_label_in_script": "ARA",
+   "approx_start": "4:57",
+   "mood": "clear, a small reveal",
+   "quiet_moment": false,
+   "mood_section7_header": "clear, a small reveal",
+   "narration_tagged": "First, a choice almost nobody noticed. [pause] Dozens of Australian companies make parts for the F thirty-five fighter jet, and those parts go into a shared global pool. [pause] Australia's air force flies the F thirty-five. [pause] So does Israel's.",
+   "narration_section7_dots": "First, a choice almost nobody noticed. · Dozens of Australian companies make parts for the F-35 fighter jet, and those parts go into a shared global pool. · Australia's air force flies the F-35. · So does Israel's.",
+   "spoken_text": "First, a choice almost nobody noticed. Dozens of Australian companies make parts for the F thirty-five fighter jet, and those parts go into a shared global pool. Australia's air force flies the F thirty-five. So does Israel's.",
+   "spoken_text_paragraphs": [
+    "First, a choice almost nobody noticed.",
+    "Dozens of Australian companies make parts for the F thirty-five fighter jet, and those parts go into a shared global pool.",
+    "Australia's air force flies the F thirty-five.",
+    "So does Israel's."
+   ],
+   "word_count": 37,
+   "word_count_script_method_section7": 35,
+   "visual_track": [
+    "Chapter card: CHAPTER 3 — CANBERRA'S CHOICES. MUS12 → MUS07.",
+    "ST07 sparks → AI04 part rotating; MADE IN AUSTRALIA stamp. FT01 F-35 take-off. MAP05 parts pool; Australia and Israel lines pulse together on \"So does Israel's\"."
+   ],
+   "image_moves": [],
+   "animation_cues": [
+    {
+     "trigger": "“almost nobody noticed”",
+     "animation": "Small label: CHOICE 1",
+     "sound": "—"
+    },
+    {
+     "trigger": "“shared global pool”",
+     "animation": "Lines converge",
+     "sound": "SFX05"
+    },
+    {
+     "trigger": "“So does Israel's”",
+     "animation": "Two lines pulse together",
+     "sound": "SFX06"
+    }
+   ],
+   "motifs": "",
+   "assets": [
+    "ST07",
+    "AI04",
+    "FT01",
+    "MAP05",
+    "SFX10",
+    "SFX19",
+    "SFX05",
+    "SFX06",
+    "SFX09",
+    "MUS12",
+    "MUS07"
+   ],
+   "assets_raw": "ST07, AI04, FT01, MAP05, SFX10, SFX19, SFX05, SFX06, SFX09, MUS12, MUS07",
+   "timing_moments": [],
+   "timing_mentions_in_visual_track": [],
+   "midroll_break_after": false
+  },
+  {
+   "id": "S19",
+   "chapter": "CHAPTER 3: Canberra's Choices",
+   "speaker": "ATLAS",
+   "speaker_label_in_script": "ATLAS",
+   "approx_start": "5:15",
+   "mood": "neutral, both cases in identical tone",
+   "quiet_moment": false,
+   "mood_section7_header": "neutral, both cases in identical tone",
+   "narration_tagged": "Critics, including human rights groups and the Greens, say that makes Australia part of the war. [pause] The government says Australia has not supplied weapons to Israel since the war began, and that the parts are a separate matter that would not change what Israel can do.",
+   "narration_section7_dots": "Critics, including aid groups and the Greens, say that makes Australia part of the war. · The government says Australia has not supplied weapons or ammunition to Israel since the war began, and that leaving the pool would weaken Australia's own defence, without grounding a single Israeli jet.",
+   "spoken_text": "Critics, including human rights groups and the Greens, say that makes Australia part of the war. The government says Australia has not supplied weapons to Israel since the war began, and that the parts are a separate matter that would not change what Israel can do.",
+   "spoken_text_paragraphs": [
+    "Critics, including human rights groups and the Greens, say that makes Australia part of the war.",
+    "The government says Australia has not supplied weapons to Israel since the war began, and that the parts are a separate matter that would not change what Israel can do."
+   ],
+   "word_count": 46,
+   "word_count_script_method_section7": 47,
+   "visual_track": [
+    "SPLIT with the amber Seam: THE CRITICS' CASE (left) and THE GOVERNMENT'S CASE (DOC13, right), identical design, labelled 'Summary of public positions'."
+   ],
+   "image_moves": [],
+   "animation_cues": [
+    {
+     "trigger": "“Critics”",
+     "animation": "Left card",
+     "sound": "SFX18"
+    },
+    {
+     "trigger": "“The government says”",
+     "animation": "Right card; highlight",
+     "sound": "SFX18"
+    }
+   ],
+   "motifs": "M3 The Seam",
+   "assets": [
+    "DOC13",
+    "SFX18",
+    "MUS07"
+   ],
+   "assets_raw": "DOC13, SFX18, MUS07",
+   "timing_moments": [],
+   "timing_mentions_in_visual_track": [],
+   "midroll_break_after": false,
+   "narration_tagged_before_factcheck": "Critics, including aid groups and the Greens, say that makes Australia part of the war. [pause] The government says Australia has not supplied weapons or ammunition to Israel since the war began, and that leaving the pool would weaken Australia's own defence, without grounding a single Israeli jet.",
+   "spoken_text_before_factcheck": "Critics, including aid groups and the Greens, say that makes Australia part of the war. The government says Australia has not supplied weapons or ammunition to Israel since the war began, and that leaving the pool would weaken Australia's own defence, without grounding a single Israeli jet.",
+   "word_count_before_factcheck": 47,
+   "edited_in_factcheck_pass": "10 Oct 2026 — see script/VOICE_EDITS_APPLIED.md",
+   "narration_section7_dots_note": "Original script text; superseded by narration_tagged after the fact-check edits."
+  },
+  {
+   "id": "S20",
+   "chapter": "CHAPTER 3: Canberra's Choices",
+   "speaker": "ARA",
+   "speaker_label_in_script": "ARA",
+   "approx_start": "5:35",
+   "mood": "historic, connecting the dots",
+   "quiet_moment": false,
+   "mood_section7_header": "historic, connecting the dots",
+   "narration_tagged": "Then, a choice everyone noticed. [pause] In August twenty twenty-five, the Prime Minister announced Australia would recognise the State of Palestine. He called a two-state solution, quote, humanity's best hope to break the cycle of violence. [pause] And he reminded the country that Australia had been the first to back the U.N. plan, back in nineteen forty-seven.",
+   "narration_section7_dots": "Then, a choice everyone noticed. · In August twenty twenty-five, the Prime Minister announced Australia would recognise the State of Palestine. He called a two-state solution, quote, humanity's best hope to break the cycle of violence. · And he reminded the country that Australia had been the first to back the U.N. plan, back in nineteen forty-seven.",
+   "spoken_text": "Then, a choice everyone noticed. In August twenty twenty-five, the Prime Minister announced Australia would recognise the State of Palestine. He called a two-state solution, quote, humanity's best hope to break the cycle of violence. And he reminded the country that Australia had been the first to back the U.N. plan, back in nineteen forty-seven.",
+   "spoken_text_paragraphs": [
+    "Then, a choice everyone noticed.",
+    "In August twenty twenty-five, the Prime Minister announced Australia would recognise the State of Palestine. He called a two-state solution, quote, humanity's best hope to break the cycle of violence.",
+    "And he reminded the country that Australia had been the first to back the U.N. plan, back in nineteen forty-seven."
+   ],
+   "word_count": 55,
+   "word_count_script_method_section7": 55,
+   "visual_track": [
+    "Label: CHOICE 2. Countdown: AUG 2025 · BONDI −125 DAYS. QT06 with PH07.",
+    "CALLBACK (M4): on \"nineteen forty-seven\", the exact DOC02 frame from S13 returns with its amber circle; a counter rolls 1947 → 2025: 77 YEARS. HOLD 1.5s."
+   ],
+   "image_moves": [
+    "DOC02 — same ZOOM + CIRCLE frame as S13."
+   ],
+   "animation_cues": [
+    {
+     "trigger": "“August”",
+     "animation": "Countdown −125 DAYS",
+     "sound": "SFX24"
+    },
+    {
+     "trigger": "“humanity's best hope”",
+     "animation": "QT06 builds",
+     "sound": "—"
+    },
+    {
+     "trigger": "“nineteen forty-seven”",
+     "animation": "DOC02 returns; circle redraws",
+     "sound": "SFX20"
+    },
+    {
+     "trigger": "“back in”",
+     "animation": "Counter 1947 → 2025",
+     "sound": "SFX06"
+    }
+   ],
+   "motifs": "M4 The Ballot (return) · M9 Countdown",
+   "assets": [
+    "QT06",
+    "PH07",
+    "DOC02",
+    "MG01",
+    "SFX24",
+    "SFX20",
+    "SFX06",
+    "MUS07"
+   ],
+   "assets_raw": "QT06, PH07, DOC02, MG01, SFX24, SFX20, SFX06, MUS07",
+   "timing_moments": [
+    {
+     "type": "HOLD",
+     "seconds": 1.5,
+     "text": "HOLD 1.5s",
+     "source": "visual_track"
+    }
+   ],
+   "timing_mentions_in_visual_track": [
+    "HOLD 1.5s"
+   ],
+   "midroll_break_after": false
+  },
+  {
+   "id": "S21",
+   "chapter": "CHAPTER 3: Canberra's Choices",
+   "speaker": "ATLAS",
+   "speaker_label_in_script": "ATLAS",
+   "approx_start": "5:59",
+   "mood": "neutral, attacked from both sides",
+   "quiet_moment": false,
+   "mood_section7_header": "neutral, attacked from both sides",
+   "narration_tagged": "It was made official at the United Nations in September, with conditions. No role for Hamas, demilitarisation, and Palestinian elections. [pause] And it was attacked from both directions. The Coalition, Israel's government and many Jewish groups said it rewarded Hamas. [pause] A pro-Palestinian advocacy group called it, quote, completely meaningless, while Australia still traded with Israel.",
+   "narration_section7_dots": "It was made official at the United Nations in September, with conditions. No role for Hamas, demilitarisation, and Palestinian elections. · And it was attacked from both directions. The Coalition, Israel's government and many Jewish groups said it rewarded Hamas. · A pro-Palestinian advocacy group called it, quote, completely meaningless, while Australia still traded with Israel.",
+   "spoken_text": "It was made official at the United Nations in September, with conditions. No role for Hamas, demilitarisation, and Palestinian elections. And it was attacked from both directions. The Coalition, Israel's government and many Jewish groups said it rewarded Hamas. A pro-Palestinian advocacy group called it, quote, completely meaningless, while Australia still traded with Israel.",
+   "spoken_text_paragraphs": [
+    "It was made official at the United Nations in September, with conditions. No role for Hamas, demilitarisation, and Palestinian elections.",
+    "And it was attacked from both directions. The Coalition, Israel's government and many Jewish groups said it rewarded Hamas.",
+    "A pro-Palestinian advocacy group called it, quote, completely meaningless, while Australia still traded with Israel."
+   ],
+   "word_count": 54,
+   "word_count_script_method_section7": 54,
+   "visual_track": [
+    "FT04 UN Web TV if cleared, else MAP08 (four countries light). DOC09 conditions highlight in turn.",
+    "BALANCE SCALE: two identical cards, scale stays level. Arrows strike the recognition card from left and right on \"both directions\". QT07 on the right card."
+   ],
+   "image_moves": [],
+   "animation_cues": [
+    {
+     "trigger": "“United Nations”",
+     "animation": "Four countries light",
+     "sound": "SFX05"
+    },
+    {
+     "trigger": "“both directions”",
+     "animation": "Two arrows strike",
+     "sound": "SFX11 (soft) x2"
+    },
+    {
+     "trigger": "“rewarded Hamas”",
+     "animation": "Left card drops",
+     "sound": "SFX21"
+    },
+    {
+     "trigger": "“completely meaningless”",
+     "animation": "Right card drops; scale level",
+     "sound": "SFX21"
+    }
+   ],
+   "motifs": "M3 The Seam (scale)",
+   "assets": [
+    "FT04 (permission/terms)",
+    "MAP08",
+    "DOC09",
+    "QT07",
+    "SFX05",
+    "SFX11",
+    "SFX21",
+    "MUS07"
+   ],
+   "assets_raw": "FT04 (permission/terms), MAP08, DOC09, QT07, SFX05, SFX11, SFX21, MUS07",
+   "timing_moments": [],
+   "timing_mentions_in_visual_track": [],
+   "midroll_break_after": false
+  },
+  {
+   "id": "S22",
+   "chapter": "CHAPTER 3: Canberra's Choices",
+   "speaker": "ARA",
+   "speaker_label_in_script": "ARA",
+   "approx_start": "6:22",
+   "mood": "tense, reading plainly",
+   "quiet_moment": false,
+   "mood_section7_header": "tense, reading plainly",
+   "narration_tagged": "Then it turned personal. [pause] Israel's prime minister posted that history would remember Albanese as, quote, a weak politician who betrayed Israel and abandoned Australia's Jews. [pause] Albanese replied, quote, I don't take these things personally.",
+   "narration_section7_dots": "Then it turned personal. · Israel's prime minister posted that history would remember Albanese as, quote, a weak politician who betrayed Israel and abandoned Australia's Jews. · Albanese replied, quote, I don't take these things personally.",
+   "spoken_text": "Then it turned personal. Israel's prime minister posted that history would remember Albanese as, quote, a weak politician who betrayed Israel and abandoned Australia's Jews. Albanese replied, quote, I don't take these things personally.",
+   "spoken_text_paragraphs": [
+    "Then it turned personal.",
+    "Israel's prime minister posted that history would remember Albanese as, quote, a weak politician who betrayed Israel and abandoned Australia's Jews.",
+    "Albanese replied, quote, I don't take these things personally."
+   ],
+   "word_count": 34,
+   "word_count_script_method_section7": 34,
+   "visual_track": [
+    "Countdown: AUG 2025 · BONDI −117 DAYS. SPLIT: PH10 Netanyahu and PH07 Albanese facing each other (cast board: NETANYAHU lights).",
+    "QT08 as a labelled recreation of the public post, typing in sync. Then QT09, short and centred. HOLD 1.0s."
+   ],
+   "image_moves": [
+    "PH10 + PH07 — SPLIT."
+   ],
+   "animation_cues": [
+    {
+     "trigger": "“turned personal”",
+     "animation": "Split slides in",
+     "sound": "SFX05"
+    },
+    {
+     "trigger": "“posted”",
+     "animation": "Post card",
+     "sound": "SFX17"
+    },
+    {
+     "trigger": "“personally”",
+     "animation": "QT09 appears",
+     "sound": "—"
+    }
+   ],
+   "motifs": "M9 Countdown",
+   "assets": [
+    "PH10",
+    "PH07",
+    "QT08",
+    "QT09",
+    "MG01",
+    "MG02",
+    "SFX24",
+    "SFX05",
+    "SFX17",
+    "MUS07"
+   ],
+   "assets_raw": "PH10, PH07, QT08, QT09, MG01, MG02, SFX24, SFX05, SFX17, MUS07",
+   "timing_moments": [
+    {
+     "type": "HOLD",
+     "seconds": 1.0,
+     "text": "HOLD 1.0s",
+     "source": "visual_track"
+    }
+   ],
+   "timing_mentions_in_visual_track": [
+    "HOLD 1.0s"
+   ],
+   "midroll_break_after": false
+  },
+  {
+   "id": "S23",
+   "chapter": "CHAPTER 3: Canberra's Choices",
+   "speaker": "ATLAS",
+   "speaker_label_in_script": "ATLAS",
+   "approx_start": "6:38",
+   "mood": "weighty, then a turn inward",
+   "quiet_moment": false,
+   "mood_section7_header": "weighty, then a turn inward",
+   "narration_tagged": "Visas were cancelled on both sides. Relations between two old friends sank to their lowest point in decades. [pause] Abroad, Canberra was making choices. [pause] But for some Australian families, the war had already come much closer.",
+   "narration_section7_dots": "Visas were cancelled on both sides. Relations between two old friends sank to their lowest point in decades. · Abroad, Canberra was making choices. · But for some Australian families, the war had already come much closer.",
+   "spoken_text": "Visas were cancelled on both sides. Relations between two old friends sank to their lowest point in decades. Abroad, Canberra was making choices. But for some Australian families, the war had already come much closer.",
+   "spoken_text_paragraphs": [
+    "Visas were cancelled on both sides. Relations between two old friends sank to their lowest point in decades.",
+    "Abroad, Canberra was making choices.",
+    "But for some Australian families, the war had already come much closer."
+   ],
+   "word_count": 35,
+   "word_count_script_method_section7": 35,
+   "visual_track": [
+    "Two visa stamps land, one each side; a crack runs down the Seam on \"lowest point\".",
+    "MAP01 node 3 'CANBERRA' lights. Fade to warm paper and a single candle (ST13). MUS07 → MUS06."
+   ],
+   "image_moves": [],
+   "animation_cues": [
+    {
+     "trigger": "“Visas”",
+     "animation": "Two stamps",
+     "sound": "SFX19 x2"
+    },
+    {
+     "trigger": "“lowest point”",
+     "animation": "Seam cracks",
+     "sound": "SFX11"
+    },
+    {
+     "trigger": "“much closer”",
+     "animation": "Fade to candle",
+     "sound": "—"
+    }
+   ],
+   "motifs": "M3 The Seam (cracks) · M1 Node: CANBERRA",
+   "assets": [
+    "MAP01",
+    "ST13",
+    "SFX19",
+    "SFX11",
+    "MUS06",
+    "MUS07"
+   ],
+   "assets_raw": "MAP01, ST13, SFX19, SFX11, MUS06",
+   "timing_moments": [],
+   "timing_mentions_in_visual_track": [],
+   "midroll_break_after": false,
+   "assets_cross_references_added": [
+    "MUS07"
+   ],
+   "assets_cross_references_note": "Added 10 Oct 2026: asset is used/triggered in this segment per its visual track/cues but missing from the script Assets line; asset-list \"Used in segments\" column should be updated to match."
+  },
+  {
+   "id": "S24",
+   "chapter": "CHAPTER 4: Australian Lives",
+   "speaker": "ARA",
+   "speaker_label_in_script": "ARA",
+   "approx_start": "6:53",
+   "mood": "tender, slow",
+   "quiet_moment": true,
+   "mood_section7_header": "tender, slow · QUIET",
+   "narration_tagged": "<soft>Zomi Frankcom grew up in Sydney. She spent years feeding people in disaster zones. [pause] On the first of April, twenty twenty-four, she and six colleagues from World Central Kitchen were killed, when Israeli drone strikes hit what the charity called their clearly marked convoy in Gaza.</soft>",
+   "narration_section7_dots": "Zomi Frankcom grew up in Melbourne. She spent years feeding people in disaster zones. · On the first of April, twenty twenty-four, she and six colleagues from World Central Kitchen were killed, when Israeli drone strikes hit their clearly marked convoy in Gaza.",
+   "spoken_text": "Zomi Frankcom grew up in Sydney. She spent years feeding people in disaster zones. On the first of April, twenty twenty-four, she and six colleagues from World Central Kitchen were killed, when Israeli drone strikes hit what the charity called their clearly marked convoy in Gaza.",
+   "spoken_text_paragraphs": [
+    "Zomi Frankcom grew up in Sydney. She spent years feeding people in disaster zones.",
+    "On the first of April, twenty twenty-four, she and six colleagues from World Central Kitchen were killed, when Israeli drone strikes hit what the charity called their clearly marked convoy in Gaza."
+   ],
+   "word_count": 46,
+   "word_count_script_method_section7": 42,
+   "visual_track": [
+    "QUIET MOMENT. Chapter card (slower): CHAPTER 4 — AUSTRALIAN LIVES · BONDI −622 DAYS.",
+    "PH15 portrait only with family permission; otherwise her name in serif on warm paper beside ST13 candle (cast board: FRANKCOM lights).",
+    "MAP07 convoy route, one marker. BREATHE: HOLD 3.0s after the last word."
+   ],
+   "image_moves": [
+    "PH15 (if permitted) — very slow PAN."
+   ],
+   "animation_cues": [
+    {
+     "trigger": "“Zomi Frankcom”",
+     "animation": "Name writes on",
+     "sound": "—"
+    },
+    {
+     "trigger": "“first of April”",
+     "animation": "Countdown −622 DAYS (no tick in quiet moments)",
+     "sound": "—"
+    },
+    {
+     "trigger": "“convoy”",
+     "animation": "Dotted route draws",
+     "sound": "—"
+    }
+   ],
+   "motifs": "",
+   "assets": [
+    "PH15 (permission/terms)",
+    "ST13",
+    "MAP07",
+    "MG01",
+    "MG02",
+    "MUS06"
+   ],
+   "assets_raw": "PH15 (permission/terms), ST13, MAP07, MG01, MG02, MUS06",
+   "timing_moments": [
+    {
+     "type": "BREATHE",
+     "seconds": 3.0,
+     "text": "BREATHE: HOLD 3.0s after the last word.",
+     "source": "breathe_table"
+    }
+   ],
+   "timing_mentions_in_visual_track": [
+    "BREATHE: HOLD 3.0s after the last word."
+   ],
+   "midroll_break_after": false,
+   "narration_tagged_before_factcheck": "<soft>Zomi Frankcom grew up in Melbourne. She spent years feeding people in disaster zones. [pause] On the first of April, twenty twenty-four, she and six colleagues from World Central Kitchen were killed, when Israeli drone strikes hit their clearly marked convoy in Gaza.</soft>",
+   "spoken_text_before_factcheck": "Zomi Frankcom grew up in Melbourne. She spent years feeding people in disaster zones. On the first of April, twenty twenty-four, she and six colleagues from World Central Kitchen were killed, when Israeli drone strikes hit their clearly marked convoy in Gaza.",
+   "word_count_before_factcheck": 42,
+   "edited_in_factcheck_pass": "10 Oct 2026 — see script/VOICE_EDITS_APPLIED.md",
+   "narration_section7_dots_note": "Original script text; superseded by narration_tagged after the fact-check edits."
+  },
+  {
+   "id": "S25",
+   "chapter": "CHAPTER 4: Australian Lives",
+   "speaker": "ATLAS",
+   "speaker_label_in_script": "ATLAS",
+   "approx_start": "7:16",
+   "mood": "steady, three voices read plainly",
+   "quiet_moment": false,
+   "mood_section7_header": "steady, three voices read plainly",
+   "narration_tagged": "Prime Minister Albanese called it, quote, completely unacceptable. [pause] Israel's prime minister said his forces had, quote, unintentionally harmed non-combatants. [pause] Her family said she would leave, quote, a legacy of compassion, bravery and love.",
+   "narration_section7_dots": "Prime Minister Albanese called it, quote, completely unacceptable. · Israel's prime minister said his forces had, quote, unintentionally harmed non-combatants. · Her family said she would leave, quote, a legacy of compassion, bravery and love.",
+   "spoken_text": "Prime Minister Albanese called it, quote, completely unacceptable. Israel's prime minister said his forces had, quote, unintentionally harmed non-combatants. Her family said she would leave, quote, a legacy of compassion, bravery and love.",
+   "spoken_text_paragraphs": [
+    "Prime Minister Albanese called it, quote, completely unacceptable.",
+    "Israel's prime minister said his forces had, quote, unintentionally harmed non-combatants.",
+    "Her family said she would leave, quote, a legacy of compassion, bravery and love."
+   ],
+   "word_count": 33,
+   "word_count_script_method_section7": 33,
+   "visual_track": [
+    "Three quote cards in identical design: QT03, QT04, QT05. The family card holds 2.0s after the VO over the candle."
+   ],
+   "image_moves": [],
+   "animation_cues": [
+    {
+     "trigger": "“completely unacceptable”",
+     "animation": "QT03",
+     "sound": "—"
+    },
+    {
+     "trigger": "“unintentionally”",
+     "animation": "QT04",
+     "sound": "—"
+    },
+    {
+     "trigger": "“compassion, bravery and love”",
+     "animation": "QT05; candle flickers",
+     "sound": "—"
+    }
+   ],
+   "motifs": "",
+   "assets": [
+    "QT03",
+    "QT04",
+    "QT05",
+    "ST13",
+    "MUS06"
+   ],
+   "assets_raw": "QT03, QT04, QT05, ST13, MUS06",
+   "timing_moments": [
+    {
+     "type": "HOLD",
+     "seconds": 2.0,
+     "text": "holds 2.0s after the VO over the candle",
+     "source": "visual_track"
+    }
+   ],
+   "timing_mentions_in_visual_track": [
+    "holds 2.0s after the VO over the candle"
+   ],
+   "midroll_break_after": false
+  },
+  {
+   "id": "S26",
+   "chapter": "CHAPTER 4: Australian Lives",
+   "speaker": "ARA",
+   "speaker_label_in_script": "ARA",
+   "approx_start": "7:30",
+   "mood": "factual, gentle",
+   "quiet_moment": false,
+   "mood_section7_header": "factual, gentle",
+   "narration_tagged": "A former Defence Force chief reviewed Israel's investigation for Australia. He found serious failures, but no evidence the convoy had been knowingly targeted. [pause] In twenty twenty-six, Israel's military decided not to press criminal charges. Her family called it an insult to her memory.",
+   "narration_section7_dots": "A former Defence Force chief reviewed Israel's investigation for Australia. He found serious failures, but no evidence the convoy had been knowingly targeted. · In twenty twenty-six, Israel's military cleared its soldiers of criminal wrongdoing. Her family called that a miscarriage of justice.",
+   "spoken_text": "A former Defence Force chief reviewed Israel's investigation for Australia. He found serious failures, but no evidence the convoy had been knowingly targeted. In twenty twenty-six, Israel's military decided not to press criminal charges. Her family called it an insult to her memory.",
+   "spoken_text_paragraphs": [
+    "A former Defence Force chief reviewed Israel's investigation for Australia. He found serious failures, but no evidence the convoy had been knowingly targeted.",
+    "In twenty twenty-six, Israel's military decided not to press criminal charges. Her family called it an insult to her memory."
+   ],
+   "word_count": 43,
+   "word_count_script_method_section7": 42,
+   "visual_track": [
+    "DOC06 Binskin report card, ZOOM, two highlights (name on screen only: Air Chief Marshal (ret.) Mark Binskin).",
+    "Split-flap 2026; DOC21 card."
+   ],
+   "image_moves": [],
+   "animation_cues": [
+    {
+     "trigger": "“serious failures”",
+     "animation": "Highlight 1",
+     "sound": "—"
+    },
+    {
+     "trigger": "“knowingly targeted”",
+     "animation": "Highlight 2",
+     "sound": "—"
+    },
+    {
+     "trigger": "“twenty twenty-six”",
+     "animation": "DOC21 slides in",
+     "sound": "SFX18"
+    }
+   ],
+   "motifs": "",
+   "assets": [
+    "DOC06",
+    "DOC21",
+    "SFX18",
+    "MUS06"
+   ],
+   "assets_raw": "DOC06, DOC21, SFX18, MUS06",
+   "timing_moments": [],
+   "timing_mentions_in_visual_track": [],
+   "midroll_break_after": false,
+   "narration_tagged_before_factcheck": "A former Defence Force chief reviewed Israel's investigation for Australia. He found serious failures, but no evidence the convoy had been knowingly targeted. [pause] In twenty twenty-six, Israel's military cleared its soldiers of criminal wrongdoing. Her family called that a miscarriage of justice.",
+   "spoken_text_before_factcheck": "A former Defence Force chief reviewed Israel's investigation for Australia. He found serious failures, but no evidence the convoy had been knowingly targeted. In twenty twenty-six, Israel's military cleared its soldiers of criminal wrongdoing. Her family called that a miscarriage of justice.",
+   "word_count_before_factcheck": 42,
+   "edited_in_factcheck_pass": "10 Oct 2026 — see script/VOICE_EDITS_APPLIED.md",
+   "narration_section7_dots_note": "Original script text; superseded by narration_tagged after the fact-check edits."
+  },
+  {
+   "id": "S27",
+   "chapter": "CHAPTER 4: Australian Lives",
+   "speaker": "ATLAS",
+   "speaker_label_in_script": "ATLAS",
+   "approx_start": "7:48",
+   "mood": "empathetic, then even",
+   "quiet_moment": false,
+   "mood_section7_header": "empathetic, then even",
+   "narration_tagged": "An Australian grandmother was also among those killed in Israel. And Australian-Palestinians lost relatives in Gaza. [pause] Australia granted thousands of visitor visas to people fleeing Gaza. Supporters called it basic humanity. The opposition said vetting was rushed. The government said every applicant was checked.",
+   "narration_section7_dots": "Australians were also among those killed or affected in Israel. And Australian-Palestinians lost parents, siblings and cousins in Gaza. · Australia granted thousands of visitor visas to people fleeing Gaza. Supporters called it basic humanity. The opposition said vetting was rushed. The government said every applicant was checked.",
+   "spoken_text": "An Australian grandmother was also among those killed in Israel. And Australian-Palestinians lost relatives in Gaza. Australia granted thousands of visitor visas to people fleeing Gaza. Supporters called it basic humanity. The opposition said vetting was rushed. The government said every applicant was checked.",
+   "spoken_text_paragraphs": [
+    "An Australian grandmother was also among those killed in Israel. And Australian-Palestinians lost relatives in Gaza.",
+    "Australia granted thousands of visitor visas to people fleeing Gaza. Supporters called it basic humanity. The opposition said vetting was rushed. The government said every applicant was checked."
+   ],
+   "word_count": 44,
+   "word_count_script_method_section7": 47,
+   "visual_track": [
+    "SPLIT with the Seam: PH18 (7 Oct damaged homes) and PH19 (Gaza destruction), both non-graphic, identical PAN.",
+    "MATCH-CUT (M6): 1950s suitcases from S16 → a modern suitcase in an arrivals hall (ST09). MIRROR (M5): arrival doors slide OPEN.",
+    "Three attributed lines: SUPPORTERS · OPPOSITION · GOVERNMENT."
+   ],
+   "image_moves": [
+    "PH18 + PH19 — SPLIT."
+   ],
+   "animation_cues": [
+    {
+     "trigger": "“in Israel”",
+     "animation": "Left half brightens",
+     "sound": "—"
+    },
+    {
+     "trigger": "“Gaza”",
+     "animation": "Right half brightens",
+     "sound": "—"
+    },
+    {
+     "trigger": "“visitor visas”",
+     "animation": "Doors open; stamp",
+     "sound": "SFX19"
+    },
+    {
+     "trigger": "“Supporters”",
+     "animation": "Line 1",
+     "sound": "SFX06"
+    },
+    {
+     "trigger": "“opposition”",
+     "animation": "Line 2",
+     "sound": "SFX06"
+    },
+    {
+     "trigger": "“government”",
+     "animation": "Line 3",
+     "sound": "SFX06"
+    }
+   ],
+   "motifs": "M3 The Seam · M6 Suitcases (return) · M5 Doors (opening)",
+   "assets": [
+    "PH18",
+    "PH19",
+    "AI05",
+    "ST09",
+    "SFX19",
+    "SFX06",
+    "MUS06"
+   ],
+   "assets_raw": "PH18, PH19, AI05, ST09, SFX19, SFX06, MUS06",
+   "timing_moments": [],
+   "timing_mentions_in_visual_track": [],
+   "midroll_break_after": false,
+   "narration_tagged_before_factcheck": "Australians were also among those killed or affected in Israel. And Australian-Palestinians lost parents, siblings and cousins in Gaza. [pause] Australia granted thousands of visitor visas to people fleeing Gaza. Supporters called it basic humanity. The opposition said vetting was rushed. The government said every applicant was checked.",
+   "spoken_text_before_factcheck": "Australians were also among those killed or affected in Israel. And Australian-Palestinians lost parents, siblings and cousins in Gaza. Australia granted thousands of visitor visas to people fleeing Gaza. Supporters called it basic humanity. The opposition said vetting was rushed. The government said every applicant was checked.",
+   "word_count_before_factcheck": 47,
+   "edited_in_factcheck_pass": "10 Oct 2026 — see script/VOICE_EDITS_APPLIED.md",
+   "narration_section7_dots_note": "Original script text; superseded by narration_tagged after the fact-check edits."
+  },
+  {
+   "id": "S28",
+   "chapter": "CHAPTER 4: Australian Lives",
+   "speaker": "ARA",
+   "speaker_label_in_script": "ARA",
+   "approx_start": "8:07",
+   "mood": "quietly ominous",
+   "quiet_moment": false,
+   "mood_section7_header": "quietly ominous",
+   "narration_tagged": "For these families, the war was never far away. [pause] And at home, it was pulling the country in two.",
+   "narration_section7_dots": "For these families, the war was never far away. · And at home, it was pulling the country in two.",
+   "spoken_text": "For these families, the war was never far away. And at home, it was pulling the country in two.",
+   "spoken_text_paragraphs": [
+    "For these families, the war was never far away.",
+    "And at home, it was pulling the country in two."
+   ],
+   "word_count": 19,
+   "word_count_script_method_section7": 19,
+   "visual_track": [
+    "MAP01 node 4 'LIVES' lights. The Seam on screen slowly widens into a gap.",
+    "Countdown rolls back to OCT 2023 · BONDI −799 DAYS. MUS06 → MUS09 drone."
+   ],
+   "image_moves": [],
+   "animation_cues": [
+    {
+     "trigger": "“never far away”",
+     "animation": "Node 4 lights",
+     "sound": "SFX21"
+    },
+    {
+     "trigger": "“in two”",
+     "animation": "Seam widens into a gap",
+     "sound": "SFX24"
+    }
+   ],
+   "motifs": "M1 Node: LIVES · M3 Seam widens",
+   "assets": [
+    "MAP01",
+    "MG01",
+    "SFX21",
+    "SFX24",
+    "MUS09",
+    "MUS06"
+   ],
+   "assets_raw": "MAP01, MG01, SFX21, SFX24, MUS09",
+   "timing_moments": [],
+   "timing_mentions_in_visual_track": [],
+   "midroll_break_after": true,
+   "assets_cross_references_added": [
+    "MUS06"
+   ],
+   "assets_cross_references_note": "Added 10 Oct 2026: asset is used/triggered in this segment per its visual track/cues but missing from the script Assets line; asset-list \"Used in segments\" column should be updated to match."
+  },
+  {
+   "id": "S29",
+   "chapter": "CHAPTER 5: A Country Under Strain",
+   "speaker": "ATLAS",
+   "speaker_label_in_script": "ATLAS",
+   "approx_start": "8:15",
+   "mood": "grave, steady",
+   "quiet_moment": false,
+   "mood_section7_header": "grave, steady",
+   "narration_tagged": "It began on the seventh of October, twenty twenty-three. [pause] Hamas-led fighters crossed from Gaza into southern Israel. Around twelve hundred people were killed, most of them civilians, and around two hundred and fifty were taken hostage.",
+   "narration_section7_dots": "It began on the seventh of October, twenty twenty-three. · Hamas-led fighters crossed from Gaza into southern Israel. Around twelve hundred people were killed, most of them civilians, and around two hundred and fifty were taken hostage.",
+   "spoken_text": "It began on the seventh of October, twenty twenty-three. Hamas-led fighters crossed from Gaza into southern Israel. Around twelve hundred people were killed, most of them civilians, and around two hundred and fifty were taken hostage.",
+   "spoken_text_paragraphs": [
+    "It began on the seventh of October, twenty twenty-three.",
+    "Hamas-led fighters crossed from Gaza into southern Israel. Around twelve hundred people were killed, most of them civilians, and around two hundred and fifty were taken hostage."
+   ],
+   "word_count": 36,
+   "word_count_script_method_section7": 36,
+   "visual_track": [
+    "Chapter card on black: CHAPTER 5 — A COUNTRY UNDER STRAIN · BONDI −799 DAYS. No motif; MUS09 only.",
+    "MAP07 border; an arrow crosses it. PH18 damaged homes, PAN only. Numbers fade in with source tags (no rolls).",
+    "BREATHE: HOLD 1.0s after the last word."
+   ],
+   "image_moves": [
+    "PH18 — PAN only."
+   ],
+   "animation_cues": [
+    {
+     "trigger": "“seventh of October” Date types on",
+     "animation": "SFX04",
+     "sound": ""
+    },
+    {
+     "trigger": "“crossed”",
+     "animation": "Arrow crosses the border",
+     "sound": "—"
+    },
+    {
+     "trigger": "“twelve hundred”",
+     "animation": "Number fades in",
+     "sound": "—"
+    },
+    {
+     "trigger": "“two hundred and fifty”",
+     "animation": "Number fades in",
+     "sound": "—"
+    }
+   ],
+   "motifs": "",
+   "assets": [
+    "MAP07",
+    "PH18",
+    "MG01",
+    "SFX04",
+    "MUS09"
+   ],
+   "assets_raw": "MAP07, PH18, MG01, SFX04, MUS09",
+   "timing_moments": [
+    {
+     "type": "BREATHE",
+     "seconds": 1.0,
+     "text": "BREATHE: HOLD 1.0s after the last word.",
+     "source": "breathe_table"
+    }
+   ],
+   "timing_mentions_in_visual_track": [
+    "BREATHE: HOLD 1.0s after the last word."
+   ],
+   "midroll_break_after": false
+  },
+  {
+   "id": "S30",
+   "chapter": "CHAPTER 5: A Country Under Strain",
+   "speaker": "ARA",
+   "speaker_label_in_script": "ARA",
+   "approx_start": "8:34",
+   "mood": "heavy, careful, then precise and attributed",
+   "quiet_moment": false,
+   "mood_section7_header": "heavy, careful, then precise and attributed",
+   "narration_tagged": "It was the deadliest day for Jewish people since the Holocaust. [pause] Israel's military campaign in Gaza lasted two years. [pause] Gaza's Health Ministry, run by Hamas, reported tens of thousands of Palestinians killed. U.N. agencies broadly treat those figures as reliable, and Israel long disputed them. [pause] U.N. backed experts declared famine in parts of the territory.",
+   "narration_section7_dots": "It was the deadliest day for Jewish people since the Holocaust. · Israel's military campaign in Gaza lasted two years. · Gaza's Health Ministry, run by Hamas, reported tens of thousands of Palestinians killed. U.N. agencies broadly treated those figures as reliable, and Israel disputed them. · U.N.-backed experts declared famine in parts of the territory.",
+   "spoken_text": "It was the deadliest day for Jewish people since the Holocaust. Israel's military campaign in Gaza lasted two years. Gaza's Health Ministry, run by Hamas, reported tens of thousands of Palestinians killed. U.N. agencies broadly treat those figures as reliable, and Israel long disputed them. U.N. backed experts declared famine in parts of the territory.",
+   "spoken_text_paragraphs": [
+    "It was the deadliest day for Jewish people since the Holocaust.",
+    "Israel's military campaign in Gaza lasted two years.",
+    "Gaza's Health Ministry, run by Hamas, reported tens of thousands of Palestinians killed. U.N. agencies broadly treat those figures as reliable, and Israel long disputed them.",
+    "U.N. backed experts declared famine in parts of the territory."
+   ],
+   "word_count": 55,
+   "word_count_script_method_section7": 53,
+   "visual_track": [
+    "Screen holds on PH18, still, while the first line is spoken. BREATHE: HOLD 1.5s. Then:",
+    "PH19 Gaza destruction, PAN only. Timeline band OCT 2023 → OCT 2025.",
+    "DOC12 casualty card with full attribution and as-of date; grey tag DISPUTED BY ISRAEL. DOC11 IPC card, highlight. BREATHE: HOLD 1.5s."
+   ],
+   "image_moves": [
+    "PH19 — PAN only."
+   ],
+   "animation_cues": [
+    {
+     "trigger": "“two years”",
+     "animation": "Timeline band draws",
+     "sound": "SFX05 (soft)"
+    },
+    {
+     "trigger": "“Health Ministry”",
+     "animation": "Attribution types on",
+     "sound": "SFX04"
+    },
+    {
+     "trigger": "“disputed”",
+     "animation": "Grey tag",
+     "sound": "—"
+    },
+    {
+     "trigger": "“famine”",
+     "animation": "IPC card",
+     "sound": "SFX18"
+    }
+   ],
+   "motifs": "",
+   "assets": [
+    "PH19",
+    "DOC12",
+    "DOC11",
+    "SFX05",
+    "SFX04",
+    "SFX18",
+    "MUS09",
+    "PH18"
+   ],
+   "assets_raw": "PH19, DOC12, DOC11, SFX05, SFX04, SFX18, MUS09",
+   "timing_moments": [
+    {
+     "type": "BREATHE",
+     "seconds": 1.5,
+     "text": "BREATHE: HOLD 1.5s. Then:",
+     "source": "breathe_table"
+    },
+    {
+     "type": "BREATHE",
+     "seconds": 1.5,
+     "text": "BREATHE: HOLD 1.5s.",
+     "source": "breathe_table"
+    }
+   ],
+   "timing_mentions_in_visual_track": [
+    "BREATHE: HOLD 1.5s.",
+    "BREATHE: HOLD 1.5s."
+   ],
+   "midroll_break_after": false,
+   "narration_tagged_before_factcheck": "It was the deadliest day for Jewish people since the Holocaust. [pause] Israel's military campaign in Gaza lasted two years. [pause] Gaza's Health Ministry, run by Hamas, reported tens of thousands of Palestinians killed. U.N. agencies broadly treated those figures as reliable, and Israel disputed them. [pause] U.N. backed experts declared famine in parts of the territory.",
+   "spoken_text_before_factcheck": "It was the deadliest day for Jewish people since the Holocaust. Israel's military campaign in Gaza lasted two years. Gaza's Health Ministry, run by Hamas, reported tens of thousands of Palestinians killed. U.N. agencies broadly treated those figures as reliable, and Israel disputed them. U.N. backed experts declared famine in parts of the territory.",
+   "word_count_before_factcheck": 54,
+   "edited_in_factcheck_pass": "10 Oct 2026 — see script/VOICE_EDITS_APPLIED.md",
+   "narration_section7_dots_note": "Original script text; superseded by narration_tagged after the fact-check edits.",
+   "assets_cross_references_added": [
+    "PH18"
+   ],
+   "assets_cross_references_note": "Added 10 Oct 2026: asset is used/triggered in this segment per its visual track/cues but missing from the script Assets line; asset-list \"Used in segments\" column should be updated to match."
+  },
+  {
+   "id": "S31",
+   "chapter": "CHAPTER 5: A Country Under Strain",
+   "speaker": "ATLAS",
+   "speaker_label_in_script": "ATLAS",
+   "approx_start": "9:00",
+   "mood": "tense, fair",
+   "quiet_moment": false,
+   "mood_section7_header": "tense, fair",
+   "narration_tagged": "Back home, two days after October the seventh, the Opera House sails were lit in Israel's colours. That night, a pro-Palestinian rally gathered below. [pause] Flares were lit, and antisemitic chanting caused national outrage, though a later police review disputed exactly what was said.",
+   "narration_section7_dots": "Back home, two days after October the seventh, the Opera House sails were lit in Israel's colours. That night, a pro-Palestinian rally gathered below. · Flares were lit, and antisemitic chanting caused national outrage, though a later police review disputed exactly what was said.",
+   "spoken_text": "Back home, two days after October the seventh, the Opera House sails were lit in Israel's colours. That night, a pro-Palestinian rally gathered below. Flares were lit, and antisemitic chanting caused national outrage, though a later police review disputed exactly what was said.",
+   "spoken_text_paragraphs": [
+    "Back home, two days after October the seventh, the Opera House sails were lit in Israel's colours. That night, a pro-Palestinian rally gathered below.",
+    "Flares were lit, and antisemitic chanting caused national outrage, though a later police review disputed exactly what was said."
+   ],
+   "word_count": 43,
+   "word_count_script_method_section7": 43,
+   "visual_track": [
+    "Countdown: 9 OCT 2023 · BONDI −797 DAYS. PH16 Opera House lit blue and white (fallback ST04), slow push.",
+    "Crowd ambience rises. DOC17 NSW Police card on \"police review\"."
+   ],
+   "image_moves": [
+    "PH16 — DROP + PAN."
+   ],
+   "animation_cues": [
+    {
+     "trigger": "“Opera House”",
+     "animation": "Countdown −797 DAYS",
+     "sound": "SFX24"
+    },
+    {
+     "trigger": "“rally gathered”",
+     "animation": "Crowd ambience",
+     "sound": "SFX08"
+    },
+    {
+     "trigger": "“police review”",
+     "animation": "Card; highlight",
+     "sound": "SFX18"
+    }
+   ],
+   "motifs": "",
+   "assets": [
+    "PH16",
+    "ST04",
+    "DOC17",
+    "MG01",
+    "SFX24",
+    "SFX08",
+    "SFX18",
+    "MUS09"
+   ],
+   "assets_raw": "PH16, ST04, DOC17, MG01, SFX24, SFX08, SFX18, MUS09",
+   "timing_moments": [],
+   "timing_mentions_in_visual_track": [],
+   "midroll_break_after": false
+  },
+  {
+   "id": "S32",
+   "chapter": "CHAPTER 5: A Country Under Strain",
+   "speaker": "ARA",
+   "speaker_label_in_script": "ARA",
+   "approx_start": "9:18",
+   "mood": "even, two matched cases",
+   "quiet_moment": false,
+   "mood_section7_header": "even, two matched cases",
+   "narration_tagged": "The fight moved onto phones and into courtrooms. [pause] The private details of hundreds of Jewish writers and artists were published online, and Parliament made malicious doxxing a crime. [pause] An ABC presenter was taken off air after sharing a human rights report on Gaza, and the Federal Court later found she'd been unlawfully sacked. [pause] Two cases. Opposite sides.",
+   "narration_section7_dots": "The fight moved onto phones and into courtrooms. · The private details of hundreds of Jewish writers and artists were published online, and Parliament made malicious doxxing a crime. · An ABC presenter was taken off air after sharing a human rights report on Gaza, and the Federal Court later found she'd been unlawfully sacked. · Two cases. Opposite sides.",
+   "spoken_text": "The fight moved onto phones and into courtrooms. The private details of hundreds of Jewish writers and artists were published online, and Parliament made malicious doxxing a crime. An ABC presenter was taken off air after sharing a human rights report on Gaza, and the Federal Court later found she'd been unlawfully sacked. Two cases. Opposite sides.",
+   "spoken_text_paragraphs": [
+    "The fight moved onto phones and into courtrooms.",
+    "The private details of hundreds of Jewish writers and artists were published online, and Parliament made malicious doxxing a crime.",
+    "An ABC presenter was taken off air after sharing a human rights report on Gaza, and the Federal Court later found she'd been unlawfully sacked.",
+    "Two cases. Opposite sides."
+   ],
+   "word_count": 57,
+   "word_count_script_method_section7": 57,
+   "visual_track": [
+    "AI09 phones lighting up → recreated blurred-names list with PUBLISHED stamp (label: Recreation) → DOC08 law card.",
+    "AI12 empty studio, the light clicks off → DOC07 judgment card.",
+    "SPLIT with the Seam on \"Two cases\": PUBLISHED graphic | DOC07. HOLD 1.0s."
+   ],
+   "image_moves": [],
+   "animation_cues": [
+    {
+     "trigger": "“phones”",
+     "animation": "Phones light up",
+     "sound": "SFX17 cascade"
+    },
+    {
+     "trigger": "“published online”",
+     "animation": "PUBLISHED stamp",
+     "sound": "SFX19"
+    },
+    {
+     "trigger": "“taken off air”",
+     "animation": "Studio light off",
+     "sound": "Click"
+    },
+    {
+     "trigger": "“unlawfully sacked”",
+     "animation": "DOC07 highlight",
+     "sound": "SFX15 gavel (soft)"
+    },
+    {
+     "trigger": "“Opposite sides”",
+     "animation": "Split locks",
+     "sound": "SFX05"
+    }
+   ],
+   "motifs": "M3 The Seam",
+   "assets": [
+    "AI09",
+    "DOC08",
+    "AI12",
+    "DOC07",
+    "SFX17",
+    "SFX19",
+    "SFX15",
+    "SFX05",
+    "MUS09"
+   ],
+   "assets_raw": "AI09, DOC08, AI12, DOC07, SFX17, SFX19, SFX15, SFX05, MUS09",
+   "timing_moments": [
+    {
+     "type": "HOLD",
+     "seconds": 1.0,
+     "text": "HOLD 1.0s",
+     "source": "visual_track"
+    }
+   ],
+   "timing_mentions_in_visual_track": [
+    "HOLD 1.0s"
+   ],
+   "midroll_break_after": false
+  },
+  {
+   "id": "S33",
+   "chapter": "CHAPTER 5: A Country Under Strain",
+   "speaker": "ATLAS",
+   "speaker_label_in_script": "ATLAS",
+   "approx_start": "9:43",
+   "mood": "a divided country",
+   "quiet_moment": false,
+   "mood_section7_header": "a divided country",
+   "narration_tagged": "Tens of thousands marched across the Harbour Bridge in the rain. [pause] Jewish groups recorded record numbers of antisemitic incidents. Muslim Australians, especially women wearing the hijab, reported record abuse. [pause] The government appointed two special envoys, one to combat antisemitism, and one to combat Islamophobia.",
+   "narration_section7_dots": "Tens of thousands marched across the Harbour Bridge in the rain. · Jewish groups recorded record numbers of antisemitic incidents. Muslim Australians, especially women wearing the hijab, reported record abuse. · The government appointed two special envoys, one to combat antisemitism, and one to combat Islamophobia.",
+   "spoken_text": "Tens of thousands marched across the Harbour Bridge in the rain. Jewish groups recorded record numbers of antisemitic incidents. Muslim Australians, especially women wearing the hijab, reported record abuse. The government appointed two special envoys, one to combat antisemitism, and one to combat Islamophobia.",
+   "spoken_text_paragraphs": [
+    "Tens of thousands marched across the Harbour Bridge in the rain.",
+    "Jewish groups recorded record numbers of antisemitic incidents. Muslim Australians, especially women wearing the hijab, reported record abuse.",
+    "The government appointed two special envoys, one to combat antisemitism, and one to combat Islamophobia."
+   ],
+   "word_count": 44,
+   "word_count_script_method_section7": 44,
+   "visual_track": [
+    "Countdown: AUG 2025 · BONDI −133 DAYS. PH17 Harbour Bridge march (faces blurred) / ST15 rain; SFX23 rain.",
+    "SPLIT with the Seam: two incident charts rising (DOC14, DOC15); ST20 synagogue and ST21 mosque exteriors, equal framing and time. DOC18 two identical envoy cards."
+   ],
+   "image_moves": [
+    "PH17 — DROP + PAN."
+   ],
+   "animation_cues": [
+    {
+     "trigger": "“Harbour Bridge”",
+     "animation": "Countdown −133 DAYS; route line crosses",
+     "sound": "SFX24 + SFX05"
+    },
+    {
+     "trigger": "“antisemitic incidents”",
+     "animation": "Left chart rises",
+     "sound": "SFX06"
+    },
+    {
+     "trigger": "“record abuse”",
+     "animation": "Right chart rises",
+     "sound": "SFX06"
+    },
+    {
+     "trigger": "“two special envoys”",
+     "animation": "Two identical cards",
+     "sound": "SFX18"
+    }
+   ],
+   "motifs": "M3 The Seam",
+   "assets": [
+    "PH17",
+    "ST15",
+    "SFX23",
+    "DOC14",
+    "DOC15",
+    "ST20",
+    "ST21",
+    "DOC18",
+    "MG01",
+    "SFX24",
+    "SFX05",
+    "SFX06",
+    "SFX18",
+    "MUS09"
+   ],
+   "assets_raw": "PH17, ST15, SFX23, DOC14, DOC15, ST20, ST21, DOC18, MG01, SFX24, SFX05, SFX06, SFX18, MUS09",
+   "timing_moments": [],
+   "timing_mentions_in_visual_track": [],
+   "midroll_break_after": false
+  },
+  {
+   "id": "S34",
+   "chapter": "CHAPTER 5: A Country Under Strain",
+   "speaker": "ARA",
+   "speaker_label_in_script": "ARA",
+   "approx_start": "10:02",
+   "mood": "realisation, the big payoff",
+   "quiet_moment": false,
+   "mood_section7_header": "realisation, the big payoff",
+   "narration_tagged": "Now look back. [pause] The fires. The jet parts. The expelled ambassador. The recognition. The court cases. The visas. [pause] All of it, in the two years before Bondi.",
+   "narration_section7_dots": "Now look back. · The fires. The jet parts. The expelled ambassador. The recognition. The court cases. The visas. · All of it, in the two years before Bondi.",
+   "spoken_text": "Now look back. The fires. The jet parts. The expelled ambassador. The recognition. The court cases. The visas. All of it, in the two years before Bondi.",
+   "spoken_text_paragraphs": [
+    "Now look back.",
+    "The fires. The jet parts. The expelled ambassador. The recognition. The court cases. The visas.",
+    "All of it, in the two years before Bondi."
+   ],
+   "word_count": 27,
+   "word_count_script_method_section7": 27,
+   "visual_track": [
+    "MONTAGE — NO VO, 8.0s before the first word: every callback, 1–1.5s each: ST16 flame → AI04 jet part → QT01 card → DOC02 circle → DOC07 → ST09 doors. MUS09 builds to its peak.",
+    "Camera pulls back on the evidence board: every card connected by amber string. The countdown ticker races down from −799 toward −65 as each item lights. MAP01: every node pulls toward Bondi."
+   ],
+   "image_moves": [
+    "WALL: callbacks tile as a grid, then the board reveal."
+   ],
+   "animation_cues": [
+    {
+     "trigger": "“The fires”",
+     "animation": "Card lights; countdown −420",
+     "sound": "SFX24"
+    },
+    {
+     "trigger": "“jet parts”",
+     "animation": "Card lights",
+     "sound": "SFX24"
+    },
+    {
+     "trigger": "“ambassador”",
+     "animation": "Card lights; −110",
+     "sound": "SFX24"
+    },
+    {
+     "trigger": "“recognition”",
+     "animation": "Card lights; −84",
+     "sound": "SFX24"
+    },
+    {
+     "trigger": "“court cases”",
+     "animation": "Card lights",
+     "sound": "SFX24"
+    },
+    {
+     "trigger": "“visas”",
+     "animation": "Card lights",
+     "sound": "SFX24"
+    },
+    {
+     "trigger": "“before Bondi”",
+     "animation": "All strings pull to Bondi",
+     "sound": "SFX14 + SFX11"
+    }
+   ],
+   "motifs": "All motifs recalled · M9 Countdown accelerates",
+   "assets": [
+    "ST16",
+    "AI04",
+    "QT01",
+    "DOC02",
+    "DOC07",
+    "ST09",
+    "MAP01",
+    "MG01",
+    "SFX24",
+    "SFX14",
+    "SFX11",
+    "MUS09"
+   ],
+   "assets_raw": "ST16, AI04, QT01, DOC02, DOC07, ST09, MAP01, MG01, SFX24, SFX14, SFX11, MUS09",
+   "timing_moments": [
+    {
+     "type": "MONTAGE",
+     "seconds": 8.0,
+     "text": "MONTAGE — NO VO, 8.0s before the first word: every callback, 1–1.5s each: ST16 flame → AI04 jet part → QT01 card → DOC02 circle → DOC07 → ST09 doors. MUS09 builds to its peak.",
+     "source": "breathe_table"
+    }
+   ],
+   "timing_mentions_in_visual_track": [
+    "MONTAGE — NO VO, 8.0s before the first word"
+   ],
+   "midroll_break_after": false
+  },
+  {
+   "id": "S35",
+   "chapter": "CHAPTER 5: A Country Under Strain",
+   "speaker": "ATLAS",
+   "speaker_label_in_script": "ATLAS",
+   "approx_start": "10:22",
+   "mood": "hopeful for a beat, then two slow words",
+   "quiet_moment": false,
+   "mood_section7_header": "hopeful for a beat, then two slow words",
+   "narration_tagged": "In October twenty twenty-five, a U.S.-brokered ceasefire brought the surviving hostages home. [pause] Many hoped the worst was over. [pause] Sixty-five days after the ceasefire, [pause] <slow>it wasn't.</slow>",
+   "narration_section7_dots": "In October twenty twenty-five, a U.S.-brokered ceasefire brought the surviving hostages home. · Many hoped the worst was over. · Sixty-five days later, · it wasn't.",
+   "spoken_text": "In October twenty twenty-five, a U.S.-brokered ceasefire brought the surviving hostages home. Many hoped the worst was over. Sixty-five days after the ceasefire, it wasn't.",
+   "spoken_text_paragraphs": [
+    "In October twenty twenty-five, a U.S.-brokered ceasefire brought the surviving hostages home.",
+    "Many hoped the worst was over.",
+    "Sixty-five days after the ceasefire,",
+    "it wasn't."
+   ],
+   "word_count": 25,
+   "word_count_script_method_section7": 23,
+   "visual_track": [
+    "DOC20 ceasefire card; MUS09 lifts briefly; the Thread glows warm. Countdown: OCT 2025 · BONDI −65 DAYS.",
+    "On \"Sixty-five days later\": the ticker counts down fast, −65 → −0, with ticks accelerating like a heartbeat (SFX24).",
+    "On \"it wasn't\": hard cut to black. SILENCE 2.0s: music and all SFX out."
+   ],
+   "image_moves": [],
+   "animation_cues": [
+    {
+     "trigger": "“ceasefire”",
+     "animation": "Card; Thread glows warm",
+     "sound": "SFX18"
+    },
+    {
+     "trigger": "“Sixty-five days later”",
+     "animation": "Ticker races to zero",
+     "sound": "SFX24 accelerating"
+    },
+    {
+     "trigger": "“it wasn't”",
+     "animation": "Black, silence",
+     "sound": "—"
+    }
+   ],
+   "motifs": "M9 Countdown reaches zero",
+   "assets": [
+    "DOC20",
+    "MAP01",
+    "MG01",
+    "SFX18",
+    "SFX24",
+    "MUS09"
+   ],
+   "assets_raw": "DOC20, MAP01, MG01, SFX18, SFX24, MUS09",
+   "timing_moments": [
+    {
+     "type": "SILENCE",
+     "seconds": 2.0,
+     "text": "SILENCE 2.0s: music and all SFX out.",
+     "source": "breathe_table"
+    }
+   ],
+   "timing_mentions_in_visual_track": [
+    "SILENCE 2.0s: music and all SFX out."
+   ],
+   "midroll_break_after": false,
+   "narration_tagged_before_factcheck": "In October twenty twenty-five, a U.S.-brokered ceasefire brought the surviving hostages home. [pause] Many hoped the worst was over. [pause] Sixty-five days later, [pause] <slow>it wasn't.</slow>",
+   "spoken_text_before_factcheck": "In October twenty twenty-five, a U.S.-brokered ceasefire brought the surviving hostages home. Many hoped the worst was over. Sixty-five days later, it wasn't.",
+   "word_count_before_factcheck": 23,
+   "edited_in_factcheck_pass": "10 Oct 2026 — see script/VOICE_EDITS_APPLIED.md",
+   "narration_section7_dots_note": "Original script text; superseded by narration_tagged after the fact-check edits."
+  },
+  {
+   "id": "S36",
+   "chapter": "CHAPTER 6: Bondi",
+   "speaker": "ARA",
+   "speaker_label_in_script": "ARA",
+   "approx_start": "10:35",
+   "mood": "quiet dread",
+   "quiet_moment": true,
+   "mood_section7_header": "quiet dread · QUIET",
+   "narration_tagged": "<soft>Remember the fire, fourteen months earlier, in Bondi? [pause] Hanukkah is the festival of lights. [pause] On its first night, around a thousand people gathered by the beach to celebrate.</soft>",
+   "narration_section7_dots": "Remember the fire, fourteen months earlier, in the same suburb? · Hanukkah is the festival of lights. · On its first night, around a thousand people gathered by the beach to celebrate.",
+   "spoken_text": "Remember the fire, fourteen months earlier, in Bondi? Hanukkah is the festival of lights. On its first night, around a thousand people gathered by the beach to celebrate.",
+   "spoken_text_paragraphs": [
+    "Remember the fire, fourteen months earlier, in Bondi?",
+    "Hanukkah is the festival of lights.",
+    "On its first night, around a thousand people gathered by the beach to celebrate."
+   ],
+   "word_count": 28,
+   "word_count_script_method_section7": 30,
+   "visual_track": [
+    "CALLBACK: ST01 Bondi dusk aerial, identical to S06. Small text: CHAPTER 6 — BONDI. Ticker: 14 DEC 2025 · BONDI.",
+    "MATCH-CUT (M2): the S03 flame, same framing, dissolves into a single candle (ST13). Fire that destroyed becomes light that remembers.",
+    "BREATHE: HOLD 2.0s on the candle. MUS10 cello begins."
+   ],
+   "image_moves": [],
+   "animation_cues": [
+    {
+     "trigger": "“Remember the fire”",
+     "animation": "Ghost of the flame over the beach",
+     "sound": "—"
+    },
+    {
+     "trigger": "“festival of lights”",
+     "animation": "Flame dissolves into candle",
+     "sound": "—"
+    }
+   ],
+   "motifs": "M2 Flame → candle · Bondi frame (callback)",
+   "assets": [
+    "ST01",
+    "ST16",
+    "ST13",
+    "MG01",
+    "SFX13",
+    "MUS10"
+   ],
+   "assets_raw": "ST01, ST16, ST13, MG01, SFX13, MUS10",
+   "timing_moments": [
+    {
+     "type": "BREATHE",
+     "seconds": 2.0,
+     "text": "BREATHE: HOLD 2.0s on the candle. MUS10 cello begins.",
+     "source": "breathe_table"
+    }
+   ],
+   "timing_mentions_in_visual_track": [
+    "BREATHE: HOLD 2.0s on the candle."
+   ],
+   "midroll_break_after": false,
+   "narration_tagged_before_factcheck": "<soft>Remember the fire, fourteen months earlier, in the same suburb? [pause] Hanukkah is the festival of lights. [pause] On its first night, around a thousand people gathered by the beach to celebrate.</soft>",
+   "spoken_text_before_factcheck": "Remember the fire, fourteen months earlier, in the same suburb? Hanukkah is the festival of lights. On its first night, around a thousand people gathered by the beach to celebrate.",
+   "word_count_before_factcheck": 30,
+   "edited_in_factcheck_pass": "10 Oct 2026 — see script/VOICE_EDITS_APPLIED.md",
+   "narration_section7_dots_note": "Original script text; superseded by narration_tagged after the fact-check edits."
+  },
+  {
+   "id": "S37",
+   "chapter": "CHAPTER 6: Bondi",
+   "speaker": "ATLAS",
+   "speaker_label_in_script": "ATLAS",
+   "approx_start": "10:50",
+   "mood": "grief, restrained",
+   "quiet_moment": true,
+   "mood_section7_header": "grief, restrained · QUIET",
+   "narration_tagged": "<soft>Two gunmen, a father and son, opened fire. Police shot the father dead. His son was arrested. [pause] Fifteen people were killed. Among them, a ten-year-old girl, a retired police officer, a rabbi, and a Holocaust survivor.</soft>",
+   "narration_section7_dots": "Two gunmen, a father and son, opened fire. Police shot the father dead. His son was arrested. · Fifteen people were killed. Among them, a ten-year-old girl, a retired police officer, a rabbi, and a Holocaust survivor.",
+   "spoken_text": "Two gunmen, a father and son, opened fire. Police shot the father dead. His son was arrested. Fifteen people were killed. Among them, a ten-year-old girl, a retired police officer, a rabbi, and a Holocaust survivor.",
+   "spoken_text_paragraphs": [
+    "Two gunmen, a father and son, opened fire. Police shot the father dead. His son was arrested.",
+    "Fifteen people were killed. Among them, a ten-year-old girl, a retired police officer, a rabbi, and a Holocaust survivor."
+   ],
+   "word_count": 36,
+   "word_count_script_method_section7": 36,
+   "visual_track": [
+    "QUIET MOMENT. No attack footage, ever. MAP10 Bondi locator: one soft marker, pulses once.",
+    "PH22 memorial, very slow PAN; 15 LIVES in serif (callback to S01).",
+    "BREATHE: HOLD 3.0s after the last word. Music only."
+   ],
+   "image_moves": [
+    "PH22 — slow PAN only."
+   ],
+   "animation_cues": [
+    {
+     "trigger": "“opened fire”",
+     "animation": "Marker pulses once",
+     "sound": "—"
+    },
+    {
+     "trigger": "“Fifteen”",
+     "animation": "15 LIVES",
+     "sound": "—"
+    }
+   ],
+   "motifs": "",
+   "assets": [
+    "MAP10",
+    "PH22",
+    "MUS10"
+   ],
+   "assets_raw": "MAP10, PH22, MUS10",
+   "timing_moments": [
+    {
+     "type": "BREATHE",
+     "seconds": 3.0,
+     "text": "BREATHE: HOLD 3.0s after the last word. Music only.",
+     "source": "breathe_table"
+    }
+   ],
+   "timing_mentions_in_visual_track": [
+    "BREATHE: HOLD 3.0s after the last word."
+   ],
+   "midroll_break_after": false
+  },
+  {
+   "id": "S38",
+   "chapter": "CHAPTER 6: Bondi",
+   "speaker": "ARA",
+   "speaker_label_in_script": "ARA",
+   "approx_start": "11:08",
+   "mood": "solemn, plain",
+   "quiet_moment": false,
+   "mood_section7_header": "solemn, plain",
+   "narration_tagged": "That night, the Prime Minister said, quote, [pause] an attack on Jewish Australians is an attack on every Australian.",
+   "narration_section7_dots": "That night, the Prime Minister said, quote, · an attack on Jewish Australians is an attack on every Australian.",
+   "spoken_text": "That night, the Prime Minister said, quote, an attack on Jewish Australians is an attack on every Australian.",
+   "spoken_text_paragraphs": [
+    "That night, the Prime Minister said, quote,",
+    "an attack on Jewish Australians is an attack on every Australian."
+   ],
+   "word_count": 18,
+   "word_count_script_method_section7": 18,
+   "visual_track": [
+    "QT10 appears silent for 2.0s first, over the memorial, then the VO reads it. BREATHE: HOLD 2.0s after."
+   ],
+   "image_moves": [],
+   "animation_cues": [
+    {
+     "trigger": "“every Australian”",
+     "animation": "Quote completes; holds",
+     "sound": "—"
+    }
+   ],
+   "motifs": "",
+   "assets": [
+    "QT10",
+    "PH22",
+    "MUS10"
+   ],
+   "assets_raw": "QT10, PH22, MUS10",
+   "timing_moments": [
+    {
+     "type": "BREATHE",
+     "seconds": 2.0,
+     "text": "BREATHE: HOLD 2.0s after.",
+     "source": "breathe_table"
+    }
+   ],
+   "timing_mentions_in_visual_track": [
+    "silent for 2.0s",
+    "BREATHE: HOLD 2.0s after."
+   ],
+   "midroll_break_after": false
+  },
+  {
+   "id": "S39",
+   "chapter": "CHAPTER 6: Bondi",
+   "speaker": "ATLAS",
+   "speaker_label_in_script": "ATLAS",
+   "approx_start": "11:18",
+   "mood": "quiet courage, building",
+   "quiet_moment": false,
+   "mood_section7_header": "quiet courage, building",
+   "narration_tagged": "And in the middle of the horror, one man crouched behind a parked car, waited, and ran at one of the gunmen. [pause] He wrestled the gun away. [pause] He was shot and wounded.",
+   "narration_section7_dots": "And in the middle of the horror, one man crouched behind a parked car, waited, and ran at one of the gunmen. · He wrestled the gun away. · He was shot and wounded.",
+   "spoken_text": "And in the middle of the horror, one man crouched behind a parked car, waited, and ran at one of the gunmen. He wrestled the gun away. He was shot and wounded.",
+   "spoken_text_paragraphs": [
+    "And in the middle of the horror, one man crouched behind a parked car, waited, and ran at one of the gunmen.",
+    "He wrestled the gun away.",
+    "He was shot and wounded."
+   ],
+   "word_count": 32,
+   "word_count_script_method_section7": 32,
+   "visual_track": [
+    "The third pinned question WHO RAN TOWARD THE GUNFIRE? flies to centre (M7c).",
+    "AI10 one hand steadying another (abstract, no faces, no violence; label). Warm light rises slowly. No motion graphics."
+   ],
+   "image_moves": [],
+   "animation_cues": [
+    {
+     "trigger": "“one man”",
+     "animation": "Third question flies to centre",
+     "sound": "SFX05 (soft)"
+    },
+    {
+     "trigger": "“ran at”",
+     "animation": "Light rises",
+     "sound": "—"
+    }
+   ],
+   "motifs": "M7c returns",
+   "assets": [
+    "AI10",
+    "MUS10",
+    "SFX05"
+   ],
+   "assets_raw": "AI10, MUS10",
+   "timing_moments": [],
+   "timing_mentions_in_visual_track": [],
+   "midroll_break_after": false,
+   "assets_cross_references_added": [
+    "SFX05"
+   ],
+   "assets_cross_references_note": "Added 10 Oct 2026: asset is used/triggered in this segment per its visual track/cues but missing from the script Assets line; asset-list \"Used in segments\" column should be updated to match."
+  },
+  {
+   "id": "S40",
+   "chapter": "CHAPTER 6: Bondi",
+   "speaker": "ARA",
+   "speaker_label_in_script": "ARA",
+   "approx_start": "11:32",
+   "mood": "warm, a lump in the throat",
+   "quiet_moment": false,
+   "mood_section7_header": "warm, a lump in the throat",
+   "narration_tagged": "His name is Ahmed al Ahmed. [pause] A Syrian-born Muslim. A father of two. [pause] The attack was aimed at Jewish Australians. [pause] And one of the people who stood in its way was a Muslim Australian.",
+   "narration_section7_dots": "His name is Ahmed al Ahmed. · A Syrian-born Muslim. A father of two, who runs a fruit shop. · The attack was aimed at Jewish Australians. · And one of the people who stood in its way was a Muslim Australian.",
+   "spoken_text": "His name is Ahmed al Ahmed. A Syrian-born Muslim. A father of two. The attack was aimed at Jewish Australians. And one of the people who stood in its way was a Muslim Australian.",
+   "spoken_text_paragraphs": [
+    "His name is Ahmed al Ahmed.",
+    "A Syrian-born Muslim. A father of two.",
+    "The attack was aimed at Jewish Australians.",
+    "And one of the people who stood in its way was a Muslim Australian."
+   ],
+   "word_count": 34,
+   "word_count_script_method_section7": 39,
+   "visual_track": [
+    "The question card is answered: name card AHMED AL AHMED writes on (PH27 only if a freely licensed real photo exists). Cast board: AHMED lights. PAYOFF of M7c.",
+    "ST19 fruit crates in warm morning light. Then two candles side by side, joined by the faint amber Seam (M2 + M3).",
+    "BREATHE: HOLD 3.0s after the last word. MUS10 swells gently."
+   ],
+   "image_moves": [
+    "PH27 (if free) — DROP + slow PAN."
+   ],
+   "animation_cues": [
+    {
+     "trigger": "“Ahmed al Ahmed”",
+     "animation": "Name writes on",
+     "sound": "—"
+    },
+    {
+     "trigger": "“fruit shop”",
+     "animation": "Fruit crates",
+     "sound": "—"
+    },
+    {
+     "trigger": "“Muslim Australian”",
+     "animation": "Second candle lights",
+     "sound": "—"
+    }
+   ],
+   "motifs": "M7c answered · M2 + M3",
+   "assets": [
+    "PH27",
+    "ST19",
+    "ST13",
+    "MG02",
+    "MUS10"
+   ],
+   "assets_raw": "PH27, ST19, ST13, MG02, MUS10",
+   "timing_moments": [
+    {
+     "type": "BREATHE",
+     "seconds": 3.0,
+     "text": "BREATHE: HOLD 3.0s after the last word. MUS10 swells gently.",
+     "source": "breathe_table"
+    }
+   ],
+   "timing_mentions_in_visual_track": [
+    "BREATHE: HOLD 3.0s after the last word."
+   ],
+   "midroll_break_after": false,
+   "narration_tagged_before_factcheck": "His name is Ahmed al Ahmed. [pause] A Syrian-born Muslim. A father of two, who runs a fruit shop. [pause] The attack was aimed at Jewish Australians. [pause] And one of the people who stood in its way was a Muslim Australian.",
+   "spoken_text_before_factcheck": "His name is Ahmed al Ahmed. A Syrian-born Muslim. A father of two, who runs a fruit shop. The attack was aimed at Jewish Australians. And one of the people who stood in its way was a Muslim Australian.",
+   "word_count_before_factcheck": 39,
+   "edited_in_factcheck_pass": "10 Oct 2026 — see script/VOICE_EDITS_APPLIED.md",
+   "narration_section7_dots_note": "Original script text; superseded by narration_tagged after the fact-check edits."
+  },
+  {
+   "id": "S41",
+   "chapter": "CHAPTER 6: Bondi",
+   "speaker": "ATLAS",
+   "speaker_label_in_script": "ATLAS",
+   "approx_start": "11:52",
+   "mood": "careful, fair",
+   "quiet_moment": false,
+   "mood_section7_header": "careful, fair",
+   "narration_tagged": "The Prime Minister called his bravery, quote, an inspiration for all Australians. [pause] Police say the gunmen were inspired by Islamic State. [pause] And some warn that seeing Bondi only through Israel and Gaza risks missing the extremism behind it, or blaming whole communities for the acts of two men.",
+   "narration_section7_dots": "The Prime Minister called his bravery, quote, an inspiration for all Australians. · Police say the gunmen were inspired by Islamic State. · And some warn that seeing Bondi only through Israel and Gaza risks missing the extremism behind it, or blaming whole communities for the acts of two men.",
+   "spoken_text": "The Prime Minister called his bravery, quote, an inspiration for all Australians. Police say the gunmen were inspired by Islamic State. And some warn that seeing Bondi only through Israel and Gaza risks missing the extremism behind it, or blaming whole communities for the acts of two men.",
+   "spoken_text_paragraphs": [
+    "The Prime Minister called his bravery, quote, an inspiration for all Australians.",
+    "Police say the gunmen were inspired by Islamic State.",
+    "And some warn that seeing Bondi only through Israel and Gaza risks missing the extremism behind it, or blaming whole communities for the acts of two men."
+   ],
+   "word_count": 48,
+   "word_count_script_method_section7": 48,
+   "visual_track": [
+    "QT11 quote card. Then the master question HOW DID THIS HAPPEN HERE? returns from the corner.",
+    "Corner tag: ANALYSIS. The Thread branches dim to grey on \"risks missing\", leaving one bright line labelled EXTREMISM, then relight together."
+   ],
+   "image_moves": [],
+   "animation_cues": [
+    {
+     "trigger": "“inspiration”",
+     "animation": "QT11 builds",
+     "sound": "—"
+    },
+    {
+     "trigger": "“Islamic State”",
+     "animation": "Master question returns",
+     "sound": "SFX05"
+    },
+    {
+     "trigger": "“risks missing”",
+     "animation": "Branches dim; one line stays bright",
+     "sound": "—"
+    },
+    {
+     "trigger": "“two men”",
+     "animation": "Branches relight",
+     "sound": "—"
+    }
+   ],
+   "motifs": "M7 master question returns",
+   "assets": [
+    "QT11",
+    "MAP01",
+    "MUS10",
+    "SFX05"
+   ],
+   "assets_raw": "QT11, MAP01, MUS10",
+   "timing_moments": [],
+   "timing_mentions_in_visual_track": [],
+   "midroll_break_after": false,
+   "assets_cross_references_added": [
+    "SFX05"
+   ],
+   "assets_cross_references_note": "Added 10 Oct 2026: asset is used/triggered in this segment per its visual track/cues but missing from the script Assets line; asset-list \"Used in segments\" column should be updated to match."
+  },
+  {
+   "id": "S42",
+   "chapter": "CHAPTER 6: Bondi",
+   "speaker": "ARA",
+   "speaker_label_in_script": "ARA",
+   "approx_start": "12:13",
+   "mood": "steady, then resonant",
+   "quiet_moment": false,
+   "mood_section7_header": "steady, then resonant",
+   "narration_tagged": "Twenty-five days after the attack, the government called a Royal Commission on Antisemitism and Social Cohesion, led by a former High Court judge. [pause] In February, Israel's President visited Australia to comfort grieving families. In April, the commission called for tougher national gun laws. [pause] Its final report is due on the eighteenth of December, twenty twenty-six. [pause] Four days after the anniversary.",
+   "narration_section7_dots": "Twenty-five days after the attack, the government called a Royal Commission on Antisemitism and Social Cohesion, led by a former Chief Justice. · In February, Israel's President visited Canberra to comfort grieving families. In April, the commission called for tougher national gun laws. · Its final report is due on the fourteenth of December, twenty twenty-six. · One year to the day.",
+   "spoken_text": "Twenty-five days after the attack, the government called a Royal Commission on Antisemitism and Social Cohesion, led by a former High Court judge. In February, Israel's President visited Australia to comfort grieving families. In April, the commission called for tougher national gun laws. Its final report is due on the eighteenth of December, twenty twenty-six. Four days after the anniversary.",
+   "spoken_text_paragraphs": [
+    "Twenty-five days after the attack, the government called a Royal Commission on Antisemitism and Social Cohesion, led by a former High Court judge.",
+    "In February, Israel's President visited Australia to comfort grieving families. In April, the commission called for tougher national gun laws.",
+    "Its final report is due on the eighteenth of December, twenty twenty-six.",
+    "Four days after the anniversary."
+   ],
+   "word_count": 60,
+   "word_count_script_method_section7": 59,
+   "visual_track": [
+    "Ticker now counts UP: JAN 2026 · BONDI +25 DAYS → FEB → APR 2026 · +137 DAYS → 14 DEC 2026 · +365 DAYS (pulses amber).",
+    "DOC04 + PH13 (name on screen: Virginia Bell) → PH09 Herzog → DOC05 + DOC16. FT06 ParlView condolence footage if available.",
+    "MAP01 final node 'BONDI' lights; the evidence board gets its final card. MUS10 resolves → MUS11."
+   ],
+   "image_moves": [
+    "PH13 — DROP. PH09 — DROP."
+   ],
+   "animation_cues": [
+    {
+     "trigger": "“Twenty-five days”",
+     "animation": "Ticker +25 DAYS",
+     "sound": "SFX24"
+    },
+    {
+     "trigger": "“February”",
+     "animation": "PH09",
+     "sound": "SFX19 (soft)"
+    },
+    {
+     "trigger": "“gun laws”",
+     "animation": "Ticker +137 DAYS; DOC05",
+     "sound": "SFX19 (soft)"
+    },
+    {
+     "trigger": "“one year to the day”",
+     "animation": "Ticker +365 DAYS pulses",
+     "sound": "SFX21"
+    }
+   ],
+   "motifs": "M9 Countdown flips to count-up · M1 final node",
+   "assets": [
+    "DOC04",
+    "PH13",
+    "PH09",
+    "DOC05",
+    "DOC16",
+    "FT06",
+    "MAP01",
+    "MG01",
+    "SFX24",
+    "SFX19",
+    "SFX21",
+    "MUS10",
+    "MUS11"
+   ],
+   "assets_raw": "DOC04, PH13, PH09, DOC05, DOC16, FT06, MAP01, MG01, SFX24, SFX19, SFX21, MUS10, MUS11",
+   "timing_moments": [],
+   "timing_mentions_in_visual_track": [],
+   "midroll_break_after": false,
+   "narration_tagged_before_factcheck": "Twenty-five days after the attack, the government called a Royal Commission on Antisemitism and Social Cohesion, led by a former Chief Justice. [pause] In February, Israel's President visited Canberra to comfort grieving families. In April, the commission called for tougher national gun laws. [pause] Its final report is due on the fourteenth of December, twenty twenty-six. [pause] One year to the day.",
+   "spoken_text_before_factcheck": "Twenty-five days after the attack, the government called a Royal Commission on Antisemitism and Social Cohesion, led by a former Chief Justice. In February, Israel's President visited Canberra to comfort grieving families. In April, the commission called for tougher national gun laws. Its final report is due on the fourteenth of December, twenty twenty-six. One year to the day.",
+   "word_count_before_factcheck": 59,
+   "edited_in_factcheck_pass": "10 Oct 2026 — see script/VOICE_EDITS_APPLIED.md",
+   "narration_section7_dots_note": "Original script text; superseded by narration_tagged after the fact-check edits."
+  },
+  {
+   "id": "S43",
+   "chapter": "CLOSING",
+   "speaker": "ATLAS",
+   "speaker_label_in_script": "ATLAS",
+   "approx_start": "12:38",
+   "mood": "stillness, then rhythm",
+   "quiet_moment": false,
+   "mood_section7_header": "stillness, then rhythm",
+   "narration_tagged": "So, what does a war fourteen thousand kilometres away have to do with Bondi? [pause] It didn't pull the trigger. [pause] But for two years, it pulled at the country. A vote Australia cast first. Parts in a fighter jet. Fires, ASIO says, directed from abroad.",
+   "narration_section7_dots": "So, what does a war fourteen thousand kilometres away have to do with Bondi? · It didn't pull the trigger. · But for two years, it pulled at the country. A vote Australia cast first. Parts in a fighter jet. Fires paid for from abroad.",
+   "spoken_text": "So, what does a war fourteen thousand kilometres away have to do with Bondi? It didn't pull the trigger. But for two years, it pulled at the country. A vote Australia cast first. Parts in a fighter jet. Fires, ASIO says, directed from abroad.",
+   "spoken_text_paragraphs": [
+    "So, what does a war fourteen thousand kilometres away have to do with Bondi?",
+    "It didn't pull the trigger.",
+    "But for two years, it pulled at the country. A vote Australia cast first. Parts in a fighter jet. Fires, ASIO says, directed from abroad."
+   ],
+   "word_count": 44,
+   "word_count_script_method_section7": 43,
+   "visual_track": [
+    "CALLBACK: ST02 Bondi dawn, same angle as S01; swimmers, a family walking past the memorial. SFX13.",
+    "MAP01: each node relights in sequence with its phrase, every thread running into Bondi."
+   ],
+   "image_moves": [],
+   "animation_cues": [
+    {
+     "trigger": "“didn't pull the trigger”",
+     "animation": "Thread dims for a beat",
+     "sound": "—"
+    },
+    {
+     "trigger": "“A vote”",
+     "animation": "Node",
+     "sound": "SFX06"
+    },
+    {
+     "trigger": "“jet”",
+     "animation": "Node",
+     "sound": "SFX06"
+    },
+    {
+     "trigger": "“Fires”",
+     "animation": "Node",
+     "sound": "SFX06"
+    }
+   ],
+   "motifs": "Bondi frame (dawn) · M1 Thread",
+   "assets": [
+    "ST02",
+    "MAP01",
+    "SFX13",
+    "SFX06",
+    "MUS11"
+   ],
+   "assets_raw": "ST02, MAP01, SFX13, SFX06, MUS11",
+   "timing_moments": [],
+   "timing_mentions_in_visual_track": [],
+   "midroll_break_after": false,
+   "narration_tagged_before_factcheck": "So, what does a war fourteen thousand kilometres away have to do with Bondi? [pause] It didn't pull the trigger. [pause] But for two years, it pulled at the country. A vote Australia cast first. Parts in a fighter jet. Fires paid for from abroad.",
+   "spoken_text_before_factcheck": "So, what does a war fourteen thousand kilometres away have to do with Bondi? It didn't pull the trigger. But for two years, it pulled at the country. A vote Australia cast first. Parts in a fighter jet. Fires paid for from abroad.",
+   "word_count_before_factcheck": 43,
+   "edited_in_factcheck_pass": "10 Oct 2026 — see script/VOICE_EDITS_APPLIED.md",
+   "narration_section7_dots_note": "Original script text; superseded by narration_tagged after the fact-check edits."
+  },
+  {
+   "id": "S44",
+   "chapter": "CLOSING",
+   "speaker": "ARA",
+   "speaker_label_in_script": "ARA",
+   "approx_start": "12:57",
+   "mood": "quiet conviction",
+   "quiet_moment": false,
+   "mood_section7_header": "quiet conviction",
+   "narration_tagged": "An ambassador expelled. A recognition. Australians grieving on both sides. [pause] ASIO says a foreign state tried to turn neighbour against neighbour. [pause] On a beach in Bondi, one neighbour ran toward the danger, for another.",
+   "narration_section7_dots": "An ambassador expelled. A recognition. Australians grieving on both sides. · A foreign state tried to turn neighbour against neighbour. · On a beach in Bondi, one neighbour ran toward the danger, for another.",
+   "spoken_text": "An ambassador expelled. A recognition. Australians grieving on both sides. ASIO says a foreign state tried to turn neighbour against neighbour. On a beach in Bondi, one neighbour ran toward the danger, for another.",
+   "spoken_text_paragraphs": [
+    "An ambassador expelled. A recognition. Australians grieving on both sides.",
+    "ASIO says a foreign state tried to turn neighbour against neighbour.",
+    "On a beach in Bondi, one neighbour ran toward the danger, for another."
+   ],
+   "word_count": 34,
+   "word_count_script_method_section7": 32,
+   "visual_track": [
+    "MAP01 continues from S43: the last nodes light with each phrase. HOLD 1.0s. Then:",
+    "CALLBACK (M8): Sussan Ley's quote card QT02 slides out from the evidence board, bright pin glowing, held 2s.",
+    "Cut to the two candles from S40. BREATHE: HOLD 2.0s."
+   ],
+   "image_moves": [],
+   "animation_cues": [
+    {
+     "trigger": "“ambassador”",
+     "animation": "Node",
+     "sound": "SFX06"
+    },
+    {
+     "trigger": "“recognition”",
+     "animation": "Node",
+     "sound": "SFX06"
+    },
+    {
+     "trigger": "“both sides”",
+     "animation": "Node; all threads glow into Bondi",
+     "sound": "SFX21"
+    },
+    {
+     "trigger": "“neighbour against neighbour”",
+     "animation": "QT02 returns",
+     "sound": "SFX21 (soft)"
+    },
+    {
+     "trigger": "“ran toward the danger”",
+     "animation": "Two candles",
+     "sound": "—"
+    }
+   ],
+   "motifs": "M8 payoff · M2 Flame",
+   "assets": [
+    "MAP01",
+    "SFX06",
+    "SFX21",
+    "QT02",
+    "ST13",
+    "MUS11"
+   ],
+   "assets_raw": "MAP01, SFX06, SFX21, QT02, ST13, MUS11",
+   "timing_moments": [
+    {
+     "type": "BREATHE",
+     "seconds": 2.0,
+     "text": "BREATHE: HOLD 2.0s.",
+     "source": "breathe_table"
+    },
+    {
+     "type": "HOLD",
+     "seconds": 1.0,
+     "text": "HOLD 1.0s",
+     "source": "visual_track"
+    },
+    {
+     "type": "HOLD",
+     "seconds": 2.0,
+     "text": "held 2s",
+     "source": "visual_track"
+    }
+   ],
+   "timing_mentions_in_visual_track": [
+    "HOLD 1.0s",
+    "held 2s",
+    "BREATHE: HOLD 2.0s."
+   ],
+   "midroll_break_after": false,
+   "narration_tagged_before_factcheck": "An ambassador expelled. A recognition. Australians grieving on both sides. [pause] A foreign state tried to turn neighbour against neighbour. [pause] On a beach in Bondi, one neighbour ran toward the danger, for another.",
+   "spoken_text_before_factcheck": "An ambassador expelled. A recognition. Australians grieving on both sides. A foreign state tried to turn neighbour against neighbour. On a beach in Bondi, one neighbour ran toward the danger, for another.",
+   "word_count_before_factcheck": 32,
+   "edited_in_factcheck_pass": "10 Oct 2026 — see script/VOICE_EDITS_APPLIED.md",
+   "narration_section7_dots_note": "Original script text; superseded by narration_tagged after the fact-check edits."
+  },
+  {
+   "id": "S45",
+   "chapter": "CLOSING",
+   "speaker": "ATLAS",
+   "speaker_label_in_script": "ATLAS",
+   "approx_start": "13:14",
+   "mood": "warm, final",
+   "quiet_moment": true,
+   "mood_section7_header": "warm, final · QUIET",
+   "narration_tagged": "<soft>Maybe the real question isn't about the Middle East at all. It's whether a country built by people from everywhere can hold two communities' grief at the same time, without asking either to give up theirs.</soft> [pause] What Australia does next will say less about Gaza, [pause] and more about us.",
+   "narration_section7_dots": "Maybe the real question isn't about the Middle East at all. It's whether a country built by people from everywhere can hold two communities' grief at the same time, without asking either to give up theirs. · What Australia does next will say less about Gaza, · and more about us.",
+   "spoken_text": "Maybe the real question isn't about the Middle East at all. It's whether a country built by people from everywhere can hold two communities' grief at the same time, without asking either to give up theirs. What Australia does next will say less about Gaza, and more about us.",
+   "spoken_text_paragraphs": [
+    "Maybe the real question isn't about the Middle East at all. It's whether a country built by people from everywhere can hold two communities' grief at the same time, without asking either to give up theirs.",
+    "What Australia does next will say less about Gaza,",
+    "and more about us."
+   ],
+   "word_count": 49,
+   "word_count_script_method_section7": 49,
+   "visual_track": [
+    "MONTAGE — NO VO, 5.0s before the first word: PH05 migrants → PH03 + PH04 split with the Seam → name cards of Zomi Frankcom and Ahmed al Ahmed side by side → PH22 memorial.",
+    "AI11 hands of different ages holding. Final image: ST17 dawn sunlight flaring on the water (M2, last). MUS12 motif on \"more about us\". HOLD 2.0s."
+   ],
+   "image_moves": [
+    "STACK: PH05, PH03, PH04, PH22."
+   ],
+   "animation_cues": [
+    {
+     "trigger": "“real question”",
+     "animation": "Master question card fades away",
+     "sound": "—"
+    },
+    {
+     "trigger": "“two communities' grief”",
+     "animation": "Split returns",
+     "sound": "—"
+    },
+    {
+     "trigger": "“more about us”",
+     "animation": "Sun flare",
+     "sound": "MUS12"
+    }
+   ],
+   "motifs": "M2 → sunlight (last) · M3 last · M6 last",
+   "assets": [
+    "PH05",
+    "PH03",
+    "PH04",
+    "PH15 (permission/terms)",
+    "PH22",
+    "AI11",
+    "ST17",
+    "MUS11",
+    "MUS12"
+   ],
+   "assets_raw": "PH05, PH03, PH04, PH15 (permission/terms), PH22, AI11, ST17, MUS11, MUS12",
+   "timing_moments": [
+    {
+     "type": "MONTAGE",
+     "seconds": 5.0,
+     "text": "MONTAGE — NO VO, 5.0s before the first word: PH05 migrants → PH03 + PH04 split with the Seam → name cards of Zomi Frankcom and Ahmed al Ahmed side by side → PH22 memorial.",
+     "source": "breathe_table"
+    },
+    {
+     "type": "HOLD",
+     "seconds": 2.0,
+     "text": "HOLD 2.0s",
+     "source": "visual_track"
+    }
+   ],
+   "timing_mentions_in_visual_track": [
+    "MONTAGE — NO VO, 5.0s before the first word",
+    "HOLD 2.0s"
+   ],
+   "midroll_break_after": false
+  },
+  {
+   "id": "S46",
+   "chapter": "CLOSING",
+   "speaker": "ARA",
+   "speaker_label_in_script": "ARA",
+   "approx_start": "13:41",
+   "mood": "gentle, caring",
+   "quiet_moment": false,
+   "mood_section7_header": "gentle, caring",
+   "narration_tagged": "Is this Australia's issue? Tell us what you think. [pause] And if any of this has been hard to watch, you're not alone. Support details are in the description.",
+   "narration_section7_dots": "Is this Australia's issue? Tell us what you think. · And if any of this has been hard to watch, you're not alone. Support details are in the description.",
+   "spoken_text": "Is this Australia's issue? Tell us what you think. And if any of this has been hard to watch, you're not alone. Support details are in the description.",
+   "spoken_text_paragraphs": [
+    "Is this Australia's issue? Tell us what you think.",
+    "And if any of this has been hard to watch, you're not alone. Support details are in the description."
+   ],
+   "word_count": 28,
+   "word_count_script_method_section7": 28,
+   "visual_track": [
+    "Black. Question builds. Then a calm card: Lifeline 13 11 14 · lifeline.org.au. End screen 15s; MUS12 tail."
+   ],
+   "image_moves": [],
+   "animation_cues": [
+    {
+     "trigger": "“Australia's issue”",
+     "animation": "Question builds",
+     "sound": "SFX06 (soft)"
+    },
+    {
+     "trigger": "“not alone”",
+     "animation": "Support card fades in",
+     "sound": "—"
+    }
+   ],
+   "motifs": "",
+   "assets": [
+    "MUS12",
+    "SFX06"
+   ],
+   "assets_raw": "MUS12, SFX06",
+   "timing_moments": [
+    {
+     "type": "END SCREEN",
+     "seconds": 15.0,
+     "text": "End screen 15s",
+     "source": "visual_track"
+    }
+   ],
+   "timing_mentions_in_visual_track": [
+    "End screen 15s"
+   ],
+   "midroll_break_after": false
+  }
+ ],
+ "totals_computed_from_section8_spoken_text_before_factcheck": {
+  "ATLAS": 891,
+  "ARA": 887
+ },
+ "chapter_totals_computed_before_factcheck": {
+  "COLD OPEN: How Did This Happen Here?": {
+   "ATLAS": 120,
+   "ARA": 116
+  },
+  "CHAPTER 1: The Fire": {
+   "ATLAS": 79,
+   "ARA": 117
+  },
+  "CHAPTER 2: Two Memories": {
+   "ATLAS": 122,
+   "ARA": 81
+  },
+  "CHAPTER 3: Canberra's Choices": {
+   "ATLAS": 136,
+   "ARA": 126
+  },
+  "CHAPTER 4: Australian Lives": {
+   "ATLAS": 80,
+   "ARA": 103
+  },
+  "CHAPTER 5: A Country Under Strain": {
+   "ATLAS": 146,
+   "ARA": 138
+  },
+  "CHAPTER 6: Bondi": {
+   "ATLAS": 116,
+   "ARA": 146
+  },
+  "CLOSING": {
+   "ATLAS": 92,
+   "ARA": 60
+  }
+ }
+}

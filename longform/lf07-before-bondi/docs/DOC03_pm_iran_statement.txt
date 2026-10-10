@@ -1,0 +1,16 @@
+DOC03 — PM statement, 26 Aug 2025: ASIO assessed Iran directed at least two antisemitic attacks   (segment S10)
+Retrieved 10 Oct 2026.
+
+PRIMARY: pm.gov.au media statement "Response to Iranian attacks", Tuesday 26 August 2025 (Albanese / Wong / Burke)
+  https://www.pm.gov.au/media/response-iranian-attacks      (full text saved: DOC03_pm_iran_statement_source.txt)
+  Same text: https://www.foreignminister.gov.au/minister/penny-wong/media-release/response-iranian-attacks
+  Press-conference transcript: https://pmtranscripts.pmc.gov.au/release/transcript-46904
+
+Exact wording (from the statement):
+  "Enough credible intelligence has now been gathered to reach the deeply disturbing conclusion that the Iranian Government has directed at least two of these attacks."
+  "Iran has sought to disguise its involvement but ASIO assesses it was behind the attacks on: Lewis' Continental Kitchen in Sydney on October 20 last year; and The Adass Israel Synagogue in Melbourne on December 6 last year"
+  "ASIO assesses it is likely Iran directed further attacks as well."
+
+Card text (script): "PM statement, Aug 2025: ASIO assessed Iran's IRGC directed at least two antisemitic attacks"
+  NOTE: the PM statement says "the Iranian Government" and "ASIO assesses it was behind"; the IRGC is named by ASIO Director-General Mike Burgess at the same press conference (ABC report: IRGC "directed the attack through a series of 'cut-outs'"). Safest card line: "ASIO assesses the Iranian Government directed at least two antisemitic attacks in Australia (PM, 26 Aug 2025)". Keep "assessed" (not "proved").
+Licence/credit: Commonwealth of Australia; cite "Prime Minister of Australia, pm.gov.au, 26 Aug 2025". (pm.gov.au content is under CC BY 4.0 except logos/images — page footer; confirm before publishing.)

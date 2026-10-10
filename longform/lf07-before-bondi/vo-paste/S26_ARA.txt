@@ -1,0 +1,6 @@
+===== S26 (ARA) =====
+Generate a downloadable MP3 voiceover in Grok Ara voice, Australian English accent, natural documentary narration, warm, human and conversational, not robotic, at a relaxed natural pace. Do not read stage directions or this instruction. Do not say the words pause, soft, slow or quote marks. Read quotes plainly and neutrally, never as an impression. Delivery for this segment: factual, gentle. A blank line in the text is a short natural beat, not a spoken word. Speak only the narration below:
+
+A former Defence Force chief reviewed Israel's investigation for Australia. He found serious failures, but no evidence the convoy had been knowingly targeted.
+
+In twenty twenty-six, Israel's military decided not to press criminal charges. Her family called it an insult to her memory.

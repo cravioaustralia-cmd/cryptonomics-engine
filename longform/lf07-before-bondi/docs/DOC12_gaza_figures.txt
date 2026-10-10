@@ -1,0 +1,10 @@
+DOC12 — Gaza casualty figures (attributed)   (segment S30)
+Retrieved 10 Oct 2026.
+PRIMARY: OCHA oPt "Gaza Reported Impact Snapshot | 30 September 2026" (saved: DOC12_OCHA_Gaza_Reported_Impact_Snapshot_30Sep2026.pdf)
+  https://www.ochaopt.org/sites/default/files/Gaza_Reported_Impact_Snapshot_30_September_2026.pdf
+Exact wording (snapshot header/disclaimer): "Disclaimer: Figures that are yet-to-be verified by the UN are attributed to their source. Casualty numbers have been provided by the Ministry of Health (MoH) and the Israeli authorities."
+Headline figure on the snapshot: "Reported fatalities 74,032" (as of 30 September 2026, 15:00).
+OCHA oPt Humanitarian Situation Report, 2 Oct 2026 (https://www.ochaopt.org/content/humanitarian-situation-report-2-october-2026) says: "According to the Ministry of Health in Gaza, which operates under the de facto authorities ..." and reports 1,431 fatalities and 5,026 injuries since the 10 Oct 2025 ceasefire announcement (as of 30 Sep 2026). Search index also gives MoH cumulative 74,228 killed / 175,188 injured as of 2 Oct 2026 (unverified; use the snapshot's 74,032 as the on-screen number unless re-checked at publish).
+Card text (script): "Tens of thousands killed — Gaza Health Ministry (Hamas-run), via OCHA; disputed by Israel; as of [date]"
+  SUGGESTED: "More than 74,000 reported killed — Gaza Ministry of Health, via UN OCHA, as of 30 Sep 2026. Figures not independently verified; Israel disputes them." (The OCHA page itself says the ministry "operates under the de facto authorities".) UPDATE the as-of date at publish.
+Licence: UN OCHA — cite with as-of date and attribution.

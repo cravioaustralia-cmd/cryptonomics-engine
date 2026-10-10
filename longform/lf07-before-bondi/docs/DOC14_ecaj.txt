@@ -1,0 +1,6 @@
+DOC14 — ECAJ antisemitism report   (segment S33)
+Retrieved 10 Oct 2026.
+PRIMARY: ECAJ, "Report on Anti-Jewish Incidents in Australia 2025" (saved: DOC14_ECAJ_Anti-Jewish_Incidents_Australia_2025.pdf)
+  https://www.ecaj.org.au/wordpress/wp-content/uploads/ECAJ-Report-Anti-Jewish-Incidents-Australia-2025.pdf   (page: https://www.ecaj.org.au/document/special-report-anti-jewish-incidents-in-australia-2025/)
+Exact wording (report): "During the twelve-month period, from 1 October 2024 to 30 September 2025, there were 1,654 anti-Jewish incidents logged by volunteer Community Security Groups (CSGs), official Jewish state roof bodies, and the ECAJ." / "Although this year's total was somewhat less than the previous year's, which was an all-time record, there was actually an increase in the number of arson and vandalism attacks." / "In the previous 12-month period, ending 30 September 2024, a total of 2,062 incidents were logged." / "In the 10 years prior to October 2023 ... the average annual number of anti-Jewish incidents was 342."
+FLAG for the card "Record antisemitic / anti-Muslim incidents" (S33): the RECORD is 2,062 (Oct 2023–Sep 2024). The latest report (1,654) is LOWER than the record (≈20% down) though ~3x pre-7-Oct. The card must say "record 2,062 incidents (year to Sep 2024)" or "1,654 (down from record 2,062)" — NOT "record" for 2025.

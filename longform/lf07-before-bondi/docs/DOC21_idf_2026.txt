@@ -1,0 +1,16 @@
+DOC21 — 2026: IDF clears personnel over the WCK strike; family response   (segment S26)
+Retrieved 10 Oct 2026.
+SOURCES (read in full, saved text excerpts below):
+ (1) ABC News, 19 Aug 2026 (updated 20 Aug), Matthew Doran: "Israel's military clears soldiers of criminal wrongdoing in Gaza strike that killed Zomi Frankcom"
+     https://www.abc.net.au/news/2026-08-19/idf-clears-soldiers-of-criminal-wrongdoing/107056204
+ (2) ABC News, 20 Aug 2026: "Zomi Frankcom's family condemns IDF decision not to prosecute those who ordered fatal strike"
+     https://www.abc.net.au/news/2026-08-20/zomi-frankcom-statement-slams-idf-decision-no-criminal-charges/107060282
+ (3) The Guardian, 20 Aug 2026: https://www.theguardian.com/world/2026/aug/20/zomi-frankcom-deserved-more-slain-aid-workers-family-says-after-israel-rejects-criminal-investigation-ntwnfb
+ (4) Hansard, Questions Without Notice (PM "outrage"): https://parlinfo.aph.gov.au/parlInfo/search/display/display.w3p;db=CHAMBER;id=chamber%2Fhansardr%2F29178%2F0164  (403 to box; PM wording taken from search index: "outrage"; verify)
+
+Exact wording used:
+ IDF (via ABC): "Notwithstanding serious failures in the process that led to the assessment that Hamas operatives were travelling in the vehicles, the decisions of the commanders did not raise reasonable suspicion of criminal misconduct," — IDF statement. Two commanders had already been stripped of their ranks as colonel and major; a colonel, a major general and a brigadier general reprimanded.
+ FM Wong (19 Aug 2026): "This decision falls far short of the accountability we expect." / "The Australian Government will not stop pressing Israel for justice for Zomi and her colleagues." She said she was "outraged".
+ Family (brother Mal Frankcom, statement): "Zomi and her colleagues deserve more than an internal, opaque process that ends with a short statement by the Israeli military absolving their soldiers of criminal wrongdoing" and "The families of the victims deserve transparency and an independent judicial assessment of the criminal responsibility for the international humanitarian law violations that took place on that day." Also: "an insult to my sister's memory" (timing on World Humanitarian Day).
+ Date: IDF announcement 19 Aug 2026.
+Card text (script): "2026: IDF clears personnel; family response" -> OK; show both: IDF finding (serious failures, no criminal suspicion) and family/Government response. Keep as attributed quotes. NO PHOTO of Zomi Frankcom is used (PH15 permission not on file).

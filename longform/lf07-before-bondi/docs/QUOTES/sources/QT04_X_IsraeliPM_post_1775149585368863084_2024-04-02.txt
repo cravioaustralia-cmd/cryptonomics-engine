@@ -1,0 +1,10 @@
+SOURCE: X (Twitter) post by the official account @IsraeliPM ("Prime Minister of Israel", verified; "The official account of the Office of the Prime Minister of Israel")
+URL: https://x.com/IsraeliPM/status/1775149585368863084
+RETRIEVED: 2026-10-10 via the X API (search_posts_all tool), read-only
+created_at (API, UTC): 2024-04-02T13:13:36.000Z = 2 Apr 2024 (Israel 16:13 IDT; Sydney 00:13 AEDT on 3 Apr)
+post id: 1775149585368863084
+Note: this is the text version of the video statement Netanyahu gave on being discharged from Hadassah Ein Kerem hospital.
+================================================================================
+TEXT (verbatim from the API):
+
+Unfortunately, in the past day there was a tragic event in which our forces unintentionally harmed non-combatants in the Gaza Strip. This happens in war. We are conducting a thorough inquiry and are in contact with the governments. We will do everything to prevent a recurrence.

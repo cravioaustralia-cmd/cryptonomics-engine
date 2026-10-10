@@ -1,0 +1,6 @@
+===== S46 (ARA) =====
+Generate a downloadable MP3 voiceover in Grok Ara voice, Australian English accent, natural documentary narration, warm, human and conversational, not robotic, at a relaxed natural pace. Do not read stage directions or this instruction. Do not say the words pause, soft, slow or quote marks. Read quotes plainly and neutrally, never as an impression. Delivery for this segment: gentle, caring. A blank line in the text is a short natural beat, not a spoken word. Speak only the narration below:
+
+Is this Australia's issue? Tell us what you think.
+
+And if any of this has been hard to watch, you're not alone. Support details are in the description.

@@ -1,0 +1,30 @@
+DOC01 — UN General Assembly Resolution 181 (II)
+Symbol: A/RES/181(II)
+Official PDF: https://documents.un.org/doc/resolution/gen/nr0/038/88/pdf/nr003888.pdf
+(reached via https://docs.un.org/en/A/RES/181(II); byte-identical to Commons
+ File:United_Nations_General_Assembly_resolution_A-RES-181(II).pdf, licence on Commons: PD-US-no notice-UN)
+
+Title-page text (p. 131 of the printed volume, PDF p.1, English column, exact):
+  XVII
+  RESOLUTION ADOPTED ON THE REPORT OF THE AD HOC COMMITTEE ON THE
+  PALESTINIAN QUESTION
+  181 (II). Future government of Palestine
+  A
+  The General Assembly,
+  Having met in special session at the request of the mandatory Power to constitute and
+  instruct a special committee to prepare for the consideration of the question of the
+  future government of Palestine at the second regular session; ...
+
+Adoption line (PDF p.2, English column, exact):
+  Hundred and twenty-eighth plenary meeting,
+  29 November 1947.
+
+Files:
+  DOC01_A-RES-181-II.pdf              full 22-page official PDF
+  DOC01_res181_title_page-01.png      p.1 at 300 dpi (title + operative paragraphs; ZOOM target = "181 (II). Future government of Palestine")
+  DOC01_res181_adoption_page-02.png   p.2 at 300 dpi ("Hundred and twenty-eighth plenary meeting, 29 November 1947")
+
+Script check "confirm the resolution date and exact title": CONFIRMED.
+  Exact title: "Future government of Palestine" — resolution 181 (II), adopted 29 November 1947.
+  Evidence-register wording "UN General Assembly Resolution 181 (II), 29 November 1947: Future Government of Palestine" is correct
+  (UN prints "Future government" with lower-case g; either is acceptable on a card).

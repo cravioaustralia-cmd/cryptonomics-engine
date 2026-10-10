@@ -1,0 +1,8 @@
+===== S22 (ARA) =====
+Generate a downloadable MP3 voiceover in Grok Ara voice, Australian English accent, natural documentary narration, warm, human and conversational, not robotic, at a relaxed natural pace. Do not read stage directions or this instruction. Do not say the words pause, soft or slow. Where the narration says the word "quote", say the word quote aloud as part of the sentence. Read quotes plainly and neutrally, never as an impression. Delivery for this segment: tense, reading plainly. A blank line in the text is a short natural beat, not a spoken word. Pronunciation: Albanese = al-buh-NEE-zee. Speak only the narration below:
+
+Then it turned personal.
+
+Israel's prime minister posted that history would remember Albanese as, quote, a weak politician who betrayed Israel and abandoned Australia's Jews.
+
+Albanese replied, quote, I don't take these things personally.

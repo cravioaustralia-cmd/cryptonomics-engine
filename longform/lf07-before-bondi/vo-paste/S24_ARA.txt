@@ -1,0 +1,6 @@
+===== S24 (ARA) =====
+Generate a downloadable MP3 voiceover in Grok Ara voice, Australian English accent, natural documentary narration, warm, human and conversational, not robotic, at a relaxed natural pace. Do not read stage directions or this instruction. Do not say the words pause, soft, slow or quote marks. Read quotes plainly and neutrally, never as an impression. Delivery for this segment: tender, slow. A blank line in the text is a short natural beat, not a spoken word. Pronunciation: Frankcom = FRANK-com; Zomi = ZOH-mee; Gaza = GAH-zuh. Speak only the narration below:
+
+Zomi Frankcom grew up in Sydney. She spent years feeding people in disaster zones.
+
+On the first of April, twenty twenty-four, she and six colleagues from World Central Kitchen were killed, when Israeli drone strikes hit what the charity called their clearly marked convoy in Gaza.

@@ -1,0 +1,2594 @@
+                           GAZA
+
+
+
+
+                                                                      BONDI
+
+
+
+
+                   BEFORE BONDI
+                             799 days · 14,000 kilometres
+
+                               FULL PRODUCTION SCRIPT
+          46 segments · about 14:08 · Grok TTS: Atlas + Ara, alternating, 891 / 884 words
+Media budget: $0 · Every asset free and copyright-cleared · Companion: Before_Bondi_Asset_List.xlsx
+
+
+
+
+             Independent, non-partisan documentary · Research cut-off 9 October 2026
+BEFORE BONDI · Full Production Script                                 Non-partisan · Evidence-led · $0 media
+
+
+
+
+ Contents
+ 1. Editorial stance and disclaimer
+ 2. At a glance (runtime, chapters, voice balance)
+ 3. Packaging
+ 4. Rules
+ 5. The two voices
+ 6. The visual system and the linked-story motifs
+ 7. Shot-by-shot script (S01–S46)
+ 8. Grok voiceover, paste-ready
+ 9. Quote register
+ 10. Evidence register and on-screen numbers
+ 11. Free media sources
+ 12. Publish-day checks
+
+
+ How this file works with the asset list. Every asset ID in this script (FT, PH, ST, AI, DOC, QT, MAP,
+ MUS, SFX) matches a row in Before_Bondi_Asset_List.xlsx, which gives the exact file name, the free
+ source, search terms or AI prompt, the licence and credit rule, and a free fallback.
+
+
+
+
+                                                     Page 2
+BEFORE BONDI · Full Production Script                                    Non-partisan · Evidence-led · $0 media
+
+
+
+
+ 1. Editorial stance: we do not take a side
+ This documentary does not take a side in the Israeli–Palestinian conflict. Its question
+ is narrower: how has this conflict affected Australia and Australians? It reports what happened,
+ shows the evidence on screen as each claim is spoken, and gives every side's position in its
+ own terms, at equal weight. It does not tell viewers what to conclude.
+
+
+ How neutrality is built into every frame
+ • Equal treatment. Whenever one community's experience or position is shown, the other's is shown
+   at the same size, for the same time, in the same design, with the same music level, joined by the
+   amber Seam (motif M3).
+ • Neither voice belongs to a side. Atlas and Ara alternate every segment by structure, not by topic.
+   Whenever both sides' positions are given in one segment, the same voice reads both, in an identical
+   tone.
+ • Quotes from both directions. The quote cards include the Australian government, the opposition,
+   Israel's prime minister, a pro-Palestinian advocacy group, ASIO and a victim's family, all in the same
+   card design.
+ • Attributed, not asserted. Contested facts are attributed on screen. The narrators never state a
+   contested claim as fact.
+ • Neutral language and design. "Israel", "Palestinians", "Hamas", "the war in Gaza". No national
+   flag colours as design colours.
+ • No generated likenesses or symbols, no graphic content.
+
+ Disclaimer — top of the video description (full version)
+ This is an independent documentary made for educational and informational purposes. It does
+ not take a side in the Israeli–Palestinian conflict, and it is not affiliated with, endorsed by, or paid
+ for by any government, political party, advocacy group or community organisation. Statements of
+ fact come from parliamentary records, court judgments, government statements, United Nations
+ documents and official reports, shown on screen and listed in the description. Quotations are
+ short, attributed, and used for news reporting and commentary. The positions of different sides
+ are summarised, attributed, and given equal weight. Casualty figures are attributed to their
+ sources. Some scenes are AI-generated reconstructions, and the narration voices are
+ AI-generated. No real person has been AI-generated or altered. If you believe anything is
+ inaccurate or unfair to any side, contact [your email] and we will review it promptly.
+
+
+ On-screen card (after the title in S07, 4 seconds, no narration)
+
+ An independent, non-partisan documentary. We don't take sides. Facts are sourced on screen;
+ each side's view is attributed and given equal weight. Some scenes and the narration voices are
+ AI-generated.
+
+
+
+
+                                                  Page 3
+BEFORE BONDI · Full Production Script                                                 Non-partisan · Evidence-led · $0 media
+
+
+
+
+ 2. At a glance
+Item                        Detail
+Segments                    S01–S46 (46 segments, each 15–40 seconds)
+
+Runtime                     About 14:08 (≈1,775 narrated words at ~150 wpm, plus breathe moments, montages,
+                            cards and end screen)
+
+Voices                      Grok TTS. Atlas: 23 segments, 891 words. Ara: 23 segments, 884 words. They alternate on
+                            every segment.
+
+Mid-roll ad breaks          2: after S12, S28
+
+Format                      16:9, 1920×1080, 30 fps
+
+Media budget                $0 — every asset free and copyright-cleared
+
+
+ Chapters and voice balance
+Starts       Chapter                                                                   Atlas words         Ara words
+0:00         COLD OPEN: How Did This Happen Here?                                      120                 116
+
+1:54         CHAPTER 1: The Fire                                                       79                  117
+
+3:21         CHAPTER 2: Two Memories                                                   122                 81
+
+4:57         CHAPTER 3: Canberra's Choices                                             136                 124
+
+6:53         CHAPTER 4: Australian Lives                                               80                  103
+
+8:15         CHAPTER 5: A Country Under Strain                                         146                 137
+
+10:35        CHAPTER 6: Bondi                                                          116                 146
+
+12:38        CLOSING                                                                   92                  60
+
+             TOTAL                                                                     891                 884
+ Some chapters lean slightly to one voice, but the film as a whole is evenly split and no voice ever speaks twice in a row.
+
+
+ 3. Packaging
+ Title options (Bondi-led, factual, never sensational)
+ • Before Bondi: The 799 Days That Changed Australia
+ • The 799 Days Before Bondi
+ • Before Bondi: How a War 14,000 km Away Reached Australia
+
+ Thumbnail (Bondi psychology, done respectfully)
+ • Image: real free photo of Bondi Beach at dusk (ST01 still), slightly dark. In the foreground, one lit
+    candle (ST13 still). A thin amber line runs off the edge of the frame toward "GAZA 14,000 KM".
+ • Text: big "799 DAYS" in amber, with a small split-flap style "BEFORE BONDI" under it. Optional small
+    stamp: "WHO PAID FOR THE FIRE?".
+ • Why it works: it promises the viewer's real question (how did Bondi happen?) plus a mystery they
+    don't know yet, and the countdown in the film keeps paying that promise off.
+ • Never: victims, the gunmen, attack footage, blood, police tape at the scene, flags, crying faces, or
+    words like SHOCKING / EXPOSED. YouTube restricts sensational tragedy thumbnails, and it would
+    break the film's neutrality.
+
+ Chapters for the description (adjust to the final render)
+ 0:00 COLD OPEN: How Did This Happen Here?
+ 1:54 CHAPTER 1: The Fire
+ 3:21 CHAPTER 2: Two Memories
+ 4:57 CHAPTER 3: Canberra's Choices
+ 6:53 CHAPTER 4: Australian Lives
+ 8:15 CHAPTER 5: A Country Under Strain
+ 10:35 CHAPTER 6: Bondi
+
+
+                                                            Page 4
+BEFORE BONDI · Full Production Script                                             Non-partisan · Evidence-led · $0 media
+
+
+
+
+ 12:38 CLOSING
+ Description must also include: "Support: Lifeline 13 11 14 (lifeline.org.au)".
+
+ Description order
+ Disclaimer → chapters → sources (section 10) → quotes with sources (section 9) → media credits (copy
+ from the asset list's Credit column) → "Some background scenes are AI-generated reconstructions. No
+ real person has been AI-generated or altered. Narration voices are AI-generated."
+
+
+
+
+                                                         Page 5
+BEFORE BONDI · Full Production Script                                    Non-partisan · Evidence-led · $0 media
+
+
+
+
+ 4. Rules (apply to every frame)
+ Legal and accuracy
+ • Evidence-led. Every factual claim appears on screen with its source and date as it is spoken.
+ • "Allegedly" and "according to ASIO" stay attached to the Iran attribution (S05, S09, S10).
+ • No causal claim about Bondi. The film never says the Middle East conflict, recognition, protests or
+   any group caused the attack. S07 states this to the viewer directly; S41 repeats it with police's stated
+   motive and the risk of blaming communities.
+ • Bondi: never name or show the gunmen. The surviving accused is before the courts; say only what
+   police have stated.
+ • Quotes are short, exact, attributed (speaker, date, source) and shown on a quote card as they are
+   read. Never edit a quote's words. Check each one against its primary source (section 9).
+ • "Summary of public positions" labels every paraphrased case-for / case-against card.
+ • Analysis is labelled (Chapter 7 carries an ANALYSIS corner tag).
+ • Casualty figures are always attributed, with an as-of date.
+ • ParlView excerpts are fair and in context, credited "Parliament of Australia", under Parliament's
+   conditions (no party advertising, election material or satire). Get written confirmation before
+   publishing.
+
+ People and respect
+ • No AI-generated, drawn, animated or altered likeness of any real person. Real people
+   appear only in real photos and ParlView footage. Animated people are faceless figure icons.
+ • No icons, illustrations or AI images of religious symbols, religious dress, flags or party
+   logos. Real symbols appear only where they are in real photos (e.g. menorahs at the Bondi
+   memorial).
+ • No graphic content, ever. Aftermath, memorials, maps and documents only.
+ • Quiet moments (S01, S15, S24, S36, S37, S45): slow, minimal motion; no stamps, shakes or comic
+   effects. S38–S41 are near-quiet. No countdown tick sound during quiet moments.
+ • Zomi Frankcom's photo only with written family permission; otherwise the name card. Ahmed al
+   Ahmed's photo only if a freely licensed real photo exists; otherwise the name card.
+ • "Dramatised reconstruction" label on AI01, AI02, AI03 and AI10 whenever they appear.
+
+ Budget and copyright
+ • $0. Every item is public domain, Creative Commons, free stock, free under the owner's published
+   conditions, generated with your own Grok account, or built by the pipeline.
+ • No news-network footage, no agency photos, no screenshots of news websites. Quotes are
+   rebuilt as your own quote cards.
+ • Items marked PERMISSION / TERMS are used only after written confirmation; each has a free fallback.
+
+
+
+
+                                                  Page 6
+BEFORE BONDI · Full Production Script                                       Non-partisan · Evidence-led · $0 media
+
+
+
+
+ 5. The two voices
+               Atlas (male)                                   Ara (female)
+Grok voice     Your channel voice: keep your usual settings   Recommended: Ara (warm, conversational).
+                                                              Backup: Eve. Never mix the two
+
+Role           Co-narrator                                    Co-narrator
+
+Segments       23 (all odd-numbered: S01, S03 …)              23 (all even-numbered: S02, S04 …)
+
+Words          891                                            884
+
+ • Equal partners. Both voices tell the story, read records and read quotes. Neither is the "main"
+   narrator, so after a minute or two viewers expect the handover and listen for it.
+ • Strict alternation. Atlas speaks every odd segment, Ara every even one. Segments run 15–40
+   seconds, so the switch resets attention without any visual trick.
+ • Handover rule. Leave 0.35–0.5 s of air at every handover. Where a segment ends on a question or a
+   hook, the next voice answers it, which makes the two sound like they're telling one story together.
+ • Never by side. Voices are assigned by position in the script, not by topic. When one segment gives
+   two sides' positions, one voice reads both.
+ • Reading quotes. The narrator says "quote", takes a short pause, and reads the words plainly,
+   without imitating the speaker. The quote card is on screen at the same time.
+ • Matching sound. Generate both voices with the same output format and loudness (−14 LUFS
+   integrated). If one sounds closer or brighter, EQ it to match before the mix.
+
+ Audition before generating
+ Generate S10 and S11 in both candidate female voices next to Atlas. Pick the voice that sounds equally
+ neutral reading a record (S10) and naturally paired with Atlas on the handover.
+
+
+
+
+                                                     Page 7
+BEFORE BONDI · Full Production Script                                              Non-partisan · Evidence-led · $0 media
+
+
+
+
+ 6. The visual system
+ Five layers
+Layer                                      Job                                                            Share
+Real footage (ParlView, DVIDS, AWM,        Proof you can watch                                            ~10%
+UN)
+
+Animated free photos                       Story where no footage exists, always moving                   ~25%
+
+Evidence and quote cards                   Statements, judgments, reports, quotes, highlighted as         ~20%
+                                           spoken
+
+Thread globe, maps, data                   Where things happened and how they connect                     ~25%
+
+B-roll (free stock or AI)                  Atmosphere where nothing real exists                           ~20%
+
+ Golden rule
+ Something on screen reacts to the voice every 1–2 seconds, except during quiet moments and
+ BREATHE holds, where stillness is the point.
+
+ The linked-story motifs (what makes the history stick)
+ These recurring images connect events years apart, so viewers build one connected story in their minds. Each motif must
+ look identical every time it returns: same framing, colour and motion.
+ID      Motif               What it does                                                   Where
+M9      The Bondi           A split-flap ticker (lower-left) shows every date as days      S01 · S02 · S04 · S10 · S12 ·
+        Countdown           before Bondi: −799, −420, −110… A low heartbeat tick           S13 · S17 · S20 · S22 · S24 ·
+                            plays each time it changes. In S35 it races to zero and the    S28 · S29 · S31 · S33 · S34 ·
+                            film goes silent; after the attack it flips to counting up     S35 · S36 · S42
+                            (+25, +365). The whole film becomes a countdown
+                            viewers can feel.
+
+M7      Three open          Pinned top-right from the cold open: HOW DID THIS              S02 · S05 · S06 · S10 · S39 ·
+        questions           HAPPEN HERE? (S02), WHO PAID FOR THE FIRE? (S05),              S40 · S41
+                            WHO RAN TOWARD THE GUNFIRE? (S06). Answered in S10
+                            (fire), S40 (Ahmed) and S41/S43 (master question).
+
+M1      The Thread          Dark globe, amber line from Bondi to Gaza. Each chapter        S03 · S07 · chapter ends ·
+                            lights a node; in S34 every thread pulls into Bondi.           S34 · S41 · S43–S44
+
+M1b     The evidence        A dark board where each chapter pins a card tied to the        S15 · chapter ends · S34 ·
+        board               last; fully revealed in S34.                                   S44
+
+M2      The Flame           The arson flame (S03–S04) returns in the same framing          S03 · S12 · S34 · S36 · S40 ·
+                            and dissolves into a Hanukkah candle (S36), then two           S44 · S45
+                            candles (S40, S44), then dawn sunlight (S45). Fire that
+                            destroyed becomes light that remembers.
+
+M3      The Seam            Every two-sided moment is a split joined by a thin amber       S14 · S15 · S16 · S19 · S21 ·
+                            seam: equal size, equal time. It cracks once (S23) and         S23 · S27 · S28 · S32 · S33 ·
+                            widens into a gap (S28) as the country strains; it rejoins     S40 · S45
+                            between two candles (S40).
+
+M4      The Ballot          The amber circle around 'Australia' on the 1947 roll call      S13 · S20 · S34
+                            returns, same frame, when Albanese recalls it in 2025 ('77
+                            YEARS').
+
+M5      Doors               The embassy door closing on Iran (S11) mirrors arrival         S11 · S27
+                            doors opening for families from Gaza (S27).
+
+M6      Suitcases           1950s suitcases (S16) dissolve into a modern suitcase in       S16 · S27 · S45
+                            an arrivals hall (S27).
+
+M8      Neighbour           Sussan Ley's line is planted with 'Remember those words'       S11 · S44
+        against             (S11) and paid off beside the Bondi bystander (S44).
+        neighbour
+
+
+
+
+                                                         Page 8
+BEFORE BONDI · Full Production Script                                              Non-partisan · Evidence-led · $0 media
+
+
+
+
+ID      Motif               What it does                                                   Where
+—       The cast board      Only five names to remember: Albanese, Netanyahu,              S10 · S11 · S22 · S24 · S40
+                            Sussan Ley, Zomi Frankcom, Ahmed al Ahmed. Each lights
+                            on a small cast board the first time they appear. Everyone
+                            else is named on screen only.
+
+—       The Bondi           The same dusk aerial in S06 and S36 (identical) and at         S01 · S06 · S36 · S43
+        frame               dawn in S01 and S43.
+
+
+ Breathe moments and silences
+ Pauses where the picture and music carry the mood. Don't trim them in the edit; they are where the emotion lands.
+Segment         Moment
+S01             BREATHE: HOLD 2.0s after the last word.
+
+S07             BREATHE: HOLD 3.0s on the title. Then the on-screen disclaimer card for 4s, no VO.
+
+S10             SILENCE 1.0s before the first word.
+
+S14             BREATHE: HOLD 1.5s.
+
+S15             BREATHE: HOLD 2.0s. The kinetic text TWO MEMORIES pins to the evidence board.
+
+S24             BREATHE: HOLD 3.0s after the last word.
+
+S29             BREATHE: HOLD 1.0s after the last word.
+
+S30             BREATHE: HOLD 1.5s. Then:
+
+S30             BREATHE: HOLD 1.5s.
+
+S34             MONTAGE — NO VO, 8.0s before the first word: every callback, 1–1.5s each: ST16 flame → AI04 jet
+                part → QT01 card → DOC02 circle → DOC07 → ST09 doors. MUS09 builds to its peak.
+
+S35             SILENCE 2.0s: music and all SFX out.
+
+S36             BREATHE: HOLD 2.0s on the candle. MUS10 cello begins.
+
+S37             BREATHE: HOLD 3.0s after the last word. Music only.
+
+S38             BREATHE: HOLD 2.0s after.
+
+S40             BREATHE: HOLD 3.0s after the last word. MUS10 swells gently.
+
+S44             BREATHE: HOLD 2.0s.
+
+S45             MONTAGE — NO VO, 5.0s before the first word: PH05 migrants → PH03 + PH04 split with the Seam →
+                name cards of Zomi Frankcom and Ahmed al Ahmed side by side → PH22 memorial.
+
+
+ Design tokens
+Swatch     Token                        Use
+           Navy #0E1A2B                 Backgrounds, cards
+
+           Paper #F2EEE6                Evidence and quote cards
+
+           Amber #E8A33D                The Thread, the Seam, highlights, pins
+
+           Grey #8A8A8A                 Secondary labels, "denied/disputed" tags
+
+           Map land #22324A             All maps
+
+           Map sea #0A1422              All maps
+
+ • Fonts (free, OFL): Source Serif 4 (chapter cards, quotes, evidence cards) · Inter (labels, numbers) ·
+     IBM Plex Mono (split-flap dates).
+ • Quote card: navy background, off-white Source Serif 4 quote, speaker name and role in Inter, date
+     and source in small caps, a 3 px amber rule on the left. Identical design for every speaker.
+ • Archival grade: warm sepia, light grain, vignette. Modern: slightly desaturated, cool.
+ • Motion: ease-out entrances 200–350 ms; map lines draw over 1.5–2 s.
+
+
+
+
+                                                         Page 9
+BEFORE BONDI · Full Production Script                                              Non-partisan · Evidence-led · $0 media
+
+
+
+
+ Image moves
+Code            Move                                                                        Sound
+DROP            White-bordered photo falls onto the dark desk with a slight tilt            Shutter click
+
+PAN             Slow push or pan with 2.5D parallax                                         Low whoosh
+
+STACK           2–4 photos land on top of each other                                        A click each
+
+ZOOM            Dive into a document line; highlighter swipe                                Page turn
+
+CIRCLE          Hand-drawn amber circle                                                     Marker squeak
+
+CALLOUT         Label or arrow pops out                                                     Pop
+
+SPLIT           Two images lock together, equal size, joined by the amber Seam              Whoosh + click
+
+PIN             Snaps onto the map or the evidence board                                    Thunk
+
+WALL            6–12 images tile in as a grid                                               Rapid clicks
+
+TORN            Revealed behind ripping paper                                               Paper rip
+
+
+ AI B-roll
+ • Style anchor (add to every prompt): Cinematic documentary B-roll, 16:9, natural colour, gentle
+      film grain, shallow depth of field, slow camera movement, realistic, no text, no logos, no recognisable
+      real people, faces not visible.
+ • Never generate: real people, religious dress or symbols, flags, weapons, violence, injured people,
+      military insignia.
+ • Generate 5–10 s clips, 2–3 variations each, with your own Grok account (Grok Imagine).
+
+ Sound
+ • Narration −14 LUFS integrated; SFX ~12 dB under; music ~20 dB under, ducking under speech,
+      rising to ~−16 LUFS in the two montages (S34, S45).
+ • Music map: MUS10 cello under the opening memorial (S01–S02) · MUS01 cold-open mystery · MUS04
+      Ch1 · MUS02 Ch2 · MUS07 Ch3 · MUS06 Ch4 and quiet moments · MUS09 Ch5 · MUS10 Ch6 · MUS11
+      closing · MUS12 signature motif on the title, chapter cards (not Ch5 or Ch6) and the final line.
+ • Crossfade music over 2–4 s on emotion changes, not on cuts.
+ • Two total silences (music and SFX out): 1.0 s before S10 and 2.0 s after S35 ("it wasn't").
+ • Countdown tick (SFX24) is the film's sonic signature: one low tick every time the Bondi Countdown
+      changes; it accelerates like a heartbeat in S34 and S35, then never plays again after the attack
+      except once, softly, in S42 when the count flips to +25.
+
+
+
+
+                                                          Page 10
+BEFORE BONDI · Full Production Script                                               Non-partisan · Evidence-led · $0 media
+
+
+
+
+ 7. Shot-by-shot script
+ Each segment: the narration (one voice), the visual track in play order (HOLD / BREATHE / SILENCE = picture without
+ narration), image moves, animation cues (each starts on the first word of its trigger), motifs, and assets.
+
+
+ COLD OPEN: How Did This Happen Here?
+
+ S01         ATLAS · quiet, grave, unhurried · QUIET                                                              ≈ 0:00
+
+
+ “Bondi Beach. · On the fourteenth of December, twenty twenty-five, the first night of
+ Hanukkah, it became the scene of the deadliest terror attack ever carried out on
+ Australian soil. · Fifteen people were killed.”
+
+
+ Visual track
+ 1. HOLD 3.0s before the first word: ST02 Bondi at dawn, slow aerial, swimmers and walkers, peaceful.
+    SFX13 waves. No music yet.
+ 2. On "fourteenth of December": the BONDI COUNTDOWN ticker (MG01) appears lower-left for the first
+    time, reading 14 DEC 2025 · BONDI. One low tick (SFX24).
+ 3. On "Fifteen people": cut to PH22 memorial (flowers, candles, menorahs), very slow PAN. Kinetic text
+    15 LIVES in serif. MUS10 cello enters softly.
+ 4. BREATHE: HOLD 2.0s after the last word.
+
+ Image moves
+  • PH22 — slow PAN only.
+
+ Animation cues
+Trigger word            Animation                                                              Sound
+“Bondi Beach”           Location label fades in, lower third                                   —
+
+“fourteenth of          Countdown ticker appears: 14 DEC 2025 · BONDI                          SFX24 tick
+December”
+
+“Fifteen”               15 LIVES fades in                                                      —
+ Motif: M9 Bondi Countdown (first appearance)
+ Assets: ST02, SFX13, MG01, SFX24, PH22, MUS10
+
+
+ S02         ARA · searching, clear                                                                               ≈ 0:19
+
+
+ “Afterwards, the whole country asked the same question. · How did this happen here? ·
+ Police say the gunmen were inspired by Islamic State. But the Australia they struck had
+ been under strain for two years, ever since the war in Gaza began in October twenty
+ twenty-three.”
+
+
+ Visual track
+ 1. The question HOW DID THIS HAPPEN HERE? builds in serif over the memorial, then PINs top-right as
+    the film's master question (M7).
+ 2. On "under strain": a fast, quiet WALL of nine real images from later in the film (Opera House lit,
+    Harbour Bridge march, ASIO building, UN hall, Parliament, airport arrivals, court building, the 1947
+    roll call, a candle). 0.4s each, no sound but a soft whoosh. This is a promise of what's coming.
+ 3. Countdown ticker rolls back fast: 14 DEC 2025 → OCT 2023 · BONDI −799 DAYS.
+
+ Image moves
+  • WALL: PH16, PH17, PH24, FT04/MAP08 frame, ST05, ST09, ST12, DOC02, ST13 — 0.4s each.
+
+
+
+                                                         Page 11
+BEFORE BONDI · Full Production Script                                      Non-partisan · Evidence-led · $0 media
+
+
+
+
+ Animation cues
+Trigger word          Animation                                                       Sound
+“How did this         Question builds, then pins top-right                            SFX21 thunk
+happen here”
+
+“under strain”        Nine-image WALL flashes                                         SFX05
+
+“October twenty       Countdown rolls back to −799 DAYS                               SFX24 + SFX06 fast ticks
+twenty-three”
+ Motif: M7 Master question (pinned) · M9 Countdown
+ Assets: PH22, PH16, PH17, PH24, ST05, ST09, ST12, DOC02, ST13, MG01, SFX21, SFX05, SFX24, SFX06, MUS10
+
+
+ S03        ATLAS · leaning in, conspiratorial                                                          ≈ 0:38
+
+
+ “This film follows the threads of that strain. · Some go back seventy-eight years. · One
+ goes back just fourteen months, to a fire · in the same suburb.”
+
+
+ Visual track
+ 1. MAP01 globe: the amber Thread draws from Bondi to Gaza (14,000 KM counter), then several thin
+   threads branch off it toward dates.
+ 2. On "a fire": hard cut to ST16 flame on black (M2, first appearance).
+
+ Animation cues
+Trigger word          Animation                                                       Sound
+“threads”             Thread draws Bondi → Gaza; branches split off                   SFX05 + SFX14 riser
+
+“seventy-eight        Countdown flashes −78 YEARS                                     SFX24
+years”
+
+“a fire”              Cut to flame                                                    SFX02
+ Motif: M1 Thread · M2 Flame (first)
+ Assets: MAP01, ST16, SFX05, SFX14, SFX24, SFX02, MUS01
+
+
+ S04        ARA · quiet, then a chill                                                                   ≈ 0:50
+
+
+ “October, twenty twenty-four. In the early hours, a small kosher restaurant in Bondi
+ goes up in flames. Nobody is hurt. Police treat it as a local crime. · Seven weeks later,
+ eight hundred kilometres south, a synagogue in Melbourne is firebombed before dawn.”
+
+
+ Visual track
+ 1. MUS01 mystery pulse. ST03 quiet Sydney street at night → AI01 restaurant glow (label: Dramatised
+   reconstruction) → PH21 burnt restaurant (DROP).
+ 2. Countdown: OCT 2024 · BONDI −420 DAYS.
+ 3. MAP11: amber line Sydney → Melbourne, counter 0 → 800 KM. PH20 synagogue damage, TORN
+   reveal. Countdown: DEC 2024 · BONDI −373 DAYS.
+
+ Image moves
+  • PH21 — DROP + PAN. Caption: Bondi, October 2024.
+  • PH20 — TORN + PAN. Caption: Melbourne, December 2024.
+
+ Animation cues
+Trigger word          Animation                                                       Sound
+“October”             Countdown −420 DAYS                                             SFX24
+
+“goes up in flames”   Glow blooms                                                     SFX02
+
+
+
+                                                      Page 12
+BEFORE BONDI · Full Production Script                                   Non-partisan · Evidence-led · $0 media
+
+
+
+
+Trigger word          Animation                                                    Sound
+“local crime”         Police tape slides across                                    SFX03 siren
+
+“Seven weeks later”   Countdown −373 DAYS; line draws                              SFX24 + SFX05
+
+“firebombed”          Photo tears in                                               SFX11 (soft)
+ Motif: M9 Countdown
+ Assets: ST03, AI01, PH21, MAP11, PH20, MG01, SFX24, SFX02, SFX03, SFX05, SFX11, MUS01
+
+
+ S05         ATLAS · hushed, ominous                                                                 ≈ 1:08
+
+
+ “What almost nobody knew then was that the people who lit these fires were allegedly
+ paid. · And the money trail led to a government on the other side of the world.”
+
+
+ Visual track
+ 1. AI02 hands passing an envelope (faces out of frame). On "paid": black, PAID stamps in.
+ 2. A second question card WHO PAID FOR THE FIRE? builds and PINs top-right under the master
+   question (M7b).
+
+ Animation cues
+Trigger word          Animation                                                    Sound
+“paid”                PAID stamps in on black                                      SFX19
+
+“other side of the    Second question pins under the first                         SFX21
+world”
+ Motif: M7 Second question (pinned)
+ Assets: AI02, SFX19, SFX21, MUS01
+
+
+ S06         ARA · warm, intriguing                                                                  ≈ 1:21
+
+
+ “And on the night of the attack, one man ran toward the gunfire. · His story became one
+ of the most shared in the country. · We'll come back to him.”
+
+
+ Visual track
+ 1. Return to ST01 Bondi at dusk. A single silhouette-free shot: an empty stretch of Campbell Parade at
+   dusk (ST01 crop) with a faint amber outline of a parked car.
+ 2. A third, smaller card pins: WHO RAN TOWARD THE GUNFIRE? (M7c). Three open questions now sit
+   top-right.
+
+ Animation cues
+Trigger word          Animation                                                    Sound
+“ran toward”          Faint warm light sweeps the frame                            —
+
+“come back to him”    Third question pins                                          SFX21
+ Motif: M7 Third question (pinned)
+ Assets: ST01, SFX21, MUS01
+
+
+ S07         ATLAS · calm, setting the contract with the viewer                                      ≈ 1:34
+
+
+ “None of these threads explains Bondi on its own. · But together, they show the country
+ it happened in. · And to understand that country, we have to follow the money first.”
+
+
+ Visual track
+
+
+
+                                                     Page 13
+BEFORE BONDI · Full Production Script                                 Non-partisan · Evidence-led · $0 media
+
+
+
+
+ 1. Camera rises from Bondi into space; MAP01 Thread glows. Title card: BEFORE BONDI, subtitle '799
+   days · 14,000 kilometres'. MUS12 motif.
+ 2. BREATHE: HOLD 3.0s on the title. Then the on-screen disclaimer card for 4s, no VO.
+
+ Animation cues
+Trigger word            Animation                                                Sound
+“None of these          Branches dim to grey                                     —
+threads”
+
+“together”              Branches relight in amber                                SFX05
+
+“follow the money”      Title slams in                                           SFX11 + MUS12
+ Motif: M1 Thread
+ Assets: MAP01, SFX05, SFX11, MUS12
+
+
+
+ CHAPTER 1: The Fire
+
+ S08           ARA · investigative, vivid                                                          ≈ 1:54
+
+
+ “For months, the fires looked like local crime. But Australia's domestic spy agency,
+ ASIO, kept following the money. · What its investigators found, ASIO's chief later
+ described as a layer cake.”
+
+
+ Visual track
+ 1. Chapter card: CHAPTER 1 — THE FIRE · BONDI −420 DAYS. MUS12 → MUS04.
+ 2. PH24 ASIO building, PAN. Quote tag: ASIO Director-General, 26 Aug 2025: "layer cake" (QT12).
+ 3. The layer-cake graphic appears empty, a dark cross-section waiting to fill.
+
+ Image moves
+  • PH24 — DROP + PAN. Caption: ASIO, Canberra.
+
+ Animation cues
+Trigger word            Animation                                                Sound
+“ASIO”                  Label pops on the building                               Pop
+
+“following the          Dotted line begins                                       SFX06
+money”
+
+“layer cake”            Empty cake graphic appears                               SFX21
+ Assets: PH24, QT12, MUS12, MUS04, SFX06, SFX21, MG01
+
+
+ S09           ATLAS · clear, rhythmic                                                             ≈ 2:09
+
+
+ “Middlemen overseas. Coordinators. And at the bottom, local criminals, paid to do a job,
+ not to make a point. · Security experts call it crime as a service. · It's cheap. It's deniable.
+ And it's very hard to detect.”
+
+
+ Visual track
+ 1. THE LAYER CAKE fills from the top, one layer per phrase: OVERSEAS MIDDLEMEN · COORDINATORS ·
+   LOCAL CRIMINALS (faceless figure icons).
+ 2. MAP06 under it: dotted line from Tehran down through the layers to Sydney and Melbourne. Tag:
+   ALLEGED.
+ 3. Kinetic type: CHEAP · DENIABLE · HARD TO DETECT.
+
+ Animation cues
+
+
+                                                     Page 14
+BEFORE BONDI · Full Production Script                                  Non-partisan · Evidence-led · $0 media
+
+
+
+
+Trigger word         Animation                                                    Sound
+“Middlemen           Layer 1                                                      SFX06
+overseas”
+
+“Coordinators”       Layer 2                                                      SFX06
+
+“local criminals”    Layer 3; line reaches Sydney                                 SFX06 + SFX05
+
+“cheap”              Word 1                                                       SFX06
+
+“deniable”           Word 2                                                       SFX06
+
+“hard to detect”     Word 3                                                       SFX06
+ Assets: MAP06, SFX06, SFX05, MUS04
+
+
+ S10         ARA · formal, then weighty                                                             ≈ 2:25
+
+
+ “August, twenty twenty-five. The Prime Minister announces ASIO's assessment. ·
+ According to ASIO, Iran's Islamic Revolutionary Guard Corps directed at least two of the
+ attacks. The Bondi restaurant fire, and the Melbourne synagogue. · He called them,
+ quote, extraordinary and dangerous acts of aggression, orchestrated by a foreign nation
+ on Australian soil.”
+
+
+ Visual track
+ 1. SILENCE 1.0s before the first word.
+ 2. Countdown: AUG 2025 · BONDI −110 DAYS. DOC03 statement card, ZOOM, highlight on 'Islamic
+   Revolutionary Guard Corps'.
+ 3. PH21 and PH20 PIN onto Sydney and Melbourne.
+ 4. QT01 quote card with PH07 (cast board name card lights: ALBANESE). The second question card
+   WHO PAID FOR THE FIRE? flies to centre and gets stamped: ALLEGED: IRAN'S REVOLUTIONARY
+   GUARD (ASIO ASSESSMENT). PAYOFF of M7b.
+
+ Image moves
+  • PH21 + PH20 — PIN.
+  • PH07 — DROP beside QT01.
+
+ Animation cues
+Trigger word         Animation                                                    Sound
+“August”             Countdown −110 DAYS                                          SFX24
+
+“Revolutionary       Highlight + low hit                                          SFX11
+Guard”
+
+“restaurant fire”    PH21 pins                                                    SFX21
+
+“synagogue”          PH20 pins                                                    SFX21
+
+“extraordinary”      QT01 builds in sync                                          —
+
+“Australian soil”    Answer stamps across the question card                       SFX19
+ Motif: M7b answered · M9 Countdown
+ Assets: DOC03, PH21, PH20, QT01, PH07, MG01, MG02, SFX24, SFX11, SFX21, SFX19, MUS04
+
+
+
+
+                                                    Page 15
+BEFORE BONDI · Full Production Script                                   Non-partisan · Evidence-led · $0 media
+
+
+
+
+ S11           ATLAS · grave, then pointed                                                           ≈ 2:47
+
+
+ “Australia expelled Iran's ambassador. The first expulsion of an ambassador since the
+ Second World War. Iran denied any involvement. · In Parliament, Opposition Leader
+ Sussan Ley said the attacks aimed to, quote, turn neighbour against neighbour, and
+ Australian against Australian. · Remember those words.”
+
+
+ Visual track
+ 1. AI07 heavy door closing (M5). Timeline 1945 → 2025: empty years race past; one amber marker
+   stamps at 2025 (DOC19). Grey tag IRAN DENIES.
+ 2. FT07 ParlView: Sussan Ley in the House (sound under VO). QT02 builds word by word. Cast board:
+   LEY lights.
+ 3. On "Remember those words": QT02 PINs to the evidence board with a brighter amber pin (M8
+   planted).
+
+ Image moves
+  • PH29 — DROP (fallback if FT07 unavailable).
+
+ Animation cues
+Trigger word            Animation                                                  Sound
+“expelled”              Door closes                                                SFX22
+
+“Second World War”      Timeline races; marker stamps                              SFX06 fast + SFX19
+
+“neighbour against      QT02 builds                                                —
+neighbour”
+
+“Remember those         Pins with bright amber pin                                 SFX21
+words”
+ Motif: M5 Doors (closing) · M8 planted
+ Assets: AI07, DOC19, FT07, QT02, PH29, MG02, SFX22, SFX06, SFX19, SFX21, MUS04
+
+
+ S12           ARA · turning, building a bridge                                                      ≈ 3:05
+
+
+ “That was one hundred and ten days before Bondi. · But why would anyone use a fire in
+ Bondi as a weapon at all? · To answer that, we have to go back to a vote Australia cast
+ first.”
+
+
+ Visual track
+ 1. Countdown pulses −110 DAYS. MAP01 node 1 'THE FIRE' lights; evidence board card pins.
+ 2. On "a vote": SFX07 projector starts; the image desaturates to sepia.
+
+ Animation cues
+Trigger word            Animation                                                  Sound
+“one hundred and        Countdown pulses                                           SFX24
+ten days”
+
+“as a weapon”           Flame (ST16) flickers once                                 SFX02 (soft)
+
+“cast first”            Sepia wash                                                 SFX07
+ Motif: M1 Node: THE FIRE · M9 Countdown
+ Assets: MAP01, MG01, ST16, SFX24, SFX02, SFX07, MUS04
+
+ ▶ MID-ROLL AD BREAK — 0.5 s clean beat, then continue.
+
+
+
+
+                                                        Page 16
+BEFORE BONDI · Full Production Script                                            Non-partisan · Evidence-led · $0 media
+
+
+
+
+ CHAPTER 2: Two Memories
+
+ S13          ATLAS · storytelling, quiet surprise                                                            ≈ 3:21
+
+
+ “November, nineteen forty-seven. The new United Nations votes on a plan to divide
+ Palestine into a Jewish state and an Arab state. · The committee behind it is chaired by
+ Australia's foreign minister. · And the first country to vote yes · is Australia.”
+
+
+ Visual track
+ 1. Chapter card (film grain): CHAPTER 2 — TWO MEMORIES · BONDI −78 YEARS. MUS12 → MUS02
+   strings.
+ 2. PH26 UN 1947 with projector flicker (or FT05 if cleared). DOC01 title ZOOM. MAP03 partition plan in
+   sand and slate, Jerusalem as an international zone.
+ 3. DOC02 roll call scrolls, stops; amber CIRCLE around 'Australia' (M4). HOLD 1.5s.
+
+ Image moves
+  • PH26 — PAN with flicker.
+  • DOC02 — ZOOM + CIRCLE.
+
+ Animation cues
+Trigger word           Animation                                                            Sound
+“November”             Countdown 29 NOV 1947 · BONDI −78 YEARS                              SFX24
+
+“divide”               Map splits into two zones                                            SFX05
+
+“foreign minister”     Label: Australia's Foreign Minister, H.V. Evatt (on screen only)     Pop
+
+“Australia”            Circle draws                                                         SFX20
+ Motif: M4 The Ballot (first)
+ Assets: PH26, FT05 (permission/terms), DOC01, MAP03, DOC02, MG01, MUS12, MUS02, SFX07, SFX24, SFX05,
+ SFX20
+
+
+ S14          ARA · warm, vivid                                                                               ≈ 3:43
+
+
+ “Thirty years earlier, Australian Light Horsemen had charged at Beersheba, helping
+ open the road to Jerusalem. · So Australians shaped this land twice. · Once on horseback.
+ And once at a ballot.”
+
+
+ Visual track
+ 1. ST06 desert wind → AI03 cavalry silhouettes (label) → FT02 / PH02 Light Horse, PAN. MAP02 charge
+   arrow, line to Jerusalem. Countdown flashes −108 YEARS.
+ 2. SPLIT with the amber Seam (M3): PH02 left, DOC02 right. BREATHE: HOLD 1.5s.
+
+ Image moves
+  • PH02 — PAN; then SPLIT with DOC02.
+
+ Animation cues
+Trigger word           Animation                                                            Sound
+“Beersheba”            Pin drops; countdown −108 YEARS                                      SFX21 + SFX24
+
+“charged”              Arrow sweeps                                                         SFX16
+
+“horseback”            Left half brightens                                                  —
+
+“ballot”               Right half brightens                                                 SFX19 (soft)
+ Motif: M3 The Seam (first)
+ Assets: ST06, AI03, FT02, PH02, MAP02, DOC02, SFX21, SFX24, SFX16, SFX19, MUS02
+
+
+                                                       Page 17
+BEFORE BONDI · Full Production Script                                 Non-partisan · Evidence-led · $0 media
+
+
+
+
+ S15       ATLAS · soft, even, equal weight to both halves · QUIET                                 ≈ 3:58
+
+
+ “For many Jewish people, that vote is remembered as a rescue, after the Holocaust. · For
+ Palestinians, what followed in nineteen forty-eight is remembered as the Nakba. The
+ catastrophe. When more than seven hundred thousand people fled or were expelled from
+ their homes. · The same event. · Remembered in two opposite ways.”
+
+
+ Visual track
+ 1. QUIET MOMENT. MUS02 → MUS06 piano.
+ 2. SPLIT with the amber Seam: PH03 (1948 celebrations) left, PH04 (1948 refugees) right; equal size
+   and time, identical slow PAN; labels fade in together.
+ 3. On "The same event": the Seam glows. BREATHE: HOLD 2.0s. The kinetic text TWO MEMORIES
+   pins to the evidence board.
+
+ Image moves
+  • PH03 + PH04 — SPLIT, identical speed.
+
+ Animation cues
+Trigger word         Animation                                                   Sound
+“rescue”             Left label: 1948 — INDEPENDENCE                             —
+
+“Nakba”              Right label: 1948 — THE NAKBA                               —
+
+“same event”         Seam glows                                                  —
+
+“opposite ways”      TWO MEMORIES pins                                           SFX21
+ Motif: M3 The Seam
+ Assets: PH03, PH04, MUS06, SFX21
+
+
+ S16       ARA · warm, grounded                                                                    ≈ 4:22
+
+
+ “Both memories sailed to Australia. · Melbourne became home to one of the largest
+ communities of Holocaust survivors, per person, outside Israel. Palestinian, Lebanese
+ and other Arab families settled in Sydney's south-west. · Today, more than one hundred
+ thousand Jewish Australians, and more than eight hundred thousand Muslim
+ Australians, call this country home.”
+
+
+ Visual track
+ 1. MUS06 → MUS02 warm. AI05 suitcases on a ship deck (M6) → PH05 Station Pier → PH06 1970s
+   arrivals. MAP04 flow lines land in Melbourne and Sydney.
+ 2. Population graphic: two identical number rolls joined by the Seam (DOC10).
+
+ Image moves
+  • PH05 — DROP + PAN. PH06 — DROP + PAN. Credits: NAA.
+
+ Animation cues
+Trigger word         Animation                                                   Sound
+“sailed”             Flow line 1                                                 SFX05
+
+“south-west”         Flow line 2                                                 SFX05
+
+“one hundred         Left number rolls                                           SFX06
+thousand”
+
+
+
+
+                                                  Page 18
+BEFORE BONDI · Full Production Script                                    Non-partisan · Evidence-led · $0 media
+
+
+
+
+Trigger word           Animation                                                    Sound
+“eight hundred         Right number rolls                                           SFX06
+thousand”
+ Motif: M6 Suitcases (first) · M3 The Seam
+ Assets: AI05, PH05, PH06, MAP04, DOC10, SFX05, SFX06, MUS02
+
+
+ S17          ATLAS · connecting, forward hook                                                        ≈ 4:43
+
+
+ “So when war comes to the Middle East, it doesn't stay there. · It arrives in Australian
+ homes, as family. · And in the two years before Bondi, it arrived in Canberra too.”
+
+
+ Visual track
+ 1. Two warm-lit suburban windows at dusk (ST03 regraded warm). MAP01 node 2 'TWO MEMORIES'
+   lights.
+ 2. Countdown rolls forward: 1947 → OCT 2023 · BONDI −799 DAYS. MUS02 out → MUS07 strings with
+   pulse.
+
+ Animation cues
+Trigger word           Animation                                                    Sound
+“doesn't stay there”   Thread pulses from Gaza back to Bondi                        SFX05
+
+“as family”            Windows glow                                                 —
+
+“Canberra”             Countdown rolls to −799 DAYS                                 SFX24 + SFX06 fast
+ Motif: M1 Node: TWO MEMORIES
+ Assets: ST03, MAP01, MG01, SFX05, SFX24, SFX06, MUS07
+
+
+
+ CHAPTER 3: Canberra's Choices
+
+ S18          ARA · clear, a small reveal                                                             ≈ 4:57
+
+
+ “First, a choice almost nobody noticed. · Dozens of Australian companies make parts for
+ the F-35 fighter jet, and those parts go into a shared global pool. · Australia's air force
+ flies the F-35. · So does Israel's.”
+
+
+ Visual track
+ 1. Chapter card: CHAPTER 3 — CANBERRA'S CHOICES. MUS12 → MUS07.
+ 2. ST07 sparks → AI04 part rotating; MADE IN AUSTRALIA stamp. FT01 F-35 take-off. MAP05 parts pool;
+   Australia and Israel lines pulse together on "So does Israel's".
+
+ Animation cues
+Trigger word           Animation                                                    Sound
+“almost nobody         Small label: CHOICE 1                                        —
+noticed”
+
+“shared global pool”   Lines converge                                               SFX05
+
+“So does Israel's”     Two lines pulse together                                     SFX06
+ Assets: ST07, AI04, FT01, MAP05, SFX10, SFX19, SFX05, SFX06, SFX09, MUS12, MUS07
+
+
+
+
+                                                      Page 19
+BEFORE BONDI · Full Production Script                                Non-partisan · Evidence-led · $0 media
+
+
+
+
+ S19           ATLAS · neutral, both cases in identical tone                                      ≈ 5:15
+
+
+ “Critics, including aid groups and the Greens, say that makes Australia part of the war. ·
+ The government says Australia has not supplied weapons or ammunition to Israel since
+ the war began, and that leaving the pool would weaken Australia's own defence, without
+ grounding a single Israeli jet.”
+
+
+ Visual track
+ 1. SPLIT with the amber Seam: THE CRITICS' CASE (left) and THE GOVERNMENT'S CASE (DOC13, right),
+   identical design, labelled 'Summary of public positions'.
+
+ Animation cues
+Trigger word            Animation                                               Sound
+“Critics”               Left card                                               SFX18
+
+“The government         Right card; highlight                                   SFX18
+says”
+ Motif: M3 The Seam
+ Assets: DOC13, SFX18, MUS07
+
+
+ S20           ARA · historic, connecting the dots                                                ≈ 5:35
+
+
+ “Then, a choice everyone noticed. · In August twenty twenty-five, the Prime Minister
+ announced Australia would recognise the State of Palestine. He called a two-state
+ solution, quote, humanity's best hope to break the cycle of violence. · And he reminded
+ the country that Australia had been the first to back the U.N. plan, back in nineteen
+ forty-seven.”
+
+
+ Visual track
+ 1. Label: CHOICE 2. Countdown: AUG 2025 · BONDI −125 DAYS. QT06 with PH07.
+ 2. CALLBACK (M4): on "nineteen forty-seven", the exact DOC02 frame from S13 returns with its
+   amber circle; a counter rolls 1947 → 2025: 77 YEARS. HOLD 1.5s.
+
+ Image moves
+  • DOC02 — same ZOOM + CIRCLE frame as S13.
+
+ Animation cues
+Trigger word            Animation                                               Sound
+“August”                Countdown −125 DAYS                                     SFX24
+
+“humanity's best        QT06 builds                                             —
+hope”
+
+“nineteen               DOC02 returns; circle redraws                           SFX20
+forty-seven”
+
+“back in”               Counter 1947 → 2025                                     SFX06
+ Motif: M4 The Ballot (return) · M9 Countdown
+ Assets: QT06, PH07, DOC02, MG01, SFX24, SFX20, SFX06, MUS07
+
+
+
+
+                                                        Page 20
+BEFORE BONDI · Full Production Script                                     Non-partisan · Evidence-led · $0 media
+
+
+
+
+ S21           ATLAS · neutral, attacked from both sides                                               ≈ 5:59
+
+
+ “It was made official at the United Nations in September, with conditions. No role for
+ Hamas, demilitarisation, and Palestinian elections. · And it was attacked from both
+ directions. The Coalition, Israel's government and many Jewish groups said it rewarded
+ Hamas. · A pro-Palestinian advocacy group called it, quote, completely meaningless,
+ while Australia still traded with Israel.”
+
+
+ Visual track
+ 1. FT04 UN Web TV if cleared, else MAP08 (four countries light). DOC09 conditions highlight in turn.
+ 2. BALANCE SCALE: two identical cards, scale stays level. Arrows strike the recognition card from left
+   and right on "both directions". QT07 on the right card.
+
+ Animation cues
+Trigger word            Animation                                                    Sound
+“United Nations”        Four countries light                                         SFX05
+
+“both directions”       Two arrows strike                                            SFX11 (soft) x2
+
+“rewarded Hamas”        Left card drops                                              SFX21
+
+“completely             Right card drops; scale level                                SFX21
+meaningless”
+ Motif: M3 The Seam (scale)
+ Assets: FT04 (permission/terms), MAP08, DOC09, QT07, SFX05, SFX11, SFX21, MUS07
+
+
+ S22           ARA · tense, reading plainly                                                            ≈ 6:22
+
+
+ “Then it turned personal. · Israel's prime minister posted that history would remember
+ Albanese as, quote, a weak politician who betrayed Israel and abandoned Australia's
+ Jews. · Albanese replied, quote, I don't take these things personally.”
+
+
+ Visual track
+ 1. Countdown: AUG 2025 · BONDI −117 DAYS. SPLIT: PH10 Netanyahu and PH07 Albanese facing each
+   other (cast board: NETANYAHU lights).
+ 2. QT08 as a labelled recreation of the public post, typing in sync. Then QT09, short and centred.
+   HOLD 1.0s.
+
+ Image moves
+  • PH10 + PH07 — SPLIT.
+
+ Animation cues
+Trigger word            Animation                                                    Sound
+“turned personal”       Split slides in                                              SFX05
+
+“posted”                Post card                                                    SFX17
+
+“personally”            QT09 appears                                                 —
+ Motif: M9 Countdown
+ Assets: PH10, PH07, QT08, QT09, MG01, MG02, SFX24, SFX05, SFX17, MUS07
+
+
+
+
+                                                        Page 21
+BEFORE BONDI · Full Production Script                                   Non-partisan · Evidence-led · $0 media
+
+
+
+
+ S23          ATLAS · weighty, then a turn inward                                                    ≈ 6:38
+
+
+ “Visas were cancelled on both sides. Relations between two old friends sank to their
+ lowest point in decades. · Abroad, Canberra was making choices. · But for some
+ Australian families, the war had already come much closer.”
+
+
+ Visual track
+ 1. Two visa stamps land, one each side; a crack runs down the Seam on "lowest point".
+ 2. MAP01 node 3 'CANBERRA' lights. Fade to warm paper and a single candle (ST13). MUS07 → MUS06.
+
+ Animation cues
+Trigger word           Animation                                                   Sound
+“Visas”                Two stamps                                                  SFX19 x2
+
+“lowest point”         Seam cracks                                                 SFX11
+
+“much closer”          Fade to candle                                              —
+ Motif: M3 The Seam (cracks) · M1 Node: CANBERRA
+ Assets: MAP01, ST13, SFX19, SFX11, MUS06
+
+
+
+ CHAPTER 4: Australian Lives
+
+ S24          ARA · tender, slow · QUIET                                                             ≈ 6:53
+
+
+ “Zomi Frankcom grew up in Melbourne. She spent years feeding people in disaster
+ zones. · On the first of April, twenty twenty-four, she and six colleagues from World
+ Central Kitchen were killed, when Israeli drone strikes hit their clearly marked convoy in
+ Gaza.”
+
+
+ Visual track
+ 1. QUIET MOMENT. Chapter card (slower): CHAPTER 4 — AUSTRALIAN LIVES · BONDI −622 DAYS.
+ 2. PH15 portrait only with family permission; otherwise her name in serif on warm paper beside ST13
+   candle (cast board: FRANKCOM lights).
+ 3. MAP07 convoy route, one marker. BREATHE: HOLD 3.0s after the last word.
+
+ Image moves
+  • PH15 (if permitted) — very slow PAN.
+
+ Animation cues
+Trigger word           Animation                                                   Sound
+“Zomi Frankcom”        Name writes on                                              —
+
+“first of April”       Countdown −622 DAYS (no tick in quiet moments)              —
+
+“convoy”               Dotted route draws                                          —
+ Assets: PH15 (permission/terms), ST13, MAP07, MG01, MG02, MUS06
+
+
+ S25          ATLAS · steady, three voices read plainly                                              ≈ 7:16
+
+
+ “Prime Minister Albanese called it, quote, completely unacceptable. · Israel's prime
+ minister said his forces had, quote, unintentionally harmed non-combatants. · Her family
+ said she would leave, quote, a legacy of compassion, bravery and love.”
+
+
+
+                                                    Page 22
+BEFORE BONDI · Full Production Script                                  Non-partisan · Evidence-led · $0 media
+
+
+
+
+ Visual track
+ 1. Three quote cards in identical design: QT03, QT04, QT05. The family card holds 2.0s after the VO
+   over the candle.
+
+ Animation cues
+Trigger word          Animation                                                   Sound
+“completely           QT03                                                        —
+unacceptable”
+
+“unintentionally”     QT04                                                        —
+
+“compassion,          QT05; candle flickers                                       —
+bravery and love”
+ Assets: QT03, QT04, QT05, ST13, MUS06
+
+
+ S26         ARA · factual, gentle                                                                  ≈ 7:30
+
+
+ “A former Defence Force chief reviewed Israel's investigation for Australia. He found
+ serious failures, but no evidence the convoy had been knowingly targeted. · In twenty
+ twenty-six, Israel's military cleared its soldiers of criminal wrongdoing. Her family called
+ that a miscarriage of justice.”
+
+
+ Visual track
+ 1. DOC06 Binskin report card, ZOOM, two highlights (name on screen only: Air Chief Marshal (ret.)
+   Mark Binskin).
+ 2. Split-flap 2026; DOC21 card.
+
+ Animation cues
+Trigger word          Animation                                                   Sound
+“serious failures”    Highlight 1                                                 —
+
+“knowingly            Highlight 2                                                 —
+targeted”
+
+“twenty twenty-six”   DOC21 slides in                                             SFX18
+ Assets: DOC06, DOC21, SFX18, MUS06
+
+
+ S27         ATLAS · empathetic, then even                                                          ≈ 7:48
+
+
+ “Australians were also among those killed or affected in Israel. And
+ Australian-Palestinians lost parents, siblings and cousins in Gaza. · Australia granted
+ thousands of visitor visas to people fleeing Gaza. Supporters called it basic humanity.
+ The opposition said vetting was rushed. The government said every applicant was
+ checked.”
+
+
+ Visual track
+ 1. SPLIT with the Seam: PH18 (7 Oct damaged homes) and PH19 (Gaza destruction), both non-graphic,
+   identical PAN.
+ 2. MATCH-CUT (M6): 1950s suitcases from S16 → a modern suitcase in an arrivals hall (ST09).
+   MIRROR (M5): arrival doors slide OPEN.
+ 3. Three attributed lines: SUPPORTERS · OPPOSITION · GOVERNMENT.
+
+ Image moves
+  • PH18 + PH19 — SPLIT.
+
+
+                                                Page 23
+BEFORE BONDI · Full Production Script                              Non-partisan · Evidence-led · $0 media
+
+
+
+
+ Animation cues
+Trigger word           Animation                                              Sound
+“in Israel”            Left half brightens                                    —
+
+“Gaza”                 Right half brightens                                   —
+
+“visitor visas”        Doors open; stamp                                      SFX19
+
+“Supporters”           Line 1                                                 SFX06
+
+“opposition”           Line 2                                                 SFX06
+
+“government”           Line 3                                                 SFX06
+ Motif: M3 The Seam · M6 Suitcases (return) · M5 Doors (opening)
+ Assets: PH18, PH19, AI05, ST09, SFX19, SFX06, MUS06
+
+
+ S28           ARA · quietly ominous                                                            ≈ 8:07
+
+
+ “For these families, the war was never far away. · And at home, it was pulling the
+ country in two.”
+
+
+ Visual track
+ 1. MAP01 node 4 'LIVES' lights. The Seam on screen slowly widens into a gap.
+ 2. Countdown rolls back to OCT 2023 · BONDI −799 DAYS. MUS06 → MUS09 drone.
+
+ Animation cues
+Trigger word           Animation                                              Sound
+“never far away”       Node 4 lights                                          SFX21
+
+“in two”               Seam widens into a gap                                 SFX24
+ Motif: M1 Node: LIVES · M3 Seam widens
+ Assets: MAP01, MG01, SFX21, SFX24, MUS09
+
+ ▶ MID-ROLL AD BREAK — 0.5 s clean beat, then continue.
+
+
+
+ CHAPTER 5: A Country Under Strain
+
+ S29           ATLAS · grave, steady                                                            ≈ 8:15
+
+
+ “It began on the seventh of October, twenty twenty-three. · Hamas-led fighters crossed
+ from Gaza into southern Israel. Around twelve hundred people were killed, most of them
+ civilians, and around two hundred and fifty were taken hostage.”
+
+
+ Visual track
+ 1. Chapter card on black: CHAPTER 5 — A COUNTRY UNDER STRAIN · BONDI −799 DAYS. No motif;
+   MUS09 only.
+ 2. MAP07 border; an arrow crosses it. PH18 damaged homes, PAN only. Numbers fade in with source
+   tags (no rolls).
+ 3. BREATHE: HOLD 1.0s after the last word.
+
+ Image moves
+  • PH18 — PAN only.
+
+ Animation cues
+
+
+
+
+                                                    Page 24
+BEFORE BONDI · Full Production Script                                 Non-partisan · Evidence-led · $0 media
+
+
+
+
+Trigger word           Animation                                                 Sound
+“seventh of October” Date types on                                               SFX04
+
+“crossed”              Arrow crosses the border                                  —
+
+“twelve hundred”       Number fades in                                           —
+
+“two hundred and       Number fades in                                           —
+fifty”
+ Assets: MAP07, PH18, MG01, SFX04, MUS09
+
+
+ S30          ARA · heavy, careful, then precise and attributed                                    ≈ 8:34
+
+
+ “It was the deadliest day for Jewish people since the Holocaust. · Israel's military
+ campaign in Gaza lasted two years. · Gaza's Health Ministry, run by Hamas, reported
+ tens of thousands of Palestinians killed. U.N. agencies broadly treated those figures as
+ reliable, and Israel disputed them. · U.N.-backed experts declared famine in parts of the
+ territory.”
+
+
+ Visual track
+ 1. Screen holds on PH18, still, while the first line is spoken. BREATHE: HOLD 1.5s. Then:
+ 2. PH19 Gaza destruction, PAN only. Timeline band OCT 2023 → OCT 2025.
+ 3. DOC12 casualty card with full attribution and as-of date; grey tag DISPUTED BY ISRAEL. DOC11 IPC
+   card, highlight. BREATHE: HOLD 1.5s.
+
+ Image moves
+  • PH19 — PAN only.
+
+ Animation cues
+Trigger word           Animation                                                 Sound
+“two years”            Timeline band draws                                       SFX05 (soft)
+
+“Health Ministry”      Attribution types on                                      SFX04
+
+“disputed”             Grey tag                                                  —
+
+“famine”               IPC card                                                  SFX18
+ Assets: PH19, DOC12, DOC11, SFX05, SFX04, SFX18, MUS09
+
+
+ S31          ATLAS · tense, fair                                                                  ≈ 9:00
+
+
+ “Back home, two days after October the seventh, the Opera House sails were lit in
+ Israel's colours. That night, a pro-Palestinian rally gathered below. · Flares were lit, and
+ antisemitic chanting caused national outrage, though a later police review disputed
+ exactly what was said.”
+
+
+ Visual track
+ 1. Countdown: 9 OCT 2023 · BONDI −797 DAYS. PH16 Opera House lit blue and white (fallback ST04),
+   slow push.
+ 2. Crowd ambience rises. DOC17 NSW Police card on "police review".
+
+ Image moves
+  • PH16 — DROP + PAN.
+
+ Animation cues
+
+
+
+                                                   Page 25
+BEFORE BONDI · Full Production Script                                    Non-partisan · Evidence-led · $0 media
+
+
+
+
+Trigger word          Animation                                                     Sound
+“Opera House”         Countdown −797 DAYS                                           SFX24
+
+“rally gathered”      Crowd ambience                                                SFX08
+
+“police review”       Card; highlight                                               SFX18
+ Assets: PH16, ST04, DOC17, MG01, SFX24, SFX08, SFX18, MUS09
+
+
+ S32         ARA · even, two matched cases                                                            ≈ 9:18
+
+
+ “The fight moved onto phones and into courtrooms. · The private details of hundreds of
+ Jewish writers and artists were published online, and Parliament made malicious
+ doxxing a crime. · An ABC presenter was taken off air after sharing a human rights
+ report on Gaza, and the Federal Court later found she'd been unlawfully sacked. · Two
+ cases. Opposite sides.”
+
+
+ Visual track
+ 1. AI09 phones lighting up → recreated blurred-names list with PUBLISHED stamp (label: Recreation) →
+   DOC08 law card.
+ 2. AI12 empty studio, the light clicks off → DOC07 judgment card.
+ 3. SPLIT with the Seam on "Two cases": PUBLISHED graphic | DOC07. HOLD 1.0s.
+
+ Animation cues
+Trigger word          Animation                                                     Sound
+“phones”              Phones light up                                               SFX17 cascade
+
+“published online”    PUBLISHED stamp                                               SFX19
+
+“taken off air”       Studio light off                                              Click
+
+“unlawfully sacked”   DOC07 highlight                                               SFX15 gavel (soft)
+
+“Opposite sides”      Split locks                                                   SFX05
+ Motif: M3 The Seam
+ Assets: AI09, DOC08, AI12, DOC07, SFX17, SFX19, SFX15, SFX05, MUS09
+
+
+ S33         ATLAS · a divided country                                                                ≈ 9:43
+
+
+ “Tens of thousands marched across the Harbour Bridge in the rain. · Jewish groups
+ recorded record numbers of antisemitic incidents. Muslim Australians, especially women
+ wearing the hijab, reported record abuse. · The government appointed two special
+ envoys, one to combat antisemitism, and one to combat Islamophobia.”
+
+
+ Visual track
+ 1. Countdown: AUG 2025 · BONDI −133 DAYS. PH17 Harbour Bridge march (faces blurred) / ST15 rain;
+   SFX23 rain.
+ 2. SPLIT with the Seam: two incident charts rising (DOC14, DOC15); ST20 synagogue and ST21 mosque
+   exteriors, equal framing and time. DOC18 two identical envoy cards.
+
+ Image moves
+  • PH17 — DROP + PAN.
+
+ Animation cues
+Trigger word          Animation                                                     Sound
+“Harbour Bridge”      Countdown −133 DAYS; route line crosses                       SFX24 + SFX05
+
+
+
+                                                  Page 26
+BEFORE BONDI · Full Production Script                                    Non-partisan · Evidence-led · $0 media
+
+
+
+
+Trigger word            Animation                                                   Sound
+“antisemitic            Left chart rises                                            SFX06
+incidents”
+
+“record abuse”          Right chart rises                                           SFX06
+
+“two special envoys”    Two identical cards                                         SFX18
+ Motif: M3 The Seam
+ Assets: PH17, ST15, SFX23, DOC14, DOC15, ST20, ST21, DOC18, MG01, SFX24, SFX05, SFX06, SFX18, MUS09
+
+
+ S34           ARA · realisation, the big payoff                                                    ≈ 10:02
+
+
+ “Now look back. · The fires. The jet parts. The expelled ambassador. The recognition.
+ The court cases. The visas. · All of it, in the two years before Bondi.”
+
+
+ Visual track
+ 1. MONTAGE — NO VO, 8.0s before the first word: every callback, 1–1.5s each: ST16 flame → AI04
+   jet part → QT01 card → DOC02 circle → DOC07 → ST09 doors. MUS09 builds to its peak.
+ 2. Camera pulls back on the evidence board: every card connected by amber string. The countdown
+   ticker races down from −799 toward −65 as each item lights. MAP01: every node pulls toward Bondi.
+
+ Image moves
+  • WALL: callbacks tile as a grid, then the board reveal.
+
+ Animation cues
+Trigger word            Animation                                                   Sound
+“The fires”             Card lights; countdown −420                                 SFX24
+
+“jet parts”             Card lights                                                 SFX24
+
+“ambassador”            Card lights; −110                                           SFX24
+
+“recognition”           Card lights; −84                                            SFX24
+
+“court cases”           Card lights                                                 SFX24
+
+“visas”                 Card lights                                                 SFX24
+
+“before Bondi”          All strings pull to Bondi                                   SFX14 + SFX11
+ Motif: All motifs recalled · M9 Countdown accelerates
+ Assets: ST16, AI04, QT01, DOC02, DOC07, ST09, MAP01, MG01, SFX24, SFX14, SFX11, MUS09
+
+
+ S35           ATLAS · hopeful for a beat, then two slow words                                      ≈ 10:22
+
+
+ “In October twenty twenty-five, a U.S.-brokered ceasefire brought the surviving
+ hostages home. · Many hoped the worst was over. · Sixty-five days later, · it wasn't.”
+
+
+ Visual track
+ 1. DOC20 ceasefire card; MUS09 lifts briefly; the Thread glows warm. Countdown: OCT 2025 · BONDI
+   −65 DAYS.
+ 2. On "Sixty-five days later": the ticker counts down fast, −65 → −0, with ticks accelerating like a
+   heartbeat (SFX24).
+ 3. On "it wasn't": hard cut to black. SILENCE 2.0s: music and all SFX out.
+
+ Animation cues
+Trigger word            Animation                                                   Sound
+“ceasefire”             Card; Thread glows warm                                     SFX18
+
+
+
+
+                                                      Page 27
+BEFORE BONDI · Full Production Script                                Non-partisan · Evidence-led · $0 media
+
+
+
+
+Trigger word           Animation                                                Sound
+“Sixty-five days       Ticker races to zero                                     SFX24 accelerating
+later”
+
+“it wasn't”            Black, silence                                           —
+ Motif: M9 Countdown reaches zero
+ Assets: DOC20, MAP01, MG01, SFX18, SFX24, MUS09
+
+
+
+ CHAPTER 6: Bondi
+
+ S36          ARA · quiet dread · QUIET                                                         ≈ 10:35
+
+
+ “Remember the fire, fourteen months earlier, in the same suburb? · Hanukkah is the
+ festival of lights. · On its first night, around a thousand people gathered by the beach to
+ celebrate.”
+
+
+ Visual track
+ 1. CALLBACK: ST01 Bondi dusk aerial, identical to S06. Small text: CHAPTER 6 — BONDI. Ticker: 14
+   DEC 2025 · BONDI.
+ 2. MATCH-CUT (M2): the S03 flame, same framing, dissolves into a single candle (ST13). Fire that
+   destroyed becomes light that remembers.
+ 3. BREATHE: HOLD 2.0s on the candle. MUS10 cello begins.
+
+ Animation cues
+Trigger word           Animation                                                Sound
+“Remember the fire”    Ghost of the flame over the beach                        —
+
+“festival of lights”   Flame dissolves into candle                              —
+ Motif: M2 Flame → candle · Bondi frame (callback)
+ Assets: ST01, ST16, ST13, MG01, SFX13, MUS10
+
+
+ S37          ATLAS · grief, restrained · QUIET                                                 ≈ 10:50
+
+
+ “Two gunmen, a father and son, opened fire. Police shot the father dead. His son was
+ arrested. · Fifteen people were killed. Among them, a ten-year-old girl, a retired police
+ officer, a rabbi, and a Holocaust survivor.”
+
+
+ Visual track
+ 1. QUIET MOMENT. No attack footage, ever. MAP10 Bondi locator: one soft marker, pulses once.
+ 2. PH22 memorial, very slow PAN; 15 LIVES in serif (callback to S01).
+ 3. BREATHE: HOLD 3.0s after the last word. Music only.
+
+ Image moves
+  • PH22 — slow PAN only.
+
+ Animation cues
+Trigger word           Animation                                                Sound
+“opened fire”          Marker pulses once                                       —
+
+“Fifteen”              15 LIVES                                                 —
+ Assets: MAP10, PH22, MUS10
+
+
+
+
+                                                     Page 28
+BEFORE BONDI · Full Production Script                                   Non-partisan · Evidence-led · $0 media
+
+
+
+
+ S38        ARA · solemn, plain                                                                    ≈ 11:08
+
+
+ “That night, the Prime Minister said, quote, · an attack on Jewish Australians is an attack
+ on every Australian.”
+
+
+ Visual track
+ 1. QT10 appears silent for 2.0s first, over the memorial, then the VO reads it. BREATHE: HOLD 2.0s
+   after.
+
+ Animation cues
+Trigger word           Animation                                                   Sound
+“every Australian”     Quote completes; holds                                      —
+ Assets: QT10, PH22, MUS10
+
+
+ S39        ATLAS · quiet courage, building                                                        ≈ 11:18
+
+
+ “And in the middle of the horror, one man crouched behind a parked car, waited, and
+ ran at one of the gunmen. · He wrestled the gun away. · He was shot and wounded.”
+
+
+ Visual track
+ 1. The third pinned question WHO RAN TOWARD THE GUNFIRE? flies to centre (M7c).
+ 2. AI10 one hand steadying another (abstract, no faces, no violence; label). Warm light rises slowly. No
+   motion graphics.
+
+ Animation cues
+Trigger word           Animation                                                   Sound
+“one man”              Third question flies to centre                              SFX05 (soft)
+
+“ran at”               Light rises                                                 —
+ Motif: M7c returns
+ Assets: AI10, MUS10
+
+
+ S40        ARA · warm, a lump in the throat                                                       ≈ 11:32
+
+
+ “His name is Ahmed al Ahmed. · A Syrian-born Muslim. A father of two, who runs a fruit
+ shop. · The attack was aimed at Jewish Australians. · And one of the people who stood in
+ its way was a Muslim Australian.”
+
+
+ Visual track
+ 1. The question card is answered: name card AHMED AL AHMED writes on (PH27 only if a freely
+   licensed real photo exists). Cast board: AHMED lights. PAYOFF of M7c.
+ 2. ST19 fruit crates in warm morning light. Then two candles side by side, joined by the faint amber
+   Seam (M2 + M3).
+ 3. BREATHE: HOLD 3.0s after the last word. MUS10 swells gently.
+
+ Image moves
+  • PH27 (if free) — DROP + slow PAN.
+
+ Animation cues
+Trigger word           Animation                                                   Sound
+“Ahmed al Ahmed”       Name writes on                                              —
+
+
+
+                                                        Page 29
+BEFORE BONDI · Full Production Script                                 Non-partisan · Evidence-led · $0 media
+
+
+
+
+Trigger word             Animation                                               Sound
+“fruit shop”             Fruit crates                                            —
+
+“Muslim Australian”      Second candle lights                                    —
+ Motif: M7c answered · M2 + M3
+ Assets: PH27, ST19, ST13, MG02, MUS10
+
+
+ S41            ATLAS · careful, fair                                                            ≈ 11:52
+
+
+ “The Prime Minister called his bravery, quote, an inspiration for all Australians. · Police
+ say the gunmen were inspired by Islamic State. · And some warn that seeing Bondi only
+ through Israel and Gaza risks missing the extremism behind it, or blaming whole
+ communities for the acts of two men.”
+
+
+ Visual track
+ 1. QT11 quote card. Then the master question HOW DID THIS HAPPEN HERE? returns from the corner.
+ 2. Corner tag: ANALYSIS. The Thread branches dim to grey on "risks missing", leaving one bright line
+   labelled EXTREMISM, then relight together.
+
+ Animation cues
+Trigger word             Animation                                               Sound
+“inspiration”            QT11 builds                                             —
+
+“Islamic State”          Master question returns                                 SFX05
+
+“risks missing”          Branches dim; one line stays bright                     —
+
+“two men”                Branches relight                                        —
+ Motif: M7 master question returns
+ Assets: QT11, MAP01, MUS10
+
+
+ S42            ARA · steady, then resonant                                                      ≈ 12:13
+
+
+ “Twenty-five days after the attack, the government called a Royal Commission on
+ Antisemitism and Social Cohesion, led by a former Chief Justice. · In February, Israel's
+ President visited Canberra to comfort grieving families. In April, the commission called
+ for tougher national gun laws. · Its final report is due on the fourteenth of December,
+ twenty twenty-six. · One year to the day.”
+
+
+ Visual track
+ 1. Ticker now counts UP: JAN 2026 · BONDI +25 DAYS → FEB → APR 2026 · +137 DAYS → 14 DEC 2026 ·
+   +365 DAYS (pulses amber).
+ 2. DOC04 + PH13 (name on screen: Virginia Bell) → PH09 Herzog → DOC05 + DOC16. FT06 ParlView
+   condolence footage if available.
+ 3. MAP01 final node 'BONDI' lights; the evidence board gets its final card. MUS10 resolves → MUS11.
+
+ Image moves
+  • PH13 — DROP. PH09 — DROP.
+
+ Animation cues
+Trigger word             Animation                                               Sound
+“Twenty-five days”       Ticker +25 DAYS                                         SFX24
+
+“February”               PH09                                                    SFX19 (soft)
+
+
+
+
+                                                        Page 30
+BEFORE BONDI · Full Production Script                                  Non-partisan · Evidence-led · $0 media
+
+
+
+
+Trigger word            Animation                                                 Sound
+“gun laws”              Ticker +137 DAYS; DOC05                                   SFX19 (soft)
+
+“one year to the        Ticker +365 DAYS pulses                                   SFX21
+day”
+ Motif: M9 Countdown flips to count-up · M1 final node
+ Assets: DOC04, PH13, PH09, DOC05, DOC16, FT06, MAP01, MG01, SFX24, SFX19, SFX21, MUS10, MUS11
+
+
+
+ CLOSING
+
+ S43           ATLAS · stillness, then rhythm                                                     ≈ 12:38
+
+
+ “So, what does a war fourteen thousand kilometres away have to do with Bondi? · It
+ didn't pull the trigger. · But for two years, it pulled at the country. A vote Australia cast
+ first. Parts in a fighter jet. Fires paid for from abroad.”
+
+
+ Visual track
+ 1. CALLBACK: ST02 Bondi dawn, same angle as S01; swimmers, a family walking past the memorial.
+   SFX13.
+ 2. MAP01: each node relights in sequence with its phrase, every thread running into Bondi.
+
+ Animation cues
+Trigger word            Animation                                                 Sound
+“didn't pull the        Thread dims for a beat                                    —
+trigger”
+
+“A vote”                Node                                                      SFX06
+
+“jet”                   Node                                                      SFX06
+
+“Fires”                 Node                                                      SFX06
+ Motif: Bondi frame (dawn) · M1 Thread
+ Assets: ST02, MAP01, SFX13, SFX06, MUS11
+
+
+ S44           ARA · quiet conviction                                                             ≈ 12:57
+
+
+ “An ambassador expelled. A recognition. Australians grieving on both sides. · A foreign
+ state tried to turn neighbour against neighbour. · On a beach in Bondi, one neighbour
+ ran toward the danger, for another.”
+
+
+ Visual track
+ 1. MAP01 continues from S43: the last nodes light with each phrase. HOLD 1.0s. Then:
+ 2. CALLBACK (M8): Sussan Ley's quote card QT02 slides out from the evidence board, bright pin
+   glowing, held 2s.
+ 3. Cut to the two candles from S40. BREATHE: HOLD 2.0s.
+
+ Animation cues
+Trigger word            Animation                                                 Sound
+“ambassador”            Node                                                      SFX06
+
+“recognition”           Node                                                      SFX06
+
+“both sides”            Node; all threads glow into Bondi                         SFX21
+
+“neighbour against      QT02 returns                                              SFX21 (soft)
+neighbour”
+
+
+
+                                                       Page 31
+BEFORE BONDI · Full Production Script                                     Non-partisan · Evidence-led · $0 media
+
+
+
+
+Trigger word           Animation                                                     Sound
+“ran toward the        Two candles                                                   —
+danger”
+ Motif: M8 payoff · M2 Flame
+ Assets: MAP01, SFX06, SFX21, QT02, ST13, MUS11
+
+
+ S45          ATLAS · warm, final · QUIET                                                            ≈ 13:14
+
+
+ “Maybe the real question isn't about the Middle East at all. It's whether a country built
+ by people from everywhere can hold two communities' grief at the same time, without
+ asking either to give up theirs. · What Australia does next will say less about Gaza, · and
+ more about us.”
+
+
+ Visual track
+ 1. MONTAGE — NO VO, 5.0s before the first word: PH05 migrants → PH03 + PH04 split with the
+   Seam → name cards of Zomi Frankcom and Ahmed al Ahmed side by side → PH22 memorial.
+ 2. AI11 hands of different ages holding. Final image: ST17 dawn sunlight flaring on the water (M2, last).
+   MUS12 motif on "more about us". HOLD 2.0s.
+
+ Image moves
+  • STACK: PH05, PH03, PH04, PH22.
+
+ Animation cues
+Trigger word           Animation                                                     Sound
+“real question”        Master question card fades away                               —
+
+“two communities'      Split returns                                                 —
+grief”
+
+“more about us”        Sun flare                                                     MUS12
+ Motif: M2 → sunlight (last) · M3 last · M6 last
+ Assets: PH05, PH03, PH04, PH15 (permission/terms), PH22, AI11, ST17, MUS11, MUS12
+
+
+ S46          ARA · gentle, caring                                                                   ≈ 13:41
+
+
+ “Is this Australia's issue? Tell us what you think. · And if any of this has been hard to
+ watch, you're not alone. Support details are in the description.”
+
+
+ Visual track
+ 1. Black. Question builds. Then a calm card: Lifeline 13 11 14 · lifeline.org.au. End screen 15s; MUS12
+   tail.
+
+ Animation cues
+Trigger word           Animation                                                     Sound
+“Australia's issue”    Question builds                                               SFX06 (soft)
+
+“not alone”            Support card fades in                                         —
+ Assets: MUS12, SFX06
+
+
+
+
+                                                    Page 32
+BEFORE BONDI · Full Production Script                                   Non-partisan · Evidence-led · $0 media
+
+
+
+
+ 8. Grok voiceover — paste-ready
+ • One file per segment, named exactly as shown. Paste only the text in the box.
+ • Tags: [pause] short natural pause · <soft>…</soft> softer delivery · <slow>…</slow> slower
+   delivery.
+ • Numbers are written as words and abbreviations spelled for speech.
+ • Pronunciation: Evatt (EV-at) · Beersheba (beer-SHEE-buh) · Nakba (NAHK-bah) · ASIO (AY-zee-oh) ·
+   AUKUS (AW-kus) · Lattouf (la-TOOF) · Payman (PAY-man) · Frankcom (FRANK-com) · Binskin (BIN-skin)
+   · Herzog (HERT-sog) · Hanukkah (HAH-nuh-kuh) · Ahmed al Ahmed (AH-med al AH-med) · Mashni
+   (MASH-nee).
+
+ S01_ATLAS.mp3 · quiet, grave, unhurried
+
+ Bondi Beach. [pause] On the fourteenth of December, twenty twenty-five, the first night of
+ Hanukkah, it became the scene of the deadliest terror attack ever carried out on Australian
+ soil. [pause] Fifteen people were killed.
+
+
+ S02_ARA.mp3 · searching, clear
+
+ Afterwards, the whole country asked the same question. [pause] How did this happen here?
+ [pause] Police say the gunmen were inspired by Islamic State. But the Australia they struck
+ had been under strain for two years, ever since the war in Gaza began in October twenty
+ twenty-three.
+
+
+ S03_ATLAS.mp3 · leaning in, conspiratorial
+
+ This film follows the threads of that strain. [pause] Some go back seventy-eight years.
+ [pause] One goes back just fourteen months, to a fire [pause] in the same suburb.
+
+
+ S04_ARA.mp3 · quiet, then a chill
+
+ October, twenty twenty-four. In the early hours, a small kosher restaurant in Bondi goes up in
+ flames. Nobody is hurt. Police treat it as a local crime. [pause] Seven weeks later, eight
+ hundred kilometres south, a synagogue in Melbourne is firebombed before dawn.
+
+
+ S05_ATLAS.mp3 · hushed, ominous
+
+ What almost nobody knew then was that the people who lit these fires were allegedly
+ <slow>paid.</slow> [pause] And the money trail led to a government on the other side of the
+ world.
+
+
+ S06_ARA.mp3 · warm, intriguing
+
+ And on the night of the attack, one man ran toward the gunfire. [pause] His story became one
+ of the most shared in the country. [pause] We'll come back to him.
+
+
+ S07_ATLAS.mp3 · calm, setting the contract with the viewer
+
+ None of these threads explains Bondi on its own. [pause] But together, they show the country
+ it happened in. [pause] And to understand that country, we have to follow the money first.
+
+
+ S08_ARA.mp3 · investigative, vivid
+
+ For months, the fires looked like local crime. But Australia's domestic spy agency, ASIO, kept
+ following the money. [pause] What its investigators found, ASIO's chief later described as a
+ <slow>layer cake.</slow>
+
+
+
+                                                Page 33
+BEFORE BONDI · Full Production Script                            Non-partisan · Evidence-led · $0 media
+
+
+
+
+ S09_ATLAS.mp3 · clear, rhythmic
+
+ Middlemen overseas. Coordinators. And at the bottom, local criminals, paid to do a job, not to
+ make a point. [pause] Security experts call it crime as a service. [pause] It's cheap. It's
+ deniable. And it's very hard to detect.
+
+
+ S10_ARA.mp3 · formal, then weighty
+
+ August, twenty twenty-five. The Prime Minister announces ASIO's assessment. [pause] According
+ to ASIO, Iran's Islamic Revolutionary Guard Corps directed at least two of the attacks. The
+ Bondi restaurant fire, and the Melbourne synagogue. [pause] He called them, quote,
+ extraordinary and dangerous acts of aggression, orchestrated by a foreign nation on Australian
+ soil.
+
+
+ S11_ATLAS.mp3 · grave, then pointed
+
+ Australia expelled Iran's ambassador. The first expulsion of an ambassador since the Second
+ World War. Iran denied any involvement. [pause] In Parliament, Opposition Leader Sussan Ley
+ said the attacks aimed to, quote, turn neighbour against neighbour, and Australian against
+ Australian. [pause] Remember those words.
+
+
+ S12_ARA.mp3 · turning, building a bridge
+
+ That was one hundred and ten days before Bondi. [pause] But why would anyone use a fire in
+ Bondi as a weapon at all? [pause] To answer that, we have to go back to a vote Australia cast
+ first.
+
+
+ S13_ATLAS.mp3 · storytelling, quiet surprise
+
+ November, nineteen forty-seven. The new United Nations votes on a plan to divide Palestine
+ into a Jewish state and an Arab state. [pause] The committee behind it is chaired by
+ Australia's foreign minister. [pause] And the first country to vote yes [pause] is Australia.
+
+
+ S14_ARA.mp3 · warm, vivid
+
+ Thirty years earlier, Australian Light Horsemen had charged at Beersheba, helping open the
+ road to Jerusalem. [pause] So Australians shaped this land twice. [pause] Once on horseback.
+ And once at a ballot.
+
+
+ S15_ATLAS.mp3 · soft, even, equal weight to both halves
+
+ <soft>For many Jewish people, that vote is remembered as a rescue, after the Holocaust.
+ [pause] For Palestinians, what followed in nineteen forty-eight is remembered as the Nakba.
+ The catastrophe. When more than seven hundred thousand people fled or were expelled from their
+ homes.</soft> [pause] The same event. [pause] Remembered in two opposite ways.
+
+
+ S16_ARA.mp3 · warm, grounded
+
+ Both memories sailed to Australia. [pause] Melbourne became home to one of the largest
+ communities of Holocaust survivors, per person, outside Israel. Palestinian, Lebanese and
+ other Arab families settled in Sydney's south-west. [pause] Today, more than one hundred
+ thousand Jewish Australians, and more than eight hundred thousand Muslim Australians, call
+ this country home.
+
+
+
+
+                                            Page 34
+BEFORE BONDI · Full Production Script                            Non-partisan · Evidence-led · $0 media
+
+
+
+
+ S17_ATLAS.mp3 · connecting, forward hook
+
+ So when war comes to the Middle East, it doesn't stay there. [pause] It arrives in Australian
+ homes, as family. [pause] And in the two years before Bondi, it arrived in Canberra too.
+
+
+ S18_ARA.mp3 · clear, a small reveal
+
+ First, a choice almost nobody noticed. [pause] Dozens of Australian companies make parts for
+ the F thirty-five fighter jet, and those parts go into a shared global pool. [pause]
+ Australia's air force flies the F thirty-five. [pause] So does Israel's.
+
+
+ S19_ATLAS.mp3 · neutral, both cases in identical tone
+
+ Critics, including aid groups and the Greens, say that makes Australia part of the war.
+ [pause] The government says Australia has not supplied weapons or ammunition to Israel since
+ the war began, and that leaving the pool would weaken Australia's own defence, without
+ grounding a single Israeli jet.
+
+
+ S20_ARA.mp3 · historic, connecting the dots
+
+ Then, a choice everyone noticed. [pause] In August twenty twenty-five, the Prime Minister
+ announced Australia would recognise the State of Palestine. He called a two-state solution,
+ quote, humanity's best hope to break the cycle of violence. [pause] And he reminded the
+ country that Australia had been the first to back the U.N. plan, back in nineteen forty-seven.
+
+
+ S21_ATLAS.mp3 · neutral, attacked from both sides
+
+ It was made official at the United Nations in September, with conditions. No role for Hamas,
+ demilitarisation, and Palestinian elections. [pause] And it was attacked from both directions.
+ The Coalition, Israel's government and many Jewish groups said it rewarded Hamas. [pause] A
+ pro-Palestinian advocacy group called it, quote, completely meaningless, while Australia still
+ traded with Israel.
+
+
+ S22_ARA.mp3 · tense, reading plainly
+
+ Then it turned personal. [pause] Israel's prime minister posted that history would remember
+ Albanese as, quote, a weak politician who betrayed Israel and abandoned Australia's Jews.
+ [pause] Albanese replied, quote, I don't take these things personally.
+
+
+ S23_ATLAS.mp3 · weighty, then a turn inward
+
+ Visas were cancelled on both sides. Relations between two old friends sank to their lowest
+ point in decades. [pause] Abroad, Canberra was making choices. [pause] But for some Australian
+ families, the war had already come much closer.
+
+
+ S24_ARA.mp3 · tender, slow
+
+ <soft>Zomi Frankcom grew up in Melbourne. She spent years feeding people in disaster zones.
+ [pause] On the first of April, twenty twenty-four, she and six colleagues from World Central
+ Kitchen were killed, when Israeli drone strikes hit their clearly marked convoy in
+ Gaza.</soft>
+
+
+ S25_ATLAS.mp3 · steady, three voices read plainly
+
+ Prime Minister Albanese called it, quote, completely unacceptable. [pause] Israel's prime
+ minister said his forces had, quote, unintentionally harmed non-combatants. [pause] Her family
+ said she would leave, quote, a legacy of compassion, bravery and love.
+
+
+
+
+                                            Page 35
+BEFORE BONDI · Full Production Script                            Non-partisan · Evidence-led · $0 media
+
+
+
+
+ S26_ARA.mp3 · factual, gentle
+
+ A former Defence Force chief reviewed Israel's investigation for Australia. He found serious
+ failures, but no evidence the convoy had been knowingly targeted. [pause] In twenty
+ twenty-six, Israel's military cleared its soldiers of criminal wrongdoing. Her family called
+ that a miscarriage of justice.
+
+
+ S27_ATLAS.mp3 · empathetic, then even
+
+ Australians were also among those killed or affected in Israel. And Australian-Palestinians
+ lost parents, siblings and cousins in Gaza. [pause] Australia granted thousands of visitor
+ visas to people fleeing Gaza. Supporters called it basic humanity. The opposition said vetting
+ was rushed. The government said every applicant was checked.
+
+
+ S28_ARA.mp3 · quietly ominous
+
+ For these families, the war was never far away. [pause] And at home, it was pulling the
+ country in two.
+
+
+ S29_ATLAS.mp3 · grave, steady
+
+ It began on the seventh of October, twenty twenty-three. [pause] Hamas-led fighters crossed
+ from Gaza into southern Israel. Around twelve hundred people were killed, most of them
+ civilians, and around two hundred and fifty were taken hostage.
+
+
+ S30_ARA.mp3 · heavy, careful, then precise and attributed
+
+ It was the deadliest day for Jewish people since the Holocaust. [pause] Israel's military
+ campaign in Gaza lasted two years. [pause] Gaza's Health Ministry, run by Hamas, reported tens
+ of thousands of Palestinians killed. U.N. agencies broadly treated those figures as reliable,
+ and Israel disputed them. [pause] U.N. backed experts declared famine in parts of the
+ territory.
+
+
+ S31_ATLAS.mp3 · tense, fair
+
+ Back home, two days after October the seventh, the Opera House sails were lit in Israel's
+ colours. That night, a pro-Palestinian rally gathered below. [pause] Flares were lit, and
+ antisemitic chanting caused national outrage, though a later police review disputed exactly
+ what was said.
+
+
+ S32_ARA.mp3 · even, two matched cases
+
+ The fight moved onto phones and into courtrooms. [pause] The private details of hundreds of
+ Jewish writers and artists were published online, and Parliament made malicious doxxing a
+ crime. [pause] An ABC presenter was taken off air after sharing a human rights report on Gaza,
+ and the Federal Court later found she'd been unlawfully sacked. [pause] Two cases. Opposite
+ sides.
+
+
+ S33_ATLAS.mp3 · a divided country
+
+ Tens of thousands marched across the Harbour Bridge in the rain. [pause] Jewish groups
+ recorded record numbers of antisemitic incidents. Muslim Australians, especially women wearing
+ the hijab, reported record abuse. [pause] The government appointed two special envoys, one to
+ combat antisemitism, and one to combat Islamophobia.
+
+
+
+
+                                            Page 36
+BEFORE BONDI · Full Production Script                            Non-partisan · Evidence-led · $0 media
+
+
+
+
+ S34_ARA.mp3 · realisation, the big payoff
+
+ Now look back. [pause] The fires. The jet parts. The expelled ambassador. The recognition. The
+ court cases. The visas. [pause] All of it, in the two years before Bondi.
+
+
+ S35_ATLAS.mp3 · hopeful for a beat, then two slow words
+
+ In October twenty twenty-five, a U.S.-brokered ceasefire brought the surviving hostages home.
+ [pause] Many hoped the worst was over. [pause] Sixty-five days later, [pause] <slow>it
+ wasn't.</slow>
+
+
+ S36_ARA.mp3 · quiet dread
+
+ <soft>Remember the fire, fourteen months earlier, in the same suburb? [pause] Hanukkah is the
+ festival of lights. [pause] On its first night, around a thousand people gathered by the beach
+ to celebrate.</soft>
+
+
+ S37_ATLAS.mp3 · grief, restrained
+
+ <soft>Two gunmen, a father and son, opened fire. Police shot the father dead. His son was
+ arrested. [pause] Fifteen people were killed. Among them, a ten-year-old girl, a retired
+ police officer, a rabbi, and a Holocaust survivor.</soft>
+
+
+ S38_ARA.mp3 · solemn, plain
+
+ That night, the Prime Minister said, quote, [pause] an attack on Jewish Australians is an
+ attack on every Australian.
+
+
+ S39_ATLAS.mp3 · quiet courage, building
+
+ And in the middle of the horror, one man crouched behind a parked car, waited, and ran at one
+ of the gunmen. [pause] He wrestled the gun away. [pause] He was shot and wounded.
+
+
+ S40_ARA.mp3 · warm, a lump in the throat
+
+ His name is Ahmed al Ahmed. [pause] A Syrian-born Muslim. A father of two, who runs a fruit
+ shop. [pause] The attack was aimed at Jewish Australians. [pause] And one of the people who
+ stood in its way was a Muslim Australian.
+
+
+ S41_ATLAS.mp3 · careful, fair
+
+ The Prime Minister called his bravery, quote, an inspiration for all Australians. [pause]
+ Police say the gunmen were inspired by Islamic State. [pause] And some warn that seeing Bondi
+ only through Israel and Gaza risks missing the extremism behind it, or blaming whole
+ communities for the acts of two men.
+
+
+ S42_ARA.mp3 · steady, then resonant
+
+ Twenty-five days after the attack, the government called a Royal Commission on Antisemitism
+ and Social Cohesion, led by a former Chief Justice. [pause] In February, Israel's President
+ visited Canberra to comfort grieving families. In April, the commission called for tougher
+ national gun laws. [pause] Its final report is due on the fourteenth of December, twenty
+ twenty-six. [pause] One year to the day.
+
+
+
+
+                                            Page 37
+BEFORE BONDI · Full Production Script                            Non-partisan · Evidence-led · $0 media
+
+
+
+
+ S43_ATLAS.mp3 · stillness, then rhythm
+
+ So, what does a war fourteen thousand kilometres away have to do with Bondi? [pause] It didn't
+ pull the trigger. [pause] But for two years, it pulled at the country. A vote Australia cast
+ first. Parts in a fighter jet. Fires paid for from abroad.
+
+
+ S44_ARA.mp3 · quiet conviction
+
+ An ambassador expelled. A recognition. Australians grieving on both sides. [pause] A foreign
+ state tried to turn neighbour against neighbour. [pause] On a beach in Bondi, one neighbour
+ ran toward the danger, for another.
+
+
+ S45_ATLAS.mp3 · warm, final
+
+ <soft>Maybe the real question isn't about the Middle East at all. It's whether a country built
+ by people from everywhere can hold two communities' grief at the same time, without asking
+ either to give up theirs.</soft> [pause] What Australia does next will say less about Gaza,
+ [pause] and more about us.
+
+
+ S46_ARA.mp3 · gentle, caring
+
+ Is this Australia's issue? Tell us what you think. [pause] And if any of this has been hard to
+ watch, you're not alone. Support details are in the description.
+
+
+
+
+                                            Page 38
+BEFORE BONDI · Full Production Script                                                 Non-partisan · Evidence-led · $0 media
+
+
+
+
+ 9. Quote register
+ Every quote was checked against published reporting in October 2026. Before export, open the primary source listed and
+ confirm the exact words and date. Never change a quote's words; if the source differs, change the card and the narration.
+Card     Quote, speaker, date                                           Primary source to confirm             Used in
+QT01     Albanese: "extraordinary and dangerous acts of                 pm.gov.au transcript, 26 Aug          S10, S34
+         aggression orchestrated by a foreign nation on                 2025
+         Australian soil" (26 Aug 2025)
+
+QT02     Sussan Ley: "turn neighbour against neighbour and              Hansard, House of                     S11, S44
+         Australian against Australian" (26 Aug 2025)                   Representatives, 26 Aug 2025
+
+QT03     Albanese on Zomi Frankcom: "completely unacceptable" PM Transcripts                                  S25
+         (Apr 2024)                                           (pmtranscripts.pmc.gov.au),
+                                                              April 2024
+
+QT04     Netanyahu: forces "unintentionally harmed                      Israeli PM's video statement, 2       S25
+         non-combatants" (2 Apr 2024)                                   Apr 2024
+
+QT05     Frankcom family: "a legacy of compassion, bravery and          Family statement, April 2024          S25
+         love" (Apr 2024)
+
+QT06     Albanese: "humanity's best hope to break the cycle of          pm.gov.au transcript, 11 Aug          S20
+         violence" (11 Aug 2025)                                        2025
+
+QT07     Nasser Mashni (APAN): recognition "completely                  APAN statement / AP report, 11        S21
+         meaningless" while trade continues (11 Aug 2025)               Aug 2025
+
+QT08     Netanyahu post: "a weak politician who betrayed Israel         Official Israeli PM X account, 19     S22
+         and abandoned Australia's Jews" (19 Aug 2025)                  Aug 2025
+
+QT09     Albanese: "I don't take these things personally" (20 Aug       Press conference, 20 Aug 2025         S22
+         2025)                                                          (pm.gov.au transcript)
+
+QT10     Albanese: "An attack on Jewish Australians is an attack        pm.gov.au transcript, 14 Dec          S38
+         on every Australian" (14 Dec 2025)                             2025
+
+QT11     Albanese on Ahmed al Ahmed: "an inspiration for all            pm.gov.au transcript, Dec 2025        S41
+         Australians" (Dec 2025)
+
+QT12     Mike Burgess (ASIO): "layer cake" of middlemen (26 Aug ASIO / press conference                       S08
+         2025)                                                  transcript, 26 Aug 2025
+ Balance of quoted voices: Australian government (6) · Opposition (1) · Israeli government (2) · Pro-Palestinian advocacy (1)
+ · ASIO (1) · a victim's family (1).
+
+
+
+
+                                                           Page 39
+BEFORE BONDI · Full Production Script                                           Non-partisan · Evidence-led · $0 media
+
+
+
+
+ 10. Evidence register
+Card        Segment           On-screen wording (verify against source)                   Source
+DOC01       S13               UN General Assembly Resolution 181 (II), 29 November        UN Digital Library
+                              1947
+
+DOC02       S13, S14, S20,    Roll-call vote, 29 November 1947 — Australia: Yes           UN records; Albanese also
+            S34               (first)                                                     cited this on 11 Aug 2025
+
+DOC03       S10               PM statement, Aug 2025: ASIO assessed Iran's IRGC           pm.gov.au
+                              directed at least two antisemitic attacks
+
+DOC19       S11               First expulsion of an ambassador by Australia since         pm.gov.au / dfat.gov.au
+                              WWII
+
+DOC13       S19               Government: Australia has not supplied weapons or           Hansard / DFAT / Defence
+                              ammunition to Israel since the war began
+
+DOC09       S21               Recognition of the State of Palestine (Sept 2025) with      pm.gov.au
+                              conditions
+
+DOC06       S26               Binskin review: serious failures; no evidence the convoy dfat.gov.au
+                              was knowingly targeted
+
+DOC21       S26               2026: IDF clears personnel; family response                 DFAT / PM statement, Aug
+                                                                                          2026
+
+DOC10       S16               100,000+ Jewish Australians · 800,000+ Muslim               ABS Census
+                              Australians
+
+DOC12       S30               Tens of thousands killed — Gaza Health Ministry             ochaopt.org
+                              (Hamas-run), via OCHA; disputed by Israel; as of [date]
+
+DOC11       S30               IPC: famine confirmed in parts of Gaza                      ipcinfo.org
+
+DOC17       S31               NSW Police: forensic review disputed the most widely        NSW Police, Feb 2024
+                              reported chant
+
+DOC08       S32               New criminal offence for malicious doxxing (2024)           legislation.gov.au
+
+DOC07       S32, S34          Federal Court: the presenter's termination was unlawful Federal Court judgment
+                              (2025)
+
+DOC14/15    S33               Record antisemitic / anti-Muslim incidents                  ECAJ / Islamophobia
+                                                                                          Register
+
+DOC18       S33               Special envoys on antisemitism and Islamophobia             pm.gov.au
+
+DOC20       S35               Gaza ceasefire, October 2025                                DFAT
+
+DOC04       S42               Royal Commission on Antisemitism and Social                 asc.royalcommission.gov.au
+                              Cohesion, Jan 2026; Commissioner Virginia Bell
+
+DOC05/16    S42               Interim report, April 2026: tougher national gun laws       asc.royalcommission.gov.au
+
+
+ On-screen numbers
+Item                              Value                                             Check
+Sydney → Gaza                     ≈14,000 km                                        Distance calculator
+
+Sydney → Melbourne                800 km (rounded)                                  Keep consistent
+
+Bondi fire → synagogue fire       Oct 2024 → Dec 2024 ("seven weeks")               Confirm 20 Oct and 6 Dec 2024
+
+Bondi fire → Bondi attack         "fourteen months"                                 Confirm
+
+Beersheba                         31 Oct 1917                                       AWM
+
+Partition vote                    29 Nov 1947                                       UN
+
+1947 → 2025                       77 years                                          —
+
+
+
+
+                                                      Page 40
+BEFORE BONDI · Full Production Script                                        Non-partisan · Evidence-led · $0 media
+
+
+
+
+Item                          Value                                           Check
+Bondi Countdown values        −108 YEARS (1917) · −78 YEARS (1947) ·          Recompute if any date changes
+                              −799 (7 Oct 2023) · −797 (9 Oct 2023) ·
+                              −622 (1 Apr 2024) · −420 (20 Oct 2024) ·
+                              −373 (6 Dec 2024) · −133 (3 Aug 2025) ·
+                              −125 (11 Aug 2025) · −117 (19 Aug 2025) ·
+                              −110 (26 Aug 2025) · −84 (21 Sep 2025) ·
+                              −65 (10 Oct 2025) · +25 (8 Jan 2026) · +137
+                              (30 Apr 2026) · +365 (14 Dec 2026)
+
+Displaced 1948                700,000+                                        UN / histories
+
+Jewish / Muslim Australians   100,000+ / 800,000+                             ABS
+
+7 Oct 2023                    ~1,200 killed; ~250 hostages                    Israeli government; agencies
+
+WCK strike                    1 Apr 2024; 7 aid workers                       DFAT
+
+Bondi                         14 Dec 2025; 15 killed; ~1,000 attending        Royal Commission / NSW Police
+
+Royal Commission              Jan 2026; interim Apr 2026; final due 14 Dec    Commission website
+                              2026
+
+
+
+
+                                                  Page 41
+BEFORE BONDI · Full Production Script                                      Non-partisan · Evidence-led · $0 media
+
+
+
+
+ 11. Free media sources
+ • Parliament footage: ParlView (aph.gov.au), free under Parliament's conditions; credit Parliament of
+   Australia.
+ • US Government footage: DVIDS (public domain).
+ • Historical: Australian War Memorial; National Archives of Australia; Israel GPO National Photo
+   Collection (free with credit).
+ • Modern photos: Wikimedia Commons (check each file's licence; copy the credit exactly).
+ • UN: UN Digital Library (documents); UN Web TV and UN Audiovisual Library (confirm terms; fallbacks
+   listed).
+ • Quotes: rebuilt as your own quote cards from primary sources (pm.gov.au transcripts, Hansard, PM
+   Transcripts, official statements). Short, attributed quotes for news reporting and commentary.
+ • Free stock: Pexels, Pixabay, Mixkit. AI B-roll: Grok Imagine on your account.
+ • Maps: built from Natural Earth (public domain); OpenStreetMap for the Bondi locator (credit ©
+   OpenStreetMap contributors).
+ • Fonts: Inter, Source Serif 4, IBM Plex Mono (OFL). Icons: Google Material Symbols, OpenMoji.
+ • Music: YouTube Audio Library (check the attribution column), Pixabay Music. SFX: Pixabay,
+   Freesound (CC0 filter), Mixkit.
+
+ 12. Publish-day checks
+ • Bondi case: confirm the court status; keep to police statements; never name or show the accused.
+ • Royal Commission: if publishing after 14 December 2026, update S42 and the closing with the final
+   report.
+ • Gaza: update the as-of date on DOC12 and confirm the ceasefire status (S35).
+ • Respect: consider letting the Jewish community organisations and the Bondi memorial organisers
+   know the film exists before release. Never use the thumbnail or title to imply who or what caused the
+   attack.
+ • Quotes: confirm all 12 against their primary sources (section 9).
+ • Facts to confirm: Australia first to vote yes in 1947 (DOC02) · the 2026 IDF finding and family
+   response (S26) · Ahmed al Ahmed's details (S40) · victims' description (S37) · "same suburb" (S03,
+   S36) · ~1,000 attending (S36) · every countdown date (section 10).
+ • Permissions: ParlView confirmation in writing; UN terms for FT04 and FT05, or use fallbacks; family
+   permission for PH15.
+ • Credits: every    item's licence and credit line recorded in the asset list.
+ • YouTube: tick the "altered or synthetic content" box (realistic AI reconstructions of real places
+   appear).
+ • Comments: moderation on (hold potentially inappropriate comments) and a pinned comment
+   inviting respectful discussion.
+
+
+
+
+                                                   Page 42
+

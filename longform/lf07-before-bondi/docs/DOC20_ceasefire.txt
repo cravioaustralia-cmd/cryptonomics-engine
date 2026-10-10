@@ -1,0 +1,7 @@
+DOC20 — Gaza ceasefire, October 2025   (segment S35)
+Retrieved 10 Oct 2026.
+PRIMARY: pm.gov.au joint media statement (Albanese / Wong), Thursday 9 October 2025, "Statement on Middle East peace plan"  (saved DOC20_ceasefire_statement_source.txt)
+  https://www.pm.gov.au/media/statement-middle-east-peace-plan   (same: https://www.foreignminister.gov.au/minister/penny-wong/media-release/statement-middle-east-peace-plan)
+Exact wording: "Australia welcomes President Trump's announcement that Israel and Hamas have signed off the first phase of the plan to bring peace to Gaza." / "After more than two years of conflict, hostages held and a devastating loss of civilian life, this is a much needed step towards peace." / "Australia has consistently been part of international calls for a ceasefire, return of the hostages, and the unimpeded flow of aid to Gaza." / "We urge all parties to respect the terms of the plan."
+Date check: the ceasefire took effect 10 Oct 2025 (OCHA counts "since the announcement of a ceasefire agreement on 10 October 2025"); statement 9 Oct 2025 (AU time). Script says "Gaza ceasefire, October 2025" -> OK.
+PUBLISH CHECK (script s12): confirm current ceasefire status (OCHA 2 Oct 2026 reports 1,431 fatalities and 5,026 injuries since the ceasefire announcement, so say "ceasefire agreed Oct 2025", not "ended the fighting").

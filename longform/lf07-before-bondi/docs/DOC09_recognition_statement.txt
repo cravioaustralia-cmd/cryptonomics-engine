@@ -1,0 +1,11 @@
+DOC09 — Australia recognises the State of Palestine, 21 Sept 2025   (segment S21)
+Retrieved 10 Oct 2026.
+PRIMARY: pm.gov.au joint statement (Albanese / Wong), Sunday 21 September 2025, "Australia recognises the state of Palestine"
+  https://www.pm.gov.au/media/australia-recognises-state-palestine     (full text saved: DOC09_recognition_statement_source.txt)
+
+Exact wording:
+  "Effective today, Sunday the 21st of September 2025, the Commonwealth of Australia formally recognises the independent and sovereign State of Palestine."
+  "The President of the Palestinian Authority has restated its recognition of Israel's right to exist, and given direct undertakings to Australia, including commitments to hold democratic elections and enact significant reform to finance, governance and education."
+  "The terrorist organisation Hamas must have no role in Palestine."
+  "Further steps, including the establishment of diplomatic relations and opening of embassies, will be considered as the Palestinian Authority makes progress on its commitments to reform."
+Card text (script): "Recognition of the State of Palestine (Sept 2025) with conditions"  -> matches: conditions = Hamas no role; PA reform/elections; embassy only after progress.

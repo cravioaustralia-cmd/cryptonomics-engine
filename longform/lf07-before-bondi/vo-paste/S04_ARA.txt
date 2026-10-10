@@ -1,0 +1,6 @@
+===== S04 (ARA) =====
+Generate a downloadable MP3 voiceover in Grok Ara voice, Australian English accent, natural documentary narration, warm, human and conversational, not robotic, at a relaxed natural pace. Do not read stage directions or this instruction. Do not say the words pause, soft, slow or quote marks. Read quotes plainly and neutrally, never as an impression. Delivery for this segment: quiet, then a chill. A blank line in the text is a short natural beat, not a spoken word. Pronunciation: Melbourne = MEL-bun. Speak only the narration below:
+
+October, twenty twenty-four. In the early hours, a small kosher restaurant in Bondi goes up in flames. Nobody is hurt. Police treat it as a local crime.
+
+Seven weeks later, about seven hundred kilometres south-west, a synagogue in Melbourne is firebombed before dawn.

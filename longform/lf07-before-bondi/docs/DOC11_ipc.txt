@@ -1,0 +1,9 @@
+DOC11 — IPC famine classification, Gaza   (segment S30)
+Retrieved 10 Oct 2026.
+PRIMARY: IPC Famine Review Committee (FRC) report, Gaza Strip, August 2025 (saved: DOC11_IPC_FRC_Gaza_Aug2025.pdf; UN copy)
+  https://www.un.org/unispal/wp-content/uploads/2025/08/IPC_Famine_Review_Committee_Report_Gaza_Aug2025-compressed.pdf
+  IPC site (HTTP 403 to box): https://www.ipcinfo.org
+Exact wording (FRC report, summary): "The Famine Review Committee (FRC) has determined that Famine (IPC Phase 5) is currently occurring in Gaza Governorate. Furthermore, the FRC projects Famine (IPC Phase 5) thresholds to be crossed in Deir al-Balah and Khan Younis ..."
+UN joint press release 22 Aug 2025 (UNICEF page, read in full): "More than half a million people in Gaza are trapped in famine, marked by widespread starvation, destitution and preventable deaths, according to a new Integrated Food Security Phase Classification (IPC) analysis released today." — https://www.unicef.org/press-releases/famine-confirmed-first-time-gaza
+  "Conditions in North Gaza are estimated to be as severe – or worse – than in Gaza City. However, limited data prevented an IPC classification." Israel disputed the finding.
+Card text (script): "IPC: famine confirmed in parts of Gaza" -> correct. Add date: 22 Aug 2025. Also check at publish whether IPC has issued a later classification (Oct 2025 ceasefire; later updates) — this card is dated.

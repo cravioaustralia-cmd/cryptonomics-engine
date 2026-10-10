@@ -1,0 +1,8 @@
+===== S41 (ATLAS) =====
+Generate a downloadable MP3 voiceover in Grok Atlas voice, Australian English accent, natural documentary narration, warm, human and conversational, not robotic, at a relaxed natural pace. Do not read stage directions or this instruction. Do not say the words pause, soft, slow or quote marks. Read quotes plainly and neutrally, never as an impression. Delivery for this segment: careful, fair. A blank line in the text is a short natural beat, not a spoken word. Pronunciation: Gaza = GAH-zuh. Speak only the narration below:
+
+The Prime Minister called his bravery, quote, an inspiration for all Australians.
+
+Police say the gunmen were inspired by Islamic State.
+
+And some warn that seeing Bondi only through Israel and Gaza risks missing the extremism behind it, or blaming whole communities for the acts of two men.

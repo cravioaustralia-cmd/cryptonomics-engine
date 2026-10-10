@@ -1,0 +1,12 @@
+DOC05 — Royal Commission interim report, Apr 2026   (segment S42)
+Retrieved 10 Oct 2026.  Interim report PDF itself NOT retrieved (asc.royalcommission.gov.au returns HTTP 500/refused to the box). Parts of the report are confidential (Recommendation 12 is "contained in the confidential Interim Report").
+PRIMARY page: https://asc.royalcommission.gov.au/publications/royal-commission-antisemitism-and-social-cohesion-interim-report  (and https://asc.royalcommission.gov.au/publications/interim-report) — interim report delivered 30 April 2026 (search index).
+Second source (retrieved, saved DOC05_Govt_response_to_RC_interim_report_May2026.pdf): "Australian Government Response to the Interim Report of the Royal Commission on Antisemitism and Social Cohesion", May 2026, © Commonwealth of Australia, CC BY 4.0. https://www.homeaffairs.gov.au/reports-and-pubs/PDFs/govt-response-interim-report-of-royal-commission-antisemitism-social-cohesion.pdf
+Exact wording (Government response, quoting the Commission's recommendations):
+  Recommendation 13: "The Commonwealth and states and territories should prioritise efforts to finalise and implement an updated and nationally consistent National Firearms Agreement."
+  Recommendation 14: "The Commonwealth, states and territories should prioritise efforts to implement the proposed National Gun Buyback Scheme."
+  Government: "accepts this recommendation" (both); "On 20 January 2026, the Commonwealth Government passed legislation to enable state and territory governments to access relevant Commonwealth intelligence and background checks to inform firearms licensing decisions."; Firearms Taskforce established in Home Affairs.
+Card text (script, DOC05/16 on S42): "Interim report, April 2026: tougher national gun laws" -> supported by Rec 13 and 14 (nationally consistent firearms agreement; national gun buyback). Phrase as "recommends"; do not say laws "passed" for the buyback (check DOC16).
+
+
+UPGRADE 11 Oct 2026: full interim report PDF now seated (DOC05_interim_report_ASCRC_30Apr2026.pdf, 159 pp, CC BY 4.0, via Commons). Verified wording: Recommendation 13 (p.90): "The Commonwealth and states and territories should prioritise efforts to finalise and implement an updated and nationally consistent National Firearms Agreement." Recommendation 14 (p.94): "The Commonwealth, states and territories should prioritise efforts to implement the proposed National Gun Buyback Scheme." Letters Patent are Appendix A (p.118).

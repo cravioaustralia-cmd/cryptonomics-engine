@@ -1,0 +1,9 @@
+DOC08 — Doxxing offence legislation (2024)   (segment S32)
+Retrieved 10 Oct 2026.
+PRIMARY: Privacy and Other Legislation Amendment Act 2024 (Cth), No. 128, 2024 — Schedule 3 "Doxxing offences" (saved: DOC08_Privacy_and_Other_Legislation_Amendment_Act_2024_C2024A00128.pdf)
+  https://www.legislation.gov.au/C2024A00128/asmade   (as-made PDF: https://www.legislation.gov.au/C2024A00128/asmade/2024-12-10/text/original/pdf)
+  Schedule 3 inserts Criminal Code sections 474.17C and 474.17D. Act made 10 Dec 2024; Schedule 3 commenced 11 Dec 2024 (per search index; confirm in the Act's commencement table, s 2).
+Exact wording (s 474.17C(1)): "A person commits an offence if: (a) the person uses a carriage service to make available, publish or otherwise distribute information; and (b) the information is personal data of one or more individuals; and (c) the person engages in the conduct in a way that reasonable persons would regard as being, in all the circumstances, menacing or harassing towards those individuals."  Penalty: Imprisonment for 6 years.
+  Note to s 474.17C: "Publishing the name, image and telephone number of an individual on a website and encouraging others to repeatedly contact the individual with violent or threatening messages is an example of conduct (commonly referred to as doxxing)".
+  s 474.17D = group-based doxxing (members of a group because of a protected attribute); penalty 7 years (search index; check text).
+Card text (script): "New criminal offence for malicious doxxing (2024)" -> correct; Act name confirmed: "Privacy and Other Legislation Amendment Act 2024".

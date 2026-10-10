@@ -1,0 +1,10 @@
+===== S42 (ARA) =====
+Generate a downloadable MP3 voiceover in Grok Ara voice, Australian English accent, natural documentary narration, warm, human and conversational, not robotic, at a relaxed natural pace. Do not read stage directions or this instruction. Do not say the words pause, soft, slow or quote marks. Read quotes plainly and neutrally, never as an impression. Delivery for this segment: steady, then resonant. A blank line in the text is a short natural beat, not a spoken word. Speak only the narration below:
+
+Twenty-five days after the attack, the government called a Royal Commission on Antisemitism and Social Cohesion, led by a former High Court judge.
+
+In February, Israel's President visited Australia to comfort grieving families. In April, the commission called for tougher national gun laws.
+
+Its final report is due on the eighteenth of December, twenty twenty-six.
+
+Four days after the anniversary.

@@ -1,0 +1,8 @@
+===== S33 (ATLAS) =====
+Generate a downloadable MP3 voiceover in Grok Atlas voice, Australian English accent, natural documentary narration, warm, human and conversational, not robotic, at a relaxed natural pace. Do not read stage directions or this instruction. Do not say the words pause, soft, slow or quote marks. Read quotes plainly and neutrally, never as an impression. Delivery for this segment: a divided country. A blank line in the text is a short natural beat, not a spoken word. Pronunciation: hijab = hi-JAHB. Speak only the narration below:
+
+Tens of thousands marched across the Harbour Bridge in the rain.
+
+Jewish groups recorded record numbers of antisemitic incidents. Muslim Australians, especially women wearing the hijab, reported record abuse.
+
+The government appointed two special envoys, one to combat antisemitism, and one to combat Islamophobia.

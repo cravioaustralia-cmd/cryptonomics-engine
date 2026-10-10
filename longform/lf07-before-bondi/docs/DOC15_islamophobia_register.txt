@@ -1,0 +1,7 @@
+DOC15 — Islamophobia Register report   (segment S33)
+Retrieved 10 Oct 2026.
+PRIMARY: Islamophobia Register Australia, "Islamophobia in Australia Report 5" (Jan 2023 – Nov 2024; launched 13 March 2025)  (saved: DOC15_Islamophobia_in_Australia_Report5_2025.pdf)
+  https://islamophobia.com.au/wp-content/uploads/2025/03/Islamophobia-in-Australia-Report-5.pdf   (press release: https://islamophobia.com.au/wp-content/uploads/2025/03/13-March-2025_Press-Release-Launch.pdf)
+Exact wording (report text): "...309 in-person incidents reported" (period Jan 2023–Nov 2024); the report states it "contains the highest number of in-person incidents" since the Register began (first-person text: "marked by the highest number of incidents since our inception"). SBS (13 Mar 2025): ">60 per cent of Islamophobic incidents were verbal intimidation/harassment"; the report "estimated there were 309 in-person incidents over the study period" and 366 online incidents (search index).
+  https://www.sbs.com.au/news/article/islamophobic-attacks-in-australia-reach-crisis-levels-according-to-new-report/2uvzhw0ev
+CHECK at publish: whether the Register has released a newer report (2026) — if so use it. The Register is community-reported data (self-reported, "tip of the iceberg" per its own text, only 18% of the 309 were reported to police); label as "reports received by the Register".

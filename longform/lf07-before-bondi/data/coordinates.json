@@ -1,0 +1,188 @@
+{
+ "_note": "WGS84 decimal degrees, city-centre / site points for map pins. Approximate (±0.01°). Facts, not copyrightable; cross-checked against Natural Earth populated places where present.",
+ "Sydney": {
+  "lat": -33.8688,
+  "lon": 151.2093,
+  "ne_110m": [
+   -33.918065,
+   151.183234
+  ]
+ },
+ "Melbourne": {
+  "lat": -37.8136,
+  "lon": 144.9631,
+  "ne_110m": [
+   -37.818086,
+   144.97307
+  ],
+  "station_pier": [
+   -37.8441,
+   144.9327
+  ]
+ },
+ "Gaza": {
+  "lat": 31.5017,
+  "lon": 34.4668,
+  "label": "Gaza City"
+ },
+ "Beersheba": {
+  "lat": 31.2518,
+  "lon": 34.7913
+ },
+ "Jerusalem": {
+  "lat": 31.7683,
+  "lon": 35.2137,
+  "ne_110m": [
+   31.778408,
+   35.206626
+  ]
+ },
+ "Tel Aviv": {
+  "lat": 32.0853,
+  "lon": 34.7818
+ },
+ "New York (Flushing Meadows, UN GA hall 1946-50 — today's Queens Museum)": {
+  "lat": 40.7458,
+  "lon": -73.8467,
+  "ne_110m_new_york_city": [
+   40.751925,
+   -73.981963
+  ]
+ },
+ "Bondi Beach": {
+  "lat": -33.8915,
+  "lon": 151.2767,
+  "note": "beach/suburb centre; MAP10 'one soft marker' — no attack-site detail"
+ },
+ "Bondi Junction": {
+  "lat": -33.8915,
+  "lon": 151.2479
+ },
+ "Canberra (Parliament House)": {
+  "lat": -35.3081,
+  "lon": 149.1245
+ },
+ "Canberra": {
+  "lat": -35.2809,
+  "lon": 149.13
+ },
+ "Tehran": {
+  "lat": 35.6892,
+  "lon": 51.389
+ },
+ "New York (UN Headquarters, First Avenue)": {
+  "lat": 40.7489,
+  "lon": -73.968,
+  "note": "Sept 2025 UNGA / recognition"
+ },
+ "Washington DC": {
+  "lat": 38.9072,
+  "lon": -77.0369
+ },
+ "London": {
+  "lat": 51.5072,
+  "lon": -0.1276
+ },
+ "Ottawa": {
+  "lat": 45.4215,
+  "lon": -75.6972
+ },
+ "Paris": {
+  "lat": 48.8566,
+  "lon": 2.3522
+ },
+ "Ripponlea (Adass Israel Synagogue, Melbourne)": {
+  "lat": -37.875,
+  "lon": 144.999,
+  "note": "suburb centroid only (MAP11/MAP06); do not pin the building"
+ },
+ "Bondi Beach (Lewis' Continental Kitchen, Curlewis St) — suburb marker": {
+  "lat": -33.8915,
+  "lon": 151.2767,
+  "note": "suburb marker only; the fire of 20 Oct 2024 was in Bondi Beach (ABC/PM statement)"
+ },
+ "Lakemba": {
+  "lat": -33.92,
+  "lon": 151.076
+ },
+ "Beirut": {
+  "lat": 33.8938,
+  "lon": 35.5018
+ },
+ "Athens": {
+  "lat": 37.9838,
+  "lon": 23.7275
+ },
+ "Rome": {
+  "lat": 41.9028,
+  "lon": 12.4964
+ },
+ "Haifa": {
+  "lat": 32.794,
+  "lon": 34.9896
+ },
+ "Jaffa": {
+  "lat": 32.0504,
+  "lon": 34.7522
+ },
+ "Kfar Aza": {
+  "lat": 31.4806,
+  "lon": 34.5328,
+  "note": "kibbutz in Gaza envelope (PH18c)"
+ },
+ "Be'eri": {
+  "lat": 31.4258,
+  "lon": 34.4936,
+  "note": "kibbutz in Gaza envelope (PH18b)"
+ },
+ "Deir al-Balah": {
+  "lat": 31.4167,
+  "lon": 34.35,
+  "note": "WCK convoy route 1 Apr 2024 ends near here (MAP07)"
+ },
+ "Khan Younis": {
+  "lat": 31.3462,
+  "lon": 34.3063
+ },
+ "Rafah": {
+  "lat": 31.2969,
+  "lon": 34.2436
+ },
+ "Kerem Shalom crossing": {
+  "lat": 31.2253,
+  "lon": 34.2842
+ },
+ "Gaza Strip (bbox)": {
+  "lat_min": 31.216,
+  "lat_max": 31.596,
+  "lon_min": 34.217,
+  "lon_max": 34.567
+ },
+ "Southern Israel + Gaza frame (MAP07, 16:9)": {
+  "lon_min": 33.9,
+  "lon_max": 35.1,
+  "lat_min": 31.0,
+  "lat_max": 31.8
+ },
+ "Bondi locator frame (MAP10, 16:9)": {
+  "lon_min": 151.245,
+  "lon_max": 151.3,
+  "lat_min": -33.915,
+  "lat_max": -33.87,
+  "data": "osm_bondi.geojson"
+ },
+ "Australia + Middle East + Europe frame (MAP04)": {
+  "lon_min": -10,
+  "lon_max": 160,
+  "lat_min": -45,
+  "lat_max": 60
+ },
+ "_distances_km_great_circle": {
+  "Sydney→Gaza City": 14185,
+  "Sydney→Melbourne": 713,
+  "Sydney→Tehran": 12911,
+  "Sydney→New York": 15992,
+  "Sydney→Canberra": 247,
+  "note": "haversine R=6371 km; script says ≈14,000 km and 800 km (rounded)"
+ }
+}

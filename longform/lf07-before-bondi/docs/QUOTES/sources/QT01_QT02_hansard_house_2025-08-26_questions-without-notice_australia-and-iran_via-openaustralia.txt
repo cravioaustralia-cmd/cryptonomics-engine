@@ -1,0 +1,24 @@
+SOURCE URL: https://www.openaustralia.org.au/debates/?id=2025-08-26.37.2
+This is OpenAustralia.org's republication of the official House of Representatives Hansard, Tuesday 26 August 2025, Questions Without Notice, "International Relations: Australia and Iran".
+Official Hansard location (aph.gov.au, bid chamber/hansardr/28833): https://www.aph.gov.au/Parliamentary_Business/Hansard/Hansard_Display?bid=chamber%2Fhansardr%2F28833%2F
+  -> The aph.gov.au page's item text is loaded by script and returned only the table of contents (listing "international relations: australia and iran (Ley, Sussan Penelope MP)" under questions without notice); parlinfo.aph.gov.au is behind an Azure WAF JS challenge and was not bypassed.
+  -> VERIFIER NOTE: the text below is therefore a secondary republication of Hansard. Re-check against the aph.gov.au / ParlInfo official page in a normal browser before publishing.
+RETRIEVED: 2026-10-10 (via the fetch tool; curl is blocked with HTTP 403 by this site). Text below copied verbatim from the page (extract: the three speeches relevant to QT01/QT02).
+================================================================================
+International Relations: Australia and Iran
+Tuesday, 26 August 2025 · House of Representatives
+
+Sussan Ley, Farrer, Liberal Party, Leader of the Opposition — 2:04 pm
+My question is to the Prime Minister. Moments ago, Australians learned of the most egregious acts of foreign interference against our nation and our people since the Cold War. The expulsion of the Iranian ambassador from our country and the listing of the IRGC as a terrorist organisation are entirely necessary actions that the coalition has previously called for and supports. Can the Prime Minister update the House on these developments and the actions the government is taking in the national interest?
+
+Anthony Albanese, Grayndler, Australian Labor Party, Prime Minister — 2:05 pm
+I thank the member for her question and for the parliamentary bipartisan support for the actions we have taken. We know that, since those terrible events by the Hamas terrorists on October 7, we've witnessed a number of appalling antisemitic attacks against Australia's Jewish community. We have been clear that these attacks have no place in Australia, and the government asked ASIO and the AFP to investigate as a priority. I do want to thank the extraordinary work that has been done to get to the bottom of what has been quite a complex issue.
+
+ASIO has now gathered enough credible intelligence to reach a deeply disturbing conclusion—that the Iranian government directed at least two of these attacks. Iran has sought to disguise its involvement through the use of criminal elements being paid here in Australia. ASIO assesses that, apart from these two attacks, it is likely that there are more as well. These were extraordinary and dangerous acts of aggression, orchestrated by a foreign nation on Australian soil. They were attempts to undermine social cohesion and sow discord in our community.
+
+It is totally unacceptable, and the Australian government is taking strong and decisive action in response. The Iranian ambassador is being expelled. [... remainder of the answer not needed for QT01/QT02 ...]
+
+Sussan Ley, Farrer, Liberal Party, Leader of the Opposition — 2:10 pm
+on indulgence—I rise to associate the opposition with the Prime Minister's remarks. We are all disgusted to learn of the serious and chilling foreign interference which has been perpetrated by the Islamic Republic of Iran on Australian soil. As the Director-General of Security explained today, the Iranian government has been confirmed as having directed at least two attacks against Australia's Jewish community, including the firebombing of the Adass Israel synagogue. To Australia's Jewish community, our message has been abundantly clear throughout this period of heightened antisemitism: all Australians have a right to practice their faith free from persecution, free from violence and free from fear.
+
+These acts of egregious foreign interference are brazen attempts to cleave apart our social cohesion, to turn neighbour against neighbour and Australian against Australian. I, therefore, want to make it abundantly clear on behalf of the coalition that, while we sit opposite from the government in this chamber, we are entirely united behind the measures announced today to expel the Iranian ambassador and list the Iranian Revolutionary Guard Corps as a terrorist organisation.

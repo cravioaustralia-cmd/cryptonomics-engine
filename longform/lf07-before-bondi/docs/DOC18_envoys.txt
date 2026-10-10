@@ -1,0 +1,6 @@
+DOC18 — Special envoys on antisemitism and Islamophobia appointed   (segment S33)
+Retrieved 10 Oct 2026.
+PRIMARY (pm.gov.au media releases; full text saved DOC18_envoy_antisemitism_source.txt, DOC18_envoy_islamophobia_source.txt):
+  Antisemitism: https://www.pm.gov.au/media/special-envoy-combat-antisemitism — Tuesday 9 July 2024: "The Albanese Government today announces the appointment of Ms Jillian Segal AO as Special Envoy to Combat Antisemitism in Australia" ... "appointed for a three-year term and will report directly to the Prime Minister and the Minister for Immigration, Citizenship and Multicultural Affairs."
+  Islamophobia: https://www.pm.gov.au/media/special-envoy-combat-islamophobia — Monday 30 September 2024: "The Albanese Government today announces the appointment of Aftab Malik as Special Envoy to Combat Islamophobia in Australia." ... "appointed for a three-year term, starting on the 14th of October".
+Card text (script): "Special envoys on antisemitism and Islamophobia" -> correct; show both names/dates side by side with equal weight (9 Jul 2024 Segal; 30 Sep 2024 Malik).
