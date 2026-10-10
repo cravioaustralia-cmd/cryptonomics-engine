@@ -220,6 +220,8 @@ def build(t_end=None):
             a = a[: int(dur * SR)]
         long_ = len(a) > 5 * SR
         base = (SFX_AMB if long_ else SFX_ONE) - rms_db(a)
+        pk = 20 * math.log10(float(np.abs(a).max()) + 1e-9)
+        base = min(base, -12.0 - pk - e.gain)      # no effect peaks above -12 dBFS (12 dB under the voice)
         x = a * env(len(a), e.extra.get("fin", 0.0), e.extra.get("fout", 0.01 if not long_ else 1.0))
         if long_:   # ambiences (waves, crowd, rain, machining) also dip 6 dB under speech
             i0 = int(e.t * SR)
@@ -276,14 +278,14 @@ def master(src, dst, target=-14.0, tp_ceiling=-1.5):
     g = target - I
     lim = 10 ** ((tp_ceiling - 0.4) / 20)
     subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", str(src), "-af",
-                    f"volume={g:.3f}dB,aresample=192000,alimiter=limit={lim:.5f}:level=disabled:attack=1:release=60:asc=1,"
+                    f"volume={g:.3f}dB,aresample=192000,alimiter=limit={lim:.5f}:level=disabled:attack=1.5:release=120:asc=1,"
                     f"aresample=48000", "-c:a", "pcm_f32le", str(dst)], check=True)
     I2, tp2, lra = loudness(dst)
     if tp2 > tp_ceiling:
         extra = tp2 - tp_ceiling + 0.1
         lim = lim * 10 ** (-extra / 20)
         subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", str(src), "-af",
-                        f"volume={g:.3f}dB,aresample=192000,alimiter=limit={lim:.5f}:level=disabled:attack=1:release=60:asc=1,aresample=48000",
+                        f"volume={g:.3f}dB,aresample=192000,alimiter=limit={lim:.5f}:level=disabled:attack=1.5:release=120:asc=1,aresample=48000",
                         "-c:a", "pcm_f32le", str(dst)], check=True)
         I2, tp2, lra = loudness(dst)
     return dict(I_in=I, TP_in=tp, gain=g, I=I2, TP=tp2, LRA=lra)
