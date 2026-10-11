@@ -23,6 +23,8 @@ BUILD = EP / "build"
 VO_GAIN_DB = 6.0
 BED_FREE, BED_DUCK = -26.0, -9.0
 SFX_ONE, SFX_AMB = -28.0, -26.0
+MUS11_DECAY_END = 143.5   # file time where MUS11's natural decay reaches about -42 dB
+END_FADE = 1.5           # seconds; the film fades to black and to digital zero together
 
 
 def db(x):
@@ -130,11 +132,14 @@ def music_plan():
     add(mid="MUS11", t0=s("S45").start, off=50.0, t1=s("S45").vo_start + 0.5, fin=0.5, fout=0.5, mode="montage")
     add(mid="MUS11", t0=s("S45").vo_start, off=50.0 + (s("S45").vo_start - s("S45").start), t1=s("S46").vo_end + 0.5,
         fin=0.5, fout=2.5)
-    add(mid="MUS11", t0=s("S46").vo_end, off=135.0, t1=s("S46").end, fin=2.0, fout=0.05)   # natural ending fills the end screen
+    # natural ending fills the end screen: its decay (file 2:19-2:23.5) lands on the last seconds, then a 1.5 s fade
+    # to digital zero on the final frame, together with the picture's fade to black (master.py)
+    end_off = MUS11_DECAY_END - (s("S46").end - 0.5 - s("S46").vo_end)
+    add(mid="MUS11", t0=s("S46").vo_end, off=end_off, t1=s("S46").end, fin=2.0, fout=1.5)
     ch = s("S43").chapter_hold
     add(mid="MUS12", t0=ch[0] + 0.1, t1=ch[0] + 10.5, fin=0.02, fout=1.5, mode="motif")
     add(mid="MUS12", t0=C("S45.sun_flare"), t1=C("S45.sun_flare") + 10.5, fin=0.02, fout=1.5, mode="motif")
-    add(mid="MUS12", t0=s("S46").vo_end + 0.2, t1=s("S46").vo_end + 10.7, fin=0.02, fout=1.5, mode="motif")
+    add(mid="MUS12", t0=s("S46").vo_end + 0.2, t1=s("S46").vo_end + 10.7, fin=0.02, fout=4.0, mode="motif")
     return P
 
 
@@ -262,6 +267,10 @@ def build(t_end=None):
             else:
                 mixd[i0:i1] = 0
     n2 = int(total * SR)
+    if abs(total - T.total) < 1e-6:          # full film: everything fades to digital zero on the last frame
+        f = int(END_FADE * SR)
+        mixd[n2 - f:n2] *= (np.cos(np.linspace(0, math.pi / 2, f)) ** 2)[:, None].astype(np.float32)
+        mixd[n2 - 1:] = 0
     BUILD.mkdir(exist_ok=True)
     write(BUILD / "mix_raw.wav", mixd[:n2])
     write(BUILD / "stem_vo.wav", vo.a[:n2])

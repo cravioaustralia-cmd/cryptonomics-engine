@@ -162,6 +162,8 @@ S34 races down on its words: −420 on "The fires", **−300 on "jet parts"** (c
 
 ## Shots replaced, dropped or changed
 
+- **Ending (revised after review).** The first cut faded the end-screen motif out at 12:41.4 while the closing track's tail sat about 20 dB lower, leaving four seconds of near-silence on a still card before a hard cut. Now the closing track's natural decay is timed to land on the last seconds, the motif fades over 4 s underneath it, and picture and sound fade together over the final 1.5 s to black and digital zero. Nothing before 12:25 changed.
+
 - **Colour fix in mastering.** The full-length picture intermediate was rendered with skia's BGRA pixels labelled as RGBA, which swaps red and blue. Both masters apply an exact channel swap (`colorchannelmixer`) so colours are correct; the encoder is fixed in `film.py` for any future render.
 - AI04 → ST07 CNC with MADE IN AUSTRALIA stamp (captioned "file footage, not an F-35 part"). AI07 → flat door graphic plus kinetic text plus SFX22. AI09 → built phone-notification graphic with a blurred, recreated names list labelled "Recreation".
 - FT07/FT06 (ParlView) → FT07b/FT06b chamber file footage, dimmed under cards, captioned "House of Representatives, Canberra (file footage)".

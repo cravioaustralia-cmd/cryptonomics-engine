@@ -72,11 +72,13 @@ def main():
     pic = Path(sys.argv[1])
     FIN.mkdir(exist_ok=True)
     T = TL.load()
+    global END_FADE_VF
+    END_FADE_VF = f"fade=t=out:st={T.total - MX.END_FADE:.3f}:d={MX.END_FADE}"   # picture fades with the music
     rep = {}
     # ---------------- 1x
     r1 = MX.loudness(B / "mix_1x.wav")
     out1 = FIN / "lf07-before-bondi-1x.mp4"
-    k1 = x264_2pass(pic, B / "mix_1x.wav", out1, T.total)
+    k1 = x264_2pass(pic, B / "mix_1x.wav", out1, T.total, vf=END_FADE_VF)
     a1 = MX.loudness(out1)
     rep["1x"] = dict(file=out1.name, wav=r1, mp4=a1, kbps=k1, size_mb=out1.stat().st_size / 2 ** 20, duration=dur(out1))
     # ---------------- 1.28x, pitch held
@@ -86,7 +88,7 @@ def main():
     m = loudnorm_2pass(rb, B / "mix_128.wav", TP=-2.4)   # headroom so the AAC file stays at or under -1.5 dBTP
     secs = T.total / SPEED
     out2 = FIN / "lf07-before-bondi.mp4"
-    k2 = x264_2pass(pic, B / "mix_128.wav", out2, secs, vf=f"setpts=PTS/{SPEED},fps=30")
+    k2 = x264_2pass(pic, B / "mix_128.wav", out2, secs, vf=f"{END_FADE_VF},setpts=PTS/{SPEED},fps=30")
     a2 = MX.loudness(out2)
     rep["1.28x"] = dict(file=out2.name, loudnorm_first_pass=m, mp4=a2, kbps=k2, size_mb=out2.stat().st_size / 2 ** 20,
                         duration=dur(out2))
