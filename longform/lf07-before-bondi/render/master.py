@@ -85,7 +85,7 @@ def main():
     rb = B / "mix_128_rb.wav"
     run(["ffmpeg", "-v", "error", "-y", "-i", str(B / "mix_1x.wav"), "-af",
          f"rubberband=tempo={SPEED}:pitch=1:pitchq=quality:transients=smooth:formant=preserved", "-c:a", "pcm_f32le", str(rb)])
-    m = loudnorm_2pass(rb, B / "mix_128.wav", TP=-2.4)   # headroom so the AAC file stays at or under -1.5 dBTP
+    m = loudnorm_2pass(rb, B / "mix_128.wav", TP=-2.8)   # headroom so the AAC file stays at or under -1.5 dBTP
     secs = T.total / SPEED
     out2 = FIN / "lf07-before-bondi.mp4"
     k2 = x264_2pass(pic, B / "mix_128.wav", out2, secs, vf=f"{END_FADE_VF},setpts=PTS/{SPEED},fps=30")

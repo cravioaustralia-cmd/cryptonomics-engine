@@ -6,9 +6,9 @@ Long-form documentary, 46 segments (Atlas odd, Ara even), 1920×1080, 30 fps, Au
 
 | | 1× (`lf07-before-bondi-1x.mp4`) | 1.28× master (`lf07-before-bondi.mp4`) |
 |---|---|---|
-| Length | 12:45.73 | 9:58.23 |
+| Length | 12:45.73 | 9:58.20 |
 | Integrated loudness | −14.1 LUFS | −14.2 LUFS |
-| True peak | −2.0 dBTP | −2.0 dBTP |
+| True peak | −2.0 dBTP | −2.2 dBTP |
 | Loudness range | 5.5 LU | 4.3 LU |
 | File size | 89.1 MB | 88.9 MB |
 | Video bitrate | 790 kbps | 1051 kbps |
