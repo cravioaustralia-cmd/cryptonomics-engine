@@ -1,0 +1,341 @@
+{
+ "S01": {
+  "ref_words": 35,
+  "mismatch": []
+ },
+ "S02": {
+  "ref_words": 34,
+  "mismatch": [
+   [
+    "replace",
+    "225000",
+    "225 000"
+   ]
+  ]
+ },
+ "S03": {
+  "ref_words": 23,
+  "mismatch": [
+   [
+    "replace",
+    "750000",
+    "750 000"
+   ]
+  ]
+ },
+ "S04": {
+  "ref_words": 21,
+  "mismatch": []
+ },
+ "S05": {
+  "ref_words": 51,
+  "mismatch": []
+ },
+ "S06": {
+  "ref_words": 33,
+  "mismatch": [
+   [
+    "replace",
+    "2007 point 9000000",
+    "27 9 0"
+   ],
+   [
+    "replace",
+    "392700",
+    "392 700"
+   ]
+  ]
+ },
+ "S07": {
+  "ref_words": 28,
+  "mismatch": [
+   [
+    "replace",
+    "292100",
+    "292 100"
+   ]
+  ]
+ },
+ "S08": {
+  "ref_words": 23,
+  "mismatch": []
+ },
+ "S09": {
+  "ref_words": 45,
+  "mismatch": []
+ },
+ "S10": {
+  "ref_words": 45,
+  "mismatch": [
+   [
+    "replace",
+    "170000",
+    "170 000"
+   ]
+  ]
+ },
+ "S11": {
+  "ref_words": 25,
+  "mismatch": []
+ },
+ "S12": {
+  "ref_words": 30,
+  "mismatch": []
+ },
+ "S13": {
+  "ref_words": 38,
+  "mismatch": []
+ },
+ "S14": {
+  "ref_words": 36,
+  "mismatch": [
+   [
+    "replace",
+    "capped",
+    "caped"
+   ],
+   [
+    "replace",
+    "75000",
+    "75 000"
+   ],
+   [
+    "replace",
+    "130000",
+    "130 000"
+   ]
+  ]
+ },
+ "S15": {
+  "ref_words": 60,
+  "mismatch": []
+ },
+ "S16": {
+  "ref_words": 36,
+  "mismatch": []
+ },
+ "S17": {
+  "ref_words": 39,
+  "mismatch": [
+   [
+    "replace",
+    "2027",
+    "2026 1"
+   ],
+   [
+    "replace",
+    "2003",
+    "23"
+   ],
+   [
+    "replace",
+    "2003",
+    "23"
+   ]
+  ]
+ },
+ "S18": {
+  "ref_words": 36,
+  "mismatch": []
+ },
+ "S19": {
+  "ref_words": 53,
+  "mismatch": []
+ },
+ "S20": {
+  "ref_words": 26,
+  "mismatch": [
+   [
+    "replace",
+    "225000",
+    "225 000"
+   ]
+  ]
+ },
+ "S21": {
+  "ref_words": 43,
+  "mismatch": []
+ },
+ "S22": {
+  "ref_words": 22,
+  "mismatch": []
+ },
+ "S23": {
+  "ref_words": 32,
+  "mismatch": [
+   [
+    "replace",
+    "fourteenth",
+    "14th"
+   ],
+   [
+    "replace",
+    "750000",
+    "750 000"
+   ]
+  ]
+ },
+ "S24": {
+  "ref_words": 43,
+  "mismatch": [
+   [
+    "replace",
+    "seventeenth",
+    "17th"
+   ]
+  ]
+ },
+ "S25": {
+  "ref_words": 43,
+  "mismatch": [
+   [
+    "replace",
+    "sixth",
+    "6th"
+   ],
+   [
+    "replace",
+    "100000",
+    "100 000"
+   ]
+  ]
+ },
+ "S26": {
+  "ref_words": 27,
+  "mismatch": []
+ },
+ "S27": {
+  "ref_words": 41,
+  "mismatch": []
+ },
+ "S28": {
+  "ref_words": 41,
+  "mismatch": []
+ },
+ "S29": {
+  "ref_words": 40,
+  "mismatch": [
+   [
+    "replace",
+    "301000",
+    "301 000"
+   ]
+  ]
+ },
+ "S30": {
+  "ref_words": 52,
+  "mismatch": [
+   [
+    "replace",
+    "225000",
+    "225 000"
+   ],
+   [
+    "replace",
+    "225000",
+    "225 000"
+   ],
+   [
+    "replace",
+    "100001",
+    "100 000 1"
+   ]
+  ]
+ },
+ "S31": {
+  "ref_words": 63,
+  "mismatch": []
+ },
+ "S32": {
+  "ref_words": 39,
+  "mismatch": []
+ },
+ "S33": {
+  "ref_words": 38,
+  "mismatch": []
+ },
+ "S34": {
+  "ref_words": 58,
+  "mismatch": [
+   [
+    "replace",
+    "40000",
+    "40 000"
+   ]
+  ]
+ },
+ "S35": {
+  "ref_words": 41,
+  "mismatch": [
+   [
+    "replace",
+    "labors",
+    "labours"
+   ]
+  ]
+ },
+ "S36": {
+  "ref_words": 60,
+  "mismatch": []
+ },
+ "S37": {
+  "ref_words": 72,
+  "mismatch": [
+   [
+    "replace",
+    "2007",
+    "27"
+   ],
+   [
+    "replace",
+    "2009",
+    "29"
+   ],
+   [
+    "replace",
+    "2008",
+    "28"
+   ]
+  ]
+ },
+ "S38": {
+  "ref_words": 40,
+  "mismatch": []
+ },
+ "S39": {
+  "ref_words": 59,
+  "mismatch": []
+ },
+ "S40": {
+  "ref_words": 48,
+  "mismatch": []
+ },
+ "S41": {
+  "ref_words": 51,
+  "mismatch": [
+   [
+    "replace",
+    "labors",
+    "labours"
+   ]
+  ]
+ },
+ "S42": {
+  "ref_words": 37,
+  "mismatch": []
+ },
+ "S43": {
+  "ref_words": 64,
+  "mismatch": []
+ },
+ "S44": {
+  "ref_words": 24,
+  "mismatch": [
+   [
+    "replace",
+    "hanson",
+    "hansen"
+   ]
+  ]
+ }
+}

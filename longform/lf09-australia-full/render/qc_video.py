@@ -14,7 +14,8 @@ def scan(p):
     ylow = [float(x) for x in re.findall(r'lavfi\.signalstats\.YLOW=([\d.]+)', e.stdout)]
     yhigh = [float(x) for x in re.findall(r'lavfi\.signalstats\.YHIGH=([\d.]+)', e.stdout)]
     yavg = [float(x) for x in re.findall(r'lavfi\.signalstats\.YAVG=([\d.]+)', e.stdout)]
-    flat = [i for i, (lo, hi) in enumerate(zip(ylow, yhigh)) if hi - lo < 20]
+    ymin = [float(x) for x in re.findall(r'lavfi\.signalstats\.YMIN=([\d.]+)', e.stdout)]; ymax = [float(x) for x in re.findall(r'lavfi\.signalstats\.YMAX=([\d.]+)', e.stdout)]
+    flat = [i for i, (lo, hi) in enumerate(zip(ymin, ymax)) if hi - lo < 40]  # nothing on screen at all
     return {'black': black, 'freeze_starts': freeze, 'flat_frames': len(flat), 'flat_first': flat[:10], 'frames_scanned': len(yavg), 'min_yavg': round(min(yavg), 1) if yavg else None}
 def loud(p):
     e = run(['ffmpeg', '-hide_banner', '-i', p, '-af', 'ebur128=peak=true:framelog=quiet', '-f', 'null', '-']).stderr

@@ -147,7 +147,7 @@
     if (cp > 0) {
       const X0 = 260, Xw = 1100, Y = (v) => 860 - ((v - 15) / 20) * 620;
       const xs = 0.12, xo = 0.92; const X = (f) => X0 + f * Xw;
-      let s = `<svg class="abs full" viewBox="0 0 1920 1080">`;
+      let s = `<div class="abs" style="left:${X0}px;top:${Y(35)}px;width:${Xw}px;height:${Y(15) - Y(35)}px;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.12)"></div><svg class="abs full" viewBox="0 0 1920 1080">`;
       for (let v = 15; v <= 35; v += 5) s += `<line x1="${X0}" x2="${X0 + Xw}" y1="${Y(v)}" y2="${Y(v)}" stroke="rgba(255,255,255,${v === 20 ? 0.35 : 0.08})" stroke-width="${v === 20 ? 2 : 1}" ${v === 20 ? 'stroke-dasharray="8 6"' : ''}/><text x="${X0 - 16}" y="${Y(v) + 8}" fill="#888" font-family="Inter" font-size="20" text-anchor="end">${v}%</text>`;
       s += `<text x="${X(xs)}" y="900" fill="#aaa" font-family="Inter" font-size="20" text-anchor="middle">14–17 SEP 2026</text><text x="${X(xo)}" y="900" fill="#aaa" font-family="Inter" font-size="20" text-anchor="middle">5–8 OCT 2026</text>`;
       // marker 17 Sep (speech)
@@ -219,8 +219,8 @@
     let h = E.boardBg();
     const kin = P(t, tCopy - 0.4, 0.4);
     let g = `<div class="abs" style="left:958px;top:110px;width:4px;height:640px;background:#333"></div><div class="abs" style="left:160px;top:110px;font:900 40px Inter;letter-spacing:6px;color:${C.lab}">ACTIONS</div><div class="abs" style="left:1060px;top:110px;font:900 40px Inter;letter-spacing:6px;color:#ddd">WORDS</div>`;
-    [['225,000 target', tTar, 'JUN 2026'], ['Working holiday ballot', tBal, '17 SEP 2026'], ['Visa tightening', tCut, 'JUL–SEP 2026']].forEach(([n, t0, d], i) => { g += E.node({ x: 470, y: 250 + i * 70 + (2 - i) * 70, w: 560, date: d, title: n, col: C.lab, label: 'FACT', p: P(t, t0 - 0.1, 0.35), rot: (i - 1) * 1.5, fs: 26 }); });
-    g += E.node({ x: 1440, y: 360, w: 600, date: '15 OCT 2026', title: 'Speech defending multiculturalism', col: C.lab, label: 'FACT', p: P(t, tFight, 0.3), stampIn: true, fs: 30 });
+    [['225,000 target', tTar, 'JUN 2026'], ['Working holiday ballot', tBal, '17 SEP 2026'], ['Visa tightening', tCut, 'JUL–SEP 2026']].forEach(([n, t0, d], i) => { g += E.node({ x: 470, y: 250 + i * 70 + (2 - i) * 70, w: 560, date: d, title: n, col: C.lab, label: 'FACT', p: t < t0 - 0.1 && i !== 2 ? 0 : (t < t0 - 0.1 ? 1 : P(t, t0 - 0.1, 0.35)), op: t < t0 - 0.1 ? 0.22 : 1, rot: (i - 1) * 1.5, fs: 26 }); });
+    g += E.node({ x: 1440, y: 360, w: 600, date: '15 OCT 2026', title: 'Speech defending multiculturalism', col: C.lab, label: 'FACT', p: t < tFight ? 1 : P(t, tFight, 0.3), op: t < tFight ? 0.22 : 1, stampIn: t >= tFight, fs: 30 });
     if (t >= tFight) E.shake(t, tFight, 5);
     h += `<div class="abs full" style="opacity:${1 - kin * 0.75}">${g}</div>`;
     if (kin > 0) h += `<div class="abs" style="left:0;right:0;top:640px;text-align:center"><div style="font:900 104px Inter;color:#fff;-webkit-text-stroke:4px ${C.thread};paint-order:stroke fill;min-height:120px">${E.typeText('COPYING HER?', lin(t, tCopy, 0.5))}</div><div style="font:900 104px Inter;color:${C.yellow};-webkit-text-stroke:4px ${C.thread};paint-order:stroke fill;min-height:120px">${E.typeText('OR TAKING HER ISSUE?', lin(t, tTak, 0.7))}</div></div>`;

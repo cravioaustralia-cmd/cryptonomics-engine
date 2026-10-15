@@ -183,6 +183,7 @@
     const { t } = c; const tD = c.w('dates'), tN = c.w('numbers'), tQ = c.w('quotes'), tOrd = c.w('order'), tPat = c.w('pattern'), tNob = c.w('nobody'), tBut = c.w('But'), tIs = c.w('Is'), tFull = c.w('full');
     c.sfx('click', tD, -4); c.sfx('click', tN, -4); c.sfx('click', tQ, -4); c.sfx('paper_slide', tOrd, -8); c.sfx('chain_rattle', tPat, -6); c.sfx('shimmer', tNob, -6); c.sfx('drone_low', tIs - 0.3, -6); c.sfx('bass_impact', tFull, -3);
     let h = E.boardBg();
+    h += `<div class="abs full" style="opacity:${1 - P(t, tBut, 0.6)}">${E.ghostBoard(0.16)}</div>`;
     // disclaimer lower third (short version)
     const dOp = fade(t, c.start + 0.2, c.start + 3.4, 0.3, 0.4);
     if (dOp > 0) h += `<div class="abs" style="left:50%;top:880px;transform:translateX(-50%);opacity:${dOp};background:rgba(244,239,230,.95);color:#161616;font:600 25px Inter;padding:14px 28px;border-left:8px solid ${C.thread};white-space:nowrap">Independent documentary · Not affiliated with any party · Every source on screen and in the description.</div>`;
@@ -276,6 +277,7 @@
     const { t } = c; const tArr = c.w('arriving'), tMinus = c.w('minus'), t292 = c.w('292'), tOver = c.w('over'), t800 = c.w('800'), tEvery = c.w('every');
     c.sfx('jet', tArr, -8); c.sfx('whoosh', tMinus, -6); c.sfx('tick_roll', t292 - 0.2, -6); c.sfx('bass_impact', t800, -2); c.sfx('click', tEvery + 0.45, -4);
     let h = E.boardBg();
+    h += E.clip('BR_STOCK_airport_arrivals_board', t, c.start, { opacity: 0.2, dur: 15, z0: 1.15, z1: 1.25, speed: 0.6 });
     // equation row
     const eqOut = P(t, tOver, 0.4);
     const arr = P(t, tArr - 0.2, 0.5, eo), dep = P(t, tMinus, 0.5, eo);
@@ -514,7 +516,7 @@
       g += step(420, 640, 460, 220, s1, '2018 · CAP', E.rollTo(t, t75 - 0.2, 0.7, 75000), C.on);
       g += step(940, 470, 460, 390, s2, '2025 · TARGET', E.rollTo(t, t130 - 0.2, 0.7, 130000), C.on);
       g += `<div class="abs" style="left:300px;top:860px;width:1200px;height:3px;background:#666"></div>`;
-      g += `<div class="abs" style="left:420px;top:640px;width:460px;height:220px;border:3px dashed #555"></div><div class="abs" style="left:940px;top:470px;width:460px;height:390px;border:3px dashed #555"></div>`;
+      g += `<div class="abs" style="left:420px;top:640px;width:460px;height:220px;border:3px dashed #8a6a4a;background:rgba(242,140,40,.13)"></div><div class="abs" style="left:940px;top:470px;width:460px;height:390px;border:3px dashed #8a6a4a;background:rgba(242,140,40,.13)"></div>`;
       g += E.thread([[180, 640], [650, 640], [1170, 470]], P(t, t75, Math.max(0.6, t130 - t75 + 0.6), eio), { sag: 0.05 });
       g += `<div class="abs" style="left:240px;top:900px;font:500 18px Inter;color:#999">Source: Wikipedia, “Hansonism”, and its cited sources</div>`;
       h += `<div class="abs full" style="opacity:${P(t, t2018 - 0.4, 0.5)}">${g}</div>`;

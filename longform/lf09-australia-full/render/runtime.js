@@ -33,10 +33,11 @@
     E.S.shakeX = 0; E.S.shakeY = 0; E.S.hideCounter = false; E.S.t = t;
     let i = BLOCKS.findIndex((b) => t >= b.start && t < b.end); if (i < 0) i = BLOCKS.length - 1;
     const b = BLOCKS[i];
-    let html = renderBlock(i, t, tView);
+    const drift = (bi, h) => { const bb = BLOCKS[bi]; const d = Math.max(1, bb.end - bb.start); const u = Math.min(1.2, Math.max(0, (t - bb.start) / d)); return `<div class="abs full" style="transform:translate(${Math.sin(t * 0.37 + bi) * 5}px,${Math.cos(t * 0.29 + bi) * 3}px) scale(${1.004 + 0.018 * u});transform-origin:50% 50%">${h}</div>`; };
+    let html = drift(i, renderBlock(i, t, tView));
     const noXf = b.type === 'midroll' || (BLOCKS[i - 1] && BLOCKS[i - 1].type === 'midroll' && b.type === 'seg' && false);
     if (i > 0 && t < b.start + XF && !noXf) {
-      const hc = E.S.hideCounter; const prev = renderBlock(i - 1, t, tView); E.S.hideCounter = hc;
+      const hc = E.S.hideCounter; const prev = drift(i - 1, renderBlock(i - 1, t, tView)); E.S.hideCounter = hc;
       const a = E.eio((t - b.start) / XF);
       html = `<div class="abs full">${prev}</div><div class="abs full" style="opacity:${a}">${html}</div>`;
     }

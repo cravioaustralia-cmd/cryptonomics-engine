@@ -349,7 +349,7 @@
       g.globalAlpha = 0.05; for (let k = 0; k < 400; k++) { g.strokeStyle = rnd() > 0.5 ? '#fff' : '#000'; g.beginPath(); const x = rnd() * w, y = rnd() * h; g.moveTo(x, y); g.lineTo(x + (rnd() - 0.5) * 60, y + (rnd() - 0.5) * 8); g.stroke(); } });
     for (let k = 0; k < 8; k++) TEX.grain.push(mk(384, 384, (g, w, h) => { const im = g.createImageData(w, h); for (let i = 0; i < w * h; i++) { const v = rnd() * 255; im.data[i * 4] = v; im.data[i * 4 + 1] = v; im.data[i * 4 + 2] = v; im.data[i * 4 + 3] = 255; } g.putImageData(im, 0, 0); }));
   }
-  function boardBg() { return `<div class="abs full" style="background:#121212 url(${TEX.board});"></div>`; }
+  function boardBg() { return `<div class="abs full" style="background:#121212 url(${TEX.board});"></div><div class="abs full" style="background:radial-gradient(ellipse 70% 65% at 50% 48%,rgba(255,244,225,.075),rgba(255,244,225,.02) 70%,transparent 100%)"></div>`; }
 
   // generic transform wrapper
   function wrap(html, o = {}) {
@@ -386,7 +386,13 @@
     return `<svg class="abs full" viewBox="0 0 1920 1080" style="${cp}"><g transform="translate(${x},0)"><polygon points="${pts} 2400,1080 2400,0" fill="${o.col || '#e9e2d6'}"/><polygon points="${pts} 2400,1080 2400,0" fill="url(#)" opacity="0"/></g></svg>`;
   }
 
-  window.E = { wrap, node, qmark, torn, W, H, FPS, C, clamp, lerp, eo, eio, back, P, lin, vis, fade, esc, hash, fmt, S, shake, clip, clipSrc, still, dim, grad, photo, photoCredit, credit, nameCard, PH,
+  function ghostBoard(op = 0.18) {
+    let h = '';
+    [[C.on, 300], [C.lab, 560], [C.coal, 820]].forEach(([col, y]) => { h += `<div class="abs" style="left:0;top:${y}px;width:1920px;height:3px;background:${col};opacity:${op * 1.6}"></div>`; });
+    [[260, 300], [700, 560], [1120, 300], [1500, 560], [1700, 820]].forEach(([x, y]) => { h += `<div class="abs" style="left:${x - 130}px;top:${y - 60}px;width:260px;height:120px;background:${C.paper};border-top:7px solid #888;opacity:${op}"></div>`; });
+    return h;
+  }
+  window.E = { ghostBoard, wrap, node, qmark, torn, W, H, FPS, C, clamp, lerp, eo, eio, back, P, lin, vis, fade, esc, hash, fmt, S, shake, clip, clipSrc, still, dim, grad, photo, photoCredit, credit, nameCard, PH,
     tag, card, quote, pollCard, typeText, title, lowerThird, aiLabel, odometer, rollTo, stamp, splitFlap, thread, threadPath, knotAt, icon, iconAt, IC, ausMap, city,
     counter800, hbar, TEX, makeTextures, boardBg,
     setData(clipn, geo) { CLIPN = clipn; GEO = geo; } };
