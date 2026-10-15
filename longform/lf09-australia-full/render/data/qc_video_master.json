@@ -1,0 +1,25 @@
+{
+ "lf09_master_1.28x.mp4": {
+  "width": 1920,
+  "height": 1080,
+  "fps": "30/1",
+  "frames": 18830,
+  "v_dur": 627.666667,
+  "a_dur": 627.697,
+  "fmt_dur": 627.697,
+  "a_rate": "48000",
+  "size_mb": 681.7,
+  "av_diff_frames": 0.91,
+  "black": [],
+  "freeze_starts": [],
+  "flat_frames": 0,
+  "flat_first": [],
+  "frames_scanned": 18830,
+  "min_yavg": 29.9,
+  "loudness": {
+   "I_LUFS": -14.0,
+   "TP_dBTP": -2.5,
+   "LRA": 3.8
+  }
+ }
+}

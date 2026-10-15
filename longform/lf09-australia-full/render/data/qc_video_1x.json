@@ -1,0 +1,25 @@
+{
+ "lf09_1x.mp4": {
+  "width": 1920,
+  "height": 1080,
+  "fps": "30/1",
+  "frames": 24103,
+  "v_dur": 803.433333,
+  "a_dur": 803.458,
+  "fmt_dur": 803.458,
+  "a_rate": "48000",
+  "size_mb": 822.7,
+  "av_diff_frames": 0.74,
+  "black": [],
+  "freeze_starts": [],
+  "flat_frames": 0,
+  "flat_first": [],
+  "frames_scanned": 24103,
+  "min_yavg": 29.9,
+  "loudness": {
+   "I_LUFS": -14.0,
+   "TP_dBTP": -2.5,
+   "LRA": 4.6
+  }
+ }
+}
