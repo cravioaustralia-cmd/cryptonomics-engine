@@ -1,14 +1,14 @@
 # lf09 Is Australia Full? — asset list (PART 8)
 
-Built 15 Oct 2026 (AEDT). Counts: REUSE 27 · NEW 9 · MISSING-fallback 35 (total 71). ParlView: reuse only — none held in prior films, so FT01–FT05 are fallbacks; FT04/FT05 FREE SWAP. No news/agency/NPC footage. Section 8.7 items are built in animation (nothing to collect).
+Updated 15 Oct 2026, 5:45 PM AEDT. Counts: REUSE 27 · NEW 34 · MISSING-fallback 10 (total 71). Raw Atlas VO S01–S44 in audio/vo-raw/ (unprocessed). ParlView FT01–FT05: FREE SWAP. No news/agency/NPC footage. 8.7 items are built in animation.
 
 | ID | file | source URL | licence | credit | status | notes |
 |---|---|---|---|---|---|---|
-| FT01_hanson_maiden_1996 | — | parlview.aph.gov.au | Parliament of Australia broadcast conditions | Parliament of Australia | MISSING-fallback | Not held in any prior film (lf03/lf05 logged ParlView as FREE SWAP). Reuse-only rule: not downloaded. Fallback: Hansard quote card only. |
-| FT02_hanson_senate_2016 | — | parlview.aph.gov.au | as above | Parliament of Australia | MISSING-fallback | Not held previously. Fallback: date card + Senate chamber still (lf05 IMG-senate-chamber.jpg, JJ Harrison CC BY-SA 3.0) — not copied. |
-| FT03_farley_first_speech | — | parlview.aph.gov.au | as above | Parliament of Australia | MISSING-fallback | Not held previously. Fallback: Farrer map + name card. |
-| FT04_burke_qt_sep2026 | — | parlview.aph.gov.au | as above | Parliament of Australia | MISSING-fallback | FREE SWAP (no new ParlView). Fallback: IMG_burke + E12 card. |
-| FT05_haines_qt_sep2026 | — | parlview.aph.gov.au | as above | Parliament of Australia | MISSING-fallback | FREE SWAP (no new ParlView). Fallback: IMG_haines + paraphrase card. |
+| FT01_hanson_maiden_1996 | — | parlview.aph.gov.au | Parliament of Australia broadcast conditions | Parliament of Australia | MISSING-fallback | FREE SWAP per script; Not held in any prior film (lf03/lf05 logged ParlView as FREE SWAP). Reuse-only rule: not downloaded. Fallback: Hansard quote card only. |
+| FT02_hanson_senate_2016 | — | parlview.aph.gov.au | as above | Parliament of Australia | MISSING-fallback | FREE SWAP per script; Not held previously. Fallback: date card + Senate chamber still (lf05 IMG-senate-chamber.jpg, JJ Harrison CC BY-SA 3.0) — not copied. |
+| FT03_farley_first_speech | — | parlview.aph.gov.au | as above | Parliament of Australia | MISSING-fallback | FREE SWAP per script; Not held previously. Fallback: Farrer map + name card. |
+| FT04_burke_qt_sep2026 | — | parlview.aph.gov.au | as above | Parliament of Australia | MISSING-fallback | FREE SWAP per script; FREE SWAP (no new ParlView). Fallback: IMG_burke + E12 card. |
+| FT05_haines_qt_sep2026 | — | parlview.aph.gov.au | as above | Parliament of Australia | MISSING-fallback | FREE SWAP per script; FREE SWAP (no new ParlView). Fallback: IMG_haines + paraphrase card. |
 | IMG_albanese_dfat | images/IMG_albanese_dfat.jpg | https://commons.wikimedia.org/wiki/File:Anthony_Albanese_Official_Portrait.jpg | CC BY 4.0 | David Foote (AUSPIC/DPS), via DFAT | REUSE | from lf05 IMG-albanese-dfat.jpg |
 | IMG_hanson_cc0 | images/IMG_hanson_cc0.jpg | https://commons.wikimedia.org/wiki/File:Pauline_Hanson_2016_01.jpg | CC0 | jfish92 | REUSE | from lf05/lf03 |
 | IMG_burke | images/IMG_burke.jpg | https://commons.wikimedia.org/wiki/File:2025_Tony_Burke_(cropped).jpg | CC BY 4.0 | UK Home Office | NEW | Sept 2025, London; unaltered original |
@@ -30,25 +30,25 @@ Built 15 Oct 2026 (AEDT). Counts: REUSE 27 · NEW 9 · MISSING-fallback 35 (tota
 | BR_STOCK_parliament_house_canberra | footage/BR_STOCK_parliament_house_canberra.mp4 | https://commons.wikimedia.org/wiki/File:Timelapse_of_the_facade_of_Parliament_House_Canberra_Australia.webm | CC BY 3.0 | Jared Drennan | REUSE | lf08 ST05 (end card cut) |
 | BR_STOCK_house_sold_sign | footage/BR_STOCK_house_sold_sign.jpg | https://commons.wikimedia.org/wiki/File:Madeley_parkmore_glenvista_way_with_sale_signs.jpg | CC BY-SA 4.0 | Orderinchaos | REUSE | lf05/lf04; sale signs, not 'SOLD' |
 | BR_STOCK_adelaide_skyline | footage/BR_STOCK_adelaide_skyline.jpg | https://commons.wikimedia.org/wiki/File:Adelaide_skyline,_December_2022.jpg | CC BY-SA 2.0 | Ardash Muradian | REUSE | lf05; STILL in place of mp4 (no free Adelaide video held) |
-| BR_STOCK_airport_arrivals_board | — | Pexels/Pixabay search | — | — | MISSING-fallback | no faceless free clip found; Pexels/Pixabay need a browser download — fetch manually or use a still/AI stand-in |
-| BR_STOCK_rental_inspection_keys | — | Pexels/Pixabay search | — | — | MISSING-fallback | Mixkit keys clips show faces; Pexels/Pixabay need a browser download — fetch manually or use a still/AI stand-in |
-| BR_STOCK_hospital_corridor_empty | — | Pexels/Pixabay search | — | — | MISSING-fallback | none found; Pexels/Pixabay need a browser download — fetch manually or use a still/AI stand-in |
-| BR_STOCK_nurse_corridor_back | — | Pexels/Pixabay search | — | — | MISSING-fallback | none found; Pexels/Pixabay need a browser download — fetch manually or use a still/AI stand-in |
-| BR_STOCK_apartment_cranes | — | Pexels/Pixabay search | — | — | MISSING-fallback | Mixkit cranes clip is Restricted licence; Pexels/Pixabay need a browser download — fetch manually or use a still/AI stand-in |
-| BR_STOCK_passport_desk_generic | — | Pexels/Pixabay search | — | — | MISSING-fallback | none checked faceless; Pexels/Pixabay need a browser download — fetch manually or use a still/AI stand-in |
-| BR_STOCK_orchard_ladders | — | Pexels/Pixabay search | — | — | MISSING-fallback | none found; Pexels/Pixabay need a browser download — fetch manually or use a still/AI stand-in |
-| BR_STOCK_empty_lectern_microphone | — | Pexels/Pixabay search | — | — | MISSING-fallback | none found; Pexels/Pixabay need a browser download — fetch manually or use a still/AI stand-in |
-| BR_STOCK_lecture_hall_empty | — | Pexels/Pixabay search | — | — | MISSING-fallback | none found; Pexels/Pixabay need a browser download — fetch manually or use a still/AI stand-in |
-| BR_STOCK_graduation_caps_air | — | Pexels/Pixabay search | — | — | MISSING-fallback | Mixkit results show faces; Pexels/Pixabay need a browser download — fetch manually or use a still/AI stand-in |
-| BR_STOCK_country_pub_exterior | — | Pexels/Pixabay search | — | — | MISSING-fallback | none found; Pexels/Pixabay need a browser download — fetch manually or use a still/AI stand-in |
-| BR_STOCK_motel_sign_dusk | — | Pexels/Pixabay search | — | — | MISSING-fallback | none found; Pexels/Pixabay need a browser download — fetch manually or use a still/AI stand-in |
-| BR_AI_canberra_dawn_fog | — | Grok Imagine (broll/AI_PROMPTS.tsv) | AI-generated | — | MISSING-fallback | To generate; not made here |
-| BR_AI_outback_aerial_empty | — | Grok Imagine (broll/AI_PROMPTS.tsv) | AI-generated | — | MISSING-fallback | To generate; not made here |
-| BR_AI_1990s_lounge_tv_glow | — | Grok Imagine (broll/AI_PROMPTS.tsv) | AI-generated | — | MISSING-fallback | To generate; not made here |
-| BR_AI_election_night_empty_hall | — | Grok Imagine (broll/AI_PROMPTS.tsv) | AI-generated | — | MISSING-fallback | To generate; not made here |
-| BR_AI_cafe_empty_morning | — | Grok Imagine (broll/AI_PROMPTS.tsv) | AI-generated | — | MISSING-fallback | To generate; not made here |
-| BR_AI_strategy_room_whiteboard | — | Grok Imagine (broll/AI_PROMPTS.tsv) | AI-generated | — | MISSING-fallback | To generate; not made here |
-| BR_AI_thumbnail_bg | — | Grok Imagine (broll/AI_PROMPTS.tsv) | AI-generated | — | MISSING-fallback | To generate; not made here |
+| BR_STOCK_airport_arrivals_board | footage/stock/BR_STOCK_airport_arrivals_board.mp4 | https://www.pexels.com/video/low-angle-view-of-flight-schedules-on-a-board-4684084/ | Pexels License | Taryn Elliott | NEW | Pexels, supplied by user 15 Oct |
+| BR_STOCK_rental_inspection_keys | footage/stock/BR_STOCK_rental_inspection_keys.mp4 | https://www.pexels.com/video/hand-holding-keys-over-money-and-mini-house-model-31400388/ | Pexels License | Jakub Zerdzicki | NEW | Pexels, supplied by user 15 Oct |
+| BR_STOCK_hospital_corridor_empty | footage/stock/BR_STOCK_hospital_corridor_empty.mp4 | https://www.pexels.com/video/an-empty-hospital-hallway-5203510/ | Pexels License | Enrique Silva | NEW | Pexels, supplied by user 15 Oct |
+| BR_STOCK_nurse_corridor_back | footage/stock/BR_STOCK_nurse_corridor_back.mp4 | https://www.pexels.com/video/medical-worker-walking-in-the-hallway-8381605/ | Pexels License | Pavel Danilyuk | NEW | Pexels, supplied by user 15 Oct |
+| BR_STOCK_apartment_cranes | footage/stock/BR_STOCK_apartment_cranes.mp4 | https://www.pexels.com/video/high-rise-construction-with-cranes-38871857/ | Pexels License | Kiwi and Camera | NEW | Pexels, supplied by user 15 Oct |
+| BR_STOCK_passport_desk_generic | footage/stock/BR_STOCK_passport_desk_generic.mp4 | https://www.pexels.com/video/passport-on-top-of-a-laptop-7308237/ | Pexels License | RDNE Stock project | NEW | Pexels, supplied by user 15 Oct (mp4, script ID was .jpg) |
+| BR_STOCK_orchard_ladders | — | Pexels/Pixabay search | — | — | MISSING-fallback | Script fallback: regional map / IMG_haines + card |
+| BR_STOCK_empty_lectern_microphone | — | Pexels/Pixabay search | — | — | MISSING-fallback | Script fallback: Parliament House stock / BR_AI_election_night_empty_hall |
+| BR_STOCK_lecture_hall_empty | footage/stock/BR_STOCK_lecture_hall_empty.mp4 | https://www.pexels.com/video/an-empty-classroom-8342689/ | Pexels License | Pavel Danilyuk | NEW | Pexels, supplied by user 15 Oct |
+| BR_STOCK_graduation_caps_air | — | Pexels/Pixabay search | — | — | MISSING-fallback | Script fallback: BR_STOCK_university_campus_aerial / lecture hall |
+| BR_STOCK_country_pub_exterior | — | Pexels/Pixabay search | — | — | MISSING-fallback | Script fallback: regional map + name/paraphrase card |
+| BR_STOCK_motel_sign_dusk | — | Pexels/Pixabay search | — | — | MISSING-fallback | Script fallback: regional map + card |
+| BR_AI_canberra_dawn_fog | broll/BR_AI_canberra_dawn_fog.mp4 | Grok Imagine | AI-generated | AI-generated (Grok Imagine) | NEW | 720p, 10 s, Grok watermark bottom-right: crop/cover |
+| BR_AI_outback_aerial_empty | broll/BR_AI_outback_aerial_empty.mp4 | Grok Imagine | AI-generated | AI-generated (Grok Imagine) | NEW | 720p, 10 s, Grok watermark bottom-right: crop/cover |
+| BR_AI_1990s_lounge_tv_glow | broll/BR_AI_1990s_lounge_tv_glow.mp4 | Grok Imagine | AI-generated | AI-generated (Grok Imagine) | NEW | 720p, 10 s, Grok watermark bottom-right: crop/cover |
+| BR_AI_election_night_empty_hall | broll/BR_AI_election_night_empty_hall.mp4 | Grok Imagine | AI-generated | AI-generated (Grok Imagine) | NEW | 720p, 10 s, Grok watermark bottom-right: crop/cover |
+| BR_AI_cafe_empty_morning | broll/BR_AI_cafe_empty_morning.mp4 | Grok Imagine | AI-generated | AI-generated (Grok Imagine) | NEW | 720p, 10 s, Grok watermark bottom-right: crop/cover |
+| BR_AI_strategy_room_whiteboard | broll/BR_AI_strategy_room_whiteboard.mp4 | Grok Imagine | AI-generated | AI-generated (Grok Imagine) | NEW | 720p, 10 s, Grok watermark bottom-right: crop/cover |
+| BR_AI_thumbnail_bg | broll/BR_AI_thumbnail_bg.png | Grok Imagine | AI-generated | AI-generated (Grok Imagine) | NEW | Rough, garbled text; optional |
 | MUS_01_tense_pulse | audio/music/MUS_01_tense_pulse.mp3 | https://mixkit.co/free-stock-music/moon-walk/ | Mixkit Stock Music Free License | Moon Walk — Eugenio Mininni | REUSE | lf08 MUS01; Mixkit not Pixabay (reuse); byte copy |
 | MUS_02_investigative | audio/music/MUS_02_investigative.mp3 | see lf08 audio/MUSIC_CREDITS.md (MUS04) | Mixkit Stock Music Free License | (lf08 MUS04_investigation) — Mixkit | REUSE | lf08 MUS04; Mixkit not Pixabay (reuse); byte copy |
 | MUS_03_archival | audio/music/MUS_03_archival.mp3 | see lf08 audio/MUSIC_CREDITS.md (MUS02) | Mixkit Stock Music Free License | (lf08 MUS02_history_strings) — Mixkit | REUSE | lf08 MUS02; Mixkit not Pixabay (reuse); byte copy |
@@ -57,21 +57,21 @@ Built 15 Oct 2026 (AEDT). Counts: REUSE 27 · NEW 9 · MISSING-fallback 35 (tota
 | MUS_06_tense_resolve | audio/music/MUS_06_tense_resolve.mp3 | see lf08 audio/MUSIC_CREDITS.md (MUS11) | Mixkit Stock Music Free License | (lf08 MUS11_closing) — Mixkit | REUSE | lf08 MUS11; Mixkit not Pixabay (reuse); byte copy |
 | SFX_bass_impact | audio/sfx/SFX_bass_impact.wav | see lf08 audio/MUSIC_CREDITS.md (SFX11_boom) | as lf08 (Mixkit SFX Free / Freesound CC0 / Pixabay) | as lf08 credits | REUSE | SFX11_boom converted mp3→wav (no edit) |
 | SFX_tick_roll | audio/sfx/SFX_tick_roll.wav | see lf08 audio/MUSIC_CREDITS.md (SFX06_tick) | as lf08 (Mixkit SFX Free / Freesound CC0 / Pixabay) | as lf08 credits | REUSE | SFX06_tick converted mp3→wav (no edit) |
-| SFX_slot_roll | — | Pixabay / Freesound CC0 | — | — | MISSING-fallback | Pixabay/Freesound downloads need browser/login; fetch manually |
-| SFX_split_flap | — | Pixabay / Freesound CC0 | — | — | MISSING-fallback | Pixabay/Freesound downloads need browser/login; fetch manually |
+| SFX_slot_roll | audio/sfx/SFX_slot_roll.mp3 | https://pixabay.com/sound-effects/film-special-effects-slot-machine-reels-sound-30276/ | Pixabay Content License | freesound_community | NEW | Pixabay, supplied by user 15 Oct (mp3) |
+| SFX_split_flap | audio/sfx/SFX_split_flap.mp3 | https://pixabay.com/sound-effects/city-split-flap-display-58766/ | Pixabay Content License | freesound_community | NEW | Pixabay, supplied by user 15 Oct (mp3) |
 | SFX_stamp | audio/sfx/SFX_stamp.wav | see lf08 audio/MUSIC_CREDITS.md (SFX19_stamp) | as lf08 (Mixkit SFX Free / Freesound CC0 / Pixabay) | as lf08 credits | REUSE | SFX19_stamp converted mp3→wav (no edit) |
 | SFX_marker | audio/sfx/SFX_marker.wav | see lf08 audio/MUSIC_CREDITS.md (SFX20_marker) | as lf08 (Mixkit SFX Free / Freesound CC0 / Pixabay) | as lf08 credits | REUSE | SFX20_marker converted mp3→wav (no edit) |
 | SFX_shutter | audio/sfx/SFX_shutter.wav | see lf08 audio/MUSIC_CREDITS.md (SFX12_shutter) | as lf08 (Mixkit SFX Free / Freesound CC0 / Pixabay) | as lf08 credits | REUSE | SFX12_shutter converted mp3→wav (no edit) |
-| SFX_thread_snap | — | Pixabay / Freesound CC0 | — | — | MISSING-fallback | Pixabay/Freesound downloads need browser/login; fetch manually |
+| SFX_thread_snap | audio/sfx/SFX_thread_snap.mp3 | https://pixabay.com/sound-effects/film-special-effects-rope-sound-effect-272812/ | Pixabay Content License | soundreality | NEW | Pixabay, supplied by user 15 Oct (mp3) |
 | SFX_paper_slide | audio/sfx/SFX_paper_slide.wav | see lf08 audio/MUSIC_CREDITS.md (SFX18_paper) | as lf08 (Mixkit SFX Free / Freesound CC0 / Pixabay) | as lf08 credits | REUSE | SFX18_paper converted mp3→wav (no edit) |
 | SFX_whoosh_set | audio/sfx/SFX_whoosh_set.wav | see lf08 audio/MUSIC_CREDITS.md (SFX05_whoosh) | as lf08 (Mixkit SFX Free / Freesound CC0 / Pixabay) | as lf08 credits | REUSE | SFX05_whoosh converted mp3→wav (no edit) |
-| SFX_chain_rattle | — | Pixabay / Freesound CC0 | — | — | MISSING-fallback | Pixabay/Freesound downloads need browser/login; fetch manually |
-| SFX_padlock_break | — | Pixabay / Freesound CC0 | — | — | MISSING-fallback | Pixabay/Freesound downloads need browser/login; fetch manually |
-| SFX_receipt_printer | — | Pixabay / Freesound CC0 | — | — | MISSING-fallback | Pixabay/Freesound downloads need browser/login; fetch manually |
+| SFX_chain_rattle | audio/sfx/SFX_chain_rattle.mp3 | https://pixabay.com/sound-effects/film-special-effects-chain-6073/ | Pixabay Content License | freesound_community | NEW | Pixabay, supplied by user 15 Oct (mp3) |
+| SFX_padlock_break | audio/sfx/SFX_padlock_break.mp3 | https://pixabay.com/sound-effects/household-locked-door-being-forced-open-85088/ | Pixabay Content License | freesound_community | NEW | Pixabay, supplied by user 15 Oct (mp3) |
+| SFX_receipt_printer | audio/sfx/SFX_receipt_printer.mp3 | https://pixabay.com/sound-effects/technology-receipt-printer-01-43872/ | Pixabay Content License | freesound_community | NEW | Pixabay, supplied by user 15 Oct (mp3) |
 | SFX_clock_ticks | audio/sfx/SFX_clock_ticks.wav | see lf08 audio/MUSIC_CREDITS.md (lf07 SFX24_countdown_tick) | as lf08 (Mixkit SFX Free / Freesound CC0 / Pixabay) | as lf08 credits | REUSE | lf07 SFX24_countdown_tick converted mp3→wav (no edit) |
 | SFX_jet_soft | audio/sfx/SFX_jet_soft.wav | see lf08 audio/MUSIC_CREDITS.md (SFX09_jet) | as lf08 (Mixkit SFX Free / Freesound CC0 / Pixabay) | as lf08 credits | REUSE | SFX09_jet converted mp3→wav (no edit) |
-| SFX_heartbeat | — | Pixabay / Freesound CC0 | — | — | MISSING-fallback | Pixabay/Freesound downloads need browser/login; fetch manually |
-| SFX_lamp_click | — | Pixabay / Freesound CC0 | — | — | MISSING-fallback | Pixabay/Freesound downloads need browser/login; fetch manually |
-| SFX_glass_clink | — | Pixabay / Freesound CC0 | — | — | MISSING-fallback | Pixabay/Freesound downloads need browser/login; fetch manually |
-| SFX_drone_low | — | Pixabay / Freesound CC0 | — | — | MISSING-fallback | Pixabay/Freesound downloads need browser/login; fetch manually |
-| SFX_room_tone | — | Pixabay / Freesound CC0 | — | — | MISSING-fallback | Pixabay/Freesound downloads need browser/login; fetch manually |
+| SFX_heartbeat | audio/sfx/SFX_heartbeat.mp3 | https://pixabay.com/sound-effects/film-special-effects-heartbeat-sound-372448/ | Pixabay Content License | Dragon Studio | NEW | Pixabay, supplied by user 15 Oct (mp3) |
+| SFX_lamp_click | audio/sfx/SFX_lamp_click.mp3 | https://pixabay.com/sound-effects/household-light-switch-382712/ | Pixabay Content License | Dragon Studio | NEW | Pixabay, supplied by user 15 Oct (mp3) |
+| SFX_glass_clink | audio/sfx/SFX_glass_clink.mp3 | https://pixabay.com/sound-effects/film-special-effects-glass-clink-57538/ | Pixabay Content License | freesound_community | NEW | Pixabay, supplied by user 15 Oct (mp3) |
+| SFX_drone_low | audio/sfx/SFX_drone_low.mp3 | https://pixabay.com/sound-effects/film-special-effects-deep-haunting-drone-482880/ | Pixabay Content License | Dragon Studio | NEW | Pixabay, supplied by user 15 Oct (mp3) |
+| SFX_room_tone | audio/sfx/SFX_room_tone.mp3 | https://pixabay.com/sound-effects/film-special-effects-room-tone-42-74466/ | Pixabay Content License | freesound_community | NEW | Pixabay, supplied by user 15 Oct (mp3) |
