@@ -27,7 +27,7 @@ Alternates: `A COUNTRY INSIDE WA` · `PRINCE OF A WHEAT FARM`
 The last line is intentionally unresolved; it should loop back to "In 1970, a West Australian farmer quit Australia…".
 
 ## VO
-Seated at `audio/vo.mp3` (Atlas, raw). Do not re-record. You decide all pacing and mix.
+Seated at `audio/vo.mp3` (Atlas, raw, 48.048 s). Do not re-record. Claude owns pacing and mix.
 
 ## Assets (credits in SOURCES.md, images/SOURCES.md; facts in FACT_NOTES.md)
 - images/ — 21 Commons files (PD/CC0/CC BY/CC BY-SA): leonard_casley_at_hutt_river_province(_cropped_).jpg, prince_leonard_bust_14389745770_.jpg, oic_hutt_river_prince_leonard_statue.jpg, border_of_hutt_river_province.jpg, passport_control_at_hutt_river_province.jpg, oic_hutt_river_buildings.jpg, oic_hutt_river_views.jpg, hrp3.jpg, hutt_banner.jpg, hutt_river_flag.svg, hutt_river_seal.svg, hutt_river_province_coin_1991.jpg, hutt_river_province_five_dollars_coin_1/2.jpg, hutt_river_province_twenty_dollars_coin_1/2.jpg, huttriverprovince_brx11_30dollars_1979.jpg, uk_passport_with_stamps_from_hutt_river_province.jpg, visa_stamp_for_principality_of_hutt_river.jpg, locationphr.svg
