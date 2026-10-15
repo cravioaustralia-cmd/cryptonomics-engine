@@ -190,7 +190,8 @@
     const icons = [['calendar', 'DATES', tD], ['hash', 'NUMBERS', tN], ['quotes', 'QUOTES', tQ]];
     const line = P(t, tOrd, 0.5, eio); const iconsOut = P(t, tBut, 0.5);
     icons.forEach(([ic, lab, t0], i) => {
-      const p = P(t, t0, 0.3, back); if (t < t0) return;
+      if (t < t0) { const g = P(t, c.start + 0.3 + i * 0.25, 0.5) * (1 - iconsOut); h += `<div class="abs" style="left:${960 + (i - 1) * 320 - 110}px;top:310px;width:220px;text-align:center;opacity:${0.22 * g}">${E.icon(ic, { s: 130, sw: 1.4 })}<div style="font:800 30px Inter;letter-spacing:4px;color:#fff;margin-top:8px">${lab}</div></div>`; return; }
+      const p = P(t, t0, 0.3, back);
       const x = lerp(960 + (i - 1) * 320, 560 + i * 400, line), y = lerp(420, 300, line);
       h += `<div class="abs" style="left:${x - 110}px;top:${y - 110}px;width:220px;text-align:center;transform:scale(${p});opacity:${1 - iconsOut}">${E.icon(ic, { s: 130, sw: 1.4 })}<div style="font:800 30px Inter;letter-spacing:4px;color:#fff;margin-top:8px">${lab}</div></div>`;
     });

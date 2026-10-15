@@ -77,7 +77,7 @@ if (mode === 'stills') {
     await page.close(); return part;
   });
   const parts = (await Promise.all(jobs)).filter(Boolean);
-  fs.writeFileSync(path.join(tmp, 'list.txt'), parts.map((p) => `file '${p}'`).join('\n'));
+  fs.writeFileSync(path.join(tmp, 'list.txt'), parts.map((p) => `file '${path.resolve(p)}'`).join('\n'));
   await new Promise((r, j) => spawn('ffmpeg', ['-v', 'error', '-y', '-f', 'concat', '-safe', '0', '-i', path.join(tmp, 'list.txt'), '-c', 'copy', out], { stdio: 'inherit' }).on('exit', (c) => (c === 0 ? r() : j(new Error('concat')))));
   console.log('done', out, ((Date.now() - t0) / 1000).toFixed(0) + 's', 'frames', f1 - f0);
 }

@@ -106,7 +106,7 @@
       const meet = P(t, tDrew, 0.6, eio);
       h += `<div class="abs" style="left:250px;top:420px;font:800 28px Inter;letter-spacing:3px;color:#fff">NATIONAL POLL · JAN 2026</div>`;
       [['ONE NATION', C.on, 470], ['COALITION', C.coal, 600]].forEach(([n, col, y], i) => {
-        const v = 23 * (i === 0 ? meet : P(t, c.start + 0.4, 0.6, eio));
+        const v = 23 * (i === 0 ? P(t, c.start + 0.3, Math.max(0.6, tDrew + 0.6 - c.start - 0.3), eio) : P(t, c.start + 0.3, 0.7, eio));
         h += E.hbar({ x: 500, y, w: 900, h: 90, val: v / 32, col, label: n, valText: Math.round(v) + '%', fs: 28, vfs: 60 });
       });
       if (t > tDrew + 0.5) h += `<div class="abs" style="left:${500 + 900 * 23 / 32 - 3}px;top:450px;width:6px;height:260px;background:#fff;opacity:${1 - lin(t, tDrew + 0.5, 1.2) * 0.6};box-shadow:0 0 20px #fff"></div>`;

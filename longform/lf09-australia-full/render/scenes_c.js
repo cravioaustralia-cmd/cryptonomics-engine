@@ -164,7 +164,7 @@
       const fl = lin(t, tDrop + 0.3, 0.5);
       if (fl > 0 && fl < 1) s += `<div class="abs" style="left:${X(0.5) - 120}px;top:${Y(28.5) - 120}px;width:240px;height:240px;border-radius:50%;background:radial-gradient(circle,rgba(255,255,255,${1 - fl}),transparent 65%)"></div>`;
       h += `<div class="abs full" style="opacity:${cp}">${s}<div class="abs" style="left:260px;top:120px;font:800 30px Inter;letter-spacing:3px;color:#fff">NEWSPOLL · PRIMARY VOTE</div>
-        ${E.pollCard(t, { x: 1640, y: 250, w: 470, t0: tThree + 1.5, pollster: 'NEWSPOLL · 5–8 OCT 2026', when: 'vs 14–17 Sep 2026', n: 'n = 1,241', rows: [{ party: 'Labor', val: '29 (27)', col: C.lab }, { party: 'One Nation', val: '28 (30)', col: C.on }, { party: 'Coalition', val: '20 (19)', col: C.coal }, { party: 'Greens', val: '14', col: C.grn }], src: 'Newspoll / The Australian, via The Conversation (11 Oct 2026) and The New Daily (12 Oct 2026); Sep figures from the previous film’s register' })}</div>`;
+        ${E.pollCard(t, { x: 1640, y: 250, w: 470, t0: tHere + 0.9, pollster: 'NEWSPOLL · 5–8 OCT 2026', when: 'vs 14–17 Sep 2026', n: 'n = 1,241', rows: [{ party: 'Labor', val: '29 (27)', col: C.lab }, { party: 'One Nation', val: '28 (30)', col: C.on }, { party: 'Coalition', val: '20 (19)', col: C.coal }, { party: 'Greens', val: '14', col: C.grn }], src: 'Newspoll / The Australian, via The Conversation (11 Oct 2026) and The New Daily (12 Oct 2026); Sep figures from the previous film’s register' })}</div>`;
       h += E.stamp(t, tAll, 'ALL THREE IN THE 20s', { x: 820, y: 560, fs: 70, rot: -6, sub: 'FIRST TIME ON RECORD', bg: 'rgba(18,18,18,.85)', amp: 5 });
       if (t >= tAll) h += E.tag('FACT', { x: 1100, y: 640, note: 'Newspoll' });
     }
