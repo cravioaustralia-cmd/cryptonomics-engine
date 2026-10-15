@@ -191,3 +191,8 @@ Unpacked 6 Grok VOs into shorts/incoming-vo/. #01 matches finished Skylab Short;
 ## 2026-09-30T20:55+10:00 — s24 Burke & Wills (Atlas VO held)
 - Held Atlas en-AU `audio/vo.mp3` (**39.168 s**) from `/home/box/Downloads/s24_burke_wills_atlas_fast.mp3` (also `/workspace/deliverables/s24-burke-wills/vo-raw/vo-atlas.mp3`)
 - Ready for Claude Whisper / seam retune; incomplete loop on `…story of how`
+
+## 2026-10-15 — s33 Hutt River (Claude build)
+- Episode: `shorts/s33-hutt-river/` · render in `render/` (scenes.js, render.mjs, config.json, build_data.py)
+- Final: `final/s33-hutt-river.mp4` (1080×1920, 30 fps, 48.05 s, −14 LUFS)
+- Shared engine: `capture.mjs` now serves `.svg` and `/render/*`, accepts `imgDir`, has a stills mode for contact sheets, waits for `EPISODE.assetsReady`, and honours `CHROMIUM_PATH`

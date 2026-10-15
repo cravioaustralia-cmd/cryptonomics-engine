@@ -1,3 +1,4 @@
 # s33 LOG
 - 2026-10-15 18:30 AEDT — Scaffold: script copied verbatim, 21 Commons images (all PD/CC), Natural Earth AUS data, music (Kevin MacLeod CC BY), 4 Mixkit SFX, sources verified 5/5 PASS. VO pending at audio/vo.mp3 (Atlas). render/ empty for Claude Code.
 - 2026-10-15 18:17 AEDT — Atlas VO seated, raw, duration 48.048 s, 768768 bytes.
+- 2026-10-15 — Claude build: Whisper word timings (faster-whisper small.en) → transcript.json; 10-beat SVG motion build on Commons photos (gate hook + border ring, wheat grid 4,000→~40 ha, calendar + flag raise, Natural Earth map zoom with true-scale 75 km² and Perth route, crown on bust, stamp/coin/passport collage, 1977 war vs continent + HOSTILITIES CEASED, recognition globe + A$2.7m tax ledger + UNPAID, 2020 flag lowering, rewind 2020→1970 into the frame-1 composition for the loop). VO timing kept as recorded. Mix: ducked music + 14 SFX, −14 LUFS. Final at final/s33-hutt-river.mp4. Not uploaded, not merged.
