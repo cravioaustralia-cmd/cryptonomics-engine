@@ -1,0 +1,8 @@
+===== S01 (ATLAS) =====
+Generate a downloadable MP3 voiceover in Grok Atlas voice, Australian English accent, natural documentary narration, warm, human and conversational, not robotic. Do not read stage directions or this instruction. Do not say the words pause, soft or slow. Read quotes plainly and neutrally, never as an impression. Delivery for this segment: hook mode, urgent and clipped. A blank line in the text is a short natural beat, not a spoken word. Pronunciation: Albanese is al-buh-NEE-zee; Canberra is CAN-bruh; Newspoll is NEWS-poll, one word; years such as twenty twenty-six are said exactly as written, never two thousand and. Speak only the narration below:
+
+On a Monday in June, twenty twenty-six, a Newspoll landed in Canberra like a bomb.
+
+Pauline Hanson’s One Nation was on thirty-one percent of the primary vote.
+
+Anthony Albanese’s Labor government was on thirty percent.

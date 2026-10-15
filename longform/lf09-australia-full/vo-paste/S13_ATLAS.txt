@@ -1,0 +1,10 @@
+===== S13 (ATLAS) =====
+Generate a downloadable MP3 voiceover in Grok Atlas voice, Australian English accent, natural documentary narration, warm, human and conversational, not robotic. Do not read stage directions or this instruction. Do not say the words pause, soft or slow. Read quotes plainly and neutrally, never as an impression. Delivery for this segment: story mode, warm documentary narrator. A blank line in the text is a short natural beat, not a spoken word. Speak only the narration below:
+
+The speech made her famous, and in much of the country, it made her untouchable.
+
+Both major parties preferenced against her.
+
+Commentators called her views racist.
+
+For two decades, being seen near Hanson was treated as political poison.

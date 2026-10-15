@@ -1,0 +1,3075 @@
+IF AUSTRALIA… / Long-form — Production Script
+(FINAL)
+
+Is Australia Full? Is Pauline Hanson Shaping
+Albanese’s Immigration Debate?
+Format: long-form, 16:9, 1920×1080, 30 fps Runtime: about 13½–14 minutes (≈1,800
+narrated words at 120–155 wpm, plus about 30 seconds of pauses and a 15-second end
+screen) Mid-roll ad breaks: 3 (after S15, S27 and S36). Each one lands on a cliffhanger.
+Voice: Grok TTS, voice Atlas (single narrator, the same as the rest of the channel). Delivery
+direction is in every segment. The paste-ready text is in Part 6. Media budget: $0. Every
+clip, photo, sound and track comes from a free source (Part 8). There is no news-network or
+agency footage. Continuity: this is the fourth film in the series, after The Pauline Hanson
+Story, From Council Flat to The Lodge and Can Albanese Stop Pauline Hanson?. It reuses
+their visual language, the red thread and several of their assets (marked REUSE). Research
+cut-off: 15 October 2026. Re-check polls, the Albanese speech wording and the Joyce
+quote on publish day (Part 10).
+
+This single file contains everything needed to produce the video:
+
+   packaging, and the legal, balance and safety rules;
+
+   the visual system and the voice pacing;
+
+   the full shot-by-shot script, with narration, footage, animated images, B-roll and word-
+   synced animation cues;
+
+   the Grok voiceover text and the evidence wording;
+
+   the asset collection list, the on-screen numbers, the publish-day checks and the
+   disclaimer.
+
+
+
+
+PART 1: Packaging
+Title (final): Is Australia Full? Is Pauline Hanson Shaping Albanese’s Immigration Debate?
+
+Thumbnail (final text): IS ALBANESE COPYING HANSON?
+   Left: the freely licensed Albanese photo (DFAT, CC BY 4.0, REUSE). Pick the most
+   serious or pensive expression available, with a hand to the chin if a free photo exists.
+   Crop and grade only; never alter the face.
+
+   Right: the CC0 Hanson portrait (REUSE, “Pauline Hanson 2016 01.jpg”), angled toward
+   the centre.
+
+   Centre: a cracked dark map of Australia with a glowing red “800 / DAY” counter. Four
+   pinned polaroids are linked by red string: an airport arrivals board, a “SOLD” auction
+   sign, cranes over apartments, and a graduation cap.
+
+   Bottom: Parliament House at a red-orange sunset (free stock, REUSE).
+
+   Text: two lines, “IS ALBANESE” in white and “COPYING HANSON?” in yellow #FFD60A,
+   heavy condensed sans, red #C0161E outline and drop shadow.
+
+   Never: no crowds or queues of people, no AI-generated or altered faces, no party logos.
+
+Chapters (adjust to the final render) 0:00 The question 1:10 Chapter 1: The numbers 3:05
+Chapter 2: Hanson’s thirty-year argument 4:25 Chapter 3: The rise 5:45 Chapter 4: The
+pattern 8:05 Chapter 5: The case against “copying” 9:50 Chapter 6: Who pays? 11:25
+Chapter 7: The twist 12:55 Is Albanese copying Hanson?
+
+Description (top): the disclaimer (Part 11), then chapters, then sources (Part 7), then media
+credits (fill in from Part 8 as items are collected), then: “Some background scenes are AI-
+generated reconstructions. No real person has been AI-generated or altered.”
+
+Pinned comment: “You’ve seen the timeline. Is Albanese copying Hanson, or taking her
+issue away from her? And is Australia full?     ”
+
+
+
+
+PART 2: Rules (apply to every frame)
+
+Evidence, balance and law
+1. Every factual claim appears on screen with its source and date as it’s spoken (Part 7
+   has the exact wording).
+
+2. The four labels. Every evidence card and key line carries one corner label:
+
+       FACT (white): verified events, official statistics, results and published polls.
+
+       CLAIM (orange outline): what a person or party says, including every party’s policy
+       promise and every quote about a rival.
+
+       ANALYSIS (blue): an attributed interpretation, or one of our own calculations
+        (always marked “our calculation”).
+
+        SPECULATION (grey, dashed): what could be happening. Used only in Chapter 7
+        and the closing.
+
+ 3. “Copying” is always a question, never a statement. No card, title or caption says that
+    Albanese copied Hanson. The pattern board shows dates and time gaps only. The
+    PATTERN ≠ PROOF stamp appears in S27, and the CORRELATION ≠ CAUSATION
+    stamp appears in S38.
+
+ 4. Equal weight. Chapter 5 (Labor’s case) gets the same visual production value as
+    Chapter 4 (the pattern). Every party’s plan is shown with the same bar style.
+
+ 5. Every poll card shows the pollster, fieldwork dates, the sample size where known, and
+    the line “One poll is a snapshot, not a verdict.”
+
+ 6. No motives are invented. Where a motive isn’t documented, the script shows the
+    action and attributes any interpretation.
+
+ 7. Exact quotes only inside quotation marks, always with speaker, source and date.
+    Everything else is paraphrased.
+
+ 8. ParlView footage is used in fair, in-context excerpts (never cut mid-sentence), credited
+    “Parliament of Australia”, under Parliament’s broadcast conditions. Hold written
+    confirmation from ParlView before publishing (REUSE the confirmation from the earlier
+    films if it covers the channel).
+
+ 9. A final review of the cut by an Australian media lawyer before publishing.
+
+
+People and respect (migration-specific)
+10. No AI-generated, drawn, animated or altered likeness of any real person. Real
+    people appear only in real photos and ParlView footage (crop, scale, grade and position
+    only).
+
+11. Migration is never shown as a threat. There are no “flood” or “wave” visuals, no
+    arrows of people invading the map, and no crowds or queues of migrants. The 800/DAY
+    counter uses neutral white points of light, never people.
+
+12. No icons, illustrations, clothing or symbols representing any ethnic, national or
+    religious group. Stock with visible faces in public places is blurred or avoided.
+
+13. Show migration through objects and places: arrivals boards, suitcases, passports
+    (generic, no country), cranes, homes, campuses, cafés, orchards, hospitals.
+
+14. Quiet moments with slow, minimal motion and no comic effects: S12 (the 1996 quote),
+    S14 (the 2016 footage) and S43 (the thirty-year line).
+
+15. A small “Dramatised reconstruction” label the first time AI B-roll appears (S01).
+
+
+
+
+PART 3: The visual system
+
+3.1 Five layers
+
+                                                                                      Share of
+  Layer                         Job
+                                                                                      runtime
+
+        Real event footage      Proof you can watch: the 1996 and 2016                about
+  (ParlView)                    speeches, Question Time on migration                  10%
+
+        Animated free                                                                 about
+                                People and places, always moving
+  images                                                                              25%
+
+                                Poll results, ABS figures, quotes and policy lines,   about
+        Evidence cards
+                                highlighted as spoken                                 20%
+
+        The pattern board,      The backbone: dated nodes, time gaps, poll lines      about
+  data and maps                 and migration charts                                  30%
+
+        B-roll (free stock or                                                         about
+                                Atmosphere where nothing real exists
+  AI)                                                                                 15%
+
+
+The animation layer runs on top of every layer: motion graphics that react to the narration
+word by word (the cue tables in Part 5).
+
+
+3.2 The golden rule
+Something on screen reacts to the voice every 1–2 seconds. No image ever sits still.
+Every photo enters with a move from 3.5 and keeps drifting until it leaves. The only
+exceptions are the quiet moments (S12, S14, S43).
+
+
+3.3 The red thread (REUSE, series signature)
+    The red string (#C0161E) starts in S01 on the June 2026 poll card.
+
+    Every new event: the thread pulls the next card, photo or clip in from off-screen and
+    ties a small knot on it.
+
+    When one event sits close in time to another, the thread stretches between them and
+   a gap label appears (”+0 DAYS”, “+3 DAYS”).
+
+   In S11, the thread yanks the camera back to 1996, and in S43 it reaches from 1996 all
+   the way to 2026.
+
+
+3.4 The pattern board (new, the backbone of this film)
+   A horizontal timeline from Dec 2023 to Oct 2026 on dark paper (#121212 with a subtle
+   paper texture). It’s built in Chapter 3, completed in Chapter 4 and extended left in
+   Chapter 5.
+
+   Three tracks, one above another:
+
+        ONE NATION (orange #F28C28, top): polls and policy moves.
+
+        LABOR GOVERNMENT (red #D62828, middle): announcements and decisions.
+
+        COALITION (blue #1F4E9E, bottom): policy moves.
+
+   Nodes: small paper cards with the date in small caps, a three-to-six-word title, a
+   thumbnail and a corner label.
+
+   Gap labels: when the thread links an orange node to a later red or blue node, a white pill
+   shows the time gap (”+3 DAYS”). Gap labels show time only, never an arrow implying
+   cause.
+
+   The grey track (Chapter 5): in S27 the board slides right and a grey section (2023–
+   2024) is revealed on the left, showing that Labor’s cuts began before One Nation’s rise.
+
+   Camera: dolly left to right through the board, diving into nodes for evidence cards and
+   pulling back out.
+
+
+3.5 Image animation moves (REUSE, used in every                   image sequence)
+
+ Code           Move          How it looks                                       Sound
+
+                                                                                 Camera-
+                              A white-bordered photo falls onto the board
+ DROP           Photo drop                                                       shutter
+                              with a slight tilt and shadow
+                                                                                 click
+
+                Polaroid      2–4 photos land one on top of another, each        A click per
+ STACK
+                stack         slightly rotated                                   photo
+
+                Ken Burns     Slow push or pan with the foreground separated     Low
+ PAN
+                + parallax    for 2.5D depth                                     whoosh
+
+                              A hand-drawn red circle or underline draws
+  CIRCLE        Marker         around a detail                                   Marker
+                circle                                                           squeak
+
+
+  CALLOUT       Label pop      A label or arrow pops out pointing to something   Pop
+
+                Document       The camera dives into a document to one line,     Page turn +
+  ZOOM
+                zoom           and a highlighter swipes across it                swipe
+
+                Pin to         The photo shrinks and snaps onto its node or
+  PIN                                                                            Thunk
+                board          map location
+
+                Side by        Two photos slide in from opposite sides and       Whoosh +
+  SPLIT
+                side           lock together                                     click
+
+                               6–12 images tile in rapidly as a grid, then one   Rapid
+  WALL          Photo wall
+                               zooms forward                                     clicks
+
+                Torn-paper
+  TORN                         A photo is revealed behind ripping paper          Paper rip
+                reveal
+
+
+Each image is on screen for 1.5–3 seconds and is always moving. Every real photo has a
+small caption (name, role, year) and a credit in the corner.
+
+
+3.6 Animation types (used in every cue table)
+   Kinetic type (spoken words appear as they’re said).
+
+   Number rolls (odometer or slot machine).
+
+   Bar races and poll lines that cross.
+
+   Map highlights.
+
+   Stamps with a 4 px screen shake.
+
+   Split-flap date boards.
+
+   Annotations (circles, arrows, labels).
+
+   Icon actions: a ticket slides to the back of a queue, a padlock rattles and breaks, a
+   receipt prints.
+
+   Thread transitions.
+
+
+3.7 Recurring motifs
+   The 800/DAY counter. It’s introduced in S07, then sits in the top-right corner (small,
+   60% opacity) from S07 to S44. It shows “+1 every 1m 48s” (our calculation: 86,400
+   seconds ÷ 800). It ticks +1 every 108 seconds of runtime with a soft click and shows
+   “SINCE YOU STARTED WATCHING: +N”. It’s hidden during the quiet moments and the
+   mid-roll beats, and pays off in S42.
+
+   The scoreboard (REUSE): three party bars (orange, red, blue) used for every primary-
+   vote poll.
+
+   The padlocked chart: a blurred poll chart with a padlock and a “LATER” tag. It appears
+   in S05 and rattles in S36, and the padlock breaks in S37. It’s the open loop that drives
+   retention.
+
+   “IS AUSTRALIA FULL?” title card: S05, S09 and S42.
+
+
+3.8 Reusable elements
+Red thread with knot · split-flap date board · stamps (FIRST, POSTPONED, TARGET,
+RECORD, PATTERN ≠ PROOF, CORRELATION ≠ CAUSATION) · evidence card · quote card ·
+number roll · scoreboard · poll lines · map highlight (Australia, SA, Farrer, REUSE) · corner
+tag · lower-third · padlock chart · 800/DAY counter.
+
+
+3.9 Design tokens (REUSE)
+   Colours: background #121212 · paper #F4EFE6 · One Nation orange #F28C28 · Labor
+   red #D62828 · Coalition blue #1F4E9E · Greens green #2E9E4F · gold #D4A017 · thread
+   red #C0161E · neutral grey #8A8A8A · counter-dot white #FFFFFF at 80%.
+
+   Fonts (free, OFL): Inter for kinetic type, labels and numbers; Source Serif 4 for quotes,
+   headlines and evidence cards.
+
+   Evidence cards: an off-white paper card on a dark background, with the outlet and date
+   top-left in small caps, a serif headline, a yellow highlighter swipe on the key phrase in
+   sync with the narration, and a small “SOURCE” tab. Recreated in this design, never
+   screenshots of news pages.
+
+   Photo grade: slight warmth, light grain and a soft vignette on every photo and stock
+   clip.
+
+   Motion: ease-out entrances of 200–350 ms.
+
+   Icons: simple line icons from free sets (Google Material Symbols, OpenMoji): plane,
+   house, crane, graduation cap, coffee cup, calendar, padlock, ticket, receipt.
+
+
+3.10 AI B-roll
+Style anchor, added to every AI prompt: Cinematic documentary B-roll, 16:9, natural
+colour, gentle film grain, shallow depth of field, slow camera movement, realistic, no text, no
+logos, no recognisable real people, faces not visible. Never generate: real people, crowds
+of travellers or migrants, religious or national dress, flags as the main subject, or party
+logos.
+
+
+3.11 Voice pacing and mix
+Delivery modes (named in every segment):
+
+
+  Mode           Pace              Feel
+
+                 150–155
+  HOOK                             Urgent, clipped, short sentences land hard
+                 wpm
+
+  STORY          145 wpm           Warm, documentary narrator
+
+                 135–140           Precise; numbers get a tiny lift and a micro-pause before
+  EVIDENCE
+                 wpm               them
+
+                 125–130
+  QUESTION                         Curious, open; the pitch rises gently at the end
+                 wpm
+
+  WEIGHT         115–125 wpm       Slow and serious; quotes read neutrally, never acted
+
+
+Pause markers:        followed by seconds. Hold the visual and let the music breathe; no
+narration.
+
+Natural-pacing rules:
+
+   Keep every segment within ±6% of its target pace. If Grok reads faster, add space
+   between sentences rather than time-stretching the voice.
+
+   Leave 0.25–0.4 s between sentences and 0.6 s between paragraphs inside a segment.
+
+   Use room tone in gaps, never digital silence.
+
+   Never cut a breath before a number or a quote.
+
+Mix: narration −14 LUFS integrated, true peak −1 dBTP. Sound effects sit about 12 dB under
+the narration. Music sits about 20 dB under the narration and ducks under speech with a
+150 ms attack and 600 ms release.
+
+Music map:
+
+
+  Section                            Cue                Feel
+  Opening, Chapter 4                 MUS_01           Tense pulse
+
+  Chapter 1, Chapter 5               MUS_02           Neutral investigative
+
+  Chapter 2                          MUS_03           Archival, reflective
+
+  Chapter 3                          MUS_04           Building momentum
+
+  Chapter 6                          MUS_05           Sober, slightly melancholic
+
+  Chapter 7, Closing                 MUS_06           Tense to resolve
+
+
+Mid-rolls: a clean 0.5-second beat of room tone after S15, S27 and S36, with music fully
+out.
+
+Captions: burned-in subtitles off. Upload an accurate caption file (two lines, max 42
+characters each).
+
+
+
+
+PART 4: Footage key
+    = free ParlView or public-record footage (used under Parliament’s conditions) · FREE
+SWAP = no free footage exists, so the slot uses free photos, animation, free stock or AI B-
+roll instead ·   = free only with written permission (use only if granted).
+
+National Press Club footage, TV news and press-conference footage are never used. Those
+moments are always a FREE SWAP: a real free photo + quote card + B-roll.
+
+
+
+
+PART 5: Shot-by-shot script
+
+OPENING: The question
+S01
+
+   On a Monday in June 2026, a Newspoll landed in Canberra like a bomb. Pauline Hanson’s
+   One Nation was on 31% of the primary vote. Anthony Albanese’s Labor government was
+   on 30%.
+
+    HOOK, 150 wpm.
+
+        0.4 s after “like a bomb”.
+
+    The two numbers are clipped and firm.
+     The final “30%” drops slightly in pitch.
+
+Visual track (in play order)
+
+1.        BR_AI_canberra_dawn_fog (2 s): a slow push through fog toward a government
+     building silhouette. Show the “Dramatised reconstruction” label (bottom-left, 2 s).
+
+2.       Poll card E01 slams onto the dark board: “NEWSPOLL · JUNE 2026”. FACT
+
+3.       Scoreboard: the orange One Nation bar races to 31 and the red Labor bar to 30.
+     Orange edges past.
+
+4.       SPLIT: Albanese (left) and Hanson (right) slide in behind the bars, in the thumbnail
+     composition.
+
+     Image sequence
+
+      IMG_albanese_dfat SPLIT from the left, then a slow PAN in.
+
+      IMG_hanson_cc0 SPLIT from the right, then a slow PAN in.
+
+     Animation cues (each starts on the first word of its trigger)
+
+
+  VO cue                  Animation                                          Sound
+
+  “a Newspoll             The poll card drops, 4 px screen shake, dust
+                                                                             Bass impact
+  landed”                 particles
+
+  “like a bomb”           Fog clears instantly to the dark board             Air whoosh out
+
+  “31%”                   The orange bar rolls 0 → 31                        Tick roll
+
+                                                                             Tick roll, soft
+  “30%”                   The red bar rolls to 30 and stops just short
+                                                                             stop
+
+  “Labor
+                          The Albanese photo locks in                        Click
+  government”
+
+
+
+
+S02
+
+     That same day, the Prime Minister stood in front of reporters and made a promise. Net
+     overseas migration would come down to 225,000. “We think that is the right number,” he
+     said. Coincidence? Maybe.
+
+     STORY → QUESTION, 145 then 120 wpm.
+     Read the quote neutrally, without acting it.
+
+         0.6 s before “Coincidence?”.
+
+     “Maybe.” comes after a 0.3 s beat, dry and understated.
+
+Visual track
+
+1.       The red thread pulls from the poll card to a new node: “SAME DAY”. FACT
+
+2.       Albanese photo PAN, lower-third: “Anthony Albanese · Prime Minister”.
+
+3.       A gold number roll: “225,000 net overseas migration”.
+
+4.       Quote card E02: “We think that is the right number.” Anthony Albanese, Canberra,
+     June 2026. FACT (his words)
+
+5.       A huge red marker “?” draws across both nodes.
+
+     Animation cues
+
+
+ VO cue                Animation                                            Sound
+
+ “That same            The thread snaps tight between the two nodes and
+                                                                            Thread snap
+ day”                  ties a knot
+
+                                                                            Slot clicks +
+ “225,000”             Slot-machine roll in gold
+                                                                            ding
+
+ “the right
+                       Highlighter swipe across the quote                   Swipe
+ number”
+
+ “Coincidence?”        The red “?” draws over both nodes                    Marker squeak
+
+ “Maybe.”              The “?” flickers once                                Soft glitch
+
+
+
+
+S03
+
+     Three months later, Pauline Hanson announced a plan to cut 750,000 temporary visas.
+     Three days after that, Labor unveiled its own migration crackdown.
+
+     HOOK, 155 wpm. Stress “Three days”.
+
+Visual track
+
+1.       Pattern board preview: an orange node “14 SEP 2026 · One Nation: 750,000 visas
+     cut” (CLAIM: policy) and a red node “17 SEP 2026 · Labor crackdown” (FACT).
+2.       DROP the Hanson photo onto the orange node and the Burke photo onto the red
+     node.
+
+3.       The gap label “+3 DAYS” pulses between them.
+
+     Animation cues
+
+
+ VO cue                     Animation                                        Sound
+
+ “Three months later”       The split-flap date board rolls JUN → SEP        Split-flap rattle
+
+                            Number roll, with a stack of visa icons          Roll + paper
+ “750,000”
+                            collapsing                                       flutter
+
+ “Three days after
+                            The calendar flips 14 → 15 → 16 → 17             Three flips
+ that”
+
+ “crackdown”                The red node stamps down; “+3 DAYS” pops         Stamp + pop
+
+
+
+
+S04
+
+     So is Anthony Albanese copying Pauline Hanson? Or is something bigger happening in
+     Australia, something both of them are reacting to?
+
+     QUESTION, 130 wpm.         0.5 s after the first question.
+
+Visual track
+
+1.       Kinetic title in the thumbnail typography: “IS ALBANESE COPYING HANSON?”
+
+2.       The camera pulls back. Both photos shrink as a huge faint map of Australia fades in
+     behind them, with a “?” at the centre.
+
+3.        BR_STOCK_sydney_street_timelapse (2 s): people as motion-blur streaks only.
+
+     Animation cues
+
+
+ VO cue                        Animation                                     Sound
+
+                               The word types in yellow, heavy, with a red
+ “copying”                                                                   Type thuds
+                               outline
+
+ “something bigger”            The map scales up behind everything           Low swell
+
+ “both of them are             Two thin threads run from each photo to       Thread tension
+ reacting to”                     the “?”                                            creak
+
+
+
+
+S05
+
+     We’re not going to tell you what to think. We’re going to lay out the dates, the numbers
+     and the quotes, in order. And at the end, there’s one pattern in the polls that almost
+     nobody is talking about. But first, the question everyone is fighting over. Is Australia
+     actually full?
+
+     STORY, 145 wpm, then QUESTION at 115 wpm on the last line.                  1.0 s after “full?”.
+
+Visual track
+
+1.       Three icons lock into a row as they’re named: calendar “DATES”, number
+     “NUMBERS”, quote marks “QUOTES”.
+
+2.       Disclaimer card (short version, 3 s, lower third): “Independent documentary · Not
+     affiliated with any party · Every source on screen and in the description.”
+
+3.       The padlocked chart appears, blurred, with a padlock and a “LATER” tag.
+
+4.       Title card: “IS AUSTRALIA FULL?” over a map outline. White points of light begin to
+     fill the cities. Hold 1 s.
+
+     Animation cues
+
+
+ VO cue                                Animation                                        Sound
+
+ “the dates” / “the numbers” /
+                                       Each icon clicks into place                      Three clicks
+ “the quotes”
+
+ “in order”                            The icons slide into a line like a timeline      Slide
+
+ “one pattern in the polls”            The padlocked chart slides up                    Chain rattle
+
+ “almost nobody is talking
+                                       The padlock glints                               Shimmer
+ about”
+
+                                       The title types in letter by letter and the      Low drone +
+ “Is Australia actually full?”
+                                       map points glow                                  bass hit
+
+
+
+
+CHAPTER 1: The numbers
+S06
+
+     Australia’s population now stands at about 27.9 million people. In the twelve months to
+     March 2026, the country grew by 392,700 people. Around three in every four of them
+     came from overseas.
+
+     EVIDENCE, 140 wpm. Micro-pause before each number.
+
+Visual track
+
+1.        BR_STOCK_melbourne_aerial_dusk (2 s) under a population odometer.
+
+2.       ABS card E03. FACT
+
+3.       A stacked bar for “Where the growth came from”: net overseas migration 74% (gold)
+     and births minus deaths 26% (grey).
+
+     Animation cues
+
+
+ VO cue                 Animation                                              Sound
+
+                                                                               Odometer
+ “27.9 million”         The odometer rolls to 27,921,200
+                                                                               whirr
+
+ “392,700”              “+392,700” stamps in green                             Stamp
+
+ “three in every        The gold section fills three-quarters of the bar;      Fill swoosh +
+ four”                  “74%” pops                                             pop
+
+
+
+
+S07
+
+     Net overseas migration, the number of people arriving to live in Australia minus the
+     number leaving, was 292,100 over that year. That’s roughly 800 people every single day.
+
+     EVIDENCE, 135 wpm. “Every single day” is slower and weighted.
+
+Visual track
+
+1.       An explainer equation: a plane-arriving icon (ARRIVALS) − a plane-departing icon
+     (DEPARTURES) = NET OVERSEAS MIGRATION.
+
+2.       ABS card E04: “292,100 · year to 31 March 2026”. FACT
+
+3.        BR_STOCK_airport_arrivals_board (2 s).
+
+4.       The 800/DAY counter launches at full size at the centre, then shrinks to the top-
+     right corner with the sub-label “+1 every 1m 48s (our calculation)”. ANALYSIS
+
+     Animation cues
+
+
+ VO cue                       Animation                                                Sound
+
+                                                                                       Jet pass
+ “arriving”                   The arrivals plane slides in
+                                                                                       (soft)
+
+ “minus the number            The departures plane slides out and a minus sign
+                                                                                       Whoosh
+ leaving”                     appears
+
+ “292,100”                    Number roll                                              Roll
+
+ “800 people”                 The counter slams to the centre: “800 / DAY”             Bass hit
+
+                              The counter flies to the corner and its first tick
+ “every single day”                                                                    Soft click
+                              fires
+
+
+
+
+S08
+
+     And that’s the low number. In 2023, after the borders reopened from COVID, net
+     migration passed half a million, the highest on record.
+
+     STORY, 145 wpm. Lift on “the highest on record”.
+
+Visual track
+
+1.       A line chart of net overseas migration:
+
+         pre-COVID average: “just over 200,000”;
+
+         2020–21 band: “borders closed”;
+
+         2023: 530,620 (calendar year);
+
+         2025: 301,000;
+
+         year to March 2026: 292,100.
+
+2.       The 2023 point gets a “RECORD” stamp. FACT
+
+3.        BR_STOCK_plane_landing_sydney (2 s).
+
+     Animation cues
+
+
+ VO cue                                                                            Sound
+                            Animation
+
+
+ “the low number”           The current point (292,100) circles in red           Marker squeak
+
+ “borders reopened”         A grey “borders closed” band lifts like a gate       Gate creak (soft)
+
+ “half a million”           The line rockets up to 530,620                       Rising whoosh
+
+ “highest on record”        “RECORD” stamp                                       Stamp + shake
+
+
+
+
+S09
+
+     Now, by land, Australia is one of the emptiest countries on Earth, with about three people
+     for every square kilometre. So when people ask “Is Australia full?”, they’re rarely talking
+     about land. They’re talking about homes. Rents. Hospital waiting lists. Traffic on the M1.
+
+     STORY, 140 wpm. The four short items are punchy, with 0.2 s between each.
+
+Visual track
+
+1.        BR_AI_outback_aerial_empty (2.5 s), with the kinetic label “≈3.6 people per km²”
+     (27.9 m ÷ 7.69 m km², our calculation). ANALYSIS
+
+2.       “IS AUSTRALIA FULL?” flashes back for 1 s.
+
+3.       STACK, one image per word:
+
+          BR_STOCK_house_sold_sign
+
+          BR_STOCK_rental_inspection_keys
+
+          BR_STOCK_hospital_corridor_empty
+
+          BR_STOCK_motorway_traffic_aus
+
+     Animation cues
+
+
+ VO cue                                           Animation                              Sound
+
+                                                  The outback camera rises
+ “emptiest countries on Earth”                                                           Wind
+                                                  higher, endless horizon
+
+                                                  A 1 km grid square draws with          Three
+ “three people for every square kilometre”
+                                                  three small dots                       soft pings
+
+ “Homes.” / “Rents.” / “Hospital waiting          Each word types as its photo           Click on
+ lists.” / “Traffic on the M1.”                   drops                                  each
+
+
+
+
+S10
+
+     The Coalition’s Andrew Bragg points out that Australia completes only around 170,000
+     new homes a year, far fewer than the number of people arriving. Supporters of migration
+     answer that migrants build many of those homes, staff the hospitals and pay the taxes
+     that fund them.
+
+      EVIDENCE, 140 wpm. Even-handed tone; the two halves get identical weight.
+
+Visual track
+
+1.       A split screen headed “SAME NUMBERS · TWO READINGS”.
+
+2. Left:       DROP IMG_bragg .      Card E05 “≈170,000 home completions a year vs net
+      overseas migration”. CLAIM (Andrew Bragg, Shadow Housing Minister, Sept 2026)
+
+3. Right:       STACK BR_STOCK_construction_worker_scaffold (face not visible) and
+      BR_STOCK_nurse_corridor_back .        Card E06 “Migrants build homes, staff hospitals,
+      pay taxes”. CLAIM (supporters of migration, including the Prime Minister, Oct 2026)
+
+      Animation cues
+
+
+ VO cue                               Animation                                   Sound
+
+ “170,000 new homes”                  A house icon counter rolls to 170,000       Roll
+
+                                      The arrivals bar overtakes the homes
+ “far fewer”                                                                      Whoosh
+                                      bar
+
+                                      A crane icon lifts a house into the         Mechanical
+ “migrants build”
+                                      homes bar                                   whirr
+
+ “staff the hospitals” / “pay the
+                                      Hospital and coin icons pop in              Pop, pop
+ taxes”
+
+
+
+
+S11
+
+     Both sides are using the same numbers. They just read them differently. And for thirty
+     years, one politician has been reading them the same way.
+
+      STORY → WEIGHT, 140 then 125 wpm.            0.5 s before “And for thirty years”.
+Visual track
+
+1.       Both columns collapse into one number, “292,100”, which splits into two colours
+     (blue and gold).
+
+2.       The red thread yanks the camera left. The split-flap board rolls 2026 → 1996.
+
+3.       TORN: the CC0 Hanson portrait is revealed in sepia.
+
+     Animation cues
+
+
+ VO cue                        Animation                                     Sound
+
+ “same numbers”                Both columns merge into one figure            Merge whoosh
+
+ “read them differently”       The figure splits into two colours            Glass chime
+
+ “thirty years”                The split-flap board rolls back 30 years      Long rattle
+
+ “the same way”                The thread knots on the sepia portrait        Thread snap
+
+
+
+
+CHAPTER 2: Hanson’s thirty-year argument
+S12 (quiet moment)
+
+     In September 1996, a newly elected MP from Ipswich named Pauline Hanson gave her
+     first speech to Parliament. She warned that Australia was in danger of being “swamped
+     by Asians.”
+
+     WEIGHT, 120 wpm.
+
+         0.8 s before the quote.
+
+     Read the quote slowly and neutrally.
+
+         1.0 s after it.
+
+Visual track
+
+1.        FT01_hanson_maiden_1996       (ParlView, REUSE), 6–8 s, played plainly. Lower-third:
+     “Pauline Hanson · first speech · House of Representatives · 10 Sep 1996 · Parliament of
+     Australia”.
+
+2.       Quote card E07 (serif, static, no flourish): “…in danger of being swamped by Asians.”
+     Hansard, 10 Sep 1996. FACT (her words)
+     Animation cues: none. Quiet moment. Music drops to a single sustained note under the
+quote. The 800/DAY counter is hidden.
+
+
+
+
+S13
+
+     The speech made her famous, and in much of the country, it made her untouchable. Both
+     major parties preferenced against her. Commentators called her views racist. For two
+     decades, being seen near Hanson was treated as political poison.
+
+     STORY, 140 wpm.
+
+Visual track
+
+1.        BR_AI_1990s_lounge_tv_glow (2 s): an empty 1990s lounge room lit by a TV glow,
+     no people.
+
+2.       A 1998 node: “Major parties put One Nation last on preferences”. FACT (1998
+     federal election)
+
+3.       Card: “Widely criticised as racist.” ANALYSIS (commentators, 1996–98)
+
+4.       A “keep-out” ring draws around the Hanson portrait, and other node cards slide
+     away from it.
+
+     Animation cues
+
+
+ VO cue                            Animation                                      Sound
+
+                                                                                  Flash
+ “famous”                          Camera-flash bursts around the portrait
+                                                                                  pops
+
+                                   Two ballot-paper icons put the orange box      Paper
+ “preferenced against her”
+                                   last                                           slide
+
+ “untouchable” / “political        Neighbouring cards slide away and the ring
+                                                                                  Low hum
+ poison”                           pulses
+
+
+
+
+S14 (quiet moment for the footage)
+
+     But she never stopped talking about migration. In 2016, she returned to the Senate
+     warning about Muslims. In 2018, she called for migration to be capped at 75,000 a year.
+     By 2025, her target was 130,000.
+     STORY, 140 wpm. Neutral on the 2016 line.
+
+Visual track
+
+1.        FT02_hanson_senate_2016         (ParlView, REUSE), 4 s, played plainly with a date
+     lower-third. No animation over the footage.
+
+2.       A policy staircase in orange: “2018 · cap 75,000” → “2025 · 130,000”. CLAIM (her
+     policy)
+
+3.       The thread knots on each step.
+
+     Animation cues (after the footage)
+
+
+  VO cue               Animation                                                    Sound
+
+  “75,000”             The first step builds with a number roll                     Roll
+
+  “130,000”            The second step builds                                       Roll
+
+
+
+
+S15
+
+     Then came the May 2025 federal election. The Coalition ran on cutting migration, and
+     lost in a landslide. Labor won 94 seats. One Nation won about 6% of the vote, and not
+     one seat in the House of Representatives. On that night, Pauline Hanson looked like a
+     story from the past. What happened next surprised almost everyone in Canberra.
+
+     STORY → WEIGHT, 145 then 120 wpm.              0.6 s before “What happened next”. The last
+line is low and slow (cliffhanger).
+
+Visual track
+
+1.        BR_AI_election_night_empty_hall (2 s): an empty function hall with deflated
+     balloons and no logos.
+
+2.       DROP IMG_dutton with the tag “Coalition 2025: cut migration”. FACT
+
+3.       A map of Australia: seats light red, and the counter rolls to “94”. FACT
+
+4.       A One Nation tile: “6.4% · 0 House seats” turns grey. FACT
+
+5.       The Hanson node fades to sepia… then a single orange pulse travels down the
+     thread.
+
+     Animation cues
+ VO cue                            Animation                                  Sound
+
+ “lost in a landslide”             Blue tiles collapse off the map            Rumble
+
+ “94 seats”                        The red counter rolls to 94                Roll + hit
+
+ “not one seat”                    A “0” stamps on the One Nation tile        Hollow stamp
+
+ “a story from the past”           The portrait fades to sepia                Tape-stop
+
+ “surprised almost everyone”       An orange pulse runs down the thread       Heartbeat thump
+
+
+▶ MID-ROLL AD BREAK 1 (0.5 s of room tone, music out)
+
+
+
+
+CHAPTER 3: The rise
+S16
+
+     By November 2025, just six months after that election, polls showed something new. For
+     the first time, more voters named One Nation as the party best able to handle
+     immigration than named Labor or the Coalition.
+
+     STORY, 145 wpm. Lift on “For the first time”.
+
+Visual track
+
+1.       The pattern board is born. A timeline draws from NOV 2025 to OCT 2026, with only
+     the orange ONE NATION track so far.
+
+2.       First node: “NOV 2025 · One Nation first rated best on immigration · 27%”. FACT
+     (poll, as reported by the AFR)
+
+3.       An issue bar chart titled “Best party to handle immigration”. The orange bar takes the
+     lead.
+
+     Animation cues
+
+
+ VO cue                               Animation                                     Sound
+
+ “something new”                      The timeline line draws left to right         Pen scratch
+
+ “For the first time”                 A “FIRST” stamp lands on the node             Stamp
+
+ “best able to handle                 The orange bar overtakes the red and blue     Race
+ immigration”                         bars                                          whoosh
+S17
+
+     In January 2026, One Nation drew level with the Coalition at 23% in a national poll. In
+     March, One Nation won almost 23% of the vote at the South Australian state election,
+     and took four lower-house seats.
+
+     EVIDENCE, 140 wpm.
+
+Visual track
+
+1.       Node “JAN 2026”: scoreboard bars for One Nation 23 and Coalition 23 meet exactly.
+     Poll card E08 (DemosAU for Capital Brief). FACT
+
+2.       Node “MAR 2026”: the SA map (REUSE). Four seats light orange. “22.9% · 4 seats”.
+     FACT
+
+3.        BR_STOCK_adelaide_skyline (2 s).
+
+     Animation cues
+
+
+ VO cue                                 Animation                               Sound
+
+ “drew level”                           The two bars meet and clink             Glass clink
+
+ “almost 23%”                           Number roll to 22.9                     Roll
+
+ “four lower-house seats”               Four seats light one by one             Four pings
+
+
+
+
+S18
+
+     In May, One Nation’s David Farley won the Farrer by-election, becoming the first One
+     Nation candidate ever elected to the House of Representatives. And in June came that
+     Newspoll. One Nation 31. Labor 30.
+
+     EVIDENCE → HOOK, 140 then 150 wpm. “One Nation 31. Labor 30.” are short hits, with
+0.3 s between them.
+
+Visual track
+
+1.       Node “9 MAY 2026”: the Farrer map highlight (REUSE) with a “FIRST” stamp. FACT
+
+2.        FT03_farley_first_speech        (ParlView, REUSE), 3 s, played plainly. If unavailable,
+     use a FREE SWAP: the Farrer map plus IMG_farley if a free photo exists, otherwise a
+     name card.
+3.       Node “JUN 2026”: the opening poll card (E01) flies back in. The red thread loops
+     back to S01’s knot.
+
+     Animation cues
+
+
+  VO cue                                      Animation                            Sound
+
+  “first One Nation candidate ever”           “FIRST” stamp                        Stamp + shake
+
+  “that Newspoll”                             The S01 poll card flies back in      Whoosh
+
+  “One Nation 31.”                            The orange bar slams to 31           Hit
+
+  “Labor 30.”                                 The red bar slams to 30              Hit
+
+
+
+
+S19
+
+     By August, a RedBridge poll found around four in ten voters rated One Nation as the best
+     party on immigration. Labor and the Liberals sat below 20% each. On this one issue,
+     Pauline Hanson was no longer on the fringe. She was in front. And that’s when the
+     government started moving.
+
+     EVIDENCE → WEIGHT, 140 then 125 wpm.                  0.4 s before “She was in front.”       1.0 s
+after the final line.
+
+Visual track
+
+1.       An issue chart from RedBridge (late July–Aug 2026): One Nation about 40, Labor 17,
+     Liberal 16. Poll card E09. FACT
+
+2.       Kinetic: “FRINGE” is struck through in red, and “IN FRONT” types beneath it.
+
+3.       A red track appears below the orange track, empty, with a blinking cursor at JUN
+     2026.
+
+     Animation cues
+
+
+  VO cue                              Animation                                          Sound
+
+  “four in ten”                       4 of 10 tiles fill orange                          Four ticks
+
+                                      Red and blue bars sit low; a dashed 20% line
+  “below 20%”                                                                            Low thud
+                                      draws
+
+
+  “no longer on the fringe”           “FRINGE” is struck through                         Marker
+                                                                                         strike
+
+ “in front”                         “IN FRONT” types in                                  Type thuds
+
+ “the government started
+                                    The red track draws in and the cursor blinks         Low pulse
+ moving”
+
+
+
+
+CHAPTER 4: The pattern
+S20
+
+     Here’s the timeline. Watch the dates. In June 2026, on the day One Nation tops
+     Newspoll, Anthony Albanese commits to cutting net migration to 225,000.
+
+     EVIDENCE, 135 wpm. “Watch the dates.” is punchy, followed by a 0.3 s beat.
+
+Visual track
+
+1.       The full pattern board: orange, red and blue tracks with a date ruler (JUN–OCT
+     2026). The camera parks at June.
+
+2.       An orange node “JUN 2026 · Newspoll: One Nation 31” and a red node “SAME DAY ·
+     225,000 pledge”. The gap label reads ”+0 DAYS”. FACT
+
+3.       PIN the Albanese photo onto the red node.
+
+     Animation cues
+
+
+ VO cue              Animation                                                     Sound
+
+ “Watch the
+                     The date ruler ticks across the screen                        Clock ticks
+ dates”
+
+ “tops
+                     The orange node pulses                                        Pulse
+ Newspoll”
+
+                     The red node stamps in; the thread links the nodes; “+0       Stamp + snap +
+ “225,000”
+                     DAYS” pops                                                    pop
+
+
+
+
+S21
+
+     In July, Home Affairs Minister Tony Burke pauses or slows the processing of working
+     holiday visas. A new ministerial direction sends skilled workers applying from overseas to
+     the back of the queue. For some, waits stretch from days to more than a year.
+
+     EVIDENCE, 140 wpm.
+
+Visual track
+
+1.       A red node “JUL 2026 · Working holiday visas paused/slowed · Ministerial Direction
+     119”. FACT (ABC)
+
+2.       STACK:
+
+          IMG_burke with the lower-third “Tony Burke · Home Affairs Minister”;
+
+          BR_STOCK_passport_desk_generic ;
+
+          BR_STOCK_orchard_ladders .
+
+3.       Queue animation: a ticket labelled “SKILLED VISA · APPLIED FROM OVERSEAS”
+     slides from the front of a row of tickets to the back. A wait-time bar stretches from
+     “DAYS” to “1 YEAR+”.
+
+     Animation cues
+
+
+ VO cue                      Animation                                         Sound
+
+ “pauses or slows”           A “PAUSED” toggle flips on a backpack icon        Switch click
+
+ “back of the queue”         The ticket slides to the end of the line          Paper slide
+
+ “more than a year”          The wait bar stretches long                       Stretch creak
+
+
+
+
+S22
+
+     In August, Tony Burke is due to give a major speech on migration. It’s abruptly
+     postponed, amid reports of disagreements inside cabinet.
+
+     STORY, 145 wpm.
+
+Visual track
+
+1.        BR_STOCK_empty_lectern_microphone (2 s).
+
+2.       A red node “AUG 2026 · Migration speech postponed”. A grey “POSTPONED” stamp.
+     FACT
+
+3.       Card E10: “Reports of disagreement between ministers”. FACT (as reported by the
+     ABC)
+
+     Animation cues
+
+
+ VO cue                    Animation                                      Sound
+
+ “major speech”            Lectern lights fade up                         Hum
+
+ “abruptly                                                                Light-switch clunk +
+                           The lights cut; the stamp lands
+ postponed”                                                               stamp
+
+                           Two small chat bubbles clash on the
+ “disagreements”                                                          Soft clash
+                           card
+
+
+
+
+S23
+
+     On 14 September, Pauline Hanson announces One Nation’s plan: more than 750,000
+     temporary visas cut over three years, and net negative migration. That means more
+     people leaving Australia than arriving.
+
+     EVIDENCE, 140 wpm. Explain “net negative” clearly and slowly.
+
+Visual track
+
+1.       An orange node “14 SEP 2026 · One Nation plan”. CLAIM (policy)
+
+2.       DROP IMG_hanson_cc0 , then STACK IMG_joyce (REUSE) with the lower-third
+     “Barnaby Joyce · One Nation MP”.
+
+3.       The explainer equation from S07 returns. The departures plane grows bigger than
+     the arrivals plane, and the result flips below zero: “NET NEGATIVE”.
+
+4.       Card E11: “750,000+ temporary visas · 3 years · net negative, then 130,000 ceiling”.
+     CLAIM
+
+     Animation cues
+
+
+ VO cue                        Animation                                        Sound
+
+ “750,000”                     Number roll; visa icons peel off a stack         Roll + paper flutter
+
+ “net negative”                The result needle swings below zero              Needle swing
+
+ “more people leaving”         The departures plane enlarges                    Jet swell
+S24
+
+     On 17 September, three days later, Tony Burke finally gives his speech. Tighter rules for
+     temporary visas. A ballot for working holiday visas. And, according to the ABC,
+     international students would effectively lose the ability to bring their families.
+
+     EVIDENCE, 140 wpm. List items get a 0.2 s gap. Lift on “three days later”.
+
+Visual track
+
+1.       A red node “17 SEP 2026 · Burke migration speech”. The thread links it to the 14 SEP
+     orange node, and the gap label ”+3 DAYS” pulses. FACT
+
+2.       PAN IMG_burke . This is a FREE SWAP for the National Press Club speech: no NPC
+     footage.
+
+3.       Optional: FT04_burke_qt_sep2026           (ParlView, Question Time, 16–17 Sep 2026,
+     Burke answering on migration), 3 s, played plainly.
+
+4.       Card E12, a measures checklist (FACT, as reported): tighter temporary-visa rules ·
+     working holiday ballot · student family visas (ABC report).
+
+     Animation cues
+
+
+ VO cue                       Animation                                          Sound
+
+ “three days later”           “+3 DAYS” flashes twice                            Double pop
+
+ “Tighter rules”              Tick 1                                             Tick
+
+ “A ballot”                   Tick 2; a raffle drum icon spins once              Tick + spin
+
+ “bring their families”       Tick 3; a family-of-suitcases icon greys out       Tick + soft fade
+
+
+
+
+S25
+
+     Then on 6 October, Opposition Leader Angus Taylor announces the Coalition’s plan: net
+     migration of 100,000 a year for two years, which he calls the largest cut in Australian
+     history. Future migration would be linked to the number of homes built.
+
+     EVIDENCE, 140 wpm.
+
+Visual track
+1.        A blue node “6 OCT 2026 · Coalition plan”. The thread links it from the 14 SEP
+     orange node, with the gap label ”+22 DAYS”. CLAIM (policy)
+
+2.        DROP IMG_taylor with the lower-third “Angus Taylor · Opposition Leader”.
+
+3.        A blue bar shows 100,000 for two years, then 130,000, then 160,000. CLAIM
+
+4.        A house icon chained to a plane icon: “linked to homes built”.
+
+     Animation cues
+
+
+ VO cue                                     Animation                                     Sound
+
+                                            The blue bar builds with a number
+ “100,000”                                                                                Roll
+                                            roll
+
+ “largest cut in Australian history”        A “CLAIM” tag snaps onto the phrase           Tag snap
+
+ “linked to the number of homes                                                           Chain
+                                            A chain locks the house to the plane
+ built”                                                                                   clink
+
+
+
+
+S26
+
+     And here’s the strangest part. One Nation’s Barnaby Joyce publicly accused the Coalition
+     of adopting One Nation’s policy. So now even the copying is being fought over.
+
+     STORY, 145 wpm. A slight, dry smile in the voice on the last line, never mocking.
+
+Visual track
+
+1.        SPLIT IMG_joyce and IMG_taylor .
+
+2.        A thread from the orange track to the blue node, labelled “CLAIM: Joyce says the
+     Coalition adopted One Nation’s policy”. Orange outline. CLAIM
+
+3.        Kinetic: “WHO’S COPYING WHO?” The three tracks’ threads tangle for a second.
+
+     Animation cues
+
+
+ VO cue                                     Animation                              Sound
+
+                                                                                   Low “hmm”
+ “strangest part”                           The camera tilts 3°
+                                                                                   tone
+
+ “accused the Coalition”                    The claim thread pulls taut            Thread creak
+  “even the copying is being fought          The threads tangle, then            Rope rustle
+  over”                                      untangle
+
+
+
+
+S27
+
+     Put the dates side by side and the pattern is hard to miss. Every time One Nation moved,
+     the major parties seemed to move soon after. But a pattern isn’t proof. And Labor has a
+     very different version of this story.
+
+     STORY → WEIGHT, 140 then 120 wpm.              0.5 s before “But a pattern isn’t proof.” The
+last line is low, a cliffhanger.
+
+Visual track
+
+1.        The camera pulls back to the whole board. Every orange node lights, with threads to
+     the red and blue nodes after it and the gap labels glowing.
+
+2.        A grey dashed stamp: “PATTERN ≠ PROOF”. ANALYSIS
+
+3.        The board shudders and slides right, revealing a hidden grey section on the far left
+     with “2023” faintly visible.
+
+     Animation cues
+
+
+  VO cue                                Animation                                 Sound
+
+  “side by side”                        All the gap labels pop in sequence        Rapid pops
+
+  “seemed to move soon after”           The threads glow orange → red             Rising tone
+
+  “a pattern isn’t proof”               The stamp lands                           Heavy stamp
+
+  “a very different version”            The board slides, uncovering “2023”       Paper drag
+
+
+▶ MID-ROLL AD BREAK 2 (0.5 s of room tone, music out)
+
+
+
+
+CHAPTER 5: The case against “copying”
+S28
+
+     Labor’s argument starts in December 2023, long before One Nation’s surge. That month,
+     Anthony Albanese said migration needed to come back to a “sustainable level.” His
+     government released a migration strategy promising to bring numbers down from the
+     post-COVID peak.
+
+     EVIDENCE, 140 wpm. Same warmth and authority as Chapter 4, with equal weight.
+
+Visual track
+
+1.        The camera dives into the revealed grey track. A node “DEC 2023 · Migration
+     Strategy”. FACT
+
+2.        STACK IMG_albanese_dfat and IMG_oneil (lower-third “Clare O’Neil · Home Affairs
+     Minister, 2023”).
+
+3.        Quote card E13: “sustainable level”. Albanese, Dec 2023. FACT (his words)
+
+4.        A ruler measures the distance from DEC 2023 to NOV 2025 (the first orange node):
+     “23 MONTHS EARLIER”.
+
+     Animation cues
+
+
+ VO cue                   Animation                                         Sound
+
+ “December 2023”          The split-flap board rolls to DEC 2023            Rattle
+
+ “long before”            The ruler extends to the first orange node        Tape-measure zip
+
+ “sustainable
+                          Highlighter swipe                                 Swipe
+ level”
+
+ “post-COVID              A small peak icon appears with a downward         Soft descending
+ peak”                    arrow                                             tone
+
+
+
+
+S29
+
+     And the numbers did come down. Net overseas migration fell from more than half a
+     million in 2023 to about 301,000 in 2025, a drop of roughly 45%. Most of that fall
+     happened before One Nation was leading anything.
+
+     EVIDENCE, 135 wpm. Stress “before”.
+
+Visual track
+
+1.        The S08 line chart returns (same asset). The line falls from 530,620 to 301,000, and
+     a “≈ −45%” label pops. FACT
+
+2.        The One Nation polling line fades in on a second axis, flat until late 2025 and rising
+     after. A shaded band marks “MOST OF THE FALL”. ANALYSIS (timing comparison, our
+     chart)
+
+3.       Card E14 (ABS figures, as reported by AAP). FACT
+
+     Animation cues
+
+
+ VO cue                            Animation                                    Sound
+
+                                                                                Descending
+ “did come down”                   The line descends
+                                                                                whoosh
+
+ “roughly 45%”                     The percentage label pops                    Pop
+
+ “before One Nation was            The shaded band sweeps over the 2024
+                                                                                Sweep
+ leading”                          section
+
+
+
+
+S30
+
+     The 225,000 figure wasn’t invented in June either. It first appeared as a forecast in the
+     federal budget. Labor then turned it into a target. And the gap between the parties is still
+     enormous. Labor wants net migration of 225,000. The Coalition wants 100,000. One
+     Nation wants net negative migration for three years.
+
+     EVIDENCE, 140 wpm. The three party lines are rhythmic, with 0.3 s between them.
+
+Visual track
+
+1.       Card E15: the budget forecast. ZOOM in on the word “forecast”, which then flips to
+     “TARGET” with a stamp. FACT (ABC)
+
+2.       Three-plan comparison in an identical bar style: Labor 225,000 (red, by mid-2028),
+     Coalition 100,000 (blue, first two years), One Nation below zero (orange, dipping under
+     the axis, three years). Each bar is CLAIM (policy).
+
+     Animation cues
+
+
+ VO cue                   Animation                                      Sound
+
+ “forecast”               Document zoom                                  Page turn
+
+ “a target”               The “TARGET” stamp                             Stamp
+
+ “225,000”                The red bar rises                              Roll
+
+ “100,000”                The blue bar rises shorter                     Roll
+ “net negative”            The orange bar dips below the axis                  Downward swoop
+
+
+
+
+S31
+
+     Labor ministers have also attacked Hanson’s plan head on. Environment Minister Murray
+     Watt said it would “probably drive the Australian economy into recession.” Labor’s Patrick
+     Gorman mocked it, saying a policy thirty years in the making had collapsed within half an
+     hour. And at the September speech, Tony Burke rejected what he called “absurd claims”
+     that Australia is a nation of mass migration.
+
+     EVIDENCE, 140 wpm. All quotes are read neutrally.
+
+     Script change from the approved draft: the Gorman line is now paraphrased rather
+     than quoted. This keeps the on-screen wording safe, and it avoids naming his ministerial
+     title, which wasn’t verified.
+
+Visual track
+
+1.       DROP IMG_watt . Quote card E16. FACT (his words)
+
+2.       DROP IMG_gorman , or a name card if there’s no free photo. Paraphrase card E17 (no
+     quotation marks). CLAIM
+
+3.       PAN IMG_burke . Quote card E18: “absurd claims”. FACT (his words)
+
+     Animation cues
+
+
+ VO cue                         Animation                                             Sound
+
+ “head on”                      The three cards fan out like a hand of cards          Card fan
+
+ “recession”                    A small chart icon dips red                           Dip tone
+
+ “within half an hour”          A clock icon spins 30 minutes                         Clock whirr
+
+ “absurd claims”                Highlighter swipe                                     Swipe
+
+
+
+
+S32
+
+     So is Labor copying Hanson? Or is it simply finishing a job it started three years ago, and
+     getting louder about it because voters are watching? But whoever is leading this race,
+     someone is going to pay for it.
+     QUESTION → WEIGHT, 130 then 120 wpm.              0.5 s before “But whoever”.
+
+Visual track
+
+1.       The board toggles between two overlays:
+
+         “COPYING?”: the orange → red threads glow.
+
+         “FINISHING THE JOB?”: the grey 2023 track glows and flows into the red track.
+
+2.       A receipt prints from the bottom of the frame: “COST: ?”
+
+     Animation cues
+
+
+ VO cue                           Animation                                  Sound
+
+ “copying”                        The orange → red overlay lights            Tone A
+
+ “finishing a job”                The grey → red overlay lights              Tone B
+
+ “voters are watching”            Both overlays hold together                Chord
+
+ “pay for it”                     The receipt prints                         Receipt printer
+
+
+
+
+CHAPTER 6: Who pays?
+S33
+
+     Every migration cut lands on someone. Universities are among the first. Universities
+     Australia’s chief executive Luke Sheehy accused all three parties of joining a political race
+     to the bottom on international students, one of Australia’s biggest export industries.
+
+     STORY, 140 wpm.
+
+Visual track
+
+1.       The receipt from S32 unrolls into a list header: “WHO PAYS?”
+
+2.        BR_STOCK_university_campus_aerial (2 s).
+
+3.       STACK BR_STOCK_graduation_caps_air and BR_STOCK_lecture_hall_empty .
+
+4.       Card E19: Universities Australia (Sept 2026), a “race to the bottom” on international
+     students. CLAIM
+
+5.       A small export icon (ship + graduation cap) with the label “International education: a
+     major export”. FACT (verify the figure on publish day)
+     Animation cues
+
+
+ VO cue                     Animation                                      Sound
+
+ “lands on someone”         Line 1 prints on the receipt: “UNIVERSITIES”   Print tick
+
+ “race to the bottom”       Three party bars race downward                 Descending race
+
+ “export industries”        The export icon pops                           Pop
+
+
+
+
+S34
+
+     Hospitality is next. Accommodation Australia says there are more than 40,000 unfilled
+     hospitality jobs nationwide, and warns that cutting migrant workers will make the
+     shortage worse. Then there’s regional Australia, where backpackers pick fruit, pour beers
+     and fill motel rooms. When Labor slowed working holiday visas, independent MP Helen
+     Haines raised the damage to the regions in Parliament.
+
+     STORY, 145 wpm.
+
+Visual track
+
+1.       Receipt line 2: “HOSPITALITY”.
+
+2.        BR_AI_cafe_empty_morning (2 s): chairs up on tables, coffee machine idle.
+
+3.       Card E20: “40,000+ hospitality vacancies”. CLAIM (Accommodation Australia, 12
+     Aug 2026)
+
+4.       Receipt line 3: “REGIONS”. A map of regional Australia with orchard, glass and motel
+     icons dimming.
+
+5.       STACK BR_STOCK_orchard_ladders , BR_STOCK_country_pub_exterior and
+      BR_STOCK_motel_sign_dusk .
+
+6.        FT05_haines_qt_sep2026        (ParlView, House Question Time, 16 Sep 2026, Helen
+     Haines asking about working holiday visas), 4 s, played plainly. FREE SWAP:
+      IMG_haines plus a paraphrase card.
+
+     Animation cues
+
+
+ VO cue                                            Animation                 Sound
+
+ “40,000”                                          Number roll               Roll
+ “pick fruit” / “pour beers” / “fill motel           Each icon lights, then           Three soft
+ rooms”                                              dims                             pings
+
+ “in Parliament”                                     The ParlView clip slides in      Whoosh
+
+
+
+
+S35
+
+     And here’s the twist in that story. Pauline Hanson also attacked Labor’s slowdown,
+     accusing the government of “starving” regional Australia of workers and tourists. So the
+     politician most famous for wanting less migration criticised the government for cutting
+     the wrong kind.
+
+     STORY, 140 wpm. Neutral, lightly intrigued. Not mocking.
+
+Visual track
+
+1.       DROP IMG_hanson_cc0 onto the regional map.
+
+2.       Card E21: Hanson statement, 17 Sep 2026 (as reported by the ABC). The word
+     “starving” is in quotation marks; the rest is paraphrased. CLAIM
+
+3.       Two arrows, “LESS MIGRATION” and “NOT THESE CUTS”, twist together into a knot
+     on the red thread.
+
+     Animation cues
+
+
+ VO cue                          Animation                                         Sound
+
+ “twist”                         The camera rolls 5°                               Tonal twist
+
+ “starving”                      Highlighter swipe                                 Swipe
+
+ “the wrong kind”                The two arrows knot together                      Rope tighten
+
+
+
+
+S36
+
+     Meanwhile, migration experts writing in The Conversation argue that none of the three
+     parties’ plans is properly based on evidence. Every party is chasing one headline number,
+     net overseas migration, without modelling what happens to housing, wages or the
+     economy once it moves. So if the numbers aren’t driving this race, what is? The answer
+     might be in the polls.
+
+     EVIDENCE → QUESTION, 140 then 125 wpm.                 0.6 s before “The answer might be in
+the polls.” The last line is low, a cliffhanger.
+
+Visual track
+
+1.       Card E22: The Conversation, Oct 2026. None of the three plans is properly based on
+     evidence. ANALYSIS
+
+2.       Three party arrows point at one big gauge, “NET OVERSEAS MIGRATION”. Three
+     smaller gauges (“HOUSING”, “WAGES”, “ECONOMY”) stay grey, stamped “NO
+     MODELLING”.
+
+3.       The padlocked chart from S05 slides back in and rattles hard.
+
+     Animation cues
+
+
+  VO cue                                   Animation                           Sound
+
+  “one headline number”                    The big gauge needle swings         Needle
+
+  “housing, wages or the economy”          The three small gauges stamp grey   Three stamps
+
+  “what is?”                               The padlock rattles                 Chain rattle
+
+  “in the polls”                           The padlock glints                  Shimmer + bass
+
+
+▶ MID-ROLL AD BREAK 3 (0.5 s of room tone, music out)
+
+
+
+
+CHAPTER 7: The twist
+S37
+
+     Remember that pattern nobody’s talking about? Here it is. In mid-September, before
+     Labor’s crackdown, Newspoll had One Nation on 30% and Labor on 27%. Three weeks
+     after Tony Burke’s speech, the next Newspoll came out. Labor had risen to 29%. One
+     Nation had dropped to 28%. The Coalition sat on 20%. For the first time on record, all
+     three parties were in the twenties.
+
+     HOOK → EVIDENCE, 150 then 140 wpm. “Here it is.” is followed by a 0.3 s beat. The
+numbers are crisp.
+
+Visual track
+
+1.       The padlock breaks and the blurred chart snaps into focus.
+
+2.       A poll-lines chart:
+         Newspoll 14–17 Sep 2026: One Nation 30, Labor 27, Coalition 19.
+
+         Newspoll 5–8 Oct 2026 (n = 1,241): Labor 29, One Nation 28, Coalition 20.
+
+         A vertical marker “17 SEP · Burke speech”.
+
+         The orange and red lines cross. Poll card E23. FACT
+
+3.       A stamp: “ALL THREE IN THE 20s · FIRST TIME ON RECORD”. FACT
+
+     Animation cues
+
+
+ VO cue                               Animation                             Sound
+
+                                                                            Glass/metal break +
+ “Here it is.”                        The padlock shatters
+                                                                            bass
+
+ “30%” / “27%”                        The September points plot             Two ticks
+
+                                      The vertical marker drops at 17
+ “Three weeks after”                                                        Drop
+                                      SEP
+
+ “risen to 29%” / “dropped to         The lines cross with a flash at the
+                                                                            Whoosh + flash
+ 28%”                                 crossing
+
+ “all three parties were in the
+                                      The stamp lands                       Stamp + shake
+ twenties”
+
+
+
+
+S38
+
+     Resolve and DemosAU showed the same thing. One Nation was slipping, and Labor was
+     recovering. That doesn’t prove the crackdown caused the shift. Polls move for many
+     reasons. But if you were a strategist inside Labor, you’d notice.
+
+     EVIDENCE → STORY, 140 wpm. “you’d notice” is quiet, knowing.
+
+Visual track
+
+1.       Three poll cards stack (E23, E24, E25: Newspoll, Resolve, DemosAU), each with a
+     small orange down-arrow. FACT
+
+2.       A grey dashed stamp: “CORRELATION ≠ CAUSATION”. ANALYSIS
+
+3.        BR_AI_strategy_room_whiteboard (2 s): an empty office at night with a whiteboard
+     of unreadable scribbles and no people.
+     Animation cues
+
+
+  VO cue                    Animation                                            Sound
+
+  “the same thing”          The cards stack                                      Three clicks
+
+  “doesn’t prove”           The stamp lands                                      Heavy stamp
+
+  “you’d notice”            A single desk lamp clicks on in the B-roll           Lamp click
+
+
+
+
+S39
+
+     And then, this week, Anthony Albanese gave a speech that seemed to point the other
+     way. He made a passionate defence of multiculturalism. In a swipe that sounded aimed at
+     Hanson, who has said Australia should be a monoculture, he said anyone who looks back
+     and sees a single culture should “get themselves down to the nearest Specsavers.”
+
+     STORY, 140 wpm. Read the Specsavers quote straight; let the line land on its own.
+0.4 s after.
+
+     Publish-day check: if the video goes out more than a week after 15 Oct 2026, change
+     “this week” to “in October” (in the narration and in Part 6).
+
+Visual track
+
+1.       PAN IMG_albanese_dfat .
+
+2.       A red node off to the side of the board: “15 OCT 2026 · Multiculturalism speech”.
+     FACT
+
+3.       Card E26: “Hanson has previously said Australia should be a monoculture.” FACT (as
+     reported by AAP)
+
+4.       Quote card E27: “…get themselves down to the nearest Specsavers.” Albanese, 15
+     Oct 2026. FACT (his words)
+
+5.       A rear-vision mirror icon, plus a glasses icon popping beside the quote.
+
+     Animation cues
+
+
+  VO cue                  Animation                                               Sound
+
+                          The red node slides in the opposite direction to the    Reverse
+  “the other way”
+                          others                                                  whoosh
+ “monoculture”              A single-colour swatch appears on E26                Soft tone
+
+ “nearest
+                            The glasses icon pops                                Pop
+ Specsavers”
+
+
+
+
+S40
+
+     So in the same season, the Prime Minister has cut visas, introduced a backpacker ballot
+     and set a lower migration target, while publicly fighting the very idea One Nation stands
+     for. Is that copying Hanson? Or is it the opposite: taking away her issue while rejecting
+     her argument?
+
+     STORY → QUESTION, 140 then 125 wpm.
+
+Visual track
+
+1.       A split screen: left “ACTIONS” (red nodes stack: 225,000 target · working holiday
+     ballot · visa tightening); right “WORDS” (the multiculturalism speech node).
+
+2.       Kinetic question in two lines: “COPYING HER?” / “OR TAKING HER ISSUE?”
+
+     Animation cues
+
+
+ VO cue                                             Animation                   Sound
+
+ “cut visas” / “backpacker ballot” / “lower         Each action card stacks
+                                                                                Three clicks
+ migration target”                                  on the left
+
+                                                    The WORDS card slams
+ “fighting the very idea”                                                       Hit
+                                                    on the right
+
+ “copying”                                          Line 1 types in             Type thuds
+
+                                                                                Type thuds +
+ “taking away her issue”                            Line 2 types in, in gold
+                                                                                shimmer
+
+
+
+
+CLOSING: Is Albanese copying Hanson?
+S41
+
+     So let’s put it all together. One Nation’s rise came first, and Labor’s toughest migration
+     moves came after. That’s the pattern. But Labor started cutting migration back in 2023,
+     its targets are still far higher than Hanson’s, and Albanese is openly campaigning against
+     her vision of Australia. That’s the counter-pattern.
+
+     EVIDENCE, 135 wpm. “That’s the pattern.” and “That’s the counter-pattern.” are
+mirrored in tone.
+
+Visual track
+
+1.       The whole board. The orange → red threads glow: the “PATTERN” label. FACT
+     (dates)
+
+2.       The grey 2023 track and the three-plan bars glow: the “COUNTER-PATTERN” label.
+     FACT
+
+3.       Both labels sit side by side, balanced like the two pans of a scale (REUSE balance-
+     scale element).
+
+     Animation cues
+
+
+  VO cue                                 Animation                        Sound
+
+  “That’s the pattern.”                  The scale dips left              Weight thunk
+
+  “back in 2023”                         The grey track glows             Tone
+
+  “That’s the counter-pattern.”          The scale returns to level       Weight thunk + settle
+
+
+
+
+S42
+
+     And sitting underneath both is the question that started it all. Is Australia full? By land,
+     no. By housing, many Australians feel it is. And by politics, every major party is now
+     promising to slow things down.
+
+     QUESTION → EVIDENCE, 125 then 140 wpm. 0.3 s between each “By…” answer.
+
+Visual track
+
+1.       The “IS AUSTRALIA FULL?” title card returns.
+
+2.       Three answer stamps:
+
+         “BY LAND: NO (≈3.6 per km²)” ANALYSIS
+
+         “BY HOUSING: MANY FEEL YES” ANALYSIS
+
+         “BY POLITICS: EVERY PARTY IS SLOWING IT” FACT
+
+3.       The 800/DAY counter payoff: it flies to the centre and shows “SINCE YOU
+     STARTED WATCHING: +7” (use the actual tick count from the final render).
+
+     Animation cues
+
+
+ VO cue                    Animation                                              Sound
+
+ “Is Australia full?”      The title rebuilds                                     Bass hit
+
+ “By land, no.”            Stamp 1                                                Stamp
+
+ “By housing”              Stamp 2                                                Stamp
+
+ “by politics”             Stamp 3, then the counter flies to the centre          Stamp + click
+
+
+
+
+S43 (quiet moment)
+
+     Thirty years ago, Pauline Hanson was treated as the outsider of Australian politics. Today,
+     the Prime Minister, the Opposition Leader and One Nation are all arguing about the same
+     thing: how far migration should fall. Maybe Albanese isn’t copying Hanson. Maybe
+     Australia simply changed, and every party is chasing the same voters. Or maybe, after
+     thirty years, Pauline Hanson is finally setting the agenda.
+
+     WEIGHT, 120 wpm.         0.5 s before each “Maybe”.       1.0 s after the last line.
+
+Visual track
+
+1.       A frozen sepia frame from FT01_hanson_maiden_1996 (left) SPLIT with a row of three
+     2026 photos ( IMG_albanese_dfat , IMG_taylor , IMG_hanson_cc0 ) on the right. Slow
+     motion only.
+
+2.       The red thread runs from the 1996 frame all the way across to the 2026 row.
+
+3.       Two SPECULATION cards (grey dashed) fade in slowly: “AUSTRALIA CHANGED”
+     and “SETTING THE AGENDA”.
+
+     Animation cues: minimal. A slow thread draw and two gentle fades. No stamps. The
+800/DAY counter is hidden.
+
+
+
+
+S44
+
+     You’ve seen the evidence. Now you decide. Is Albanese copying Hanson, or out-
+     manoeuvring her? And is Australia full? Tell us in the comments.
+     QUESTION, 130 wpm. Warm and direct, to camera.             0.5 s after “Now you decide.”
+
+Visual track
+
+1.      The thumbnail composition rebuilds as a live scene (Albanese left, Hanson right, the
+     cracked map with 800/DAY, Parliament House at sunset) with the text “IS ALBANESE
+     COPYING HANSON?”.
+
+2.      A comment-bubble icon pulses beside “IS AUSTRALIA FULL?”.
+
+3.      End screen (15 s): two video slots (“Can Albanese Stop Pauline Hanson?” and “The
+     Pauline Hanson Story”) and a subscribe button. MUS_06 resolves.
+
+     Animation cues
+
+
+ VO cue                                Animation                               Sound
+
+ “Now you decide.”                     The scene assembles                     Rising swell
+
+ “out-manoeuvring her?”                The title glows yellow                  Shimmer
+
+ “Tell us in the comments.”            The comment bubble pops                 Pop
+
+
+
+
+PART 6: Grok voiceover (voice: Atlas)
+How to generate
+
+     Generate one segment at a time, with identical voice settings for every segment.
+
+     Numbers are written as words so they’re read correctly.
+
+     Tags in square or angle brackets are delivery directions, never spoken.
+
+     The pace and pauses are finalised in the mix (3.11).
+
+Pronunciation to check: Albanese (al-buh-NEE-zee), Ipswich, Farrer, Burke, Haines,
+Sheehy, Duniam, Gorman, DemosAU (DEM-oss A-U), RedBridge.
+
+S01 On a Monday in June, twenty twenty-six, a Newspoll landed in Canberra like a bomb.
+[pause] Pauline Hanson’s One Nation was on thirty-one percent of the primary vote.
+Anthony Albanese’s Labor government was on thirty percent.
+
+S02 That same day, the Prime Minister stood in front of reporters and made a promise. Net
+overseas migration would come down to two hundred and twenty-five thousand. “We think
+that is the right number,” he said. [pause] <slow>Coincidence?</slow> [short pause]
+Maybe.
+
+S03 Three months later, Pauline Hanson announced a plan to cut seven hundred and fifty
+thousand temporary visas. Three days after that, Labor unveiled its own migration
+crackdown.
+
+S04 So is Anthony Albanese copying Pauline Hanson? [pause] Or is something bigger
+happening in Australia, something both of them are reacting to?
+
+S05 We’re not going to tell you what to think. We’re going to lay out the dates, the numbers
+and the quotes, in order. And at the end, there’s one pattern in the polls that almost nobody
+is talking about. But first, the question everyone is fighting over. [pause] <slow>Is Australia
+actually full?</slow>
+
+S06 Australia’s population now stands at about twenty-seven point nine million people. In
+the twelve months to March twenty twenty-six, the country grew by three hundred and
+ninety-two thousand, seven hundred people. Around three in every four of them came from
+overseas.
+
+S07 Net overseas migration, the number of people arriving to live in Australia minus the
+number leaving, was two hundred and ninety-two thousand, one hundred over that year.
+That’s roughly eight hundred people <slow>every single day.</slow>
+
+S08 And that’s the low number. In twenty twenty-three, after the borders reopened from
+COVID, net migration passed half a million, the highest on record.
+
+S09 Now, by land, Australia is one of the emptiest countries on Earth, with about three
+people for every square kilometre. So when people ask “Is Australia full?”, they’re rarely
+talking about land. They’re talking about homes. Rents. Hospital waiting lists. Traffic on the
+M-one.
+
+S10 The Coalition’s Andrew Bragg points out that Australia completes only around one
+hundred and seventy thousand new homes a year, far fewer than the number of people
+arriving. Supporters of migration answer that migrants build many of those homes, staff the
+hospitals and pay the taxes that fund them.
+
+S11 Both sides are using the same numbers. They just read them differently. [pause] And for
+thirty years, one politician has been reading them the same way.
+
+S12 <slow>In September, nineteen ninety-six, a newly elected MP from Ipswich named
+Pauline Hanson gave her first speech to Parliament. [pause] She warned that Australia was
+in danger of being “swamped by Asians.”</slow> [long pause]
+
+S13 The speech made her famous, and in much of the country, it made her untouchable.
+Both major parties preferenced against her. Commentators called her views racist. For two
+decades, being seen near Hanson was treated as political poison.
+
+S14 But she never stopped talking about migration. In twenty sixteen, she returned to the
+Senate warning about Muslims. In twenty eighteen, she called for migration to be capped at
+seventy-five thousand a year. By twenty twenty-five, her target was one hundred and thirty
+thousand.
+
+S15 Then came the May twenty twenty-five federal election. The Coalition ran on cutting
+migration, and lost in a landslide. Labor won ninety-four seats. One Nation won about six
+percent of the vote, and not one seat in the House of Representatives. On that night, Pauline
+Hanson looked like a story from the past. [pause] <slow>What happened next surprised
+almost everyone in Canberra.</slow>
+
+S16 By November twenty twenty-five, just six months after that election, polls showed
+something new. For the first time, more voters named One Nation as the party best able to
+handle immigration than named Labor or the Coalition.
+
+S17 In January twenty twenty-six, One Nation drew level with the Coalition at twenty-three
+percent in a national poll. In March, One Nation won almost twenty-three percent of the vote
+at the South Australian state election, and took four lower-house seats.
+
+S18 In May, One Nation’s David Farley won the Farrer by-election, becoming the first One
+Nation candidate ever elected to the House of Representatives. And in June came that
+Newspoll. [short pause] One Nation thirty-one. [short pause] Labor thirty.
+
+S19 By August, a RedBridge poll found around four in ten voters rated One Nation as the
+best party on immigration. Labor and the Liberals sat below twenty percent each. On this
+one issue, Pauline Hanson was no longer on the fringe. [short pause] She was in front.
+[pause] <slow>And that’s when the government started moving.</slow>
+
+S20 Here’s the timeline. [short pause] Watch the dates. In June twenty twenty-six, on the
+day One Nation tops Newspoll, Anthony Albanese commits to cutting net migration to two
+hundred and twenty-five thousand.
+
+S21 In July, Home Affairs Minister Tony Burke pauses or slows the processing of working
+holiday visas. A new ministerial direction sends skilled workers applying from overseas to
+the back of the queue. For some, waits stretch from days to more than a year.
+
+S22 In August, Tony Burke is due to give a major speech on migration. It’s abruptly
+postponed, amid reports of disagreements inside cabinet.
+
+S23 On the fourteenth of September, Pauline Hanson announces One Nation’s plan: more
+than seven hundred and fifty thousand temporary visas cut over three years, and net
+negative migration. <slow>That means more people leaving Australia than arriving.</slow>
+S24 On the seventeenth of September, three days later, Tony Burke finally gives his speech.
+Tighter rules for temporary visas. A ballot for working holiday visas. And, according to the
+A-B-C, international students would effectively lose the ability to bring their families.
+
+S25 Then on the sixth of October, Opposition Leader Angus Taylor announces the
+Coalition’s plan: net migration of one hundred thousand a year for two years, which he calls
+the largest cut in Australian history. Future migration would be linked to the number of
+homes built.
+
+S26 And here’s the strangest part. One Nation’s Barnaby Joyce publicly accused the
+Coalition of adopting One Nation’s policy. So now even the copying is being fought over.
+
+S27 Put the dates side by side and the pattern is hard to miss. Every time One Nation
+moved, the major parties seemed to move soon after. [pause] But a pattern isn’t proof.
+<slow>And Labor has a very different version of this story.</slow>
+
+S28 Labor’s argument starts in December twenty twenty-three, long before One Nation’s
+surge. That month, Anthony Albanese said migration needed to come back to a “sustainable
+level.” His government released a migration strategy promising to bring numbers down from
+the post-COVID peak.
+
+S29 And the numbers did come down. Net overseas migration fell from more than half a
+million in twenty twenty-three to about three hundred and one thousand in twenty twenty-
+five, a drop of roughly forty-five percent. Most of that fall happened <slow>before</slow>
+One Nation was leading anything.
+
+S30 The two hundred and twenty-five thousand figure wasn’t invented in June either. It first
+appeared as a forecast in the federal budget. Labor then turned it into a target. And the gap
+between the parties is still enormous. Labor wants net migration of two hundred and
+twenty-five thousand. [short pause] The Coalition wants one hundred thousand. [short
+pause] One Nation wants net negative migration for three years.
+
+S31 Labor ministers have also attacked Hanson’s plan head on. Environment Minister Murray
+Watt said it would “probably drive the Australian economy into recession.” Labor’s Patrick
+Gorman mocked it, saying a policy thirty years in the making had collapsed within half an
+hour. And at the September speech, Tony Burke rejected what he called “absurd claims”
+that Australia is a nation of mass migration.
+
+S32 So is Labor copying Hanson? Or is it simply finishing a job it started three years ago,
+and getting louder about it because voters are watching? [pause] <slow>But whoever is
+leading this race, someone is going to pay for it.</slow>
+
+S33 Every migration cut lands on someone. Universities are among the first. Universities
+Australia’s chief executive Luke Sheehy accused all three parties of joining a political race to
+the bottom on international students, one of Australia’s biggest export industries.
+S34 Hospitality is next. Accommodation Australia says there are more than forty thousand
+unfilled hospitality jobs nationwide, and warns that cutting migrant workers will make the
+shortage worse. Then there’s regional Australia, where backpackers pick fruit, pour beers
+and fill motel rooms. When Labor slowed working holiday visas, independent MP Helen
+Haines raised the damage to the regions in Parliament.
+
+S35 And here’s the twist in that story. Pauline Hanson also attacked Labor’s slowdown,
+accusing the government of “starving” regional Australia of workers and tourists. So the
+politician most famous for wanting less migration criticised the government for cutting the
+wrong kind.
+
+S36 Meanwhile, migration experts writing in The Conversation argue that none of the three
+parties’ plans is properly based on evidence. Every party is chasing one headline number,
+net overseas migration, without modelling what happens to housing, wages or the economy
+once it moves. So if the numbers aren’t driving this race, what is? [pause] <slow>The
+answer might be in the polls.</slow>
+
+S37 Remember that pattern nobody’s talking about? [short pause] Here it is. In mid-
+September, before Labor’s crackdown, Newspoll had One Nation on thirty percent and
+Labor on twenty-seven percent. Three weeks after Tony Burke’s speech, the next Newspoll
+came out. Labor had risen to twenty-nine percent. One Nation had dropped to twenty-eight
+percent. The Coalition sat on twenty percent. For the first time on record, all three parties
+were in the twenties.
+
+S38 Resolve and Demos A-U showed the same thing. One Nation was slipping, and Labor
+was recovering. That doesn’t prove the crackdown caused the shift. Polls move for many
+reasons. <soft>But if you were a strategist inside Labor, you’d notice.</soft>
+
+S39 And then, this week, Anthony Albanese gave a speech that seemed to point the other
+way. He made a passionate defence of multiculturalism. In a swipe that sounded aimed at
+Hanson, who has said Australia should be a monoculture, he said anyone who looks back
+and sees a single culture should “get themselves down to the nearest Specsavers.” [pause]
+
+S40 So in the same season, the Prime Minister has cut visas, introduced a backpacker ballot
+and set a lower migration target, while publicly fighting the very idea One Nation stands for.
+Is that copying Hanson? [pause] Or is it the opposite: taking away her issue while rejecting
+her argument?
+
+S41 So let’s put it all together. One Nation’s rise came first, and Labor’s toughest migration
+moves came after. That’s the pattern. But Labor started cutting migration back in twenty
+twenty-three, its targets are still far higher than Hanson’s, and Albanese is openly
+campaigning against her vision of Australia. That’s the counter-pattern.
+
+S42 And sitting underneath both is the question that started it all. <slow>Is Australia full?
+</slow> By land, no. [short pause] By housing, many Australians feel it is. [short pause] And
+by politics, every major party is now promising to slow things down.
+
+S43 <slow>Thirty years ago, Pauline Hanson was treated as the outsider of Australian
+politics. Today, the Prime Minister, the Opposition Leader and One Nation are all arguing
+about the same thing: how far migration should fall. [pause] Maybe Albanese isn’t copying
+Hanson. [pause] Maybe Australia simply changed, and every party is chasing the same
+voters. [pause] Or maybe, after thirty years, Pauline Hanson is finally setting the agenda.
+</slow> [long pause]
+
+S44 You’ve seen the evidence. Now you decide. [pause] Is Albanese copying Hanson, or
+out-manoeuvring her? And is Australia full? Tell us in the comments.
+
+
+
+
+PART 7: Evidence register (every card must match its source)
+Open every source before export and confirm the exact wording, figures and date. If
+anything differs, change the card, never the source. Quotation marks appear only around
+the speaker’s exact words. Everything else is paraphrased.
+
+
+  Card    On-screen wording                              Label         Source
+
+                                                                       Newspoll / The
+                                                                       Australian, as
+                                                                       reported by AAP
+          NEWSPOLL · JUNE 2026 · One Nation 31 ·
+                                                                       (CityNews, 16 Jun
+  E01     Labor 30 · Coalition 18 · “One poll is a       FACT
+                                                                       2026); n ≈ 1,240
+          snapshot, not a verdict.”
+                                                                       (SCMP/Reuters).
+                                                                       Confirm the fieldwork
+                                                                       dates.
+
+                                                                       Reuters/Bloomberg,
+          “We think that is the right number.” Anthony                 via the South China
+  E02                                                    FACT
+          Albanese, Canberra, June 2026                                Morning Post, June
+                                                                       2026
+
+          Population 27.9 million at 31 March 2026 ·                   ABS media release, 17
+  E03                                                    FACT
+          +392,700 in 12 months (1.4%)                                 Sep 2026
+
+                                                                       ABS, 17 Sep 2026;
+          Net overseas migration 292,100, year to 31
+                                                                       The Nightly, Sep 2026
+  E04     March 2026 · about 74% of population           FACT
+                                                                       (74.4%, about 800 a
+          growth
+                                                                       day)
+      Andrew Bragg: net migration is still well
+E05   above about 170,000 home completions a         CLAIM   The Nightly, Sep 2026
+      year
+
+      Supporters, including the Prime Minister:              AAP, 15 Oct 2026
+E06   migrants work across the economy and pay       CLAIM   (Albanese speech to
+      taxes                                                  FECCA)
+
+                                                             Hansard, House of
+      “…in danger of being swamped by Asians.”
+E07                                                  FACT    Representatives, 10
+      Pauline Hanson, 10 Sep 1996
+                                                             Sep 1996
+
+                                                             DemosAU for Capital
+      DEMOSAU · JAN 2026 · One Nation 23 ·                   Brief, reported by the
+E08                                                  FACT
+      Coalition 23                                           Canberra Times, Jan
+                                                             2026
+
+                                                             RedBridge, reported
+                                                             by MacroBusiness,
+      REDBRIDGE · LATE JUL 2026 · Best party
+                                                             Aug 2026 (39% in the
+E09   on immigration: One Nation 40 · Labor 17 ·     FACT
+                                                             August wave,
+      Liberal 16
+                                                             MacroBusiness, Sep
+                                                             2026)
+
+      Migration speech postponed in August amid              ABC News, 17 Sep
+E10                                                  FACT
+      reported disagreement between ministers                2026
+
+                                                             One Nation statement,
+      One Nation plan: 750,000+ temporary visas
+                                                             14 Sep 2026; Times
+E11   cut over 3 years · net negative migration ·    CLAIM
+                                                             Higher Education and
+      then a 130,000 ceiling
+                                                             ABC, 14 Sep 2026
+
+      Labor, 17 Sep: tighter rules on temporary
+      visas (family members, switching visas,                ABC News, 16–17 Sep
+E12   extending stays) · working holiday visa        FACT    2026; SmartCompany,
+      ballot · student family visas restricted (as           17 Sep 2026
+      reported)
+
+                                                             Reported Dec 2023
+                                                             (Fox News, 12 Dec
+      “sustainable level.” Anthony Albanese, Dec
+E13                                                  FACT    2023). Swap in a
+      2023
+                                                             primary transcript if
+                                                             available.
+
+      Net overseas migration 530,620 (2023) →                ABS, via Business
+E14   301,000 (2025) · about −45% from the           FACT    Today (18 Jun 2026);
+      post-COVID peak                                               AAP, 14 Sep 2026
+
+
+      Budget forecast → government target:
+                                                                    ABC News, 6 Oct
+E15   245,000 by June 2027 · 225,000 by mid-             FACT
+                                                                    2026
+      2028
+
+      “probably drive the Australian economy into                   ABC News, 17 Sep
+E16                                                      FACT
+      recession.” Murray Watt, Sep 2026                             2026
+
+      Patrick Gorman (Labor) mocked the plan,                       AAP, 14 Sep 2026
+E17   saying it took 30 years to write and fell          CLAIM      (paraphrase, no
+      apart within half an hour                                     quotation marks)
+
+      “absurd claims” that Australia is a nation of                 SmartCompany, 17
+E18                                                      FACT
+      mass migration. Tony Burke, 17 Sep 2026                       Sep 2026
+
+      Universities Australia: all three parties are in              Times Higher
+E19   a political race to the bottom on                  CLAIM      Education, 14 Sep
+      international students                                        2026 (Luke Sheehy)
+
+                                                                    Accommodation
+      40,000+ hospitality job vacancies · cutting                   Australia, 12 Aug 2026
+E20   skilled workers “only going to make a bad          CLAIM      (James Goodwin).
+      situation worse”                                              Show only the short
+                                                                    quote.
+
+                                                                    Hanson statement,
+      Pauline Hanson accuses Labor of “starving”
+E21                                                      CLAIM      reported by ABC
+      regional Australia of workers and tourists
+                                                                    News, 17 Sep 2026
+
+      Migration experts: none of the three parties’                 The Conversation, Oct
+E22                                                      ANALYSIS
+      plans is properly based on evidence                           2026
+
+                                                                    Newspoll / The
+                                                                    Australian, via The
+      NEWSPOLL · 14–17 SEP 2026: One Nation                         Conversation (11 Oct
+      30 · Labor 27 · Coalition 19 → NEWSPOLL ·                     2026) and The New
+E23   5–8 OCT 2026 (n = 1,241): Labor 29 · One           FACT       Daily (12 Oct 2026);
+      Nation 28 · Coalition 20 · Greens 14 · All                    the September figures
+      three in the 20s for the first time on record                 are from the previous
+                                                                    film’s evidence
+                                                                    register
+
+                                                                    Resolve Political
+      RESOLVE · 6–10 OCT 2026 (n = 2,250):                          Monitor for Nine, via
+E24   Labor 29 · One Nation 25 · Coalition 23            FACT       The Conversation, 11
+                                                                      Oct 2026
+
+
+         DEMOSAU · OCT 2026: One Nation 26 (−4                        Yahoo News Australia,
+ E25                                                    FACT
+         on the previous quarter) · Labor 27                          12 Oct 2026
+
+         Pauline Hanson has previously said
+ E26                                                    FACT          AAP, 15 Oct 2026
+         Australia should be a monoculture
+
+         “…get themselves down to the nearest
+                                                                      AAP, 15 Oct 2026
+ E27     Specsavers.” Anthony Albanese, 15 Oct          FACT
+                                                                      (speech to FECCA)
+         2026
+
+
+Additional facts used in the narration and on the pattern board:
+
+   Ministerial Direction 119 and working holiday visas paused or slowed in July 2026:
+   ABC News, 17 Sep 2026.
+
+   Haines question in Question Time: ABC News, 17 Sep 2026.
+
+   Coalition plan, 6 Oct 2026: net migration of 100,000 in 2028–29 and 2029–30,
+   130,000, then 160,000 by 2031–32; humanitarian intake from 20,000 to 10,000; linked to
+   housing completions; Taylor calls it the largest cut in Australian history. Sources: ABC
+   News and The Conversation, 6 Oct 2026.
+
+   Joyce accusation: reported 7 Oct 2026 (World Today Journal). Confirm in a major
+   outlet before use (Part 10).
+
+   One Nation first rated best on immigration (27%, Nov 2025): AFR poll, reported via
+   Poll Bludger, Feb 2026.
+
+   SA election, 21 Mar 2026: One Nation 22.9%, 4 House of Assembly seats (Electoral
+   Commission SA results, via Wikipedia).
+
+   Farrer by-election, 9 May 2026: David Farley, One Nation’s first House of
+   Representatives seat (AEC results, via Wikipedia).
+
+   May 2025 election: Labor 94 seats; One Nation 6.4%, 0 House seats; Coalition 31.8%
+   (AEC). Confirm on the AEC tally room.
+
+   Hanson’s policy history: 2018 cap of 75,000; 2025 target of 130,000 (Wikipedia,
+   “Hansonism”, with its cited sources).
+
+   Pre-COVID average net migration “just over 200,000”: The Australian (Judith Sloan,
+   Dec 2023).
+
+   Density: 27.9 million ÷ 7.69 million km² ≈ 3.6 people per km² (our calculation).
+    Counter: 86,400 seconds ÷ 800 ≈ one net arrival every 1 minute 48 seconds (our
+    calculation).
+
+
+
+
+PART 8: Asset collection list (all free)
+Every item has an ID that matches Part 5 exactly. File names are fixed. Record the licence
+and credit for every item in the description credits.
+
+
+8.1 Event footage (ParlView: parlview.aph.gov.au)
+
+                                                        Search on
+  ID / file                             What                        Status    Fallback
+                                                        ParlView
+
+                                        Hanson
+                                        first
+                                        speech,
+                                                        REUSE
+                                        House, 10
+                                                        from The              Hansard
+                                        Sep 1996
+  FT01_hanson_maiden_1996.mp4                           Pauline               quote card
+                                        (the
+                                                        Hanson                only
+                                        “swamped
+                                                        Story
+                                        by Asians”
+                                        line in
+                                        context)
+
+                                        Hanson
+                                        first Senate
+                                                                              Date card +
+                                        speech,
+                                                                              Senate
+  FT02_hanson_senate_2016.mp4           Sep 2016        REUSE
+                                                                              chamber
+                                        (4 s,
+                                                                              stock
+                                        neutral
+                                        excerpt)
+
+                                                        REUSE if
+                                        David           collected
+                                        Farley in       for the
+                                        the House       earlier               Farrer map +
+  FT03_farley_first_speech.mp4
+                                        after the       films;                name card
+                                        Farrer win,     otherwise
+                                        2026            search
+                                                        “Farley”
+
+                                        Tony Burke
+                                        answering       “Question
+                                        on               Time 16
+                                        migration,       September                     IMG_burke
+  FT04_burke_qt_sep2026.mp4
+                                        Question         2026” / “17                   + E12 card
+                                        Time, 16 or      September
+                                        17 Sep           2026”
+                                        2026
+
+                                        Helen
+                                        Haines
+                                        asking
+                                                         “Question
+                                        about                                          IMG_haines
+                                                         Time 16
+                                        working                                        +
+  FT05_haines_qt_sep2026.mp4                             September
+                                        holiday                                        paraphrase
+                                                         2026
+                                        visas,                                         card
+                                                         Haines”
+                                        Question
+                                        Time, 16
+                                        Sep 2026
+
+
+Credit: “Parliament of Australia”. Excerpts must be in context, under Parliament’s broadcast
+conditions.
+
+
+8.2 Photos (real people: free licences only, never altered)
+
+ ID / file                    Who            Where                     Licence note           Fallback
+
+                              Anthony                                  CC BY 4.0,
+  IMG_albanese_dfat.jpg                      REUSE (DFAT)                                     n/a
+                              Albanese                                 unaltered
+
+                                             REUSE, Wikimedia
+                              Pauline
+  IMG_hanson_cc0.jpg                         “Pauline Hanson           CC0                    n/a
+                              Hanson
+                                             2016 01.jpg”
+
+                                             Wikimedia                 Use a CC BY /
+                              Tony                                                            Name
+  IMG_burke.jpg                              Commons, “Tony            CC BY-SA /
+                              Burke                                                           card
+                                             Burke”                    PD file only
+
+                                             Wikimedia
+                              Angus                                                           Name
+  IMG_taylor.jpg                             Commons, “Angus           As above
+                              Taylor                                                          card
+                                             Taylor”
+
+                              Barnaby                                                         Name
+  IMG_joyce.jpg                              REUSE                     As before
+                              Joyce                                                           card
+
+                                             Wikimedia
+                              Peter                                                           Name
+  IMG_dutton.jpg                             Commons, “Peter           As above
+                               Dutton       Dutton”                                      card
+
+
+                                            Wikimedia
+                               Clare
+                                            Commons, “Clare                              Name
+  IMG_oneil.jpg                O’Neil                                 As above
+                                            O’Neil”                                      card
+
+
+
+                                            Wikimedia
+                               Murray                                                    Name
+  IMG_watt.jpg                              Commons,                  As above
+                               Watt                                                      card
+                                            “Murray Watt”
+
+                                            Wikimedia
+                               Patrick                                                   Name
+  IMG_gorman.jpg                            Commons,                  As above
+                               Gorman                                                    card
+                                            “Patrick Gorman”
+
+                                            Wikimedia
+                               Helen                                                     Name
+  IMG_haines.jpg                            Commons, “Helen           As above
+                               Haines                                                    card
+                                            Haines”
+
+                                            Wikimedia
+                               Andrew                                                    Name
+  IMG_bragg.jpg                             Commons,                  As above
+                               Bragg                                                     card
+                                            “Andrew Bragg”
+
+                                            REUSE if
+                               David                                                     Name
+  IMG_farley.jpg                            collected, else           As above
+                               Farley                                                    card
+                                            Wikimedia
+
+
+Name card (the fallback for any missing photo): a dark card with the name in Inter Bold, the
+role in grey, and a small party-colour bar. No silhouette or drawn face.
+
+
+8.3 Free stock B-roll (Pexels, Pixabay, Mixkit)
+
+  ID / file                                             Search terms             Notes
+
+                                                        “Sydney street
+                                                                                 Faces must be
+                                                        timelapse”, “city
+  BR_STOCK_sydney_street_timelapse.mp4                                           unrecognisable
+                                                        pedestrians motion
+                                                                                 streaks
+                                                        blur”
+
+                                                        “Melbourne aerial
+  BR_STOCK_melbourne_aerial_dusk.mp4                    dusk”, “Melbourne
+                                                        drone city”
+
+                                                        “airport arrivals        Avoid readable
+  BR_STOCK_airport_arrivals_board.mp4                   board”, “flight          airline logos;
+                                            information display”    blur if needed
+
+                                            “plane landing
+BR_STOCK_plane_landing_sydney.mp4           Sydney”, “aircraft
+                                            landing runway”
+
+                                            “sold sign house”,
+                                                                    Blur agency
+BR_STOCK_house_sold_sign.jpg/.mp4           “real estate sold
+                                                                    branding
+                                            sign”
+
+
+                                            “house keys
+BR_STOCK_rental_inspection_keys.mp4         handover”, “keys in     Hands only
+                                            hand new home”
+
+                                            “empty hospital
+BR_STOCK_hospital_corridor_empty.mp4
+                                            corridor”
+
+                                            “Australia motorway
+BR_STOCK_motorway_traffic_aus.mp4           traffic”, “highway
+                                            traffic jam aerial”
+
+                                            “construction
+BR_STOCK_construction_worker_scaffold.mp4   worker scaffolding      No face
+                                            back view”
+
+                                            “nurse walking
+BR_STOCK_nurse_corridor_back.mp4            hospital corridor       No face
+                                            back view”
+
+                                                                    Also for the
+                                            “cranes apartment
+BR_STOCK_apartment_cranes.jpg                                       thumbnail
+                                            construction city”
+                                                                    polaroid
+
+                                            “Adelaide skyline”,
+BR_STOCK_adelaide_skyline.mp4
+                                            “Adelaide aerial”
+
+                                                                    No national
+                                            “passport on desk”,
+BR_STOCK_passport_desk_generic.jpg                                  crest visible;
+                                            “travel documents”
+                                                                    blur if needed
+
+                                            “orchard ladder”,
+BR_STOCK_orchard_ladders.mp4                “fruit picking ladder   No faces
+                                            orchard”
+
+                                            “empty podium
+BR_STOCK_empty_lectern_microphone.mp4       microphone”,            No logos
+                                                  “lectern spotlight”
+
+                                                  “university campus         Avoid named
+  BR_STOCK_university_campus_aerial.mp4
+                                                  aerial”                    signage
+
+                                                  “graduation caps           Faces small or
+  BR_STOCK_graduation_caps_air.mp4
+                                                  thrown”                    blurred
+
+  BR_STOCK_lecture_hall_empty.mp4                 “empty lecture hall”
+
+                                                  “country pub
+  BR_STOCK_country_pub_exterior.mp4               Australia”, “outback
+                                                  hotel exterior”
+
+                                                  “motel sign dusk”,
+  BR_STOCK_motel_sign_dusk.mp4                    “roadside motel
+                                                  night”
+
+                                                                             Also the
+  BR_STOCK_parliament_house_canberra.mp4          REUSE
+                                                                             thumbnail base
+
+
+
+8.4 AI B-roll (Grok Imagine). Add the 3.10 style anchor to every prompt.
+
+ ID / file                                 Prompt
+
+                                           Slow drone push through thick dawn fog over a
+                                           quiet capital city lake, the silhouette of a large
+  BR_AI_canberra_dawn_fog.mp4
+                                           modern government building emerging, cold
+                                           blue light turning gold, eerie calm.
+
+                                           High aerial shot over endless red Australian
+                                           outback, a single dirt road to the horizon, no
+  BR_AI_outback_aerial_empty.mp4
+                                           buildings, slow rising camera, vast emptiness,
+                                           late afternoon light.
+
+                                           An empty 1990s suburban Australian lounge
+                                           room at night, a boxy CRT television glowing
+  BR_AI_1990s_lounge_tv_glow.mp4
+                                           and flickering on a timber cabinet, floral couch,
+                                           nobody in the room, slow dolly in.
+
+                                           An empty function hall after an election night
+                                           party, deflated balloons on the carpet, stacked
+  BR_AI_election_night_empty_hall.mp4
+                                           chairs, a blank stage with a microphone, no
+                                           signage, no logos, slow pan.
+                                               A small Australian café in the early morning,
+  BR_AI_cafe_empty_morning.mp4                 chairs stacked on tables, an idle espresso
+                                               machine, sunlight through the front window, no
+                                               people, slow push in.
+
+                                               An empty office at night, a whiteboard covered
+                                               in unreadable marker scribbles and arrows,
+  BR_AI_strategy_room_whiteboard.mp4
+                                               one desk lamp, city lights through the window,
+                                               no people, slow pan.
+
+                                               (Still image.) Cinematic YouTube thumbnail
+                                               background, 16:9. A cracked dark map of
+                                               Australia at the centre on a weathered wall,
+                                               with a glowing red digital counter reading ‘800
+                                               / DAY’. Four pinned polaroid photos connected
+                                               by red string: an airport arrivals board, a
+  BR_AI_thumbnail_bg.png                       ‘SOLD’ real estate sign, construction cranes
+                                               over apartments, a graduation cap. Below, a
+                                               grand modern parliament building at a
+                                               dramatic red-orange sunset. High contrast,
+                                               moody, empty space on the left and right
+                                               edges for portraits, no text except the counter,
+                                               no people.
+
+
+If Grok Imagine renders any readable text other than “800 / DAY”, regenerate. The real
+Parliament House can be composited in from BR_STOCK_parliament_house_canberra .
+
+
+8.5 Music (YouTube Audio Library or Pixabay Music)
+
+ ID / file                       Mood search terms                            Used in
+
+                                 “dark tension pulse”, “suspense              Opening,
+  MUS_01_tense_pulse.mp3
+                                 documentary”                                 Chapter 4
+
+                                 “investigative documentary neutral”,         Chapter 1,
+  MUS_02_investigative.mp3
+                                 “news underscore minimal”                    Chapter 5
+
+                                 “reflective piano archival”, “nostalgic
+  MUS_03_archival.mp3                                                         Chapter 2
+                                 ambient”
+
+                                 “building momentum cinematic”,
+  MUS_04_momentum.mp3                                                         Chapter 3
+                                 “rising percussion”
+
+                                 “melancholic strings minimal”,
+  MUS_05_sober.mp3                                                            Chapter 6
+                                 “sombre ambient”
+                                                                           Chapter 7,
+                             “cinematic tension resolve”, “epic
+  MUS_06_tense_resolve.mp3                                                 Closing, end
+                             documentary ending”
+                                                                           screen
+
+
+
+8.6 Sound effects (Pixabay sound effects, Freesound CC0, YouTube Audio
+Library)
+
+ ID / file                               Search terms
+
+  SFX_bass_impact.wav                    “cinematic bass hit”
+
+  SFX_tick_roll.wav                      “counter tick roll”, “odometer”
+
+  SFX_slot_roll.wav                      “slot machine roll ding”
+
+  SFX_split_flap.wav                     “split flap display”
+
+  SFX_stamp.wav                          “rubber stamp”
+
+  SFX_marker.wav                         “marker on paper squeak”
+
+  SFX_shutter.wav                        “camera shutter click”
+
+  SFX_thread_snap.wav                    “string snap”, “rope tight”
+
+  SFX_paper_slide.wav                    “paper slide”, “paper rip”
+
+  SFX_whoosh_set.wav                     “whoosh transitions pack”
+
+  SFX_chain_rattle.wav                   “chain rattle padlock”
+
+  SFX_padlock_break.wav                  “metal lock break”, “glass break”
+
+  SFX_receipt_printer.wav                “receipt printer”
+
+  SFX_clock_ticks.wav                    “clock ticking”
+
+  SFX_jet_soft.wav                       “jet pass distant”
+
+  SFX_heartbeat.wav                      “single heartbeat thump”
+
+  SFX_lamp_click.wav                     “lamp switch click”
+
+  SFX_glass_clink.wav                    “glass clink”
+  SFX_drone_low.wav                            “low cinematic drone”
+
+  SFX_room_tone.wav                            “room tone quiet”
+
+
+
+8.7 Built in animation (nothing to collect)
+   The pattern board with all its nodes.
+
+   The scoreboard.
+
+   Poll-lines and issue charts.
+
+   The net migration line chart.
+
+   The three-plan comparison.
+
+   The maps (Australia, SA, Farrer, regional), REUSE vector maps.
+
+   The 800/DAY counter, the padlocked chart, the receipt, the queue and tickets, the
+   explainer equation, the balance scale, all stamps and all evidence and quote cards (from
+   Part 7).
+
+   Fonts: Inter and Source Serif 4 (Google Fonts). Icons: Material Symbols and OpenMoji.
+
+
+
+
+PART 9: On-screen numbers (single source of truth)
+
+ Item                   Value                                          Source
+
+                                                                       Newspoll via
+ Newspoll, June
+                        One Nation 31 · Labor 30 · Coalition 18        AAP/CityNews, 16
+ 2026
+                                                                       Jun 2026
+
+ Labor target           225,000 by mid-2028 (245,000 by June 2027)     ABC, 6 Oct 2026
+
+                        750,000+ temporary visas over 3 years · net    One Nation, 14 Sep
+ One Nation plan
+                        negative · then 130,000                        2026
+
+                        100,000 (2028–29, 2029–30) · 130,000 ·         ABC / The
+ Coalition plan         160,000 by 2031–32 · humanitarian 20,000 →     Conversation, 6
+                        10,000                                         Oct 2026
+
+ Population, 31 Mar
+                        27,921,200 (shown as 27.9 million)             ABS, 17 Sep 2026
+ 2026
+
+ Growth, year to        392,700 (1.4%)                                 ABS
+Mar 2026
+
+Net overseas
+migration, year to    292,100 (≈74% of growth; ≈800 a day)               ABS; The Nightly
+Mar 2026
+
+Net overseas          530,620 (shown as “more than half a million”;      ABS via Business
+migration, 2023       “RECORD”)                                          Today
+
+Net overseas
+                      301,000                                            ABS
+migration, 2025
+
+Fall from peak        ≈45%                                               AAP, 14 Sep 2026
+
+                                                                         The Australian,
+Pre-COVID average     just over 200,000
+                                                                         Dec 2023
+
+Density               ≈3.6 people per km² (“about three” in VO)          Our calculation
+
+Counter               +1 every 1 min 48 s                                Our calculation
+
+                                                                         Andrew Bragg
+Home completions      ≈170,000 a year                                    (CLAIM), The
+                                                                         Nightly
+
+                      Labor 94 seats · One Nation 6.4%, 0 House
+2025 election                                                            AEC
+                      seats
+
+Best on               One Nation 27% (Nov 2025) · One Nation 40 /
+                                                                         AFR; RedBridge
+immigration           Labor 17 / Liberal 16 (RedBridge, late Jul 2026)
+
+DemosAU, Jan
+                      One Nation 23 · Coalition 23                       Canberra Times
+2026
+
+SA election, 21 Mar
+                      One Nation 22.9% · 4 seats                         ECSA
+2026
+
+Farrer, 9 May 2026    One Nation’s first House seat                      AEC
+
+Newspoll, 14–17                                                          Newspoll (previous
+                      One Nation 30 · Labor 27 · Coalition 19
+Sep 2026                                                                 film’s register)
+
+Newspoll, 5–8 Oct     Labor 29 · One Nation 28 · Coalition 20 ·          The Conversation,
+2026                  Greens 14 (n = 1,241)                              11 Oct 2026
+
+Resolve, 6–10 Oct     Labor 29 · One Nation 25 · Coalition 23 (n =       The Conversation,
+2026                  2,250)                                             11 Oct 2026
+  DemosAU, Oct                                                             Yahoo News, 12
+                        One Nation 26 · Labor 27
+  2026                                                                     Oct 2026
+
+                                                                           Accommodation
+  Hospitality
+                        40,000+                                            Australia, 12 Aug
+  vacancies
+                                                                           2026
+
+                                                                           Wikipedia,
+  Hanson targets        75,000 (2018) · 130,000 (2025)
+                                                                           “Hansonism”
+
+                        +0 days (June) · +3 days (14→17 Sep) · +22
+  Gap labels                                                               Dates above
+                        days (14 Sep→6 Oct)
+
+
+
+
+PART 10: Publish-day checks
+ 1. Polls: if the 5–8 October Newspoll is no longer the latest, update S37, S38, E23–E25
+    and Part 9. If the new poll reverses the crossover, rewrite S37–S38 before publishing;
+    the twist depends on it.
+
+ 2. June Newspoll date: confirm the exact fieldwork and publication dates (expected
+    Monday 15 June 2026) and that Albanese’s 225,000 comment came the same day. If it
+    was a different day, change “+0 DAYS” and “That same day” (S02, S20).
+
+ 3. “This week” (S39): change it to “in October” if publishing after about 22 October
+    2026. Confirm the delivered speech contains the Specsavers line exactly as quoted.
+
+ 4. Joyce accusation (S26): confirm in a major outlet (ABC, AAP, Guardian, Nine). If it
+    can’t be confirmed, cut S26 and close S25 with the next line of S27.
+
+ 5. The May 2025 Coalition migration policy wording (S15) and the 2025 results (AEC
+    tally room).
+
+ 6. The “major export” card (S33): add the latest official international education export
+    figure, or keep the card wording general.
+
+ 7. ParlView dates for FT04 and FT05 (16 vs 17 Sep sittings).
+
+ 8. Licences: every photo, clip, sound and track has its licence confirmed and its credit
+    recorded.
+
+ 9. ParlView confirmation in writing (REUSE if it covers the channel).
+
+10. Lawyer review of the final cut.
+
+11. Comment moderation on (“hold potentially inappropriate comments”). This topic will
+  attract heated comments. Pin the neutral pinned comment from Part 1.
+
+
+
+
+PART 11: Disclaimer (S05 short on-screen card and the top of
+the description)
+  This is an independent documentary made for educational and informational purposes. It
+  is not affiliated with, endorsed by, or paid for by Anthony Albanese, the Labor Party,
+  Pauline Hanson, One Nation, the Coalition, or any political party or candidate. Statements
+  of fact come from official statistics, parliamentary records, official election results,
+  published polls and reputable news reports, shown on screen and listed in the
+  description. Quotations are presented in context with dates. Analysis is clearly labelled,
+  and the video does not claim that any politician copied another; it presents a timeline and
+  invites viewers to decide. Some background scenes are AI-generated reconstructions; no
+  real person has been AI-generated or altered. If you believe anything is inaccurate,
+  contact [your email] and we will review it promptly.
+

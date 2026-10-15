@@ -1,0 +1,10 @@
+===== S18 (ATLAS) =====
+Generate a downloadable MP3 voiceover in Grok Atlas voice, Australian English accent, natural documentary narration, warm, human and conversational, not robotic. Do not read stage directions or this instruction. Do not say the words pause, soft or slow. Read quotes plainly and neutrally, never as an impression. Delivery for this segment: evidence then hook mode, precise and even-handed, then urgent and clipped. A blank line in the text is a short natural beat, not a spoken word. Pronunciation: Farrer is FARR-er; Newspoll is NEWS-poll, one word. Speak only the narration below:
+
+In May, One Nation’s David Farley won the Farrer by-election, becoming the first One Nation candidate ever elected to the House of Representatives.
+
+And in June came that Newspoll.
+
+One Nation thirty-one.
+
+Labor thirty.

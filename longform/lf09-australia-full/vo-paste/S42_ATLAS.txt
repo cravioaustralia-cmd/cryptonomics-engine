@@ -1,0 +1,12 @@
+===== S42 (ATLAS) =====
+Generate a downloadable MP3 voiceover in Grok Atlas voice, Australian English accent, natural documentary narration, warm, human and conversational, not robotic. Do not read stage directions or this instruction. Do not say the words pause, soft or slow. Read quotes plainly and neutrally, never as an impression. Delivery for this segment: question then evidence mode, curious and open, then precise and even-handed. Give extra weight to: Is Australia full? A blank line in the text is a short natural beat, not a spoken word. Speak only the narration below:
+
+And sitting underneath both is the question that started it all.
+
+Is Australia full?
+
+By land, no.
+
+By housing, many Australians feel it is.
+
+And by politics, every major party is now promising to slow things down.

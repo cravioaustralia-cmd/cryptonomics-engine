@@ -1,0 +1,8 @@
+===== S20 (ATLAS) =====
+Generate a downloadable MP3 voiceover in Grok Atlas voice, Australian English accent, natural documentary narration, warm, human and conversational, not robotic. Do not read stage directions or this instruction. Do not say the words pause, soft or slow. Read quotes plainly and neutrally, never as an impression. Delivery for this segment: evidence mode, precise and even-handed. A blank line in the text is a short natural beat, not a spoken word. Pronunciation: Albanese is al-buh-NEE-zee; Newspoll is NEWS-poll, one word; years such as twenty twenty-six are said exactly as written, never two thousand and. Speak only the narration below:
+
+Here’s the timeline.
+
+Watch the dates.
+
+In June twenty twenty-six, on the day One Nation tops Newspoll, Anthony Albanese commits to cutting net migration to two hundred and twenty-five thousand.

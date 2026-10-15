@@ -1,0 +1,8 @@
+===== S06 (ATLAS) =====
+Generate a downloadable MP3 voiceover in Grok Atlas voice, Australian English accent, natural documentary narration, warm, human and conversational, not robotic. Do not read stage directions or this instruction. Do not say the words pause, soft or slow. Read quotes plainly and neutrally, never as an impression. Delivery for this segment: evidence mode, precise and even-handed. A blank line in the text is a short natural beat, not a spoken word. Pronunciation: years such as twenty twenty-six are said exactly as written, never two thousand and. Speak only the narration below:
+
+Australia’s population now stands at about twenty-seven point nine million people.
+
+In the twelve months to March twenty twenty-six, the country grew by three hundred and ninety-two thousand, seven hundred people.
+
+Around three in every four of them came from overseas.

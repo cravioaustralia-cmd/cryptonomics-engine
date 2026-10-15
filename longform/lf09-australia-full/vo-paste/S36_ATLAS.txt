@@ -1,0 +1,10 @@
+===== S36 (ATLAS) =====
+Generate a downloadable MP3 voiceover in Grok Atlas voice, Australian English accent, natural documentary narration, warm, human and conversational, not robotic. Do not read stage directions or this instruction. Do not say the words pause, soft or slow. Read quotes plainly and neutrally, never as an impression. Delivery for this segment: evidence then question mode, precise and even-handed, then curious and open. Give extra weight to: The answer might be in the polls. A blank line in the text is a short natural beat, not a spoken word. Speak only the narration below:
+
+Meanwhile, migration experts writing in The Conversation argue that none of the three parties’ plans is properly based on evidence.
+
+Every party is chasing one headline number, net overseas migration, without modelling what happens to housing, wages or the economy once it moves.
+
+So if the numbers aren’t driving this race, what is?
+
+The answer might be in the polls.

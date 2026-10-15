@@ -1,0 +1,18 @@
+===== S37 (ATLAS) =====
+Generate a downloadable MP3 voiceover in Grok Atlas voice, Australian English accent, natural documentary narration, warm, human and conversational, not robotic. Do not read stage directions or this instruction. Do not say the words pause, soft or slow. Read quotes plainly and neutrally, never as an impression. Delivery for this segment: hook then evidence mode, urgent and clipped, then precise and even-handed. A blank line in the text is a short natural beat, not a spoken word. Pronunciation: Newspoll is NEWS-poll, one word. Speak only the narration below:
+
+Remember that pattern nobody’s talking about?
+
+Here it is.
+
+In mid- September, before Labor’s crackdown, Newspoll had One Nation on thirty percent and Labor on twenty-seven percent.
+
+Three weeks after Tony Burke’s speech, the next Newspoll came out.
+
+Labor had risen to twenty-nine percent.
+
+One Nation had dropped to twenty-eight percent.
+
+The Coalition sat on twenty percent.
+
+For the first time on record, all three parties were in the twenties.
