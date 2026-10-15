@@ -1,0 +1,295 @@
+{
+ "digital_silence_runs": 0,
+ "gaps_ge_0.9s": [
+  {
+   "start": 14.8,
+   "end": 15.71,
+   "dur": 0.91,
+   "where": "between segments / bumper / mid-roll / end"
+  },
+  {
+   "start": 27.47,
+   "end": 28.43,
+   "dur": 0.96,
+   "where": "inside S02"
+  },
+  {
+   "start": 52.03,
+   "end": 52.95,
+   "dur": 0.92,
+   "where": "between segments / bumper / mid-roll / end"
+  },
+  {
+   "start": 68.11,
+   "end": 69.04,
+   "dur": 0.93,
+   "where": "inside S05"
+  },
+  {
+   "start": 70.83,
+   "end": 74.22,
+   "dur": 3.4,
+   "where": "between segments / bumper / mid-roll / end"
+  },
+  {
+   "start": 90.08,
+   "end": 91.0,
+   "dur": 0.92,
+   "where": "between segments / bumper / mid-roll / end"
+  },
+  {
+   "start": 158.85,
+   "end": 159.76,
+   "dur": 0.9,
+   "where": "inside S11"
+  },
+  {
+   "start": 163.33,
+   "end": 166.24,
+   "dur": 2.91,
+   "where": "between segments / bumper / mid-roll / end"
+  },
+  {
+   "start": 174.2,
+   "end": 175.18,
+   "dur": 0.98,
+   "where": "inside S12"
+  },
+  {
+   "start": 179.25,
+   "end": 180.85,
+   "dur": 1.61,
+   "where": "between segments / bumper / mid-roll / end"
+  },
+  {
+   "start": 210.84,
+   "end": 211.75,
+   "dur": 0.91,
+   "where": "between segments / bumper / mid-roll / end"
+  },
+  {
+   "start": 231.28,
+   "end": 232.28,
+   "dur": 0.99,
+   "where": "inside S15"
+  },
+  {
+   "start": 235.29,
+   "end": 238.65,
+   "dur": 3.36,
+   "where": "between segments / bumper / mid-roll / end"
+  },
+  {
+   "start": 284.91,
+   "end": 285.81,
+   "dur": 0.9,
+   "where": "between segments / bumper / mid-roll / end"
+  },
+  {
+   "start": 305.14,
+   "end": 308.56,
+   "dur": 3.42,
+   "where": "between segments / bumper / mid-roll / end"
+  },
+  {
+   "start": 337.56,
+   "end": 338.46,
+   "dur": 0.9,
+   "where": "between segments / bumper / mid-roll / end"
+  },
+  {
+   "start": 381.9,
+   "end": 382.82,
+   "dur": 0.92,
+   "where": "between segments / bumper / mid-roll / end"
+  },
+  {
+   "start": 426.07,
+   "end": 429.47,
+   "dur": 3.4,
+   "where": "between segments / bumper / mid-roll / end"
+  },
+  {
+   "start": 446.82,
+   "end": 447.73,
+   "dur": 0.91,
+   "where": "between segments / bumper / mid-roll / end"
+  },
+  {
+   "start": 522.29,
+   "end": 523.24,
+   "dur": 0.95,
+   "where": "inside S32"
+  },
+  {
+   "start": 526.83,
+   "end": 529.72,
+   "dur": 2.89,
+   "where": "between segments / bumper / mid-roll / end"
+  },
+  {
+   "start": 573.82,
+   "end": 574.72,
+   "dur": 0.9,
+   "where": "between segments / bumper / mid-roll / end"
+  },
+  {
+   "start": 592.05,
+   "end": 592.97,
+   "dur": 0.92,
+   "where": "between segments / bumper / mid-roll / end"
+  },
+  {
+   "start": 614.23,
+   "end": 615.22,
+   "dur": 1.0,
+   "where": "inside S36"
+  },
+  {
+   "start": 616.92,
+   "end": 620.31,
+   "dur": 3.39,
+   "where": "between segments / bumper / mid-roll / end"
+  },
+  {
+   "start": 647.33,
+   "end": 648.25,
+   "dur": 0.92,
+   "where": "between segments / bumper / mid-roll / end"
+  },
+  {
+   "start": 663.98,
+   "end": 664.88,
+   "dur": 0.9,
+   "where": "between segments / bumper / mid-roll / end"
+  },
+  {
+   "start": 684.75,
+   "end": 685.85,
+   "dur": 1.1,
+   "where": "between segments / bumper / mid-roll / end"
+  },
+  {
+   "start": 699.69,
+   "end": 700.67,
+   "dur": 0.98,
+   "where": "inside S40"
+  },
+  {
+   "start": 704.74,
+   "end": 707.64,
+   "dur": 2.9,
+   "where": "between segments / bumper / mid-roll / end"
+  },
+  {
+   "start": 760.11,
+   "end": 761.12,
+   "dur": 1.01,
+   "where": "inside S43"
+  },
+  {
+   "start": 763.74,
+   "end": 764.72,
+   "dur": 0.98,
+   "where": "inside S43"
+  },
+  {
+   "start": 769.84,
+   "end": 770.84,
+   "dur": 1.0,
+   "where": "inside S43"
+  },
+  {
+   "start": 776.04,
+   "end": 777.84,
+   "dur": 1.8,
+   "where": "between segments / bumper / mid-roll / end"
+  },
+  {
+   "start": 780.25,
+   "end": 781.16,
+   "dur": 0.91,
+   "where": "inside S44"
+  },
+  {
+   "start": 787.76,
+   "end": 803.46,
+   "dur": 15.7,
+   "where": "between segments / bumper / mid-roll / end"
+  }
+ ],
+ "inside_segment_gaps": [
+  {
+   "start": 27.47,
+   "end": 28.43,
+   "dur": 0.96,
+   "where": "inside S02"
+  },
+  {
+   "start": 68.11,
+   "end": 69.04,
+   "dur": 0.93,
+   "where": "inside S05"
+  },
+  {
+   "start": 158.85,
+   "end": 159.76,
+   "dur": 0.9,
+   "where": "inside S11"
+  },
+  {
+   "start": 174.2,
+   "end": 175.18,
+   "dur": 0.98,
+   "where": "inside S12"
+  },
+  {
+   "start": 231.28,
+   "end": 232.28,
+   "dur": 0.99,
+   "where": "inside S15"
+  },
+  {
+   "start": 522.29,
+   "end": 523.24,
+   "dur": 0.95,
+   "where": "inside S32"
+  },
+  {
+   "start": 614.23,
+   "end": 615.22,
+   "dur": 1.0,
+   "where": "inside S36"
+  },
+  {
+   "start": 699.69,
+   "end": 700.67,
+   "dur": 0.98,
+   "where": "inside S40"
+  },
+  {
+   "start": 760.11,
+   "end": 761.12,
+   "dur": 1.01,
+   "where": "inside S43"
+  },
+  {
+   "start": 763.74,
+   "end": 764.72,
+   "dur": 0.98,
+   "where": "inside S43"
+  },
+  {
+   "start": 769.84,
+   "end": 770.84,
+   "dur": 1.0,
+   "where": "inside S43"
+  },
+  {
+   "start": 780.25,
+   "end": 781.16,
+   "dur": 0.91,
+   "where": "inside S44"
+  }
+ ]
+}

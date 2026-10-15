@@ -1,0 +1,5 @@
+cache/
+out/
+*.mp4
+*.wav
+node_modules/

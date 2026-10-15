@@ -1,0 +1,40 @@
+{
+ "quotes": {
+  "Hansonism": true,
+  "We think that is the right number.": true,
+  "absurd claims": true,
+  "only going to make a bad situation worse": false,
+  "probably drive the Australian economy into recession.": true,
+  "starving": true,
+  "sustainable level.": true,
+  "…get themselves down to the nearest Specsavers.": true
+ },
+ "numbers_not_in_script": [
+  "0,0,0,.15",
+  "0,0,0,.35",
+  "1.02",
+  "1.1",
+  "120,",
+  "18,18,18,.82",
+  "18,18,18,.85",
+  "18,18,18,.88",
+  "180",
+  "2.0",
+  "2030",
+  "242,140,40,.18",
+  "242,140,40,.28",
+  "255,255,255,.02",
+  "255,255,255,.03",
+  "255,255,255,.035",
+  "255,255,255,.04",
+  "255,255,255,.05",
+  "255,255,255,.18",
+  "255,255,255,.25",
+  "255,255,255,.35",
+  "255,255,255,.4",
+  "255,255,255,.5",
+  "3.0",
+  "430,",
+  "530,620,"
+ ]
+}
