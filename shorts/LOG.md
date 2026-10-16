@@ -191,3 +191,10 @@ Unpacked 6 Grok VOs into shorts/incoming-vo/. #01 matches finished Skylab Short;
 ## 2026-09-30T20:55+10:00 — s24 Burke & Wills (Atlas VO held)
 - Held Atlas en-AU `audio/vo.mp3` (**39.168 s**) from `/home/box/Downloads/s24_burke_wills_atlas_fast.mp3` (also `/workspace/deliverables/s24-burke-wills/vo-raw/vo-atlas.mp3`)
 - Ready for Claude Whisper / seam retune; incomplete loop on `…story of how`
+
+## 2026-10-16 — s34 Pheasant Island (premium build)
+- Final: `shorts/s34-pheasant-island/final/s34-pheasant-island.mp4` — 1080×1920, 30 fps, 43.56 s; audio −14.1 LUFS, −1.9 dBTP (AAC).
+- Atlas VO as seated (not re-recorded); captions in script spelling with faster-whisper word timings (`transcript.json`).
+- 12 beats, photo underlay + SVG MG each beat: flag-disc hook, schematic estuary map (brief coordinates), pheasant viewfinder, 1659 meeting print, treaty quill, Louis XIV / Maria Theresa wax seal, half-and-half plan, 12-month sovereignty dial, population/padlock/area grid, memorial, loop back to frame 1.
+- Music: Sneaky Snitch (Kevin MacLeod, CC BY 4.0) ducked under VO; 11 sparse SFX. Credits in `final/CREDITS.md`.
+- Shared engine: `capture.mjs` now honours optional `PW_CHROMIUM_PATH` (preinstalled Chromium).
