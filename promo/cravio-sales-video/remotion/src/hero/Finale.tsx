@@ -21,7 +21,7 @@ const Scene11: React.FC<{t: number}> = ({t}) => {
   const tBox = W(11, 'box');
   const tBuild = W(11, 'build');
   const lock = 68.05;
-  const G = {x: 360, y: 330, s: 1.45}; // puzzle group origin + scale
+  const G = {x: 250, y: 290, s: 1.85}; // puzzle group origin + scale
   const pIn = sp(t, tProb - 0.15);
   // a plain box tries to fit and bounces off
   const boxDrop = ramp(t, tBox - 0.45, 0.35, EXPO_IN);
@@ -34,7 +34,7 @@ const Scene11: React.FC<{t: number}> = ({t}) => {
   const mach = ramp(t, tBuild - 0.15, 0.75, CUBIC_INOUT);
   const fill = ramp(t, tBuild + 0.55, 0.25);
   const slide = ramp(t, lock - 0.4, 0.4, QUART_INOUT);
-  const kx = lerp(430, 0, slide);
+  const kx = lerp(300, 0, slide);
   const locked = t >= lock;
   const flash = locked ? 1 - ramp(t, lock, 0.4, EXPO_OUT) : 0;
   const tool = pointAt(K_PATH, mach);
@@ -48,7 +48,7 @@ const Scene11: React.FC<{t: number}> = ({t}) => {
         <g transform={`translate(${G.x} ${G.y}) scale(${G.s})`}>
           {/* your problem */}
           <g opacity={pIn} transform={`translate(0 ${(1 - pIn) * 40})`}>
-            <path d={P_PATH} fill={C.panel} stroke={C.mist} strokeOpacity={0.8} strokeWidth={2.4 / G.s * 1.45} strokeLinejoin="round" />
+            <path d={P_PATH} fill={C.panel} stroke={C.mist} strokeOpacity={0.8} strokeWidth={2.4} strokeLinejoin="round" />
             <text x={34} y={168} fontFamily={FONT_DISPLAY} fontWeight={500} fontSize={30} fill={C.mist}>
               Your problem
             </text>
@@ -118,7 +118,7 @@ const Scene11: React.FC<{t: number}> = ({t}) => {
           </div>
         );
       })}
-      <Callout t={t} at={lock + 0.5} text="Connected to the tools you already use" size={32} style={{left: 360, top: 880}} />
+      <Callout t={t} at={lock + 0.5} text="Connected to the tools you already use" size={32} style={{left: 250, top: 900}} />
     </AbsoluteFill>
   );
 };

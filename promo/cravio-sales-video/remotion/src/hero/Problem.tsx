@@ -178,11 +178,11 @@ const Scene2: React.FC<{t: number}> = ({t}) => {
     if (d > 0) ang += (1.1 + k * 1.1) * Math.exp(-d * 2.2) * Math.sin(d * 9 + k);
   });
   const sway = t > lands[3] ? Math.sin((t - lands[3]) * 6.2) * Math.min(1, (t - lands[3]) / 0.8) * 3.2 : 0;
-  const topple = 8.8;
-  const fall = t > topple ? keys(t, [topple, topple + 0.75], [0, 1], EXPO_IN) : 0;
+  const topple = 8.65;
+  const fall = t > topple ? Math.pow(Math.min(1, (t - topple) / 0.85), 2.2) : 0;
   const rot = ang + sway + fall * 78;
   const words = TILES.map((x) => ({text: x.label.replace('.', ''), at: W(2, x.word)}));
-  const out = ramp(t, 9.3, 0.3, EXPO_OUT);
+  const out = ramp(t, 9.25, 0.3, EXPO_OUT);
   return (
     <AbsoluteFill>
       <div style={{position: 'absolute', left: 140, top: 150, opacity: 1 - out}}>
@@ -196,9 +196,9 @@ const Scene2: React.FC<{t: number}> = ({t}) => {
           top: base.y - 46,
           width: 0,
           height: 0,
-          transform: `rotate(${rot}deg) translate(${fall * 120}px, ${fall * fall * 260}px)`,
+          transform: `translate(${fall * 260}px, ${fall * fall * 420}px) rotate(${rot}deg)`,
           transformOrigin: '0 0',
-          opacity: 1 - ramp(t, 9.35, 0.25, CUBIC_INOUT),
+          opacity: 1 - ramp(t, 9.5, 0.3, CUBIC_INOUT),
         }}
       >
         {TILES.map((tile, k) => {

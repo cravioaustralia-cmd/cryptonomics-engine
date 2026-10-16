@@ -37,7 +37,7 @@ export const camAt = (t: number) => {
 };
 
 // Track geometry (world coords). Style from hero.svg layer-assembly-tracks.
-const MAIN_R = `M 960 ${Y1} H 9300 Q 9340 ${Y1} 9340 ${Y1 - 40} V ${Y2 + 40} Q 9340 ${Y2} 9380 ${Y2} H 13900`;
+const MAIN_R = `M 960 ${Y1} H 9500 Q 9540 ${Y1} 9540 ${Y1 - 40} V ${Y2 + 40} Q 9540 ${Y2} 9580 ${Y2} H 13900`;
 const MAIN_L = `M 960 ${Y1} H -300`;
 const FEED = `M 960 700 V ${Y1}`;
 
@@ -140,7 +140,7 @@ const CAT = [
 const Bar: React.FC<{w: number; o?: number}> = ({w, o = 0.18}) => <div style={{width: w, height: 12, borderRadius: 6, background: `rgba(244,247,250,${o})`}} />;
 
 const StationRFQ: React.FC<{t: number}> = ({t}) => {
-  const tTitle = W(6, 'we') + 0.1;
+  const tTitle = W(6, 'one') - 0.3;
   const tEmail = W(6, 'one');
   const tRfq = W(6, 'rfqs');
   const tMatch = W(6, 'matches');
@@ -157,10 +157,54 @@ const StationRFQ: React.FC<{t: number}> = ({t}) => {
   const qOut = ramp(t, 35.55, 0.6, EXPO_IN); // doc drops to the line
   const flag = sp(t, tTpl + 0.15, {damping: 12, stiffness: 260, mass: 0.6});
   const partRowY = (i: number) => email.y + 268 + i * 58;
+  // opening line-up on "We build and deploy AI agents for your firm"
+  const LINEUP = [
+    {icon: 'agent-rfq-quote', label: 'RFQ / quotes', at: W(6, 'build')},
+    {icon: 'agent-spec-catalogue', label: 'Spec answers', at: W(6, 'deploy')},
+    {icon: 'agent-order-status', label: 'Order status', at: W(6, 'agents')},
+    {icon: 'agent-lead-research', label: 'Lead research', at: W(6, 'firm')},
+  ];
+  const lineOut = ramp(t, tEmail - 0.25, 0.45, QUART_INOUT);
   const catRowY = (i: number) => cat.y + 118 + i * 66;
   return (
     <>
       <StationTitle t={t} at={tTitle} kicker="AI agents for your firm" title="RFQ / quote-draft agent" icon="agent-rfq-quote" x={130} y={70} />
+      {lineOut < 1
+        ? LINEUP.map((a, i) => {
+            const p = sp(t, a.at - 0.08);
+            const x = 960 + (i - 1.5) * 330;
+            const fly = i === 0 ? lineOut : 0;
+            return (
+              <div
+                key={a.icon}
+                style={{
+                  position: 'absolute',
+                  left: lerp(x, 130 + 42, fly) - 85,
+                  top: lerp(420, 70 + 42, fly) - 85,
+                  width: 170,
+                  display: 'flex',
+                  flexDirection: 'column',
+                  alignItems: 'center',
+                  gap: 22,
+                  transform: `scale(${p * lerp(1, 0.5, fly)}) translateY(${i === 0 ? 0 : lineOut * 60}px)`,
+                  opacity: i === 0 ? 1 - fly : 1 - lineOut,
+                }}
+              >
+                <Badge icon={a.icon} size={150} />
+                <div style={{fontFamily: FONT_DISPLAY, fontWeight: 500, fontSize: 28, color: C.mist, whiteSpace: 'nowrap'}}>{a.label}</div>
+              </div>
+            );
+          })
+        : null}
+      {lineOut < 1 ? (
+        <svg width={SW} height={SH} style={{position: 'absolute', inset: 0, pointerEvents: 'none', opacity: 1 - lineOut}}>
+          {[0, 1, 2, 3].map((i) => {
+            const x = 960 + (i - 1.5) * 330;
+            const d = `M ${x} 520 V ${Y1}`;
+            return <path key={i} d={d} stroke={C.cyan} strokeWidth={2} opacity={0.5} fill="none" {...dash(d, ramp(t, LINEUP[i].at + 0.05, 0.4, QUINT_OUT))} />;
+          })}
+        </svg>
+      ) : null}
       {/* email */}
       <Card style={{left: email.x, top: email.y, width: email.w, height: email.h, opacity: eIn, transform: `translateY(${(1 - eIn) * 70}px) scale(${lerp(0.94, 1, eIn)})`}}>
         <Chrome title="Inbox · RFQ" />
@@ -590,6 +634,7 @@ const StationContent: React.FC<{t: number}> = ({t}) => {
   const tLaunch = W(9, 'product');
   const tFoot = W(9, 'factory');
   const press = {x: 620, y: 560, w: 200, h: 290};
+  const pressIn = sp(t, W(9, 'content') - 0.1, {damping: 13, stiffness: 200, mass: 0.7});
   // inputs ride in along the line, then feed the press
   const inp = (t0: number, i: number) => {
     const p = ramp(t, t0 - 0.1, 0.9, CUBIC_INOUT);
@@ -629,7 +674,7 @@ const StationContent: React.FC<{t: number}> = ({t}) => {
         </Card>
       </div>
       {/* the press */}
-      <div style={{position: 'absolute', left: press.x, top: press.y, width: press.w, height: press.h, opacity: ramp(t, tThen + 0.3, 0.4)}}>
+      <div style={{position: 'absolute', left: press.x, top: press.y, width: press.w, height: press.h, opacity: Math.min(1, pressIn * 2), transform: `scale(${pressIn})`, transformOrigin: '50% 100%'}}>
         <Card glow={0.4 + 0.6 * Math.max(0, ...FORMATS.map((f) => 1 - ramp(t, W(9, f.w), 0.4)).map((v, i) => (t > W(9, FORMATS[i].w) ? v : 0)))} style={{inset: 0, display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', gap: 14}}>
           <div style={{color: C.cyan}}>
             <Icon name="agent-content-engine" size={84} />
