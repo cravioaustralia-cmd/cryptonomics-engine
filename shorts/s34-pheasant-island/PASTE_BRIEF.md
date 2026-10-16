@@ -26,7 +26,7 @@ Alternates: `FRANCE… THEN SPAIN` · `THE WORLD'S SMALLEST SHARED ISLAND`
 Last line is intentionally unresolved; loops back to "There's an island that changes country…".
 
 ## VO
-PLACEHOLDER: Atlas VO will be seated in `vo/` (Abhishek records separately from `vo/atlas_read.txt`). Do not render final until it lands. Do not re-record.
+Seated at `audio/vo.mp3` (Atlas, raw, 43.56 s). Read from `vo/atlas_read.txt`. Do not re-record. Claude owns pacing and mix.
 
 ## Assets (credits in SOURCES.md, images/SOURCES.md; facts in script.md)
 - images/ — 24 Commons files:
