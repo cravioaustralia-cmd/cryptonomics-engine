@@ -54,7 +54,7 @@ LOUDNESS (measured with ffmpeg ebur128 on the final AAC files)
   Target: -14 LUFS integrated (±1), true peak <= -1.5 dBTP. Method: transparent -4 dBFS
   safety limiter, then two-pass loudnorm (I=-14, TP=-1.5, LRA=11, linear).
   cravio_hero_16x9_1080p.mp4        I = -14.0 LUFS   TP = -2.1 dBTP   LRA = 3.8 LU
-  cravio_hero_16x9_4k.mp4           (same audio master as the 1080p hero)
+  cravio_hero_16x9_4k.mp4           I = -14.0 LUFS   TP = -2.1 dBTP   (same audio master)
   cravio_social_9x16_1080x1920.mp4  I = -14.0 LUFS   TP = -2.3 dBTP   LRA = 2.4 LU
   Music is ducked 12 dB under the VO (60 ms attack, 350 ms release) and comes back up
   in the gaps, on the drop and under the end card.
