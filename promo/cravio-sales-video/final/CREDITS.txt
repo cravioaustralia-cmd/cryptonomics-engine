@@ -1,0 +1,80 @@
+CRAVIO AI — SALES VIDEO: CREDITS, LICENCES, LOUDNESS, DEVIATIONS
+================================================================
+
+DELIVERABLES (final/)
+- cravio_hero_16x9_1080p.mp4        1920x1080, 30 fps, H.264 High, yuv420p (TV range, BT.709), AAC-LC 48 kHz 320k, 84.5 s
+- cravio_hero_16x9_4k.mp4           3840x2160, same spec (rendered from the same vectors at 2x)
+- cravio_social_9x16_1080x1920.mp4  1080x1920, same spec, 18.2 s
+
+MUSIC (chosen track)
+"Digital Lemonade" Kevin MacLeod (incompetech.com)
+Licensed under Creative Commons: By Attribution 4.0 License
+http://creativecommons.org/licenses/by/4.0/
+Source: https://incompetech.com/music/royalty-free/mp3-royaltyfree/Digital%20Lemonade.mp3
+-> Put this credit line in the video description / end metadata wherever the video is posted.
+
+Why this track: measured at exactly 120.00 BPM (beat = 15 frames at 30 fps), inside the
+brief's 110–120 range. It has a hats-out bass build (used under scenes 2–4), a crash fill into
+a full re-drop (lands on the logo draw at 0:21), a steady production-line groove (stations),
+and a soft breakdown (the "says yes" hero moment). Auditioned against the alternatives:
+- "Voxel Revolution": 122–123 BPM, bright chiptune-rock character, busier under VO.
+- "Inspired": piano-led, low brightness, flat energy, no drop. Not industrial-electronic.
+Music edits splice whole bars only, on downbeats (no time-stretch, no pitch change).
+The track ends on a hard stop rather than a held chord, so the end-card bed is its own
+breakdown pad, low-passed and smeared with echo into a sustained wash (same track, no new source).
+
+SOUND EFFECTS
+Mixkit Sound Effects Free License (free commercial use, no attribution required):
+https://mixkit.co/license/#sfxFree
+  ui_notification_pop (#2354), ui_click_scifi (#900), ui_select_modern (#3124),
+  ui_typing_soft (#1396), glitch_small_electric (#2595), impact_whoosh_deep (#1143),
+  riser_synth (#645), whoosh_fast_transition (#1492), whoosh_fast (#1490),
+  chime_correct_tone (#2870)
+Pixabay Content License (free commercial use, no attribution required):
+https://pixabay.com/service/license-summary/
+  whoosh_simple_pixabay ("Simple Whoosh" by Dragon Studio)
+Built cues (layered/trimmed/re-pitched from the files above only; no new sources):
+  conveyor_clack = ui_click_scifi @0.72x + impact hit @1.4x
+  stamp          = impact hit @1.25x + ui_select_modern @0.85x
+  machining_whirr= riser_synth slice @1.6x
+  lock_clunk     = impact hit @0.9x + ui_click_scifi @0.6x
+No new audio was sourced, so SOURCES.md needed no additions.
+
+VOICE-OVER
+Recorded VO (Atlas voice) used as supplied: vo/hero_vo.mp3, vo/social_vo.mp3.
+Processing: 80 Hz high-pass, gentle de-ess, light 2.5:1 compression. Phrases were split at
+measured silences and placed on the timeline; no time-stretch, no pitch change, no re-record.
+
+FONTS / BRAND
+Space Grotesk and Inter (SIL OFL 1.1), loaded locally from assets/fonts.
+Cravio AI logo, icons and hero layers: owned brand assets. The logo is animated by drawing
+the track and popping the nodes, then settles to the exact colour-on-dark geometry.
+
+LOUDNESS (measured with ffmpeg ebur128 on the final AAC files)
+  Target: -14 LUFS integrated (±1), true peak <= -1.5 dBTP. Method: transparent -4 dBFS
+  safety limiter, then two-pass loudnorm (I=-14, TP=-1.5, LRA=11, linear).
+  cravio_hero_16x9_1080p.mp4        I = -14.0 LUFS   TP = -2.1 dBTP   LRA = 3.8 LU
+  cravio_hero_16x9_4k.mp4           (same audio master as the 1080p hero)
+  cravio_social_9x16_1080x1920.mp4  I = -14.0 LUFS   TP = -2.3 dBTP   LRA = 2.4 LU
+  Music is ducked 12 dB under the VO (60 ms attack, 350 ms release) and comes back up
+  in the gaps, on the drop and under the end card.
+
+TIMING
+Hero: 84.5 s (VO 68.9 s + music-led breathing room): a 3.7 s instrumental hook from the
+spinner into the drop at 0:21.0, a longer logo hold in scene 5, a 6 s pad section with the
+Approve click at 1:03.0, and a 2.3 s static final hold before cut to black at 1:24.0.
+Social: 18.2 s; the end card is static from ~16.1 s, a hold of more than 2 s.
+All scene cuts land on beats of the 120 BPM grid; see remotion/src/timing/*.json.
+
+DEVIATIONS / NOTES FOR REVIEW
+- Hero runs 84.5 s (inside the 75–85 s window). Social runs 18.2 s rather than 18.0 s so the
+  final hold exceeds 2 s after the last word.
+- On-screen phone is +61 478 953 337; VO reads "0478 953 337" as scripted.
+- "Free 30-minute AI audit" kept as scripted (open question: the site says 30–45 minutes).
+- Station kickers are short descriptors drawn from the VO/script (for example "AI agents for your
+  firm", "For your sales rep"). Content-engine kicker "Marketing on autopilot, approved by you"
+  paraphrases the script's alternative line plus its human-approval rule.
+- UI mockups use fictional placeholder data only (Sample Pty Ltd, Example Builders, Demo
+  Electrical, Part #EX-2041 etc.). Prices are shown as placeholder bars, never figures.
+- Integrations (Xero, MYOB, HubSpot, Gmail, Outlook) appear as plain text labels only.
+- 1:1 bonus cut not produced.
