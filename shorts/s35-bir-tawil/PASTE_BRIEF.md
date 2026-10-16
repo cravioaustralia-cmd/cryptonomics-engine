@@ -27,7 +27,8 @@ Alternates: `THE LAND NOBODY WANTS` · `ALMOST THE SIZE OF THE ACT. NO OWNER.`
 Last line is intentionally unresolved; loops back to "There's a piece of land almost the size of the ACT…".
 
 ## VO
-PLACEHOLDER: Atlas VO will be seated at `audio/vo.mp3` (Abhishek records separately from `vo/atlas_read.txt`). Do not render final until it lands. Do not re-record.
+Seated at `audio/vo.mp3` (Atlas, raw, 47.74 s). Read from `vo/atlas_read.txt`. Do not re-record. Claude owns pacing and mix.
+Captions use the script's spelling (Bir Tawil, Halaib, recognised, Red Sea), not any auto-transcript spelling.
 
 ## 2014 flag beat
 There is NO free-licence photo of the 2014 flag-planting (Jeremiah Heaton). Build an animated flag-on-map graphic for that beat (generic flag planted on the Bir Tawil outline). Do not use any photo of the person.
