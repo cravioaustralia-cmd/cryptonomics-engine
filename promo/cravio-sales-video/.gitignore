@@ -1,0 +1,5 @@
+# render intermediates and caches (deliverables live in final/)
+build/
+remotion/node_modules/
+remotion/out/
+remotion/.cache/

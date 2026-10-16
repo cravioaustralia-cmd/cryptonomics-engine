@@ -1,0 +1,375 @@
+{
+ "fps": 30,
+ "duration": 18.2,
+ "durationInFrames": 546,
+ "bpm": 120,
+ "musicTrack": "music/kmacleod-digital-lemonade.mp3",
+ "vo": [
+  {
+   "scene": 1,
+   "srcStart": 0.02,
+   "srcEnd": 2.46,
+   "outStart": 0.15,
+   "outEnd": 2.59
+  },
+  {
+   "scene": 2,
+   "srcStart": 2.884,
+   "srcEnd": 8.675,
+   "outStart": 3.05,
+   "outEnd": 8.841
+  },
+  {
+   "scene": 3,
+   "srcStart": 9.08,
+   "srcEnd": 12.84,
+   "outStart": 9.1,
+   "outEnd": 12.86
+  },
+  {
+   "scene": 4,
+   "srcStart": 13.359,
+   "srcEnd": 16.4,
+   "outStart": 13.1,
+   "outEnd": 16.141
+  }
+ ],
+ "scenes": [
+  {
+   "id": 1,
+   "start": 0.0,
+   "end": 3.0
+  },
+  {
+   "id": 2,
+   "start": 3.0,
+   "end": 9.0
+  },
+  {
+   "id": 3,
+   "start": 9.0,
+   "end": 13.0
+  },
+  {
+   "id": 4,
+   "start": 13.0,
+   "end": 18.2
+  }
+ ],
+ "words": [
+  {
+   "scene": 1,
+   "w": "Your",
+   "t": 0.15,
+   "e": 0.37
+  },
+  {
+   "scene": 1,
+   "w": "quotes",
+   "t": 0.37,
+   "e": 0.63
+  },
+  {
+   "scene": 1,
+   "w": "are",
+   "t": 0.63,
+   "e": 0.81
+  },
+  {
+   "scene": 1,
+   "w": "waiting.",
+   "t": 0.81,
+   "e": 1.09
+  },
+  {
+   "scene": 1,
+   "w": "Your",
+   "t": 1.55,
+   "e": 1.63
+  },
+  {
+   "scene": 1,
+   "w": "customers",
+   "t": 1.63,
+   "e": 2.03
+  },
+  {
+   "scene": 1,
+   "w": "aren't.",
+   "t": 2.03,
+   "e": 2.69
+  },
+  {
+   "scene": 2,
+   "w": "Kravio",
+   "t": 3.226,
+   "e": 3.506
+  },
+  {
+   "scene": 2,
+   "w": "AI",
+   "t": 3.506,
+   "e": 3.806
+  },
+  {
+   "scene": 2,
+   "w": "builds",
+   "t": 3.806,
+   "e": 4.266
+  },
+  {
+   "scene": 2,
+   "w": "agents",
+   "t": 4.266,
+   "e": 4.746
+  },
+  {
+   "scene": 2,
+   "w": "that",
+   "t": 4.746,
+   "e": 5.006
+  },
+  {
+   "scene": 2,
+   "w": "draft",
+   "t": 5.006,
+   "e": 5.366
+  },
+  {
+   "scene": 2,
+   "w": "quotes,",
+   "t": 5.366,
+   "e": 5.886
+  },
+  {
+   "scene": 2,
+   "w": "answer",
+   "t": 6.286,
+   "e": 6.566
+  },
+  {
+   "scene": 2,
+   "w": "spec",
+   "t": 6.566,
+   "e": 6.846
+  },
+  {
+   "scene": 2,
+   "w": "questions,",
+   "t": 6.846,
+   "e": 7.366
+  },
+  {
+   "scene": 2,
+   "w": "and",
+   "t": 7.606,
+   "e": 7.726
+  },
+  {
+   "scene": 2,
+   "w": "reply",
+   "t": 7.726,
+   "e": 8.086
+  },
+  {
+   "scene": 2,
+   "w": "on",
+   "t": 8.086,
+   "e": 8.286
+  },
+  {
+   "scene": 2,
+   "w": "orders,",
+   "t": 8.286,
+   "e": 8.726
+  },
+  {
+   "scene": 3,
+   "w": "plus",
+   "t": 9.1,
+   "e": 9.32
+  },
+  {
+   "scene": 3,
+   "w": "content",
+   "t": 9.32,
+   "e": 9.84
+  },
+  {
+   "scene": 3,
+   "w": "that",
+   "t": 9.84,
+   "e": 10.06
+  },
+  {
+   "scene": 3,
+   "w": "runs",
+   "t": 10.06,
+   "e": 10.28
+  },
+  {
+   "scene": 3,
+   "w": "itself,",
+   "t": 10.28,
+   "e": 10.76
+  },
+  {
+   "scene": 3,
+   "w": "with",
+   "t": 11.2,
+   "e": 11.4
+  },
+  {
+   "scene": 3,
+   "w": "a",
+   "t": 11.4,
+   "e": 11.54
+  },
+  {
+   "scene": 3,
+   "w": "human",
+   "t": 11.54,
+   "e": 11.76
+  },
+  {
+   "scene": 3,
+   "w": "approving",
+   "t": 11.76,
+   "e": 12.16
+  },
+  {
+   "scene": 3,
+   "w": "everything.",
+   "t": 12.16,
+   "e": 12.72
+  },
+  {
+   "scene": 4,
+   "w": "Book",
+   "t": 13.141,
+   "e": 13.221
+  },
+  {
+   "scene": 4,
+   "w": "your",
+   "t": 13.221,
+   "e": 13.421
+  },
+  {
+   "scene": 4,
+   "w": "free",
+   "t": 13.421,
+   "e": 13.681
+  },
+  {
+   "scene": 4,
+   "w": "AI",
+   "t": 13.681,
+   "e": 14.021
+  },
+  {
+   "scene": 4,
+   "w": "audit",
+   "t": 14.021,
+   "e": 14.341
+  },
+  {
+   "scene": 4,
+   "w": "at",
+   "t": 14.341,
+   "e": 14.621
+  },
+  {
+   "scene": 4,
+   "w": "kravioai",
+   "t": 14.621,
+   "e": 15.321
+  },
+  {
+   "scene": 4,
+   "w": ".com.",
+   "t": 15.321,
+   "e": 16.061
+  }
+ ],
+ "music": [
+  {
+   "outStart": 0.0,
+   "trackStart": 144.047,
+   "trackEnd": 156.047
+  },
+  {
+   "outStart": 12.0,
+   "trackStart": 174.047,
+   "trackEnd": 176.047
+  }
+ ],
+ "stab": null,
+ "pad": {
+  "out": 14.0,
+  "track": 96.047,
+  "dur": 4.1,
+  "gainDb": 4
+ },
+ "sfx": [
+  {
+   "t": 0.0,
+   "file": "ui_notification_pop",
+   "gainDb": -9
+  },
+  {
+   "t": 1.55,
+   "file": "impact_whoosh_deep",
+   "gainDb": -12,
+   "dur": 0.8,
+   "fade": 0.35
+  },
+  {
+   "t": 2.9,
+   "file": "whoosh_fast",
+   "gainDb": -16,
+   "dur": 0.8,
+   "fade": 0.3
+  },
+  {
+   "t": 3.1,
+   "file": "glitch_small_electric",
+   "gainDb": -14
+  },
+  {
+   "t": 5.616,
+   "file": "stamp",
+   "gainDb": -13
+  },
+  {
+   "t": 6.536,
+   "file": "stamp",
+   "gainDb": -13
+  },
+  {
+   "t": 7.976,
+   "file": "stamp",
+   "gainDb": -13
+  },
+  {
+   "t": 8.7,
+   "file": "whoosh_fast_transition",
+   "gainDb": -15
+  },
+  {
+   "t": 11.45,
+   "file": "ui_click_scifi",
+   "gainDb": -9
+  },
+  {
+   "t": 12.6,
+   "file": "whoosh_fast_transition",
+   "gainDb": -13
+  },
+  {
+   "t": 14.0,
+   "file": "chime_correct_tone",
+   "gainDb": -13
+  }
+ ]
+}
