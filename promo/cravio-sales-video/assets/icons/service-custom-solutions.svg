@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
+     fill="none" role="img" aria-label="Custom AI solutions" data-icon="service-custom-solutions">
+  
+  <rect x="4" y="4" width="16" height="16" rx="2" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <rect x="8" y="8" width="8" height="8" rx="1" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <circle cx="12" cy="12" r="1.5" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <path d="M12 4 V8 M12 16 V20 M4 12 H8 M16 12 H20" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+
+</svg>

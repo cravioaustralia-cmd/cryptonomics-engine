@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
+     fill="none" role="img" aria-label="Custom AI agents" data-icon="service-ai-agents">
+  
+  <circle cx="7" cy="8" r="2.5" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <circle cx="17" cy="8" r="2.5" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <circle cx="12" cy="16" r="2.5" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <path d="M9.2 9.5 L10.8 14.2 M14.8 9.5 L13.2 14.2 M9.5 8 H14.5" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <path d="M12 4.5 V5.5 M12 18.5 V19.5" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+
+</svg>

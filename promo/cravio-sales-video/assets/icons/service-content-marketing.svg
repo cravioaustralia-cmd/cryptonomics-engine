@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
+     fill="none" role="img" aria-label="Automated content marketing" data-icon="service-content-marketing">
+  
+  <rect x="5" y="3.5" width="11" height="15" rx="1.5" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <path d="M8 8 H13 M8 11 H13 M8 14 H11" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <path d="M15.5 15.5 L19 18 L15.5 20.5 Z" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+
+</svg>

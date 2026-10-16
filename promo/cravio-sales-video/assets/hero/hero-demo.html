@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Cravio AI — Hero demo</title>
+<style>
+  html,body{margin:0;background:#0A1628;font-family:Inter,system-ui,sans-serif}
+  .wrap{max-width:1200px;margin:0 auto;padding:24px}
+  .stage{position:relative;border-radius:16px;overflow:hidden;border:1px solid #1e3350}
+  .stage object,.stage img{display:block;width:100%;height:auto}
+  /* CSS fallback pulse bob */
+  @keyframes bob {
+    0%,100%{transform:translate(0,0)}
+    50%{transform:translate(12px,-6px)}
+  }
+  /* Applied if Dev inlines the SVG; object can't style internals cross-origin file:// sometimes */
+  note{display:block;color:#94A3B8;margin-top:16px;font-size:14px;line-height:1.5}
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="stage">
+      <img src="hero@2x.png" alt="Cravio AI hero static frame" width="1200" height="640"/>
+    </div>
+    <note>
+      Static 2× preview. For motion, inline <code>hero.svg</code> (or fetch + inject) and apply
+      the GSAP MotionPath steps in <code>ANIMATION-NOTES.md</code>. CSS-only keyframes work as a reduced fallback.
+    </note>
+  </div>
+</body>
+</html>

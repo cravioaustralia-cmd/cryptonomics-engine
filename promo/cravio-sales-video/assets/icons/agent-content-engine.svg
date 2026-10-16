@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
+     fill="none" role="img" aria-label="Content engine" data-icon="agent-content-engine">
+  
+  <rect x="3.5" y="5" width="17" height="12" rx="2" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <path d="M3.5 9 H20.5" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <circle cx="6.5" cy="7" r="0.8" fill="currentColor" stroke="none"/>
+  <circle cx="9" cy="7" r="0.8" fill="currentColor" stroke="none"/>
+  <path d="M8 13 L11 15 L8 17 Z" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <path d="M14 12.5 H17.5 M14 15.5 H16" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+
+</svg>

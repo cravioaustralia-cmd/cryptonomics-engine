@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 640" width="1200" height="640"><defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0A1628" />
+      <stop offset="100%" stop-color="#12263F" />
+    </linearGradient>
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="b" />
+      <feMerge><feMergeNode in="b" /><feMergeNode in="SourceGraphic" /></feMerge>
+    </filter>
+  </defs>
+
+  <g id="layer-assembly-tracks" fill="none" stroke="#F4F7FA" stroke-width="3" stroke-linecap="round" opacity="0.35">
+    <path id="track-main" d="M80 420 H520 Q560 420 560 380 V260 Q560 220 600 220 H1120" />
+    <path id="track-loop" d="M200 420 V500 Q200 540 240 540 H480 Q520 540 520 500 V420" />
+    <path id="track-riser" d="M800 220 V120 H980" />
+  </g>
+
+  </svg>

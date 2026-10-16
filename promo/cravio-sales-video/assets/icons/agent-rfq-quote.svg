@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
+     fill="none" role="img" aria-label="RFQ quote-draft agent" data-icon="agent-rfq-quote">
+  
+  <path d="M6 4.5 H15 L18 7.5 V19.5 H6 Z" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <path d="M15 4.5 V7.5 H18" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <path d="M9 11 H15 M9 14 H13" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <circle cx="9" cy="17" r="0.9" fill="currentColor" stroke="none"/>
+
+</svg>

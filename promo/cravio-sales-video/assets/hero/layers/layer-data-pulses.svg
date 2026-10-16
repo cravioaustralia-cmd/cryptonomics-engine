@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 640" width="1200" height="640"><defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0A1628" />
+      <stop offset="100%" stop-color="#12263F" />
+    </linearGradient>
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="b" />
+      <feMerge><feMergeNode in="b" /><feMergeNode in="SourceGraphic" /></feMerge>
+    </filter>
+  </defs>
+
+  <g id="layer-data-pulses" filter="url(#softGlow)">
+    <circle id="pulse-1" cx="120" cy="420" r="6" fill="#00C2B2" />
+    <circle id="pulse-2" cx="400" cy="420" r="5" fill="#00C2B2" opacity="0.7" />
+    <circle id="pulse-3" cx="560" cy="300" r="5" fill="#00C2B2" opacity="0.85" />
+    <circle id="pulse-4" cx="900" cy="220" r="6" fill="#00C2B2" />
+    <circle id="pulse-5" cx="300" cy="540" r="4" fill="#F4F7FA" />
+  </g>
+
+  </svg>
