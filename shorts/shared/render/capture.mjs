@@ -88,6 +88,8 @@ export async function captureVideo({ episodeDir, outVideo, fps = 30, duration })
   const browser = await chromium.launch({
     headless: true,
     args: ['--disable-dev-shm-usage', '--no-sandbox'],
+    // Optional: point at a preinstalled Chromium when the npm Playwright revision has no matching browser.
+    executablePath: process.env.PW_CHROMIUM_PATH || undefined,
   });
   const page = await browser.newPage({
     viewport: { width: 1080, height: 1920 },

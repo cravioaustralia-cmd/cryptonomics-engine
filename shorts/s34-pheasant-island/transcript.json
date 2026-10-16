@@ -1,0 +1,615 @@
+{
+ "duration": 43.56,
+ "words": [
+  {
+   "word": "There's",
+   "start": 0,
+   "end": 0.3
+  },
+  {
+   "word": "an",
+   "start": 0.3,
+   "end": 0.42
+  },
+  {
+   "word": "island",
+   "start": 0.42,
+   "end": 0.74
+  },
+  {
+   "word": "that",
+   "start": 0.74,
+   "end": 1
+  },
+  {
+   "word": "changes",
+   "start": 1,
+   "end": 1.38
+  },
+  {
+   "word": "country…",
+   "start": 1.38,
+   "end": 1.94
+  },
+  {
+   "word": "every",
+   "start": 1.94,
+   "end": 2.64
+  },
+  {
+   "word": "six",
+   "start": 2.64,
+   "end": 2.94
+  },
+  {
+   "word": "months.",
+   "start": 2.94,
+   "end": 3.34
+  },
+  {
+   "word": "Pheasant",
+   "start": 4.18,
+   "end": 4.38
+  },
+  {
+   "word": "Island.",
+   "start": 4.38,
+   "end": 4.76
+  },
+  {
+   "word": "A",
+   "start": 5.34,
+   "end": 5.44
+  },
+  {
+   "word": "tiny",
+   "start": 5.44,
+   "end": 5.74
+  },
+  {
+   "word": "scrap",
+   "start": 5.74,
+   "end": 6.02
+  },
+  {
+   "word": "of",
+   "start": 6.02,
+   "end": 6.26
+  },
+  {
+   "word": "land",
+   "start": 6.26,
+   "end": 6.56
+  },
+  {
+   "word": "in",
+   "start": 6.56,
+   "end": 6.8
+  },
+  {
+   "word": "the",
+   "start": 6.8,
+   "end": 6.92
+  },
+  {
+   "word": "Bidasoa",
+   "start": 6.92,
+   "end": 7.44
+  },
+  {
+   "word": "River,",
+   "start": 7.44,
+   "end": 7.78
+  },
+  {
+   "word": "wedged",
+   "start": 7.78,
+   "end": 8.66
+  },
+  {
+   "word": "between",
+   "start": 8.66,
+   "end": 8.94
+  },
+  {
+   "word": "France",
+   "start": 8.94,
+   "end": 9.32
+  },
+  {
+   "word": "and",
+   "start": 9.32,
+   "end": 9.56
+  },
+  {
+   "word": "Spain.",
+   "start": 9.56,
+   "end": 9.9
+  },
+  {
+   "word": "And",
+   "start": 10.52,
+   "end": 10.62
+  },
+  {
+   "word": "there",
+   "start": 10.62,
+   "end": 10.74
+  },
+  {
+   "word": "aren't",
+   "start": 10.74,
+   "end": 11.02
+  },
+  {
+   "word": "even",
+   "start": 11.02,
+   "end": 11.22
+  },
+  {
+   "word": "any",
+   "start": 11.22,
+   "end": 11.48
+  },
+  {
+   "word": "pheasants",
+   "start": 11.48,
+   "end": 11.82
+  },
+  {
+   "word": "on",
+   "start": 11.82,
+   "end": 12.08
+  },
+  {
+   "word": "it.",
+   "start": 12.08,
+   "end": 12.34
+  },
+  {
+   "word": "In",
+   "start": 12.74,
+   "end": 12.86
+  },
+  {
+   "word": "1659,",
+   "start": 12.86,
+   "end": 13.84
+  },
+  {
+   "word": "after",
+   "start": 14.08,
+   "end": 14.3
+  },
+  {
+   "word": "decades",
+   "start": 14.3,
+   "end": 14.68
+  },
+  {
+   "word": "of",
+   "start": 14.68,
+   "end": 15
+  },
+  {
+   "word": "war,",
+   "start": 15,
+   "end": 15.32
+  },
+  {
+   "word": "the",
+   "start": 15.74,
+   "end": 15.84
+  },
+  {
+   "word": "two",
+   "start": 15.84,
+   "end": 16.06
+  },
+  {
+   "word": "kingdoms",
+   "start": 16.06,
+   "end": 16.34
+  },
+  {
+   "word": "met",
+   "start": 16.34,
+   "end": 16.7
+  },
+  {
+   "word": "here",
+   "start": 16.7,
+   "end": 17
+  },
+  {
+   "word": "to",
+   "start": 17,
+   "end": 17.18
+  },
+  {
+   "word": "end",
+   "start": 17.18,
+   "end": 17.3
+  },
+  {
+   "word": "the",
+   "start": 17.3,
+   "end": 17.46
+  },
+  {
+   "word": "fighting.",
+   "start": 17.46,
+   "end": 17.74
+  },
+  {
+   "word": "They",
+   "start": 18.34,
+   "end": 18.48
+  },
+  {
+   "word": "signed",
+   "start": 18.48,
+   "end": 18.74
+  },
+  {
+   "word": "the",
+   "start": 18.74,
+   "end": 18.9
+  },
+  {
+   "word": "Treaty",
+   "start": 18.9,
+   "end": 19.1
+  },
+  {
+   "word": "of",
+   "start": 19.1,
+   "end": 19.28
+  },
+  {
+   "word": "the",
+   "start": 19.28,
+   "end": 19.46
+  },
+  {
+   "word": "Pyrenees.",
+   "start": 19.46,
+   "end": 19.98
+  },
+  {
+   "word": "Louis",
+   "start": 20.54,
+   "end": 20.7
+  },
+  {
+   "word": "the",
+   "start": 20.7,
+   "end": 20.86
+  },
+  {
+   "word": "Fourteenth",
+   "start": 20.86,
+   "end": 21.28
+  },
+  {
+   "word": "married",
+   "start": 21.28,
+   "end": 21.62
+  },
+  {
+   "word": "a",
+   "start": 21.62,
+   "end": 21.82
+  },
+  {
+   "word": "Spanish",
+   "start": 21.82,
+   "end": 22.12
+  },
+  {
+   "word": "princess",
+   "start": 22.12,
+   "end": 22.52
+  },
+  {
+   "word": "to",
+   "start": 22.52,
+   "end": 22.88
+  },
+  {
+   "word": "seal",
+   "start": 22.88,
+   "end": 23.06
+  },
+  {
+   "word": "the",
+   "start": 23.06,
+   "end": 23.22
+  },
+  {
+   "word": "peace.",
+   "start": 23.22,
+   "end": 23.5
+  },
+  {
+   "word": "One",
+   "start": 24.08,
+   "end": 24.34
+  },
+  {
+   "word": "leftover",
+   "start": 24.34,
+   "end": 24.7
+  },
+  {
+   "word": "problem:",
+   "start": 24.7,
+   "end": 25.26
+  },
+  {
+   "word": "who",
+   "start": 25.76,
+   "end": 25.86
+  },
+  {
+   "word": "got",
+   "start": 25.86,
+   "end": 26.02
+  },
+  {
+   "word": "the",
+   "start": 26.02,
+   "end": 26.16
+  },
+  {
+   "word": "island?",
+   "start": 26.16,
+   "end": 26.46
+  },
+  {
+   "word": "So",
+   "start": 27,
+   "end": 27.18
+  },
+  {
+   "word": "they",
+   "start": 27.18,
+   "end": 27.34
+  },
+  {
+   "word": "shared",
+   "start": 27.34,
+   "end": 27.6
+  },
+  {
+   "word": "it.",
+   "start": 27.6,
+   "end": 27.82
+  },
+  {
+   "word": "Still",
+   "start": 28.16,
+   "end": 28.34
+  },
+  {
+   "word": "do.",
+   "start": 28.34,
+   "end": 28.62
+  },
+  {
+   "word": "Spain",
+   "start": 29.3,
+   "end": 29.4
+  },
+  {
+   "word": "runs",
+   "start": 29.4,
+   "end": 29.66
+  },
+  {
+   "word": "it",
+   "start": 29.66,
+   "end": 29.88
+  },
+  {
+   "word": "from",
+   "start": 29.88,
+   "end": 30.06
+  },
+  {
+   "word": "February",
+   "start": 30.06,
+   "end": 30.36
+  },
+  {
+   "word": "to",
+   "start": 30.36,
+   "end": 30.72
+  },
+  {
+   "word": "July.",
+   "start": 30.72,
+   "end": 31.12
+  },
+  {
+   "word": "France",
+   "start": 31.68,
+   "end": 31.86
+  },
+  {
+   "word": "takes",
+   "start": 31.86,
+   "end": 32.08
+  },
+  {
+   "word": "over",
+   "start": 32.08,
+   "end": 32.4
+  },
+  {
+   "word": "from",
+   "start": 32.4,
+   "end": 32.6
+  },
+  {
+   "word": "August",
+   "start": 32.6,
+   "end": 32.84
+  },
+  {
+   "word": "to",
+   "start": 32.84,
+   "end": 33.14
+  },
+  {
+   "word": "January.",
+   "start": 33.14,
+   "end": 33.58
+  },
+  {
+   "word": "Nobody",
+   "start": 34.18,
+   "end": 34.38
+  },
+  {
+   "word": "lives",
+   "start": 34.38,
+   "end": 34.66
+  },
+  {
+   "word": "there.",
+   "start": 34.66,
+   "end": 35
+  },
+  {
+   "word": "You're",
+   "start": 35.38,
+   "end": 35.46
+  },
+  {
+   "word": "not",
+   "start": 35.46,
+   "end": 35.62
+  },
+  {
+   "word": "allowed",
+   "start": 35.62,
+   "end": 35.84
+  },
+  {
+   "word": "to",
+   "start": 35.84,
+   "end": 36.04
+  },
+  {
+   "word": "visit.",
+   "start": 36.04,
+   "end": 36.28
+  },
+  {
+   "word": "About",
+   "start": 36.76,
+   "end": 36.98
+  },
+  {
+   "word": "seven",
+   "start": 36.98,
+   "end": 37.34
+  },
+  {
+   "word": "thousand",
+   "start": 37.34,
+   "end": 37.74
+  },
+  {
+   "word": "square",
+   "start": 37.74,
+   "end": 38
+  },
+  {
+   "word": "metres",
+   "start": 38,
+   "end": 38.26
+  },
+  {
+   "word": "of",
+   "start": 38.26,
+   "end": 38.5
+  },
+  {
+   "word": "grass…",
+   "start": 38.5,
+   "end": 38.82
+  },
+  {
+   "word": "and",
+   "start": 38.82,
+   "end": 39.32
+  },
+  {
+   "word": "a",
+   "start": 39.32,
+   "end": 39.42
+  },
+  {
+   "word": "stone",
+   "start": 39.42,
+   "end": 39.7
+  },
+  {
+   "word": "monument.",
+   "start": 39.7,
+   "end": 40.1
+  },
+  {
+   "word": "And",
+   "start": 40.64,
+   "end": 40.74
+  },
+  {
+   "word": "in",
+   "start": 40.74,
+   "end": 40.86
+  },
+  {
+   "word": "six",
+   "start": 40.86,
+   "end": 41.1
+  },
+  {
+   "word": "months'",
+   "start": 41.1,
+   "end": 41.32
+  },
+  {
+   "word": "time,",
+   "start": 41.32,
+   "end": 41.74
+  },
+  {
+   "word": "without",
+   "start": 41.92,
+   "end": 42.12
+  },
+  {
+   "word": "a",
+   "start": 42.12,
+   "end": 42.3
+  },
+  {
+   "word": "single",
+   "start": 42.3,
+   "end": 42.5
+  },
+  {
+   "word": "shot",
+   "start": 42.5,
+   "end": 42.8
+  },
+  {
+   "word": "fired…",
+   "start": 42.8,
+   "end": 43.54
+  }
+ ]
+}
