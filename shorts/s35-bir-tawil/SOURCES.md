@@ -23,3 +23,9 @@ No free-licence photo exists of the 2014 Jeremiah Heaton flag-planting; none of 
 - sfx/riser.mp3 — id 790 "Cinematic trailer riser" (shared kit)
 - sfx/text_pop.mp3 — id 2356 "Dry pop up notification alert", Epic Stock Media (shared kit)
 Titles taken from Mixkit category pages; files are assets.mixkit.co previews.
+
+## Used in the final cut (s35 render)
+- images/nubian_desert_01.jpg (hook and loop underlay), images/satellite_bir_tawil.jpg (name beat, Landsat 8 PD), images/war_office_wadi_halfa_sheet.jpg (1899 beat, PD period map), images/halaib_red_sea_coast_02.jpg (Red Sea beat, Halaib coast), images/nubian_desert_wadi_halfa.jpg (2014 flag beat), images/nubian_desert_nasa.jpg (land texture inside the maps and the Bir Tawil plate, NASA PD).
+- Vector map: Natural Earth 10m admin-0 countries, disputed areas (Bir Tawil, Halayib Triangle), admin-1 (ACT), lakes and rivers. Public domain, https://www.naturalearthdata.com/ . Built into render/geo.json by render/tools/build_geo.py.
+- 2014 flag beat is a generic SVG flag graphic. No photo or likeness of the person is used.
+- Music credit line for the description: "Desert City" Kevin MacLeod (incompetech.com) Licensed under Creative Commons: By Attribution 4.0 License http://creativecommons.org/licenses/by/4.0/

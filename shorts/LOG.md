@@ -191,3 +191,9 @@ Unpacked 6 Grok VOs into shorts/incoming-vo/. #01 matches finished Skylab Short;
 ## 2026-09-30T20:55+10:00 — s24 Burke & Wills (Atlas VO held)
 - Held Atlas en-AU `audio/vo.mp3` (**39.168 s**) from `/home/box/Downloads/s24_burke_wills_atlas_fast.mp3` (also `/workspace/deliverables/s24-burke-wills/vo-raw/vo-atlas.mp3`)
 - Ready for Claude Whisper / seam retune; incomplete loop on `…story of how`
+
+## 2026-10-17 — s35 Bir Tawil (final render)
+- `final/s35-bir-tawil.mp4`: 1080x1920, 30 fps, 47.73 s; -14.2 LUFS, -1.7 dBTP (AAC).
+- Map explainer on Natural Earth geometry (1899 line along 22° N, 1902 administrative line traced from the Bir Tawil and Halayib polygons); photo beats: Nubian Desert, Landsat 8, War Office sheet, Halaib coast.
+- Frame-1 hook NO COUNTRY WILL CLAIM THIS LAND; 2014 beat is a generic flag-on-outline graphic; loop eases back to frame 1.
+- Contact sheet: `render/contact_sheet.jpg`. Rebuild steps in `render/README.md`.
