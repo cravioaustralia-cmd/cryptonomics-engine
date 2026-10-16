@@ -1,0 +1,12 @@
+# s35 Bir Tawil — spoken lines with emotion cues (cues in brackets are NOT spoken)
+# On-screen hook "NO COUNTRY WILL CLAIM THIS LAND" is NEVER spoken.
+(fast, intrigued) There's a piece of land almost the size of the ACT… and no country on Earth will claim it.
+(storytelling) It's called Bir Tawil. A patch of desert between Egypt and Sudan.
+(building) In 1899, Britain and Egypt drew the border dead straight, along the twenty-second parallel.
+(puzzled) Three years later, the British drew a second line, based on which tribes used the land.
+(twist) Here's the catch. Egypt goes by the first line. That gives it the Halaib Triangle, ten times bigger, right on the Red Sea.
+(sly) Sudan goes by the second line. That gives it Halaib too.
+(deadpan) And each country's line hands Bir Tawil to the other. Claim it… and you give up Halaib.
+(amused) In 2014, an American dad planted a flag there so his daughter could be a real princess.
+(serious) No government recognised it.
+(loop, sly) And that's why, to this day…
