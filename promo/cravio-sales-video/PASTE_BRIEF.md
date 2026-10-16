@@ -4,7 +4,11 @@ You are building a **premium motion-graphics sales video** for **Cravio AI** (Au
 
 ## 0. Inputs (read these first)
 - `script.md` — the source of truth: scene tables, VO lines, on-screen text, motion direction, music/SFX cue sheets, fact-check notes. **Use the "Scene 11 fix" line.**
-- `vo/read_hero.txt`, `vo/read_social.txt` — exact narration. **VO is NOT recorded yet**: files will land as `vo/hero_vo.(wav|mp3)` and `vo/social_vo.(wav|mp3)`. Build to the script timecodes now; structure the project so VO drops in and scene boundaries can be re-timed to the real VO (e.g. a single timing JSON). If VO is still missing when you render, render a music+SFX version with burned-in captions, label it `*_noVO.mp4`, and say so.
+- **VO is RECORDED (Atlas voice, raw, unprocessed) — use as-is, do NOT re-record or regenerate:**
+  - `vo/hero_vo.mp3` — 68.86 s (hero cut). Text: `vo/read_hero.txt`.
+  - `vo/social_vo.mp3` — 16.68 s (social cut). Text: `vo/read_social.txt`.
+  - Whisper check: all words present, no omissions; phone read as "0478 953 337" (domestic format, as scripted). You may clean (gentle high-pass, de-ess, light compression), and you may split it at phrase gaps to place lines, but never time-stretch or pitch the speech.
+  - **Hero VO is ~69 s against an 85 s target.** Re-time every scene to the real VO (detect phrase boundaries, e.g. with Whisper word timestamps, and drive scene starts from one timing JSON). Fill the ~16 s difference with **music-led breathing room**: a short instrumental hook before the first line or at the 0:21 logo drop, longer pauses on the scene 5 logo reveal and the scene 10 "Approve" hero moment, and the ≥ 2 s final hold on the end card. Final hero length can land anywhere in ~75–85 s; don't pad with dead air. The social VO (16.7 s) fits the 18 s cut, ending on the ≥ 2 s hold.
 - `assets/logo/` — Circuit Track C mark. On navy use `*-colour-on-dark.svg` or `*-white.svg` ONLY (never the navy-track `*-colour` on navy). Horizontal, stacked and icon layouts. Outlined paths — never retype the wordmark.
 - `assets/hero/hero.svg` (layered) + `assets/hero/layers/*.svg` (same layers as separate files) + `ANIMATION-NOTES.md`. Layer IDs: `layer-background`, `layer-assembly-tracks` (`track-main`, `track-loop`, `track-riser`), `layer-circuit-traces` (`trace-1..3`), `layer-data-pulses` (`pulse-1..5`), `layer-agent-nodes` (`agent-1..3` + labels), `layer-factory-motif`, `layer-hero-mark`, `layer-copy` (placeholder copy: do not use; set live type).
 - `assets/icons/*.svg` — 24px line icons, `currentColor`, stroke 1.75: `agent-rfq-quote`, `agent-spec-catalogue`, `agent-order-status`, `agent-lead-research`, `agent-content-engine`, `service-ai-agents`, `service-content-marketing`, `service-custom-solutions`. Scale up as vectors; keep the stroke weight visually consistent (non-scaling stroke or re-weighted).
@@ -29,7 +33,7 @@ You are building a **premium motion-graphics sales video** for **Cravio AI** (Au
 - Depth: 2.5D parallax layers (background grid → tracks → nodes → UI cards), soft shadows `rgba(0,0,0,.35)` on cards, subtle cyan glow on active items. Keep it clean — premium = restraint plus precision.
 - Safe areas: 16:9 title-safe 5%; 9:16 keep the top 15% and bottom 20% clear of key type.
 
-## 3. Hero cut — 16:9, target 85 s (1:25)
+## 3. Hero cut — 16:9, target ~75–85 s (timecodes below are the script's; re-time to the recorded 68.9 s VO)
 | # | Time | VO (exact) | On-screen | Build direction (from script, push it further) |
 |---|---|---|---|---|
 | 1 | 0:00–0:03 | "Your quotes are waiting. Your customers aren't." | RFQ waiting… → Customer: "Any update?" | Inbox UI slams in full-frame, unread RFQ, red "Waiting 3 days" tag ticking up; on "aren't" second email drops, stack shakes. Hard cut on a hi-hat stop. SFX: notification pop, tick, thud (impact trimmed). |
