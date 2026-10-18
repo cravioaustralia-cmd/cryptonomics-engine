@@ -33,7 +33,8 @@ Last line is intentionally unresolved; loops back to "In 1936, Tasmania finally 
 - No AI thylacine renders.
 
 ## VO
-PLACEHOLDER: Atlas VO will be seated at `audio/vo.mp3` (Abhishek records separately from `vo/atlas_read.txt`). Do not render final until it lands. Do not re-record. Captions use the script's spelling.
+Seated at `audio/vo.mp3` (Atlas, raw, 54.12 s). Read from `vo/atlas_read.txt`. Do not re-record. Claude owns pacing and mix.
+Captions use the script's spelling (thylacine, Beaumaris Zoo, Hobart's, fifty-nine / 59, National Threatened Species Day), not any auto-transcript spelling.
 
 ## Map coordinates (approximate)
 - Hobart CBD -42.882, 147.327 · Beaumaris Zoo site (Queens Domain) -42.871, 147.337 · TMAG (Hobart museum) -42.882, 147.333
