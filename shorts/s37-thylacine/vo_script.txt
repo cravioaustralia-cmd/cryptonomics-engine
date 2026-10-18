@@ -1,0 +1,12 @@
+# s37 Thylacine — spoken lines with emotion cues (cues in brackets are NOT spoken)
+# On-screen hook "PROTECTED. 59 DAYS LATER, THE LAST ONE DIED." is NEVER spoken.
+(fast, intrigued) In 1936, Tasmania finally made it illegal to kill the Tasmanian tiger… fifty-nine days too late.
+(storytelling) The thylacine looked like a striped wolf. But it was a marsupial, with a pouch.
+(indignant) Farmers blamed it for killing sheep. From 1888, the government paid a pound for every adult killed. Over two thousand bounties were paid.
+(sombre) The last known wild one was shot in 1930.
+(quiet) The last known thylacine ended up in Hobart's Beaumaris Zoo.
+(tense) On the tenth of July, 1936, the species was finally protected.
+(heavy) On the night of the seventh of September… that last tiger died.
+(serious) None has been confirmed since. Today, that date is Australia's National Threatened Species Day.
+(twist) And in 2022, researchers worked out that her skin had been sitting in a Hobart museum cupboard for decades… used as a teaching exhibit. Nobody knew she was the last one.
+(loop, sly) All because one law was only passed…
