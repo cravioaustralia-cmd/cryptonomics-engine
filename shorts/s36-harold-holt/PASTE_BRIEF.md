@@ -31,7 +31,8 @@ Last line is intentionally unresolved; loops back to "In 1967, Australia's Prime
 This is a real death. The slang and pool beats stay wry, not mocking. The music bed is respectful-curious, not comedic.
 
 ## VO
-PLACEHOLDER: Atlas VO will be seated at `audio/vo.mp3` (Abhishek records separately from `vo/atlas_read.txt`). Do not render final until it lands. Do not re-record. Captions use the script's spelling.
+Seated at `audio/vo.mp3` (Atlas, raw, 53.16 s). Read from `vo/atlas_read.txt`. Do not re-record. Claude owns pacing and mix.
+Captions use the script's spelling (Harold Holt, Cheviot Beach, Portsea, waded, coroner, Rumours, Harold Holt Memorial Swimming Centre), not any auto-transcript spelling.
 
 ## Map coordinates (approximate)
 - Cheviot Beach -38.312, 144.683 · Point Nepean (tip) -38.302, 144.648 · Portsea -38.320, 144.711 · Melbourne CBD -37.814, 144.963
