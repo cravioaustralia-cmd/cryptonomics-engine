@@ -12,3 +12,12 @@ out
 # Shorts render outputs
 shorts/**/out/
 shorts/shared/render/node_modules/
+
+# lf10 render intermediates (proxies, review stills, mixes, renders)
+public/lf10/v/
+public/lf10/img/
+longform/lf10-kingmaker/build/out/*.wav
+longform/lf10-kingmaker/build/out/*.mp4
+longform/lf10-kingmaker/build/out/*.m4a
+longform/lf10-kingmaker/build/out/wm/
+longform/lf10-kingmaker/build/__pycache__/

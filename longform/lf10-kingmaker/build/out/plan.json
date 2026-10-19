@@ -1,0 +1,522 @@
+{
+ "duration": 761.636,
+ "vo": [
+  {
+   "seg": "S01",
+   "path": "/home/user/cryptonomics-engine/longform/lf10-kingmaker/audio/vo-raw/S01.mp3",
+   "src_in": 0.03,
+   "src_out": 16.68,
+   "t": 1.6
+  },
+  {
+   "seg": "S02",
+   "path": "/home/user/cryptonomics-engine/longform/lf10-kingmaker/audio/vo-raw/S02.mp3",
+   "src_in": 0.03,
+   "src_out": 13.44,
+   "t": 18.7
+  },
+  {
+   "seg": "S03",
+   "path": "/home/user/cryptonomics-engine/longform/lf10-kingmaker/audio/vo-raw/S03.mp3",
+   "src_in": 0.02,
+   "src_out": 19.91,
+   "t": 32.56
+  },
+  {
+   "seg": "S04",
+   "path": "/home/user/cryptonomics-engine/longform/lf10-kingmaker/audio/vo-raw/S04.mp3",
+   "src_in": 0.03,
+   "src_out": 15.3,
+   "t": 60.3
+  },
+  {
+   "seg": "S05",
+   "path": "/home/user/cryptonomics-engine/longform/lf10-kingmaker/audio/vo-raw/S05.mp3",
+   "src_in": 0.02,
+   "src_out": 22.13,
+   "t": 76.02
+  },
+  {
+   "seg": "S06",
+   "path": "/home/user/cryptonomics-engine/longform/lf10-kingmaker/audio/vo-raw/S06.mp3",
+   "src_in": 0.04,
+   "src_out": 21.02,
+   "t": 98.58
+  },
+  {
+   "seg": "S07",
+   "path": "/home/user/cryptonomics-engine/longform/lf10-kingmaker/audio/vo-raw/S07.mp3",
+   "src_in": 0.05,
+   "src_out": 16.62,
+   "t": 120.01
+  },
+  {
+   "seg": "S08",
+   "path": "/home/user/cryptonomics-engine/longform/lf10-kingmaker/audio/vo-raw/S08.mp3",
+   "src_in": 0.02,
+   "src_out": 14.87,
+   "t": 137.03
+  },
+  {
+   "seg": "S09",
+   "path": "/home/user/cryptonomics-engine/longform/lf10-kingmaker/audio/vo-raw/S09.mp3",
+   "src_in": 0.02,
+   "src_out": 18.936,
+   "t": 152.33
+  },
+  {
+   "seg": "S10",
+   "path": "/home/user/cryptonomics-engine/longform/lf10-kingmaker/audio/vo-raw/S10.mp3",
+   "src_in": 0.03,
+   "src_out": 15.21,
+   "t": 171.696
+  },
+  {
+   "seg": "S11",
+   "path": "/home/user/cryptonomics-engine/longform/lf10-kingmaker/audio/vo-raw/S11.mp3",
+   "src_in": 0.01,
+   "src_out": 21.27,
+   "t": 187.326
+  },
+  {
+   "seg": "S12",
+   "path": "/home/user/cryptonomics-engine/longform/lf10-kingmaker/audio/vo-raw/S12.mp3",
+   "src_in": 0.03,
+   "src_out": 12.73,
+   "t": 212.036
+  },
+  {
+   "seg": "S13",
+   "path": "/home/user/cryptonomics-engine/longform/lf10-kingmaker/audio/vo-raw/S13.mp3",
+   "src_in": 0.01,
+   "src_out": 12.33,
+   "t": 225.186
+  },
+  {
+   "seg": "S14",
+   "path": "/home/user/cryptonomics-engine/longform/lf10-kingmaker/audio/vo-raw/S14.mp3",
+   "src_in": 0.04,
+   "src_out": 19.18,
+   "t": 237.956
+  },
+  {
+   "seg": "S15",
+   "path": "/home/user/cryptonomics-engine/longform/lf10-kingmaker/audio/vo-raw/S15.mp3",
+   "src_in": 0.01,
+   "src_out": 10.18,
+   "t": 257.546
+  },
+  {
+   "seg": "S16",
+   "path": "/home/user/cryptonomics-engine/longform/lf10-kingmaker/audio/vo-raw/S16.mp3",
+   "src_in": 0.02,
+   "src_out": 10.66,
+   "t": 271.166
+  },
+  {
+   "seg": "S17",
+   "path": "/home/user/cryptonomics-engine/longform/lf10-kingmaker/audio/vo-raw/S17.mp3",
+   "src_in": 0.03,
+   "src_out": 20.73,
+   "t": 282.256
+  },
+  {
+   "seg": "S18",
+   "path": "/home/user/cryptonomics-engine/longform/lf10-kingmaker/audio/vo-raw/S18.mp3",
+   "src_in": 0.02,
+   "src_out": 22.35,
+   "t": 303.406
+  },
+  {
+   "seg": "S19",
+   "path": "/home/user/cryptonomics-engine/longform/lf10-kingmaker/audio/vo-raw/S19.mp3",
+   "src_in": 0.06,
+   "src_out": 18.06,
+   "t": 326.186
+  },
+  {
+   "seg": "S20",
+   "path": "/home/user/cryptonomics-engine/longform/lf10-kingmaker/audio/vo-raw/S20.mp3",
+   "src_in": 0.02,
+   "src_out": 21.06,
+   "t": 344.636
+  },
+  {
+   "seg": "S21",
+   "path": "/home/user/cryptonomics-engine/longform/lf10-kingmaker/audio/vo-raw/S21.mp3",
+   "src_in": 0.02,
+   "src_out": 15.6,
+   "t": 366.126
+  },
+  {
+   "seg": "S22",
+   "path": "/home/user/cryptonomics-engine/longform/lf10-kingmaker/audio/vo-raw/S22.mp3",
+   "src_in": 0.05,
+   "src_out": 6.56,
+   "t": 385.156
+  },
+  {
+   "seg": "S23",
+   "path": "/home/user/cryptonomics-engine/longform/lf10-kingmaker/audio/vo-raw/S23.mp3",
+   "src_in": 0.04,
+   "src_out": 14.61,
+   "t": 392.116
+  },
+  {
+   "seg": "S24",
+   "path": "/home/user/cryptonomics-engine/longform/lf10-kingmaker/audio/vo-raw/S24.mp3",
+   "src_in": 0.03,
+   "src_out": 10.75,
+   "t": 407.136
+  },
+  {
+   "seg": "S25",
+   "path": "/home/user/cryptonomics-engine/longform/lf10-kingmaker/audio/vo-raw/S25.mp3",
+   "src_in": 0.11,
+   "src_out": 10.75,
+   "t": 418.306
+  },
+  {
+   "seg": "S26",
+   "path": "/home/user/cryptonomics-engine/longform/lf10-kingmaker/audio/vo-raw/S26.mp3",
+   "src_in": 0.03,
+   "src_out": 18.15,
+   "t": 429.396
+  },
+  {
+   "seg": "S27",
+   "path": "/home/user/cryptonomics-engine/longform/lf10-kingmaker/audio/vo-raw/S27.mp3",
+   "src_in": 0.04,
+   "src_out": 16.25,
+   "t": 447.966
+  },
+  {
+   "seg": "S28",
+   "path": "/home/user/cryptonomics-engine/longform/lf10-kingmaker/audio/vo-raw/S28.mp3",
+   "src_in": 0.01,
+   "src_out": 6.25,
+   "t": 467.626
+  },
+  {
+   "seg": "S29",
+   "path": "/home/user/cryptonomics-engine/longform/lf10-kingmaker/audio/vo-raw/S29.mp3",
+   "src_in": 0.06,
+   "src_out": 15.15,
+   "t": 474.316
+  },
+  {
+   "seg": "S30",
+   "path": "/home/user/cryptonomics-engine/longform/lf10-kingmaker/audio/vo-raw/S30.mp3",
+   "src_in": 0.04,
+   "src_out": 12.38,
+   "t": 489.856
+  },
+  {
+   "seg": "S31",
+   "path": "/home/user/cryptonomics-engine/longform/lf10-kingmaker/audio/vo-raw/S31.mp3",
+   "src_in": 0.04,
+   "src_out": 15.61,
+   "t": 502.646
+  },
+  {
+   "seg": "S32",
+   "path": "/home/user/cryptonomics-engine/longform/lf10-kingmaker/audio/vo-raw/S32.mp3",
+   "src_in": 0.03,
+   "src_out": 15.48,
+   "t": 518.666
+  },
+  {
+   "seg": "S33",
+   "path": "/home/user/cryptonomics-engine/longform/lf10-kingmaker/audio/vo-raw/S33.mp3",
+   "src_in": 0.04,
+   "src_out": 17.5,
+   "t": 537.566
+  },
+  {
+   "seg": "S34",
+   "path": "/home/user/cryptonomics-engine/longform/lf10-kingmaker/audio/vo-raw/S34.mp3",
+   "src_in": 0.03,
+   "src_out": 10.82,
+   "t": 555.476
+  },
+  {
+   "seg": "S35",
+   "path": "/home/user/cryptonomics-engine/longform/lf10-kingmaker/audio/vo-raw/S35.mp3",
+   "src_in": 0.03,
+   "src_out": 11.91,
+   "t": 566.716
+  },
+  {
+   "seg": "S36",
+   "path": "/home/user/cryptonomics-engine/longform/lf10-kingmaker/audio/vo-raw/S36.mp3",
+   "src_in": 0.03,
+   "src_out": 12.91,
+   "t": 579.046
+  },
+  {
+   "seg": "S37",
+   "path": "/home/user/cryptonomics-engine/longform/lf10-kingmaker/audio/vo-raw/S37.mp3",
+   "src_in": 0.01,
+   "src_out": 27.87,
+   "t": 596.776
+  },
+  {
+   "seg": "S38",
+   "path": "/home/user/cryptonomics-engine/longform/lf10-kingmaker/audio/vo-raw/S38.mp3",
+   "src_in": 0.01,
+   "src_out": 16.07,
+   "t": 625.086
+  },
+  {
+   "seg": "S39",
+   "path": "/home/user/cryptonomics-engine/longform/lf10-kingmaker/audio/vo-raw/S39.mp3",
+   "src_in": 0.06,
+   "src_out": 16.06,
+   "t": 644.796
+  },
+  {
+   "seg": "S40",
+   "path": "/home/user/cryptonomics-engine/longform/lf10-kingmaker/audio/vo-raw/S40.mp3",
+   "src_in": 0.08,
+   "src_out": 12.89,
+   "t": 661.246
+  },
+  {
+   "seg": "S41",
+   "path": "/home/user/cryptonomics-engine/longform/lf10-kingmaker/audio/vo-raw/S41.mp3",
+   "src_in": 0.01,
+   "src_out": 9.9,
+   "t": 674.506
+  },
+  {
+   "seg": "S42",
+   "path": "/home/user/cryptonomics-engine/longform/lf10-kingmaker/audio/vo-raw/S42.mp3",
+   "src_in": 0.03,
+   "src_out": 22.52,
+   "t": 684.846
+  },
+  {
+   "seg": "S43",
+   "path": "/home/user/cryptonomics-engine/longform/lf10-kingmaker/audio/vo-raw/S43.mp3",
+   "src_in": 0.03,
+   "src_out": 20.65,
+   "t": 707.786
+  },
+  {
+   "seg": "S44",
+   "path": "/home/user/cryptonomics-engine/longform/lf10-kingmaker/audio/vo-raw/S44.mp3",
+   "src_in": 0.03,
+   "src_out": 10.86,
+   "t": 728.856
+  },
+  {
+   "seg": "S45",
+   "path": "/home/user/cryptonomics-engine/longform/lf10-kingmaker/audio/vo-raw/S45.mp3",
+   "src_in": 0.03,
+   "src_out": 16.28,
+   "t": 742.336
+  }
+ ],
+ "sfx": [
+  {
+   "name": "SFX_bass_impact",
+   "t": 8.26,
+   "gain": 0.9
+  },
+  {
+   "name": "SFX_shutter",
+   "t": 23.42,
+   "gain": 1.0
+  },
+  {
+   "name": "SFX_press_machinery_hum",
+   "t": 32.56,
+   "gain": 0.7
+  },
+  {
+   "name": "SFX_typewriter",
+   "t": 126.4,
+   "gain": 0.6
+  },
+  {
+   "name": "SFX_record_scratch",
+   "t": 173.316,
+   "gain": 0.55
+  },
+  {
+   "name": "SFX_vintage_phone_ring",
+   "t": 227.286,
+   "gain": 0.5
+  },
+  {
+   "name": "SFX_gavel",
+   "t": 237.656,
+   "gain": 0.5
+  },
+  {
+   "name": "SFX_crowd_murmur",
+   "t": 292.486,
+   "gain": 0.35
+  },
+  {
+   "name": "SFX_shutter",
+   "t": 440.746,
+   "gain": 1.0
+  },
+  {
+   "name": "SFX_shutter",
+   "t": 442.306,
+   "gain": 1.0
+  },
+  {
+   "name": "SFX_shutter",
+   "t": 444.096,
+   "gain": 1.0
+  },
+  {
+   "name": "SFX_shutter",
+   "t": 445.866,
+   "gain": 1.0
+  },
+  {
+   "name": "SFX_crowd_murmur",
+   "t": 661.246,
+   "gain": 0.3
+  }
+ ],
+ "chapters": [
+  {
+   "t": 0.0,
+   "title": "Cold open: 11 November 1975"
+  },
+  {
+   "t": 57.1,
+   "title": "Suspect #1: The Press Baron"
+  },
+  {
+   "t": 209.036,
+   "title": "Suspect #2: The Man Who Owned the Screen"
+  },
+  {
+   "t": 268.166,
+   "title": "Suspect #3: The Mining Money"
+  },
+  {
+   "t": 382.156,
+   "title": "Suspect #4: The Faceless Men"
+  },
+  {
+   "t": 464.626,
+   "title": "Suspect #5: The Preference Whisperer"
+  },
+  {
+   "t": 534.566,
+   "title": "Suspect #6: The New Kingmakers"
+  },
+  {
+   "t": 592.376,
+   "title": "The Rulebook Just Changed"
+  },
+  {
+   "t": 641.596,
+   "title": "The Reveal"
+  }
+ ],
+ "music": [
+  {
+   "t": 0.0,
+   "track": "MUS_01_tense_pulse"
+  },
+  {
+   "t": 57.1,
+   "track": "MUS_02_investigative"
+  },
+  {
+   "t": 209.036,
+   "track": "MUS_07_retro_synth"
+  },
+  {
+   "t": 268.166,
+   "track": "MUS_08_industrial_percussion"
+  },
+  {
+   "t": 382.156,
+   "track": "MUS_03_archival"
+  },
+  {
+   "t": 464.626,
+   "track": "MUS_09_playful_plucks"
+  },
+  {
+   "t": 534.566,
+   "track": "MUS_04_momentum"
+  },
+  {
+   "t": 641.596,
+   "track": "MUS_05_sober"
+  }
+ ],
+ "holds": [
+  {
+   "name": "lead-in",
+   "t": 0.0,
+   "dur": 1.6
+  },
+  {
+   "name": "title",
+   "t": 52.9,
+   "dur": 4.2
+  },
+  {
+   "name": "Suspect #1: The Press Baron",
+   "t": 57.1,
+   "dur": 3.2
+  },
+  {
+   "name": "Suspect #2: The Man Who Owned the Screen",
+   "t": 209.036,
+   "dur": 3.0
+  },
+  {
+   "name": "Suspect #3: The Mining Money",
+   "t": 268.166,
+   "dur": 3.0
+  },
+  {
+   "name": "Suspect #4: The Faceless Men",
+   "t": 382.156,
+   "dur": 3.0
+  },
+  {
+   "name": "Suspect #5: The Preference Whisperer",
+   "t": 464.626,
+   "dur": 3.0
+  },
+  {
+   "name": "Suspect #6: The New Kingmakers",
+   "t": 534.566,
+   "dur": 3.0
+  },
+  {
+   "name": "The Rulebook Just Changed",
+   "t": 592.376,
+   "dur": 4.4
+  },
+  {
+   "name": "The Reveal",
+   "t": 641.596,
+   "dur": 3.2
+  },
+  {
+   "name": "beat after pencil",
+   "t": 740.136,
+   "dur": 2.2
+  },
+  {
+   "name": "tail",
+   "t": 759.036,
+   "dur": 2.6
+  }
+ ],
+ "title_t": 52.9
+}

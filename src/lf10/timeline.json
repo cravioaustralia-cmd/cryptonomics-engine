@@ -1,0 +1,4217 @@
+{
+ "duration": 761.636,
+ "shots": [
+  {
+   "kind": "video",
+   "src": "BR_STOCK_canberra_sunset_sky",
+   "ss": 0.0,
+   "credit": "shootnedit \u00b7 Pixabay Content License",
+   "from": 0.0,
+   "to": 1.6,
+   "id": "sh000_BR_STOCK_canberra_sunset_sky"
+  },
+  {
+   "kind": "photo",
+   "src": "IMG_whitlam_headshot.jpg",
+   "frame": "framed",
+   "fh": 930,
+   "label": {
+    "title": "11 NOVEMBER 1975",
+    "sub": "GOVERNMENT HOUSE, CANBERRA",
+    "at": 1.73,
+    "to": 6.59
+   },
+   "credit": "National Archives of Australia \u00b7 Public domain \u00b7 via Wikimedia Commons",
+   "from": 1.6,
+   "to": 6.57,
+   "id": "sh001_IMG_whitlam_headshot.jpg"
+  },
+  {
+   "kind": "video",
+   "src": "BR_AI_01_driveway_dusk",
+   "ss": 0.5,
+   "honest": "Dramatised reconstruction \u00b7 AI-generated",
+   "credit": "AI-generated (Grok Imagine) \u00b7 dramatised",
+   "from": 6.57,
+   "to": 8.26,
+   "id": "sh002_BR_AI_01_driveway_dusk"
+  },
+  {
+   "kind": "photo",
+   "src": "IMG_whitlam_headshot.jpg",
+   "frame": "framed",
+   "fh": 930,
+   "move": "none",
+   "zoom": [
+    1.0,
+    1.0
+   ],
+   "credit": "National Archives of Australia \u00b7 Public domain \u00b7 via Wikimedia Commons",
+   "from": 8.26,
+   "to": 10.49,
+   "id": "sh003_IMG_whitlam_headshot.jpg"
+  },
+  {
+   "kind": "video",
+   "src": "BR_AI_02_ballot_into_box",
+   "ss": 0.0,
+   "honest": "Dramatised reconstruction \u00b7 AI-generated",
+   "credit": "AI-generated (Grok Imagine) \u00b7 dramatised",
+   "from": 10.49,
+   "to": 12.17,
+   "id": "sh004_BR_AI_02_ballot_into_box"
+  },
+  {
+   "kind": "photo",
+   "src": "IMG_whitlam_after_dismissal_1975.jpg",
+   "focus": [
+    0.3,
+    0.35
+   ],
+   "label": {
+    "title": "Gough Whitlam",
+    "sub": "Parliament House, 11 November 1975"
+   },
+   "credit": "Commonwealth of Australia (NAA) \u00b7 Public domain \u00b7 via Wikimedia Commons",
+   "from": 12.17,
+   "to": 14.89,
+   "id": "sh005_IMG_whitlam_after_dismissal_1975.jpg"
+  },
+  {
+   "kind": "photo",
+   "src": "IMG_kerr_governor_general.jpg",
+   "frame": "framed",
+   "fh": 980,
+   "move": "up",
+   "label": {
+    "title": "SIR JOHN KERR",
+    "sub": "GOVERNOR-GENERAL",
+    "at": 15.75
+   },
+   "credit": "Australian Government \u00b7 Public domain \u00b7 via Wikimedia Commons",
+   "from": 14.89,
+   "to": 18.7,
+   "id": "sh006_IMG_kerr_governor_general.jpg"
+  },
+  {
+   "kind": "photo",
+   "src": "IMG_rudd_2007.jpg",
+   "frame": "framed",
+   "fh": 900,
+   "label": {
+    "title": "KEVIN RUDD",
+    "sub": "2010",
+    "at": 18.6
+   },
+   "credit": "Museum of Australian Democracy, \u00a9 Commonwealth of Australia \u00b7 CC BY 4.0 \u00b7 via Wikimedia Commons",
+   "from": 18.7,
+   "to": 19.37,
+   "id": "sh007_IMG_rudd_2007.jpg"
+  },
+  {
+   "kind": "photo",
+   "src": "IMG_gillard.jpg",
+   "frame": "framed",
+   "fh": 900,
+   "label": {
+    "title": "JULIA GILLARD",
+    "sub": "2013",
+    "at": 19.39
+   },
+   "credit": "Dilma Rousseff (Flickr) \u00b7 CC BY-SA 2.0 \u00b7 via Wikimedia Commons",
+   "from": 19.37,
+   "to": 20.55,
+   "id": "sh008_IMG_gillard.jpg"
+  },
+  {
+   "kind": "photo",
+   "src": "IMG_abbott_official.jpg",
+   "frame": "framed",
+   "fh": 900,
+   "label": {
+    "title": "TONY ABBOTT",
+    "sub": "2015",
+    "at": 20.57
+   },
+   "credit": "Commonwealth of Australia \u00b7 CC BY 3.0 AU \u00b7 via Wikimedia Commons",
+   "from": 20.55,
+   "to": 21.45,
+   "id": "sh009_IMG_abbott_official.jpg"
+  },
+  {
+   "kind": "photo",
+   "src": "IMG_turnbull_peo.jpg",
+   "frame": "framed",
+   "fh": 900,
+   "label": {
+    "title": "MALCOLM TURNBULL",
+    "sub": "2018",
+    "at": 21.47
+   },
+   "credit": "Commonwealth of Australia \u00b7 CC BY 4.0 \u00b7 via Wikimedia Commons",
+   "from": 21.45,
+   "to": 23.42,
+   "id": "sh010_IMG_turnbull_peo.jpg"
+  },
+  {
+   "kind": "photo",
+   "src": "IMG_house_of_reps_chamber.jpg",
+   "credit": "JJ Harrison \u00b7 CC BY-SA 3.0 \u00b7 via Wikimedia Commons",
+   "from": 23.42,
+   "to": 26.01,
+   "id": "sh011_IMG_house_of_reps_chamber.jpg"
+  },
+  {
+   "kind": "photo",
+   "src": "IMG_senate_chamber.jpg",
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "label": {
+    "title": "THE SENATE",
+    "sub": "Parliament House, Canberra",
+    "at": 26.03,
+    "to": 27.81
+   },
+   "credit": "JJ Harrison \u00b7 CC BY-SA 3.0 \u00b7 via Wikimedia Commons",
+   "from": 26.01,
+   "to": 29.29,
+   "id": "sh012_IMG_senate_chamber.jpg"
+  },
+  {
+   "kind": "video",
+   "src": "BR_STOCK_parliament_house_canberra",
+   "ss": 0.3,
+   "credit": "Jared Drennan \u00b7 CC BY 3.0 \u00b7 via Wikimedia Commons",
+   "from": 29.29,
+   "to": 32.56,
+   "id": "sh013_BR_STOCK_parliament_house_canberra"
+  },
+  {
+   "kind": "video",
+   "src": "BR_STOCK_printing_press",
+   "ss": 1.0,
+   "credit": "Harrison Keely \u00b7 CC BY 4.0 \u00b7 via Wikimedia Commons",
+   "honest": "Illustrative",
+   "from": 32.56,
+   "to": 34.96,
+   "id": "sh014_BR_STOCK_printing_press"
+  },
+  {
+   "kind": "video",
+   "src": "BR_STOCK_newspaper_press_running",
+   "ss": 4.0,
+   "soft": 2.5,
+   "credit": "Vanuatu Daily Post \u00b7 CC BY 3.0 \u00b7 via Wikimedia Commons",
+   "honest": "Illustrative",
+   "from": 34.96,
+   "to": 37.82,
+   "id": "sh015_BR_STOCK_newspaper_press_running"
+  },
+  {
+   "kind": "video",
+   "src": "BR_STOCK_canberra_sunset_sky",
+   "ss": 0.0,
+   "credit": "shootnedit \u00b7 Pixabay Content License",
+   "from": 37.82,
+   "to": 40.62,
+   "id": "sh016_BR_STOCK_canberra_sunset_sky"
+  },
+  {
+   "kind": "video",
+   "src": "BR_AI_news_desk",
+   "ss": 1.0,
+   "honest": "Dramatised reconstruction \u00b7 AI-generated",
+   "credit": "AI-generated (Grok Imagine) \u00b7 dramatised",
+   "from": 40.62,
+   "to": 42.36,
+   "id": "sh017_BR_AI_news_desk"
+  },
+  {
+   "kind": "photo",
+   "src": "IMG_super_pit_kalgoorlie.jpg",
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "move": "panR",
+   "credit": "Chuq \u00b7 CC BY-SA 4.0 \u00b7 via Wikimedia Commons",
+   "honest": "Super Pit, Kalgoorlie \u00b7 a gold mine",
+   "from": 42.36,
+   "to": 43.26,
+   "id": "sh018_IMG_super_pit_kalgoorlie.jpg"
+  },
+  {
+   "kind": "video",
+   "src": "BR_AI_03_corridor_door_night",
+   "ss": 0.0,
+   "honest": "Dramatised reconstruction \u00b7 AI-generated",
+   "credit": "AI-generated (Grok Imagine) \u00b7 dramatised",
+   "from": 43.26,
+   "to": 44.74,
+   "id": "sh019_BR_AI_03_corridor_door_night"
+  },
+  {
+   "kind": "video",
+   "src": "BR_STOCK_parliament_house_canberra",
+   "ss": 0.0,
+   "credit": "Jared Drennan \u00b7 CC BY 3.0 \u00b7 via Wikimedia Commons",
+   "from": 44.74,
+   "to": 48.0,
+   "id": "sh020_BR_STOCK_parliament_house_canberra"
+  },
+  {
+   "kind": "photo",
+   "src": "IMG_parliament_house_blue_hour.jpg",
+   "move": "in",
+   "credit": "Thennicke \u00b7 CC BY-SA 4.0 \u00b7 via Wikimedia Commons",
+   "from": 48.0,
+   "to": 52.9,
+   "id": "sh021_IMG_parliament_house_blue_hour.jpg"
+  },
+  {
+   "kind": "photo",
+   "src": "IMG_parliament_house_flag.jpg",
+   "move": "up",
+   "zoom": [
+    1.08,
+    1.16
+   ],
+   "credit": "Vikas from Australia \u00b7 CC BY 2.0 \u00b7 via Wikimedia Commons",
+   "from": 52.9,
+   "to": 57.1,
+   "id": "sh022_IMG_parliament_house_flag.jpg"
+  },
+  {
+   "kind": "video",
+   "src": "BR_STOCK_newspaper_flipping_pov",
+   "ss": 0.0,
+   "soft": 4.0,
+   "credit": "Mixkit \u00b7 Mixkit Stock Video Free License",
+   "honest": "Illustrative",
+   "from": 57.1,
+   "to": 60.3,
+   "id": "sh023_BR_STOCK_newspaper_flipping_pov"
+  },
+  {
+   "kind": "video",
+   "src": "BR_STOCK_printing_press",
+   "ss": 8.0,
+   "credit": "Harrison Keely \u00b7 CC BY 4.0 \u00b7 via Wikimedia Commons",
+   "honest": "Illustrative",
+   "from": 60.3,
+   "to": 62.95,
+   "id": "sh024_BR_STOCK_printing_press"
+  },
+  {
+   "kind": "video",
+   "src": "BR_STOCK_newspaper_press_running",
+   "ss": 12.0,
+   "soft": 2.5,
+   "credit": "Vanuatu Daily Post \u00b7 CC BY 3.0 \u00b7 via Wikimedia Commons",
+   "honest": "Illustrative",
+   "from": 62.95,
+   "to": 64.49,
+   "id": "sh025_BR_STOCK_newspaper_press_running"
+  },
+  {
+   "kind": "photo",
+   "src": "IMG_murdoch_2011.jpg",
+   "frame": "framed",
+   "fh": 980,
+   "credit": "David Shankbone \u00b7 CC BY 2.0 \u00b7 via Wikimedia Commons",
+   "from": 64.49,
+   "to": 67.79,
+   "id": "sh026_IMG_murdoch_2011.jpg"
+  },
+  {
+   "kind": "photo",
+   "src": "BR_STOCK_adelaide_skyline.jpg",
+   "move": "panR",
+   "credit": "Ardash Muradian \u00b7 CC BY-SA 2.0 \u00b7 via Wikimedia Commons",
+   "honest": "Adelaide today",
+   "from": 67.79,
+   "to": 70.59,
+   "id": "sh027_BR_STOCK_adelaide_skyline.jpg"
+  },
+  {
+   "kind": "video",
+   "src": "BR_STOCK_london_city",
+   "ss": 2.0,
+   "credit": "Mixkit \u00b7 Mixkit Stock Video Free License",
+   "honest": "London",
+   "from": 70.59,
+   "to": 73.65,
+   "id": "sh028_BR_STOCK_london_city"
+  },
+  {
+   "kind": "photo",
+   "src": "IMG_murdoch_reagan_oval_office.jpg",
+   "focus": [
+    0.6,
+    0.4
+   ],
+   "label": {
+    "title": "Rupert Murdoch (right) with President Reagan",
+    "sub": "White House, 1983",
+    "at": 74.01
+   },
+   "credit": "White House Photographic Office / Reagan Library \u00b7 Public domain \u00b7 via Wikimedia Commons",
+   "from": 73.65,
+   "to": 76.02,
+   "id": "sh029_IMG_murdoch_reagan_oval_office.jpg"
+  },
+  {
+   "kind": "video",
+   "src": "BR_STOCK_sydney_aerial_skyscrapers",
+   "ss": 3.0,
+   "soft": 1.2,
+   "credit": "Sergey Guk \u00b7 Pexels License",
+   "from": 76.02,
+   "to": 78.34,
+   "id": "sh030_BR_STOCK_sydney_aerial_skyscrapers"
+  },
+  {
+   "kind": "video",
+   "src": "BR_STOCK_melbourne_aerial_dusk",
+   "ss": 1.0,
+   "credit": "Tetrakis Sphericon \u00b7 Pexels License",
+   "from": 78.34,
+   "to": 80.04,
+   "id": "sh031_BR_STOCK_melbourne_aerial_dusk"
+  },
+  {
+   "kind": "video",
+   "src": "BR_STOCK_brisbane_aerial",
+   "ss": 4.0,
+   "credit": "David Pickup \u00b7 Pexels License",
+   "from": 80.04,
+   "to": 81.32,
+   "id": "sh032_BR_STOCK_brisbane_aerial"
+  },
+  {
+   "kind": "video",
+   "src": "BR_STOCK_perth_elizabeth_quay",
+   "ss": 5.0,
+   "credit": "Gnangarra \u00b7 CC BY 2.5 AU \u00b7 via Wikimedia Commons",
+   "from": 81.32,
+   "to": 83.12,
+   "id": "sh033_BR_STOCK_perth_elizabeth_quay"
+  },
+  {
+   "kind": "photo",
+   "src": "IMG_murdoch_2011.jpg",
+   "focus": [
+    0.5,
+    0.3
+   ],
+   "zoom": [
+    1.0,
+    1.08
+   ],
+   "credit": "David Shankbone \u00b7 CC BY 2.0 \u00b7 via Wikimedia Commons",
+   "from": 83.12,
+   "to": 84.66,
+   "id": "sh034_IMG_murdoch_2011.jpg"
+  },
+  {
+   "kind": "video",
+   "src": "BR_STOCK_digital_screens",
+   "ss": 0.5,
+   "credit": "Mixkit \u00b7 Mixkit Stock Video Free License",
+   "honest": "Illustrative",
+   "from": 84.66,
+   "to": 90.6,
+   "id": "sh035_BR_STOCK_digital_screens"
+  },
+  {
+   "kind": "video",
+   "src": "BR_AI_news_desk",
+   "ss": 4.0,
+   "honest": "Dramatised reconstruction \u00b7 AI-generated",
+   "credit": "AI-generated (Grok Imagine) \u00b7 dramatised",
+   "from": 90.6,
+   "to": 92.14,
+   "id": "sh036_BR_AI_news_desk"
+  },
+  {
+   "kind": "video",
+   "src": "BR_STOCK_printing_press",
+   "ss": 11.0,
+   "credit": "Harrison Keely \u00b7 CC BY 4.0 \u00b7 via Wikimedia Commons",
+   "honest": "Illustrative",
+   "from": 92.14,
+   "to": 96.82,
+   "id": "sh037_BR_STOCK_printing_press"
+  },
+  {
+   "kind": "photo",
+   "src": "IMG_parliament_house_blue_hour.jpg",
+   "move": "out",
+   "credit": "Thennicke \u00b7 CC BY-SA 4.0 \u00b7 via Wikimedia Commons",
+   "from": 96.82,
+   "to": 98.58,
+   "id": "sh038_IMG_parliament_house_blue_hour.jpg"
+  },
+  {
+   "kind": "photo",
+   "src": "IMG_whitlam_policy_speech_1972.jpg",
+   "frame": "framed",
+   "fh": 960,
+   "label": {
+    "title": "1972 \u00b7 \u201cIT'S TIME\u201d",
+    "sub": "Gough Whitlam's policy speech",
+    "at": 99.78
+   },
+   "credit": "National Archives of Australia \u00b7 CC BY 4.0 \u00b7 via Wikimedia Commons",
+   "from": 98.58,
+   "to": 101.5,
+   "id": "sh039_IMG_whitlam_policy_speech_1972.jpg"
+  },
+  {
+   "kind": "photo",
+   "src": "IMG_whitlam_blacktown_rally.jpg",
+   "focus": [
+    0.6,
+    0.4
+   ],
+   "label": {
+    "title": "Whitlam campaign rally",
+    "sub": "Blacktown, 13 November 1972",
+    "at": 105.62
+   },
+   "credit": "Australian Government \u00b7 Public domain \u00b7 via Wikimedia Commons",
+   "from": 101.5,
+   "to": 107.44,
+   "id": "sh040_IMG_whitlam_blacktown_rally.jpg"
+  },
+  {
+   "kind": "photo",
+   "src": "IMG_first_whitlam_ministry_1972.jpg",
+   "focus": [
+    0.5,
+    0.45
+   ],
+   "label": {
+    "title": "Whitlam government sworn in",
+    "sub": "5 December 1972"
+   },
+   "credit": "National Archives of Australia \u00b7 Public domain \u00b7 via Wikimedia Commons",
+   "from": 107.44,
+   "to": 109.76,
+   "id": "sh041_IMG_first_whitlam_ministry_1972.jpg"
+  },
+  {
+   "kind": "photo",
+   "src": "IMG_fraser_1974.jpg",
+   "frame": "framed",
+   "fh": 960,
+   "label": {
+    "title": "Malcolm Fraser",
+    "sub": "Liberal leader \u00b7 1974 portrait",
+    "at": 110.84
+   },
+   "credit": "Australian Government \u00b7 Public domain \u00b7 via Wikimedia Commons",
+   "from": 109.76,
+   "to": 113.2,
+   "id": "sh042_IMG_fraser_1974.jpg"
+  },
+  {
+   "kind": "video",
+   "src": "BR_STOCK_newspaper_press_running",
+   "ss": 8.0,
+   "soft": 2.5,
+   "credit": "Vanuatu Daily Post \u00b7 CC BY 3.0 \u00b7 via Wikimedia Commons",
+   "honest": "Illustrative",
+   "from": 113.2,
+   "to": 115.8,
+   "id": "sh043_BR_STOCK_newspaper_press_running"
+  },
+  {
+   "kind": "video",
+   "src": "BR_STOCK_typewriter_closeup",
+   "ss": 0.5,
+   "credit": "Mixkit \u00b7 Mixkit Stock Video Free License",
+   "honest": "Illustrative",
+   "from": 115.8,
+   "to": 117.92,
+   "id": "sh044_BR_STOCK_typewriter_closeup"
+  },
+  {
+   "kind": "video",
+   "src": "BR_STOCK_book_pages_turning",
+   "ss": 1.0,
+   "soft": 3.5,
+   "credit": "Mixkit \u00b7 Mixkit Stock Video Free License",
+   "honest": "Illustrative",
+   "from": 117.92,
+   "to": 120.01,
+   "id": "sh045_BR_STOCK_book_pages_turning"
+  },
+  {
+   "kind": "video",
+   "src": "BR_STOCK_open_office_empty",
+   "ss": 1.0,
+   "credit": "Mixkit \u00b7 Mixkit Stock Video Free License",
+   "honest": "Illustrative",
+   "from": 120.01,
+   "to": 123.18,
+   "id": "sh046_BR_STOCK_open_office_empty"
+  },
+  {
+   "kind": "video",
+   "src": "BR_STOCK_newspaper_press_running",
+   "ss": 16.0,
+   "rate": 0.6,
+   "soft": 2.5,
+   "credit": "Vanuatu Daily Post \u00b7 CC BY 3.0 \u00b7 via Wikimedia Commons",
+   "honest": "Illustrative",
+   "from": 123.18,
+   "to": 126.4,
+   "id": "sh047_BR_STOCK_newspaper_press_running"
+  },
+  {
+   "kind": "video",
+   "src": "BR_STOCK_typewriter_closeup",
+   "ss": 4.0,
+   "credit": "Mixkit \u00b7 Mixkit Stock Video Free License",
+   "honest": "Illustrative",
+   "from": 126.4,
+   "to": 129.28,
+   "id": "sh048_BR_STOCK_typewriter_closeup"
+  },
+  {
+   "kind": "photo",
+   "src": "IMG_murdoch_2011.jpg",
+   "frame": "framed",
+   "fh": 980,
+   "label": {
+    "title": "Murdoch's position",
+    "sub": "1977 interview",
+    "at": 131.5
+   },
+   "credit": "David Shankbone \u00b7 CC BY 2.0 \u00b7 via Wikimedia Commons",
+   "from": 129.28,
+   "to": 134.72,
+   "id": "sh049_IMG_murdoch_2011.jpg"
+  },
+  {
+   "kind": "video",
+   "src": "BR_STOCK_open_office_empty",
+   "ss": 12.0,
+   "credit": "Mixkit \u00b7 Mixkit Stock Video Free License",
+   "honest": "Illustrative",
+   "from": 134.72,
+   "to": 137.03,
+   "id": "sh050_BR_STOCK_open_office_empty"
+  },
+  {
+   "kind": "video",
+   "src": "BR_AI_04_newspaper_doorstep",
+   "ss": 0.5,
+   "honest": "Dramatised reconstruction \u00b7 AI-generated",
+   "credit": "AI-generated (Grok Imagine) \u00b7 dramatised",
+   "from": 137.03,
+   "to": 139.77,
+   "id": "sh051_BR_AI_04_newspaper_doorstep"
+  },
+  {
+   "kind": "photo",
+   "src": "IMG_house_of_reps_chamber.jpg",
+   "focus": [
+    0.5,
+    0.55
+   ],
+   "label": {
+    "title": "House of Representatives",
+    "sub": "Parliament House, Canberra"
+   },
+   "credit": "JJ Harrison \u00b7 CC BY-SA 3.0 \u00b7 via Wikimedia Commons",
+   "from": 139.77,
+   "to": 142.93,
+   "id": "sh052_IMG_house_of_reps_chamber.jpg"
+  },
+  {
+   "kind": "photo",
+   "src": "IMG_rudd_2007.jpg",
+   "frame": "framed",
+   "fh": 960,
+   "label": {
+    "title": "Kevin Rudd",
+    "sub": "Former Prime Minister",
+    "at": 144.77
+   },
+   "credit": "Museum of Australian Democracy, \u00a9 Commonwealth of Australia \u00b7 CC BY 4.0 \u00b7 via Wikimedia Commons",
+   "from": 142.93,
+   "to": 147.11,
+   "id": "sh053_IMG_rudd_2007.jpg"
+  },
+  {
+   "kind": "video",
+   "src": "BR_STOCK_parliament_house_canberra",
+   "ss": 1.5,
+   "credit": "Jared Drennan \u00b7 CC BY 3.0 \u00b7 via Wikimedia Commons",
+   "from": 147.11,
+   "to": 149.49,
+   "id": "sh054_BR_STOCK_parliament_house_canberra"
+  },
+  {
+   "kind": "video",
+   "src": "BR_STOCK_laptop_typing",
+   "ss": 1.0,
+   "credit": "Mixkit \u00b7 Mixkit Stock Video Free License",
+   "honest": "Illustrative",
+   "from": 149.49,
+   "to": 152.33,
+   "id": "sh055_BR_STOCK_laptop_typing"
+  },
+  {
+   "kind": "video",
+   "src": "BR_STOCK_phone_scrolling",
+   "ss": 0.0,
+   "credit": "Mixkit \u00b7 Mixkit Stock Video Free License",
+   "honest": "Illustrative",
+   "from": 152.33,
+   "to": 156.73,
+   "id": "sh056_BR_STOCK_phone_scrolling"
+  },
+  {
+   "kind": "doc",
+   "src": "DOC_aph_epetition_EN1938.png",
+   "crop": [
+    660,
+    150,
+    900,
+    360
+   ],
+   "scroll": 0,
+   "label": {
+    "title": "E-petition EN1938",
+    "sub": "Parliament of Australia website",
+    "at": 157.07
+   },
+   "credit": "Parliament of Australia \u00b7 aph.gov.au e-petition EN1938",
+   "from": 156.73,
+   "to": 160.31,
+   "id": "sh057_DOC_aph_epetition_EN1938.png"
+  },
+  {
+   "kind": "photo",
+   "src": "IMG_turnbull_peo.jpg",
+   "frame": "framed",
+   "fh": 960,
+   "label": {
+    "title": "Malcolm Turnbull",
+    "sub": "Former Liberal Prime Minister",
+    "at": 161.95
+   },
+   "credit": "Commonwealth of Australia \u00b7 CC BY 4.0 \u00b7 via Wikimedia Commons",
+   "from": 160.31,
+   "to": 164.47,
+   "id": "sh058_IMG_turnbull_peo.jpg"
+  },
+  {
+   "kind": "video",
+   "src": "BR_STOCK_newspaper_press_running",
+   "ss": 2.0,
+   "soft": 2.5,
+   "credit": "Vanuatu Daily Post \u00b7 CC BY 3.0 \u00b7 via Wikimedia Commons",
+   "honest": "Illustrative",
+   "from": 164.47,
+   "to": 167.97,
+   "id": "sh059_BR_STOCK_newspaper_press_running"
+  },
+  {
+   "kind": "photo",
+   "src": "IMG_parliament_house_blue_hour.jpg",
+   "move": "in",
+   "credit": "Thennicke \u00b7 CC BY-SA 4.0 \u00b7 via Wikimedia Commons",
+   "from": 167.97,
+   "to": 171.696,
+   "id": "sh060_IMG_parliament_house_blue_hour.jpg"
+  },
+  {
+   "kind": "video",
+   "src": "BR_AI_02_ballot_into_box",
+   "ss": 5.0,
+   "honest": "Dramatised reconstruction \u00b7 AI-generated",
+   "credit": "AI-generated (Grok Imagine) \u00b7 dramatised",
+   "from": 171.696,
+   "to": 173.316,
+   "id": "sh061_BR_AI_02_ballot_into_box"
+  },
+  {
+   "kind": "video",
+   "src": "BR_AI_02_ballot_into_box",
+   "ss": 7.4,
+   "zoom": [
+    1.14,
+    1.16
+   ],
+   "honest": "Dramatised reconstruction \u00b7 AI-generated",
+   "credit": "AI-generated (Grok Imagine) \u00b7 dramatised",
+   "from": 173.316,
+   "to": 174.846,
+   "id": "sh062_BR_AI_02_ballot_into_box"
+  },
+  {
+   "kind": "photo",
+   "src": "IMG_albanese_dfat.jpg",
+   "frame": "framed",
+   "fh": 980,
+   "label": {
+    "title": "Anthony Albanese",
+    "sub": "Labor \u00b7 elections won in 2022 and 2025",
+    "at": 174.866
+   },
+   "credit": "David Foote (AUSPIC/DPS), via DFAT \u00b7 CC BY 4.0 \u00b7 via Wikimedia Commons",
+   "from": 174.846,
+   "to": 179.366,
+   "id": "sh063_IMG_albanese_dfat.jpg"
+  },
+  {
+   "kind": "video",
+   "src": "BR_STOCK_parliament_house_canberra",
+   "ss": 0.5,
+   "credit": "Jared Drennan \u00b7 CC BY 3.0 \u00b7 via Wikimedia Commons",
+   "from": 179.366,
+   "to": 181.686,
+   "id": "sh064_BR_STOCK_parliament_house_canberra"
+  },
+  {
+   "kind": "photo",
+   "src": "IMG_parliament_house_blue_hour.jpg",
+   "move": "out",
+   "credit": "Thennicke \u00b7 CC BY-SA 4.0 \u00b7 via Wikimedia Commons",
+   "from": 181.686,
+   "to": 183.086,
+   "id": "sh065_IMG_parliament_house_blue_hour.jpg"
+  },
+  {
+   "kind": "doc",
+   "src": "DOC_aec_tallyroom_dickson_2025.png",
+   "crop": [
+    990,
+    700,
+    900,
+    270
+   ],
+   "scroll": 0,
+   "label": {
+    "title": "OPPOSITION LEADER LOSES DICKSON",
+    "sub": "2025 \u00b7 AEC Tally Room",
+    "at": 184.546
+   },
+   "credit": "Australian Electoral Commission \u00b7 AEC Tally Room, 2025",
+   "from": 183.086,
+   "to": 187.326,
+   "id": "sh066_DOC_aec_tallyroom_dickson_2025.png"
+  },
+  {
+   "kind": "photo",
+   "src": "IMG_murdoch_2015.jpg",
+   "focus": [
+    0.5,
+    0.35
+   ],
+   "label": {
+    "title": "Rupert Murdoch",
+    "sub": "2015",
+    "at": 187.226
+   },
+   "credit": "Hudson Institute \u00b7 CC BY 2.0 \u00b7 via Wikimedia Commons",
+   "from": 187.326,
+   "to": 191.536,
+   "id": "sh067_IMG_murdoch_2015.jpg"
+  },
+  {
+   "kind": "video",
+   "src": "BR_AI_06_boardroom_empty_chair",
+   "ss": 0.0,
+   "honest": "Dramatised reconstruction \u00b7 AI-generated",
+   "credit": "AI-generated (Grok Imagine) \u00b7 dramatised",
+   "from": 191.536,
+   "to": 195.156,
+   "id": "sh068_BR_AI_06_boardroom_empty_chair"
+  },
+  {
+   "kind": "video",
+   "src": "BR_STOCK_open_office_empty",
+   "ss": 6.0,
+   "credit": "Mixkit \u00b7 Mixkit Stock Video Free License",
+   "honest": "Illustrative",
+   "from": 195.156,
+   "to": 199.136,
+   "id": "sh069_BR_STOCK_open_office_empty"
+  },
+  {
+   "kind": "video",
+   "src": "BR_STOCK_newspaper_press_running",
+   "ss": 0.0,
+   "soft": 2.5,
+   "credit": "Vanuatu Daily Post \u00b7 CC BY 3.0 \u00b7 via Wikimedia Commons",
+   "honest": "Illustrative",
+   "from": 199.136,
+   "to": 201.676,
+   "id": "sh070_BR_STOCK_newspaper_press_running"
+  },
+  {
+   "kind": "video",
+   "src": "BR_AI_05_newspaper_train_seat",
+   "ss": 0.5,
+   "honest": "Dramatised reconstruction \u00b7 AI-generated",
+   "credit": "AI-generated (Grok Imagine) \u00b7 dramatised",
+   "from": 201.676,
+   "to": 205.476,
+   "id": "sh071_BR_AI_05_newspaper_train_seat"
+  },
+  {
+   "kind": "video",
+   "src": "BR_STOCK_phone_scrolling",
+   "ss": 4.0,
+   "credit": "Mixkit \u00b7 Mixkit Stock Video Free License",
+   "honest": "Illustrative",
+   "from": 205.476,
+   "to": 209.036,
+   "id": "sh072_BR_STOCK_phone_scrolling"
+  },
+  {
+   "kind": "video",
+   "src": "BR_STOCK_tv_static_bw",
+   "ss": 0.0,
+   "credit": "Mixkit \u00b7 Mixkit Stock Video Free License",
+   "honest": "Illustrative",
+   "from": 209.036,
+   "to": 212.036,
+   "id": "sh073_BR_STOCK_tv_static_bw"
+  },
+  {
+   "kind": "video",
+   "src": "BR_STOCK_tv_static_bw",
+   "ss": 6.0,
+   "credit": "Mixkit \u00b7 Mixkit Stock Video Free License",
+   "honest": "Illustrative",
+   "from": 212.036,
+   "to": 213.866,
+   "id": "sh074_BR_STOCK_tv_static_bw"
+  },
+  {
+   "kind": "video",
+   "src": "BR_AI_1990s_lounge_tv_glow",
+   "ss": 0.5,
+   "honest": "Dramatised reconstruction \u00b7 AI-generated",
+   "credit": "AI-generated (Grok Imagine) \u00b7 dramatised",
+   "from": 213.866,
+   "to": 215.526,
+   "id": "sh075_BR_AI_1990s_lounge_tv_glow"
+  },
+  {
+   "kind": "card",
+   "src": null,
+   "card": {
+    "name": "Kerry Packer",
+    "role": "Owner of Channel Nine",
+    "note": "No free-licence photo available"
+   },
+   "from": 215.526,
+   "to": 218.806,
+   "id": "sh076_card"
+  },
+  {
+   "kind": "video",
+   "src": "BR_STOCK_cricket_ground_waca",
+   "ss": 2.0,
+   "soft": 1.5,
+   "focus": [
+    0.5,
+    0.1
+   ],
+   "zoom": [
+    1.6,
+    1.64
+   ],
+   "credit": "Yourusernamewillbepublic2 \u00b7 CC0 \u00b7 via Wikimedia Commons",
+   "honest": "Illustrative \u00b7 WACA Ground, Perth, 2012",
+   "from": 218.806,
+   "to": 222.306,
+   "id": "sh077_BR_STOCK_cricket_ground_waca"
+  },
+  {
+   "kind": "video",
+   "src": "BR_STOCK_sydney_aerial_skyscrapers",
+   "ss": 10.0,
+   "soft": 1.2,
+   "credit": "Sergey Guk \u00b7 Pexels License",
+   "from": 222.306,
+   "to": 225.186,
+   "id": "sh078_BR_STOCK_sydney_aerial_skyscrapers"
+  },
+  {
+   "kind": "video",
+   "src": "BR_STOCK_tv_rainy_night_room",
+   "ss": 2.0,
+   "credit": "Mixkit \u00b7 Mixkit Stock Video Free License",
+   "honest": "Illustrative",
+   "from": 225.186,
+   "to": 227.286,
+   "id": "sh079_BR_STOCK_tv_rainy_night_room"
+  },
+  {
+   "kind": "video",
+   "src": "BR_STOCK_vintage_phone_ringing",
+   "ss": 0.0,
+   "credit": "Work With Sounds \u00b7 CC BY 3.0 \u00b7 via Wikimedia Commons",
+   "honest": "Illustrative",
+   "from": 227.286,
+   "to": 229.936,
+   "id": "sh080_BR_STOCK_vintage_phone_ringing"
+  },
+  {
+   "kind": "photo",
+   "src": "IMG_house_of_reps_chamber.jpg",
+   "focus": [
+    0.4,
+    0.5
+   ],
+   "move": "panL",
+   "honest": "Illustrative \u00b7 House of Representatives chamber",
+   "credit": "JJ Harrison \u00b7 CC BY-SA 3.0 \u00b7 via Wikimedia Commons",
+   "from": 229.936,
+   "to": 233.816,
+   "id": "sh081_IMG_house_of_reps_chamber.jpg"
+  },
+  {
+   "kind": "video",
+   "src": "BR_STOCK_open_office_empty",
+   "ss": 4.0,
+   "credit": "Mixkit \u00b7 Mixkit Stock Video Free License",
+   "honest": "Illustrative",
+   "from": 233.816,
+   "to": 237.656,
+   "id": "sh082_BR_STOCK_open_office_empty"
+  },
+  {
+   "kind": "video",
+   "src": "BR_STOCK_calculator_accounts",
+   "ss": 9.0,
+   "credit": "Mixkit \u00b7 Mixkit Stock Video Free License",
+   "honest": "Illustrative",
+   "from": 237.656,
+   "to": 242.916,
+   "id": "sh083_BR_STOCK_calculator_accounts"
+  },
+  {
+   "kind": "video",
+   "src": "BR_STOCK_book_pages_turning",
+   "ss": 4.0,
+   "soft": 3.5,
+   "credit": "Mixkit \u00b7 Mixkit Stock Video Free License",
+   "honest": "Illustrative",
+   "from": 242.916,
+   "to": 245.916,
+   "id": "sh084_BR_STOCK_book_pages_turning"
+  },
+  {
+   "kind": "video",
+   "src": "BR_STOCK_banknotes_aud",
+   "ss": 1.0,
+   "credit": "Joshua_Willson \u00b7 Pixabay Content License",
+   "honest": "Illustrative",
+   "from": 245.916,
+   "to": 249.616,
+   "id": "sh085_BR_STOCK_banknotes_aud"
+  },
+  {
+   "kind": "photo",
+   "src": "IMG_parliament_house_flag.jpg",
+   "move": "up",
+   "zoom": [
+    1.1,
+    1.18
+   ],
+   "credit": "Vikas from Australia \u00b7 CC BY 2.0 \u00b7 via Wikimedia Commons",
+   "from": 249.616,
+   "to": 253.096,
+   "id": "sh086_IMG_parliament_house_flag.jpg"
+  },
+  {
+   "kind": "video",
+   "src": "BR_STOCK_parliament_house_canberra",
+   "ss": 2.5,
+   "credit": "Jared Drennan \u00b7 CC BY 3.0 \u00b7 via Wikimedia Commons",
+   "from": 253.096,
+   "to": 257.546,
+   "id": "sh087_BR_STOCK_parliament_house_canberra"
+  },
+  {
+   "kind": "card",
+   "src": null,
+   "card": {
+    "name": "Kerry Packer",
+    "role": "Died 2005",
+    "note": "No free-licence photo available"
+   },
+   "from": 257.546,
+   "to": 259.856,
+   "id": "sh088_card"
+  },
+  {
+   "kind": "video",
+   "src": "BR_AI_06_boardroom_empty_chair",
+   "ss": 2.0,
+   "honest": "Dramatised reconstruction \u00b7 AI-generated",
+   "credit": "AI-generated (Grok Imagine) \u00b7 dramatised",
+   "from": 259.856,
+   "to": 264.236,
+   "id": "sh089_BR_AI_06_boardroom_empty_chair"
+  },
+  {
+   "kind": "video",
+   "src": "BR_STOCK_canberra_sunset_sky",
+   "ss": 3.0,
+   "credit": "shootnedit \u00b7 Pixabay Content License",
+   "from": 264.236,
+   "to": 268.166,
+   "id": "sh090_BR_STOCK_canberra_sunset_sky"
+  },
+  {
+   "kind": "video",
+   "src": "BR_STOCK_gas_flare",
+   "ss": 0.0,
+   "focus": [
+    0.5,
+    0.3
+   ],
+   "zoom": [
+    1.18,
+    1.22
+   ],
+   "credit": "Rhetos \u00b7 CC BY-SA 4.0 \u00b7 via Wikimedia Commons",
+   "honest": "Illustrative \u00b7 gas flare, Germany",
+   "from": 268.166,
+   "to": 271.166,
+   "id": "sh091_BR_STOCK_gas_flare"
+  },
+  {
+   "kind": "photo",
+   "src": "IMG_super_pit_kalgoorlie.jpg",
+   "move": "panL",
+   "credit": "Chuq \u00b7 CC BY-SA 4.0 \u00b7 via Wikimedia Commons",
+   "honest": "Super Pit, Kalgoorlie \u00b7 a gold mine",
+   "from": 271.166,
+   "to": 273.726,
+   "id": "sh092_IMG_super_pit_kalgoorlie.jpg"
+  },
+  {
+   "kind": "video",
+   "src": "BR_STOCK_ore_train",
+   "ss": 6.0,
+   "credit": "Discott \u00b7 CC BY-SA 3.0 \u00b7 via Wikimedia Commons",
+   "honest": "Stand-in \u00b7 iron-ore train, South Africa",
+   "from": 273.726,
+   "to": 274.766,
+   "id": "sh093_BR_STOCK_ore_train"
+  },
+  {
+   "kind": "photo",
+   "src": "IMG_coal_train_qld.jpg",
+   "focus": [
+    0.5,
+    0.6
+   ],
+   "label": {
+    "title": "Coal train",
+    "sub": "Corinda, Queensland, 2019",
+    "at": 274.786
+   },
+   "credit": "Kgbo \u00b7 CC BY-SA 4.0 \u00b7 via Wikimedia Commons",
+   "from": 274.766,
+   "to": 275.426,
+   "id": "sh094_IMG_coal_train_qld.jpg"
+  },
+  {
+   "kind": "video",
+   "src": "BR_STOCK_gas_flare",
+   "ss": 11.0,
+   "focus": [
+    0.5,
+    0.3
+   ],
+   "zoom": [
+    1.18,
+    1.22
+   ],
+   "credit": "Rhetos \u00b7 CC BY-SA 4.0 \u00b7 via Wikimedia Commons",
+   "honest": "Illustrative \u00b7 gas flare, Germany",
+   "from": 275.426,
+   "to": 276.666,
+   "id": "sh095_BR_STOCK_gas_flare"
+  },
+  {
+   "kind": "doc",
+   "src": "DOC_pmtranscripts_17260_rspt_2010_tall.png",
+   "crop": [
+    395,
+    455,
+    1130,
+    430
+   ],
+   "scroll": 0,
+   "credit": "PM Transcripts \u00b7 Licensed from the Commonwealth of Australia under CC BY 4.0",
+   "from": 276.666,
+   "to": 282.256,
+   "id": "sh096_DOC_pmtranscripts_17260_rspt_2010_tall.png"
+  },
+  {
+   "kind": "photo",
+   "src": "IMG_super_pit_kalgoorlie.jpg",
+   "focus": [
+    0.3,
+    0.6
+   ],
+   "move": "in",
+   "credit": "Chuq \u00b7 CC BY-SA 4.0 \u00b7 via Wikimedia Commons",
+   "honest": "Super Pit, Kalgoorlie \u00b7 a gold mine",
+   "from": 282.256,
+   "to": 285.506,
+   "id": "sh097_IMG_super_pit_kalgoorlie.jpg"
+  },
+  {
+   "kind": "video",
+   "src": "BR_STOCK_digital_screens",
+   "ss": 6.0,
+   "credit": "Mixkit \u00b7 Mixkit Stock Video Free License",
+   "honest": "Illustrative",
+   "from": 285.506,
+   "to": 289.126,
+   "id": "sh098_BR_STOCK_digital_screens"
+  },
+  {
+   "kind": "video",
+   "src": "BR_STOCK_ore_train",
+   "ss": 12.0,
+   "credit": "Discott \u00b7 CC BY-SA 3.0 \u00b7 via Wikimedia Commons",
+   "honest": "Stand-in \u00b7 iron-ore train, South Africa",
+   "from": 289.126,
+   "to": 290.506,
+   "id": "sh099_BR_STOCK_ore_train"
+  },
+  {
+   "kind": "video",
+   "src": "BR_STOCK_banknotes_aud",
+   "ss": 4.0,
+   "credit": "Joshua_Willson \u00b7 Pixabay Content License",
+   "honest": "Illustrative",
+   "from": 290.506,
+   "to": 292.486,
+   "id": "sh100_BR_STOCK_banknotes_aud"
+  },
+  {
+   "kind": "video",
+   "src": "BR_STOCK_perth_elizabeth_quay",
+   "ss": 10.0,
+   "honest": "Perth today \u00b7 illustrative",
+   "credit": "Gnangarra \u00b7 CC BY 2.5 AU \u00b7 via Wikimedia Commons",
+   "from": 292.486,
+   "to": 295.786,
+   "id": "sh101_BR_STOCK_perth_elizabeth_quay"
+  },
+  {
+   "kind": "video",
+   "src": "BR_STOCK_crowd_street_crossing",
+   "ss": 3.0,
+   "honest": "Stand-in \u00b7 overseas street, not the 2010 rally",
+   "focus": [
+    0.5,
+    0.88
+   ],
+   "zoom": [
+    1.3,
+    1.34
+   ],
+   "credit": "Mixkit \u00b7 Mixkit Stock Video Free License",
+   "from": 295.786,
+   "to": 298.826,
+   "id": "sh102_BR_STOCK_crowd_street_crossing"
+  },
+  {
+   "kind": "photo",
+   "src": "IMG_rinehart_2015.jpg",
+   "frame": "framed",
+   "fh": 600,
+   "label": {
+    "title": "Gina Rinehart",
+    "sub": "2015 photo",
+    "at": 298.846
+   },
+   "credit": "Office of the Hon Andrew Robb AO MP \u00b7 CC BY 4.0 \u00b7 via Wikimedia Commons",
+   "from": 298.826,
+   "to": 299.986,
+   "id": "sh103_IMG_rinehart_2015.jpg"
+  },
+  {
+   "kind": "photo",
+   "src": "IMG_forrest_2017.jpg",
+   "frame": "framed",
+   "fh": 940,
+   "label": {
+    "title": "Andrew Forrest",
+    "sub": "2017 photo",
+    "at": 301.586
+   },
+   "credit": "Department of Foreign Affairs and Trade \u00b7 CC BY 4.0 \u00b7 via Wikimedia Commons",
+   "from": 299.986,
+   "to": 303.406,
+   "id": "sh104_IMG_forrest_2017.jpg"
+  },
+  {
+   "kind": "photo",
+   "src": "IMG_parliament_house_blue_hour.jpg",
+   "move": "in",
+   "credit": "Thennicke \u00b7 CC BY-SA 4.0 \u00b7 via Wikimedia Commons",
+   "from": 303.406,
+   "to": 305.426,
+   "id": "sh105_IMG_parliament_house_blue_hour.jpg"
+  },
+  {
+   "kind": "video",
+   "src": "BR_STOCK_canberra_sunset_sky",
+   "ss": 1.0,
+   "credit": "shootnedit \u00b7 Pixabay Content License",
+   "from": 305.426,
+   "to": 308.286,
+   "id": "sh106_BR_STOCK_canberra_sunset_sky"
+  },
+  {
+   "kind": "photo",
+   "src": "IMG_rudd_2007.jpg",
+   "frame": "framed",
+   "fh": 960,
+   "label": {
+    "title": "Kevin Rudd",
+    "sub": "Prime Minister until 24 June 2010",
+    "at": 308.306
+   },
+   "credit": "Museum of Australian Democracy, \u00a9 Commonwealth of Australia \u00b7 CC BY 4.0 \u00b7 via Wikimedia Commons",
+   "from": 308.286,
+   "to": 310.766,
+   "id": "sh107_IMG_rudd_2007.jpg"
+  },
+  {
+   "kind": "photo",
+   "src": "IMG_parliament_house_blue_hour.jpg",
+   "move": "out",
+   "zoom": [
+    1.2,
+    1.1
+   ],
+   "credit": "Thennicke \u00b7 CC BY-SA 4.0 \u00b7 via Wikimedia Commons",
+   "from": 310.766,
+   "to": 315.566,
+   "id": "sh108_IMG_parliament_house_blue_hour.jpg"
+  },
+  {
+   "kind": "video",
+   "src": "BR_STOCK_parliament_house_canberra",
+   "ss": 0.0,
+   "credit": "Jared Drennan \u00b7 CC BY 3.0 \u00b7 via Wikimedia Commons",
+   "from": 315.566,
+   "to": 318.426,
+   "id": "sh109_BR_STOCK_parliament_house_canberra"
+  },
+  {
+   "kind": "video",
+   "src": "BR_STOCK_canberra_sunset_sky",
+   "ss": 6.0,
+   "credit": "shootnedit \u00b7 Pixabay Content License",
+   "from": 318.426,
+   "to": 322.806,
+   "id": "sh110_BR_STOCK_canberra_sunset_sky"
+  },
+  {
+   "kind": "video",
+   "src": "BR_STOCK_banknotes_aud",
+   "ss": 6.5,
+   "credit": "Joshua_Willson \u00b7 Pixabay Content License",
+   "honest": "Illustrative",
+   "from": 322.806,
+   "to": 326.186,
+   "id": "sh111_BR_STOCK_banknotes_aud"
+  },
+  {
+   "kind": "photo",
+   "src": "IMG_gillard.jpg",
+   "frame": "framed",
+   "fh": 980,
+   "label": {
+    "title": "Julia Gillard",
+    "sub": "Prime Minister from 24 June 2010",
+    "at": 326.846
+   },
+   "credit": "Dilma Rousseff (Flickr) \u00b7 CC BY-SA 2.0 \u00b7 via Wikimedia Commons",
+   "from": 326.186,
+   "to": 330.446,
+   "id": "sh112_IMG_gillard.jpg"
+  },
+  {
+   "kind": "video",
+   "src": "BR_STOCK_calculator_accounts",
+   "ss": 14.0,
+   "credit": "Mixkit \u00b7 Mixkit Stock Video Free License",
+   "honest": "Illustrative",
+   "from": 330.446,
+   "to": 331.906,
+   "id": "sh113_BR_STOCK_calculator_accounts"
+  },
+  {
+   "kind": "photo",
+   "src": "IMG_senate_chamber.jpg",
+   "focus": [
+    0.5,
+    0.45
+   ],
+   "move": "panR",
+   "credit": "JJ Harrison \u00b7 CC BY-SA 3.0 \u00b7 via Wikimedia Commons",
+   "from": 331.906,
+   "to": 336.136,
+   "id": "sh114_IMG_senate_chamber.jpg"
+  },
+  {
+   "kind": "photo",
+   "src": "IMG_palmer_2015.jpg",
+   "focus": [
+    0.62,
+    0.26
+   ],
+   "zoom": [
+    1.14,
+    1.18
+   ],
+   "label": {
+    "title": "Clive Palmer",
+    "sub": "Member for Fairfax 2013\u20132016",
+    "at": 336.906
+   },
+   "credit": "Jwmcdonald81 \u00b7 CC BY-SA 4.0 \u00b7 via Wikimedia Commons",
+   "from": 336.136,
+   "to": 341.346,
+   "id": "sh115_IMG_palmer_2015.jpg"
+  },
+  {
+   "kind": "video",
+   "src": "BR_STOCK_banknotes_aud",
+   "ss": 0.0,
+   "credit": "Joshua_Willson \u00b7 Pixabay Content License",
+   "honest": "Illustrative",
+   "from": 341.346,
+   "to": 344.636,
+   "id": "sh116_BR_STOCK_banknotes_aud"
+  },
+  {
+   "kind": "video",
+   "src": "BR_AI_07_letterbox_flyers",
+   "ss": 5.0,
+   "honest": "Dramatised reconstruction \u00b7 AI-generated",
+   "credit": "AI-generated (Grok Imagine) \u00b7 dramatised",
+   "from": 344.636,
+   "to": 349.516,
+   "id": "sh117_BR_AI_07_letterbox_flyers"
+  },
+  {
+   "kind": "video",
+   "src": "BR_STOCK_digital_screens",
+   "ss": 4.0,
+   "credit": "Mixkit \u00b7 Mixkit Stock Video Free License",
+   "honest": "Illustrative",
+   "from": 349.516,
+   "to": 353.516,
+   "id": "sh118_BR_STOCK_digital_screens"
+  },
+  {
+   "kind": "video",
+   "src": "BR_AI_08_phone_glow_dark",
+   "ss": 0.0,
+   "honest": "Dramatised reconstruction \u00b7 AI-generated",
+   "credit": "AI-generated (Grok Imagine) \u00b7 dramatised",
+   "from": 353.516,
+   "to": 355.736,
+   "id": "sh119_BR_AI_08_phone_glow_dark"
+  },
+  {
+   "kind": "video",
+   "src": "BR_STOCK_banknotes_aud",
+   "ss": 6.0,
+   "credit": "Joshua_Willson \u00b7 Pixabay Content License",
+   "honest": "Illustrative",
+   "from": 355.736,
+   "to": 360.516,
+   "id": "sh120_BR_STOCK_banknotes_aud"
+  },
+  {
+   "kind": "video",
+   "src": "BR_STOCK_sydney_street_timelapse",
+   "ss": 0.0,
+   "credit": "Jowel Balcita \u00b7 CC BY 3.0 \u00b7 via Wikimedia Commons",
+   "from": 360.516,
+   "to": 366.126,
+   "id": "sh121_BR_STOCK_sydney_street_timelapse"
+  },
+  {
+   "kind": "photo",
+   "src": "IMG_senate_chamber.jpg",
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "move": "in",
+   "label": {
+    "title": "THE SENATE",
+    "sub": "Parliament House, Canberra",
+    "at": 366.026
+   },
+   "credit": "JJ Harrison \u00b7 CC BY-SA 3.0 \u00b7 via Wikimedia Commons",
+   "from": 366.126,
+   "to": 367.666,
+   "id": "sh122_IMG_senate_chamber.jpg"
+  },
+  {
+   "kind": "video",
+   "src": "BR_STOCK_parliament_house_canberra",
+   "ss": 0.5,
+   "credit": "Jared Drennan \u00b7 CC BY 3.0 \u00b7 via Wikimedia Commons",
+   "from": 367.666,
+   "to": 371.926,
+   "id": "sh123_BR_STOCK_parliament_house_canberra"
+  },
+  {
+   "kind": "photo",
+   "src": "IMG_palmer_2015.jpg",
+   "focus": [
+    0.62,
+    0.28
+   ],
+   "zoom": [
+    1.14,
+    1.18
+   ],
+   "label": {
+    "title": "Clive Palmer",
+    "sub": "2015 photo",
+    "at": 371.946
+   },
+   "credit": "Jwmcdonald81 \u00b7 CC BY-SA 4.0 \u00b7 via Wikimedia Commons",
+   "from": 371.926,
+   "to": 375.886,
+   "id": "sh124_IMG_palmer_2015.jpg"
+  },
+  {
+   "kind": "video",
+   "src": "BR_STOCK_banknotes_aud",
+   "ss": 7.5,
+   "credit": "Joshua_Willson \u00b7 Pixabay Content License",
+   "honest": "Illustrative",
+   "from": 375.886,
+   "to": 377.066,
+   "id": "sh125_BR_STOCK_banknotes_aud"
+  },
+  {
+   "kind": "video",
+   "src": "BR_AI_strategy_room_whiteboard",
+   "ss": 0.5,
+   "honest": "Dramatised reconstruction \u00b7 AI-generated",
+   "credit": "AI-generated (Grok Imagine) \u00b7 dramatised",
+   "from": 377.066,
+   "to": 382.156,
+   "id": "sh126_BR_AI_strategy_room_whiteboard"
+  },
+  {
+   "kind": "video",
+   "src": "BR_AI_03_corridor_door_night",
+   "ss": 4.0,
+   "honest": "Dramatised reconstruction \u00b7 AI-generated",
+   "credit": "AI-generated (Grok Imagine) \u00b7 dramatised",
+   "from": 382.156,
+   "to": 385.156,
+   "id": "sh127_BR_AI_03_corridor_door_night"
+  },
+  {
+   "kind": "video",
+   "src": "BR_AI_03_corridor_door_night",
+   "ss": 0.5,
+   "honest": "Dramatised reconstruction \u00b7 AI-generated",
+   "credit": "AI-generated (Grok Imagine) \u00b7 dramatised",
+   "from": 385.156,
+   "to": 387.246,
+   "id": "sh128_BR_AI_03_corridor_door_night"
+  },
+  {
+   "kind": "photo",
+   "src": "IMG_house_of_reps_chamber.jpg",
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "credit": "JJ Harrison \u00b7 CC BY-SA 3.0 \u00b7 via Wikimedia Commons",
+   "from": 387.246,
+   "to": 392.116,
+   "id": "sh129_IMG_house_of_reps_chamber.jpg"
+  },
+  {
+   "kind": "video",
+   "src": "BR_STOCK_canberra_sunset_sky",
+   "ss": 7.5,
+   "credit": "shootnedit \u00b7 Pixabay Content License",
+   "from": 392.116,
+   "to": 396.256,
+   "id": "sh130_BR_STOCK_canberra_sunset_sky"
+  },
+  {
+   "kind": "video",
+   "src": "BR_STOCK_parliament_house_canberra",
+   "ss": 0.0,
+   "credit": "Jared Drennan \u00b7 CC BY 3.0 \u00b7 via Wikimedia Commons",
+   "from": 396.256,
+   "to": 400.296,
+   "id": "sh131_BR_STOCK_parliament_house_canberra"
+  },
+  {
+   "kind": "video",
+   "src": "BR_AI_strategy_room_whiteboard",
+   "ss": 2.0,
+   "honest": "Dramatised reconstruction \u00b7 AI-generated",
+   "credit": "AI-generated (Grok Imagine) \u00b7 dramatised",
+   "from": 400.296,
+   "to": 403.716,
+   "id": "sh132_BR_AI_strategy_room_whiteboard"
+  },
+  {
+   "kind": "video",
+   "src": "BR_STOCK_open_office_empty",
+   "ss": 14.0,
+   "credit": "Mixkit \u00b7 Mixkit Stock Video Free License",
+   "honest": "Illustrative",
+   "from": 403.716,
+   "to": 407.136,
+   "id": "sh133_BR_STOCK_open_office_empty"
+  },
+  {
+   "kind": "video",
+   "src": "BR_AI_08_phone_glow_dark",
+   "ss": 3.0,
+   "honest": "Dramatised reconstruction \u00b7 AI-generated",
+   "credit": "AI-generated (Grok Imagine) \u00b7 dramatised",
+   "from": 407.136,
+   "to": 411.846,
+   "id": "sh134_BR_AI_08_phone_glow_dark"
+  },
+  {
+   "kind": "video",
+   "src": "BR_STOCK_canberra_sunset_sky",
+   "ss": 5.0,
+   "credit": "shootnedit \u00b7 Pixabay Content License",
+   "from": 411.846,
+   "to": 414.606,
+   "id": "sh135_BR_STOCK_canberra_sunset_sky"
+  },
+  {
+   "kind": "video",
+   "src": "BR_STOCK_newspaper_press_running",
+   "ss": 6.0,
+   "soft": 2.5,
+   "credit": "Vanuatu Daily Post \u00b7 CC BY 3.0 \u00b7 via Wikimedia Commons",
+   "honest": "Illustrative",
+   "from": 414.606,
+   "to": 416.766,
+   "id": "sh136_BR_STOCK_newspaper_press_running"
+  },
+  {
+   "kind": "video",
+   "src": "BR_AI_03_corridor_door_night",
+   "ss": 5.0,
+   "honest": "Dramatised reconstruction \u00b7 AI-generated",
+   "credit": "AI-generated (Grok Imagine) \u00b7 dramatised",
+   "from": 416.766,
+   "to": 418.306,
+   "id": "sh137_BR_AI_03_corridor_door_night"
+  },
+  {
+   "kind": "video",
+   "src": "BR_STOCK_chess_dark_room",
+   "ss": 0.0,
+   "credit": "Mixkit \u00b7 Mixkit Stock Video Free License",
+   "honest": "Illustrative",
+   "from": 418.306,
+   "to": 421.796,
+   "id": "sh138_BR_STOCK_chess_dark_room"
+  },
+  {
+   "kind": "video",
+   "src": "BR_STOCK_chess_closeup",
+   "ss": 0.0,
+   "credit": "Mixkit \u00b7 Mixkit Stock Video Free License",
+   "honest": "Illustrative",
+   "from": 421.796,
+   "to": 424.756,
+   "id": "sh139_BR_STOCK_chess_closeup"
+  },
+  {
+   "kind": "video",
+   "src": "BR_AI_strategy_room_whiteboard",
+   "ss": 5.5,
+   "rate": 0.8,
+   "honest": "Dramatised reconstruction \u00b7 AI-generated",
+   "credit": "AI-generated (Grok Imagine) \u00b7 dramatised",
+   "from": 424.756,
+   "to": 429.396,
+   "id": "sh140_BR_AI_strategy_room_whiteboard"
+  },
+  {
+   "kind": "video",
+   "src": "BR_STOCK_handshake_table",
+   "ss": 0.0,
+   "credit": "Mixkit \u00b7 Mixkit Stock Video Free License",
+   "honest": "Illustrative",
+   "from": 429.396,
+   "to": 431.786,
+   "id": "sh141_BR_STOCK_handshake_table"
+  },
+  {
+   "kind": "photo",
+   "src": "IMG_rights_at_work_campaign.jpg",
+   "focus": [
+    0.5,
+    0.75
+   ],
+   "zoom": [
+    1.25,
+    1.32
+   ],
+   "label": {
+    "title": "\u201cYour Rights at Work\u201d campaign",
+    "sub": "2006",
+    "at": 434.306
+   },
+   "credit": "finsec (Flickr) \u00b7 CC BY 2.0 \u00b7 via Wikimedia Commons",
+   "from": 431.786,
+   "to": 436.586,
+   "id": "sh142_IMG_rights_at_work_campaign.jpg"
+  },
+  {
+   "kind": "photo",
+   "src": "IMG_howard_2006_ec.jpg",
+   "frame": "framed",
+   "fh": 980,
+   "label": {
+    "title": "John Howard (left)",
+    "sub": "2002 photo",
+    "at": 436.906
+   },
+   "credit": "Jan Van de Vel / European Commission \u00b7 CC BY 4.0 \u00b7 via Wikimedia Commons",
+   "from": 436.586,
+   "to": 438.426,
+   "id": "sh143_IMG_howard_2006_ec.jpg"
+  },
+  {
+   "kind": "video",
+   "src": "BR_STOCK_suburbs_aerial_rooftops",
+   "ss": 2.0,
+   "credit": "daniloriba \u00b7 Pixabay Content License",
+   "honest": "Illustrative",
+   "from": 438.426,
+   "to": 440.746,
+   "id": "sh144_BR_STOCK_suburbs_aerial_rooftops"
+  },
+  {
+   "kind": "photo",
+   "src": "IMG_rudd_2007.jpg",
+   "frame": "framed",
+   "fh": 900,
+   "label": {
+    "title": "RUDD",
+    "sub": "2010",
+    "at": 440.546
+   },
+   "credit": "Museum of Australian Democracy, \u00a9 Commonwealth of Australia \u00b7 CC BY 4.0 \u00b7 via Wikimedia Commons",
+   "from": 440.746,
+   "to": 442.306,
+   "id": "sh145_IMG_rudd_2007.jpg"
+  },
+  {
+   "kind": "photo",
+   "src": "IMG_gillard.jpg",
+   "frame": "framed",
+   "fh": 900,
+   "label": {
+    "title": "GILLARD",
+    "sub": "2013",
+    "at": 442.006
+   },
+   "credit": "Dilma Rousseff (Flickr) \u00b7 CC BY-SA 2.0 \u00b7 via Wikimedia Commons",
+   "from": 442.306,
+   "to": 444.096,
+   "id": "sh146_IMG_gillard.jpg"
+  },
+  {
+   "kind": "photo",
+   "src": "IMG_abbott_official.jpg",
+   "frame": "framed",
+   "fh": 900,
+   "label": {
+    "title": "ABBOTT",
+    "sub": "2015",
+    "at": 443.946
+   },
+   "credit": "Commonwealth of Australia \u00b7 CC BY 3.0 AU \u00b7 via Wikimedia Commons",
+   "from": 444.096,
+   "to": 445.866,
+   "id": "sh147_IMG_abbott_official.jpg"
+  },
+  {
+   "kind": "photo",
+   "src": "IMG_turnbull_peo.jpg",
+   "frame": "framed",
+   "fh": 900,
+   "label": {
+    "title": "TURNBULL",
+    "sub": "2018",
+    "at": 445.666
+   },
+   "credit": "Commonwealth of Australia \u00b7 CC BY 4.0 \u00b7 via Wikimedia Commons",
+   "from": 445.866,
+   "to": 447.966,
+   "id": "sh148_IMG_turnbull_peo.jpg"
+  },
+  {
+   "kind": "video",
+   "src": "BR_STOCK_revolving_door",
+   "ss": 0.0,
+   "credit": "Teflon \u00b7 CC BY 3.0 \u00b7 via Wikimedia Commons",
+   "honest": "Illustrative",
+   "from": 447.966,
+   "to": 451.946,
+   "id": "sh149_BR_STOCK_revolving_door"
+  },
+  {
+   "kind": "video",
+   "src": "BR_STOCK_padlock_shed",
+   "ss": 0.5,
+   "credit": "Mixkit \u00b7 Mixkit Stock Video Free License",
+   "honest": "Illustrative",
+   "from": 451.946,
+   "to": 453.626,
+   "id": "sh150_BR_STOCK_padlock_shed"
+  },
+  {
+   "kind": "video",
+   "src": "BR_STOCK_sydney_street_timelapse",
+   "ss": 8.0,
+   "credit": "Jowel Balcita \u00b7 CC BY 3.0 \u00b7 via Wikimedia Commons",
+   "from": 453.626,
+   "to": 459.206,
+   "id": "sh151_BR_STOCK_sydney_street_timelapse"
+  },
+  {
+   "kind": "video",
+   "src": "BR_STOCK_crowd_street_crossing",
+   "ss": 10.0,
+   "focus": [
+    0.5,
+    0.88
+   ],
+   "zoom": [
+    1.3,
+    1.34
+   ],
+   "credit": "Mixkit \u00b7 Mixkit Stock Video Free License",
+   "honest": "Illustrative \u00b7 overseas street, not Australia",
+   "from": 459.206,
+   "to": 461.926,
+   "id": "sh152_BR_STOCK_crowd_street_crossing"
+  },
+  {
+   "kind": "video",
+   "src": "BR_STOCK_revolving_door",
+   "ss": 8.0,
+   "credit": "Teflon \u00b7 CC BY 3.0 \u00b7 via Wikimedia Commons",
+   "honest": "Illustrative",
+   "from": 461.926,
+   "to": 464.626,
+   "id": "sh153_BR_STOCK_revolving_door"
+  },
+  {
+   "kind": "photo",
+   "src": "IMG_senate_chamber.jpg",
+   "move": "out",
+   "credit": "JJ Harrison \u00b7 CC BY-SA 3.0 \u00b7 via Wikimedia Commons",
+   "from": 464.626,
+   "to": 467.626,
+   "id": "sh154_IMG_senate_chamber.jpg"
+  },
+  {
+   "kind": "video",
+   "src": "BR_STOCK_book_pages_turning",
+   "ss": 6.0,
+   "soft": 3.5,
+   "credit": "Mixkit \u00b7 Mixkit Stock Video Free License",
+   "honest": "Illustrative",
+   "from": 467.626,
+   "to": 469.136,
+   "id": "sh155_BR_STOCK_book_pages_turning"
+  },
+  {
+   "kind": "photo",
+   "src": "IMG_senate_ballot_vic_folded.png",
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "move": "in",
+   "zoom": [
+    1.02,
+    1.08
+   ],
+   "honest": "2016 Senate ballot rendering, not 2013",
+   "soft": 2.5,
+   "credit": "Hshook \u00b7 CC BY-SA 4.0 \u00b7 via Wikimedia Commons",
+   "from": 469.136,
+   "to": 474.316,
+   "id": "sh156_IMG_senate_ballot_vic_folded.png"
+  },
+  {
+   "kind": "video",
+   "src": "BR_AI_09_ballot_count_hands",
+   "ss": 0.0,
+   "honest": "Dramatised reconstruction \u00b7 AI-generated",
+   "credit": "AI-generated (Grok Imagine) \u00b7 dramatised",
+   "from": 474.316,
+   "to": 478.376,
+   "id": "sh157_BR_AI_09_ballot_count_hands"
+  },
+  {
+   "kind": "photo",
+   "src": "IMG_senate_ballot_vic_folded.png",
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "move": "in",
+   "zoom": [
+    1.04,
+    1.08
+   ],
+   "honest": "2016 Senate ballot rendering",
+   "soft": 2.5,
+   "credit": "Hshook \u00b7 CC BY-SA 4.0 \u00b7 via Wikimedia Commons",
+   "from": 478.376,
+   "to": 482.296,
+   "id": "sh158_IMG_senate_ballot_vic_folded.png"
+  },
+  {
+   "kind": "video",
+   "src": "BR_AI_10_pencil_marks_ballot",
+   "ss": 0.0,
+   "honest": "Dramatised reconstruction \u00b7 AI-generated",
+   "credit": "AI-generated (Grok Imagine) \u00b7 dramatised",
+   "from": 482.296,
+   "to": 486.316,
+   "id": "sh159_BR_AI_10_pencil_marks_ballot"
+  },
+  {
+   "kind": "video",
+   "src": "BR_STOCK_handshake_table",
+   "ss": 1.5,
+   "credit": "Mixkit \u00b7 Mixkit Stock Video Free License",
+   "honest": "Illustrative",
+   "from": 486.316,
+   "to": 489.856,
+   "id": "sh160_BR_STOCK_handshake_table"
+  },
+  {
+   "kind": "card",
+   "src": null,
+   "card": {
+    "name": "Glenn Druery",
+    "role": "Political strategist",
+    "note": "No free-licence photo available"
+   },
+   "from": 489.856,
+   "to": 492.576,
+   "id": "sh161_card"
+  },
+  {
+   "kind": "video",
+   "src": "BR_STOCK_handshake_table",
+   "ss": 0.0,
+   "credit": "Mixkit \u00b7 Mixkit Stock Video Free License",
+   "honest": "Illustrative",
+   "from": 492.576,
+   "to": 496.136,
+   "id": "sh162_BR_STOCK_handshake_table"
+  },
+  {
+   "kind": "video",
+   "src": "BR_STOCK_chess_closeup",
+   "ss": 1.0,
+   "credit": "Mixkit \u00b7 Mixkit Stock Video Free License",
+   "honest": "Illustrative",
+   "from": 496.136,
+   "to": 499.816,
+   "id": "sh163_BR_STOCK_chess_closeup"
+  },
+  {
+   "kind": "video",
+   "src": "BR_STOCK_digital_screens",
+   "ss": 8.0,
+   "credit": "Mixkit \u00b7 Mixkit Stock Video Free License",
+   "honest": "Illustrative",
+   "from": 499.816,
+   "to": 502.646,
+   "id": "sh164_BR_STOCK_digital_screens"
+  },
+  {
+   "kind": "photo",
+   "src": "IMG_muir_senators_swearing_in_2014.jpg",
+   "focus": [
+    0.5,
+    0.4
+   ],
+   "label": {
+    "title": "New senators sworn in, 7 July 2014",
+    "sub": "including Ricky Muir",
+    "at": 503.606
+   },
+   "credit": "DPS AUSPIC / David Foote \u00b7 CC BY 3.0 \u00b7 via Wikimedia Commons",
+   "from": 502.646,
+   "to": 507.906,
+   "id": "sh165_IMG_muir_senators_swearing_in_2014.jpg"
+  },
+  {
+   "kind": "video",
+   "src": "BR_STOCK_melbourne_aerial_dusk",
+   "ss": 4.0,
+   "credit": "Tetrakis Sphericon \u00b7 Pexels License",
+   "from": 507.906,
+   "to": 510.406,
+   "id": "sh166_BR_STOCK_melbourne_aerial_dusk"
+  },
+  {
+   "kind": "video",
+   "src": "BR_STOCK_melbourne_albert_park_aerial",
+   "ss": 3.0,
+   "credit": "daniloriba \u00b7 Pixabay Content License",
+   "honest": "Illustrative \u00b7 inner Melbourne",
+   "from": 510.406,
+   "to": 511.946,
+   "id": "sh167_BR_STOCK_melbourne_albert_park_aerial"
+  },
+  {
+   "kind": "photo",
+   "src": "IMG_senate_ballot_vic_folded.png",
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "move": "in",
+   "zoom": [
+    1.0,
+    1.08
+   ],
+   "honest": "2016 Senate ballot rendering",
+   "soft": 2.5,
+   "credit": "Hshook \u00b7 CC BY-SA 4.0 \u00b7 via Wikimedia Commons",
+   "from": 511.946,
+   "to": 515.086,
+   "id": "sh168_IMG_senate_ballot_vic_folded.png"
+  },
+  {
+   "kind": "video",
+   "src": "BR_STOCK_book_pages_turning",
+   "ss": 2.0,
+   "soft": 3.5,
+   "credit": "Mixkit \u00b7 Mixkit Stock Video Free License",
+   "honest": "Illustrative",
+   "from": 515.086,
+   "to": 518.666,
+   "id": "sh169_BR_STOCK_book_pages_turning"
+  },
+  {
+   "kind": "photo",
+   "src": "IMG_senate_chamber.jpg",
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "move": "panL",
+   "credit": "JJ Harrison \u00b7 CC BY-SA 3.0 \u00b7 via Wikimedia Commons",
+   "from": 518.666,
+   "to": 520.516,
+   "id": "sh170_IMG_senate_chamber.jpg"
+  },
+  {
+   "kind": "photo",
+   "src": "IMG_senate_ballot_vic_folded.png",
+   "frame": "full",
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "zoom": [
+    1.0,
+    1.12
+   ],
+   "honest": "2016 Senate ballot rendering",
+   "soft": 2.5,
+   "credit": "Hshook \u00b7 CC BY-SA 4.0 \u00b7 via Wikimedia Commons",
+   "from": 520.516,
+   "to": 525.936,
+   "id": "sh171_IMG_senate_ballot_vic_folded.png"
+  },
+  {
+   "kind": "video",
+   "src": "BR_STOCK_book_pages_turning",
+   "ss": 8.0,
+   "soft": 3.5,
+   "credit": "Mixkit \u00b7 Mixkit Stock Video Free License",
+   "honest": "Illustrative",
+   "from": 525.936,
+   "to": 530.756,
+   "id": "sh172_BR_STOCK_book_pages_turning"
+  },
+  {
+   "kind": "photo",
+   "src": "IMG_parliament_house_blue_hour.jpg",
+   "move": "in",
+   "credit": "Thennicke \u00b7 CC BY-SA 4.0 \u00b7 via Wikimedia Commons",
+   "from": 530.756,
+   "to": 534.566,
+   "id": "sh173_IMG_parliament_house_blue_hour.jpg"
+  },
+  {
+   "kind": "video",
+   "src": "BR_STOCK_melbourne_albert_park_aerial",
+   "ss": 12.0,
+   "credit": "daniloriba \u00b7 Pixabay Content License",
+   "honest": "Illustrative \u00b7 inner Melbourne",
+   "from": 534.566,
+   "to": 537.566,
+   "id": "sh174_BR_STOCK_melbourne_albert_park_aerial"
+  },
+  {
+   "kind": "video",
+   "src": "BR_STOCK_suburbs_aerial_rooftops",
+   "ss": 6.0,
+   "credit": "daniloriba \u00b7 Pixabay Content License",
+   "honest": "Illustrative",
+   "from": 537.566,
+   "to": 541.366,
+   "id": "sh175_BR_STOCK_suburbs_aerial_rooftops"
+  },
+  {
+   "kind": "video",
+   "src": "BR_STOCK_melbourne_albert_park_aerial",
+   "ss": 4.0,
+   "credit": "daniloriba \u00b7 Pixabay Content License",
+   "honest": "Illustrative \u00b7 inner Melbourne",
+   "from": 541.366,
+   "to": 546.766,
+   "id": "sh176_BR_STOCK_melbourne_albert_park_aerial"
+  },
+  {
+   "kind": "video",
+   "src": "BR_STOCK_sydney_aerial_skyscrapers",
+   "ss": 14.0,
+   "soft": 1.2,
+   "credit": "Sergey Guk \u00b7 Pexels License",
+   "from": 546.766,
+   "to": 550.486,
+   "id": "sh177_BR_STOCK_sydney_aerial_skyscrapers"
+  },
+  {
+   "kind": "photo",
+   "src": "IMG_house_of_reps_chamber.jpg",
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "move": "out",
+   "credit": "JJ Harrison \u00b7 CC BY-SA 3.0 \u00b7 via Wikimedia Commons",
+   "from": 550.486,
+   "to": 555.476,
+   "id": "sh178_IMG_house_of_reps_chamber.jpg"
+  },
+  {
+   "kind": "video",
+   "src": "BR_STOCK_sydney_street_timelapse",
+   "ss": 12.0,
+   "credit": "Jowel Balcita \u00b7 CC BY 3.0 \u00b7 via Wikimedia Commons",
+   "from": 555.476,
+   "to": 558.106,
+   "id": "sh179_BR_STOCK_sydney_street_timelapse"
+  },
+  {
+   "kind": "photo",
+   "src": "IMG_holmes_a_court.png",
+   "frame": "framed",
+   "fh": 860,
+   "label": {
+    "title": "Simon Holmes \u00e0 Court",
+    "sub": "Founder, Climate 200 \u00b7 2021 photo",
+    "at": 559.906
+   },
+   "credit": "The Royal Society of Victoria \u00b7 CC BY 3.0 \u00b7 via Wikimedia Commons",
+   "from": 558.106,
+   "to": 562.026,
+   "id": "sh180_IMG_holmes_a_court.png"
+  },
+  {
+   "kind": "video",
+   "src": "BR_STOCK_laptop_typing",
+   "ss": 0.5,
+   "credit": "Mixkit \u00b7 Mixkit Stock Video Free License",
+   "honest": "Illustrative",
+   "from": 562.026,
+   "to": 566.716,
+   "id": "sh181_BR_STOCK_laptop_typing"
+  },
+  {
+   "kind": "photo",
+   "src": "IMG_house_of_reps_chamber.jpg",
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "move": "in",
+   "credit": "JJ Harrison \u00b7 CC BY-SA 3.0 \u00b7 via Wikimedia Commons",
+   "from": 566.716,
+   "to": 572.226,
+   "id": "sh182_IMG_house_of_reps_chamber.jpg"
+  },
+  {
+   "kind": "video",
+   "src": "BR_STOCK_parliament_house_canberra",
+   "ss": 1.0,
+   "credit": "Jared Drennan \u00b7 CC BY 3.0 \u00b7 via Wikimedia Commons",
+   "from": 572.226,
+   "to": 575.586,
+   "id": "sh183_BR_STOCK_parliament_house_canberra"
+  },
+  {
+   "kind": "photo",
+   "src": "IMG_parliament_house_blue_hour.jpg",
+   "move": "out",
+   "credit": "Thennicke \u00b7 CC BY-SA 4.0 \u00b7 via Wikimedia Commons",
+   "from": 575.586,
+   "to": 579.046,
+   "id": "sh184_IMG_parliament_house_blue_hour.jpg"
+  },
+  {
+   "kind": "video",
+   "src": "BR_STOCK_canberra_sunset_sky",
+   "ss": 0.0,
+   "credit": "shootnedit \u00b7 Pixabay Content License",
+   "from": 579.046,
+   "to": 584.256,
+   "id": "sh185_BR_STOCK_canberra_sunset_sky"
+  },
+  {
+   "kind": "video",
+   "src": "BR_STOCK_printing_press",
+   "ss": 5.0,
+   "credit": "Harrison Keely \u00b7 CC BY 4.0 \u00b7 via Wikimedia Commons",
+   "honest": "Illustrative",
+   "from": 584.256,
+   "to": 584.916,
+   "id": "sh186_BR_STOCK_printing_press"
+  },
+  {
+   "kind": "video",
+   "src": "BR_STOCK_tv_static_bw",
+   "ss": 9.0,
+   "credit": "Mixkit \u00b7 Mixkit Stock Video Free License",
+   "honest": "Illustrative",
+   "from": 584.916,
+   "to": 586.076,
+   "id": "sh187_BR_STOCK_tv_static_bw"
+  },
+  {
+   "kind": "photo",
+   "src": "IMG_super_pit_kalgoorlie.jpg",
+   "focus": [
+    0.6,
+    0.5
+   ],
+   "credit": "Chuq \u00b7 CC BY-SA 4.0 \u00b7 via Wikimedia Commons",
+   "honest": "Super Pit, Kalgoorlie \u00b7 a gold mine",
+   "from": 586.076,
+   "to": 587.256,
+   "id": "sh188_IMG_super_pit_kalgoorlie.jpg"
+  },
+  {
+   "kind": "video",
+   "src": "BR_AI_03_corridor_door_night",
+   "ss": 7.0,
+   "honest": "Dramatised reconstruction \u00b7 AI-generated",
+   "credit": "AI-generated (Grok Imagine) \u00b7 dramatised",
+   "from": 587.256,
+   "to": 588.356,
+   "id": "sh189_BR_AI_03_corridor_door_night"
+  },
+  {
+   "kind": "photo",
+   "src": "IMG_senate_ballot_vic_folded.png",
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "zoom": [
+    1.0,
+    1.06
+   ],
+   "honest": "2016 Senate ballot rendering",
+   "soft": 2.5,
+   "credit": "Hshook \u00b7 CC BY-SA 4.0 \u00b7 via Wikimedia Commons",
+   "from": 588.356,
+   "to": 589.576,
+   "id": "sh190_IMG_senate_ballot_vic_folded.png"
+  },
+  {
+   "kind": "video",
+   "src": "BR_STOCK_melbourne_albert_park_aerial",
+   "ss": 16.0,
+   "credit": "daniloriba \u00b7 Pixabay Content License",
+   "honest": "Illustrative \u00b7 inner Melbourne",
+   "from": 589.576,
+   "to": 592.376,
+   "id": "sh191_BR_STOCK_melbourne_albert_park_aerial"
+  },
+  {
+   "kind": "photo",
+   "src": "IMG_parliament_house_blue_hour.jpg",
+   "move": "in",
+   "zoom": [
+    1.05,
+    1.12
+   ],
+   "credit": "Thennicke \u00b7 CC BY-SA 4.0 \u00b7 via Wikimedia Commons",
+   "from": 592.376,
+   "to": 596.776,
+   "id": "sh192_IMG_parliament_house_blue_hour.jpg"
+  },
+  {
+   "kind": "doc",
+   "src": "DOC_aec_fadreform_2026_tall.png",
+   "crop": [
+    300,
+    0,
+    1320,
+    760
+   ],
+   "scroll": 220,
+   "credit": "Australian Electoral Commission \u00b7 aec.gov.au/FADReform",
+   "from": 596.776,
+   "to": 602.386,
+   "id": "sh193_DOC_aec_fadreform_2026_tall.png"
+  },
+  {
+   "kind": "video",
+   "src": "BR_STOCK_parliament_house_canberra",
+   "ss": 0.0,
+   "credit": "Jared Drennan \u00b7 CC BY 3.0 \u00b7 via Wikimedia Commons",
+   "from": 602.386,
+   "to": 607.046,
+   "id": "sh194_BR_STOCK_parliament_house_canberra"
+  },
+  {
+   "kind": "photo",
+   "src": "IMG_parliament_house_blue_hour.jpg",
+   "move": "in",
+   "credit": "Thennicke \u00b7 CC BY-SA 4.0 \u00b7 via Wikimedia Commons",
+   "from": 607.046,
+   "to": 610.346,
+   "id": "sh195_IMG_parliament_house_blue_hour.jpg"
+  },
+  {
+   "kind": "video",
+   "src": "BR_STOCK_book_pages_turning",
+   "ss": 0.0,
+   "soft": 3.5,
+   "credit": "Mixkit \u00b7 Mixkit Stock Video Free License",
+   "honest": "Illustrative",
+   "from": 610.346,
+   "to": 615.666,
+   "id": "sh196_BR_STOCK_book_pages_turning"
+  },
+  {
+   "kind": "photo",
+   "src": "IMG_house_of_reps_chamber.jpg",
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "move": "in",
+   "credit": "JJ Harrison \u00b7 CC BY-SA 3.0 \u00b7 via Wikimedia Commons",
+   "from": 615.666,
+   "to": 619.766,
+   "id": "sh197_IMG_house_of_reps_chamber.jpg"
+  },
+  {
+   "kind": "video",
+   "src": "BR_STOCK_parliament_house_canberra",
+   "ss": 1.0,
+   "credit": "Jared Drennan \u00b7 CC BY 3.0 \u00b7 via Wikimedia Commons",
+   "from": 619.766,
+   "to": 625.086,
+   "id": "sh198_BR_STOCK_parliament_house_canberra"
+  },
+  {
+   "kind": "photo",
+   "src": "IMG_senate_chamber.jpg",
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "move": "in",
+   "credit": "JJ Harrison \u00b7 CC BY-SA 3.0 \u00b7 via Wikimedia Commons",
+   "from": 625.086,
+   "to": 628.876,
+   "id": "sh199_IMG_senate_chamber.jpg"
+  },
+  {
+   "kind": "video",
+   "src": "BR_STOCK_parliament_house_canberra",
+   "ss": 4.0,
+   "credit": "Jared Drennan \u00b7 CC BY 3.0 \u00b7 via Wikimedia Commons",
+   "from": 628.876,
+   "to": 632.216,
+   "id": "sh200_BR_STOCK_parliament_house_canberra"
+  },
+  {
+   "kind": "photo",
+   "src": "IMG_parliament_house_flag.jpg",
+   "move": "up",
+   "credit": "Vikas from Australia \u00b7 CC BY 2.0 \u00b7 via Wikimedia Commons",
+   "from": 632.216,
+   "to": 634.996,
+   "id": "sh201_IMG_parliament_house_flag.jpg"
+  },
+  {
+   "kind": "video",
+   "src": "BR_STOCK_book_pages_turning",
+   "ss": 10.0,
+   "soft": 3.5,
+   "credit": "Mixkit \u00b7 Mixkit Stock Video Free License",
+   "honest": "Illustrative",
+   "from": 634.996,
+   "to": 637.436,
+   "id": "sh202_BR_STOCK_book_pages_turning"
+  },
+  {
+   "kind": "photo",
+   "src": "IMG_parliament_house_blue_hour.jpg",
+   "move": "out",
+   "credit": "Thennicke \u00b7 CC BY-SA 4.0 \u00b7 via Wikimedia Commons",
+   "from": 637.436,
+   "to": 641.596,
+   "id": "sh203_IMG_parliament_house_blue_hour.jpg"
+  },
+  {
+   "kind": "video",
+   "src": "BR_STOCK_suburbs_aerial_rooftops",
+   "ss": 0.0,
+   "credit": "daniloriba \u00b7 Pixabay Content License",
+   "honest": "Illustrative",
+   "from": 641.596,
+   "to": 644.796,
+   "id": "sh204_BR_STOCK_suburbs_aerial_rooftops"
+  },
+  {
+   "kind": "video",
+   "src": "BR_AI_09_ballot_count_hands",
+   "ss": 2.0,
+   "honest": "Dramatised reconstruction \u00b7 AI-generated",
+   "credit": "AI-generated (Grok Imagine) \u00b7 dramatised",
+   "from": 644.796,
+   "to": 646.896,
+   "id": "sh205_BR_AI_09_ballot_count_hands"
+  },
+  {
+   "kind": "video",
+   "src": "BR_AI_02_ballot_into_box",
+   "ss": 0.0,
+   "honest": "Dramatised reconstruction \u00b7 AI-generated",
+   "credit": "AI-generated (Grok Imagine) \u00b7 dramatised",
+   "from": 646.896,
+   "to": 651.996,
+   "id": "sh206_BR_AI_02_ballot_into_box"
+  },
+  {
+   "kind": "video",
+   "src": "BR_STOCK_sydney_street_timelapse",
+   "ss": 2.0,
+   "credit": "Jowel Balcita \u00b7 CC BY 3.0 \u00b7 via Wikimedia Commons",
+   "from": 651.996,
+   "to": 654.016,
+   "id": "sh207_BR_STOCK_sydney_street_timelapse"
+  },
+  {
+   "kind": "video",
+   "src": "BR_STOCK_melbourne_aerial_dusk",
+   "ss": 6.0,
+   "credit": "Tetrakis Sphericon \u00b7 Pexels License",
+   "from": 654.016,
+   "to": 657.756,
+   "id": "sh208_BR_STOCK_melbourne_aerial_dusk"
+  },
+  {
+   "kind": "video",
+   "src": "BR_STOCK_suburbs_aerial_rooftops",
+   "ss": 10.0,
+   "credit": "daniloriba \u00b7 Pixabay Content License",
+   "honest": "Illustrative",
+   "from": 657.756,
+   "to": 661.246,
+   "id": "sh209_BR_STOCK_suburbs_aerial_rooftops"
+  },
+  {
+   "kind": "video",
+   "src": "BR_STOCK_crowd_street_crossing",
+   "ss": 0.0,
+   "focus": [
+    0.5,
+    0.88
+   ],
+   "zoom": [
+    1.3,
+    1.34
+   ],
+   "credit": "Mixkit \u00b7 Mixkit Stock Video Free License",
+   "honest": "Illustrative \u00b7 overseas street, not Australia",
+   "from": 661.246,
+   "to": 665.906,
+   "id": "sh210_BR_STOCK_crowd_street_crossing"
+  },
+  {
+   "kind": "video",
+   "src": "BR_AI_election_night_empty_hall",
+   "ss": 1.0,
+   "honest": "Dramatised reconstruction \u00b7 AI-generated",
+   "credit": "AI-generated (Grok Imagine) \u00b7 dramatised",
+   "from": 665.906,
+   "to": 667.926,
+   "id": "sh211_BR_AI_election_night_empty_hall"
+  },
+  {
+   "kind": "video",
+   "src": "BR_STOCK_sydney_street_timelapse",
+   "ss": 14.0,
+   "label": {
+    "title": "Chatswood, Sydney",
+    "at": 668.346
+   },
+   "credit": "Jowel Balcita \u00b7 CC BY 3.0 \u00b7 via Wikimedia Commons",
+   "from": 667.926,
+   "to": 670.926,
+   "id": "sh212_BR_STOCK_sydney_street_timelapse"
+  },
+  {
+   "kind": "video",
+   "src": "BR_STOCK_melbourne_aerial_dusk",
+   "ss": 0.0,
+   "credit": "Tetrakis Sphericon \u00b7 Pexels License",
+   "from": 670.926,
+   "to": 674.506,
+   "id": "sh213_BR_STOCK_melbourne_aerial_dusk"
+  },
+  {
+   "kind": "video",
+   "src": "BR_STOCK_nurse_corridor_back",
+   "ss": 1.0,
+   "credit": "Pavel Danilyuk \u00b7 Pexels License",
+   "honest": "Illustrative",
+   "from": 674.506,
+   "to": 678.056,
+   "id": "sh214_BR_STOCK_nurse_corridor_back"
+  },
+  {
+   "kind": "video",
+   "src": "BR_AI_04_newspaper_doorstep",
+   "ss": 5.0,
+   "honest": "Dramatised reconstruction \u00b7 AI-generated",
+   "credit": "AI-generated (Grok Imagine) \u00b7 dramatised",
+   "from": 678.056,
+   "to": 681.216,
+   "id": "sh215_BR_AI_04_newspaper_doorstep"
+  },
+  {
+   "kind": "video",
+   "src": "BR_STOCK_tv_rainy_night_room",
+   "ss": 9.0,
+   "credit": "Mixkit \u00b7 Mixkit Stock Video Free License",
+   "honest": "Illustrative",
+   "from": 681.216,
+   "to": 682.556,
+   "id": "sh216_BR_STOCK_tv_rainy_night_room"
+  },
+  {
+   "kind": "video",
+   "src": "BR_STOCK_phone_scrolling",
+   "ss": 10.0,
+   "credit": "Mixkit \u00b7 Mixkit Stock Video Free License",
+   "honest": "Illustrative",
+   "from": 682.556,
+   "to": 684.846,
+   "id": "sh217_BR_STOCK_phone_scrolling"
+  },
+  {
+   "kind": "video",
+   "src": "BR_STOCK_brisbane_aerial",
+   "ss": 10.0,
+   "credit": "David Pickup \u00b7 Pexels License",
+   "from": 684.846,
+   "to": 689.916,
+   "id": "sh218_BR_STOCK_brisbane_aerial"
+  },
+  {
+   "kind": "video",
+   "src": "BR_STOCK_newspaper_flipping_pov",
+   "ss": 5.0,
+   "soft": 4.0,
+   "credit": "Mixkit \u00b7 Mixkit Stock Video Free License",
+   "honest": "Illustrative",
+   "from": 689.916,
+   "to": 691.256,
+   "id": "sh219_BR_STOCK_newspaper_flipping_pov"
+  },
+  {
+   "kind": "video",
+   "src": "BR_STOCK_tv_static_bw",
+   "ss": 2.0,
+   "credit": "Mixkit \u00b7 Mixkit Stock Video Free License",
+   "honest": "Illustrative",
+   "from": 691.256,
+   "to": 692.736,
+   "id": "sh220_BR_STOCK_tv_static_bw"
+  },
+  {
+   "kind": "video",
+   "src": "BR_STOCK_digital_screens",
+   "ss": 1.0,
+   "credit": "Mixkit \u00b7 Mixkit Stock Video Free License",
+   "honest": "Illustrative",
+   "from": 692.736,
+   "to": 694.436,
+   "id": "sh221_BR_STOCK_digital_screens"
+  },
+  {
+   "kind": "photo",
+   "src": "IMG_rights_at_work_campaign.jpg",
+   "focus": [
+    0.5,
+    0.75
+   ],
+   "zoom": [
+    1.25,
+    1.3
+   ],
+   "credit": "finsec (Flickr) \u00b7 CC BY 2.0 \u00b7 via Wikimedia Commons",
+   "from": 694.436,
+   "to": 695.896,
+   "id": "sh222_IMG_rights_at_work_campaign.jpg"
+  },
+  {
+   "kind": "video",
+   "src": "BR_AI_07_letterbox_flyers",
+   "ss": 3.0,
+   "honest": "Dramatised reconstruction \u00b7 AI-generated",
+   "credit": "AI-generated (Grok Imagine) \u00b7 dramatised",
+   "from": 695.896,
+   "to": 698.156,
+   "id": "sh223_BR_AI_07_letterbox_flyers"
+  },
+  {
+   "kind": "video",
+   "src": "BR_STOCK_sydney_street_timelapse",
+   "ss": 4.0,
+   "credit": "Jowel Balcita \u00b7 CC BY 3.0 \u00b7 via Wikimedia Commons",
+   "from": 698.156,
+   "to": 700.396,
+   "id": "sh224_BR_STOCK_sydney_street_timelapse"
+  },
+  {
+   "kind": "video",
+   "src": "BR_STOCK_banknotes_aud",
+   "ss": 8.5,
+   "credit": "Joshua_Willson \u00b7 Pixabay Content License",
+   "honest": "Illustrative",
+   "from": 700.396,
+   "to": 701.836,
+   "id": "sh225_BR_STOCK_banknotes_aud"
+  },
+  {
+   "kind": "video",
+   "src": "BR_STOCK_newspaper_press_running",
+   "ss": 16.0,
+   "soft": 2.5,
+   "credit": "Vanuatu Daily Post \u00b7 CC BY 3.0 \u00b7 via Wikimedia Commons",
+   "honest": "Illustrative",
+   "from": 701.836,
+   "to": 703.856,
+   "id": "sh226_BR_STOCK_newspaper_press_running"
+  },
+  {
+   "kind": "photo",
+   "src": "IMG_howard_2006_ec.jpg",
+   "frame": "framed",
+   "fh": 980,
+   "label": {
+    "title": "2007 \u00b7 LOST OWN SEAT",
+    "sub": "John Howard (left), 2002 photo",
+    "at": 703.876
+   },
+   "credit": "Jan Van de Vel / European Commission \u00b7 CC BY 4.0 \u00b7 via Wikimedia Commons",
+   "from": 703.856,
+   "to": 705.876,
+   "id": "sh227_IMG_howard_2006_ec.jpg"
+  },
+  {
+   "kind": "photo",
+   "src": "IMG_dutton_2018.jpg",
+   "frame": "framed",
+   "fh": 980,
+   "label": {
+    "title": "2025 \u00b7 LOST OWN SEAT",
+    "sub": "Peter Dutton, 2018 photo",
+    "at": 705.896
+   },
+   "credit": "Department of Foreign Affairs and Trade \u00b7 CC BY 4.0 \u00b7 via Wikimedia Commons",
+   "from": 705.876,
+   "to": 707.786,
+   "id": "sh228_IMG_dutton_2018.jpg"
+  },
+  {
+   "kind": "photo",
+   "src": "IMG_whitlam_headshot.jpg",
+   "frame": "framed",
+   "fh": 930,
+   "credit": "National Archives of Australia \u00b7 Public domain \u00b7 via Wikimedia Commons",
+   "from": 707.786,
+   "to": 710.136,
+   "id": "sh229_IMG_whitlam_headshot.jpg"
+  },
+  {
+   "kind": "photo",
+   "src": "IMG_whitlam_after_dismissal_1975.jpg",
+   "focus": [
+    0.3,
+    0.35
+   ],
+   "label": {
+    "title": "Gough Whitlam",
+    "sub": "Parliament House, 11 November 1975",
+    "at": 710.156
+   },
+   "credit": "Commonwealth of Australia (NAA) \u00b7 Public domain \u00b7 via Wikimedia Commons",
+   "from": 710.136,
+   "to": 712.836,
+   "id": "sh230_IMG_whitlam_after_dismissal_1975.jpg"
+  },
+  {
+   "kind": "photo",
+   "src": "IMG_kerr_governor_general.jpg",
+   "frame": "framed",
+   "fh": 980,
+   "move": "in",
+   "label": {
+    "title": "Sir John Kerr",
+    "sub": "Governor-General",
+    "at": 712.856
+   },
+   "credit": "Australian Government \u00b7 Public domain \u00b7 via Wikimedia Commons",
+   "from": 712.836,
+   "to": 716.036,
+   "id": "sh231_IMG_kerr_governor_general.jpg"
+  },
+  {
+   "kind": "photo",
+   "src": "IMG_dismissal_demonstration_1975.jpg",
+   "focus": [
+    0.4,
+    0.4
+   ],
+   "label": {
+    "title": "Parliament House, November 1975",
+    "sub": "Crowds after the dismissal",
+    "at": 716.056
+   },
+   "credit": "Commonwealth of Australia (NAA) \u00b7 Public domain \u00b7 via Wikimedia Commons",
+   "from": 716.036,
+   "to": 718.956,
+   "id": "sh232_IMG_dismissal_demonstration_1975.jpg"
+  },
+  {
+   "kind": "photo",
+   "src": "IMG_fraser_1977.jpg",
+   "frame": "framed",
+   "fh": 980,
+   "label": {
+    "title": "13 DECEMBER 1975",
+    "sub": "Landslide win for Malcolm Fraser \u00b7 1977 portrait",
+    "at": 718.976
+   },
+   "credit": "National Archives of Australia \u00b7 CC BY 3.0 AU \u00b7 via Wikimedia Commons",
+   "from": 718.956,
+   "to": 722.056,
+   "id": "sh233_IMG_fraser_1977.jpg"
+  },
+  {
+   "kind": "video",
+   "src": "BR_STOCK_parliament_house_canberra",
+   "ss": 0.0,
+   "credit": "Jared Drennan \u00b7 CC BY 3.0 \u00b7 via Wikimedia Commons",
+   "from": 722.056,
+   "to": 726.216,
+   "id": "sh234_BR_STOCK_parliament_house_canberra"
+  },
+  {
+   "kind": "video",
+   "src": "BR_AI_02_ballot_into_box",
+   "ss": 5.0,
+   "rate": 0.7,
+   "honest": "Dramatised reconstruction \u00b7 AI-generated",
+   "credit": "AI-generated (Grok Imagine) \u00b7 dramatised",
+   "from": 726.216,
+   "to": 728.856,
+   "id": "sh235_BR_AI_02_ballot_into_box"
+  },
+  {
+   "kind": "video",
+   "src": "BR_AI_09_ballot_count_hands",
+   "ss": 5.0,
+   "honest": "Dramatised reconstruction \u00b7 AI-generated",
+   "credit": "AI-generated (Grok Imagine) \u00b7 dramatised",
+   "from": 728.856,
+   "to": 733.686,
+   "id": "sh236_BR_AI_09_ballot_count_hands"
+  },
+  {
+   "kind": "video",
+   "src": "BR_AI_02_ballot_into_box",
+   "ss": 1.0,
+   "rate": 0.8,
+   "honest": "Dramatised reconstruction \u00b7 AI-generated",
+   "credit": "AI-generated (Grok Imagine) \u00b7 dramatised",
+   "from": 733.686,
+   "to": 738.426,
+   "id": "sh237_BR_AI_02_ballot_into_box"
+  },
+  {
+   "kind": "video",
+   "src": "BR_AI_10_pencil_marks_ballot",
+   "ss": 3.0,
+   "rate": 0.7,
+   "honest": "Dramatised reconstruction \u00b7 AI-generated",
+   "credit": "AI-generated (Grok Imagine) \u00b7 dramatised",
+   "from": 738.426,
+   "to": 742.336,
+   "id": "sh238_BR_AI_10_pencil_marks_ballot"
+  },
+  {
+   "kind": "photo",
+   "src": "IMG_parliament_house_blue_hour.jpg",
+   "move": "in",
+   "credit": "Thennicke \u00b7 CC BY-SA 4.0 \u00b7 via Wikimedia Commons",
+   "from": 742.336,
+   "to": 746.066,
+   "id": "sh239_IMG_parliament_house_blue_hour.jpg"
+  },
+  {
+   "kind": "video",
+   "src": "BR_STOCK_canberra_sunset_sky",
+   "ss": 5.0,
+   "credit": "shootnedit \u00b7 Pixabay Content License",
+   "from": 746.066,
+   "to": 750.506,
+   "id": "sh240_BR_STOCK_canberra_sunset_sky"
+  },
+  {
+   "kind": "video",
+   "src": "BR_STOCK_parliament_house_canberra",
+   "ss": 0.0,
+   "credit": "Jared Drennan \u00b7 CC BY 3.0 \u00b7 via Wikimedia Commons",
+   "from": 750.506,
+   "to": 754.246,
+   "id": "sh241_BR_STOCK_parliament_house_canberra"
+  },
+  {
+   "kind": "photo",
+   "src": "IMG_parliament_house_flag.jpg",
+   "move": "up",
+   "zoom": [
+    1.04,
+    1.12
+   ],
+   "credit": "Vikas from Australia \u00b7 CC BY 2.0 \u00b7 via Wikimedia Commons",
+   "from": 754.246,
+   "to": 759.036,
+   "id": "sh242_IMG_parliament_house_flag.jpg"
+  },
+  {
+   "kind": "video",
+   "src": "BR_STOCK_canberra_sunset_sky",
+   "ss": 0.0,
+   "credit": "shootnedit \u00b7 Pixabay Content License",
+   "from": 759.036,
+   "to": 761.636,
+   "id": "sh243_BR_STOCK_canberra_sunset_sky"
+  }
+ ],
+ "overlays": [
+  {
+   "type": "crack",
+   "from": 8.47,
+   "to": 10.49,
+   "props": {}
+  },
+  {
+   "type": "fourpms",
+   "from": 23.23,
+   "to": 26.01,
+   "props": {
+    "captionAt": 23.61,
+    "caption": "PUSHED OUT BY THEIR OWN COLLEAGUES",
+    "credit": "Photos: MoAD \u00a9 Commonwealth of Australia CC BY 4.0 \u00b7 Dilma Rousseff CC BY-SA 2.0 \u00b7 Commonwealth of Australia CC BY 3.0 AU \u00b7 Commonwealth of Australia CC BY 4.0 \u00b7 via Wikimedia Commons",
+    "pms": [
+     {
+      "src": "IMG_rudd_2007.jpg",
+      "name": "Rudd",
+      "year": "2010",
+      "at": 23.31
+     },
+     {
+      "src": "IMG_gillard.jpg",
+      "name": "Gillard",
+      "year": "2013",
+      "at": 23.66
+     },
+     {
+      "src": "IMG_abbott_official.jpg",
+      "name": "Abbott",
+      "year": "2015",
+      "at": 23.79
+     },
+     {
+      "src": "IMG_turnbull_peo.jpg",
+      "name": "Turnbull",
+      "year": "2018",
+      "at": 24.14
+     }
+    ]
+   }
+  },
+  {
+   "type": "big",
+   "from": 30.29,
+   "to": 32.11,
+   "props": {
+    "lines": [
+     {
+      "t": "ABOUT 0.5%",
+      "size": 190,
+      "color": "#E8CC6E",
+      "at": 30.37
+     },
+     {
+      "t": "OF THE VOTE",
+      "size": 54,
+      "font": "sans",
+      "at": 30.77
+     },
+     {
+      "t": "ELECTED TO THE SENATE \u00b7 2013",
+      "size": 44,
+      "font": "sans",
+      "color": "#EFE6D2",
+      "at": 31.71,
+      "gap": 30
+     }
+    ],
+    "source": "Source: Australian Electoral Commission"
+   }
+  },
+  {
+   "type": "crown",
+   "from": 44.78,
+   "to": 48.12,
+   "props": {
+    "path": [
+     960,
+     -40,
+     120
+    ],
+    "size": 230
+   }
+  },
+  {
+   "type": "board",
+   "from": 48.04,
+   "to": 52.45,
+   "props": {
+    "appear": true
+   }
+  },
+  {
+   "type": "title",
+   "from": 52.9,
+   "to": 57.08,
+   "props": {}
+  },
+  {
+   "type": "chapter",
+   "from": 57.1,
+   "to": 60.28,
+   "props": {
+    "kicker": "SUSPECT #1",
+    "title": "The Press Baron",
+    "crown": true
+   }
+  },
+  {
+   "type": "tag",
+   "from": 64.53,
+   "to": 67.91,
+   "props": {
+    "n": 1,
+    "name": "THE PRESS BARON"
+   }
+  },
+  {
+   "type": "route",
+   "from": 70.63,
+   "to": 73.77,
+   "props": {
+    "beats": [
+     70.71,
+     71.21,
+     72.19,
+     72.81
+    ]
+   }
+  },
+  {
+   "type": "ausmap",
+   "from": 80.6,
+   "to": 83.24,
+   "props": {
+    "beats": [
+     80.68,
+     80.88,
+     81.08,
+     81.24,
+     81.44,
+     81.44,
+     81.64
+    ],
+    "source": "Source: Reuters / Al Jazeera, 2020"
+   }
+  },
+  {
+   "type": "passport",
+   "from": 84.7,
+   "to": 90.72,
+   "props": {
+    "flipAt": 87.08
+   }
+  },
+  {
+   "type": "lower",
+   "from": 84.7,
+   "to": 90.72,
+   "props": {
+    "title": "1985 \u00b7 US CITIZENSHIP"
+   }
+  },
+  {
+   "type": "board",
+   "from": 96.86,
+   "to": 98.13,
+   "props": {
+    "filled": [],
+    "newCard": 1,
+    "cardAt": 97.14
+   }
+  },
+  {
+   "type": "letter",
+   "from": 116.34,
+   "to": 119.56,
+   "props": {
+    "marksFrom": 116.42,
+    "marksTo": 118.78,
+    "caption": "Letter from 75 News Limited journalists, Dec 1975"
+   }
+  },
+  {
+   "type": "lower",
+   "from": 120.3,
+   "to": 126.16,
+   "props": {
+    "title": "8 DECEMBER 1975",
+    "sub": "FIRST STRIKE OVER EDITORIAL COVERAGE"
+   }
+  },
+  {
+   "type": "lower",
+   "from": 150.11,
+   "to": 152.33,
+   "props": {
+    "title": "PETITION FOR A ROYAL COMMISSION",
+    "sub": "Launched by Kevin Rudd, 2020"
+   }
+  },
+  {
+   "type": "counter",
+   "from": 152.25,
+   "to": 156.85,
+   "props": {
+    "target": 501876,
+    "landAt": 155.51,
+    "kicker": "E-PETITION",
+    "unit": "SIGNATURES",
+    "source": "Source: Al Jazeera / AFP; The New Daily, Nov 2020"
+   }
+  },
+  {
+   "type": "panels2",
+   "from": 164.51,
+   "to": 171.246,
+   "props": {
+    "kickerL": "TURNBULL'S VIEW",
+    "lt": "The Murdoch press helped bring him down in 2018",
+    "lb": "Malcolm Turnbull's view.",
+    "lAt": 164.73,
+    "kickerR": "NEWS CORP",
+    "rt": "News Corp denies these claims",
+    "rb": "News Corp has always rejected claims like these.",
+    "rAt": 168.09,
+    "lc": "#16263D",
+    "rc": "#B3261E"
+   }
+  },
+  {
+   "type": "stamp",
+   "from": 173.066,
+   "to": 174.966,
+   "props": {
+    "text": "CASE OPEN"
+   }
+  },
+  {
+   "type": "cards",
+   "from": 179.406,
+   "to": 183.206,
+   "props": {
+    "items": [
+     {
+      "kicker": "2022",
+      "title": "Labor win",
+      "at": 179.486
+     },
+     {
+      "kicker": "2025",
+      "title": "Labor win",
+      "at": 179.886
+     }
+    ],
+    "source": "Data: AEC Tally Room"
+   }
+  },
+  {
+   "type": "tree",
+   "from": 191.576,
+   "to": 199.256,
+   "props": {
+    "branchAt": 195.276,
+    "goldAt": 195.496,
+    "stampAt": 197.616,
+    "source": "Source: News Corp / Fox Corp announcement, Sept 2025"
+   }
+  },
+  {
+   "type": "chapter",
+   "from": 209.036,
+   "to": 212.016,
+   "props": {
+    "kicker": "SUSPECT #2",
+    "title": "The Man Who Owned the Screen",
+    "crown": true,
+    "size": 92
+   }
+  },
+  {
+   "type": "tag",
+   "from": 215.566,
+   "to": 218.926,
+   "props": {
+    "n": 2,
+    "name": "THE TV TYCOON"
+   }
+  },
+  {
+   "type": "lower",
+   "from": 229.976,
+   "to": 233.936,
+   "props": {
+    "title": "1991",
+    "sub": "PARLIAMENTARY COMMITTEE ON THE PRINT MEDIA"
+   }
+  },
+  {
+   "type": "cards",
+   "from": 241.356,
+   "to": 249.736,
+   "props": {
+    "cw": 1300,
+    "cols": 1,
+    "items": [
+     {
+      "kicker": "PARAPHRASE, NOT A DIRECT QUOTE \u00b7 1991",
+      "title": "Anyone who didn't minimise their tax within the law needed their head read.",
+      "size": 50,
+      "at": 241.436
+     },
+     {
+      "title": "The government wasn't exactly spending its money wisely anyway.",
+      "size": 50,
+      "at": 246.036
+     }
+    ]
+   }
+  },
+  {
+   "type": "board",
+   "from": 264.276,
+   "to": 268.166,
+   "props": {
+    "filled": [
+     1
+    ],
+    "newCard": 2,
+    "cardAt": 264.556,
+    "newString": [
+     1,
+     2
+    ],
+    "stringAt": 265.596
+   }
+  },
+  {
+   "type": "chapter",
+   "from": 268.166,
+   "to": 271.146,
+   "props": {
+    "kicker": "SUSPECT #3",
+    "title": "The Mining Money",
+    "crown": true
+   }
+  },
+  {
+   "type": "tag",
+   "from": 271.086,
+   "to": 273.846,
+   "props": {
+    "n": 3,
+    "name": "THE MINING MONEY"
+   }
+  },
+  {
+   "type": "lower",
+   "from": 276.706,
+   "to": 281.806,
+   "props": {
+    "title": "MAY 2010 \u00b7 RESOURCE SUPER PROFITS TAX",
+    "sub": "Media release, 2 May 2010"
+   }
+  },
+  {
+   "type": "stack",
+   "from": 288.086,
+   "to": 292.806,
+   "props": {
+    "head": "$22 MILLION",
+    "headAt": 290.626,
+    "sub": "IN ABOUT 6 WEEKS",
+    "subAt": 288.346,
+    "parts": [
+     {
+      "value": 17.2,
+      "valueLabel": "$17.2m",
+      "label": "Minerals Council of Australia",
+      "color": "#C9A227",
+      "at": 289.246
+     },
+     {
+      "value": 4.2,
+      "valueLabel": "$4.2m",
+      "label": "BHP Billiton",
+      "color": "#E8CC6E",
+      "at": 290.026
+     },
+     {
+      "value": 0.6,
+      "valueLabel": "",
+      "label": "Others",
+      "color": "#9AA3AF",
+      "at": 290.346,
+      "small": true
+     }
+    ],
+    "source": "Source: AEC disclosures, reported by SMH 2011"
+   }
+  },
+  {
+   "type": "lower",
+   "from": 292.726,
+   "to": 295.906,
+   "props": {
+    "title": "PERTH \u00b7 JUNE 2010",
+    "sub": "Rally against the mining tax"
+   }
+  },
+  {
+   "type": "lower",
+   "from": 303.326,
+   "to": 305.546,
+   "props": {
+    "title": "24 JUNE 2010"
+   }
+  },
+  {
+   "type": "cards",
+   "from": 312.966,
+   "to": 322.926,
+   "props": {
+    "title": "Why Rudd fell",
+    "cols": 4,
+    "cw": 360,
+    "minH": 150,
+    "items": [
+     {
+      "title": "Falling polls",
+      "at": 313.946,
+      "size": 40
+     },
+     {
+      "title": "A shelved climate policy",
+      "at": 315.686,
+      "size": 40
+     },
+     {
+      "title": "Colleagues",
+      "sub": "internal tensions",
+      "at": 317.126,
+      "size": 40
+     },
+     {
+      "title": "Mining campaign",
+      "at": 319.986,
+      "size": 40,
+      "hlAt": 320.286
+     }
+    ]
+   }
+  },
+  {
+   "type": "lower",
+   "from": 331.946,
+   "to": 336.256,
+   "props": {
+    "title": "MRRT \u00b7 INTRODUCED 2012 \u00b7 REPEALED 2014",
+    "sub": "Minerals Resource Rent Tax"
+   }
+  },
+  {
+   "type": "bars",
+   "from": 344.556,
+   "to": 366.126,
+   "props": {
+    "max": 123,
+    "h": 430,
+    "bw": 250,
+    "gap": 110,
+    "base": 760,
+    "title": "Palmer's political spending",
+    "bars": [
+     {
+      "label": "2019",
+      "sub": "United Australia Party",
+      "value": 89,
+      "valueLabel": "about $89M",
+      "at": 348.036,
+      "chairs": 0,
+      "chairsAt": 351.516
+     },
+     {
+      "label": "2022",
+      "sub": "United Australia Party",
+      "value": 123,
+      "valueLabel": "about $123M",
+      "at": 354.036,
+      "chairs": 1,
+      "chairsAt": 356.896
+     },
+     {
+      "label": "2025",
+      "sub": "Trumpet of Patriots",
+      "value": 53,
+      "valueLabel": "about $53M",
+      "at": 362.816,
+      "chairs": 0,
+      "chairsAt": 364.976
+     }
+    ],
+    "source": "Source: Grattan Institute analysis of AEC returns"
+   }
+  },
+  {
+   "type": "bars",
+   "from": 366.586,
+   "to": 372.046,
+   "props": {
+    "max": 123,
+    "h": 430,
+    "bw": 250,
+    "gap": 160,
+    "base": 760,
+    "title": "2025 election",
+    "bars": [
+     {
+      "label": "TRUMPET OF PATRIOTS",
+      "value": 53,
+      "valueLabel": "about $53M",
+      "at": 366.666,
+      "chairs": 0,
+      "chairsAt": 366.666,
+      "dim": true,
+      "lsize": 26
+     },
+     {
+      "label": "ONE NATION",
+      "value": 3,
+      "valueLabel": "about $3M",
+      "at": 367.466,
+      "chairs": 3,
+      "chairsAt": 370.726,
+      "highlight": true,
+      "lsize": 26
+     }
+    ],
+    "source": "Source: AEC data, reported by AAP / The New Daily"
+   }
+  },
+  {
+   "type": "board",
+   "from": 377.106,
+   "to": 382.156,
+   "props": {
+    "filled": [
+     1,
+     2
+    ],
+    "newCard": 3,
+    "cardAt": 377.386,
+    "crownOn": 3,
+    "crownMode": "wobble",
+    "crownAt": 377.806,
+    "leaveAt": 380.486
+   }
+  },
+  {
+   "type": "chapter",
+   "from": 382.156,
+   "to": 385.136,
+   "props": {
+    "kicker": "SUSPECT #4",
+    "title": "The Faceless Men",
+    "crown": true
+   }
+  },
+  {
+   "type": "tag",
+   "from": 385.076,
+   "to": 387.366,
+   "props": {
+    "n": 4,
+    "name": "THE FACELESS MEN"
+   }
+  },
+  {
+   "type": "fourpms",
+   "from": 387.286,
+   "to": 392.116,
+   "props": {
+    "captionAt": 389.126,
+    "caption": "NOT BY VOTERS \u00b7 BY THEIR OWN SIDE",
+    "credit": "Photos: MoAD \u00a9 Commonwealth of Australia CC BY 4.0 \u00b7 Dilma Rousseff CC BY-SA 2.0 \u00b7 Commonwealth of Australia CC BY 3.0 AU \u00b7 Commonwealth of Australia CC BY 4.0 \u00b7 via Wikimedia Commons",
+    "pms": [
+     {
+      "src": "IMG_rudd_2007.jpg",
+      "name": "Rudd",
+      "year": "2010",
+      "at": 387.666
+     },
+     {
+      "src": "IMG_gillard.jpg",
+      "name": "Gillard",
+      "year": "2013",
+      "at": 387.966
+     },
+     {
+      "src": "IMG_abbott_official.jpg",
+      "name": "Abbott",
+      "year": "2015",
+      "at": 388.446
+     },
+     {
+      "src": "IMG_turnbull_peo.jpg",
+      "name": "Turnbull",
+      "year": "2018",
+      "at": 388.566
+     }
+    ]
+   }
+  },
+  {
+   "type": "chain",
+   "from": 396.296,
+   "to": 407.136,
+   "props": {
+    "beats": [
+     396.376,
+     397.196,
+     401.196,
+     401.896
+    ],
+    "swapAt": 403.836
+   }
+  },
+  {
+   "type": "faceless",
+   "from": 407.056,
+   "to": 414.726,
+   "props": {}
+  },
+  {
+   "type": "big",
+   "from": 416.806,
+   "to": 418.306,
+   "props": {
+    "lines": [
+     {
+      "t": "\u201cTHE FACELESS MEN\u201d",
+      "size": 120,
+      "at": 416.886
+     }
+    ]
+   }
+  },
+  {
+   "type": "seats",
+   "from": 421.836,
+   "to": 429.396,
+   "props": {
+    "mode": "presel",
+    "dropAt": 422.856,
+    "title": "Safe seats",
+    "note": "Illustrative: not a real seat map"
+   }
+  },
+  {
+   "type": "seats",
+   "from": 438.466,
+   "to": 440.646,
+   "props": {
+    "mode": "named",
+    "title": "2007 \u00b7 PM loses his own seat",
+    "note": "Illustrative: not a real seat map",
+    "named": [
+     {
+      "i": 29,
+      "name": "BENNELONG",
+      "at": 439.406,
+      "color": "#B3261E",
+      "from": "#1f4e9c"
+     }
+    ]
+   }
+  },
+  {
+   "type": "board",
+   "from": 453.666,
+   "to": 459.326,
+   "props": {
+    "filled": [
+     1,
+     2,
+     3
+    ],
+    "newCard": 4,
+    "cardAt": 453.946,
+    "crownOn": 4,
+    "crownMode": "slide",
+    "crownAt": 455.666,
+    "leaveAt": 458.306
+   }
+  },
+  {
+   "type": "chapter",
+   "from": 464.626,
+   "to": 467.606,
+   "props": {
+    "kicker": "SUSPECT #5",
+    "title": "The Preference Whisperer",
+    "crown": true
+   }
+  },
+  {
+   "type": "tag",
+   "from": 467.546,
+   "to": 469.256,
+   "props": {
+    "n": 5,
+    "name": "THE PREFERENCE WHISPERER"
+   }
+  },
+  {
+   "type": "flow",
+   "from": 477.056,
+   "to": 489.856,
+   "props": {
+    "startAt": 477.696,
+    "ticketAt": 483.516
+   }
+  },
+  {
+   "type": "web",
+   "from": 496.176,
+   "to": 502.646,
+   "props": {
+    "snowAt": 497.476,
+    "snowTo": 501.316
+   }
+  },
+  {
+   "type": "big",
+   "from": 509.586,
+   "to": 512.066,
+   "props": {
+    "lines": [
+     {
+      "t": "2013 \u00b7 VICTORIA",
+      "size": 50,
+      "font": "sans",
+      "color": "#EFE6D2",
+      "at": 509.666
+     },
+     {
+      "t": "ABOUT 0.5%",
+      "size": 190,
+      "color": "#E8CC6E",
+      "at": 511.066
+     },
+     {
+      "t": "PRIMARY VOTE",
+      "size": 54,
+      "font": "sans",
+      "at": 511.366
+     }
+    ],
+    "source": "Source: Australian Electoral Commission"
+   }
+  },
+  {
+   "type": "panels2",
+   "from": 511.986,
+   "to": 518.666,
+   "props": {
+    "kickerL": "SUPPORTERS SAID",
+    "lt": "System working",
+    "lb": "The system was working as designed.",
+    "lAt": 512.066,
+    "kickerR": "CRITICS SAID",
+    "rt": "Voters in the dark",
+    "rb": "Voters had no idea where their votes were going.",
+    "rAt": 515.206,
+    "lc": "#16263D",
+    "rc": "#B3261E"
+   }
+  },
+  {
+   "type": "lower",
+   "from": 520.556,
+   "to": 526.056,
+   "props": {
+    "title": "2016 \u00b7 GROUP VOTING TICKETS ABOLISHED",
+    "sub": "Senate voting rules changed"
+   }
+  },
+  {
+   "type": "board",
+   "from": 530.796,
+   "to": 534.566,
+   "props": {
+    "filled": [
+     1,
+     2,
+     3,
+     4
+    ],
+    "newCard": 5,
+    "cardAt": 531.076
+   }
+  },
+  {
+   "type": "chapter",
+   "from": 534.566,
+   "to": 537.546,
+   "props": {
+    "kicker": "SUSPECT #6",
+    "title": "The New Kingmakers",
+    "crown": true,
+    "teal": true
+   }
+  },
+  {
+   "type": "tag",
+   "from": 537.486,
+   "to": 541.486,
+   "props": {
+    "n": 6,
+    "name": "THE NEW KINGMAKERS",
+    "teal": true
+   }
+  },
+  {
+   "type": "seats",
+   "from": 546.806,
+   "to": 555.476,
+   "props": {
+    "mode": "named",
+    "title": "2022 \u00b7 The teals",
+    "note": "Illustrative: not a real seat map",
+    "named": [
+     {
+      "i": 15,
+      "name": "KOOYONG",
+      "at": 550.606,
+      "from": "#1f4e9c"
+     },
+     {
+      "i": 32,
+      "name": "WENTWORTH",
+      "at": 551.246,
+      "from": "#1f4e9c"
+     },
+     {
+      "i": 45,
+      "name": "MACKELLAR",
+      "at": 552.066,
+      "from": "#1f4e9c"
+     }
+    ]
+   }
+  },
+  {
+   "type": "coins",
+   "from": 562.066,
+   "to": 566.716,
+   "props": {
+    "inAt": 562.906,
+    "outAt": 564.106
+   }
+  },
+  {
+   "type": "panels2",
+   "from": 566.636,
+   "to": 579.046,
+   "props": {
+    "kickerL": "SUPPORTERS SAY",
+    "lt": "A fair shot",
+    "lb": "Climate 200 gave community candidates a fair shot against party machines.",
+    "lAt": 566.686,
+    "kickerR": "CRITICS SAY",
+    "rt": "A party in all but name",
+    "rb": "Using big money to pick winners while claiming to be independent.",
+    "rAt": 572.346,
+    "lc": "#1FA3A3",
+    "rc": "#B3261E"
+   }
+  },
+  {
+   "type": "board",
+   "from": 592.376,
+   "to": 594.576,
+   "props": {
+    "filled": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6
+    ],
+    "strings": [
+     [
+      1,
+      2
+     ],
+     [
+      1,
+      3
+     ],
+     [
+      3,
+      4
+     ],
+     [
+      4,
+      5
+     ],
+     [
+      5,
+      6
+     ],
+     [
+      2,
+      6
+     ]
+    ],
+    "teal": true
+   }
+  },
+  {
+   "type": "chapter",
+   "from": 594.376,
+   "to": 596.756,
+   "props": {
+    "kicker": "CHAPTER 7",
+    "title": "The Rulebook Just Changed"
+   }
+  },
+  {
+   "type": "big",
+   "from": 600.186,
+   "to": 615.786,
+   "props": {
+    "lines": [
+     {
+      "t": "CHANGES FROM 1 JULY 2026",
+      "size": 88,
+      "at": 600.706
+     },
+     {
+      "t": "NATIONAL CAPS FROM 1 JANUARY 2027",
+      "size": 76,
+      "color": "#E8CC6E",
+      "at": 608.446,
+      "gap": 26
+     }
+    ],
+    "source": "Source: Australian Electoral Commission"
+   }
+  },
+  {
+   "type": "gauges",
+   "from": 615.706,
+   "to": 625.086,
+   "props": {
+    "partyAt": 618.006,
+    "thirdAt": 623.886,
+    "source": "Source: AAP; The Daily Aus"
+   }
+  },
+  {
+   "type": "panels2",
+   "from": 625.006,
+   "to": 635.116,
+   "props": {
+    "kickerL": "THE GOVERNMENT SAYS",
+    "lt": "Stopping big money",
+    "lb": "It's about stopping big money from buying elections.",
+    "lAt": 625.176,
+    "kickerR": "SOME INDEPENDENTS SAY",
+    "rt": "A major-party stitch-up",
+    "rb": "The caps protect parties that already have huge war chests.",
+    "rAt": 625.176,
+    "lc": "#16263D",
+    "rc": "#B3261E"
+   }
+  },
+  {
+   "type": "board",
+   "from": 637.476,
+   "to": 641.596,
+   "props": {
+    "filled": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6
+    ],
+    "strings": [
+     [
+      1,
+      2
+     ],
+     [
+      1,
+      3
+     ],
+     [
+      3,
+      4
+     ],
+     [
+      4,
+      5
+     ],
+     [
+      5,
+      6
+     ],
+     [
+      2,
+      6
+     ]
+    ],
+    "teal": true,
+    "extra": {
+     "title": "THE RULEBOOK",
+     "at": 637.736
+    }
+   }
+  },
+  {
+   "type": "chapter",
+   "from": 641.596,
+   "to": 644.776,
+   "props": {
+    "kicker": "THE REVEAL",
+    "title": "The Real Kingmaker",
+    "crown": true
+   }
+  },
+  {
+   "type": "big",
+   "from": 646.936,
+   "to": 652.116,
+   "props": {
+    "lines": [
+     {
+      "t": "SINCE 1924",
+      "size": 150,
+      "color": "#E8CC6E",
+      "at": 647.016
+     },
+     {
+      "t": "COMPULSORY VOTING",
+      "size": 60,
+      "font": "sans",
+      "at": 651.236
+     }
+    ],
+    "source": "Source: Australian Electoral Commission"
+   }
+  },
+  {
+   "type": "turnout",
+   "from": 654.056,
+   "to": 661.246,
+   "props": {
+    "dotsAt": 654.776,
+    "nineAt": 655.016,
+    "ukAt": 657.236,
+    "source": "Source: AEC / International IDEA"
+   }
+  },
+  {
+   "type": "voter",
+   "from": 698.196,
+   "to": 700.516,
+   "props": {
+    "flyAt": 698.736
+   }
+  },
+  {
+   "type": "crown",
+   "from": 733.726,
+   "to": 738.546,
+   "props": {
+    "path": [
+     960,
+     -60,
+     300
+    ],
+    "size": 240
+   }
+  },
+  {
+   "type": "cards",
+   "from": 743.066,
+   "to": 750.626,
+   "props": {
+    "title": "Who holds the most power?",
+    "cols": 4,
+    "cw": 330,
+    "items": [
+     {
+      "title": "The media",
+      "at": 746.186,
+      "size": 40
+     },
+     {
+      "title": "The money",
+      "at": 746.866,
+      "size": 40
+     },
+     {
+      "title": "The parties",
+      "at": 747.526,
+      "size": 40
+     },
+     {
+      "title": "The voters",
+      "at": 748.506,
+      "size": 40
+     }
+    ]
+   }
+  },
+  {
+   "type": "endscreen",
+   "from": 750.546,
+   "to": 759.036,
+   "props": {}
+  },
+  {
+   "type": "endscreen",
+   "from": 759.036,
+   "to": 761.626,
+   "props": {
+    "cont": true
+   }
+  }
+ ],
+ "explain": [
+  [
+   23.23,
+   26.01
+  ],
+  [
+   30.29,
+   32.11
+  ],
+  [
+   48.04,
+   52.45
+  ],
+  [
+   52.9,
+   57.08
+  ],
+  [
+   57.1,
+   60.28
+  ],
+  [
+   70.63,
+   73.77
+  ],
+  [
+   80.6,
+   83.24
+  ],
+  [
+   84.7,
+   90.72
+  ],
+  [
+   96.86,
+   98.13
+  ],
+  [
+   116.34,
+   119.56
+  ],
+  [
+   152.25,
+   156.85
+  ],
+  [
+   164.51,
+   171.246
+  ],
+  [
+   179.406,
+   183.206
+  ],
+  [
+   191.576,
+   199.256
+  ],
+  [
+   209.036,
+   212.016
+  ],
+  [
+   241.356,
+   249.736
+  ],
+  [
+   264.276,
+   268.166
+  ],
+  [
+   268.166,
+   271.146
+  ],
+  [
+   288.086,
+   292.806
+  ],
+  [
+   312.966,
+   322.926
+  ],
+  [
+   344.556,
+   366.126
+  ],
+  [
+   366.586,
+   372.046
+  ],
+  [
+   377.106,
+   382.156
+  ],
+  [
+   382.156,
+   385.136
+  ],
+  [
+   387.286,
+   392.116
+  ],
+  [
+   396.296,
+   407.136
+  ],
+  [
+   421.836,
+   429.396
+  ],
+  [
+   438.466,
+   440.646
+  ],
+  [
+   453.666,
+   459.326
+  ],
+  [
+   464.626,
+   467.606
+  ],
+  [
+   477.056,
+   489.856
+  ],
+  [
+   496.176,
+   502.646
+  ],
+  [
+   509.586,
+   512.066
+  ],
+  [
+   511.986,
+   518.666
+  ],
+  [
+   530.796,
+   534.566
+  ],
+  [
+   534.566,
+   537.546
+  ],
+  [
+   546.806,
+   555.476
+  ],
+  [
+   562.066,
+   566.716
+  ],
+  [
+   566.636,
+   579.046
+  ],
+  [
+   592.376,
+   594.576
+  ],
+  [
+   594.376,
+   596.756
+  ],
+  [
+   600.186,
+   615.786
+  ],
+  [
+   615.706,
+   625.086
+  ],
+  [
+   625.006,
+   635.116
+  ],
+  [
+   637.476,
+   641.596
+  ],
+  [
+   641.596,
+   644.776
+  ],
+  [
+   646.936,
+   652.116
+  ],
+  [
+   654.056,
+   661.246
+  ],
+  [
+   698.196,
+   700.516
+  ],
+  [
+   743.066,
+   750.626
+  ],
+  [
+   750.546,
+   759.036
+  ],
+  [
+   759.036,
+   761.626
+  ]
+ ]
+}

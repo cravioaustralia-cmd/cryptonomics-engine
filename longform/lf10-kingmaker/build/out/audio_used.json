@@ -1,0 +1,28 @@
+{
+ "sfx": [
+  "SFX_bass_impact",
+  "SFX_clock_ticks",
+  "SFX_crowd_murmur",
+  "SFX_drone_low",
+  "SFX_gavel",
+  "SFX_heartbeat",
+  "SFX_press_machinery_hum",
+  "SFX_record_scratch",
+  "SFX_shutter",
+  "SFX_stamp",
+  "SFX_typewriter",
+  "SFX_vintage_phone_ring",
+  "SFX_whoosh_set"
+ ],
+ "music": [
+  "MUS_01_tense_pulse",
+  "MUS_02_investigative",
+  "MUS_03_archival",
+  "MUS_04_momentum",
+  "MUS_05_sober",
+  "MUS_06_tense_resolve",
+  "MUS_07_retro_synth",
+  "MUS_08_industrial_percussion",
+  "MUS_09_playful_plucks"
+ ]
+}
