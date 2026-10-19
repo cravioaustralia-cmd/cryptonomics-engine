@@ -1,6 +1,6 @@
 # lf10-kingmaker - ASSET LIST
 
-Counts: REUSE 46 · NEW 59 · MISSING-fallback 38 · AI-PROMPT 10 (to generate)
+Counts: REUSE 46 · NEW 69 · MISSING-fallback 38
 
 Segment ranges like S01-S03 (music) apply to every segment in between.
 
@@ -8,35 +8,35 @@ Segment ranges like S01-S03 (music) apply to every segment in between.
 
 | segment | shots | base assets |
 |---|---|---|
-| S01 | 0.1+0.2+0.3 (51 w) | IMG_whitlam_headshot, IMG_whitlam_after_dismissal_1975, IMG_kerr_governor_general, IMG_whitlam_lodge_1974, MUS_01_tense_pulse, SFX_clock_ticks, SFX_drone_low, SFX_bass_impact, BR_AI_01_driveway_dusk (AI-PROMPT), BR_AI_02_ballot_into_box (AI-PROMPT) |
+| S01 | 0.1+0.2+0.3 (51 w) | IMG_whitlam_headshot, IMG_whitlam_after_dismissal_1975, IMG_kerr_governor_general, IMG_whitlam_lodge_1974, MUS_01_tense_pulse, SFX_clock_ticks, SFX_drone_low, SFX_bass_impact, BR_AI_01_driveway_dusk, BR_AI_02_ballot_into_box |
 | S02 | 0.4+0.5 (39 w) | IMG_abbott_official, IMG_senate_chamber, MUS_01_tense_pulse, SFX_shutter, PV01_four_pms_final_weeks (MISSING), PV02_senate_chamber_2014 (MISSING) |
-| S03 | 0.6+0.7+0.8 (52 w) | IMG_parliament_house_flag, IMG_parliament_house_blue_hour, BR_STOCK_parliament_house_canberra, BR_STOCK_printing_press, BR_STOCK_digital_screens, BR_AI_news_desk, BR_AI_strategy_room_whiteboard, MUS_01_tense_pulse, SFX_drone_low, SFX_press_machinery_hum, BR_STOCK_haul_trucks_slowmo (MISSING), BR_AI_03_corridor_door_night (AI-PROMPT) |
+| S03 | 0.6+0.7+0.8 (52 w) | IMG_parliament_house_flag, IMG_parliament_house_blue_hour, BR_STOCK_parliament_house_canberra, BR_STOCK_printing_press, BR_STOCK_digital_screens, BR_AI_news_desk, BR_AI_strategy_room_whiteboard, MUS_01_tense_pulse, SFX_drone_low, SFX_press_machinery_hum, BR_STOCK_haul_trucks_slowmo (MISSING), BR_AI_03_corridor_door_night |
 | S04 | 1.1+1.2 (40 w) | IMG_murdoch_reagan_oval_office, IMG_murdoch_2011, BR_STOCK_newspaper_flipping_pov, BR_STOCK_adelaide_skyline, BR_STOCK_london_city, MUS_02_investigative, BR_STOCK_nyc_midtown_night (MISSING) |
 | S05 | 1.3+1.4 (53 w) | IMG_murdoch_2011, BR_STOCK_digital_screens, BR_STOCK_sydney_aerial_skyscrapers, BR_STOCK_melbourne_aerial_dusk, BR_STOCK_brisbane_aerial, BR_STOCK_perth_elizabeth_quay, BR_STOCK_us_flag_closeup, MUS_02_investigative, BR_STOCK_broadcast_control_room (MISSING) |
 | S06 | 1.5+1.6 (50 w) | IMG_whitlam_policy_speech_1972, IMG_whitlam_blacktown_rally, IMG_first_whitlam_ministry_1972, IMG_fraser_1974, BR_STOCK_typewriter_closeup, MUS_02_investigative, SFX_paper_slide, BR_STOCK_hand_signing_letter (MISSING) |
 | S07 | 1.7+1.8 (50 w) | IMG_murdoch_2011, BR_STOCK_open_office_empty, BR_STOCK_newspaper_press_running, MUS_02_investigative, SFX_typewriter |
-| S08 | 1.9+1.10 (39 w) | IMG_rudd_2007, IMG_house_of_reps_chamber, BR_STOCK_newspaper_flipping_pov, BR_STOCK_laptop_typing, MUS_02_investigative, PV03_pm_dispatch_box (MISSING), BR_AI_04_newspaper_doorstep (AI-PROMPT) |
+| S08 | 1.9+1.10 (39 w) | IMG_rudd_2007, IMG_house_of_reps_chamber, BR_STOCK_newspaper_flipping_pov, BR_STOCK_laptop_typing, MUS_02_investigative, PV03_pm_dispatch_box (MISSING), BR_AI_04_newspaper_doorstep |
 | S09 | 1.11+1.12 (51 w) | IMG_turnbull_peo, DOC_aph_epetition_EN1938, MUS_02_investigative, PV04_leigh_petition_9nov2020 (MISSING), PV05_media_inquiry_feb2021 (MISSING) |
 | S10 | 1.13+1.14 (35 w) | IMG_polling_place_2022, IMG_albanese_dfat, DOC_aec_tallyroom_dickson_2025, MUS_02_investigative, SFX_stamp, SFX_record_scratch, PV06_albanese_2022_48th_parl_2025 (MISSING), BR_STOCK_polling_day_crowd_school (MISSING) |
-| S11 | 1.15+1.16 (61 w) | IMG_murdoch_2015, IMG_lachlan_murdoch_2018, BR_STOCK_phone_scrolling, MUS_02_investigative, BR_AI_05_newspaper_train_seat (AI-PROMPT) |
+| S11 | 1.15+1.16 (61 w) | IMG_murdoch_2015, IMG_lachlan_murdoch_2018, BR_STOCK_phone_scrolling, MUS_02_investigative, BR_AI_05_newspaper_train_seat |
 | S12 | 2.1+2.2 (38 w) | BR_STOCK_tv_static_bw, BR_STOCK_tv_rainy_night_room, BR_STOCK_cricket_ground_waca, BR_AI_1990s_lounge_tv_glow, MUS_07_retro_synth, IMG_packer (MISSING), BR_STOCK_cricket_ball_closeup (MISSING) |
 | S13 | 2.3+2.4 (33 w) | IMG_house_of_reps_chamber, BR_STOCK_vintage_phone_ringing, MUS_07_retro_synth, SFX_vintage_phone_ring, PV07_packer_print_media_committee_1991 (MISSING), DOC_aph_news_and_fair_facts_1992 (MISSING) |
 | S14 | 2.5+2.6 (56 w) | IMG_parliament_house_flag, BR_STOCK_parliament_house_canberra, BR_STOCK_calculator_accounts, MUS_07_retro_synth, SFX_room_tone, SFX_gavel, PV07_packer_print_media_committee_1991 (MISSING) |
-| S15 | 2.7 (28 w) | MUS_07_retro_synth, BR_AI_06_boardroom_empty_chair (AI-PROMPT) |
+| S15 | 2.7 (28 w) | MUS_07_retro_synth, BR_AI_06_boardroom_empty_chair |
 | S16 | 3.1+3.2 (28 w) | IMG_super_pit_kalgoorlie, IMG_coal_train_qld, BR_STOCK_gas_flare, BR_STOCK_ore_train, DOC_pmtranscripts_17260_rspt_2010, MUS_08_industrial_percussion, PV08_rspt_may2010 (MISSING) |
 | S17 | 3.3+3.4 (58 w) | IMG_rinehart_2015, IMG_forrest_2017, BR_STOCK_digital_screens, BR_STOCK_perth_elizabeth_quay, BR_STOCK_crowd_street_crossing, BR_STOCK_perth_cbd_william_st, MUS_08_industrial_percussion, SFX_crowd_murmur, IMG_perth_mining_tax_rally_2010 (MISSING), BR_STOCK_haul_trucks_slowmo (MISSING) |
 | S18 | 3.5+3.6 (65 w) | IMG_rudd_2007, IMG_parliament_house_blue_hour, MUS_08_industrial_percussion, PV09_gillard_first_qt_24jun2010 (MISSING) |
 | S19 | 3.7+3.8 (45 w) | IMG_gillard, IMG_palmer_2015, IMG_senate_chamber, MUS_08_industrial_percussion, PV10_mrrt_repeal_senate_sep2014 (MISSING), PV11_palmer_mp_2013_2016 (MISSING) |
-| S20 | 3.9 (45 w) | MUS_08_industrial_percussion, BR_STOCK_highway_billboards (MISSING), BR_AI_07_letterbox_flyers (AI-PROMPT) |
+| S20 | 3.9 (45 w) | MUS_08_industrial_percussion, BR_STOCK_highway_billboards (MISSING), BR_AI_07_letterbox_flyers |
 | S21 | 3.10+3.11 (43 w) | IMG_palmer_2015, IMG_senate_chamber, BR_STOCK_banknotes_aud, MUS_08_industrial_percussion, PV12_senate_july2025 (MISSING) |
-| S22 | 4.1 (20 w) | MUS_03_archival, BR_AI_03_corridor_door_night (AI-PROMPT) |
+| S22 | 4.1 (20 w) | MUS_03_archival, BR_AI_03_corridor_door_night |
 | S23 | 4.2 (49 w) | IMG_polling_place_2022, BR_STOCK_parliament_house_canberra, BR_AI_strategy_room_whiteboard, MUS_03_archival |
-| S24 | 4.3 (31 w) | BR_STOCK_canberra_sunset_sky, MUS_03_archival, BR_AI_08_phone_glow_dark (AI-PROMPT) |
+| S24 | 4.3 (31 w) | BR_STOCK_canberra_sunset_sky, MUS_03_archival, BR_AI_08_phone_glow_dark |
 | S25 | 4.4 (35 w) | BR_STOCK_chess_dark_room, BR_STOCK_chess_closeup, MUS_03_archival |
 | S26 | 4.5+4.6 (41 w) | IMG_howard_2006_ec, IMG_rights_at_work_campaign, IMG_abbott_official, BR_STOCK_suburbs_aerial_rooftops, MUS_03_archival, SFX_shutter, SFX_heartbeat, PV01_four_pms_final_weeks (MISSING) |
 | S27 | 4.7+4.8 (48 w) | BR_STOCK_padlock_shed, BR_STOCK_revolving_door, MUS_03_archival, BR_STOCK_commuters_station_screen (MISSING) |
 | S28 | 5.1 (23 w) | IMG_senate_ballot_vic_folded, MUS_09_playful_plucks |
-| S29 | 5.2 (44 w) | MUS_09_playful_plucks, BR_AI_09_ballot_count_hands (AI-PROMPT) |
+| S29 | 5.2 (44 w) | MUS_09_playful_plucks, BR_AI_09_ballot_count_hands |
 | S30 | 5.3 (35 w) | BR_STOCK_handshake_table, MUS_09_playful_plucks, IMG_druery (MISSING) |
 | S31 | 5.4+5.5 (45 w) | IMG_muir_senators_swearing_in_2014, BR_STOCK_melbourne_aerial_dusk, MUS_09_playful_plucks, PV13_muir_senate_2014 (MISSING), BR_STOCK_puzzled_person_long_form (MISSING) |
 | S32 | 5.6+5.7 (44 w) | IMG_senate_chamber, BR_STOCK_book_pages_turning, MUS_09_playful_plucks, PV14_senate_reform_mar2016 (MISSING) |
@@ -50,8 +50,8 @@ Segment ranges like S01-S03 (music) apply to every segment in between.
 | S40 | 8.3 (38 w) | BR_STOCK_sydney_street_timelapse, BR_STOCK_crowd_street_crossing, MUS_05_sober, SFX_crowd_murmur |
 | S41 | 8.4 (35 w) | BR_STOCK_nurse_corridor_back, MUS_05_sober, BR_STOCK_parent_kids_school (MISSING), BR_STOCK_tradie_ute (MISSING), BR_STOCK_student_bus (MISSING) |
 | S42 | 8.5+8.6 (57 w) | IMG_howard_2006_ec, IMG_dutton_2018, BR_STOCK_printing_press, BR_STOCK_newspaper_flipping_pov, BR_STOCK_tv_static_bw, BR_AI_election_night_empty_hall, MUS_06_tense_resolve |
-| S43 | 8.7+8.8 (62 w) | IMG_whitlam_headshot, IMG_whitlam_after_dismissal_1975, IMG_dismissal_demonstration_1975, IMG_fraser_1974, IMG_fraser_1977, IMG_whitlam_lodge_1974, MUS_06_tense_resolve, BR_AI_02_ballot_into_box (AI-PROMPT) |
-| S44 | 8.9+8.10 (41 w) | MUS_06_tense_resolve, SFX_pencil_writing, BR_AI_10_pencil_marks_ballot (AI-PROMPT) |
+| S43 | 8.7+8.8 (62 w) | IMG_whitlam_headshot, IMG_whitlam_after_dismissal_1975, IMG_dismissal_demonstration_1975, IMG_fraser_1974, IMG_fraser_1977, IMG_whitlam_lodge_1974, MUS_06_tense_resolve, BR_AI_02_ballot_into_box |
+| S44 | 8.9+8.10 (41 w) | MUS_06_tense_resolve, SFX_pencil_writing, BR_AI_10_pencil_marks_ballot |
 | S45 | 9.1+9.2 (54 w) | IMG_parliament_house_blue_hour, BR_STOCK_parliament_house_canberra, BR_STOCK_canberra_sunset_sky, MUS_06_tense_resolve |
 
 ## All assets
@@ -135,7 +135,7 @@ Segment ranges like S01-S03 (music) apply to every segment in between.
 | BR_AI_1990s_lounge_tv_glow | broll/BR_AI_1990s_lounge_tv_glow.mp4 | S12 | Grok Imagine | AI-generated | AI-generated (Grok Imagine) | REUSE | from lf09; 720p 10 s, Grok watermark: crop/cover; label "Dramatised reconstruction" |
 | BR_AI_election_night_empty_hall | broll/BR_AI_election_night_empty_hall.mp4 | S42 | Grok Imagine | AI-generated | AI-generated (Grok Imagine) | REUSE | from lf09; 720p 10 s, Grok watermark: crop/cover; label "Dramatised reconstruction" |
 | DOC_pmtranscripts_17260_rspt_2010 | docs/DOC_pmtranscripts_17260_rspt_2010.png | S16 | https://pmtranscripts.pmc.gov.au/release/transcript-17260 | CC BY 4.0 (PM Transcripts text; Coat of Arms and photos excluded) | Licensed from the Commonwealth of Australia under CC BY 4.0 | NEW | 1920x1080 headless-Chrome screenshot 19 Oct 2026; 2 May 2010 "Stronger, fairer, simpler" media release (RSPT); + _tall.png for scroll. Rudd photo and Coat of Arms on page are NOT CC BY - crop to text |
-| DOC_aec_fadreform_2026 | docs/DOC_aec_fadreform_2026.png | S37 | https://www.aec.gov.au/FADReform/ | AEC website (Commonwealth; see aec.gov.au copyright page) | Australian Electoral Commission | NEW | 1920x1080 headless-Chrome screenshot 19 Oct 2026; + _tall.png for scroll. PAGE SAYS NEW SCHEME COMMENCES 1 JANUARY 2027 (contradicts VO "first of July 2026") |
+| DOC_aec_fadreform_2026 | docs/DOC_aec_fadreform_2026.png | S37 | https://www.aec.gov.au/FADReform/ | AEC website (Commonwealth; see aec.gov.au copyright page) | Australian Electoral Commission | NEW | 1920x1080 headless-Chrome screenshot 19 Oct 2026; + _tall.png for scroll. page: changes from 1 July 2026, new scheme/caps from 1 January 2027 (matches updated S37 VO) |
 | DOC_aph_epetition_EN1938 | docs/DOC_aph_epetition_EN1938.png | S09 | https://www.aph.gov.au/e-petitions/petition/EN1938 | Parliament of Australia website (see aph.gov.au copyright/disclaimer) | Parliament of Australia | NEW | 1920x1080 headless-Chrome screenshot 19 Oct 2026; Rudd petition EN1938, 501,876 signatures (ParlView PV04 fallback) |
 | DOC_aec_tallyroom_dickson_2025 | docs/DOC_aec_tallyroom_dickson_2025.png | S10 | https://results.aec.gov.au/31496/Website/HouseDivisionPage-31496-252.htm | AEC website (Commonwealth) | Australian Electoral Commission | NEW | 1920x1080 headless-Chrome screenshot 19 Oct 2026; 2025 Dickson result (Dutton loses seat) |
 | MUS_01_tense_pulse | audio/music/MUS_01_tense_pulse.mp3 | S01-S03 | see lf09 ASSET_LIST / lf08 audio/MUSIC_CREDITS.md | Mixkit Stock Music Free License | Mixkit | REUSE | from lf09; cold open "investigative pulse" (Moon Walk, Eugenio Mininni; lf08 MUS01) |
@@ -179,7 +179,7 @@ Segment ranges like S01-S03 (music) apply to every segment in between.
 | PV14_senate_reform_mar2016 | - | S32 | parlview.aph.gov.au | Parliament of Australia broadcast conditions | Parliament of Australia / ParlView | MISSING | 2016 all-night sitting. ParlView: not downloaded (APH Conditions 5.12: fair and accurate reports only, balanced, no digital manipulation, no party/commercial advertising; AUSParliamentLive needs written permission; lf03/lf05/lf09 precedent FREE SWAP). Fallback: IMG_senate_ballot_vic_folded + IMG_senate_chamber |
 | PV15_teal_first_speeches_2022 | - | S33 | parlview.aph.gov.au | Parliament of Australia broadcast conditions | Parliament of Australia / ParlView | MISSING | Ryan, Spender, Scamps. ParlView: not downloaded (APH Conditions 5.12: fair and accurate reports only, balanced, no digital manipulation, no party/commercial advertising; AUSParliamentLive needs written permission; lf03/lf05/lf09 precedent FREE SWAP). Fallback: IMG_house_of_reps_chamber + seat-name bar (no free portraits sourced) |
 | PV16_jscem_climate200_teal_vs_liberal | - | S34, S35 | parlview.aph.gov.au | Parliament of Australia broadcast conditions | Parliament of Australia / ParlView | MISSING | JSCEM / teal MP vs Liberal MP. ParlView: not downloaded (APH Conditions 5.12: fair and accurate reports only, balanced, no digital manipulation, no party/commercial advertising; AUSParliamentLive needs written permission; lf03/lf05/lf09 precedent FREE SWAP). Fallback: IMG_holmes_a_court + IMG_house_of_reps_chamber + two-sided text bar |
-| PV17_electoral_reform_bill_feb2025 | - | S37 | parlview.aph.gov.au | Parliament of Australia broadcast conditions | Parliament of Australia / ParlView | MISSING | Parliament passes bill. ParlView: not downloaded (APH Conditions 5.12: fair and accurate reports only, balanced, no digital manipulation, no party/commercial advertising; AUSParliamentLive needs written permission; lf03/lf05/lf09 precedent FREE SWAP). Fallback: DOC_aec_fadreform_2026 + BR_STOCK_parliament_house_canberra |
+| PV17_electoral_reform_bill_feb2025 | - | S37 | parlview.aph.gov.au | Parliament of Australia broadcast conditions | Parliament of Australia / ParlView | MISSING | Parliament passes bill. ParlView: not downloaded (APH Conditions 5.12: fair and accurate reports only, balanced, no digital manipulation, no party/commercial advertising; AUSParliamentLive needs written permission; lf03/lf05/lf09 precedent FREE SWAP). Fallback: DOC_aec_fadreform_2026 + BR_STOCK_parliament_house_canberra; card: CHANGES FROM 1 JULY 2026 / NATIONAL CAPS FROM 1 JANUARY 2027 / Source: AEC |
 | PV18_farrell_vs_independent_feb2025 | - | S38 | parlview.aph.gov.au | Parliament of Australia broadcast conditions | Parliament of Australia / ParlView | MISSING | equal-time clips. ParlView: not downloaded (APH Conditions 5.12: fair and accurate reports only, balanced, no digital manipulation, no party/commercial advertising; AUSParliamentLive needs written permission; lf03/lf05/lf09 precedent FREE SWAP). Fallback: two equal text panels over BR_STOCK_parliament_house_canberra |
 | IMG_packer | - | S12 | - | - | - | MISSING | Kerry Packer photo: none free on Commons (Wikipedia files are fair-use only). Fallback: name card over BR_STOCK_cricket_ground_waca (script fallback) |
 | IMG_druery | - | S30 | - | - | - | MISSING | Glenn Druery: no free photo on Commons. Fallback: name card over BR_STOCK_handshake_table (script fallback) |
@@ -201,21 +201,22 @@ Segment ranges like S01-S03 (music) apply to every segment in between.
 | BR_STOCK_tradie_ute | - | S41 | - | - | - | MISSING | not found. Fallback: Pexels "tradesman ute" |
 | BR_STOCK_student_bus | - | S41 | - | - | - | MISSING | Mixkit bus clips Restricted. Fallback: BR_STOCK_phone_scrolling; Pexels "student bus" |
 | BR_STOCK_bondi_eastern_suburbs_aerial | - | S33 | - | - | - | MISSING | not found free. Fallback: BR_STOCK_suburbs_aerial_rooftops / BR_STOCK_sydney_aerial_skyscrapers |
-| BR_AI_01_driveway_dusk | broll/BR_AI_01_driveway_dusk.mp4 (to generate) | S01 | Grok Imagine | AI-generated | AI-generated (Grok Imagine) | AI-PROMPT | prompt in broll/AI_PROMPTS.tsv; label "Dramatised reconstruction" |
-| BR_AI_02_ballot_into_box | broll/BR_AI_02_ballot_into_box.mp4 (to generate) | S01, S43 | Grok Imagine | AI-generated | AI-generated (Grok Imagine) | AI-PROMPT | prompt in broll/AI_PROMPTS.tsv; label "Dramatised reconstruction" |
-| BR_AI_03_corridor_door_night | broll/BR_AI_03_corridor_door_night.mp4 (to generate) | S03, S22 | Grok Imagine | AI-generated | AI-generated (Grok Imagine) | AI-PROMPT | prompt in broll/AI_PROMPTS.tsv; label "Dramatised reconstruction" |
-| BR_AI_04_newspaper_doorstep | broll/BR_AI_04_newspaper_doorstep.mp4 (to generate) | S08 | Grok Imagine | AI-generated | AI-generated (Grok Imagine) | AI-PROMPT | prompt in broll/AI_PROMPTS.tsv; label "Dramatised reconstruction" |
-| BR_AI_05_newspaper_train_seat | broll/BR_AI_05_newspaper_train_seat.mp4 (to generate) | S11 | Grok Imagine | AI-generated | AI-generated (Grok Imagine) | AI-PROMPT | prompt in broll/AI_PROMPTS.tsv; label "Dramatised reconstruction" |
-| BR_AI_06_boardroom_empty_chair | broll/BR_AI_06_boardroom_empty_chair.mp4 (to generate) | S15 | Grok Imagine | AI-generated | AI-generated (Grok Imagine) | AI-PROMPT | prompt in broll/AI_PROMPTS.tsv; label "Dramatised reconstruction" |
-| BR_AI_07_letterbox_flyers | broll/BR_AI_07_letterbox_flyers.mp4 (to generate) | S20 | Grok Imagine | AI-generated | AI-generated (Grok Imagine) | AI-PROMPT | prompt in broll/AI_PROMPTS.tsv; label "Dramatised reconstruction" |
-| BR_AI_08_phone_glow_dark | broll/BR_AI_08_phone_glow_dark.mp4 (to generate) | S24 | Grok Imagine | AI-generated | AI-generated (Grok Imagine) | AI-PROMPT | prompt in broll/AI_PROMPTS.tsv; label "Dramatised reconstruction" |
-| BR_AI_09_ballot_count_hands | broll/BR_AI_09_ballot_count_hands.mp4 (to generate) | S29 | Grok Imagine | AI-generated | AI-generated (Grok Imagine) | AI-PROMPT | prompt in broll/AI_PROMPTS.tsv; label "Dramatised reconstruction" |
-| BR_AI_10_pencil_marks_ballot | broll/BR_AI_10_pencil_marks_ballot.mp4 (to generate) | S44 | Grok Imagine | AI-generated | AI-generated (Grok Imagine) | AI-PROMPT | prompt in broll/AI_PROMPTS.tsv; label "Dramatised reconstruction" |
+| BR_AI_01_driveway_dusk | broll/BR_AI_01_driveway_dusk.mp4 | S01 | Grok Imagine | AI-generated | AI-generated (Grok Imagine) | NEW | generated 19 Oct 2026; 1280x720, 10 s, has an audio track (mute); Grok watermark bottom-right: crop/cover; prompt in broll/AI_PROMPTS.tsv; first AI clip used gets "Dramatised reconstruction" |
+| BR_AI_02_ballot_into_box | broll/BR_AI_02_ballot_into_box.mp4 | S01, S43 | Grok Imagine | AI-generated | AI-generated (Grok Imagine) | NEW | generated 19 Oct 2026; 1280x720, 10 s, has an audio track (mute); Grok watermark bottom-right: crop/cover; prompt in broll/AI_PROMPTS.tsv; first AI clip used gets "Dramatised reconstruction" |
+| BR_AI_03_corridor_door_night | broll/BR_AI_03_corridor_door_night.mp4 | S03, S22 | Grok Imagine | AI-generated | AI-generated (Grok Imagine) | NEW | generated 19 Oct 2026; 1280x720, 10 s, has an audio track (mute); Grok watermark bottom-right: crop/cover; prompt in broll/AI_PROMPTS.tsv; first AI clip used gets "Dramatised reconstruction" |
+| BR_AI_04_newspaper_doorstep | broll/BR_AI_04_newspaper_doorstep.mp4 | S08 | Grok Imagine | AI-generated | AI-generated (Grok Imagine) | NEW | generated 19 Oct 2026; 1280x720, 10 s, has an audio track (mute); Grok watermark bottom-right: crop/cover; prompt in broll/AI_PROMPTS.tsv; first AI clip used gets "Dramatised reconstruction" |
+| BR_AI_05_newspaper_train_seat | broll/BR_AI_05_newspaper_train_seat.mp4 | S11 | Grok Imagine | AI-generated | AI-generated (Grok Imagine) | NEW | generated 19 Oct 2026; 1280x720, 10 s, has an audio track (mute); Grok watermark bottom-right: crop/cover; prompt in broll/AI_PROMPTS.tsv; first AI clip used gets "Dramatised reconstruction" |
+| BR_AI_06_boardroom_empty_chair | broll/BR_AI_06_boardroom_empty_chair.mp4 | S15 | Grok Imagine | AI-generated | AI-generated (Grok Imagine) | NEW | generated 19 Oct 2026; 1280x720, 10 s, has an audio track (mute); Grok watermark bottom-right: crop/cover; prompt in broll/AI_PROMPTS.tsv; first AI clip used gets "Dramatised reconstruction" |
+| BR_AI_07_letterbox_flyers | broll/BR_AI_07_letterbox_flyers.mp4 | S20 | Grok Imagine | AI-generated | AI-generated (Grok Imagine) | NEW | generated 19 Oct 2026; 1280x720, 10 s, has an audio track (mute); Grok watermark bottom-right: crop/cover; prompt in broll/AI_PROMPTS.tsv; first AI clip used gets "Dramatised reconstruction" |
+| BR_AI_08_phone_glow_dark | broll/BR_AI_08_phone_glow_dark.mp4 | S24 | Grok Imagine | AI-generated | AI-generated (Grok Imagine) | NEW | generated 19 Oct 2026; 1280x720, 10 s, has an audio track (mute); Grok watermark bottom-right: crop/cover; prompt in broll/AI_PROMPTS.tsv; first AI clip used gets "Dramatised reconstruction" |
+| BR_AI_09_ballot_count_hands | broll/BR_AI_09_ballot_count_hands.mp4 | S29 | Grok Imagine | AI-generated | AI-generated (Grok Imagine) | NEW | generated 19 Oct 2026; 1280x720, 10 s, has an audio track (mute); Grok watermark bottom-right: crop/cover; prompt in broll/AI_PROMPTS.tsv; first AI clip used gets "Dramatised reconstruction" |
+| BR_AI_10_pencil_marks_ballot | broll/BR_AI_10_pencil_marks_ballot.mp4 | S44 | Grok Imagine | AI-generated | AI-generated (Grok Imagine) | NEW | generated 19 Oct 2026; 1280x720, 10 s, has an audio track (mute); Grok watermark bottom-right: crop/cover; prompt in broll/AI_PROMPTS.tsv; first AI clip used gets "Dramatised reconstruction" |
 
 ## Notes / issues
-- FACT CHECK S37: VO says the reforms came into force "On the first of July 2026". AEC (https://www.aec.gov.au/media/2026/04-01.htm, 1 Apr 2026) and DOC_aec_fadreform_2026 say the new funding and disclosure scheme starts 1 January 2027 (transition rules from 1 July 2026). VO left exactly as scripted.
+- S37 (updated 19 Oct 2026 to match the AEC): VO now says changes began 1 July 2026 and national caps apply from 1 January 2027 (https://www.aec.gov.au/media/2026/04-01.htm). Script txt 7.2 and the S37 card wording updated to match. Any card: "CHANGES FROM 1 JULY 2026 · NATIONAL CAPS FROM 1 JANUARY 2027 · Source: Australian Electoral Commission".
 - ParlView: not downloaded (APH conditions: fair and accurate reports only, balanced, no digital manipulation, no party/commercial advertising). All PV rows MISSING with fallback; same as lf03/lf05/lf09.
 - Mixkit: most newer clips are "Restricted" (personal use only). Deleted. Only videoFree clips kept. Earlier films reused lf03 F10/F12/F13/F14/F28, which now show Restricted. Check those films.
 - Pexels/Pixabay return 403 to scripted download. Several MISSING B-roll rows give a Pexels search for the browser pass.
 - Stand-ins: ore train (South Africa), crowd crossing (overseas), Super Pit (gold), 2016 Senate ballot rendering for 2013, open office has people, US flag clip is vertical, Rinehart photo is 315x455, Lachlan Murdoch photo is a group shot, Howard photo is from 2002 (EC visit with Prodi).
-- AI clips: labelled "Dramatised reconstruction". Prompts in broll/AI_PROMPTS.tsv.
+- Raw VO: audio/vo-raw/S01.mp3-S45.mp3 (45 raw Grok Atlas takes, unedited).
+- AI clips: BR_AI_01-10 generated (1280x720, 10 s, Grok watermark bottom-right, audio track to mute); labelled "Dramatised reconstruction". Prompts in broll/AI_PROMPTS.tsv.

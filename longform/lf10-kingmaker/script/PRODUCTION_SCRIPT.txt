@@ -882,17 +882,18 @@ THE RULEBOOK JUST CHANGED (13:20 – 14:20)
 7.2
 
       VO: (explainer) On the first of July 2026, the biggest changes to Australia’s electoral law
-      in forty years came into force. For the first time, there are national caps on political
-      donations, and on election spending. Political parties can spend up to ninety million
-      dollars nationally. Outside groups, like unions or Climate 200, have a cap of eleven
-      million.
+      in forty years began to come into force. And from the first of January 2027, for the
+      first time, there will be national caps on political donations, and on election spending.
+      Political parties will be able to spend up to ninety million dollars nationally. Outside
+      groups, like unions or Climate 200, will have a cap of eleven million.
+      [lf10 note: S37 text updated 19 Oct 2026 to match the AEC; the recorded VO uses this text.]
 
       BASE: [PARL] Parliament passing the Electoral Reform Bill, February 2025 → [B-ROLL]
       Parliament House exterior → blur.
 
       OVERLAY: [ANIM] Two gauges: party cap $90M, third-party cap $11M. Palmer’s 2022
       bar from Chapter 3 returns and hits the cap line.
-      TEXT: 1 JULY 2026 · Source: Australian Electoral Commission
+      TEXT: CHANGES FROM 1 JULY 2026 · NATIONAL CAPS FROM 1 JANUARY 2027 · Source: Australian Electoral Commission
 
 7.3
 
@@ -1183,7 +1184,7 @@ FACT SHEET AND SOURCES
  One Nation about $3m, three Senate         The New Daily / AAP, Feb 2026
  seats in 2025
 
- Electoral reforms from 1 July 2026;
+ Electoral reforms from 1 July 2026; caps from 1 January 2027;
                                          AEC fact sheet, Feb 2026
  biggest change in 40 years
 
