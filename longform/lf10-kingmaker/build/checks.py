@@ -22,7 +22,7 @@ def probe(path):
     v = next(s for s in js["streams"] if s["codec_type"] == "video")
     a = next(s for s in js["streams"] if s["codec_type"] == "audio")
     nb = run(["ffprobe", "-v", "error", "-count_packets", "-select_streams", "v:0", "-show_entries", "stream=nb_read_packets", "-of", "csv=p=0", path]).stdout.strip()
-    return dict(fmt=float(js["format"]["duration"]), v=float(v["duration"]), a=float(a["duration"]), w=v["width"], h=v["height"], fps=v["r_frame_rate"], frames=int(nb), size=int(js["format"]["size"]), vcodec=v["codec_name"], acodec=a["codec_name"], sr=a["sample_rate"])
+    return dict(fmt=float(js["format"]["duration"]), v=float(v["duration"]), a=float(a["duration"]), w=v["width"], h=v["height"], fps=v["r_frame_rate"], frames=int(nb.strip(",")), size=int(js["format"]["size"]), vcodec=v["codec_name"], acodec=a["codec_name"], sr=a["sample_rate"])
 
 
 def black(path):
