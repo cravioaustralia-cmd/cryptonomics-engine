@@ -1,0 +1,1215 @@
+WHO REALLY RUNS AUSTRALIA? The Hunt for the
+Kingmaker
+
+Production Script v2: real footage first, animation as a layer
+Runtime: about 13–14 minutes (about 1,950 spoken words). Timestamps are approximate;
+set final ones from the voiceover. Narration: unchanged from v1. The clean Grok file
+(kingmaker_voiceover_script.md) still matches this script line for line.
+
+
+
+
+HOW THIS SCRIPT IS BUILT
+Every shot has two layers.
+
+BASE (real): always real footage or a real photo. This is what gives the film credibility. In
+priority order:
+
+1. [PARL] Official Parliament of Australia footage from ParlView (real events, real people,
+    free under Parliament’s conditions).
+
+2. [ARCHIVE PHOTO] Real historical photos: National Archives of Australia (NAA),
+    Wikimedia Commons, Flickr (free licences only), US presidential libraries (public
+    domain).
+
+3. [B-ROLL] Real location and atmosphere footage from Pexels, Pixabay, Coverr, Mixkit
+    (free for monetised use).
+
+4. [DOC] Real documents and data pages: AEC, Hansard, PM Transcripts (CC BY 4.0).
+
+OVERLAY (animation): only when the narration explains something (numbers, systems,
+timelines, maps). It sits on top of the base layer.
+
+
+Layering rules for the editor / Claude Code
+    Explain mode: when an overlay starts, the base layer blurs (Gaussian about 14 px),
+    darkens by about 30% and keeps moving underneath. The overlay animates in on top,
+    timed to the words. When the explanation ends, the overlay leaves and the base snaps
+    back to sharp.
+
+    Witness mode: when narration describes a real event or person, show the real footage
+      or photo full-screen and sharp, with only a small lower-third label.
+
+      ParlView exception (important): Parliament’s conditions say footage must not be
+      digitally manipulated. So never blur, recolour, speed-ramp or crop ParlView footage to
+      change what it shows. If you need explain mode during a ParlView moment, cut to B-roll
+      for the blurred bed instead. Labels go in a bar below or beside the clip, not burned into
+      the people.
+
+      Photos never sit still: every still gets a slow push, pan or parallax (2-layer) move.
+
+      Pace: a new base shot every 3–5 seconds. Never more than 6 seconds on one base
+      asset.
+
+      Credit tag: every real asset gets a small corner credit, e.g. “Parliament of Australia /
+      ParlView”, “NAA”, “Wikimedia Commons / CC BY-SA 4.0 / [author]”.
+
+
+Recurring visual identity
+Gold crown motif · case board with six SUSPECT cards and red string · navy, parchment and
+gold palette (teal only in Chapter 6) · Playfair Display for titles, Inter for data (both free on
+Google Fonts).
+
+
+
+
+COLD OPEN (0:00 – 1:20)
+0.1
+
+      VO: (calm, mysterious) On the eleventh of November, 1975, the Prime Minister of
+      Australia went to a meeting at Government House.
+
+      BASE: [ARCHIVE PHOTO] Gough Whitlam, 1975, slow push-in. Then [B-ROLL] dark tree-
+      lined driveway at dusk, slow drive-in.
+
+      SOURCE: NAA PhotoSearch “Whitlam 1975” (Commonwealth photos from 1975 or
+      earlier are now out of copyright). B-roll: Pexels “driveway night car”.
+
+      TEXT: 11 NOVEMBER 1975 · GOVERNMENT HOUSE, CANBERRA
+
+      SOUND: Low drone, clock ticking.
+
+0.2
+
+      VO: (slow, heavy) He walked out no longer Prime Minister.
+
+      BASE: [ARCHIVE PHOTO] Whitlam photo, held.
+      OVERLAY: [ANIM] A fine crack runs through the photo; one half drifts away into
+      darkness.
+
+      SOUND: Single low hit, then 1 second of silence.
+
+0.3
+
+      VO: (building tension) He hadn’t lost an election. He hadn’t lost a vote in his own party.
+      He was dismissed by a man the Australian people never voted for.
+
+      BASE: [B-ROLL] Empty ballot box (2 sec) → [ARCHIVE PHOTO] Sir John Kerr, Governor-
+      General, slow pan up from medals to face.
+
+      SOURCE: Pexels “ballot box”; NAA PhotoSearch “Kerr Governor-General”; Wikimedia
+      Commons “John Kerr (governor-general)”.
+
+      TEXT: SIR JOHN KERR · GOVERNOR-GENERAL
+
+0.4
+
+      VO: (quick, punchy) Between 2010 and 2018, four sitting prime ministers were pushed
+      out. Not by voters. By their own colleagues.
+
+      BASE: [PARL] Four 1-second flashes: Rudd, Gillard, Abbott and Turnbull each speaking
+      at the dispatch box in their final weeks as PM.
+
+      SOURCE: ParlView, House of Representatives Question Time: June 2010, June 2013,
+      September 2015, August 2018.
+
+      OVERLAY: none on the clips. After the fourth clip, a clean [ANIM] card shows four
+      portrait frames turning grey with years 2010 · 2013 · 2015 · 2018.
+
+      SOUND: Four camera-shutter hits.
+
+0.5
+
+      VO: (intrigued) In 2013, a man was elected to the Senate when his party won about half
+      of one percent of the vote.
+
+      BASE: [PARL] Wide shot of the Senate chamber in session, 2014. → blur to explain
+      mode.
+
+      OVERLAY: [ANIM] Bar chart; a tiny bar labelled 0.5% rockets past all the others.
+      (Because this is ParlView, cut to B-roll “Senate chamber” from Pexels or a blurred
+      Parliament House exterior for the bed instead of blurring the ParlView clip.)
+
+      TEXT: 0.5%
+
+0.6
+      VO: (low, ominous) And for decades, the most feared figure in Australian politics wasn’t
+      even an Australian citizen.
+
+      BASE: [B-ROLL] Newspaper printing press, extreme close-up, papers racing → stacked
+      newspapers being bundled.
+
+      SOURCE: Pexels / Pixabay “printing press newspaper”, “newspaper bundles”.
+
+      SOUND: Press machinery rising.
+
+0.7
+
+      VO: (curious, direct to viewer) So who really decides who runs this country? Media
+      barons? Billionaires? Backroom factions?
+
+      BASE: [B-ROLL] Three fast cuts, one per word: newsroom screens → mining haul truck
+      → dark corridor. Then drone shot of Parliament House at dusk.
+
+      SOURCE: Pexels “newsroom”, “mining truck”, “office corridor night”, “Parliament House
+      Canberra aerial”.
+
+      OVERLAY: [ANIM] On the drone shot, the gold crown lowers slowly over the building
+      (base stays sharp; crown is a light overlay).
+
+0.8
+
+      VO: (energised, promise) Today, we line up the suspects one by one. And stay to the
+      end, because the real kingmaker is someone almost nobody talks about.
+
+      BASE: [B-ROLL] Slow push along the front of Parliament House → blur.
+
+      OVERLAY: [ANIM] Case board appears with six empty frames: SUSPECT #1 to #6.
+
+      SOUND: Investigative pulse music begins.
+
+0.9 TITLE
+
+      BASE: [B-ROLL] Australian flag on Parliament House flagpole, slow motion, blurred.
+
+      OVERLAY: [ANIM] “WHO REALLY RUNS AUSTRALIA?” with gold underline and crown
+      icon.
+
+      SOURCE: Pexels “Parliament House flag Canberra”.
+
+
+
+
+SUSPECT #1: THE PRESS BARON (1:20 – 4:15)
+1.1
+
+      VO: (storytelling) Ask most Australians who the kingmaker is, and you’ll hear one name
+      first. Rupert Murdoch.
+
+      BASE: [B-ROLL] Newsstand / newsagent racks → [ARCHIVE PHOTO] Rupert Murdoch,
+      full-screen.
+
+      SOURCE: Pexels “newsagent newspapers”; Wikimedia Commons category “Rupert
+      Murdoch” (CC BY or CC BY-SA only; skip NC files). Also check the Ronald Reagan
+      Presidential Library for photos of Murdoch with Reagan in the 1980s: White House
+      photos are US government works and public domain.
+
+      OVERLAY: Small “SUSPECT #1 · THE PRESS BARON” tag slides in at the bottom.
+
+1.2
+
+      VO: (narrative) He inherited a single newspaper in Adelaide in the 1950s and turned it
+      into a global empire. Newspapers, television, and eventually Fox News in America.
+
+      BASE: [B-ROLL] Adelaide city aerial → London skyline → New York Midtown at night.
+
+      SOURCE: Pexels “Adelaide aerial”, “London skyline”, “Manhattan night”.
+
+      OVERLAY: [ANIM] Thin gold line traces Adelaide → Sydney → London → New York on a
+      translucent world map (base blurred).
+
+1.3
+
+      VO: (matter-of-fact) In Australia, his company became the country’s largest media
+      organisation, with papers in nearly every major city.
+
+      BASE: [B-ROLL] Quick cuts of Sydney, Melbourne, Brisbane, Perth skylines.
+
+      OVERLAY: [ANIM] Map of Australia; capitals light up with a newspaper icon (base
+      blurred).
+
+      TEXT: Source tag: Reuters / Al Jazeera, 2020
+
+1.4
+
+      VO: (reveal, slight smile) And here’s the first twist. In 1985, Murdoch became an
+      American citizen, because US law didn’t allow foreigners to own American TV stations.
+      So for decades, the most feared player in Australian politics wasn’t technically
+      Australian.
+
+      BASE: [B-ROLL] US flag waving → TV broadcast control room → [ARCHIVE PHOTO]
+      Murdoch.
+      SOURCE: Pexels “American flag”, “broadcast control room”.
+
+      OVERLAY: [ANIM] Passport flips from Australian to American over the control room shot
+      (blurred). Case board: first red string pinned.
+
+      TEXT: 1985 · US CITIZENSHIP
+
+1.5
+
+      VO: (warm, nostalgic) His power first showed in 1972. His national paper, The Australian,
+      backed Labor’s Gough Whitlam and the famous “It’s Time” campaign. Whitlam won.
+
+      BASE: [ARCHIVE PHOTO] Whitlam campaigning in 1972 → Whitlam being sworn in,
+      December 1972.
+
+      SOURCE: NAA PhotoSearch “Whitlam 1972”, “Whitlam swearing in 1972”; Wikimedia
+      Commons “1972 Australian federal election”.
+
+      TEXT: 1972 · “IT’S TIME”
+
+1.6
+
+      VO: (darker) Three years later, Murdoch turned. During the 1975 election, his papers
+      campaigned so hard against Whitlam that seventy-five of his own journalists wrote to
+      him in protest.
+
+      BASE: [ARCHIVE PHOTO] Malcolm Fraser campaigning, 1975 → [B-ROLL] close-up of
+      an old typewriter typing, then a hand signing paper.
+
+      SOURCE: NAA PhotoSearch “Fraser 1975 campaign”; Pexels “vintage typewriter”,
+      “signing letter”.
+
+      OVERLAY: [ANIM] Over the signing shot (blurred), a parchment letter appears; 75
+      signature marks fill the bottom one by one. Recreated, not an invented text: label reads
+      “Letter from 75 News Limited journalists, Dec 1975”.
+
+1.7
+
+      VO: (dramatic) And on the eighth of December 1975, they did something no Australian
+      journalists had done before. They went on strike over their own paper’s coverage.
+
+      BASE: [B-ROLL] Empty newsroom desks, chair still spinning → printing press slowing to
+      a stop.
+
+      SOURCE: Pexels “empty office desks”, “printing press stop”.
+
+      OVERLAY: Lower-third only.
+
+      TEXT: 8 DECEMBER 1975 · FIRST STRIKE OVER EDITORIAL COVERAGE
+      SOUND: Typewriters stopping one by one.
+
+1.8
+
+      VO: (fair, even) Murdoch had a different view. He later argued it was the journalists who
+      were showing bias, and that his editors were simply cutting it out.
+
+      BASE: [ARCHIVE PHOTO] Murdoch, neutral expression, slow push.
+
+      TEXT: Murdoch’s position · 1977 interview
+
+1.9
+
+      VO: (building) Ever since, prime ministers have known one thing: you don’t want the
+      Murdoch papers against you.
+
+      BASE: [B-ROLL] Morning newspaper landing on a doorstep → [PARL] a Prime Minister at
+      the dispatch box (any, neutral).
+
+      SOURCE: Pexels “newspaper doorstep”; ParlView Question Time.
+
+1.10
+
+      VO: (serious) In 2020, former Prime Minister Kevin Rudd called Murdoch’s empire a
+      cancer on Australian democracy, and launched a petition for a royal commission.
+
+      BASE: [ARCHIVE PHOTO] Kevin Rudd → [B-ROLL] hands typing on a laptop, a “sign
+      petition” style form (generic, no real website).
+
+      SOURCE: Wikimedia Commons “Kevin Rudd”; Pexels “typing laptop”.
+
+      OVERLAY: [ANIM] Signature counter ticking up over the blurred laptop shot.
+
+1.11
+
+      VO: (impressed) It got five hundred and one thousand, eight hundred and seventy-six
+      signatures. The biggest electronic petition in the history of Australia’s Parliament.
+
+      BASE: [PARL] Labor MP Andrew Leigh carrying the printed petition into the House of
+      Representatives. Full-screen, unaltered.
+
+      SOURCE: ParlView, House of Representatives, 9 November 2020.
+
+      TEXT (in lower bar): 501,876 SIGNATURES · Source: Parliament of Australia
+
+1.12
+
+      VO: (careful, balanced) Former Liberal Prime Minister Malcolm Turnbull backed the
+      petition, and has argued the Murdoch press helped bring him down in 2018. News Corp
+      has always rejected claims like these.
+   BASE: [PARL] Rudd and Turnbull giving evidence to the Senate media diversity inquiry,
+   2021 → [PARL] News Corp executives giving evidence to the same inquiry (for balance).
+
+   SOURCE: ParlView, Senate Environment and Communications References Committee,
+   media diversity inquiry, February 2021 (find the exact hearing days in the committee’s
+   Hansard on ParlInfo).
+
+   TEXT: “News Corp denies these claims”
+
+1.13
+
+   VO: (record scratch energy) So, case closed? Not so fast.
+
+   BASE: [B-ROLL] Polling day crowd outside a school → freeze frame.
+
+   OVERLAY: [ANIM] Gold stamp “CASE OPEN” slams onto the frozen frame.
+
+   SOUND: Record scratch.
+
+1.14
+
+   VO: (analytical) In 2022, and again in 2025, Labor won federal elections despite heavy
+   criticism from parts of the Murdoch press. In 2025, the Opposition Leader even lost his
+   own seat.
+
+   BASE: [PARL] Anthony Albanese at the dispatch box, 2022 → [PARL] opening of the
+   48th Parliament, July 2025 (wide chamber).
+
+   SOURCE: ParlView, House of Representatives, July 2022 and July 2025.
+
+   OVERLAY: [ANIM] After the clips, result cards over blurred Parliament House B-roll:
+   2022 Labor win · 2025 Labor win · “Opposition Leader loses Dickson”. Data: AEC Tally
+   Room.
+
+1.15
+
+   VO: (reflective) Murdoch is now in his nineties. He stepped down as chairman in 2023.
+   And in 2025, a bitter family battle ended with his son Lachlan in control of the empire
+   until 2050.
+
+   BASE: [ARCHIVE PHOTO] Rupert Murdoch, later years → [ARCHIVE PHOTO] Lachlan
+   Murdoch.
+
+   SOURCE: Wikimedia Commons “Rupert Murdoch”, “Lachlan Murdoch” (free licences
+   only).
+
+   OVERLAY: [ANIM] Simple family-tree branches; Lachlan’s lights gold; “2050” stamp (on
+   blurred photo bed).
+      TEXT: Source: News Corp / Fox Corp announcement, Sept 2025
+
+1.16
+
+      VO: (open question) The press baron was once a kingmaker. The real question is
+      whether newspapers still have that power, when so many young Australians now get
+      their news from their phones.
+
+      BASE: [B-ROLL] Young commuter scrolling a phone on a train → newspaper left on an
+      empty seat.
+
+      SOURCE: Pexels “scrolling phone train”, “newspaper on seat”.
+
+
+
+
+SUSPECT #2: THE MAN WHO OWNED THE SCREEN
+(4:15 – 5:35)
+2.1
+
+      VO: (smooth) If Murdoch owned the morning paper, another man owned the evening.
+
+      BASE: [B-ROLL] Old CRT television switching on, static → living room at night lit by a TV.
+
+      SOURCE: Pixabay “old television static”, Pexels “watching tv night”.
+
+      OVERLAY: “SUSPECT #2 · THE TV TYCOON” tag.
+
+2.2
+
+      VO: (admiring, colourful) Kerry Packer. Owner of Channel Nine. The man who turned
+      cricket upside down with World Series Cricket, and for years one of the richest people in
+      Australia.
+
+      BASE: [ARCHIVE PHOTO] Kerry Packer → [B-ROLL] cricket ground under floodlights at
+      night → cricket ball close-up.
+
+      SOURCE: Wikimedia Commons “Kerry Packer” (check carefully: some Packer photos on
+      Wikipedia are fair-use only and not on Commons; use only free Commons files). Pexels
+      “cricket stadium night lights”.
+
+      FALLBACK: if no free Packer photo exists, use a typographic name card over the cricket
+      B-roll.
+
+2.3
+
+      VO: (knowing) Packer didn’t need to write editorials. He had something better. Access.
+      BASE: [B-ROLL] Vintage phone ringing on a desk → a hand picking it up.
+
+      SOURCE: Pexels “vintage telephone ringing”.
+
+2.4
+
+      VO: (building to a moment) In 1991, a parliamentary committee on the print media called
+      him in to answer questions about media ownership and his business affairs.
+
+      BASE: [PARL] Packer giving evidence to the House of Representatives Select Committee
+      on the Print Media, 1991.
+
+      SOURCE: ParlView (archive covers 1991). Find the hearing date in the committee
+      transcript on ParlInfo, then search ParlView by that date.
+
+      FALLBACK: [B-ROLL] committee room in Parliament House / formal hearing room +
+      [DOC] the committee’s 1992 report cover “News and fair facts” from aph.gov.au.
+
+2.5
+
+      VO: (amused) He didn’t flinch. He told the MPs, in effect, that anyone who didn’t
+      minimise their tax within the law needed their head read, and that the government
+      wasn’t exactly spending its money wisely anyway.
+
+      BASE: [PARL] Continue the hearing footage, unaltered. If unavailable: [B-ROLL] tax
+      forms and calculator close-up.
+
+      OVERLAY: Only if using B-roll: [ANIM] paraphrase card, no quotation marks.
+
+      SOUND: Room tone, one gavel tap.
+
+2.6
+
+      VO: (reflective) Politicians from both sides would recall that moment for years. A
+      billionaire lecturing Parliament, and Parliament mostly sitting there and taking it.
+
+      BASE: [B-ROLL] Parliament House exterior, slow tilt up the flagpole.
+
+2.7
+
+      VO: (soft close) Packer died in 2005. His story shows something important. A kingmaker
+      doesn’t always choose the king. Sometimes he just makes sure every king knows who’s
+      in the room.
+
+      BASE: [B-ROLL] Empty boardroom chair, slow push → blur.
+
+      OVERLAY: [ANIM] Case board: Packer card pinned, red string to Murdoch’s card.
+SUSPECT #3: THE MINING MONEY (5:35 – 8:20)
+3.1
+
+      VO: (awe) Australia digs things up and sells them to the world. Iron ore. Coal. Gas.
+
+      BASE: [B-ROLL] Three hard cuts on each word: red iron ore pit aerial → coal train → LNG
+      plant flare or gas pipeline.
+
+      SOURCE: Pexels / Pixabay “open pit mine aerial”, “coal train”, “gas plant”. Avoid visible
+      company logos.
+
+      OVERLAY: “SUSPECT #3 · THE MINING MONEY” tag.
+
+3.2
+
+      VO: (tense) In May 2010, Kevin Rudd’s government announced a new tax on mining
+      super profits.
+
+      BASE: [PARL] Treasurer or PM speaking in the House on the resource tax, May 2010 →
+      [DOC] PM Transcripts page for the May 2010 tax announcement (CC BY 4.0).
+
+      SOURCE: ParlView, House of Representatives, May 2010; pmtranscripts.pmc.gov.au,
+      search “resource super profits tax”.
+
+      TEXT: MAY 2010 · RESOURCE SUPER PROFITS TAX
+
+3.3
+
+      VO: (fast, intense) The industry hit back with one of the biggest campaigns ever run
+      against a single government policy. In about six weeks, mining interests spent around
+      twenty-two million dollars.
+
+      BASE: [B-ROLL] Haul trucks rolling in slow motion → TV screens showing static ads
+      (generic) → blur.
+
+      OVERLAY: [ANIM] Stacked bars: Minerals Council of Australia $17.2m, BHP Billiton
+      $4.2m, others.
+
+      TEXT: $22 MILLION · ABOUT 6 WEEKS · Source: AEC disclosures, reported by SMH 2011
+
+3.4
+
+      VO: (vivid) In Perth, thousands rallied against the tax. On the back of a truck stood one
+      of the richest people in the country, Gina Rinehart. Beside her, fellow billionaire Andrew
+      Forrest.
+
+      BASE: [ARCHIVE PHOTO] 2010 Perth anti-mining-tax rally if a free-licence photo exists
+      (search Wikimedia Commons and Flickr with “commercial use allowed” filter: “mining tax
+      rally Perth 2010”) → [B-ROLL] Perth CBD aerial → [ARCHIVE PHOTO] Gina Rinehart →
+      [ARCHIVE PHOTO] Andrew Forrest.
+
+      SOURCE: Commons “Gina Rinehart”, “Andrew Forrest”.
+
+      FALLBACK: if no free rally photo exists, use Perth CBD B-roll + generic crowd B-roll
+      (Pexels “protest crowd placards”, no readable unrelated slogans) with a lower-third
+      “Perth, June 2010”. Name cards for anyone without a free photo.
+
+3.5
+
+      VO: (slow, weighty) On the twenty-fourth of June 2010, about seven weeks after the tax
+      was announced, Kevin Rudd was no longer Prime Minister.
+
+      BASE: [PARL] House of Representatives, 24 June 2010: Julia Gillard’s first Question
+      Time as Prime Minister.
+
+      SOURCE: ParlView, 24 June 2010.
+
+      TEXT: 24 JUNE 2010
+
+3.6
+
+      VO: (careful, fair) Now, to be fair, Rudd fell for many reasons. Falling polls. A shelved
+      climate policy. Colleagues who found him hard to work with. The mining campaign didn’t
+      remove him on its own. But it showed what happens when big money and a government
+      collide.
+
+      BASE: [B-ROLL] Parliament House at night, lights in windows → blur.
+
+      OVERLAY: [ANIM] Four cause cards appear one by one as each is spoken: polls · climate
+      policy · internal tensions · mining campaign. No percentages.
+
+3.7
+
+      VO: (wry) His successor, Julia Gillard, quickly negotiated a much weaker tax with the
+      biggest miners. It raised far less than expected, and it was scrapped in 2014.
+
+      BASE: [ARCHIVE PHOTO] Julia Gillard → [PARL] Senate vote on the repeal of the mining
+      tax, September 2014.
+
+      SOURCE: Commons “Julia Gillard”; ParlView, Senate, September 2014.
+
+      TEXT: MRRT · INTRODUCED 2012 · REPEALED 2014
+
+3.8
+
+      VO: (playful, then sharp) And then there’s Clive Palmer. Mining billionaire. Dinosaur park
+      owner. And the biggest political spender Australia has ever seen.
+
+      BASE: [ARCHIVE PHOTO] Clive Palmer → [PARL] Palmer speaking in the House as an
+      MP, 2013–2016.
+
+      SOURCE: Commons “Clive Palmer”; ParlView, House of Representatives (Palmer was
+      Member for Fairfax 2013–2016).
+
+3.9
+
+      VO: (data-driven, building) In 2019, his United Australia Party declared about eighty-nine
+      million dollars in spending. Seats won: zero. In 2022, about one hundred and twenty-
+      three million. Seats won: one, in the Senate. In 2025, his new party, Trumpet of Patriots,
+      spent about fifty-three million. Seats won: zero.
+
+      BASE: [B-ROLL] Roadside billboards along a highway → mailbox stuffed with flyers →
+      phone buzzing with a text (generic) → blur.
+
+      SOURCE: Pexels “highway billboards”, “mailbox flyers”, “phone notification”.
+
+      OVERLAY: [ANIM] Gold spending bars rise for 2019 / 2022 / 2025; tiny chair icons below:
+      0 · 1 · 0.
+
+      TEXT: Source: Grattan Institute analysis of AEC returns
+
+3.10
+
+      VO: (punchline) Meanwhile, One Nation spent about three million dollars in 2025 and
+      won three Senate seats.
+
+      BASE: [PARL] Senate chamber, July 2025 (new senators sworn in).
+
+      OVERLAY: After the clip, the bar chart returns over blurred Parliament House B-roll with
+      a tiny One Nation bar and three chairs.
+
+      TEXT: Source: AEC data, reported by AAP / The New Daily
+
+3.11
+
+      VO: (verdict) Palmer has argued his ads helped stop Labor in 2019. Maybe they did. But
+      if money alone could buy power, Clive Palmer would be Prime Minister by now.
+
+      BASE: [ARCHIVE PHOTO] Palmer → [B-ROLL] money counting machine, slowing → blur.
+
+      OVERLAY: [ANIM] Case board: crown hovers over the mining card, wobbles, drifts away.
+SUSPECT #4: THE FACELESS MEN (8:20 – 10:20)
+4.1
+
+      VO: (hushed, conspiratorial) Remember the four prime ministers from the start? Taken
+      down in eight years. Not by voters. By their own side.
+
+      BASE: [B-ROLL] Long corridor at night, slow dolly → office door closing.
+
+      SOURCE: Pexels “dark corridor night”, “office door closing”.
+
+      OVERLAY: “SUSPECT #4 · THE FACELESS MEN” tag.
+
+4.2
+
+      VO: (explainer, clear) Here’s how. In Australia, you don’t directly elect the Prime Minister.
+      You vote for your local MP. The party with the most seats forms government, and the
+      party room picks its leader. Which means the leader can be replaced by a vote of their
+      own colleagues, at any time.
+
+      BASE: [B-ROLL] Voter at a polling booth → Parliament House exterior → meeting room
+      table → blur (bed changes with each step of the explanation).
+
+      OVERLAY: [ANIM] Explainer chain: voter → local MP → party room → leader’s chair; a
+      hand swaps the leader figure.
+
+4.3
+
+      VO: (dramatic) When Rudd was toppled in 2010, a small group of powerful factional
+      organisers was credited with gathering the numbers overnight. The press gave them a
+      name that stuck. The faceless men.
+
+      BASE: [B-ROLL] Phone screen glowing in a dark room → Canberra at night time-lapse.
+
+      SOURCE: Pexels “phone dark room”, “Canberra night time-lapse”.
+
+      OVERLAY: [ANIM] Light layer: faceless silhouettes fade in around the phone shot.
+
+      TEXT: “THE FACELESS MEN”
+
+4.4
+
+      VO: (explainer) Factions are the hidden machinery inside both major parties. They help
+      decide who gets picked to run in safe seats. Which means they often decide who
+      becomes an MP before a single vote is cast.
+
+      BASE: [B-ROLL] Hands moving chess pieces, close-up → blur.
+      SOURCE: Pexels “chess hands close up”.
+
+      OVERLAY: [ANIM] Map with a few “safe seat” outlines; a ticket labelled PRESELECTION
+      drops into each.
+
+4.5
+
+      VO: (energetic) And behind Labor’s factions sit the unions. In 2007, the union
+      movement’s “Your Rights at Work” campaign helped sweep John Howard from power.
+      Howard even lost his own seat.
+
+      BASE: [ARCHIVE PHOTO] “Your Rights at Work” rally, 2005–2007 (search Flickr “Your
+      Rights at Work rally” with commercial-use filter, and Wikimedia Commons) → [ARCHIVE
+      PHOTO] John Howard → [B-ROLL] Sydney suburbs aerial (Bennelong area: Ryde,
+      Epping).
+
+      SOURCE: Commons “John Howard”.
+
+      FALLBACK: [PARL] Howard at the dispatch box, 2007, then Sydney suburbs.
+
+      OVERLAY: [ANIM] Bennelong outline flips colour on the blurred suburbs shot.
+
+      TEXT: 2007 · PM LOSES HIS OWN SEAT
+
+4.6
+
+      VO: (tense montage) Rudd in 2010. Gillard in 2013. Abbott in 2015. Turnbull in 2018.
+
+      BASE: [PARL] Four clips, one per name, each the leader at the dispatch box in their final
+      weeks.
+
+      SOURCE: ParlView, same dates as Shot 0.4 (use different moments so it doesn’t repeat).
+
+      SOUND: Heartbeat rhythm.
+
+4.7
+
+      VO: (reflective) After all that chaos, both major parties changed their rules to make it
+      much harder to knife a sitting leader.
+
+      BASE: [B-ROLL] Revolving door slowing → door locking / padlock closing.
+
+      SOURCE: Pexels “revolving door”, “padlock close up”.
+
+4.8
+
+      VO: (verdict) So the faceless men really were kingmakers. But they were kingmakers
+      who kept hurting themselves. Every spill made voters angrier, and the revolving door
+      became a national joke.
+      BASE: [B-ROLL] Commuters watching news on a screen at a station (no readable
+      network logos) → blur.
+
+      OVERLAY: [ANIM] Case board: crown sits on the factions card, then slides off.
+
+
+
+
+SUSPECT #5: THE PREFERENCE WHISPERER (10:20
+– 12:00)
+5.1
+
+      VO: (mysterious) Now, our second mystery. How does someone get into the Senate
+      when their party wins about half of one percent of the vote?
+
+      BASE: [ARCHIVE PHOTO] A real 2013 Senate ballot paper, often photographed because
+      of its huge size (search Wikimedia Commons “Senate ballot paper 2013 New South
+      Wales” or “Victoria”).
+
+      FALLBACK: [B-ROLL] Generic voting booth with a large paper.
+
+      OVERLAY: “SUSPECT #5 · THE PREFERENCE WHISPERER” tag.
+
+5.2
+
+      VO: (explainer, clear) Australia uses preferential voting. If your first choice can’t win,
+      your vote flows to your next choice, and so on. For years, Senate voters could tick just
+      one box, and their preferences would flow according to deals the parties had made
+      behind the scenes.
+
+      BASE: [B-ROLL] Vote counting: hands sorting ballot papers in piles → blur.
+
+      SOURCE: Pexels / Pixabay “counting ballots”, “ballot papers”. The AEC also publishes
+      photos of counting; check the licence on aec.gov.au before use.
+
+      OVERLAY: [ANIM] A vote token travels along arrows from box to box.
+
+5.3
+
+      VO: (intrigued) A political strategist named Glenn Druery became famous for organising
+      these deals among dozens of micro-parties. Each tiny party swapped preferences with
+      the others, so the votes snowballed until one of them crossed the line.
+
+      BASE: [ARCHIVE PHOTO] Glenn Druery, if a free photo exists on Commons → [B-ROLL]
+      hands shaking across a table → blur.
+      FALLBACK: name card over the handshake B-roll.
+
+      OVERLAY: [ANIM] Web of invented micro-party icons; a snowball rolls through and
+      grows.
+
+5.4
+
+      VO: (reveal) In 2013, Ricky Muir from the Australian Motoring Enthusiast Party was
+      elected to the Senate for Victoria. His party’s primary vote? About half of one percent.
+
+      BASE: [PARL] Ricky Muir in the Senate, 2014 (first speech or a debate).
+
+      SOURCE: ParlView, Senate, 2014. Commons “Ricky Muir” for a still.
+
+      OVERLAY: After the clip, the 0.5% bar from the cold open returns over blurred
+      Melbourne B-roll and rockets up.
+
+      TEXT: 2013 · VICTORIA · ABOUT 0.5% PRIMARY VOTE · Source: AEC
+
+5.5
+
+      VO: (balanced) Supporters said the system was working as designed. Critics said voters
+      had no idea where their votes were going.
+
+      BASE: [B-ROLL] Person looking puzzled at a long form → blur.
+
+      OVERLAY: [ANIM] Two equal panels: “SYSTEM WORKING” vs “VOTERS IN THE DARK”.
+
+5.6
+
+      VO: (resolution) Parliament sided with the critics. In 2016, it changed the Senate voting
+      rules so voters control their own preferences.
+
+      BASE: [PARL] Senate debate and vote on the Commonwealth Electoral Amendment Bill
+      2016 (the all-night sitting, March 2016).
+
+      SOURCE: ParlView, Senate, March 2016.
+
+      TEXT: 2016 · GROUP VOTING TICKETS ABOLISHED
+
+5.7
+
+      VO: (verdict) But it proved something. In Australia, the kingmaker isn’t always the person
+      with the most votes. Sometimes, it’s the person who understands the rules best.
+
+      BASE: [B-ROLL] Close-up of a rulebook / law book pages turning → blur.
+
+      OVERLAY: [ANIM] Case board update.
+SUSPECT #6: THE NEW KINGMAKERS (12:00 –
+13:20)
+6.1
+
+      VO: (surprised) In 2022, something happened the old kingmakers never saw coming.
+
+      BASE: [B-ROLL] Leafy inner-city streets in Sydney’s eastern suburbs and Melbourne’s
+      Kew/Hawthorn → blur.
+
+      SOURCE: Pexels “Bondi aerial”, “Melbourne suburbs aerial”.
+
+      OVERLAY: [ANIM] Teal wash spreads over a map of the target seats.
+
+6.2
+
+      VO: (narrative) Independent candidates, many of them professional women campaigning
+      on climate and integrity, won seats the Liberal Party had held for generations. Kooyong.
+      Wentworth. Mackellar. They became known as the teals.
+
+      BASE: [PARL] Three short clips of first speeches in the House: Monique Ryan (Kooyong),
+      Allegra Spender (Wentworth), Sophie Scamps (Mackellar), July–August 2022.
+
+      SOURCE: ParlView, House of Representatives, 2022.
+
+      TEXT (lower bar): seat names as they are spoken.
+
+6.3
+
+      VO: (explainer) Behind many of them was Climate 200, a fundraising group founded by
+      businessman Simon Holmes à Court. It raised money from thousands of donors and
+      shared it among independent candidates.
+
+      BASE: [ARCHIVE PHOTO] Simon Holmes à Court (Commons, free licence only;
+      otherwise name card) → [B-ROLL] campaign volunteers handing out flyers → blur.
+
+      SOURCE: Pexels “volunteers flyers street”.
+
+      OVERLAY: [ANIM] Many small coins flow into one pot, then split out to candidate icons.
+
+      ALSO AVAILABLE: [PARL] Climate 200 representatives gave evidence to Parliament’s
+      Joint Standing Committee on Electoral Matters in its inquiries after the 2022 election.
+      Search ParlView for JSCEM hearings 2022–2024.
+
+6.4
+
+      VO: (balanced, two-sided) Supporters say Climate 200 gave community candidates a
+      fair shot against party machines. Critics say it works like a party in all but name, using
+      big money to pick winners while claiming to be independent.
+
+      BASE: [PARL] Two short clips for balance: a teal MP speaking, then a Liberal MP
+      criticising teals/Climate 200 in the House or at JSCEM.
+
+      SOURCE: ParlView, 2022–2024.
+
+      OVERLAY: Text only, in a bar beside the clip.
+
+6.5
+
+      VO: (pattern reveal) And notice the pattern. Every generation, a new force learns to
+      bend the system. Newspapers. Television. Mining money. Factions. Preference deals.
+      Now crowdfunded independents.
+
+      BASE: [B-ROLL + PHOTO] Rapid callback montage, one real shot per word: printing
+      press → old TV → haul truck → dark corridor → ballot paper → volunteers.
+
+      OVERLAY: [ANIM] After the montage, the full case board with all six cards and red string,
+      over blurred Parliament House.
+
+
+
+
+THE RULEBOOK JUST CHANGED (13:20 – 14:20)
+7.1
+
+      VO: (urgent, newsy) And right now, the rules of the game are changing again.
+
+      BASE: [DOC] Screen recording scrolling the AEC page “Explaining the changes to
+      political funding and disclosure” (aec.gov.au/FADReform). Government webpage, shown
+      as a real source.
+
+7.2
+
+      VO: (explainer) On the first of July 2026, the biggest changes to Australia’s electoral law
+      in forty years came into force. For the first time, there are national caps on political
+      donations, and on election spending. Political parties can spend up to ninety million
+      dollars nationally. Outside groups, like unions or Climate 200, have a cap of eleven
+      million.
+
+      BASE: [PARL] Parliament passing the Electoral Reform Bill, February 2025 → [B-ROLL]
+      Parliament House exterior → blur.
+
+      OVERLAY: [ANIM] Two gauges: party cap $90M, third-party cap $11M. Palmer’s 2022
+      bar from Chapter 3 returns and hits the cap line.
+      TEXT: 1 JULY 2026 · Source: Australian Electoral Commission
+
+7.3
+
+      VO: (balanced) The government says it’s about stopping big money from buying
+      elections. But some independents call it a major-party stitch-up, arguing the caps
+      protect parties that already have huge war chests.
+
+      BASE: [PARL] Two clips with equal time: the minister (Senator Don Farrell) speaking for
+      the bill; an independent speaking against it. Senate or House, February 2025.
+
+      SOURCE: ParlView, February 2025.
+
+7.4
+
+      VO: (open question) Whoever is right, one thing is clear. The next election will be fought
+      under rules no billionaire has ever played by.
+
+      BASE: [B-ROLL] Gavel coming down / law book closing → blur.
+
+      OVERLAY: [ANIM] Case board: a new card “THE RULEBOOK” pins itself in the middle.
+
+
+
+
+THE REVEAL (14:20 – 15:45)
+8.1
+
+      VO: (slow, intimate) Here’s the thing almost nobody talks about.
+
+      BASE: [B-ROLL] School hall polling place, queue out the door, early morning light.
+
+      SOURCE: Pexels / Pixabay “voting queue”, “polling station”.
+
+      SOUND: Music drops to solo piano.
+
+8.2
+
+      VO: (explainer) Since 1924, voting in Australian federal elections has been compulsory.
+      Turn up, or pay a fine. That’s why around nine in ten enrolled Australians vote. Far more
+      than in countries like the United States or the United Kingdom.
+
+      BASE: [ARCHIVE PHOTO] Early 20th-century Australian polling place (pre-1955 photos
+      are public domain; search NLA Trove and Commons “polling booth 1920s Australia”) →
+      [B-ROLL] modern polling queue → blur.
+
+      OVERLAY: [ANIM] Turnout bars: Australia about 90% vs the US and UK.
+      TEXT: Source: AEC / International IDEA
+
+8.3
+
+      VO: (thoughtful) Think about what that means. In most democracies, elections are won
+      by firing up your loyal supporters and getting them to show up. In Australia, almost
+      everyone shows up. Including the people who barely follow politics at all.
+
+      BASE: [B-ROLL] Crowd at a rally (generic) → ordinary street crowd crossing at lights in
+      an Australian city.
+
+      SOURCE: Pexels “Sydney pedestrian crossing”, “Melbourne crowd”.
+
+8.4
+
+      VO: (warm) The busy parent who decides on the walk into the polling booth. The voter in
+      a marginal seat who didn’t read the papers, didn’t watch the debate, and has never
+      heard of a preference whisperer.
+
+      BASE: [B-ROLL] Parent with kids walking into a school → tradie getting out of a ute →
+      nurse leaving a hospital at dawn → student on a bus.
+
+      SOURCE: Pexels “parent kids school”, “tradesman ute”, “nurse night shift”, “student bus”.
+
+8.5
+
+      VO: (building) Every kingmaker in this story has spent their power trying to reach that
+      one person. Murdoch’s headlines. Packer’s screens. Palmer’s billboards. The unions’
+      ads. The teals’ volunteers on every street corner.
+
+      BASE: [B-ROLL] Callback montage on each phrase: newspaper → TV → billboards →
+      rally → volunteers.
+
+      OVERLAY: [ANIM] At the end, the case board cards fly in around a small figure of a voter
+      (on blurred street B-roll).
+
+8.6
+
+      VO: (powerful) And when that person makes up their mind, billionaires lose, newspaper
+      owners lose, and sometimes even the leader of a major party loses their own seat.
+
+      BASE: [ARCHIVE PHOTO] John Howard → [ARCHIVE PHOTO] Peter Dutton (Commons,
+      free licence).
+
+      TEXT: 2007 · LOST OWN SEAT / 2025 · LOST OWN SEAT
+
+8.7
+
+      VO: (callback, gentle) Remember the man from our very first scene? Gough Whitlam was
+      dismissed by the Governor-General. Whatever you think of that decision, a month later,
+      there was an election.
+
+      BASE: [ARCHIVE PHOTO] The Whitlam photo from Shot 0.1, now whole again →
+      [ARCHIVE PHOTO] 1975 election campaign crowd.
+
+      SOURCE: NAA PhotoSearch “1975 election”.
+
+8.8
+
+      VO: (measured) And the voters delivered their verdict: a landslide win for Malcolm
+      Fraser. The final word didn’t belong to the Governor-General, or to Murdoch, or to
+      anyone in Canberra. It belonged to the ballot box.
+
+      BASE: [ARCHIVE PHOTO] Malcolm Fraser, 1975 → [B-ROLL] ballot paper dropping into a
+      box, slow motion.
+
+      SOURCE: NAA PhotoSearch “Fraser 1975”; Pexels “ballot box vote”.
+
+      TEXT: 13 DECEMBER 1975
+
+8.9
+
+      VO: (slow, final) The kingmakers are real. They shape what you see, what you hear, and
+      who ends up on your ballot. But in Australia, every one of them has to answer to the
+      same person in the end.
+
+      BASE: [B-ROLL] Slow push towards a voter’s hands at a polling booth.
+
+      OVERLAY: [ANIM] The gold crown descends gently into the voter’s open hands (light
+      layer, base stays sharp).
+
+8.10
+
+      VO: (quiet, with weight) The one holding the pencil.
+
+      BASE: [B-ROLL] Extreme close-up: pencil marking a ballot (generic, no real names).
+      Hold, fade to black.
+
+      SOUND: Music resolves. 2 seconds of silence.
+
+
+
+
+OUTRO (15:45 – 16:15)
+9.1
+
+      VO: (friendly, direct) So who do you think holds the most power in Australia today? The
+      media, the money, the parties, or the voters? Tell me in the comments.
+
+      BASE: [B-ROLL] Parliament House at golden hour, blurred.
+
+      OVERLAY: [ANIM] Four-option poll card.
+
+9.2
+
+      VO: (upbeat) And if you want to know how Australia went from a prison colony to one of
+      the world’s richest democracies, our full history of Australia is right here.
+
+      BASE: End screen with your Australia history video.
+
+
+
+
+ASSET COUNT
+
+  Layer                                                          Approx. count
+
+  ParlView clips (real parliamentary footage)                    about 25
+
+  Real archive photos (NAA, Commons, Flickr, Trove, US
+                                                                 about 30
+  libraries)
+
+  Free B-roll clips                                              about 75
+
+  Real documents and data pages                                  about 5
+
+                                                                 about 30 (all on top of real
+  Animation overlays
+                                                                 footage)
+
+
+Every shot except the title card has a real base layer.
+
+
+
+
+SOURCING AND LICENSING GUIDE
+
+1. ParlView (free real footage)
+Watch, search and download Senate, House and committee recordings, with archive back to
+1991, at aph.gov.au → Watch, Read, Listen → ParlView. You need the date to search.
+Conditions: fair and accurate reports only, balanced presentation of differing views, no
+party-political or commercial advertising, and no digital manipulation. Credit “Parliament of
+Australia / ParlView” on screen.
+2. Real photos
+   National Archives of Australia. Commonwealth copyright lasts 50 years after the year
+   made or first published, so government photos from 1975 and earlier are now public
+   domain in Australia. Confirm the photo was taken by a government photographer (e.g.
+   Australian Information Service), not a newspaper.
+
+   Trove / National Library of Australia. Any photo taken before 1955 is out of copyright
+   in Australia. Good for the early polling-place images.
+
+   Wikimedia Commons. Use Public Domain, CC0, CC BY or CC BY-SA. Skip NC and ND
+   licences on a monetised channel. Note the author and licence for the credit line.
+
+   Flickr. Use the licence filter “Commercial use allowed”. Credit the photographer.
+
+   US presidential libraries. Photos taken by White House photographers are US
+   government works and public domain (useful for Murdoch with US presidents).
+
+   Unsplash: only standard free photos. “Unsplash+” images are paid.
+
+
+3. Free B-roll
+Pexels, Pixabay, Coverr, Mixkit. Avoid clips with clear brand logos or readable real campaign
+material from other countries.
+
+
+4. Real documents (CC BY 4.0)
+PM Transcripts (pmtranscripts.pmc.gov.au) text is licensed CC BY 4.0, except the Coat of
+Arms and photos/graphics. Credit: “Source: Licensed from the Commonwealth of Australia
+under CC BY 4.0”. AEC web pages and data for the money and results charts.
+
+
+5. Never use without a licence
+TV network news footage (ABC, Nine, Seven, Ten, Sky), newspaper pages or photos (News
+Corp, Nine/Fairfax, AAP, Getty), and NFSA footage. If you want the famous 1975 Parliament
+steps footage, license it from the NFSA or the broadcaster. YouTube Content ID doesn’t care
+about fair dealing arguments.
+
+
+6. Music and sound
+Pixabay Music and YouTube Audio Library. Mood map: investigative pulse (open, Ch. 1),
+retro synth (Ch. 2), industrial percussion (Ch. 3), dark strings (Ch. 4), playful plucks (Ch. 5),
+modern electronic (Ch. 6–7), solo piano into a warm swell (reveal).
+
+
+
+
+FACT SHEET AND SOURCES
+
+ Claim in script                            Source
+
+ 75 journalists wrote to Murdoch;
+                                            Patricia Edgar, “The press and the Dismissal – Part
+ strike voted 8 Dec 1975; return to
+                                            II”; Macquarie University; AustLit
+ work 10 Dec
+
+ First strike in Australia over editorial
+                                            Macquarie University, 2015
+ coverage
+
+ Murdoch’s 1977 response that               Murdoch on A Current Affair, 1977, quoted by
+ journalists were the biased ones           Patricia Edgar
+
+ 501,876 signatures; largest e-
+                                            Al Jazeera / AFP 2020; The New Daily, 9 Nov 2020
+ petition; tabled by Andrew Leigh
+
+ Turnbull backed the petition               SBS News 2020
+
+ Murdoch settlement, Lachlan control,       News Corp announcement via AdNews, 9 Sep
+ trust to 2050                              2025; Axios, 8 Sep 2025
+
+ Murdoch stepped down as chairman,
+                                            Nieman Lab / WSJ, 21 Sep 2023
+ 2023
+
+ $22m mining campaign in six weeks;         AEC figures reported by SMH, Feb 2011; The
+ MCA $17.2m; BHP $4.2m                      Conversation
+
+                                            Green Left reporting via London Mining Network
+ Rinehart on the back of a truck,
+                                            (confirm with a mainstream 2010 report before
+ Forrest at Perth rally
+                                            publishing)
+
+                                            Government statement via Wikipedia (Minerals
+ MRRT introduced 2012
+                                            Resource Rent Tax)
+
+ Palmer: $89m (2019), $123m (2022),         Grattan Institute, “Election 2025: where the money
+ Trumpet of Patriots $53m (2025)            came from”
+
+ One Senate seat in 2022 (Ralph
+                                            InDaily / AAP, Dec 2022
+ Babet)
+
+ One Nation about $3m, three Senate         The New Daily / AAP, Feb 2026
+ seats in 2025
+
+ Electoral reforms from 1 July 2026;
+                                         AEC fact sheet, Feb 2026
+ biggest change in 40 years
+
+ $90m party cap, $11m third-party cap    AAP via ACM newspapers; The Daily Aus
+
+ “Major-party stitch-up” criticism       AAP / CityNews
+
+ ParlView archive since 1991;
+                                         Parliament of Australia
+ conditions of use
+
+                                         “Copyright expiration in Australia” (confirm with
+ Crown copyright 50 years
+                                         Australian Copyright Council fact sheet G023)
+
+ PM Transcripts licensed CC BY 4.0       pmtranscripts.pmc.gov.au/copyright
+
+
+Well-established record (double-check wording): Murdoch’s 1985 US citizenship; The
+Australian backing Whitlam in 1972; the Dismissal on 11 Nov 1975 and Fraser’s landslide on
+13 Dec 1975; the four leadership changes 2010–2018; Howard losing Bennelong in 2007;
+Dutton losing Dickson in 2025; compulsory voting from 1924; Ricky Muir’s 2013 election;
+2016 Senate voting reform; the 2022 teal wins; Palmer as Member for Fairfax 2013–2016.
+
+Before you publish: confirm exact ParlView dates (Packer 1991 hearing, Feb 2021 media
+inquiry, Feb 2025 reform debate) on ParlInfo; check whether any legal challenge to the 2026
+donation caps has started; keep every claim about Turnbull’s 2018 downfall framed as his
+view, with News Corp’s denial.
+
