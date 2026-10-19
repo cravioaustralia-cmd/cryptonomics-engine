@@ -1,0 +1,5 @@
+<!doctype html><meta charset=utf-8><button id=b style="font-size:40px;padding:40px">COPY</button><pre id=o></pre>
+<script>
+const n=new URLSearchParams(location.search).get('n');
+b.onclick=async()=>{const t=await (await fetch('/'+n+'_ATLAS.txt')).text();try{await navigator.clipboard.writeText(t);o.textContent='copied '+n+' '+t.length}catch(e){o.textContent='ERR '+e}};
+</script>
