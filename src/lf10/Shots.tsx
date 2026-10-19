@@ -218,7 +218,10 @@ export const ShotChrome: React.FC<{ shot: Shot; t: number; explain: boolean }> =
   if (lbl) {
     const la = lbl.at ?? shot.from + 0.3;
     const lb = lbl.to ?? Math.min(shot.to, la + 4.2);
-    lblA = interpolate(t, [la, la + 0.4, lb - 0.35, lb], [0, 1, 1, 0], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
+    const span = Math.max(0.1, lb - la);
+    const fi = Math.min(0.4, span * 0.3);
+    const fo = Math.min(0.35, span * 0.3);
+    lblA = interpolate(t, [la, la + fi, la + span - fo, la + span], [0, 1, 1, 0], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
   }
   return (
     <AbsoluteFill style={{ pointerEvents: "none" }}>

@@ -9,8 +9,12 @@ type P = Record<string, any>;
 const clamp = { extrapolateLeft: "clamp", extrapolateRight: "clamp" } as const;
 const easeOut = Easing.out(Easing.cubic);
 const sp = (t: number, delay = 0, damping = 14) => spring({ frame: Math.max(0, (t - delay) * FPS), fps: FPS, config: { damping, mass: 0.8 } });
-const fadeIO = (t: number, from: number, to: number, fi = 0.35, fo = 0.3) =>
-  interpolate(t, [from, from + fi, to - fo, to], [0, 1, 1, 0], clamp);
+const fadeIO = (t: number, from: number, to: number, fi = 0.35, fo = 0.3) => {
+  const span = Math.max(0.1, to - from);
+  const a = Math.min(fi, span * 0.3);
+  const b = Math.min(fo, span * 0.3);
+  return interpolate(t, [from, from + a, from + span - b, from + span], [0, 1, 1, 0], clamp);
+};
 const beatA = (t: number, at: number, d = 0.35) => interpolate(t, [at, at + d], [0, 1], { ...clamp, easing: easeOut });
 
 // ---------- icons ----------
