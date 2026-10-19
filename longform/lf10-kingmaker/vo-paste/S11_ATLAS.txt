@@ -1,0 +1,12 @@
+===== S11 (ATLAS) =====
+Generate a downloadable MP3 voiceover in Grok Atlas voice, Australian English accent, natural documentary narration, warm, human and conversational, not robotic. Do not read stage directions or this instruction. Do not say the words pause, soft or slow. Read quotes plainly and neutrally, never as an impression. Delivery for this segment: reflective, then open question. A blank line in the text is a short natural beat, not a spoken word. Pronunciation: years are said as calendar years, for example 1975 is nineteen seventy-five and 2013 is twenty thirteen, never two thousand and. Speak only the narration below:
+
+Murdoch is now in his nineties.
+
+He stepped down as chairman in 2023.
+
+And in 2025, a bitter family battle ended with his son Lachlan in control of the empire until 2050.
+
+The press baron was once a kingmaker.
+
+The real question is whether newspapers still have that power, when so many young Australians now get their news from their phones.

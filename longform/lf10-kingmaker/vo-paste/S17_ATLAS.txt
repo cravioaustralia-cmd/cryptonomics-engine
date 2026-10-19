@@ -1,0 +1,12 @@
+===== S17 (ATLAS) =====
+Generate a downloadable MP3 voiceover in Grok Atlas voice, Australian English accent, natural documentary narration, warm, human and conversational, not robotic. Do not read stage directions or this instruction. Do not say the words pause, soft or slow. Read quotes plainly and neutrally, never as an impression. Delivery for this segment: fast, intense, then vivid. A blank line in the text is a short natural beat, not a spoken word. Speak only the narration below:
+
+The industry hit back with one of the biggest campaigns ever run against a single government policy.
+
+In about six weeks, mining interests spent around twenty-two million dollars.
+
+In Perth, thousands rallied against the tax.
+
+On the back of a truck stood one of the richest people in the country, Gina Rinehart.
+
+Beside her, fellow billionaire Andrew Forrest.

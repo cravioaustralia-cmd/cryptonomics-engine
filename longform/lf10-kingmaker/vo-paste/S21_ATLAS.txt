@@ -1,0 +1,10 @@
+===== S21 (ATLAS) =====
+Generate a downloadable MP3 voiceover in Grok Atlas voice, Australian English accent, natural documentary narration, warm, human and conversational, not robotic. Do not read stage directions or this instruction. Do not say the words pause, soft or slow. Read quotes plainly and neutrally, never as an impression. Delivery for this segment: punchline, then verdict. A blank line in the text is a short natural beat, not a spoken word. Pronunciation: years are said as calendar years, for example 1975 is nineteen seventy-five and 2013 is twenty thirteen, never two thousand and. Speak only the narration below:
+
+Meanwhile, One Nation spent about three million dollars in 2025 and won three Senate seats.
+
+Palmer has argued his ads helped stop Labor in 2019.
+
+Maybe they did.
+
+But if money alone could buy power, Clive Palmer would be Prime Minister by now.

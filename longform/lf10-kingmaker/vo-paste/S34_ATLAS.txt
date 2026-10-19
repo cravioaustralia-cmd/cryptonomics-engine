@@ -1,0 +1,6 @@
+===== S34 (ATLAS) =====
+Generate a downloadable MP3 voiceover in Grok Atlas voice, Australian English accent, natural documentary narration, warm, human and conversational, not robotic. Do not read stage directions or this instruction. Do not say the words pause, soft or slow. Read quotes plainly and neutrally, never as an impression. Delivery for this segment: explainer. A blank line in the text is a short natural beat, not a spoken word. Speak only the narration below:
+
+Behind many of them was Climate 200, a fundraising group founded by businessman Simon Holmes à Court.
+
+It raised money from thousands of donors and shared it among independent candidates.

@@ -1,0 +1,8 @@
+===== S25 (ATLAS) =====
+Generate a downloadable MP3 voiceover in Grok Atlas voice, Australian English accent, natural documentary narration, warm, human and conversational, not robotic. Do not read stage directions or this instruction. Do not say the words pause, soft or slow. Read quotes plainly and neutrally, never as an impression. Delivery for this segment: explainer. A blank line in the text is a short natural beat, not a spoken word. Speak only the narration below:
+
+Factions are the hidden machinery inside both major parties.
+
+They help decide who gets picked to run in safe seats.
+
+Which means they often decide who becomes an MP before a single vote is cast.

@@ -1,0 +1,14 @@
+===== S43 (ATLAS) =====
+Generate a downloadable MP3 voiceover in Grok Atlas voice, Australian English accent, natural documentary narration, warm, human and conversational, not robotic. Do not read stage directions or this instruction. Do not say the words pause, soft or slow. Read quotes plainly and neutrally, never as an impression. Delivery for this segment: callback, gentle, then measured. A blank line in the text is a short natural beat, not a spoken word. Pronunciation: Canberra is CAN-bruh. Speak only the narration below:
+
+Remember the man from our very first scene?
+
+Gough Whitlam was dismissed by the Governor-General.
+
+Whatever you think of that decision, a month later, there was an election.
+
+And the voters delivered their verdict: a landslide win for Malcolm Fraser.
+
+The final word didn’t belong to the Governor-General, or to Murdoch, or to anyone in Canberra.
+
+It belonged to the ballot box.

@@ -1,0 +1,10 @@
+===== S45 (ATLAS) =====
+Generate a downloadable MP3 voiceover in Grok Atlas voice, Australian English accent, natural documentary narration, warm, human and conversational, not robotic. Do not read stage directions or this instruction. Do not say the words pause, soft or slow. Read quotes plainly and neutrally, never as an impression. Delivery for this segment: friendly, direct, then upbeat. A blank line in the text is a short natural beat, not a spoken word. Speak only the narration below:
+
+So who do you think holds the most power in Australia today?
+
+The media, the money, the parties, or the voters?
+
+Tell me in the comments.
+
+And if you want to know how Australia went from a prison colony to one of the world’s richest democracies, our full history of Australia is right here.

@@ -1,0 +1,10 @@
+===== S09 (ATLAS) =====
+Generate a downloadable MP3 voiceover in Grok Atlas voice, Australian English accent, natural documentary narration, warm, human and conversational, not robotic. Do not read stage directions or this instruction. Do not say the words pause, soft or slow. Read quotes plainly and neutrally, never as an impression. Delivery for this segment: impressed, then careful, balanced. A blank line in the text is a short natural beat, not a spoken word. Pronunciation: years are said as calendar years, for example 1975 is nineteen seventy-five and 2013 is twenty thirteen, never two thousand and. Speak only the narration below:
+
+It got five hundred and one thousand, eight hundred and seventy-six signatures.
+
+The biggest electronic petition in the history of Australia’s Parliament.
+
+Former Liberal Prime Minister Malcolm Turnbull backed the petition, and has argued the Murdoch press helped bring him down in 2018.
+
+News Corp has always rejected claims like these.

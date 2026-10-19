@@ -1,0 +1,10 @@
+===== S10 (ATLAS) =====
+Generate a downloadable MP3 voiceover in Grok Atlas voice, Australian English accent, natural documentary narration, warm, human and conversational, not robotic. Do not read stage directions or this instruction. Do not say the words pause, soft or slow. Read quotes plainly and neutrally, never as an impression. Delivery for this segment: record scratch energy, then analytical. A blank line in the text is a short natural beat, not a spoken word. Pronunciation: years are said as calendar years, for example 1975 is nineteen seventy-five and 2013 is twenty thirteen, never two thousand and. Speak only the narration below:
+
+So, case closed?
+
+Not so fast.
+
+In 2022, and again in 2025, Labor won federal elections despite heavy criticism from parts of the Murdoch press.
+
+In 2025, the Opposition Leader even lost his own seat.

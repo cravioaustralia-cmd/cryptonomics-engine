@@ -1,0 +1,16 @@
+===== S03 (ATLAS) =====
+Generate a downloadable MP3 voiceover in Grok Atlas voice, Australian English accent, natural documentary narration, warm, human and conversational, not robotic. Do not read stage directions or this instruction. Do not say the words pause, soft or slow. Read quotes plainly and neutrally, never as an impression. Delivery for this segment: low, ominous, then curious, direct to viewer, then energised, promise. A blank line in the text is a short natural beat, not a spoken word. Speak only the narration below:
+
+And for decades, the most feared figure in Australian politics wasn’t even an Australian citizen.
+
+So who really decides who runs this country?
+
+Media barons?
+
+Billionaires?
+
+Backroom factions?
+
+Today, we line up the suspects one by one.
+
+And stay to the end, because the real kingmaker is someone almost nobody talks about.
