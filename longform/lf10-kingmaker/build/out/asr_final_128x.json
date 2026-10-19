@@ -1,0 +1,196 @@
+{
+ "speed": 1.28,
+ "words": 2043,
+ "word_diffs": 6,
+ "segs": {
+  "S01": {
+   "text": "on the 11th of november 1975 the prime minister of australia went to a meeting at government house he walked out no longer prime minister he hadn't lost an election he hadn't lost a vote in his own party he was dismissed by a man the australian people never voted for",
+   "diffs": []
+  },
+  "S02": {
+   "text": "Between 2010 and 2018, four sitting prime ministers were pushed out, not by voters, by their own colleagues. In 2013, a man was elected to the Senate when his party won about half of 1% of the vote.",
+   "diffs": []
+  },
+  "S03": {
+   "text": "And for decades, the most feared figure in Australian politics wasn't even an Australian citizen. So who really decides who runs this country? Media barons? Billionaires? Backroom factions? Today, we line up the suspects one by one, and stay to the end, because the real kingmaker is someone almost nobody talks about.",
+   "diffs": []
+  },
+  "S04": {
+   "text": "Ask most Australians who the kingmaker is, and you'll hear one name first, Rupert Murdoch. He inherited a single newspaper in Adelaide in the 1950s and turned it into a global empire. Newspapers, television, and eventually Fox News in America.",
+   "diffs": []
+  },
+  "S05": {
+   "text": "In Australia, his company became the country's largest media organisation, with papers in nearly every major city. And here's the first twist. In 1985, Murdoch became an American citizen because U.S. law didn't allow foreigners to own American TV stations. So for decades, the most feared player in Australian politics wasn't technically Australian.",
+   "diffs": []
+  },
+  "S06": {
+   "text": "His power first showed in 1972. His national paper, The Australian, backed Labour's Gough Whitlam and the famous It's Time campaign. Whitlam won. Three years later, Murdoch turned. During the 1975 election, his papers campaigned so hard against Whitlam that 75 of his own journalists wrote to him in protest.",
+   "diffs": [
+    "replace: 'labors' -> 'labours'"
+   ]
+  },
+  "S07": {
+   "text": "And on the 8th of December, 1975, they did something no Australian journalists had done before. They went on strike over their own paper's coverage. Murdoch had a different view. He later argued it was the journalists who were showing bias, and that his editors were simply cutting it out.",
+   "diffs": []
+  },
+  "S08": {
+   "text": "Ever since, prime ministers have known one thing. You don't want the Murdoch papers against you. In 2020, former Prime Minister Kevin Rudd called Murdoch's empire a cancer on Australian democracy and launched a petition for a royal commission.",
+   "diffs": []
+  },
+  "S09": {
+   "text": "It got 501,876 signatures, the biggest electronic petition in the history of Australia's parliament. Former Liberal Prime Minister Malcolm Turnbull backed the petition and has argued the Murdoch press helped bring him down in 2018. News Corp has always rejected claims like these.",
+   "diffs": []
+  },
+  "S10": {
+   "text": "So, case closed? Not so fast. In 2022, and again in 2025, Labor won federal elections despite heavy criticism from parts of the Murdoch press. In 2025, the opposition leader even lost his own seat.",
+   "diffs": []
+  },
+  "S11": {
+   "text": "Murdoch is now in his nineties. He stepped down as chairman in 2023. And in 2025, a bitter family battle ended with his son Lachlan in control of the empire until 2050. The press baron was once a kingmaker. The real question is whether newspapers still have that power, when so many young Australians now get their news from their phones.",
+   "diffs": []
+  },
+  "S12": {
+   "text": "If Murdoch owned the morning paper, another man owned the evening. Kerry Packer, owner of Channel 9, the man who turned cricket upside down with World Series cricket, and for years one of the richest people in Australia.",
+   "diffs": []
+  },
+  "S13": {
+   "text": "Packer didn't need to write editorials. He had something better. Access. In 1991, a parliamentary committee on the print media called him in to answer questions about media ownership and his business affairs.",
+   "diffs": []
+  },
+  "S14": {
+   "text": "He didn't flinch. He told the MPs, in effect, that anyone who didn't minimise their tax within the law needed their head read, and that the government wasn't exactly spending its money wisely anyway. Politicians from both sides would recall that moment for years, a billionaire lecturing parliament, and parliament mostly sitting there and taking it.",
+   "diffs": []
+  },
+  "S15": {
+   "text": "Packer died in 2005. His story shows something important. A kingmaker doesn't always choose the king. Sometimes he just makes sure every king knows who's in the room.",
+   "diffs": []
+  },
+  "S16": {
+   "text": "Australia digs things up and sells them to the world. Iron ore, coal, gas. In May 2010, Kevin Rudd's government announced a new tax on mining super profits.",
+   "diffs": []
+  },
+  "S17": {
+   "text": "The industry hit back with one of the biggest campaigns ever run against a single government policy. In about six weeks, mining interests spent around 22 million dollars. In Perth, thousands rallied against the tax. On the back of a truck stood one of the richest people in the country, Gina Rinehart. Beside her, fellow billionaire Andrew Forrest.",
+   "diffs": []
+  },
+  "S18": {
+   "text": "On the 24th of June 2010, about seven weeks after the tax was announced, Kevin Rudd was no longer prime minister. Now, to be fair, Rudd fell for many reasons. Falling polls, a shelved climate policy, colleagues who found him hard to work with. The mining campaign didn't remove him on its own. But it showed what happens when big money and a government collide.",
+   "diffs": []
+  },
+  "S19": {
+   "text": "His successor, Julia Gillard, quickly negotiated a much weaker tax with the biggest miners, it raised far less than expected, and it was scrapped in 2014. And then there's Clive Palmer, mining billionaire, dinosaur park owner, and the biggest political spender Australia has ever seen.",
+   "diffs": []
+  },
+  "S20": {
+   "text": "In 2019, his United Australia Party declared about $89 million in spending, seats won zero. In 2022, about $123 million, seats won one in the Senate. In 2025, his new party, Trumpet of Patriots, spent about $53 million, seats won zero.",
+   "diffs": [
+    "insert: '' -> 'dollars'",
+    "insert: '' -> 'dollars'"
+   ]
+  },
+  "S21": {
+   "text": "Meanwhile, One Nation spent about $3 million in 2025 and won three Senate seats. Palmer has argued his ads helped stop labor in 2019. Maybe they did, but if money alone could buy power, Clive Palmer would be prime minister by now.",
+   "diffs": []
+  },
+  "S22": {
+   "text": "Remember the four prime ministers from the start? Taken down in eight years, not by voters, by their own side.",
+   "diffs": []
+  },
+  "S23": {
+   "text": "Here's how. In Australia, you don't directly elect the prime minister. You vote for your local MP. The party with the most seats forms government, and the party room picks its leader, which means the leader can be replaced by a vote of their own colleagues at any time.",
+   "diffs": []
+  },
+  "S24": {
+   "text": "When Rudd was toppled in 2010, a small group of powerful factional organisers was credited with gathering the numbers overnight. The press gave them a name that stuck, the Faceless Men.",
+   "diffs": []
+  },
+  "S25": {
+   "text": "Factions are the hidden machinery inside both major parties. They help decide who gets picked to run in safe seats, which means they often decide who becomes an MP before a single vote is cast.",
+   "diffs": []
+  },
+  "S26": {
+   "text": "And behind Labor's factions sit the unions. In 2007, the union movement's Your Rights at Work campaign helped sweep John Howard from power. Howard even lost his own seat. Rudd in 2010, Gillard in 2013, Abbott in 2015, Turnbull in 2018.",
+   "diffs": []
+  },
+  "S27": {
+   "text": "After all that chaos, both major parties changed their rules to make it much harder to knife a sitting leader. So the Faceless Men really were kingmakers. But they were kingmakers who kept hurting themselves. Every spill made voters angrier, and the revolving door became a national joke.",
+   "diffs": []
+  },
+  "S28": {
+   "text": "Now, our second mystery. How does someone get into the Senate when their party wins about half of 1% of the vote?",
+   "diffs": []
+  },
+  "S29": {
+   "text": "Australia uses preferential voting. If your first choice can't win, your vote flows to your next choice, and so on. For years, Senate voters could tick just one box, and their preferences would flow according to deals the parties had made behind the scenes.",
+   "diffs": []
+  },
+  "S30": {
+   "text": "A political strategist named Glenn Druery became famous for organising these deals among dozens of micro parties. Each tiny party swapped preferences with the others, so the votes snowballed until one of them crossed the line.",
+   "diffs": []
+  },
+  "S31": {
+   "text": "In 2013, Ricky Muir from the Australian Motoring Enthusiast Party was elected to the Senate for Victoria. His party's primary vote? About half of one percent. Supporters said the system was working as designed. Critics said voters had no idea where their votes were going.",
+   "diffs": []
+  },
+  "S32": {
+   "text": "Parliament sided with the critics. In 2016, it changed the Senate voting rules so voters control their own preferences. But it proved something. In Australia, the kingmaker isn't always the person with the most votes. Sometimes, it's the person who understands the rules best.",
+   "diffs": []
+  },
+  "S33": {
+   "text": "In 2022, something happened the old kingmakers never saw coming. Independent candidates, many of them professional women campaigning on climate and integrity, won seats the Liberal Party had held for generations. Kooyong, Wentworth, McKellar. They became known as the Teals.",
+   "diffs": [
+    "replace: 'mackellar' -> 'mckellar'"
+   ]
+  },
+  "S34": {
+   "text": "Behind many of them was Climate 200, a fundraising group founded by businessman Simon Holmes-Acourt. It raised money from thousands of donors and shared it among independent candidates.",
+   "diffs": [
+    "replace: '\u00e0 court' -> 'acourt'"
+   ]
+  },
+  "S35": {
+   "text": "Supporters say Climate 200 gave community candidates a fair shot against party machines. Critics say it works like a party in all but name, using big money to pick winners while claiming to be independent.",
+   "diffs": []
+  },
+  "S36": {
+   "text": "And notice the pattern. Every generation, a new force learns to bend the system. Newspapers, television, mining money, factions, preference deals, now crowdfunded independents.",
+   "diffs": []
+  },
+  "S37": {
+   "text": "And right now the rules of the game are changing again. On the 1st of July 2026, the biggest changes to Australia's electoral law in 40 years began to come into force. And from the 1st of January 2027, for the first time, there will be national caps on political donations and on election spending. Political parties will be able to spend up to 90 million dollars nationally. Outside groups like unions or Climate 200 will have a cap of 11 million.",
+   "diffs": []
+  },
+  "S38": {
+   "text": "The government says it's about stopping big money from buying elections, but some independents call it a major party stitch-up, arguing the caps protect parties that already have huge war chests. Whoever is right, one thing is clear, the next election will be fought under rules no billionaire has ever played by.",
+   "diffs": []
+  },
+  "S39": {
+   "text": "Here's the thing almost nobody talks about. Since 1924, voting in Australian federal elections has been compulsory. Turn up or pay a fine. That's why around 9 in 10 enrolled Australians vote, far more than in countries like the United States or the United Kingdom.",
+   "diffs": []
+  },
+  "S40": {
+   "text": "Think about what that means. In most democracies, elections are won by firing up your loyal supporters and getting them to show up. In Australia, almost everyone shows up, including the people who barely follow politics at all.",
+   "diffs": []
+  },
+  "S41": {
+   "text": "The busy parent who decides on the walk into the polling booth, the voter in a marginal seat who didn't read the papers, didn't watch the debate, and has never heard of a preference whisperer.",
+   "diffs": []
+  },
+  "S42": {
+   "text": "Every kingmaker in this story has spent their power trying to reach that one person. Murdoch's headlines, Packer's screens, Palmer's billboards, the union's ads, the Teal's volunteers on every street corner. And when that person makes up their mind, billionaires lose, newspaper owners lose, and sometimes even the leader of a major party loses their own seat.",
+   "diffs": []
+  },
+  "S43": {
+   "text": "Remember the man from our very first scene? Gough Whitlam was dismissed by the governor general. Whatever you think of that decision, a month later, there was an election, and the voters delivered their verdict, a landslide win for Malcolm Fraser. The final word didn't belong to the governor general, or to Murdoch, or to anyone in Canberra. It belonged to the ballot box.",
+   "diffs": []
+  },
+  "S44": {
+   "text": "The kingmakers are real. They shape what you see, what you hear, and who ends up on your ballot. But in Australia, every one of them has to answer to the same person in the end, the one holding the pencil.",
+   "diffs": []
+  },
+  "S45": {
+   "text": "So who do you think holds the most power in Australia today? The media, the money, the parties, or the voters? Tell me in the comments. And if you want to know how Australia went from a prison colony to one of the world's richest democracies, our full history of Australia is right here.",
+   "diffs": []
+  }
+ }
+}
