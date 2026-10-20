@@ -29,16 +29,18 @@ Last line is intentionally unresolved; hard cut back to "Sydney and Melbourne ea
 - Curious, lightly wry, warm.
 - Canberra sits on Ngunnawal and Ngambri Country. Don't caption early shots as "empty land" or "built from nothing".
 - Don't claim "Canberra" means "meeting place" (disputed).
+- On-screen text must not put a hard "1964" date on the Lake Menzies naming push unless you have a source for it. The VO line stays as recorded. Dating the lake filling or opening to 1964 on screen is fine (planned level reached 29 April 1964; opened 17 October 1964).
 
 ## VO
-PLACEHOLDER: Atlas VO will be seated at `audio/vo.mp3` (Abhishek records separately from `vo/atlas_read.txt`). Do not render final until it lands. Do not re-record. Captions use the script's spelling.
+Seated at `audio/vo.mp3` (Atlas, raw, 55.42 s). Read from `vo/atlas_read.txt`. Do not re-record. Claude owns pacing and mix.
+Captions use the script's spelling (Tumut, Bombala, Yass–Queanbeyan, Walter Burley Griffin, Marion Mahony Griffin, Menzies, Constitution, Parliament), not any auto-transcript spelling.
 
 ## Map coordinates (approximate) and distance from Sydney
 - Sydney -33.869, 151.209 · Melbourne -37.814, 144.963 · Canberra -35.281, 149.130 (~247 km)
 - Albury -36.074, 146.914 (~462 km) · Tumut -35.300, 148.224 (~316 km) · Bombala -36.912, 149.239 (~383 km)
 - Yass -34.841, 148.910 (~237 km) · Queanbeyan -35.353, 149.232 (~245 km)
 - 100-mile ring: radius 160.9 km centred on Sydney. Every candidate site is outside it.
-- Kinetic text suggestion from the script: `NSW… BUT 100 MILES (160 KM) FROM SYDNEY` → `137 ENTRIES` → `LAKE MENZIES? NO.`
+- Kinetic text suggestion from the script: `NSW… BUT 100 MILES (160 KM) FROM SYDNEY` → `137 ENTRIES` → `LAKE MENZIES? NO.` (no date on that card)
 
 ## Assets (credits and description attribution lines in SOURCES.md, images/SOURCES.md; facts in script.md)
 - images/: 34 Commons files:
